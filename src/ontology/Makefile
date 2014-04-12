@@ -21,8 +21,11 @@ doid.obo: doid-edit.owl
 # ----------------------------------------
 all_imports: imports/go_import.owl imports/pato_import.owl
 
-imports/%_import.owl: doid-edit.owl
-	owltools $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
+mirror/%.owl:
+	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --make-subset-by-properties -f // --set-ontology-id $(OBO)/$*.owl -o $@
+
+imports/%_import.owl: doid-edit.owl mirror/%.owl
+	owltools $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
 
 # ----------------------------------------
 # Diffs
@@ -46,6 +49,7 @@ test.ofn: $(LEGACY)
 
 test2.ofn: test.ofn
 	grep -v 'oboInOwl\#id' $< > $@
+
 
 
 

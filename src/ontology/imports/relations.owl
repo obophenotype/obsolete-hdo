@@ -1,0 +1,5 @@
+Prefix: obo: <http://purl.obolibrary.org/obo/>
+Ontology: <http://purl.obolibrary.org/obo/doid/imports/relations.owl>
+
+ObjectProperty: obo:IDO_0000664
+  Annotations: rdfs:label "has_material_basis_in"
