@@ -11,10 +11,12 @@ initial-build: doid.obo
 build: doid.obo minidiff
 release: doid.obo diff
 
+all: doid.obo
+
 # all release files are derived from the editors version.
 # we use the default Oort setup (hermit as reasoner)
 doid.obo: doid-edit.owl
-	ontology-release-runner $< --allow-overwrite --asserted --simple
+	ontology-release-runner --catalog-xml catalog-v001.xml $< --allow-overwrite --asserted --simple
 
 # ----------------------------------------
 # Imports
