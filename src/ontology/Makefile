@@ -25,9 +25,10 @@ all_imports: imports/go_import.owl imports/pato_import.owl
 
 mirror/%.owl:
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --make-subset-by-properties -f // --set-ontology-id $(OBO)/$*.owl -o $@
+.PRECIOUS: mirror/%.owl
 
 imports/%_import.owl: doid-edit.owl mirror/%.owl
-	owltools $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
+	owltools --use-catalog --map-ontology-iri $(OBO)/doid/imports/$*_import.owl mirror/$*.owl $<   --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
 
 # ----------------------------------------
 # Diffs

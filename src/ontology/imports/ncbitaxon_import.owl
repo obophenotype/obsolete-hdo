@@ -28,6 +28,60 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337687"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus &lt;mouse, genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_862507"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10114">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10114"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10128">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apodemus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
@@ -312,6 +366,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10519">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human adenovirus 7</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_565302"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1056966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1056966">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aedini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43817"/>
     </owl:Class>
     
 
@@ -1009,6 +1072,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_117570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117570">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teleostomi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7776"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_117571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117571">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euteleostomi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117570"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_117573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117573">
@@ -1086,6 +1167,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119093">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichuridae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6329"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_119225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119225">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protomacleaya</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_190765"/>
     </owl:Class>
     
 
@@ -1198,6 +1288,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_121221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_121221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediculidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_121222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_121222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediculus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_121221"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_121224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_121224">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediculus humanus corporis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_121225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_121225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_121225">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediculus humanus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_121222"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_121739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_121739">
@@ -1306,6 +1432,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1262365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1262365">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tabanoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43735"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_126331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_126331">
@@ -1365,6 +1500,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_128827">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erysipelotrichaceae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_526525"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_129369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_129369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulicoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140693"/>
     </owl:Class>
     
 
@@ -1432,6 +1576,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phlebotomus &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7198"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_13373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13373">
@@ -1446,6 +1599,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_134362">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capnodiales</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451867"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_134742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_134742">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigmodon alstoni</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42414"/>
     </owl:Class>
     
 
@@ -1473,6 +1635,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_137">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirochaetaceae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_136"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_137207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_137207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligoryzomys longicaudatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29120"/>
     </owl:Class>
     
 
@@ -1554,6 +1725,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1392">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacillus anthracis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86661"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_140564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140564">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornithodoros parkeri</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6937"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_140693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140693">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulicomorpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7509"/>
     </owl:Class>
     
 
@@ -1671,6 +1860,51 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_155616">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tremellomycetes</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5302"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_157540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_157540">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygodontomys</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40141"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_157541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_157541">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygodontomys brevicauda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_157540"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_162997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_162997">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culex annulirostris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_163158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_163158">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenopsylla</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_476427"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_163159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_163159">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenopsylla cheopis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_163158"/>
     </owl:Class>
     
 
@@ -1945,6 +2179,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_181088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_181088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemaphysalis flava</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34622"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1817 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1817">
@@ -2058,6 +2301,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186826">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactobacillales</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91061"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_190765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_190765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ochlerotatus &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1056966"/>
     </owl:Class>
     
 
@@ -2377,11 +2629,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_27458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27458">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chrysops</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59848"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_279271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_279271">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptotrombidium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_92251"/>
     </owl:Class>
     
 
@@ -2454,6 +2724,42 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28568">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichocomaceae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5042"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phlebotomus papatasi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44556"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calomys</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40141"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligoryzomys</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40141"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oryzomys</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40141"/>
     </owl:Class>
     
 
@@ -2548,11 +2854,65 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29930">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ixodes pacificus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6944"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_299467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_299467">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptotrombidium deliense</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_279271"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_30005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anoplura</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85819"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_30639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30639">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mastomys</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_310911 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_310911">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amdovirus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40119"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314146">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euarchontoglires</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9347"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glires</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
     </owl:Class>
     
 
@@ -2611,6 +2971,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32523">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrapoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8287"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32524">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amniota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32523"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32525">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theria &lt;Mammalia&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_327045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_327045">
@@ -2634,6 +3021,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3290">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypodiopsida</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_241806"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_329110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_329110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coquillettidia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53550"/>
     </owl:Class>
     
 
@@ -2719,6 +3115,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33342">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33340"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_333774 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_333774">
@@ -2737,6 +3142,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33511">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deuterostomia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33213"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sciurognathi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9989"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33630">
@@ -2751,6 +3174,33 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33743">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyasanur forest disease virus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29263"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337677">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cricetidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337687"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337687">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muroidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33553"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337963">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neotominae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337677"/>
     </owl:Class>
     
 
@@ -2863,6 +3313,96 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34607">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomma cajennense</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34608">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomma hebraeum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34609">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomma maculatum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34610">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomma variegatum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34613">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ixodes ricinus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6944"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34619">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dermacentor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426437"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dermacentor andersoni</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34619"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34621">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dermacentor variabilis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34619"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34622">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemaphysalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426439"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34625">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyalomma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426438"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_34630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34630">
@@ -2877,6 +3417,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34632">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhipicephalus sanguineus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_578835"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_352061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_352061">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornithodorinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6936"/>
     </owl:Class>
     
 
@@ -3070,6 +3619,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oryzomys palustris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29122"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_37162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37162">
@@ -3151,11 +3709,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apodemus agrarius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10128"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39054">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human enterovirus 71</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_138948"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39087">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arvicolinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337677"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10066"/>
     </owl:Class>
     
 
@@ -3196,11 +3781,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_400053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_400053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sylvaemus group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10128"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_40119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40119">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parvovirinae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10780"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigmodontinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337677"/>
     </owl:Class>
     
 
@@ -3223,11 +3826,65 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_41283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41283">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chrysosporium parvum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40411"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41819">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratopogonidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41828"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41820">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicoides &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_58262"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41827">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41828">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chironomoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43786"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41831">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychodoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43787"/>
     </owl:Class>
     
 
@@ -3250,10 +3907,82 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_42407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42407">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neotoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337963"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_42408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42408">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neotoma albigula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_42414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42414">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigmodon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40141"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_42415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42415">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigmodon hispidus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42414"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_426437 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_426437">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhipicephalinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6939"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_426438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_426438">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyalomminae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6939"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_426439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_426439">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemaphysalinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6939"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_426441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_426441">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomminae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6939"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_426442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_426442">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ixodinae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6939"/>
     </owl:Class>
     
@@ -3304,6 +4033,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43735">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tabanomorpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7203"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_43738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43738">
@@ -3327,6 +4065,60 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43750">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sciomyzoidea</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43741"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43786">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicimorpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7148"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43787">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychodomorpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7148"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43801">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratopogoninae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41819"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43816">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anophelinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7157"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43817">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7157"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43920 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43920">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chrysopsinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7205"/>
     </owl:Class>
     
 
@@ -3367,11 +4159,65 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44534">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellia &lt;subgenus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44537">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyretophorus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44534"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44542">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gambiae species complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44537"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44556">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phlebotomus &lt;subgenus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13203"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_446 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_446">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legionella pneumophila</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_445"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_447134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_447134">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myodes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39087"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_447135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_447135">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myodes glareolus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_447134"/>
     </owl:Class>
     
 
@@ -3529,6 +4375,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_476427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_476427">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenopsyllinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7511"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_480117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_480117">
@@ -3606,6 +4461,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_489714">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsporum gypseum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_63402"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_49202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_49202">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dermacentor marginatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34619"/>
     </owl:Class>
     
 
@@ -3736,6 +4600,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_523089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_523089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemaphysalis concinna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34622"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_523103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_523103">
@@ -3795,6 +4668,51 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5302">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agaricomycotina</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5204"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_53527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53527">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culex &lt;subgenus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7174"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_53549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53549">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sabethini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43817"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_53550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53550">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43817"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_53551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53551">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sabethes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_54292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_54292">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apodemus flavicollis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_400053"/>
     </owl:Class>
     
 
@@ -3952,6 +4870,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_56210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calomys callosus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29105"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_56211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56211">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calomys laucha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29105"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_56212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56212">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calomys musculinus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29105"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_56426 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56426">
@@ -4051,6 +4996,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_58262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_58262">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicoidini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43801"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_58839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_58839">
@@ -4060,11 +5014,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59140">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myzomyia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44534"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59142">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">funestus group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59140"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5970">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exophiala dermatitidis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5583"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59848">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chrysopsini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43920"/>
     </owl:Class>
     
 
@@ -4240,6 +5221,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_62323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_62323">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">funestus subgroup</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_62324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_62324">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anopheles funestus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_62323"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_624">
@@ -4411,6 +5410,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_65647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_65647">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ixodes holocyclus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6944"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_66225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_66225">
@@ -4501,6 +5509,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6936">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argasidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_297308"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6937">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornithodoros</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_352061"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_693762 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_693762">
@@ -4555,6 +5581,60 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6942">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426441"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6943">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amblyomma americanum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6944">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ixodes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426442"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6945">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ixodes scapularis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6944"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6946">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acariformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6933"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6947">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prostigmata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83136"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_69474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_69474">
@@ -4569,6 +5649,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6960">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hexapoda</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197562"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_69826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_69826">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornithodoros savignyi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6937"/>
     </owl:Class>
     
 
@@ -4600,11 +5689,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7148">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematocera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_715340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_715340">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleosporineae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_92860"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7157">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culicidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41827"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7158">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aedes &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1056966"/>
     </owl:Class>
     
 
@@ -4627,6 +5743,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7162">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ochlerotatus triseriatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_119225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anopheles &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43816"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anopheles gambiae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44542"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_716545 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_716545">
@@ -4645,11 +5788,65 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7174">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culex &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53550"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7178">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culex tritaeniorhynchus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemagogus &lt;genus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1056966"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7197">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychodidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41831"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7198">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phlebotominae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7197"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7203">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachycera</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tabanidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1262365"/>
     </owl:Class>
     
 
@@ -4744,6 +5941,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7509">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siphonaptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33392"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7511">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulicidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_129369"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_75739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75739">
@@ -4780,6 +5995,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7711">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chordata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_772">
@@ -4803,6 +6027,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_774">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartonella bacilliformis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_773"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;Metazoa&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89593"/>
     </owl:Class>
     
 
@@ -4839,6 +6072,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_777">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coxiella burnetii</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_776"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7776">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnathostomata &lt;vertebrate&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
     </owl:Class>
     
 
@@ -4996,6 +6238,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarcopterygii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117571"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83136">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trombidiformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6946"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83138">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anystina</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6947"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parasitengona</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83138"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_85003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85003">
@@ -5050,11 +6328,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85819">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phthiraptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33342"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_86056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_86056">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinocladiella mackenziei</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5587"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_862507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_862507">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus &lt;mouse, subgenus&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10088"/>
     </owl:Class>
     
 
@@ -5073,6 +6369,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_88770">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panarthropoda</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1206794"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_89593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89593">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Craniata &lt;chordata&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7711"/>
     </owl:Class>
     
 
@@ -5131,11 +6436,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_92088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trombiculoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83141"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_92251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92251">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trombiculidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_92088"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_92860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92860">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleosporales</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451868"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9347">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eutheria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32525"/>
     </owl:Class>
     
 
@@ -5181,6 +6513,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_951">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neorickettsia sennetsu</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33993"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9989">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodentia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314147"/>
     </owl:Class>
 </rdf:RDF>
 
