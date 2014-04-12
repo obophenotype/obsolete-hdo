@@ -14,9 +14,9 @@ release: doid.obo diff
 all: doid.obo
 
 # all release files are derived from the editors version.
-# we use the default Oort setup (hermit as reasoner)
+# we use the default Oort setup
 doid.obo: doid-edit.owl
-	ontology-release-runner --catalog-xml catalog-v001.xml $< --allow-overwrite --asserted --simple
+	ontology-release-runner --catalog-xml catalog-v001.xml $< --allow-overwrite --asserted --simple && mv doid-simple.obo doid.obo
 
 # ----------------------------------------
 # Imports
