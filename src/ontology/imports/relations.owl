@@ -9,3 +9,6 @@ ObjectProperty: obo:RO_0002451
 
 ObjectProperty: obo:RO_0002200
   Annotations: rdfs:label "has phenotype"
+
+ObjectProperty: obo:RO_0001025
+  Annotations: rdfs:label "located in"
