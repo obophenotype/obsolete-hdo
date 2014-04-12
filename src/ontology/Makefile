@@ -23,12 +23,24 @@ doid.obo: doid-edit.owl
 # ----------------------------------------
 all_imports: imports/go_import.owl imports/pato_import.owl
 
+KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of
+
 mirror/%.owl:
-	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --make-subset-by-properties -f // --set-ontology-id $(OBO)/$*.owl -o $@
+	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/$*.owl -o $@
 .PRECIOUS: mirror/%.owl
 
-imports/%_import.owl: doid-edit.owl mirror/%.owl
-	owltools --use-catalog --map-ontology-iri $(OBO)/doid/imports/$*_import.owl mirror/$*.owl $<   --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
+#imports/%_import.owl: seed.owl mirror/%.owl
+#	owltools --use-catalog --map-ontology-iri $(OBO)/doid/imports/$*_import.owl mirror/$*.owl $<   --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
+
+
+imports/%_import.owl: seed.owl mirror/%.owl
+	owltools --use-catalog $< mirror/$*.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
+
+#seed.owl: doid-edit.owl
+#	cp $< $@
+seed.owl: doid-edit.owl
+	owltools --use-catalog $< disease-miner/all-do-bridge.obo --merge-support-ontologies  --remove-imports-declarations -o $@
+
 
 # ----------------------------------------
 # Diffs

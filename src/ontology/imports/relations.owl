@@ -6,3 +6,6 @@ ObjectProperty: obo:IDO_0000664
 
 ObjectProperty: obo:RO_0002451
   Annotations: rdfs:label "transmitted by"
+
+ObjectProperty: obo:RO_0002200
+  Annotations: rdfs:label "has phenotype"
