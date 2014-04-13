@@ -4,6 +4,9 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/hp_import.owl" uri="imports/hp_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/cl_import.owl" uri="imports/cl_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/ncit_import.owl" uri="imports/ncit_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/relations.owl" uri="imports/relations.owl"/>
+
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge.owl" uri="bridge/ncit_bridge.owl"/>
 </catalog>
