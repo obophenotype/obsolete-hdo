@@ -88,11 +88,23 @@ bridge/omim_bridge_init.owl: doid-edit.owl
 bridge/mesh_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p MSH -m MSH $(OBO)/MESH_ --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ctd_import.owl -o $@
 
-bridge/%_bridge.owl: bridge/%_bridge_init.owl
-	owljs-decluster -m bridge/$*_report.md -o $@ $<  >& $@.log
+bridge/ctd_omim_mesh_bridge_init.owl: imports/ctd_import.owl
+	owltools --use-catalog $< --translate-xrefs-to-equivs -a -n -p OMIM -m OMIM $(OBO)/OMIM_ --set-ontology-id $(OBO)/doid/$@ -o $@
+##	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p MESH -m MSH $(OBO)/MESH_ --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ctd_import.owl -o $@
 
-bridge/%.obo: bridge/%.owl
-	owltools $< --remove-imports-declarations -o -f obo $@
+bridge/%_bridge.owl: bridge/%_bridge_init.owl
+	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
+
+bridge/%_bridge.obo: bridge/%_bridge.owl
+	owltools --use-catalog $< --remove-imports-declarations -o -f obo $@
+
+bridge/%_merged.obo: bridge/%_bridge.owl
+	owltools --use-catalog $< --merge-imports-closure -o -f obo $@
+
+bridge/all.obo: bridge/all.owl
+	owltools --use-catalog $< --merge-imports-closure -o -f obo --no-check $@
+
+
 
 ## TODO - convert to java/js
 #bridge/omim-doid-equiv.tbl: imports/omim_import.obo
@@ -123,7 +135,7 @@ minidiff: doid.obo
 
 LEGACY=../../../diseaseontology/HumanDO.obo 
 test.ofn: $(LEGACY)
-	owltools $<  --make-subset-by-properties // --set-ontology-id $(OBO).doid.owl -o -f ofn $@
+	owltools $<  --make-subset-by-properties // --set-ontology-id $(OBO)/doid.owl -o -f ofn $@
 
 test2.ofn: test.ofn
 	grep -v 'oboInOwl\#id' $< > $@
