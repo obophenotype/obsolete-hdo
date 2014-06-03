@@ -50,7 +50,10 @@ mirror/ctd.owl: mirror/CTD_diseases.obo
 	owltools $< -o $@
 
 imports/%_import.owl: seed.owl mirror/%.owl
-	owltools --use-catalog $< mirror/$*.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/imports/$@ -o $@
+	owltools --use-catalog $< mirror/$*.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/$@ -o $@
+
+imports/orphanet_import.owl: seed.owl orphanet/orphanet-orig.owl
+	owltools --use-catalog $< orphanet/orphanet-orig.owl --merge-support-ontologies --extract-module -s http://www.orpha.net/ontology/orphanet.owl -c --extract-mingraph --set-ontology-id $(OBO)/doid/imports/orphanet_import.owl -o $@
 
 imports/ncit_import.owl: mirror/Thesaurus.owl
 	owltools $<  --run-reasoner -r elk --assert-implied --reasoner-query -d -l 'Disease or Disorder' --make-ontology-from-results $(OBO)/doid/imports/ncit_import.owl -o $@
@@ -100,7 +103,7 @@ orphanet_ontology: orphanet/orphanet-orig.owl
 # The Orphanet "orphanet-disease.owl" file is manually created by opening the
 # "orphanet-orig.owl" in Protege, deleting the gene subtree, and then saving
 # as "orphanet-disease.owl"
-bridge/orphanet_disease_omim_bridge_init.owl: orphanet/orphanet-disease.owl
+bridge/orphanet_disease_omim_bridge_init.owl: orphanet/orphanet-orig.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM \
 	--set-ontology-id $(OBO)/doid/$@ -o $@
 
