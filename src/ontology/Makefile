@@ -93,6 +93,23 @@ bridge/ctd_omim_mesh_bridge_init.owl: imports/ctd_import.owl
 ##	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p MESH -m MSH $(OBO)/MESH_ --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ctd_import.owl -o $@
 
 ## TODO: Orphanet
+orphanet_bridges: bridge/orphanet_disease_omim_bridge.owl
+
+orphanet_ontology: orphanet/orphanet-orig.owl
+
+# The Orphanet "orphanet-disease.owl" file is manually created by opening the
+# "orphanet-orig.owl" in Protege, deleting the gene subtree, and then saving
+# as "orphanet-disease.owl"
+bridge/orphanet_disease_omim_bridge_init.owl: orphanet/orphanet-disease.owl
+	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM \
+	--set-ontology-id $(OBO)/doid/$@ -o $@
+
+orphanet/orphanet-orig.owl:
+	wget -nd -P orphanet http://www.orphadata.org/data/ORDO/ordo_orphanet_1.2.owl.zip
+	unzip  orphanet/ordo_orphanet_1.2.owl.zip -d orphanet && rm orphanet/ordo_orphanet_*.zip
+	mv orphanet/orphadata1.2.owl orphanet/orphanet-orig.owl
+	rm orphanet/ontology_version_* >/dev/null 2>&1 || true
+	touch orphanet/ontology_verion_1.2
 
 bridge/%_bridge.owl: bridge/%_bridge_init.owl
 	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
