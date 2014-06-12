@@ -62,7 +62,7 @@ imports/ctd_import.owl: mirror/ctd.owl
 	owltools $<  --set-ontology-id $(OBO)/doid/$@ -o $@
 
 imports/omim_import.owl:
-	owltools $(OBO)/upheno/data/disorders.owl -o $@
+	owltools $(OBO)/upheno/data/disorders.owl --set-ontology-id $(OBO)/doid/$@ -o $@
 
 #seed.owl: doid-edit.owl
 #	cp $< $@
@@ -113,6 +113,10 @@ orphanet/orphanet-orig.owl:
 	mv orphanet/orphadata1.2.owl orphanet/orphanet-orig.owl
 	rm orphanet/ontology_version_* >/dev/null 2>&1 || true
 	touch orphanet/ontology_verion_1.2
+
+orphanet/orphanet-relsim.owl: orphanet/orphanet-orig.owl
+	owltools $< --make-subset-by-properties  part_of --add-obo-shorthand-to-properties -o $@
+
 
 bridge/%_bridge.owl: bridge/%_bridge_init.owl
 	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
