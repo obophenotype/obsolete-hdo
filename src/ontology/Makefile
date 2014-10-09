@@ -52,7 +52,7 @@ mirror/ctd.owl: mirror/CTD_diseases.obo
 imports/%_import.owl: seed.owl mirror/%.owl
 	owltools --use-catalog $< mirror/$*.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/$@ -o $@
 
-imports/orphanet_import.owl: seed.owl orphanet/orphanet-orig.owl
+imports/orphanet_import.owl: seed.owl orphanet/ordo-slim.owl
 	owltools --use-catalog $< orphanet/orphanet-orig.owl --merge-support-ontologies --extract-module -s http://www.orpha.net/ontology/orphanet.owl -c --extract-mingraph --set-ontology-id $(OBO)/doid/imports/orphanet_import.owl -o $@
 
 imports/ncit_import.owl: mirror/Thesaurus.owl
@@ -114,9 +114,12 @@ orphanet/orphanet-orig.owl:
 	rm orphanet/ontology_version_* >/dev/null 2>&1 || true
 	touch orphanet/ontology_verion_1.2
 
-orphanet/orphanet-relsim.owl: orphanet/orphanet-orig.owl
-	owltools $< --make-subset-by-properties  part_of --add-obo-shorthand-to-properties -o $@
+# preserve only 'disease' and 'group of disorders' hierarchies, plus links between them
+orphanet/ordo-slim-1.owl: orphanet/orphanet-orig.owl
+	owltools $<  --add-obo-shorthand-to-properties --make-subset-by-properties  part_of --reasoner-query -l 'group of disorders' --reasoner-query -l disease --make-ontology-from-results $(OBO)/doid/ordo-slim.owl  -o $@
 
+orphanet/ordo-slim.owl: orphanet/ordo-slim-1.owl
+	owljs-dlmatch -o $@ -r 'function(m){return owl.subClassOf(m.x, m.y)}' 'q.subClassOfMatch("?x",q.objectSomeValuesFromMatch("?r","?y"))'  $< 
 
 bridge/%_bridge.owl: bridge/%_bridge_init.owl
 	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
@@ -142,6 +145,11 @@ bridge/all.obo: bridge/all.owl
 #bridge/omim-doid-m2m.tbl: imports/omim_import.obo
 #	blip-findall -i $< -i doid.obo "many_to_many_xref(D,X,'OMIM')" -no_pred -select X-D -label > $@
 
+# ----------------------------------------
+# Subsets
+# ----------------------------------------
+doid-mingraph.obo: doid.owl
+	owltools --use-catalog $< --extract-mingraph -o -f obo $@
 
 # ----------------------------------------
 # Diffs
