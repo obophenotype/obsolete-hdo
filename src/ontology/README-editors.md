@@ -178,5 +178,30 @@ any of the following:
  * violation of obo-format (e.g. two labels for a class; two text
    definitions; etc)
 
+CONTINUOUS INTEGRATION
+----------------------
 
+See:
+http://build.berkeleybop.org/job/build-doid/
 
+This is triggered on commits to doid-edit.owl
+
+RELEASE MANAGEMENT
+------------------
+
+The official purls for DO are
+
+ * http://purl.obolibrary.org/obo/doid.owl
+ * http://purl.obolibrary.org/obo/doid.obo
+
+These currently redirect to the central OBO library build
+
+Currently (Oct 2014) the central OBO library build is built from the sourceforge version of DO
+(http://sourceforge.net/p/diseaseontology/code/HEAD/tree/trunk/HumanDO.obo?format=raw)
+
+This will soon be deprecated, and the central obo build will be made
+from the version in this repository.
+
+TODO: decide between either continuous release (build is made from
+doid-edit) or whether doid has a release management process (e.g. doid
+editor runs "make release")
