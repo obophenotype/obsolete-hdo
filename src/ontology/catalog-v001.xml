@@ -1,6 +1,7 @@
 
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid.owl" uri="doid-edit.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/ext.owl" uri="ext.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/hp_import.owl" uri="imports/hp_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/cl_import.owl" uri="imports/cl_import.owl"/>
