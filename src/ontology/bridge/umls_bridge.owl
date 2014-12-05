@@ -2042,6 +2042,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0006826 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0006826">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0006840 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0006840">
@@ -2341,7 +2349,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0007194 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0007194">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11984"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11984"/>
     </owl:Class>
     
 
@@ -2765,7 +2773,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0008297 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0008297">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_9574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9574"/>
     </owl:Class>
     
 
@@ -3166,6 +3174,14 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0009250">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5364"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0009319 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0009319">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0060180"/>
     </owl:Class>
     
 
@@ -3637,7 +3653,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0010474 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0010474">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1724"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1724"/>
     </owl:Class>
     
 
@@ -4378,6 +4394,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0013295 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0013295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1724"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0013298 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0013298">
@@ -4640,9 +4664,9 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0014009 -->
+    <!-- http://linkedlifedata.com/resource/umls/id/C0014013 -->
 
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0014009">
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0014013">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3798"/>
     </owl:Class>
     
@@ -5995,7 +6019,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0017668 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0017668">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3945"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1312"/>
     </owl:Class>
     
 
@@ -6372,6 +6396,14 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0018609">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1060"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0018671 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0018671">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11934"/>
     </owl:Class>
     
 
@@ -6915,7 +6947,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0019621 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0019621">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_2571"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2571"/>
     </owl:Class>
     
 
@@ -8112,6 +8144,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0022680 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0022680">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_898"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0022716 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0022716">
@@ -8467,7 +8507,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0023381 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0023381">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_2554"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2571"/>
     </owl:Class>
     
 
@@ -8944,9 +8984,9 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0024110 -->
+    <!-- http://linkedlifedata.com/resource/umls/id/C0024115 -->
 
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0024110">
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0024115">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
     </owl:Class>
     
@@ -9427,7 +9467,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0025149 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0025149">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3858"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050902"/>
     </owl:Class>
     
 
@@ -10326,14 +10366,6 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0027639 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0027639">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C0027654 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0027654">
@@ -11166,26 +11198,10 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0029495 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0029495">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_7166"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C0029513 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0029513">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5119"/>
-    </owl:Class>
-    
-
-
-    <!-- http://linkedlifedata.com/resource/umls/id/C0029514 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0029514">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
     </owl:Class>
     
 
@@ -11210,14 +11226,6 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0029534">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_2478"/>
-    </owl:Class>
-    
-
-
-    <!-- http://linkedlifedata.com/resource/umls/id/C0029570 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0029570">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_654"/>
     </owl:Class>
     
 
@@ -12441,7 +12449,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0032229 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0032229">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5158"/>
     </owl:Class>
     
 
@@ -12860,6 +12868,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0033860 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0033860">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0033936 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0033936">
@@ -12964,14 +12980,6 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0034076 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0034076">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_14265"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C0034084 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0034084">
@@ -12984,6 +12992,14 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0034087">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5749"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0034088 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0034088">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_14265"/>
     </owl:Class>
     
 
@@ -14930,6 +14946,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0040147 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0040147">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_7166"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0040149 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0040149">
@@ -14983,6 +15007,12 @@
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0040213">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_14021"/>
     </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0040249 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0040249"/>
     
 
 
@@ -17994,14 +18024,6 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0152485 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0152485">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_100"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C0152507 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0152507">
@@ -18443,6 +18465,12 @@
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0153246">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_13369"/>
     </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0153249 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0153249"/>
     
 
 
@@ -19201,7 +19229,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0153494 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0153494">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_9917"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5158"/>
     </owl:Class>
     
 
@@ -22852,14 +22880,6 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0155570 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0155570">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_62"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C0155579 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0155579">
@@ -23727,7 +23747,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0156344 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0156344">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11432"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11432"/>
     </owl:Class>
     
 
@@ -24498,10 +24518,10 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0162510 -->
+    <!-- http://linkedlifedata.com/resource/umls/id/C0162529 -->
 
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0162510">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_898"/>
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0162529">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0060181"/>
     </owl:Class>
     
 
@@ -24894,6 +24914,14 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0175999">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_12123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0178238 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0178238">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_100"/>
     </owl:Class>
     
 
@@ -25541,7 +25569,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0206663 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0206663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_168"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050902"/>
     </owl:Class>
     
 
@@ -26109,7 +26137,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0220723 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0220723">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_14713"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9574"/>
     </owl:Class>
     
 
@@ -26762,6 +26790,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0238067 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0238067">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0060183"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0238103 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0238103">
@@ -27170,14 +27206,6 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C0242287 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0242287">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_963"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C0242342 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0242342">
@@ -27197,7 +27225,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0242363 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0242363">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1799"/>
     </owl:Class>
     
 
@@ -27461,7 +27489,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0262963 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0262963">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4717"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4717"/>
     </owl:Class>
     
 
@@ -31096,6 +31124,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C0334579 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0334579">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3078"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C0334580 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0334580">
@@ -33779,7 +33815,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0403425 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0403425">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1312"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1312"/>
     </owl:Class>
     
 
@@ -34283,7 +34319,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0496784 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0496784">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_10165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1799"/>
     </owl:Class>
     
 
@@ -34514,6 +34550,14 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0524988">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4371"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C0525045 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0525045">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3324"/>
     </owl:Class>
     
 
@@ -36239,7 +36283,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0796547 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0796547">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4392"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3369"/>
     </owl:Class>
     
 
@@ -36791,7 +36835,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0863029 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0863029">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4980"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3369"/>
     </owl:Class>
     
 
@@ -37247,7 +37291,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C0949658 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C0949658">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11984"/>
     </owl:Class>
     
 
@@ -37548,6 +37592,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C1142447 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1142447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3428"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C1148546 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1148546">
@@ -37588,10 +37640,34 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C1168401 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1168401">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5520"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C1175175 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1175175">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_2945"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C1176475 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1176475">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C1257763 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1257763">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_654"/>
     </owl:Class>
     
 
@@ -37704,6 +37780,14 @@
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1260425">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11132"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C1260873 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1260873">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_62"/>
     </owl:Class>
     
 
@@ -42551,7 +42635,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C1334150 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334150">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3428"/>
     </owl:Class>
     
 
@@ -43031,7 +43115,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C1334406 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334406">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_6392"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3368"/>
     </owl:Class>
     
 
@@ -43039,7 +43123,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C1334408 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334408">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4391"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3369"/>
     </owl:Class>
     
 
@@ -43047,7 +43131,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C1334410 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334410">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_168"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050902"/>
     </owl:Class>
     
 
@@ -43295,7 +43379,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C1334581 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334581">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5839"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4717"/>
     </owl:Class>
     
 
@@ -43996,6 +44080,14 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C1334927 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334927">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1542"/>
+    </owl:Class>
+    
+
+
     <!-- http://linkedlifedata.com/resource/umls/id/C1334931 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1334931">
@@ -44303,7 +44395,7 @@
     <!-- http://linkedlifedata.com/resource/umls/id/C1335160 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1335160">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11426"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11432"/>
     </owl:Class>
     
 
@@ -47164,14 +47256,6 @@
     
 
 
-    <!-- http://linkedlifedata.com/resource/umls/id/C1456307 -->
-
-    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1456307">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3324"/>
-    </owl:Class>
-    
-
-
     <!-- http://linkedlifedata.com/resource/umls/id/C1457897 -->
 
     <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1457897">
@@ -49940,6 +50024,20 @@
     
 
 
+    <!-- http://linkedlifedata.com/resource/umls/id/C1720189 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C1720189">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_963"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedlifedata.com/resource/umls/id/C2980104 -->
+
+    <owl:Class rdf:about="http://linkedlifedata.com/resource/umls/id/C2980104"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0000000"/>
@@ -49998,9 +50096,7 @@
 
     <!-- http://purl.obolibrary.org/obo/DOID_0050133 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050133">
-        <rdfs:subClassOf rdf:resource="http://linkedlifedata.com/resource/umls/id/C0031898"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050133"/>
     
 
 
@@ -50130,6 +50226,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050902"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0060013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060013"/>
@@ -50157,6 +50259,24 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0060123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060123"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060180"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060181"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060183"/>
     
 
 
@@ -50535,12 +50655,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_10159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10159"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_10165 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10165"/>
     
 
 
@@ -53462,12 +53576,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_11426 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11426"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_11427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11427"/>
@@ -54548,6 +54656,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_11934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11934"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_11949 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11949"/>
@@ -54605,12 +54719,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_11984 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11984"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_11986 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11986"/>
     
 
 
@@ -56088,9 +56196,7 @@
 
     <!-- http://purl.obolibrary.org/obo/DOID_12711 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12711">
-        <rdfs:subClassOf rdf:resource="http://linkedlifedata.com/resource/umls/id/C0031898"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12711"/>
     
 
 
@@ -58456,9 +58562,7 @@
 
     <!-- http://purl.obolibrary.org/obo/DOID_13902 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13902">
-        <rdfs:subClassOf rdf:resource="http://linkedlifedata.com/resource/umls/id/C0031898"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13902"/>
     
 
 
@@ -60088,12 +60192,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_14713 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14713"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_14717 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14717"/>
@@ -60451,6 +60549,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_1540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1540"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1542"/>
     
 
 
@@ -60829,12 +60933,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_1679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1679"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_168 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_168"/>
     
 
 
@@ -63186,12 +63284,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_2554 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2554"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_2555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2555"/>
@@ -64590,6 +64682,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_3007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3007"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_3008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3008"/>
@@ -64779,6 +64877,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3076"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3078"/>
     
 
 
@@ -67436,12 +67540,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_3858 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3858"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_3860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3860"/>
@@ -67679,12 +67777,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3939"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3945 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3945"/>
     
 
 
@@ -69197,18 +69289,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_439"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_4391 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4391"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_4392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4392"/>
     
 
 
@@ -71216,12 +71296,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_4980 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4980"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_4985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4985"/>
@@ -73064,6 +73138,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_5520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5520"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_5521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5521"/>
@@ -74327,12 +74407,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_5838 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5838"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5839 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5839"/>
     
 
 
@@ -75701,12 +75775,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_639"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_6392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6392"/>
     
 
 
@@ -83707,12 +83775,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_9912 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9912"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_9917 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9917"/>
     
 
 

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge_init.owl#"
-     xml:base="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge_init.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge_init.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/ncit_import.owl"/>
     </owl:Ontology>
@@ -20,6 +20,29 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C102872 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C102872">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34447"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9466"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C116794 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C116794">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0050678"/>
+    </owl:Class>
     
 
 
@@ -1463,9 +1486,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27031 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27031">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1799"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27031"/>
     
 
 
@@ -2050,9 +2071,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27293 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27293">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4232"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27293"/>
     
 
 
@@ -2482,9 +2501,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27471 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27471">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4389"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27471"/>
     
 
 
@@ -3221,14 +3238,40 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27901 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27901"/>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27901">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3369"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27902 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27902">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27903"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7542"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27903 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27903">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4391"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3369"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27294"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27901"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9341"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4463,6 +4506,14 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3077 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3077">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11934"/>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3079 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3079">
@@ -4474,7 +4525,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3080 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_6000"/>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_6000"/>
     </owl:Class>
     
 
@@ -4834,7 +4885,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3160 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3160">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_2554"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2571"/>
     </owl:Class>
     
 
@@ -5074,7 +5125,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3222 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3222">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3858"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050902"/>
     </owl:Class>
     
 
@@ -5442,7 +5493,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3332 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3332">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5158"/>
     </owl:Class>
     
 
@@ -6383,6 +6434,12 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34447 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34447"/>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34448 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34448">
@@ -6394,7 +6451,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34449 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34449">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11984"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11984"/>
     </owl:Class>
     
 
@@ -9433,6 +9490,14 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35329 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35329">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0060189"/>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35330 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35330">
@@ -9804,7 +9869,15 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3547 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3547">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_9917"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5158"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3332"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3576"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -10118,6 +10191,21 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35691">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_452"/>
     </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35693 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35693">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C102872"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35692"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -10454,6 +10542,12 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35830">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_7088"/>
     </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35850 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35850"/>
     
 
 
@@ -11210,7 +11304,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37308 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37308">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3945"/>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1312"/>
     </owl:Class>
     
 
@@ -11883,6 +11977,14 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38504 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38504">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0060182"/>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3856 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3856">
@@ -12130,7 +12232,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3918 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3918">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4717"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4717"/>
     </owl:Class>
     
 
@@ -12973,9 +13075,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3997 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3997">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3869"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3997"/>
     
 
 
@@ -14603,6 +14703,21 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4042 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4042">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3490"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42690"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40439 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40439">
@@ -15575,6 +15690,21 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4268">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5758"/>
     </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42690 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42690">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34447"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9315"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -16944,6 +17074,14 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4705 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4705">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_0050471"/>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4713 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4713">
@@ -17231,9 +17369,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4835 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4835">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3368"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4835"/>
     
 
 
@@ -17647,14 +17783,6 @@
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50575">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_987"/>
-    </owl:Class>
-    
-
-
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50577 -->
-
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50577">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_6000"/>
     </owl:Class>
     
 
@@ -19108,8 +19236,38 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5398 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5398">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_168"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050902"/>
     </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5399 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5399">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3222"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3814"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5400 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5400">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3814"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5398"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -20711,9 +20869,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5961 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5961">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3870"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5961"/>
     
 
 
@@ -20944,6 +21100,12 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6074">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_10813"/>
     </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6077 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6077"/>
     
 
 
@@ -22905,9 +23067,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6623 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6623">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_6392"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6623"/>
     
 
 
@@ -23598,6 +23758,21 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6857">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_8255"/>
     </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68611 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68611">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34447"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54293"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -24441,7 +24616,9 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7137 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7137"/>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7137">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3663"/>
+    </owl:Class>
     
 
 
@@ -25876,7 +26053,17 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7806 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7806"/>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3369"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27901"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4817"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -27103,7 +27290,9 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84269 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84269"/>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84269">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_350"/>
+    </owl:Class>
     
 
 
@@ -28342,7 +28531,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84773 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84773">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_11986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11984"/>
     </owl:Class>
     
 
@@ -29727,6 +29916,21 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8704 -->
+
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8704">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7865"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9350"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C87069 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C87069">
@@ -29881,9 +30085,7 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8776 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8776">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_4388"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8776"/>
     
 
 
@@ -29906,7 +30108,15 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8881 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8881">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_5839"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4717"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3918"/>
+                    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4925"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -30687,7 +30897,9 @@
 
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9295 -->
 
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9295"/>
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9295">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3664"/>
+    </owl:Class>
     
 
 
@@ -30936,7 +31148,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9350 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9350">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_1788"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1788"/>
     </owl:Class>
     
 
@@ -31165,6 +31377,14 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9477 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9477">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/DOID_3078"/>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9493 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9493">
@@ -31237,6 +31457,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050471 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050471"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0050597 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050597"/>
@@ -31261,6 +31487,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050678 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050678"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0050685 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050685"/>
@@ -31282,6 +31514,18 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0060123 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0060123"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060182 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0060182"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060189 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0060189"/>
     
 
 
@@ -31492,14 +31736,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_10159 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10159"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_10165 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10165">
-        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3770"/>
-    </rdf:Description>
     
 
 
@@ -33275,6 +33511,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_11934 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_11934"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_11949 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_11949"/>
@@ -33308,18 +33550,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_11983 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_11983"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_11984 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_11984"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_11986 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_11986"/>
     
 
 
@@ -34208,6 +34438,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_13117 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_13117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1312 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1312"/>
     
 
 
@@ -35951,12 +36187,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_168 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_168"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1681 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1681"/>
@@ -36161,12 +36391,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_1788 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1788"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1789 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1789"/>
@@ -36206,20 +36430,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_1796 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1796"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1798 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1798">
-        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3770"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1799 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1799"/>
     
 
 
@@ -37437,12 +37647,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_2554 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2554"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_2555 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2555"/>
@@ -38633,6 +38837,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_3078 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3078"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_3079 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3079"/>
@@ -39379,12 +39589,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_3368 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3368"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_337 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_337"/>
@@ -39714,6 +39918,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3499 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3499"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_350 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_350"/>
     
 
 
@@ -40080,6 +40290,18 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3659 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3659"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3663 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3663"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3664 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3664"/>
     
 
 
@@ -40557,12 +40779,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_3858 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3858"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_3860 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3860"/>
@@ -40590,18 +40806,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3868 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3868"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3869 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3869"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3870 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3870"/>
     
 
 
@@ -40734,12 +40938,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3939 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3939"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3945 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3945"/>
     
 
 
@@ -41367,12 +41565,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_4232 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4232"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_4233 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4233"/>
@@ -41724,24 +41916,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_4385 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4385"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_4388 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4388"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_4389 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4389"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_4391 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4391"/>
     
 
 
@@ -42616,12 +42790,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_4716 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4716"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_4717 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4717"/>
     
 
 
@@ -43786,12 +43954,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_5157 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5157"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5158 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5158"/>
     
 
 
@@ -45883,12 +46045,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_5839 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5839"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_5842 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5842"/>
@@ -46258,6 +46414,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_600 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_600"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6000 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_6000"/>
     
 
 
@@ -47116,12 +47278,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_639 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_639"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_6392 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_6392"/>
     
 
 
@@ -52840,12 +52996,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_9905 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9905"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_9917 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9917"/>
     
 
 
