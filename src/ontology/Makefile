@@ -171,10 +171,13 @@ doid-mingraph.obo: doid.owl
 # Reports
 # ----------------------------------------
 reports/doid-%.csv: doid-merged.owl sparql/%.sparql
-	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@
+	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
 
 reports/omim-%.csv: bridge/omim_merged.owl sparql/%.sparql
-	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@
+	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
+
+reports/umls-%.csv: bridge/umls_merged.owl sparql/%.sparql
+	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
 
 # ----------------------------------------
 # Diffs
