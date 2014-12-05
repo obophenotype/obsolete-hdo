@@ -17,7 +17,7 @@ initial-build: doid.obo
 build: doid.obo minidiff
 release: doid.obo diff
 
-all: doid.obo all_reports
+all: doid.obo
 release: all all_imports all_bridges
 
 # all release files are derived from the editors version.
