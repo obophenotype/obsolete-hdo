@@ -21,6 +21,13 @@ release: all all_imports all_bridges
 doid.obo: doid-edit.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml $< --allow-overwrite --asserted --simple && mv doid-simple.obo doid.obo
 
+# TEMPORARY!!!
+doid-edit.owl:
+	owltools $(HOME)/repos/diseaseontology/HumanDO.obo --add-imports-declarations $(OBO)/doid/ext.owl -o -f ofn $@
+
+ext.owl:
+	./util/grep-ext-axioms.pl doid-edit-experimental.owl > $@
+
 # ----------------------------------------
 # Imports
 # ----------------------------------------
