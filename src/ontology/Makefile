@@ -1,7 +1,11 @@
 
 # This Makefile is for use by the doid Release Manager.
 #
-# requirements: Oort (http://code.google.com/p/owltools/wiki/OortIntro)
+# requirements: 
+#   - OWLTools (http://code.google.com/p/owltools/)
+#   - Oort (http://code.google.com/p/owltools/wiki/OortIntro)
+#   - owljs (advanced operations only)
+#   - apache-jena arq (for generating reports)
 #
 # To make a release, type 'make release' in this directory
 #
@@ -19,14 +23,18 @@ release: all all_imports all_bridges
 # all release files are derived from the editors version.
 # we use the default Oort setup
 doid.obo: doid-edit.owl
-	ontology-release-runner --catalog-xml catalog-v001.xml $< --allow-overwrite --asserted --simple && mv doid-simple.obo doid.obo
+	ontology-release-runner --catalog-xml catalog-v001.xml $< --skip-format owx --allow-overwrite --asserted --simple && mv doid-simple.obo doid.obo
+doid.owl: doid.obo
 
-# TEMPORARY!!!
+# axiom from imported ontology (ext) merged in
+doid-merged.owl: doid.owl
+	owltools --use-catalog $< --merge-imports-closure -o $@
+doid-merged.obo: doid-merged.owl
+	owltools $< -o -f obo $@
+
+# TEMPORARY!!! Sync with SVN. Once github is primary, this will be removed
 doid-edit.owl:
 	owltools $(HOME)/repos/diseaseontology/HumanDO.obo --add-imports-declarations $(OBO)/doid/ext.owl -o -f ofn $@
-
-ext.owl:
-	./util/grep-ext-axioms.pl doid-edit-experimental.owl > $@
 
 # ----------------------------------------
 # Imports
@@ -80,11 +88,10 @@ seed.owl: doid-edit.owl
 imports/%.obo: imports/%.owl
 	owltools $< -o -f obo $@
 
-
 # ----------------------------------------
 # Bridge
 # ----------------------------------------
-all_bridges: bridge/ncit_bridge.owl bridge/omim_bridge.owl
+all_bridges: bridge/ncit_bridge.owl bridge/omim_bridge.owl bridge/mesh_bridge.owl
 
 bridge/ncit_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p NCI -m NCI 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#' --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ncit_import.owl -o $@
@@ -129,13 +136,15 @@ orphanet/ordo-slim.owl: orphanet/ordo-slim-1.owl
 	owljs-dlmatch -o $@ -r 'function(m){return owl.subClassOf(m.x, m.y)}' 'q.subClassOfMatch("?x",q.objectSomeValuesFromMatch("?r","?y"))'  $< 
 
 bridge/%_bridge.owl: bridge/%_bridge_init.owl
-	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
+	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools --use-catalog $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
 
 bridge/%_bridge.obo: bridge/%_bridge.owl
 	owltools --use-catalog $< --remove-imports-declarations -o -f obo $@
 
 bridge/%_merged.obo: bridge/%_bridge.owl
 	owltools --use-catalog $< --merge-imports-closure -o -f obo $@
+bridge/%_merged.owl: bridge/%_bridge.owl
+	owltools --use-catalog $< --merge-imports-closure -o $@
 
 bridge/all.obo: bridge/all.owl
 	owltools --use-catalog $< --merge-imports-closure -o -f obo --no-check $@
@@ -157,6 +166,15 @@ bridge/all.obo: bridge/all.owl
 # ----------------------------------------
 doid-mingraph.obo: doid.owl
 	owltools --use-catalog $< --extract-mingraph -o -f obo $@
+
+# ----------------------------------------
+# Reports
+# ----------------------------------------
+reports/doid-%.csv: doid-merged.owl sparql/%.sparql
+	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@
+
+reports/omim-%.csv: bridge/omim_merged.owl sparql/%.sparql
+	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@
 
 # ----------------------------------------
 # Diffs
