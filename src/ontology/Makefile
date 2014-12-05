@@ -17,7 +17,7 @@ initial-build: doid.obo
 build: doid.obo minidiff
 release: doid.obo diff
 
-all: doid.obo
+all: doid.obo all_reports
 release: all all_imports all_bridges
 
 # all release files are derived from the editors version.
@@ -170,6 +170,8 @@ doid-mingraph.obo: doid.owl
 # ----------------------------------------
 # Reports
 # ----------------------------------------
+all_reports: reports/doid-basicReport.csv reports/doid-subClasses.csv reports/doid-xrefs.csv reports/omim-equivalentClasses.csv reports/omim-subClassesExt.csv reports/omim-unmapped.csv reports/umls-equivalentClasses.csv
+
 reports/doid-%.csv: doid-merged.owl sparql/%.sparql
 	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
 
