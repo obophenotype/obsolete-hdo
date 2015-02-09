@@ -70,12 +70,15 @@ imports/%_import.owl: seed.owl mirror/%.owl
 imports/orphanet_import.owl: seed.owl orphanet/ordo-slim.owl
 	owltools --use-catalog $< orphanet/orphanet-orig.owl --merge-support-ontologies --extract-module -s http://www.orpha.net/ontology/orphanet.owl -c --extract-mingraph --set-ontology-id $(OBO)/doid/imports/orphanet_import.owl -o $@
 
+# NCIT import is mirror of ALL of DISEASE SUBSET of NCI
 imports/ncit_import.owl: mirror/Thesaurus.owl
 	owltools $<  --run-reasoner -r elk --assert-implied --reasoner-query -d -l 'Disease or Disorder' --make-ontology-from-results $(OBO)/doid/imports/ncit_import.owl -o $@
 
+# CTD import is mirror of ALL of CTD
 imports/ctd_import.owl: mirror/ctd.owl
 	owltools $<  --set-ontology-id $(OBO)/doid/$@ -o $@
 
+# Pull from Monarch disco2ttl build
 imports/omim_import.owl:
 	owltools $(OBO)/upheno/data/disorders.owl --set-ontology-id $(OBO)/doid/$@ -o $@
 
@@ -91,23 +94,46 @@ imports/%.obo: imports/%.owl
 # ----------------------------------------
 # Bridge
 # ----------------------------------------
-all_bridges: bridge/ncit_bridge.owl bridge/omim_bridge.owl bridge/mesh_bridge.owl
+# Pipeline:
+#  * We first create files of the form xxx_bridge_init.owl, directly from xrefs. xrefs become EquivClass axioms
+#  * We then run decluster on these axioms (xxx_bridge_init.owl --> xxx_bridge.owl)
+#     * xrefs remain as equivalent, unless not 1:1, in which case SubClassOf is used
+BRIDGEONTS = ncit omim mesh ctd_omim_mesh
+BRIDGE_OWL = $(patsubst %, bridge/%_bridge.owl, $(BRIDGEONTS))
 
+#all_bridges: bridge/ncit_bridge.owl bridge/omim_bridge.owl bridge/mesh_bridge.owl
+all_bridges: $(BRIDGE_OWL)
+all_bridges_obo: $(patsubst %, bridge/%_bridge.obo, $(BRIDGEONTS))
+all_bridges_html: $(patsubst %, bridge/%_report.html, $(BRIDGEONTS))
+
+# DO maintains links to NCIt via xrefs of the form NCI:...
 bridge/ncit_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p NCI -m NCI 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#' --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ncit_import.owl -o $@
 
+# DO maintains links to UMLS via xrefs of the form UMLS_CUI:...
 bridge/umls_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p UMLS_CUI -m UMLS_CUI 'http://linkedlifedata.com/resource/umls/id/' --set-ontology-id $(OBO)/doid/$@ -o $@
 
+# use DO-curated links to OMIM
 bridge/omim_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/omim_import.owl -o $@
 
+# DO maintains links to Mesh via xrefs of the form MSH:{D,C}nnnnn
 bridge/mesh_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p MSH -m MSH $(OBO)/MESH_ --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ctd_import.owl -o $@
 
+# MESH<->OMIM, derived from CTD
+#  note this is just the translation of the xrefs, e.g. MESH_nnnn EquivTo OMIM_nnnn
+#  in some cases CTD will place OMIM as subclasses of MESH classes - these will not be included here
+#  (see 
 bridge/ctd_omim_mesh_bridge_init.owl: imports/ctd_import.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -a -n -p OMIM -m OMIM $(OBO)/OMIM_ --set-ontology-id $(OBO)/doid/$@ -o $@
 ##	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p MESH -m MSH $(OBO)/MESH_ --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ctd_import.owl -o $@
+
+bridge/mega_bridge_init.owl: $(BRIDGE_OWL)
+	owltools --use-catalog $^ --merge-support-ontologies --set-ontology-id $(OBO)/doid/$@ -o $@
+
+
 
 ## TODO: Orphanet
 orphanet_bridges: bridge/orphanet_disease_omim_bridge.owl
@@ -135,11 +161,17 @@ orphanet/ordo-slim-1.owl: orphanet/orphanet-orig.owl
 orphanet/ordo-slim.owl: orphanet/ordo-slim-1.owl
 	owljs-dlmatch -o $@ -r 'function(m){return owl.subClassOf(m.x, m.y)}' 'q.subClassOfMatch("?x",q.objectSomeValuesFromMatch("?r","?y"))'  $< 
 
+# translate _init.owl use decluster step
 bridge/%_bridge.owl: bridge/%_bridge_init.owl
-	owljs-decluster -m bridge/$*_report.md -o $@.tmp $<  >& $@.log && owltools --use-catalog $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@
+	owljs-decluster -m bridge/$*_report.md.tmp -o $@.tmp $<  >& $@.log && owltools --use-catalog $@.tmp --set-ontology-id $(OBO)/doid/$@ -o $@ && mv bridge/$*_report.md.tmp bridge/$*_report.md
 
 bridge/%_bridge.obo: bridge/%_bridge.owl
-	owltools --use-catalog $< --remove-imports-declarations -o -f obo $@
+	owltools --use-catalog $< --remove-imports-declarations -o -f obo $@ 
+
+bridge/%_report.md: bridge/%_bridge.owl
+
+bridge/%_report.html: bridge/%_report.md
+	pandoc $< -o $@
 
 bridge/%_merged.obo: bridge/%_bridge.owl
 	owltools --use-catalog $< --merge-imports-closure -o -f obo $@
@@ -162,10 +194,17 @@ bridge/all.obo: bridge/all.owl
 #	blip-findall -i $< -i doid.obo "many_to_many_xref(D,X,'OMIM')" -no_pred -select X-D -label > $@
 
 # ----------------------------------------
+# Class-merges
+# ----------------------------------------
+%-ecmerged.owl: %.owl
+	owltools --use-catalog $< --merge-imports-closure --use-reasoner elk --merge-equivalence-sets -s OMIM 10 -s ORPHANET 9 -s DOID 8 -s MESH 3 -l DOID 10 -l OMIM 1 -o $@ >& $@.log
+.PRECIOUS: %-ecmerged.owl
+
+# ----------------------------------------
 # Subsets
 # ----------------------------------------
 doid-mingraph.obo: doid.owl
-	owltools --use-catalog $< --extract-mingraph -o -f obo $@
+	owltools --use-catalog $< --extract-mingraph -o -f obo $@ && ./util/remove-obo-axioms-tag.pl $@
 
 # ----------------------------------------
 # Reports

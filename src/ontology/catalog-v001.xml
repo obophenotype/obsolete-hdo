@@ -11,11 +11,14 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/omim_import.owl" uri="imports/omim_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/ctd_import.owl" uri="imports/ctd_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/orphanet_import.owl" uri="imports/orphanet_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/mesh_import.owl" uri="imports/mesh_import.owl"/>
 
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/relations.owl" uri="imports/relations.owl"/>
 
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/ncit_bridge.owl" uri="bridge/ncit_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/mesh_bridge.owl" uri="bridge/mesh_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/omim_bridge.owl" uri="bridge/omim_bridge.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/ctd_omim_mesh_bridge.owl" uri="bridge/ctd_omim_mesh_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/orphanet_disease_omim_bridge.owl" uri="bridge/orphanet_disease_omim_bridge.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/mega_bridge.owl" uri="bridge/mega_bridge.owl"/>
 </catalog>

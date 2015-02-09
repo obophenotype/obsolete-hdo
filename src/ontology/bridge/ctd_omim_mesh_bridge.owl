@@ -536,12 +536,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C535431 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C535431"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C535434 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C535434">
@@ -2218,14 +2212,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C536138 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536138">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_249210"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C536141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536141">
@@ -2582,14 +2568,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536271">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_608649"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C536273 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536273">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_610765"/>
     </owl:Class>
     
 
@@ -3188,14 +3166,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C536507 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536507">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_187600"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C536508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536508">
@@ -3208,6 +3178,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536510">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_249270"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C536512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536512">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_610460"/>
     </owl:Class>
     
 
@@ -3439,6 +3417,14 @@
     <!-- http://purl.obolibrary.org/obo/MESH_C536611 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536611"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C536612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536612">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_125630"/>
+    </owl:Class>
     
 
 
@@ -3922,14 +3908,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536842">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_133100"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C536850 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C536850">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_175780"/>
     </owl:Class>
     
 
@@ -5838,14 +5816,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C537602 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C537602">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_263510"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C537607 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C537607">
@@ -6176,14 +6146,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C537777">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_262850"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C537783 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C537783">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_610380"/>
     </owl:Class>
     
 
@@ -6678,22 +6640,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C538008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538008">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_160900"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C538009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538009">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_602668"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C538012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538012"/>
@@ -6752,14 +6698,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538068">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_229800"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C538080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538080">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_142340"/>
     </owl:Class>
     
 
@@ -7143,12 +7081,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538263">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_607941"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C538266 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538266"/>
     
 
 
@@ -7571,12 +7503,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C538659">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_176200"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C541083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C541083"/>
     
 
 
@@ -10536,6 +10462,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_C563871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C563871">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_608716"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MESH_C563873 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C563873">
@@ -11228,6 +11162,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C564246">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_608394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C564247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C564247">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_608393"/>
     </owl:Class>
     
 
@@ -13816,6 +13758,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_C565384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565384">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_251200"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MESH_C565386 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565386">
@@ -14320,6 +14270,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_C565746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565746">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_604804"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MESH_C565747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565747">
@@ -14460,6 +14418,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565790">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_604326"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C565792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565792">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_604321"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C565794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C565794">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_604317"/>
     </owl:Class>
     
 
@@ -15076,6 +15050,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C566369">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_194380"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C566381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C566381">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_603387"/>
     </owl:Class>
     
 
@@ -16080,6 +16062,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_C566844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C566844">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_187600"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MESH_C566847 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C566847">
@@ -16952,14 +16942,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C567078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567078">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_607154"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C567084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567084">
@@ -17128,14 +17110,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MESH_C567156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567156">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_608967"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MESH_C567159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567159">
@@ -17148,14 +17122,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567166">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_610532"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C567181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567181">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_610168"/>
     </owl:Class>
     
 
@@ -17220,6 +17186,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567197">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_612712"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_C567198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567198">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_612703"/>
     </owl:Class>
     
 
@@ -19248,6 +19222,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_C567749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567749">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_613106"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MESH_C567750 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567750">
@@ -19292,14 +19274,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567758">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_613093"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_C567761 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567761">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_613091"/>
     </owl:Class>
     
 
@@ -19627,7 +19601,7 @@
     <!-- http://purl.obolibrary.org/obo/MESH_C567859 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_C567859">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_612934"/>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_614921"/>
     </owl:Class>
     
 
@@ -19843,14 +19817,6 @@
     <!-- http://purl.obolibrary.org/obo/MESH_D000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D000168"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MESH_D000312 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D000312">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_300200"/>
-    </owl:Class>
     
 
 
@@ -21328,6 +21294,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_D009223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D009223"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MESH_D009224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D009224"/>
@@ -21668,6 +21640,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D011504">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_226300"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_D011535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D011535">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_100100"/>
     </owl:Class>
     
 
@@ -22186,7 +22166,9 @@
 
     <!-- http://purl.obolibrary.org/obo/MESH_D015470 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D015470"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D015470">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_601626"/>
+    </owl:Class>
     
 
 
@@ -23982,6 +23964,56 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_D065626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D065626"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_D065630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D065630">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_142340"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_D065631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D065631">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_607154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_D065635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D065635">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_193007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_D065708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D065708">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OMIM_175780"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MESH_D065766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D065766"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_100100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100100"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIM_100300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_100300"/>
@@ -25073,6 +25105,12 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_125595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_125595"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_125630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_125630"/>
     
 
 
@@ -26684,7 +26722,9 @@
 
     <!-- http://purl.obolibrary.org/obo/OMIM_160900 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_160900"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_160900">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D009223"/>
+    </owl:Class>
     
 
 
@@ -28028,9 +28068,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OMIM_193007 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_193007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C535431"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_193007"/>
     
 
 
@@ -29895,7 +29933,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_235400 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_235400">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C538266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065766"/>
     </owl:Class>
     
 
@@ -30506,12 +30544,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIM_249210 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_249210"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIM_249270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_249270"/>
@@ -30617,6 +30649,12 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_251120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_251120"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_251200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_251200"/>
     
 
 
@@ -31445,12 +31483,6 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_263400 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_263400"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIM_263510 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_263510"/>
     
 
 
@@ -32469,12 +32501,6 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_300194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_300194"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIM_300200 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_300200"/>
     
 
 
@@ -35294,9 +35320,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OMIM_601626 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_601626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D015470"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_601626"/>
     
 
 
@@ -35652,14 +35676,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIM_602439 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_602439">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D015470"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIM_602450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_602450"/>
@@ -35756,7 +35772,9 @@
 
     <!-- http://purl.obolibrary.org/obo/OMIM_602668 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_602668"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_602668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D009223"/>
+    </owl:Class>
     
 
 
@@ -35989,6 +36007,12 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_603386 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_603386"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_603387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_603387"/>
     
 
 
@@ -36390,9 +36414,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIM_604317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_604317"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIM_604320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_604320"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_604321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_604321"/>
     
 
 
@@ -36629,6 +36665,12 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_604802 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_604802"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_604804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_604804"/>
     
 
 
@@ -39120,6 +39162,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIM_608393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_608393"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIM_608394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_608394"/>
@@ -39518,6 +39566,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIM_608716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_608716"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIM_608728 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_608728"/>
@@ -39785,12 +39839,6 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_608957 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_608957"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIM_608967 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_608967"/>
     
 
 
@@ -41030,12 +41078,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIM_610168 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610168"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIM_610170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610170"/>
@@ -41326,12 +41368,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIM_610380 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610380"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIM_610381 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610381"/>
@@ -41413,6 +41449,12 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_610455 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610455"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_610460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610460"/>
     
 
 
@@ -41689,12 +41731,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D003635"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIM_610765 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_610765"/>
     
 
 
@@ -43866,6 +43902,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIM_612703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612703"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIM_612712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612712"/>
@@ -44069,7 +44111,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_612922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612922">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C538266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065766"/>
     </owl:Class>
     
 
@@ -44077,7 +44119,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_612923 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612923">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C538266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065766"/>
     </owl:Class>
     
 
@@ -44085,7 +44127,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_612924 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612924">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C538266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065766"/>
     </owl:Class>
     
 
@@ -44093,7 +44135,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_612925 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612925">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C538266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065766"/>
     </owl:Class>
     
 
@@ -44101,7 +44143,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_612926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612926">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C538266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065766"/>
     </owl:Class>
     
 
@@ -44115,12 +44157,6 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_612933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612933"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIM_612934 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_612934"/>
     
 
 
@@ -44554,12 +44590,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIM_613091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_613091"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIM_613093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_613093"/>
@@ -44612,9 +44642,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OMIM_613106 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_613106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C535431"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_613106"/>
     
 
 
@@ -44919,7 +44947,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_613282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_613282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C541083"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065626"/>
     </owl:Class>
     
 
@@ -45057,7 +45085,7 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_613387 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_613387">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_C541083"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MESH_D065626"/>
     </owl:Class>
     
 
@@ -45505,6 +45533,12 @@
     <!-- http://purl.obolibrary.org/obo/OMIM_614732 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_614732"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIM_614921 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIM_614921"/>
 </rdf:RDF>
 
 

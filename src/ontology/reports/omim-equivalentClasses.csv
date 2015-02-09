@@ -365,8 +365,8 @@ DOID:8924,autoimmune thrombocytopenic purpura,OMIM:188030,"Thrombocytopenic Purp
 DOID:3633,beta-mannosidosis,OMIM:248510,"Mannosidosis, Beta A, Lysosomal"
 DOID:0050647,Arts syndrome,OMIM:301835,Arts Syndrome
 DOID:9261,nasopharynx carcinoma,OMIM:161550,"Nasopharyngeal Carcinoma, Susceptibility To, 2"
-DOID:0050452,mevalonic aciduria,OMIM:610377,Mevalonic Aciduria
 DOID:674,cleft palate,OMIM:119540,"Cleft Palate, Isolated"
+DOID:0050452,mevalonic aciduria,OMIM:610377,Mevalonic Aciduria
 DOID:14764,Larsen syndrome,OMIM:150250,Larsen Syndrome
 DOID:0050574,L-2-hydroxyglutaric aciduria,OMIM:236792,L-2-Hydroxyglutaric Aciduria
 DOID:6691,Aagenaes syndrome,OMIM:214900,Cholestasis-Lymphedema Syndrome
@@ -428,8 +428,8 @@ DOID:4769,pleuropulmonary blastoma,OMIM:601200,Pleuropulmonary Blastoma
 DOID:2582,acatalasia,OMIM:614097,Acatalasemia
 DOID:0050527,familial hypertriglyceridemia,OMIM:145750,"Hypertriglyceridemia, Familial"
 DOID:3263,piebaldism,OMIM:172800,Piebald Trait
-DOID:11983,Prader-Willi syndrome,OMIM:176270,Prader-Willi Syndrome
 DOID:3590,gestational trophoblastic neoplasm,OMIM:231090,"Hydatidiform Mole, Recurrent, 1"
+DOID:11983,Prader-Willi syndrome,OMIM:176270,Prader-Willi Syndrome
 DOID:0050720,ornithine translocase deficiency,OMIM:238970,Hyperornithinemia-Hyperammonemia-Homocitrullinuria Syndrome
 DOID:0050460,Wolf-Hirschhorn syndrome,OMIM:194190,Wolf-Hirschhorn Syndrome
 DOID:2565,macular corneal dystrophy,OMIM:217800,"Macular Dystrophy, Corneal, 1"
