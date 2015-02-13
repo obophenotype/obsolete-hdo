@@ -1,22 +1,20 @@
 format-version: 1.2
-date: 06:11:2014 09:35
-saved-by: lschriml
-auto-generated-by: OBO-Edit 2.3.1
 subsetdef: DO_cancer_slim "DO cancer slim"
+subsetdef: DO_MGI_slim "DO_MGI_slim"
 subsetdef: GOLD "GOLD"
 subsetdef: gram-negative_bacterial_infectious_disease "gram-negative bacterial infectious disease"
 subsetdef: gram-positive_bacterial_infectious_disease "gram-positive bacterial infectious disease"
+subsetdef: NCIthesaurus "NCIt"
 subsetdef: sexually_transmitted_infectious_disease "sexually transmitted infectious disease"
 subsetdef: tick-borne_infectious_disease "tick-borne infectious disease"
 subsetdef: TopNodes_DOcancerslim "TopNodes_DOcancerslim"
 subsetdef: zoonotic_infectious_disease "zoonotic infectious disease"
-default-namespace: disease_ontology
-remark: This work is licensed under a Creative Commons Attribution 3.0 Unported License http://creativecommons.org/licenses/by/3.0/.
-ontology: doid
+ontology: doid/subsets/TopNodes_DOcancerslim
 
 [Term]
 id: DOID:0060119
 name: pharynx cancer
+namespace: disease_ontology
 def: "A gastrointestinal system cancer that is located_in the pharyx." [url:http\://en.wikipedia.org/wiki/Pharynx]
 subset: TopNodes_DOcancerslim
 is_a: DOID:3119 ! gastrointestinal system cancer
@@ -26,6 +24,7 @@ creation_date: 2011-07-27T01:26:34Z
 [Term]
 id: DOID:10021
 name: duodenum cancer
+namespace: disease_ontology
 alt_id: DOID:6072
 def: "A small intestine cancer that is located_in the beginning section of the small intestine." [url:http\://en.wikipedia.org/wiki/Duodenal_cancer]
 subset: TopNodes_DOcancerslim
@@ -39,12 +38,12 @@ xref: SNOMEDCT_2010_1_31:363403002
 xref: SNOMEDCT_2010_1_31:93775003
 xref: UMLS_CUI:C0153426
 xref: UMLS_CUI:C0541912
-is_a: DOID:10155 ! implied link automatically realized ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
+is_a: DOID:10155 ! intestinal cancer
 
 [Term]
 id: DOID:10153
 name: ileum cancer
+namespace: disease_ontology
 def: "A small intestine cancer that is located_in the ileum." [url:http\://en.wikipedia.org/wiki/Ileum]
 subset: TopNodes_DOcancerslim
 synonym: "malignant neoplasm of ileum" EXACT [ICD9CM_2006:152.2]
@@ -52,12 +51,12 @@ xref: ICD9CM:152.2
 xref: SNOMEDCT_2010_1_31:363405009
 xref: SNOMEDCT_2010_1_31:93832004
 xref: UMLS_CUI:C0153428
-is_a: DOID:10155 ! implied link automatically realized ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
+is_a: DOID:10155 ! intestinal cancer
 
 [Term]
 id: DOID:10155
 name: intestinal cancer
+namespace: disease_ontology
 def: "A gastrointestinal system cancer that is located_in the intestine." [url:http\://en.wikipedia.org/wiki/Intestine]
 subset: TopNodes_DOcancerslim
 synonym: "malignant intestinal tumors" EXACT [NCI2004_11_17:C4572]
@@ -75,9 +74,11 @@ is_a: DOID:3119 ! gastrointestinal system cancer
 [Term]
 id: DOID:10283
 name: prostate cancer
+namespace: disease_ontology
 alt_id: DOID:514
 def: "A male reproductive organ cancer that is located_in the prostate." [url:http\://www.cancer.gov/dictionary?CdrID=445079]
 comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
+subset: DO_MGI_slim
 subset: TopNodes_DOcancerslim
 synonym: "hereditary prostate cancer" EXACT []
 synonym: "malignant tumor of the prostate" EXACT [NCI2004_11_17:C7378]
@@ -120,6 +121,7 @@ xref: UMLS_CUI:C0376358
 [Term]
 id: DOID:10534
 name: stomach cancer
+namespace: disease_ontology
 alt_id: DOID:10539
 alt_id: DOID:10542
 alt_id: DOID:10543
@@ -176,6 +178,7 @@ is_a: DOID:3119 ! gastrointestinal system cancer
 [Term]
 id: DOID:10619
 name: lymph node cancer
+namespace: disease_ontology
 alt_id: DOID:10438
 def: "A lymphatic system cancer that is located_in the lymph node." [url:http\://www.cancer.org/cancer/cancerbasics/lymph-nodes-and-cancer]
 subset: TopNodes_DOcancerslim
@@ -187,6 +190,7 @@ xref: UMLS_CUI:C0596869
 [Term]
 id: DOID:10811
 name: nasal cavity cancer
+namespace: disease_ontology
 def: "A respiratory system cancer that is located_in the nasal cavity." [url:http\://en.wikipedia.org/wiki/Nasal_cavity]
 subset: TopNodes_DOcancerslim
 synonym: "malignant neoplasm of nasal cavities" EXACT [ICD9CM_2006:160.0]
@@ -201,6 +205,7 @@ xref: UMLS_CUI:C0728864
 [Term]
 id: DOID:11054
 name: urinary bladder cancer
+namespace: disease_ontology
 alt_id: DOID:5428
 def: "An urinary system cancer that results_in malignant growth located_in the urinary bladder." [url:http\://en.wikipedia.org/wiki/Bladder_cancer]
 comment: OMIM mapping confirmed by DO. [SN].
@@ -226,6 +231,7 @@ xref: UMLS_CUI:C0005695
 [Term]
 id: DOID:1115
 name: sarcoma
+namespace: disease_ontology
 alt_id: DOID:3936
 def: "A cell type cancer that has_material_basis_in abnormally proliferating cells derived_from embryonic mesoderm." [url:http\://cancergenome.nih.gov/cancersselected/Sarcoma, url:http\://en.wikipedia.org/wiki/Sarcoma, url:http\://www.cancer.gov/dictionary?CdrID=45562]
 subset: DO_cancer_slim
@@ -241,6 +247,7 @@ xref: UMLS_CUI:C0153519
 [Term]
 id: DOID:11239
 name: appendix cancer
+namespace: disease_ontology
 def: "A intestinal cancer that is located_in the appendix." [url:http\://en.wikipedia.org/wiki/Vermiform_appendix]
 subset: TopNodes_DOcancerslim
 synonym: "cancer of the appendix" EXACT [NCI2004_11_17:C9330]
@@ -255,11 +262,11 @@ xref: SNOMEDCT_2010_1_31:363411007
 xref: SNOMEDCT_2010_1_31:93679002
 xref: UMLS_CUI:C0496779
 is_a: DOID:10155 ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
 
 [Term]
 id: DOID:11615
 name: penile cancer
+namespace: disease_ontology
 alt_id: DOID:11614
 subset: TopNodes_DOcancerslim
 synonym: "Ca penis" EXACT [SNOMEDCT_2005_07_31:154536009]
@@ -285,13 +292,12 @@ xref: UMLS_CUI:C0153601
 [Term]
 id: DOID:11819
 name: ureter cancer
+namespace: disease_ontology
 def: "A urinary system cancer that is located_in the ureter." [url:http\://en.wikipedia.org/wiki/Ureter_cancer]
 comment: OMIM mapping confirmed by DO. [SN].
 subset: TopNodes_DOcancerslim
-synonym: "malignant tumor of ureter (disorder)" EXACT [SNOMEDCT_2005_07_31:363458004]
 synonym: "malignant tumour of ureter" EXACT [SNOMEDCT_2005_07_31:154543003]
 synonym: "malignant ureteral tumor" EXACT [NCI2004_11_17:C7543]
-synonym: "ureter cancer" EXACT []
 xref: ICD9CM:189.2
 xref: MSH:D014516
 xref: NCI:C7543
@@ -304,6 +310,7 @@ xref: UMLS_CUI:C0153619
 [Term]
 id: DOID:119
 name: vaginal cancer
+namespace: disease_ontology
 alt_id: DOID:1902
 def: "A female reproductive system cancer that is located_in the vagina." [url:http\://www.cancer.gov/dictionary?CdrID=523460]
 subset: TopNodes_DOcancerslim
@@ -326,6 +333,7 @@ xref: UMLS_CUI:C0042258
 [Term]
 id: DOID:1192
 name: peripheral nervous system neoplasm
+namespace: disease_ontology
 alt_id: DOID:3194
 def: "A nervous system cancer that is located_in the peripheral nervous system." [url:http\://en.wikipedia.org/wiki/Peripheral_nervous_system]
 subset: TopNodes_DOcancerslim
@@ -346,17 +354,13 @@ xref: UMLS_CUI:C0206727
 [Term]
 id: DOID:11920
 name: tracheal cancer
+namespace: disease_ontology
 def: "A respiratory system cancer that is located_in the trachea." [url:http\://en.wikipedia.org/wiki/Lung_cancer]
 subset: TopNodes_DOcancerslim
-synonym: "Ca trachea" EXACT [SNOMEDCT_2005_07_31:154486000]
 synonym: "Ca trachea" EXACT [SNOMEDCT_2005_07_31:269562004]
-synonym: "malignant neoplasm of trachea" EXACT [ICD9CM_2006:162.0]
 synonym: "malignant neoplasm of trachea" EXACT [MTH:NOCODE]
-synonym: "malignant neoplasm of trachea NOS (disorder)" EXACT [SNOMEDCT_2005_07_31:187855003]
 synonym: "malignant Tracheal tumor" EXACT [NCI2004_11_17:C9346]
 synonym: "malignant tumor of trachea (disorder)" EXACT [SNOMEDCT_2005_07_31:363432004]
-synonym: "tracheal cancer" EXACT [CSP2005:2017-6768]
-synonym: "Tracheal carcinoma" EXACT [NCI2004_11_17:C9347]
 xref: ICD9CM:162.0
 xref: NCI:C9346
 xref: SNOMEDCT_2010_1_31:187855003
@@ -367,6 +371,7 @@ xref: UMLS_CUI:C0153489
 [Term]
 id: DOID:11934
 name: head and neck cancer
+namespace: disease_ontology
 def: "An organ system cancer that arises in the head or neck region. This region includes the nasal cavity, sinuses, lips, mouth, salivary glands, throat, or larynx." [url:http\://apps.who.int/bookorders/anglais/detart1.jsp?sesslan=1&codlan=1&codcol=70&codcch=9, url:http\://en.wikipedia.org/wiki/Head_and_neck_cancer, url:http\://www.cancer.gov/cancertopics/factsheet/Sites-Types/head-and-neck, url:http\://www.cancer.gov/dictionary?CdrID=257519, url:http\://www.iarc.fr/en/publications/pdfs-online/pat-gen/bb9/index.php]
 subset: TopNodes_DOcancerslim
 synonym: "head and neck neoplasm" EXACT [MTH:NOCODE]
@@ -381,10 +386,11 @@ xref: UMLS_CUI:C0018671
 [Term]
 id: DOID:1245
 name: vulva cancer
+namespace: disease_ontology
 alt_id: DOID:1282
 subset: TopNodes_DOcancerslim
-synonym: "Ca vulva" EXACT [SNOMEDCT_2005_07_31:154535008]
 synonym: "Ca vulva" EXACT [SNOMEDCT_2005_07_31:269604005]
+synonym: "Ca vulva" EXACT [SNOMEDCT_2005_07_31:154535008]
 synonym: "malignant neoplasm of vulva unspecified" EXACT [SNOMEDCT_2005_07_31:188214009]
 synonym: "malignant neoplasm of vulva unspecified (disorder)" EXACT [SNOMEDCT_2005_07_31:269471005]
 synonym: "malignant neoplasm of vulva, NOS" EXACT [SNOMEDCT_2005_07_31:94143002]
@@ -411,6 +417,7 @@ xref: UMLS_CUI:C0375071
 [Term]
 id: DOID:1319
 name: brain cancer
+namespace: disease_ontology
 alt_id: DOID:2125
 alt_id: DOID:2126
 alt_id: DOID:3543
@@ -461,6 +468,7 @@ xref: UMLS_CUI:C1334557
 [Term]
 id: DOID:1324
 name: lung cancer
+namespace: disease_ontology
 alt_id: DOID:13075
 alt_id: DOID:1322
 alt_id: DOID:9881
@@ -487,6 +495,7 @@ xref: UMLS_CUI:C0153493
 [Term]
 id: DOID:13499
 name: jejunal cancer
+namespace: disease_ontology
 subset: TopNodes_DOcancerslim
 synonym: "malignant neoplasm of jejunum" EXACT [ICD9CM_2006:152.1]
 synonym: "malignant neoplasm of jejunum" EXACT [MTH:U001249]
@@ -497,17 +506,18 @@ xref: MSH:D007580
 xref: SNOMEDCT_2010_1_31:363404008
 xref: SNOMEDCT_2010_1_31:93846004
 xref: UMLS_CUI:C0153427
-is_a: DOID:10155 ! implied link automatically realized ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
+is_a: DOID:10155 ! intestinal cancer
 
 [Term]
 id: DOID:1612
 name: breast cancer
+namespace: disease_ontology
 alt_id: DOID:1648
 alt_id: DOID:4241
 def: "A thoracic cancer that originates in the mammary gland." [url:http\://en.wikipedia.org/wiki/Breast_cancer, url:http\://en.wikipedia.org/wiki/Mammary, url:http\://www.cancer.gov/cancertopics/types/breast, url:http\://www.nlm.nih.gov/medlineplus/breastcancer.html]
-comment: OMIM mapping confirmed by DO. [SN].
+comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
 subset: DO_cancer_slim
+subset: DO_MGI_slim
 subset: TopNodes_DOcancerslim
 synonym: "breast tumor" EXACT [NCI2004_11_17:C2910]
 synonym: "malignant neoplasm of breast" EXACT []
@@ -519,6 +529,9 @@ synonym: "primary breast cancer" EXACT []
 xref: MSH:D001943
 xref: NCI:C9335
 xref: OMIM:114480
+xref: OMIM:600048
+xref: OMIM:605365
+xref: ORDO:227535
 xref: SNOMEDCT_2010_1_31:126926005
 xref: SNOMEDCT_2010_1_31:154521006
 xref: SNOMEDCT_2010_1_31:190121004
@@ -531,6 +544,7 @@ xref: UMLS_CUI:C1458155
 [Term]
 id: DOID:170
 name: endocrine gland cancer
+namespace: disease_ontology
 alt_id: DOID:10009
 def: "An organ system cancer located_in endocrine system that is characterized by uncontrolled cellular proliferation of the hormone producing glands of the endocrine system." [url:http\://en.wikipedia.org/wiki/Endocrine_system]
 subset: TopNodes_DOcancerslim
@@ -539,8 +553,8 @@ synonym: "Endocrine tumor" EXACT [NCI2004_11_17:C3010]
 synonym: "malignant Endocrine tumor" EXACT [NCI2004_11_17:C3575]
 synonym: "malignant neoplasm of endocrine gland" EXACT []
 synonym: "malignant tumour of endocrine gland" EXACT [SNOMEDCT_2005_07_31:93780007]
-synonym: "neoplasm of endocrine gland (disorder)" EXACT [SNOMEDCT_2005_07_31:127015005]
 synonym: "neoplasm of endocrine gland (disorder)" EXACT [SNOMEDCT_2005_07_31:387922007]
+synonym: "neoplasm of endocrine gland (disorder)" EXACT [SNOMEDCT_2005_07_31:127015005]
 synonym: "neoplasm of endocrine system (disorder)" EXACT [SNOMEDCT_2005_07_31:387927001]
 xref: MSH:D004701
 xref: NCI:C3010
@@ -557,6 +571,7 @@ xref: UMLS_CUI:C0153658
 [Term]
 id: DOID:1725
 name: peritoneum cancer
+namespace: disease_ontology
 def: "An organ system cancer that is located in the peritoneum." [url:http\://en.wikipedia.org/wiki/Peritoneal_cancer]
 subset: TopNodes_DOcancerslim
 synonym: "cancer of peritoneum" RELATED []
@@ -568,6 +583,7 @@ xref: UMLS_CUI:C0153466
 [Term]
 id: DOID:175
 name: vascular cancer
+namespace: disease_ontology
 alt_id: DOID:3339
 alt_id: DOID:5454
 alt_id: DOID:5548
@@ -576,8 +592,8 @@ alt_id: DOID:7020
 alt_id: DOID:7392
 def: "A cardiovascular cancer that is located_in blood vessels." [url:http\://en.wikipedia.org/wiki/Vascular]
 subset: TopNodes_DOcancerslim
-synonym: "blood vessel neoplasm" EXACT [CSP2005:2007-0683]
 synonym: "Blood Vessel neoplasm" EXACT [NCI2004_11_17:C7387]
+synonym: "blood vessel neoplasm" EXACT [CSP2005:2007-0683]
 synonym: "Blood vessel tumor (morphologic abnormality)" EXACT [SNOMEDCT_2005_07_31:115235003]
 synonym: "Blood vessel tumors (morphologic abnormality)" EXACT [SNOMEDCT_2005_07_31:189862000]
 synonym: "Blood vessel tumour disorder" EXACT [SNOMEDCT_2005_07_31:126736007]
@@ -615,17 +631,15 @@ xref: UMLS_CUI:C1335753
 [Term]
 id: DOID:1781
 name: thyroid cancer
+namespace: disease_ontology
 alt_id: DOID:10008
 def: "An endocrine gland cancer located_in the thryoid gland located in the neck below the thyroid cartilage." [url:http\://en.wikipedia.org/wiki/Thyroid_gland]
 subset: TopNodes_DOcancerslim
 synonym: "malignant neoplasm of thyroid gland" EXACT [ICD9CM_2006:193]
 synonym: "malignant tumour of thyroid gland" EXACT [SNOMEDCT_2005_07_31:154554008]
 synonym: "neoplasm of thyroid gland" EXACT [SNOMEDCT_2005_07_31:127018007]
-synonym: "thyroid cancer" EXACT [CSP2005:2009-6597]
 synonym: "Thyroid gland neoplasm" EXACT [NCI2004_11_17:C3414]
-synonym: "thyroid neoplasm" EXACT [CSP2005:2009-6597]
 synonym: "thyroid neoplasm" EXACT [MTH:NOCODE]
-synonym: "Thyroid neoplasm" EXACT [MTH:733]
 xref: ICD9CM:193
 xref: KEGG:05216
 xref: NCI:C7510
@@ -640,29 +654,35 @@ is_a: DOID:170 ! endocrine gland cancer
 [Term]
 id: DOID:1793
 name: pancreatic cancer
+namespace: disease_ontology
 alt_id: DOID:14356
 alt_id: DOID:1797
 alt_id: DOID:3588
 alt_id: DOID:9859
 def: "An endocrine gland cancer located_in the pancreas." [url:http\://en.wikipedia.org/wiki/Pancreatic]
+comment: Xref MGI.
+subset: DO_MGI_slim
 subset: TopNodes_DOcancerslim
 synonym: "Ca body of pancreas" EXACT [SNOMEDCT_2005_07_31:154477005]
-synonym: "Ca body of pancreas (disorder)" EXACT [SNOMEDCT_2005_07_31:269554007]
 synonym: "Ca head of pancreas" EXACT [SNOMEDCT_2005_07_31:154476001]
 synonym: "Ca tail of pancreas" EXACT [SNOMEDCT_2005_07_31:154478000]
-synonym: "Ca tail of pancreas (disorder)" EXACT [SNOMEDCT_2005_07_31:269555008]
 synonym: "malignant neoplasm of body of pancreas" EXACT []
 synonym: "malignant neoplasm of head of pancreas" EXACT []
 synonym: "malignant neoplasm of tail of pancreas" EXACT []
-synonym: "malignant tumor of body of pancreas (disorder)" EXACT [SNOMEDCT_2005_07_31:187791002]
-synonym: "malignant tumor of tail of pancreas (disorder)" EXACT [SNOMEDCT_2005_07_31:187792009]
-synonym: "neoplasm of pancreas (disorder)" EXACT [SNOMEDCT_2005_07_31:126859007]
 synonym: "pancreas neoplasm" EXACT [CSP2005:2014-4876]
 synonym: "pancreatic neoplasm" EXACT [MTH:NOCODE]
 synonym: "pancreatic tumor" EXACT [NCI2004_11_17:C3305]
+xref: ICD10CM:C25
+xref: ICD9CM:157
 xref: KEGG:05212
 xref: MSH:D010190
 xref: NCI:C3305
+xref: OMIM:606856
+xref: OMIM:613347
+xref: OMIM:613348
+xref: OMIM:614320
+xref: ORDO:1333
+xref: ORDO:217074
 xref: SNOMEDCT_2010_1_31:126859007
 xref: SNOMEDCT_2010_1_31:154476001
 xref: SNOMEDCT_2010_1_31:154477005
@@ -687,6 +707,7 @@ is_a: DOID:170 ! endocrine gland cancer
 [Term]
 id: DOID:184
 name: bone cancer
+namespace: disease_ontology
 alt_id: DOID:3348
 def: "A connective tissue cancer that is located_in bone and is characterized by uncontrolled cellular proliferation that destroys normal bone tissue." [url:http\://www.cancer.gov/cancertopics/factsheet/Sites-Types/bone, url:http\://www.cancer.gov/cancertopics/types/bone, url:http\://www.wrongdiagnosis.com/b/bone_cancer/intro.htm]
 subset: TopNodes_DOcancerslim
@@ -712,6 +733,7 @@ is_a: DOID:201 ! connective tissue cancer
 [Term]
 id: DOID:1909
 name: melanoma
+namespace: disease_ontology
 def: "A cell type cancer that has_material_basis_in abnormally proliferating cells derived_from melanocytes which are found in skin, the bowel and the eye." [url:http\://en.wikipedia.org/wiki/Melanoma]
 subset: TopNodes_DOcancerslim
 synonym: "malignant melanoma" EXACT [SNOMEDCT_2005_07_31:269577007]
@@ -732,6 +754,7 @@ xref: UMLS_CUI:C0025202
 [Term]
 id: DOID:1964
 name: fallopian tube cancer
+namespace: disease_ontology
 alt_id: DOID:1961
 def: "A female reproductive organ cancer that is located_in fallopian tube." [url:http\://en.wikipedia.org/wiki/Fallopian_tube_cancer]
 subset: TopNodes_DOcancerslim
@@ -753,6 +776,7 @@ xref: UMLS_CUI:C0153579
 [Term]
 id: DOID:1993
 name: rectum cancer
+namespace: disease_ontology
 alt_id: DOID:1989
 def: "A colorectal cancer that is located_in the rectum." [url:http\://www.cancer.gov/dictionary?CdrID=529764]
 subset: TopNodes_DOcancerslim
@@ -775,13 +799,12 @@ xref: SNOMEDCT_2010_1_31:363351006
 xref: SNOMEDCT_2010_1_31:93984006
 xref: UMLS_CUI:C0007113
 xref: UMLS_CUI:C0949022
-is_a: DOID:10155 ! implied link automatically realized ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
-is_a: DOID:5672 ! implied link automatically realized ! large intestine cancer
+is_a: DOID:5672 ! large intestine cancer
 
 [Term]
 id: DOID:201
 name: connective tissue cancer
+namespace: disease_ontology
 def: "A musculoskeletal system cancer that is located_in connective tissue." [url:http\://en.wikipedia.org/wiki/Connective_tissue]
 subset: TopNodes_DOcancerslim
 synonym: "connective tissue neoplasm" EXACT [CSP2005:2008-3809]
@@ -795,6 +818,7 @@ xref: UMLS_CUI:C0027656
 [Term]
 id: DOID:2174
 name: ocular cancer
+namespace: disease_ontology
 alt_id: DOID:9985
 def: "A sensory system cancer located_in the eye that is characterized by uncontrolled cellular proliferation in the eye." [url:http\://en.wikipedia.org/wiki/Eye, url:http\://en.wikipedia.org/wiki/Eye_neoplasm]
 subset: TopNodes_DOcancerslim
@@ -814,6 +838,7 @@ xref: UMLS_CUI:C0153632
 [Term]
 id: DOID:219
 name: colon cancer
+namespace: disease_ontology
 def: "A colorectal cancer that is located_in the colon." [url:http\://www.cancer.gov/dictionary?CdrID=44237]
 subset: DO_cancer_slim
 subset: TopNodes_DOcancerslim
@@ -828,18 +853,18 @@ xref: SNOMEDCT_2010_1_31:269542007
 xref: SNOMEDCT_2010_1_31:363406005
 xref: SNOMEDCT_2010_1_31:93761005
 xref: UMLS_CUI:C0007102
-is_a: DOID:10155 ! implied link automatically realized ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
-is_a: DOID:5672 ! implied link automatically realized ! large intestine cancer
+is_a: DOID:5672 ! large intestine cancer
 
 [Term]
 id: DOID:2394
 name: ovarian cancer
+namespace: disease_ontology
 alt_id: DOID:0060070
 alt_id: DOID:2144
 alt_id: DOID:9595
 def: "A female reproductive organ cancer that is located_in the ovary." [url:http\://www.cancer.gov/dictionary?CdrID=445074]
-comment: OMIM mapping confirmed by DO. [SN].
+comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
+subset: DO_MGI_slim
 subset: TopNodes_DOcancerslim
 synonym: "malignant Ovarian tumor" EXACT [NCI2004_11_17:C7431]
 synonym: "malignant tumour of ovary" EXACT [SNOMEDCT_2005_07_31:154528000]
@@ -850,6 +875,8 @@ synonym: "tumor of the Ovary" EXACT [NCI2004_11_17:C4984]
 xref: MSH:D010051
 xref: NCI:C4984
 xref: OMIM:167000
+xref: OMIM:607893
+xref: ORDO:213517
 xref: SNOMEDCT_2010_1_31:123843001
 xref: SNOMEDCT_2010_1_31:154528000
 xref: SNOMEDCT_2010_1_31:363443007
@@ -862,6 +889,7 @@ xref: UMLS_CUI:C1299247
 [Term]
 id: DOID:2531
 name: hematologic cancer
+namespace: disease_ontology
 alt_id: DOID:1034
 alt_id: DOID:2532
 def: "An immune system cancer located_in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes." [url:http\://en.wikipedia.org/wiki/Blood_cancer, url:http\://www.cancer.gov/dictionary/?CdrID=45708]
@@ -885,6 +913,7 @@ xref: UMLS_CUI:C0376544
 [Term]
 id: DOID:2596
 name: larynx cancer
+namespace: disease_ontology
 def: "A respiratory system cancer that is located_in the larynx." [url:http\://en.wikipedia.org/wiki/Larynx]
 subset: TopNodes_DOcancerslim
 xref: ICD9CM:161
@@ -901,6 +930,7 @@ xref: UMLS_CUI:C0007107
 [Term]
 id: DOID:263
 name: kidney cancer
+namespace: disease_ontology
 alt_id: DOID:11834
 alt_id: DOID:3676
 def: "A urinary system cancer that is located_in the kidney." [url:http\://en.wikipedia.org/wiki/Kidney_cancer]
@@ -922,6 +952,7 @@ xref: UMLS_CUI:C0740457
 [Term]
 id: DOID:2998
 name: testicular cancer
+namespace: disease_ontology
 alt_id: DOID:12231
 def: "A male reproductive system cancer that is located_in the testicles." [url:http\://www.cancer.gov/dictionary?CdrID=445090]
 comment: OMIM mapping confirmed by DO. [SN].
@@ -946,9 +977,11 @@ xref: UMLS_CUI:C0153594
 [Term]
 id: DOID:3070
 name: malignant glioma
+namespace: disease_ontology
 alt_id: DOID:2627
 def: "A cell type cancer that has_material_basis_in glial cells and is located_in brain or located_in spine." [url:http\://en.wikipedia.org/wiki/Malignant_glioma]
-comment: OMIM mapping confirmed by DO. [SN].
+comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
+subset: DO_MGI_slim
 subset: TopNodes_DOcancerslim
 synonym: "glial cell tumor" EXACT [CSP2005:2012-6589]
 synonym: "glioma" EXACT []
@@ -963,10 +996,20 @@ synonym: "malignant glioma (morphologic abnormality)" EXACT [SNOMEDCT_2005_07_31
 synonym: "malignant glioma - category" EXACT [SNOMEDCT_2005_07_31:416500007]
 synonym: "malignant Neuroglial tumor" EXACT [NCI2004_11_17:C4822]
 synonym: "Neuroglial tumor" EXACT [NCI2004_11_17:C3059]
+xref: ICD10CM:C71
+xref: ICD9CM:191
 xref: KEGG:05214
 xref: MSH:D005910
 xref: NCI:C3059
 xref: OMIM:137800
+xref: OMIM:607248
+xref: OMIM:613028
+xref: OMIM:613029
+xref: OMIM:613030
+xref: OMIM:613031
+xref: OMIM:613032
+xref: OMIM:613033
+xref: ORDO:182067
 xref: SNOMEDCT_2010_1_31:115240006
 xref: SNOMEDCT_2010_1_31:189908003
 xref: SNOMEDCT_2010_1_31:189909006
@@ -981,6 +1024,7 @@ xref: UMLS_CUI:C0555198
 [Term]
 id: DOID:3119
 name: gastrointestinal system cancer
+namespace: disease_ontology
 alt_id: DOID:4945
 alt_id: DOID:8377
 def: "An organ system cancer located_in gastrointestinal tract that is manifested in organs of the gastrointestinal system." [url:http\://en.wikipedia.org/wiki/Human_gastrointestinal_tract]
@@ -1005,6 +1049,7 @@ xref: UMLS_CUI:C0685938
 [Term]
 id: DOID:3121
 name: gallbladder cancer
+namespace: disease_ontology
 alt_id: DOID:8090
 alt_id: DOID:8157
 def: "A biliary tract cancer that is located_in the gallbladder." [url:http\://en.wikipedia.org/wiki/Gallbladder]
@@ -1028,19 +1073,18 @@ xref: SNOMEDCT_2010_1_31:93810008
 xref: UMLS_CUI:C0016978
 xref: UMLS_CUI:C0153452
 xref: UMLS_CUI:C0278806
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
+is_a: DOID:3119 ! gastrointestinal system cancer
 
 [Term]
 id: DOID:3277
 name: thymus cancer
+namespace: disease_ontology
 alt_id: DOID:10143
 def: "An immune system cancer located_in the thymus." [url:http\://en.wikipedia.org/wiki/Thymus]
 subset: TopNodes_DOcancerslim
 synonym: "neoplasm of thymus (disorder)" EXACT [SNOMEDCT_2005_07_31:127231009]
 synonym: "thymic neoplasm" EXACT [CSP2005:2004-8826]
 synonym: "Thymic tumor" EXACT [NCI2004_11_17:C3412]
-synonym: "Thymus cancer" EXACT [NCI2004_11_17:C4962]
-synonym: "thymus cancer" EXACT []
 xref: MSH:D013953
 xref: NCI:C3412
 xref: SNOMEDCT_2010_1_31:127231009
@@ -1052,6 +1096,7 @@ xref: UMLS_CUI:C0751552
 [Term]
 id: DOID:3565
 name: meningioma
+namespace: disease_ontology
 alt_id: DOID:1137
 alt_id: DOID:3554
 alt_id: DOID:3567
@@ -1086,6 +1131,7 @@ xref: UMLS_CUI:C1336537
 [Term]
 id: DOID:3571
 name: liver cancer
+namespace: disease_ontology
 alt_id: DOID:12300
 alt_id: DOID:269
 alt_id: DOID:7330
@@ -1134,19 +1180,16 @@ is_a: DOID:3119 ! gastrointestinal system cancer
 [Term]
 id: DOID:363
 name: uterine cancer
+namespace: disease_ontology
 alt_id: DOID:4363
 def: "A female reproductive organ cancer that is located_in the uterus." [url:http\://www.cancer.gov/dictionary?CdrID=445094]
 subset: TopNodes_DOcancerslim
 synonym: "CA - cancer of uterus" EXACT [SNOMEDCT_2005_07_31:93718007]
 synonym: "Ca uterus NOS" EXACT [SNOMEDCT_2005_07_31:269613007]
 synonym: "malignant neoplasm of uterus (disorder)" EXACT [SNOMEDCT_2005_07_31:371973000]
-synonym: "malignant neoplasm of uterus, NOS" EXACT [SNOMEDCT_2005_07_31:94127009]
-synonym: "malignant neoplasm of uterus, part unspecified" EXACT [ICD9CM_2006:179]
-synonym: "malignant neoplasm of uterus, part unspecified (disorder)" EXACT [SNOMEDCT_2005_07_31:188173004]
 synonym: "malignant uterine tumor" EXACT [NCI2004_11_17:C3552]
 synonym: "neoplasm of uterus (disorder)" EXACT [SNOMEDCT_2005_07_31:126908007]
 synonym: "Tumour of uterus" EXACT [SNOMEDCT_2005_07_31:156169001]
-synonym: "uterine cancer" EXACT [CSP2005:2016-1566]
 synonym: "uterine tumor" EXACT [NCI2004_11_17:C3435]
 synonym: "uterus neoplasm" EXACT [CSP2005:2016-1566]
 xref: MSH:D014594
@@ -1164,6 +1207,7 @@ xref: UMLS_CUI:C0153567
 [Term]
 id: DOID:3953
 name: adrenal gland cancer
+namespace: disease_ontology
 alt_id: DOID:11007
 def: "An endocrine gland cancer located_in the adrenal glands which are located above the kidneys." [url:http\://en.wikipedia.org/wiki/Adrenal_gland]
 subset: TopNodes_DOcancerslim
@@ -1187,6 +1231,7 @@ is_a: DOID:170 ! endocrine gland cancer
 [Term]
 id: DOID:4045
 name: muscle cancer
+namespace: disease_ontology
 alt_id: DOID:4046
 def: "A musculoskeletal system cancer that is located_in muscle." [url:http\://en.wikipedia.org/wiki/Muscle]
 subset: TopNodes_DOcancerslim
@@ -1205,16 +1250,13 @@ xref: UMLS_CUI:C0684743
 [Term]
 id: DOID:4159
 name: skin cancer
+namespace: disease_ontology
 def: "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells." [url:http\://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002414/]
 subset: TopNodes_DOcancerslim
 synonym: "CA - skin cancer" EXACT [SNOMEDCT_2005_07_31:363511009]
 synonym: "cancer of skin" RELATED []
 synonym: "malignant neoplasm of skin" EXACT [MTH:NOCODE]
-synonym: "malignant neoplasm of skin (disorder)" EXACT [SNOMEDCT_2005_07_31:372130007]
-synonym: "malignant neoplasm of skin NOS (disorder)" EXACT [SNOMEDCT_2005_07_31:188143008]
-synonym: "malignant neoplasm of skin, unspecified (disorder)" EXACT [SNOMEDCT_2005_07_31:190107001]
 synonym: "melanoma and Non-melanoma skin cancer" EXACT [NCI2004_11_17:C2920]
-synonym: "skin cancer" EXACT [CSP2005:2020-0536]
 xref: MSH:D012878
 xref: NCI:C2920
 xref: SNOMEDCT_2010_1_31:188143008
@@ -1226,6 +1268,7 @@ xref: UMLS_CUI:C0007114
 [Term]
 id: DOID:4362
 name: cervical cancer
+namespace: disease_ontology
 alt_id: DOID:4361
 def: "A female reproductive organ cancer that is located_in the cervix." [url:http\://cancergenome.nih.gov/cancersselected/cervicalcancer, url:http\://en.wikipedia.org/wiki/Cervical_cancer, url:http\://www.cancer.gov/dictionary?CdrID=444973]
 subset: DO_cancer_slim
@@ -1250,6 +1293,7 @@ xref: UMLS_CUI:C0007873
 [Term]
 id: DOID:4606
 name: bile duct cancer
+namespace: disease_ontology
 alt_id: DOID:10019
 def: "A biliary tract cancer that is located_in the bile duct." [url:http\://www.cancer.gov/dictionary/?CdrID=527370]
 subset: TopNodes_DOcancerslim
@@ -1264,11 +1308,12 @@ xref: SNOMEDCT_2010_1_31:363416002
 xref: SNOMEDCT_2010_1_31:93790004
 xref: UMLS_CUI:C0005396
 xref: UMLS_CUI:C0153453
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
+is_a: DOID:3119 ! gastrointestinal system cancer
 
 [Term]
 id: DOID:5041
 name: esophageal cancer
+namespace: disease_ontology
 alt_id: DOID:10291
 alt_id: DOID:10292
 alt_id: DOID:10448
@@ -1315,6 +1360,7 @@ is_a: DOID:3119 ! gastrointestinal system cancer
 [Term]
 id: DOID:5099
 name: middle ear cancer
+namespace: disease_ontology
 def: "An auditory system cancer that is located_in the middle ear." [url:http\://my.clevelandclinic.org/services/head-neck/diseases-conditions/tumors]
 subset: TopNodes_DOcancerslim
 synonym: "neoplasm of middle ear (disorder)" EXACT [SNOMEDCT_2005_07_31:127006003]
@@ -1326,6 +1372,7 @@ xref: UMLS_CUI:C0345617
 [Term]
 id: DOID:5559
 name: mediastinal cancer
+namespace: disease_ontology
 alt_id: DOID:9914
 def: "A thoracic cancer that is located_in the mediastinum." [url:http\://en.wikipedia.org/wiki/Mediastinal]
 subset: TopNodes_DOcancerslim
@@ -1347,6 +1394,7 @@ xref: UMLS_CUI:C0153504
 [Term]
 id: DOID:5612
 name: spinal cancer
+namespace: disease_ontology
 alt_id: DOID:3638
 alt_id: DOID:7225
 def: "A central nervous system cancer that is located_in the spinal cord. It is mostly formed from metastases from primary cancers elsewhere (commonly breast, prostate, and lung cancer)." [url:http\://en.wikipedia.org/wiki/Spinal_tumor]
@@ -1369,6 +1417,7 @@ xref: UMLS_CUI:C0153646
 [Term]
 id: DOID:5672
 name: large intestine cancer
+namespace: disease_ontology
 alt_id: DOID:1994
 alt_id: DOID:1997
 def: "An intestinal cancer that effects the long, tube-like organ that is connected to the small intestine at one end and the anus at the other." [url:http\://en.wikipedia.org/wiki/Large_intestine]
@@ -1382,11 +1431,11 @@ xref: UMLS_CUI:C0009402
 xref: UMLS_CUI:C0346629
 xref: UMLS_CUI:C1319315
 is_a: DOID:10155 ! intestinal cancer
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
 
 [Term]
 id: DOID:8618
 name: oral cavity cancer
+namespace: disease_ontology
 alt_id: DOID:0050627
 alt_id: DOID:8617
 alt_id: DOID:9049
@@ -1418,6 +1467,7 @@ is_a: DOID:3119 ! gastrointestinal system cancer
 [Term]
 id: DOID:8850
 name: salivary gland cancer
+namespace: disease_ontology
 alt_id: DOID:8873
 alt_id: DOID:9148
 def: "An oral cavity cancer that is located_in the salivary gland." [url:http\://www.cancer.gov/dictionary?CdrID=446528]
@@ -1431,6 +1481,86 @@ xref: ICD9CM:142.8
 xref: MSH:D012468
 xref: SNOMEDCT_2010_1_31:187648003
 xref: UMLS_CUI:C0153362
-is_a: DOID:3119 ! implied link automatically realized ! gastrointestinal system cancer
 is_a: DOID:8618 ! oral cavity cancer
+
+[Typedef]
+id: complicated_by
+name: complicated_by
+namespace: disease_ontology
+
+[Typedef]
+id: composed_of
+name: composed_of
+namespace: disease_ontology
+def: "Component parts of anatomy of tissue made up of certain cells or other body area/system or tissue types." [DO:lh]
+
+[Typedef]
+id: derives_from
+name: derives_from
+namespace: disease_ontology
+def: "Type of tissue or cell/the source of the material." [DO:lh]
+
+[Typedef]
+id: has_material_basis_in
+name: has_material_basis_in
+namespace: disease_ontology
+
+[Typedef]
+id: has_symptom
+name: has_symptom
+namespace: disease_ontology
+
+[Typedef]
+id: inheres_in
+name: inheres_in
+namespace: disease_ontology
+
+[Typedef]
+id: is_a
+name: is_a
+namespace: disease_ontology
+
+[Typedef]
+id: located_in
+name: located_in
+namespace: disease_ontology
+def: "Anatomical location." [DO:lh]
+
+[Typedef]
+id: occurs_with
+name: occurs_with
+namespace: disease_ontology
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: disease_ontology
+
+[Typedef]
+id: realized_by
+name: realized_by
+namespace: disease_ontology
+
+[Typedef]
+id: realized_by_supression_with
+name: realized_by_supression_with
+namespace: disease_ontology
+
+[Typedef]
+id: results_in
+name: results_in
+namespace: disease_ontology
+def: "Development process/cause and effect/disease progress,process." [DO:lh]
+
+[Typedef]
+id: results_in_formation_of
+name: results_in_formation_of
+namespace: disease_ontology
+def: "Formation of structure,cancer,etc./cause and effect." [DO:lh]
+
+[Typedef]
+id: transmitted_by
+name: transmitted_by
+namespace: disease_ontology
+def: "Pathogen is transmitted." [DO:lh]
 

@@ -79,8 +79,15 @@ imports/ctd_import.owl: mirror/ctd.owl
 	owltools $<  --set-ontology-id $(OBO)/doid/$@ -o $@
 
 # Pull from Monarch disco2ttl build
-imports/omim_import.owl:
-	owltools $(OBO)/upheno/data/disorders.owl --set-ontology-id $(OBO)/doid/$@ -o $@
+imports/omim_import.owl: mirror/omim.ttl
+	owltools $< --set-ontology-id $(OBO)/doid/$@ -o $@
+#imports/omim_import.owl:
+#	owltools $(OBO)/upheno/data/disorders.owl --set-ontology-id $(OBO)/doid/$@ -o $@
+
+# refesh every time DO changes (too high?)
+mirror/omim.ttl: doid-edit.owl
+	wget http://nif-crawler.neuinfo.org/monarch/ttl/omim.ttl -O $@
+.PRECIOUS: mirror/omim.ttl
 
 #seed.owl: doid-edit.owl
 #	cp $< $@
