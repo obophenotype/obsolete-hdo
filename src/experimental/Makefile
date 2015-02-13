@@ -2,6 +2,9 @@
 ../contrib/omimclusters.obo:
 	wget ftp://ftp.informatics.jax.org/pub/curatorwork/OMIM.clusters -O $@
 
+omimclusters.obo: ../contrib/omimclusters.obo
+	cp $< $@
+
 omc.obo: ../contrib/omimclusters.obo
 	obo-grep.pl -r 'id: DC' $< > $@.tmp && mv $@.tmp $@
 
@@ -22,3 +25,6 @@ ixrefs-%.obo: align-%.tbl
 
 missing-%.obo: %.obo ixrefs-doid-to-%.obo
 	obo-subtract.pl $^ | obo-grep.pl --neg -r is_obsolete - > $@
+
+sim-omc.tsv: ../contrib/omimclusters.obo
+	blip-findall -debug index -consult jaccard.pro -i ../contrib/omimclusters.obo -r disease -goal ix sim_dc_bm/5 -label -no_pred > $@.tmp && mysort -k1,3 -n $@.tmp > $@
