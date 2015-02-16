@@ -1,11 +1,11 @@
 format-version: 1.2
-date: 09:02:2015 11:26
+date: 16:02:2015 12:07
 saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
 remark: Filtered by ID contains "omim"
 generated-by: $Id: MGIOBOFileGeneratorMgr.java
-ontology: doid/contrib/omimclusters
++ontology: doid/contrib/omimclusters
 
 [Term]
 id: DC:0000000
@@ -18,6 +18,7 @@ creation_date: 2013-08-29T15:18:27Z
 id: DC:0000001
 name: 46,XY Sex Reversal
 comment: OMIM series 400044.
+xref: PS:400044
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T15:20:32Z
@@ -40,6 +41,7 @@ creation_date: 2013-08-29T15:25:26Z
 id: DC:0000004
 name: 3-Methylglutaconic Aciduria
 comment: OMIM series 250950.
+xref: PS:250950
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T15:27:52Z
@@ -63,6 +65,7 @@ creation_date: 2013-08-29T15:51:26Z
 id: DC:0000007
 name: Acne Inversa
 comment: OMIM series 142690.
+xref: PS:142690
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T15:52:19Z
@@ -71,6 +74,7 @@ creation_date: 2013-08-29T15:52:19Z
 id: DC:0000008
 name: Carpenter Syndrome
 comment: OMIM series 201000.
+xref: PS:201000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T15:55:43Z
@@ -108,22 +112,25 @@ creation_date: 2013-08-29T16:09:10Z
 id: DC:0000013
 name: Agammaglobulinemia
 comment: OMIM phenotypic series 601495.
+xref: PS:601495
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:11:24Z
 
 [Term]
 id: DC:0000014
-name: Aicardi-Goutieres syndrome
+name: Aicardi-Goutieres Syndrome
 comment: OMIM series 225750.
+xref: PS:225750
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:14:40Z
 
 [Term]
 id: DC:0000015
-name: Alagille syndrome
+name: Alagille Syndrome
 comment: OMIM series 118450.
+xref: PS:118450
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:16:37Z
@@ -132,6 +139,7 @@ creation_date: 2013-08-29T16:16:37Z
 id: DC:0000016
 name: Alopecia, Isolated
 comment: OMIM series 203655.
+xref: PS:203655
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:17:46Z
@@ -140,6 +148,7 @@ creation_date: 2013-08-29T16:17:46Z
 id: DC:0000017
 name: Alopecia-Mental Retardation Syndrome
 comment: OMIM series 203650.
+xref: PS:203650
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:20:39Z
@@ -170,6 +179,7 @@ creation_date: 2013-08-29T16:25:05Z
 id: DC:0000021
 name: Leber Congenital Amaurosis
 comment: OMIM series 204000.
+xref: PS:204000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:26:11Z
@@ -178,6 +188,7 @@ creation_date: 2013-08-29T16:26:11Z
 id: DC:0000022
 name: Amelogenesis Imperfecta
 comment: OMIM series 104500.
+xref: PS:104500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:33:37Z
@@ -186,6 +197,7 @@ creation_date: 2013-08-29T16:33:37Z
 id: DC:0000023
 name: Amyloidosis, Primary Localized Cutaneous
 comment: OMIM series 105250.
+xref: PS:105250
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:40:00Z
@@ -194,6 +206,7 @@ creation_date: 2013-08-29T16:40:00Z
 id: DC:0000024
 name: Amyotrophic Lateral Sclerosis
 comment: OMIM series 105400.
+xref: PS:105400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:41:12Z
@@ -202,6 +215,7 @@ creation_date: 2013-08-29T16:41:12Z
 id: DC:0000025
 name: Diamond-Blackfan Anemia
 comment: OMIM series 105650.
+xref: PS:105650
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:49:16Z
@@ -210,6 +224,7 @@ creation_date: 2013-08-29T16:49:16Z
 id: DC:0000026
 name: Anemia, Congenital Dyserythropoietic
 comment: OMIM series 224120.
+xref: PS:224120
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:52:19Z
@@ -218,6 +233,7 @@ creation_date: 2013-08-29T16:52:19Z
 id: DC:0000027
 name: Aneurysm, Intracranial Berry
 comment: OMIM series 105800.
+xref: PS:105800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T16:59:45Z
@@ -241,6 +257,7 @@ creation_date: 2013-08-29T17:02:47Z
 id: DC:0000030
 name: Charcot-Marie-Tooth Disease
 comment: OMIM series 118220.
+xref: PS:118220
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T17:06:54Z
@@ -285,6 +302,7 @@ creation_date: 2013-08-29T17:31:04Z
 id: DC:0000036
 name: Arrhythmogenic Right Ventricular Dysplasia, Familial
 comment: OMIM series 107970.
+xref: PS:107970
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T17:34:09Z
@@ -293,6 +311,7 @@ creation_date: 2013-08-29T17:34:09Z
 id: DC:0000037
 name: Arthrogryposis, Renal Dysfunction, and Cholestasis
 comment: OMIM series 208085.
+xref: PS:208085
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-29T17:35:49Z
@@ -309,6 +328,7 @@ creation_date: 2013-08-30T10:10:13Z
 id: DC:0000039
 name: Asperger Syndrome
 comment: OMIM series 608638.
+xref: PS:608638
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T10:13:06Z
@@ -317,6 +337,7 @@ creation_date: 2013-08-30T10:13:06Z
 id: DC:0000040
 name: Atelosteogenesis
 comment: OMIM series 108720.
+xref: PS:108720
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T10:35:03Z
@@ -332,6 +353,7 @@ creation_date: 2013-08-30T10:37:07Z
 id: DC:0000042
 name: Atrial Fibrillation, Familial
 comment: OMIM series 608583.
+xref: PS:608583
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T10:38:13Z
@@ -340,6 +362,7 @@ creation_date: 2013-08-30T10:38:13Z
 id: DC:0000043
 name: Atrial Septal Defect
 comment: OMIM series 108800.
+xref: PS:108800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T10:39:20Z
@@ -348,6 +371,7 @@ creation_date: 2013-08-30T10:39:20Z
 id: DC:0000044
 name: Atrioventricular Septal Defect
 comment: OMIM series 606215.
+xref: PS:606215
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T10:40:50Z
@@ -372,6 +396,7 @@ creation_date: 2013-08-30T10:46:58Z
 id: DC:0000047
 name: Autism
 comment: OMIM series 209850.
+xref: PS:209850
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T10:49:00Z
@@ -433,6 +458,7 @@ creation_date: 2013-08-30T11:10:04Z
 id: DC:0000055
 name: Bartter Syndrome
 comment: OMIM series 601678.
+xref: PS:601678
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:10:47Z
@@ -448,6 +474,7 @@ creation_date: 2013-08-30T11:11:40Z
 id: DC:0000057
 name: Bleeding Disorder, Platelet-Type
 comment: Phenotypic series in OMIM see OMIM 231200.
+xref: PS:231200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:12:30Z
@@ -487,6 +514,7 @@ creation_date: 2013-08-30T11:27:17Z
 id: DC:0000062
 name: Bronchiectasis
 comment: OMIM series 211400.
+xref: PS:211400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:28:38Z
@@ -503,6 +531,7 @@ creation_date: 2013-08-30T11:29:49Z
 id: DC:0000064
 name: Candidiasis, Familial
 comment: OMIM series 114580.
+xref: PS:114580
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:32:04Z
@@ -511,6 +540,7 @@ creation_date: 2013-08-30T11:32:04Z
 id: DC:0000065
 name: Cardiomyopathy, Dilated
 comment: OMIM series 115200.
+xref: PS:115200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:33:34Z
@@ -519,6 +549,7 @@ creation_date: 2013-08-30T11:33:34Z
 id: DC:0000066
 name: Cardiomyopathy, Familial Hypertrophic
 comment: OMIM series 192600.
+xref: PS:192600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:35:00Z
@@ -527,6 +558,7 @@ creation_date: 2013-08-30T11:35:00Z
 id: DC:0000067
 name: Cardiomyopathy, Familial Restrictive
 comment: OMIM series 115210.
+xref: PS:115210
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:35:51Z
@@ -551,6 +583,7 @@ creation_date: 2013-08-30T11:37:47Z
 id: DC:0000070
 name: Cataract
 comment: OMIM series 116200.
+xref: PS:116200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:38:40Z
@@ -559,6 +592,7 @@ creation_date: 2013-08-30T11:38:40Z
 id: DC:0000071
 name: Celiac Disease
 comment: OMIM series 212750.
+xref: PS:212750
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:41:23Z
@@ -597,6 +631,7 @@ creation_date: 2013-08-30T11:47:39Z
 id: DC:0000076
 name: Cerebrooculofacioskeletal Syndrome
 comment: OMIM series 214150.
+xref: PS:214150
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:48:36Z
@@ -605,6 +640,7 @@ creation_date: 2013-08-30T11:48:36Z
 id: DC:0000077
 name: Ceroid Lipofuscinosis, Neuronal
 comment: OMIM series 256730.
+xref: PS:256730
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T11:51:02Z
@@ -658,6 +694,7 @@ creation_date: 2013-08-30T13:06:48Z
 id: DC:0000084
 name: Choroidal Dystrophy
 comment: OMIM series 215500.
+xref: PS:215500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:07:46Z
@@ -673,6 +710,7 @@ creation_date: 2013-08-30T13:08:36Z
 id: DC:0000086
 name: Ciliary Dyskinesia, Primary
 comment: OMIM series 244400.
+xref: PS:244400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:13:28Z
@@ -718,6 +756,7 @@ creation_date: 2013-08-30T13:26:39Z
 id: DC:0000092
 name: Combined Oxidative Phosphorylation Deficiency
 comment: OMIM series 609060.
+xref: PS:609060
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:27:29Z
@@ -726,6 +765,7 @@ creation_date: 2013-08-30T13:27:29Z
 id: DC:0000093
 name: Immunodeficiency, Common Variable
 comment: OMIM series 607594.
+xref: PS:607594
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:28:47Z
@@ -749,6 +789,7 @@ creation_date: 2013-08-30T13:34:31Z
 id: DC:0000096
 name: Thrombophilia
 comment: Based on OMIM phenotypic series 188050.
+xref: PS:188050
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:41:46Z
@@ -757,6 +798,7 @@ creation_date: 2013-08-30T13:41:46Z
 id: DC:0000097
 name: Seizures, Benign Familial Infantile
 comment: OMIM phenotypic series 601764.
+xref: PS:601764
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:48:47Z
@@ -780,6 +822,7 @@ creation_date: 2013-08-30T13:53:08Z
 id: DC:0000100
 name: Corneal Endothelial Dystrophy
 comment: OMIM series 121700.
+xref: PS:121700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:54:19Z
@@ -788,6 +831,7 @@ creation_date: 2013-08-30T13:54:19Z
 id: DC:0000101
 name: Cornelia De Lange Syndrome
 comment: OMIM series 122470.
+xref: PS:122470
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T13:55:06Z
@@ -850,6 +894,7 @@ creation_date: 2013-08-30T14:29:00Z
 id: DC:0000109
 name: Deafness, Autosomal Dominant
 comment: OMIM series 124900.
+xref: PS:124900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T14:31:14Z
@@ -858,6 +903,7 @@ creation_date: 2013-08-30T14:31:14Z
 id: DC:0000110
 name: Deafness, Autosomal Recessive
 comment: OMIM series 220290.
+xref: PS:220290
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T14:32:06Z
@@ -866,6 +912,7 @@ creation_date: 2013-08-30T14:32:06Z
 id: DC:0000111
 name: Deafness, X-Linked
 comment: OMIM series 304500.
+xref: PS:304500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T14:36:35Z
@@ -874,6 +921,7 @@ creation_date: 2013-08-30T14:36:35Z
 id: DC:0000112
 name: Dent Disease
 comment: OMIM series 300009.
+xref: PS:300009
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T14:37:25Z
@@ -897,6 +945,7 @@ creation_date: 2013-08-30T14:39:54Z
 id: DC:0000115
 name: Dermatitis, Atopic
 comment: OMIM series 603165.
+xref: PS:603165
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T14:41:17Z
@@ -951,6 +1000,7 @@ creation_date: 2013-08-30T14:56:27Z
 id: DC:0000122
 name: Duane Retraction Syndrome
 comment: OMIM series 126800.
+xref: PS:126800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:05:16Z
@@ -959,6 +1009,7 @@ creation_date: 2013-08-30T15:05:16Z
 id: DC:0000123
 name: Dyschromatosis Universalis Hereditaria
 comment: OMIM series 127500.
+xref: PS:127500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:07:46Z
@@ -967,6 +1018,7 @@ creation_date: 2013-08-30T15:07:46Z
 id: DC:0000124
 name: Dyskeratosis Congenita
 comment: OMIM phenotypic series 127550.
+xref: PS:127550
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:12:42Z
@@ -983,14 +1035,16 @@ creation_date: 2013-08-30T15:16:31Z
 id: DC:0000126
 name: Dystonia
 comment: OMIM phenotypic series 128100.
+xref: PS:128100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:17:57Z
 
 [Term]
 id: DC:0000127
-name: Myotonic dystrophy
+name: Myotonic Dystrophy
 comment: OMIM series 160900.
+xref: PS:160900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:27:33Z
@@ -999,6 +1053,7 @@ creation_date: 2013-08-30T15:27:33Z
 id: DC:0000128
 name: Ectodermal Dysplasia
 comment: OMIM phenotypic series 305100.
+xref: PS:305100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:29:26Z
@@ -1022,6 +1077,7 @@ creation_date: 2013-08-30T15:38:25Z
 id: DC:0000131
 name: Short-Rib Thoracic Dysplasia
 comment: OMIM phenotypic series 208500. Series name change in OMIM 2/17/14.
+xref: PS:208500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:39:28Z
@@ -1030,6 +1086,7 @@ creation_date: 2013-08-30T15:39:28Z
 id: DC:0000132
 name: Emery-Dreifuss Muscular Dystrophy
 comment: OMIM series 310300.
+xref: PS:310300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T15:43:41Z
@@ -1046,6 +1103,7 @@ creation_date: 2013-08-30T16:03:45Z
 id: DC:0000134
 name: Liver Failure, Infantile
 comment: OMIM series 615438. Plus one non-syndrome. OMIM series covers only syndromes but I left off "syndrome" from the series name (smb).
+xref: PS:615438
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-11-18T13:32:10Z
@@ -1068,6 +1126,7 @@ creation_date: 2013-08-30T16:07:44Z
 id: DC:0000137
 name: Epileptic Encephalopathy, Early Infantile
 comment: OMIM series 308350.
+xref: PS:308350
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:08:45Z
@@ -1082,6 +1141,7 @@ creation_date: 2013-09-17T14:32:14Z
 id: DC:0000139
 name: Epiphyseal Dysplasia, Multiple
 comment: OMIM series 132400.
+xref: PS:132400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:16:50Z
@@ -1090,6 +1150,7 @@ creation_date: 2013-08-30T16:16:50Z
 id: DC:0000140
 name: Episodic Ataxia
 comment: OMIM series 160120.
+xref: PS:160120
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:17:35Z
@@ -1098,6 +1159,7 @@ creation_date: 2013-08-30T16:17:35Z
 id: DC:0000141
 name: Erythrocytosis, Familial
 comment: OMIM series 133100.
+xref: PS:133100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:19:18Z
@@ -1121,6 +1183,7 @@ creation_date: 2013-08-30T16:21:46Z
 id: DC:0000144
 name: Exudative Vitreoretinopathy
 comment: OMIM series 133780.
+xref: PS:133780
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:23:10Z
@@ -1137,6 +1200,7 @@ creation_date: 2013-08-30T16:25:11Z
 id: DC:0000146
 name: Familial Cold Autoinflammatory Syndrome
 comment: OMIM series 120100.
+xref: PS:120100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:30:26Z
@@ -1145,6 +1209,7 @@ creation_date: 2013-08-30T16:30:26Z
 id: DC:0000147
 name: Fanconi Anemia
 comment: OMIM series 227650.
+xref: PS:227650
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:33:05Z
@@ -1153,6 +1218,7 @@ creation_date: 2013-08-30T16:33:05Z
 id: DC:0000148
 name: Fanconi Renotubular Syndrome
 comment: OMIM series 134600.
+xref: PS:134600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:34:42Z
@@ -1168,6 +1234,7 @@ creation_date: 2013-08-30T16:35:51Z
 id: DC:0000150
 name: Epilepsy, Familial Temporal Lobe
 comment: OMIM series 600512.
+xref: PS:600512
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:37:20Z
@@ -1176,6 +1243,7 @@ creation_date: 2013-08-30T16:37:20Z
 id: DC:0000151
 name: Epilepsy, Hot Water
 comment: OMIM series 613339.
+xref: PS:613339
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:38:11Z
@@ -1199,6 +1267,7 @@ creation_date: 2013-10-02T13:42:59Z
 id: DC:0000154
 name: Epilepsy, Nocturnal Frontal Lobe
 comment: OMIM series 600513.
+xref: PS:600513
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-08-30T16:44:54Z
@@ -1238,6 +1307,7 @@ creation_date: 2013-09-03T15:51:22Z
 id: DC:0000159
 name: Febrile Seizures, Familial
 comment: OMIM series 121210.
+xref: PS:121210
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-03T15:53:07Z
@@ -1246,6 +1316,7 @@ creation_date: 2013-09-03T15:53:07Z
 id: DC:0000160
 name: Epilepsy, Generalized, with Febrile Seizures Plus
 comment: OMIM series 604233.
+xref: PS:604233
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-03T15:57:20Z
@@ -1261,6 +1332,7 @@ creation_date: 2013-09-03T16:04:12Z
 id: DC:0000162
 name: Gingival Fibromatosis
 comment: OMIM series 135300.
+xref: PS:135300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-03T16:23:18Z
@@ -1277,6 +1349,7 @@ creation_date: 2013-09-03T16:25:05Z
 id: DC:0000164
 name: Focal Segmental Glomerulosclerosis
 comment: OMIM series 603278.
+xref: PS:603278
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-03T16:26:24Z
@@ -1293,6 +1366,7 @@ creation_date: 2013-09-04T11:32:43Z
 id: DC:0000166
 name: Frontonasal Dysplasia
 comment: OMIM series 136760.
+xref: PS:136760
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T11:34:18Z
@@ -1316,6 +1390,7 @@ creation_date: 2013-09-04T11:37:36Z
 id: DC:0000169
 name: Gallbladder Disease
 comment: OMIM series 600803.
+xref: PS:600803
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T11:39:09Z
@@ -1356,6 +1431,7 @@ creation_date: 2013-09-04T11:46:31Z
 id: DC:0000174
 name: Glomerulopathy with Fibronectin Deposits
 comment: OMIM series 137950.
+xref: PS:137950
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T11:47:37Z
@@ -1379,6 +1455,7 @@ creation_date: 2013-09-04T11:49:56Z
 id: DC:0000177
 name: Goiter, Multinodular
 comment: OMIM series 138800.
+xref: PS:138800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T11:54:05Z
@@ -1395,6 +1472,7 @@ creation_date: 2013-09-04T11:55:10Z
 id: DC:0000179
 name: Cowden Disease
 comment: OMIM series 158350.
+xref: PS:158350
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T14:10:36Z
@@ -1403,6 +1481,7 @@ creation_date: 2013-09-04T14:10:36Z
 id: DC:0000180
 name: Hemochromatosis
 comment: OMIM series 235200.
+xref: PS:235200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T14:21:29Z
@@ -1418,6 +1497,7 @@ creation_date: 2013-09-04T14:23:02Z
 id: DC:0000182
 name: Hemolytic Uremic Syndrome
 comment: OMIM series 235400.
+xref: PS:235400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T14:24:17Z
@@ -1442,6 +1522,7 @@ creation_date: 2013-09-04T14:29:21Z
 id: DC:0000185
 name: Hirschsprung Disease
 comment: OMIM series 142623.
+xref: PS:142623
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T14:32:41Z
@@ -1465,6 +1546,7 @@ creation_date: 2013-09-04T14:48:31Z
 id: DC:0000188
 name: Holoprosencephaly
 comment: OMIM series 236100.
+xref: PS:236100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T14:49:47Z
@@ -1526,6 +1608,7 @@ creation_date: 2013-09-04T17:26:35Z
 id: DC:0000196
 name: Bile Acid Synthesis Defect, Congenital
 comment: OMIM series 607765.
+xref: PS:607765
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T17:27:36Z
@@ -1534,6 +1617,7 @@ creation_date: 2013-09-04T17:27:36Z
 id: DC:0000197
 name: Hyperinsulinemic Hypoglycemia
 comment: OMIM series 256450.
+xref: PS:256450
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T17:29:42Z
@@ -1580,6 +1664,7 @@ creation_date: 2013-09-04T17:41:47Z
 id: DC:0000203
 name: Hyperphosphatasia with Mental Retardation Syndrome
 comment: OMIM series 239300.
+xref: PS:239300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T17:43:22Z
@@ -1626,6 +1711,7 @@ creation_date: 2013-09-04T17:48:41Z
 id: DC:0000209
 name: Hypocalciuric Hypercalcemia
 comment: OMIM series 145980.
+xref: PS:145980
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T17:59:52Z
@@ -1634,6 +1720,7 @@ creation_date: 2013-09-04T17:59:52Z
 id: DC:0000210
 name: Hypogonadotropic Hypogonadism
 comment: OMIM series 147950.
+xref: PS:147950
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T18:01:08Z
@@ -1650,6 +1737,7 @@ creation_date: 2013-09-04T18:02:13Z
 id: DC:0000212
 name: Hypomagnesemia
 comment: OMIM series 602014.
+xref: PS:602014
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T18:02:52Z
@@ -1682,6 +1770,7 @@ creation_date: 2013-09-04T18:05:01Z
 id: DC:0000216
 name: Hypospadias
 comment: OMIM series 300633.
+xref: PS:300633
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T18:06:26Z
@@ -1690,6 +1779,7 @@ creation_date: 2013-09-04T18:06:26Z
 id: DC:0000217
 name: Hypothyroidism, Congenital, Nongoitrous
 comment: OMIM series 275200.
+xref: PS:275200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T18:07:21Z
@@ -1698,6 +1788,7 @@ creation_date: 2013-09-04T18:07:21Z
 id: DC:0000218
 name: Hypotrichosis
 comment: OMIM series 605389.
+xref: PS:605389
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-04T18:07:59Z
@@ -1729,6 +1820,7 @@ creation_date: 2013-09-05T10:24:49Z
 id: DC:0000222
 name: Immunodeficiency with Hyper-IgM
 comment: OMIM series 308230.
+xref: PS:308230
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T10:25:58Z
@@ -1752,6 +1844,7 @@ creation_date: 2013-09-05T10:30:27Z
 id: DC:0000225
 name: Inflammatory Bowel Disease
 comment: OMIM series 266600.
+xref: PS:266600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T10:31:46Z
@@ -1767,6 +1860,7 @@ creation_date: 2013-09-05T10:32:50Z
 id: DC:0000227
 name: Invasive Pneumococcal Disease, Recurrent Isolated
 comment: OMIM series 610799.
+xref: PS:610799
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T10:37:05Z
@@ -1799,6 +1893,7 @@ creation_date: 2013-09-05T10:49:54Z
 id: DC:0000231
 name: Joubert Syndrome
 comment: OMIM series 213300.
+xref: PS:213300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T10:51:52Z
@@ -1807,6 +1902,7 @@ creation_date: 2013-09-05T10:51:52Z
 id: DC:0000232
 name: Keratoconus
 comment: OMIM series 148300.
+xref: PS:148300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T10:58:33Z
@@ -1830,6 +1926,7 @@ creation_date: 2013-09-05T11:00:11Z
 id: DC:0000235
 name: Klippel-Feil Syndrome
 comment: OMIM series 118100.
+xref: PS:118100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:01:14Z
@@ -1838,6 +1935,7 @@ creation_date: 2013-09-05T11:01:14Z
 id: DC:0000236
 name: 3MC Syndrome
 comment: OMIM series 257920.
+xref: PS:257920
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T14:55:33Z
@@ -1846,6 +1944,7 @@ creation_date: 2013-10-03T14:55:33Z
 id: DC:0000237
 name: Left Ventricular Noncompaction
 comment: OMIM series 604169.
+xref: PS:604169
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:08:25Z
@@ -1862,6 +1961,7 @@ creation_date: 2013-09-05T11:10:09Z
 id: DC:0000239
 name: LEOPARD Syndrome
 comment: OMIM series 151100.
+xref: PS:151100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:12:25Z
@@ -1878,6 +1978,7 @@ creation_date: 2013-09-05T11:13:52Z
 id: DC:0000241
 name: Lethal Congenital Contractural Syndrome
 comment: OMIM series 253310.
+xref: PS:253310
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:15:43Z
@@ -1908,6 +2009,7 @@ creation_date: 2013-09-05T11:23:39Z
 id: DC:0000245
 name: Leukodystrophy, Hypomyelinating
 comment: OMIM series 312080.
+xref: PS:312080
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:25:54Z
@@ -1938,6 +2040,7 @@ creation_date: 2013-09-05T11:35:00Z
 id: DC:0000249
 name: Li-Fraumeni Syndrome
 comment: OMIM series 151623.
+xref: PS:151623
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:36:06Z
@@ -1946,6 +2049,8 @@ creation_date: 2013-09-05T11:36:06Z
 id: DC:0000250
 name: Muscular Dystrophy, Limb-Girdle
 comment: OMIM series 253600 (autosomal recessive) and 159000 (autosomal dominant).
+xref: PS:159000
+xref: PS:253600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:37:24Z
@@ -1954,6 +2059,7 @@ creation_date: 2013-09-05T11:37:24Z
 id: DC:0000251
 name: Lipodystrophy, Congenital Generalized
 comment: OMIM series 608594.
+xref: PS:608594
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:47:54Z
@@ -1962,6 +2068,7 @@ creation_date: 2013-09-05T11:47:54Z
 id: DC:0000252
 name: Lipodystrophy, Familial Partial
 comment: OMIM series 151660.
+xref: PS:151660
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:48:46Z
@@ -1970,6 +2077,7 @@ creation_date: 2013-09-05T11:48:46Z
 id: DC:0000253
 name: Lissencephaly
 comment: OMIM series 607432.
+xref: PS:607432
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:50:17Z
@@ -1978,6 +2086,7 @@ creation_date: 2013-09-05T11:50:17Z
 id: DC:0000254
 name: Liver Cirrhosis, Biliary
 comment: OMIM series 109720.
+xref: PS:109720
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T11:51:03Z
@@ -1986,6 +2095,7 @@ creation_date: 2013-09-05T11:51:03Z
 id: DC:0000255
 name: Loeys-Dietz Syndrome
 comment: OMIM series 609192.
+xref: PS:609192
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T12:18:55Z
@@ -1994,6 +2104,7 @@ creation_date: 2013-09-05T12:18:55Z
 id: DC:0000256
 name: Long QT Syndrome
 comment: OMIM series 192500.
+xref: PS:192500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T12:22:20Z
@@ -2018,6 +2129,7 @@ creation_date: 2013-09-05T13:06:29Z
 id: DC:0000259
 name: Lymphoproliferative Syndrome
 comment: OMIM series 308240.
+xref: PS:308240
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:14:38Z
@@ -2041,6 +2153,7 @@ creation_date: 2013-09-05T13:22:28Z
 id: DC:0000262
 name: Macular Degeneration, Age-Related
 comment: OMIM series 603075.
+xref: PS:603075
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:23:42Z
@@ -2072,6 +2185,7 @@ creation_date: 2013-09-05T13:29:44Z
 id: DC:0000266
 name: Malignant Hyperthermia
 comment: OMIM series 145600.
+xref: PS:145600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:31:19Z
@@ -2080,6 +2194,7 @@ creation_date: 2013-09-05T13:31:19Z
 id: DC:0000267
 name: Mandibuloacral Dysplasia with Lipodystrophy
 comment: OMIM series 248370.
+xref: PS:248370
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:32:13Z
@@ -2103,6 +2218,7 @@ creation_date: 2013-09-05T13:43:46Z
 id: DC:0000270
 name: Meier-Gorlin Syndrome
 comment: OMIM series 224690.
+xref: PS:224690
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:45:55Z
@@ -2111,6 +2227,7 @@ creation_date: 2013-09-05T13:45:55Z
 id: DC:0000271
 name: Melanoma, Cutaneous Malignant
 comment: OMIM series 155600.
+xref: PS:155600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:51:07Z
@@ -2127,6 +2244,7 @@ creation_date: 2013-09-06T14:42:55Z
 id: DC:0000273
 name: Mental Retardation, X-Linked, Syndromic
 comment: OMIM series 309510.
+xref: PS:309510
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-06T14:44:10Z
@@ -2158,6 +2276,7 @@ creation_date: 2013-09-06T15:10:36Z
 id: DC:0000277
 name: Microcephaly, Primary, Autosomal Recessive
 comment: OMIM series 251200.
+xref: PS:251200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-06T15:11:27Z
@@ -2166,6 +2285,7 @@ creation_date: 2013-09-06T15:11:27Z
 id: DC:0000278
 name: Microphthalmia, Isolated
 comment: OMIM series 251600.
+xref: PS:251600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-06T15:12:56Z
@@ -2174,6 +2294,7 @@ creation_date: 2013-09-06T15:12:56Z
 id: DC:0000279
 name: Molybdenum Cofactor Deficiency
 comment: OMIM series 252150.
+xref: PS:252150
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-11-18T13:36:42Z
@@ -2189,6 +2310,7 @@ creation_date: 2013-09-06T15:14:27Z
 id: DC:0000281
 name: Microvascular Complications of Diabetes, Susceptibility
 comment: OMIM series 603933.
+xref: PS:603933
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-06T15:16:54Z
@@ -2211,6 +2333,7 @@ creation_date: 2013-09-06T15:20:42Z
 id: DC:0000284
 name: Mitochondrial DNA Depletion Syndrome
 comment: OMIM series 603041.
+xref: PS:603041
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-06T15:22:32Z
@@ -2226,6 +2349,7 @@ creation_date: 2013-09-06T16:23:58Z
 id: DC:0000286
 name: Mitral Valve Prolapse
 comment: OMIM series 157700. Series is labeled "Mitral valve prolapse, myxomatous" in OMIM but I dropped "myxomatous" as the OMIM term 157700 has MYXOMATOUS MITRAL VALVE PROLAPSE 1 as an included entity (smb).
+xref: PS:157700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:02:03Z
@@ -2241,6 +2365,7 @@ creation_date: 2013-09-09T14:02:57Z
 id: DC:0000288
 name: Moyamoya Disease
 comment: OMIM series 252350.
+xref: PS:252350
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:04:08Z
@@ -2256,6 +2381,7 @@ creation_date: 2013-09-09T14:05:11Z
 id: DC:0000290
 name: Mucopolysaccharidosis
 comment: OMIM series 607014.
+xref: PS:607014
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:05:58Z
@@ -2264,6 +2390,7 @@ creation_date: 2013-09-09T14:05:58Z
 id: DC:0000291
 name: Multiple Endocrine Neoplasia
 comment: OMIM series 131100.
+xref: PS:131100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:08:30Z
@@ -2279,6 +2406,7 @@ creation_date: 2013-09-09T14:09:17Z
 id: DC:0000293
 name: Multiple Sclerosis
 comment: OMIM series 126200.
+xref: PS:126200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:10:54Z
@@ -2287,6 +2415,7 @@ creation_date: 2013-09-09T14:10:54Z
 id: DC:0000294
 name: Multiple Synostoses Syndrome
 comment: OMIM series 186500.
+xref: PS:186500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:13:52Z
@@ -2338,6 +2467,7 @@ creation_date: 2013-09-09T14:32:56Z
 id: DC:0000301
 name: Myopathy, Centronuclear
 comment: OMIM series 160150.
+xref: PS:160150
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:46:11Z
@@ -2367,6 +2497,7 @@ creation_date: 2013-09-09T14:49:35Z
 id: DC:0000305
 name: Myopathy, Myofibrillar
 comment: OMIM series 601419.
+xref: PS:601419
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:51:15Z
@@ -2382,6 +2513,7 @@ creation_date: 2013-09-09T14:52:47Z
 id: DC:0000307
 name: Myopia
 comment: OMIM series 160700.
+xref: PS:160700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:53:27Z
@@ -2403,7 +2535,8 @@ creation_date: 2013-09-09T14:58:51Z
 [Term]
 id: DC:0000310
 name: Nail Disorder, Nonsyndromic Congenital
-comment: OMIM series 161050. Oddly many of the diseases with the disease title of Nail Disorder, Nonsyndromic Congenital are not included in the OMIM series list, including #1 which has the same ID as the series.
+comment: OMIM series 161050. Oddly many of the diseases with the disease title of Nail Disorder, Nonsyndromic Congenital are not included in the OMIM series list, including #1 which has the same ID as the series. #1 is now part of the series (2/13/15).
+xref: PS:161050
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:00:15Z
@@ -2420,6 +2553,7 @@ creation_date: 2013-09-09T15:10:19Z
 id: DC:0000312
 name: Narcolepsy
 comment: OMIM series 161400.
+xref: PS:161400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:11:22Z
@@ -2436,6 +2570,7 @@ creation_date: 2013-09-09T15:13:13Z
 id: DC:0000314
 name: Nemaline Myopathy
 comment: OMIM series 161800.
+xref: PS:161800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:14:18Z
@@ -2452,6 +2587,7 @@ creation_date: 2013-09-09T15:16:50Z
 id: DC:0000316
 name: Nephronophthisis
 comment: OMIM series 256100.
+xref: PS:256100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:23:35Z
@@ -2460,6 +2596,7 @@ creation_date: 2013-09-09T15:23:35Z
 id: DC:0000317
 name: Nephrotic Syndrome
 comment: OMIM series 256300.
+xref: PS:256300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:27:39Z
@@ -2484,6 +2621,7 @@ creation_date: 2013-09-09T15:31:25Z
 id: DC:0000320
 name: Neurodegeneration with Brain Iron Accumulation
 comment: OMIM series 234200.
+xref: PS:234200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:33:21Z
@@ -2508,6 +2646,7 @@ creation_date: 2013-09-09T15:47:16Z
 id: DC:0000323
 name: Neuropathy, Hereditary Sensory and Autonomic
 comment: OMIM series 162400.
+xref: PS:162400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:48:17Z
@@ -2516,6 +2655,7 @@ creation_date: 2013-09-09T15:48:17Z
 id: DC:0000324
 name: Neutropenia, Severe Congenital
 comment: OMIM series 202700.
+xref: PS:202700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:49:20Z
@@ -2532,6 +2672,7 @@ creation_date: 2013-09-09T15:50:22Z
 id: DC:0000326
 name: Night Blindness, Congenital Stationary
 comment: OMIM series 310500.
+xref: PS:310500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:51:07Z
@@ -2540,6 +2681,7 @@ creation_date: 2013-09-09T15:51:07Z
 id: DC:0000327
 name: Noonan Syndrome
 comment: OMIM series 163950.
+xref: PS:163950
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:51:54Z
@@ -2548,6 +2690,7 @@ creation_date: 2013-09-09T15:51:54Z
 id: DC:0000328
 name: Nystagmus
 comment: OMIM series 310700.
+xref: PS:310700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T15:54:55Z
@@ -2556,6 +2699,7 @@ creation_date: 2013-09-09T15:54:55Z
 id: DC:0000329
 name: Albinism, Oculocutaneous
 comment: OMIM series 203100.
+xref: PS:203100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T16:00:50Z
@@ -2587,6 +2731,7 @@ creation_date: 2013-09-09T16:08:14Z
 id: DC:0000333
 name: Optic Atrophy
 comment: OMIM series 165500.
+xref: PS:165500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T16:08:49Z
@@ -2595,6 +2740,7 @@ creation_date: 2013-09-09T16:08:49Z
 id: DC:0000334
 name: Orofacial Cleft
 comment: OMIM series 119530.
+xref: PS:119530
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T16:10:14Z
@@ -2626,6 +2772,7 @@ creation_date: 2013-09-11T14:00:54Z
 id: DC:0000338
 name: Osteogenesis Imperfecta
 comment: OMIM series 166200.
+xref: PS:166200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T14:02:04Z
@@ -2642,6 +2789,8 @@ creation_date: 2013-09-11T14:07:52Z
 id: DC:0000340
 name: Osteopetrosis
 comment: OMIM series 259700 (recessive) and 607634 (dominant).
+xref: PS:259700
+xref: PS:607634
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T14:09:57Z
@@ -2650,6 +2799,7 @@ creation_date: 2013-09-11T14:09:57Z
 id: DC:0000341
 name: Nephrolithiasis/Osteoporosis, Hypophosphatemic
 comment: OMIM series 612286.
+xref: PS:612286
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T14:10:44Z
@@ -2666,6 +2816,7 @@ creation_date: 2013-09-11T14:17:12Z
 id: DC:0000343
 name: Otosclerosis
 comment: OMIM series 166800.
+xref: PS:166800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T14:17:57Z
@@ -2682,6 +2833,7 @@ creation_date: 2013-09-11T14:21:07Z
 id: DC:0000345
 name: Ovarian Dysgenesis
 comment: OMIM series 233300.
+xref: PS:233300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:10:00Z
@@ -2690,6 +2842,7 @@ creation_date: 2013-09-11T16:10:00Z
 id: DC:0000346
 name: Pachyonychia Congenita
 comment: OMIM series 167200.
+xref: PS:167200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:11:34Z
@@ -2714,6 +2867,7 @@ creation_date: 2013-09-11T16:14:34Z
 id: DC:0000349
 name: Paragangliomas
 comment: OMIM series 168000.
+xref: PS:168000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:16:19Z
@@ -2730,6 +2884,7 @@ creation_date: 2013-09-11T16:17:25Z
 id: DC:0000351
 name: Parkinson Disease
 comment: OMIM series 168600.
+xref: PS:168600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:18:36Z
@@ -2738,6 +2893,7 @@ creation_date: 2013-09-11T16:18:36Z
 id: DC:0000352
 name: Acrodysostosis
 comment: OMIM series 101800.
+xref: PS:101800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T15:01:56Z
@@ -2762,6 +2918,7 @@ creation_date: 2013-09-11T16:24:24Z
 id: DC:0000355
 name: Photoparoxysmal Response
 comment: OMIM series 132100.
+xref: PS:132100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:25:56Z
@@ -2786,6 +2943,7 @@ creation_date: 2013-09-11T16:31:20Z
 id: DC:0000358
 name: Pituitary Hormone Deficiency, Combined
 comment: OMIM series 613038.
+xref: PS:613038
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:32:06Z
@@ -2802,6 +2960,7 @@ creation_date: 2013-09-11T16:33:49Z
 id: DC:0000360
 name: Meckel Syndrome
 comment: OMIM series 249000.
+xref: PS:249000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:35:18Z
@@ -2832,6 +2991,7 @@ creation_date: 2013-09-11T16:40:39Z
 id: DC:0000364
 name: Pontocerebellar Hypoplasia
 comment: OMIM series 607596.
+xref: PS:607596
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:41:28Z
@@ -2840,6 +3000,7 @@ creation_date: 2013-09-11T16:41:28Z
 id: DC:0000365
 name: Porokeratosis
 comment: OMIM series 175800.
+xref: PS:175800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:42:42Z
@@ -2855,6 +3016,7 @@ creation_date: 2013-09-11T16:45:54Z
 id: DC:0000367
 name: Precocious Puberty
 comment: OMIM series 176400.
+xref: PS:176400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:54:59Z
@@ -2871,6 +3033,7 @@ creation_date: 2013-09-11T16:56:41Z
 id: DC:0000369
 name: Preeclampsia/Eclampsia
 comment: OMIM series 189800.
+xref: PS:189800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T16:58:46Z
@@ -2894,6 +3057,7 @@ creation_date: 2013-09-11T17:02:21Z
 id: DC:0000372
 name: Primary Hyperoxaluria
 comment: OMIM series 259900.
+xref: PS:259900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:03:57Z
@@ -2902,6 +3066,7 @@ creation_date: 2013-09-11T17:03:57Z
 id: DC:0000373
 name: Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions
 comment: OMIM series 157640.
+xref: PS:157640
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:04:44Z
@@ -2910,6 +3075,7 @@ creation_date: 2013-09-11T17:04:44Z
 id: DC:0000374
 name: Progressive Familial Heart Block
 comment: OMIM series 113900.
+xref: PS:113900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:05:20Z
@@ -2933,6 +3099,7 @@ creation_date: 2013-09-11T17:10:54Z
 id: DC:0000377
 name: Pseudohypoaldosteronism
 comment: Includes OMIM series 145260.
+xref: PS:145260
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:12:35Z
@@ -2941,6 +3108,7 @@ creation_date: 2013-09-11T17:12:35Z
 id: DC:0000378
 name: Psoriasis
 comment: OMIM series 177900.
+xref: PS:177900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:14:36Z
@@ -2965,6 +3133,7 @@ creation_date: 2013-09-11T17:16:42Z
 id: DC:0000381
 name: Pyloric Stenosis, Infantile
 comment: OMIM series 179010.
+xref: PS:179010
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:18:11Z
@@ -2973,6 +3142,7 @@ creation_date: 2013-09-11T17:18:11Z
 id: DC:0000382
 name: Pyruvate Dehydrogenase Complex Deficiency
 comment: OMIM series 312170.
+xref: PS:312170
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-11T17:21:12Z
@@ -2996,6 +3166,7 @@ creation_date: 2013-09-12T11:44:26Z
 id: DC:0000385
 name: Restless Legs Syndrome
 comment: OMIM series 102300.
+xref: PS:102300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T11:47:05Z
@@ -3004,6 +3175,7 @@ creation_date: 2013-09-12T11:47:05Z
 id: DC:0000386
 name: Retinitis Pigmentosa
 comment: OMIM series 268000.
+xref: PS:268000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T11:51:12Z
@@ -3051,6 +3223,7 @@ creation_date: 2013-09-12T12:35:03Z
 id: DC:0000392
 name: Rhizomelic Chondrodysplasia Punctata
 comment: OMIM series 215100.
+xref: PS:215100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T12:36:02Z
@@ -3067,6 +3240,7 @@ creation_date: 2013-09-12T12:37:25Z
 id: DC:0000394
 name: Rubinstein-Taybi Syndrome
 comment: OMIM series 180849.
+xref: PS:180849
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T12:43:32Z
@@ -3120,6 +3294,7 @@ creation_date: 2013-09-12T13:00:51Z
 id: DC:0000401
 name: Seckel Syndrome
 comment: OMIM series 210600.
+xref: PS:210600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T13:02:26Z
@@ -3128,6 +3303,7 @@ creation_date: 2013-09-12T13:02:26Z
 id: DC:0000402
 name: Seizures, Benign Familial Neonatal
 comment: OMIM series 121200.
+xref: PS:121200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T13:03:27Z
@@ -3144,6 +3320,7 @@ creation_date: 2013-09-12T13:04:35Z
 id: DC:0000404
 name: Spermatogenic Failure
 comment: OMIM series 258150.
+xref: PS:258150
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-12T13:05:51Z
@@ -3167,6 +3344,7 @@ creation_date: 2013-09-13T10:08:18Z
 id: DC:0000407
 name: Sick Sinus Syndrome
 comment: OMIM series 608567.
+xref: PS:608567
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T10:09:41Z
@@ -3183,6 +3361,7 @@ creation_date: 2013-09-13T10:10:21Z
 id: DC:0000409
 name: Spastic Ataxia
 comment: OMIM series 108600.
+xref: PS:108600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T10:13:22Z
@@ -3191,6 +3370,7 @@ creation_date: 2013-09-13T10:13:22Z
 id: DC:0000410
 name: Spastic Paraplegia
 comment: OMIM series 303350.
+xref: PS:303350
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T10:15:14Z
@@ -3199,6 +3379,7 @@ creation_date: 2013-09-13T10:15:14Z
 id: DC:0000411
 name: Specific Language Impairment
 comment: OMIM series 606711.
+xref: PS:606711
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T13:48:15Z
@@ -3222,6 +3403,7 @@ creation_date: 2013-09-13T13:51:48Z
 id: DC:0000414
 name: Spinocerebellar Ataxia
 comment: OMIM series 164400. The OMIM series does not include the recessive or X-linked terms but I've included them here. smb.
+xref: PS:164400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T13:52:58Z
@@ -3237,6 +3419,7 @@ creation_date: 2013-09-13T15:57:29Z
 id: DC:0000416
 name: Split-Hand/Foot Malformation
 comment: OMIM series 183600.
+xref: PS:183600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T16:03:56Z
@@ -3245,6 +3428,7 @@ creation_date: 2013-09-13T16:03:56Z
 id: DC:0000417
 name: Spondyloarthropathy
 comment: OMIM series 106300.
+xref: PS:106300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T16:06:18Z
@@ -3253,6 +3437,7 @@ creation_date: 2013-09-13T16:06:18Z
 id: DC:0000418
 name: Spondylocostal Dysostosis
 comment: OMIM series 277300.
+xref: PS:277300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T16:07:30Z
@@ -3283,6 +3468,7 @@ creation_date: 2013-09-13T16:35:10Z
 id: DC:0000422
 name: Stickler Syndrome
 comment: OMIM series 108300.
+xref: PS:108300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T16:35:47Z
@@ -3291,6 +3477,7 @@ creation_date: 2013-09-13T16:35:47Z
 id: DC:0000423
 name: Stuttering, Familial Persistent
 comment: OMIM series 184450.
+xref: PS:184450
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T16:36:57Z
@@ -3314,6 +3501,7 @@ creation_date: 2013-09-13T16:39:26Z
 id: DC:0000426
 name: Pulmonary Surfactant Metabolism Dysfunction
 comment: OMIM series 265120.
+xref: PS:265120
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-13T16:52:16Z
@@ -3366,6 +3554,7 @@ creation_date: 2013-09-16T13:07:32Z
 id: DC:0000433
 name: Thrombocythemia
 comment: OMIM series 187950.
+xref: PS:187950
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T13:08:16Z
@@ -3414,6 +3603,7 @@ creation_date: 2013-09-16T13:12:45Z
 id: DC:0000439
 name: Tooth Agenesis, Selective
 comment: OMIM series 106600.
+xref: PS:106600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T13:14:11Z
@@ -3422,6 +3612,7 @@ creation_date: 2013-09-16T13:14:11Z
 id: DC:0000440
 name: Treacher Collins Syndrome
 comment: OMIM series 154500.
+xref: PS:154500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T13:15:24Z
@@ -3476,6 +3667,7 @@ creation_date: 2013-09-16T13:26:06Z
 id: DC:0000447
 name: Usher Syndrome
 comment: OMIM series 276900.
+xref: PS:276900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T14:09:20Z
@@ -3522,6 +3714,7 @@ creation_date: 2013-09-16T14:23:19Z
 id: DC:0000453
 name: Vesicoureteral Reflux
 comment: OMIM series 193000.
+xref: PS:193000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T14:24:00Z
@@ -3546,6 +3739,7 @@ creation_date: 2013-09-16T14:33:23Z
 id: DC:0000456
 name: Waardenburg Syndrome
 comment: OMIM series 193500.
+xref: PS:193500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T14:33:54Z
@@ -3553,7 +3747,7 @@ creation_date: 2013-09-16T14:33:54Z
 [Term]
 id: DC:0000457
 name: Wilms Tumor
-comment: OMIM 194070 lists 194071, 194090, 601363, and 601583 as other loci assciated with this disease.
+comment: OMIM 194070 lists 194071, 194090, 601363, and 601583 as other loci associated with this disease.
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T15:29:04Z
@@ -3592,6 +3786,7 @@ creation_date: 2013-09-16T15:35:31Z
 id: DC:0000462
 name: UV-Sensitive Syndrome
 comment: OMIM series 600630.
+xref: PS:600630
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-16T15:37:50Z
@@ -3621,6 +3816,7 @@ creation_date: 2013-10-03T15:05:58Z
 id: DC:0000466
 name: Adams Oliver Syndrome
 comment: OMIM series 100300.
+xref: PS:100300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T15:07:53Z
@@ -3629,6 +3825,7 @@ creation_date: 2013-10-03T15:07:53Z
 id: DC:0000467
 name: Advanced Sleep-Phase Syndrome
 comment: OMIM series 604348.
+xref: PS:604348
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T15:10:19Z
@@ -3644,6 +3841,7 @@ creation_date: 2013-10-03T15:18:09Z
 id: DC:0000469
 name: Anemia, Hypochromic Microcytic with Iron Overload
 comment: OMIM series 206100.
+xref: PS:206100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T15:25:00Z
@@ -3673,6 +3871,7 @@ creation_date: 2013-10-03T15:37:27Z
 id: DC:0000473
 name: Arterial Calcification, Generalized, of Infancy
 comment: OMIM series 208000.
+xref: PS:208000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T15:40:36Z
@@ -3688,6 +3887,7 @@ creation_date: 2013-10-03T15:42:11Z
 id: DC:0000475
 name: Auriculocondylar Syndrome
 comment: OMIM series 602483.
+xref: PS:602483
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T16:09:56Z
@@ -3703,6 +3903,7 @@ creation_date: 2013-10-03T17:13:40Z
 id: DC:0000477
 name: Baraitser-Winter Syndrome
 comment: OMIM series 243310.
+xref: PS:243310
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T17:15:44Z
@@ -3711,6 +3912,7 @@ creation_date: 2013-10-03T17:15:44Z
 id: DC:0000478
 name: Basal Ganglia Calcification, Idiopathic
 comment: OMIM series 213600.
+xref: PS:213600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-03T17:17:29Z
@@ -3726,6 +3928,7 @@ creation_date: 2013-10-03T17:21:19Z
 id: DC:0000480
 name: Alternating Hemiplegia of Childhood
 comment: OMIM series 104290.
+xref: PS:104290
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T10:41:49Z
@@ -3734,6 +3937,7 @@ creation_date: 2013-10-04T10:41:49Z
 id: DC:0000481
 name: Aortic Valve Disease
 comment: OMIM series 109730.
+xref: PS:109730
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T10:44:51Z
@@ -3756,6 +3960,7 @@ creation_date: 2013-10-04T13:32:34Z
 id: DC:0000484
 name: Brittle Cornea Syndrome
 comment: OMIM series 229200.
+xref: PS:229200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T13:38:46Z
@@ -3764,6 +3969,7 @@ creation_date: 2013-10-04T13:38:46Z
 id: DC:0000485
 name: Brown-Vialetto-Van Laere Syndrome
 comment: OMIM series 211530.
+xref: PS:211530
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T13:40:15Z
@@ -3794,6 +4000,7 @@ creation_date: 2013-10-04T13:56:33Z
 id: DC:0000489
 name: Cardiofaciocutaneous Syndrome
 comment: OMIM series 115150.
+xref: PS:115150
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T13:57:57Z
@@ -3802,6 +4009,7 @@ creation_date: 2013-10-04T13:57:57Z
 id: DC:0000490
 name: Cerebellar Ataxia, Mental Retardation, and Dysequilibrium Syndrome
 comment: OMIM series 224050.
+xref: PS:224050
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T14:24:28Z
@@ -3825,6 +4033,7 @@ creation_date: 2013-10-04T14:35:00Z
 id: DC:0000493
 name: Chilblain Lupus
 comment: OMIM series 610448.
+xref: PS:610448
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T14:36:17Z
@@ -3847,6 +4056,7 @@ creation_date: 2013-10-04T14:44:37Z
 id: DC:0000496
 name: Coenzyme Q10 Deficiency, Primary
 comment: OMIM series 607426.
+xref: PS:607426
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T14:51:53Z
@@ -3863,6 +4073,7 @@ creation_date: 2013-10-04T14:57:29Z
 id: DC:0000498
 name: Cortical Dysplasia, Complex, with Other Brain Malformations
 comment: OMIM series 614039.
+xref: PS:614039
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T15:19:07Z
@@ -3879,6 +4090,7 @@ creation_date: 2013-10-04T15:42:35Z
 id: DC:0000500
 name: Cranioectodermal Dysplasia
 comment: OMIM series 218330.
+xref: PS:218330
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T15:49:14Z
@@ -3901,6 +4113,7 @@ creation_date: 2013-10-04T16:01:13Z
 id: DC:0000503
 name: Diarrhea, Congenital
 comment: OMIM series 214700.
+xref: PS:214700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T16:30:27Z
@@ -3909,6 +4122,7 @@ creation_date: 2013-10-04T16:30:27Z
 id: DC:0000504
 name: Reticulate Pigment Disorder
 comment: OMIM series 179850.
+xref: PS:179850
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-04T16:53:32Z
@@ -3997,6 +4211,7 @@ creation_date: 2013-10-09T11:59:33Z
 id: DC:0000516
 name: Facial Paresis, Hereditary Congenital
 comment: OMIM series 601471.
+xref: PS:601471
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T12:04:45Z
@@ -4021,6 +4236,7 @@ creation_date: 2013-10-09T12:11:25Z
 id: DC:0000519
 name: Fibrochondrogenesis
 comment: OMIM series 228520.
+xref: PS:228520
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T13:22:02Z
@@ -4036,6 +4252,7 @@ creation_date: 2013-10-09T13:23:22Z
 id: DC:0000521
 name: Focal Facial Dermal Dysplasia
 comment: OMIM series 136500.
+xref: PS:136500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T13:26:25Z
@@ -4059,6 +4276,7 @@ creation_date: 2013-10-09T13:32:30Z
 id: DC:0000524
 name: Geleophysic Dysplasia
 comment: OMIM series 231050.
+xref: PS:231050
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T13:34:02Z
@@ -4111,6 +4329,7 @@ creation_date: 2013-10-09T14:26:30Z
 id: DC:0000531
 name: Heterotaxy, Visceral
 comment: OMIM series 306955.
+xref: PS:306955
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T14:29:03Z
@@ -4142,6 +4361,7 @@ creation_date: 2013-10-09T14:40:27Z
 id: DC:0000535
 name: Hyperbilirubinemia
 comment: OMIM series 237450.
+xref: PS:237450
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T14:41:55Z
@@ -4188,6 +4408,7 @@ creation_date: 2013-10-09T14:54:41Z
 id: DC:0000541
 name: Hypocalcemia
 comment: OMIM series 601198.
+xref: PS:601198
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T14:58:21Z
@@ -4203,6 +4424,7 @@ creation_date: 2013-10-09T14:59:57Z
 id: DC:0000543
 name: Hypoplastic Left Heart Syndrome
 comment: OMIM series 241550.
+xref: PS:241550
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T15:03:32Z
@@ -4211,6 +4433,7 @@ creation_date: 2013-10-09T15:03:32Z
 id: DC:0000544
 name: Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome
 comment: OMIM series 242860.
+xref: PS:242860
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T15:08:32Z
@@ -4219,6 +4442,7 @@ creation_date: 2013-10-09T15:08:32Z
 id: DC:0000545
 name: Inclusion Body Myopathy with Early-Onset Paget Disease with or without Frontotemporal Dementia
 comment: OMIM series 167320.
+xref: PS:167320
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T15:09:51Z
@@ -4234,6 +4458,7 @@ creation_date: 2013-10-09T15:24:45Z
 id: DC:0000547
 name: Kabuki Syndrome
 comment: OMIM series 147920.
+xref: PS:147920
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T15:28:04Z
@@ -4242,6 +4467,7 @@ creation_date: 2013-10-09T15:28:04Z
 id: DC:0000548
 name: Kala-Azar, Susceptibility
 comment: OMIM series 608207.
+xref: PS:608207
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T15:30:18Z
@@ -4250,6 +4476,7 @@ creation_date: 2013-10-09T15:30:18Z
 id: DC:0000549
 name: Kenny-Caffey Syndrome
 comment: OMIM series 127000.
+xref: PS:127000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T15:31:57Z
@@ -4294,6 +4521,7 @@ creation_date: 2013-10-09T16:38:19Z
 id: DC:0000555
 name: Maple Syrup Urine Disease
 comment: OMIM series 248600.
+xref: PS:248600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T16:39:28Z
@@ -4302,6 +4530,7 @@ creation_date: 2013-10-09T16:39:28Z
 id: DC:0000556
 name: Leukoencephalopathy, Megalencephalic
 comment: OMIM series 604004.
+xref: PS:604004
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-09T16:42:41Z
@@ -4353,6 +4582,7 @@ creation_date: 2013-10-10T16:31:50Z
 id: DC:0000563
 name: Mirror Movements
 comment: OMIM series 157600.
+xref: PS:157600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-10T16:32:56Z
@@ -4361,6 +4591,7 @@ creation_date: 2013-10-10T16:32:56Z
 id: DC:0000564
 name: Mosaic Variegated Aneuploidy Syndrome
 comment: OMIM series 257300.
+xref: PS:257300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-10T16:40:35Z
@@ -4369,6 +4600,7 @@ creation_date: 2013-10-10T16:40:35Z
 id: DC:0000565
 name: Multiple Congenital Anomalies-Hypotonia-Seizures Syndrome
 comment: OMIM series 614080.
+xref: PS:614080
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-10T16:43:49Z
@@ -4377,6 +4609,7 @@ creation_date: 2013-10-10T16:43:49Z
 id: DC:0000566
 name: Multiple Mitochondrial Dysfunctions Syndrome
 comment: OMIM series 605711.
+xref: PS:605711
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-10T16:45:02Z
@@ -4385,6 +4618,7 @@ creation_date: 2013-10-10T16:45:02Z
 id: DC:0000567
 name: Myofibromatosis, Infantile
 comment: OMIM series 228550.
+xref: PS:228550
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-10T16:48:39Z
@@ -4445,6 +4679,7 @@ creation_date: 2013-10-11T16:08:00Z
 id: DC:0000575
 name: Paroxysmal Nocturnal Hemoglobinuria
 comment: OMIM series 300818.
+xref: PS:300818
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-11T16:14:10Z
@@ -4453,6 +4688,7 @@ creation_date: 2013-10-11T16:14:10Z
 id: DC:0000576
 name: Peroxisome Biogenesis Disorder
 comment: OMIM series 214100.
+xref: PS:214100
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-11T16:16:43Z
@@ -4461,6 +4697,7 @@ creation_date: 2013-10-11T16:16:43Z
 id: DC:0000577
 name: Perrault Syndrome
 comment: OMIM series 233400.
+xref: PS:233400
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-11T16:23:38Z
@@ -4543,6 +4780,7 @@ creation_date: 2013-10-16T11:23:59Z
 id: DC:0000588
 name: Porencephaly
 comment: OMIM series 175780.
+xref: PS:175780
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T11:26:43Z
@@ -4566,6 +4804,7 @@ creation_date: 2013-10-16T11:34:57Z
 id: DC:0000591
 name: Renal-Hepatic-Pancreatic Dysplasia
 comment: OMIM series 208540.
+xref: PS:208540
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T11:51:55Z
@@ -4598,6 +4837,7 @@ creation_date: 2013-10-16T14:31:16Z
 id: DC:0000595
 name: Sclerosteosis
 comment: OMIM series 269500.
+xref: PS:269500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T14:32:33Z
@@ -4614,6 +4854,7 @@ creation_date: 2013-10-16T14:36:06Z
 id: DC:0000597
 name: Sotos Syndrome
 comment: OMIM series 117550.
+xref: PS:117550
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T14:37:54Z
@@ -4636,6 +4877,7 @@ creation_date: 2013-10-16T14:45:26Z
 id: DC:0000600
 name: Thiamine-Responsive Dysfunction Syndrome
 comment: OMIM series 249270.
+xref: PS:249270
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T14:50:56Z
@@ -4644,6 +4886,7 @@ creation_date: 2013-10-16T14:50:56Z
 id: DC:0000601
 name: Three M Syndrome
 comment: OMIM series 273750.
+xref: PS:273750
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T14:54:46Z
@@ -4652,6 +4895,7 @@ creation_date: 2013-10-16T14:54:46Z
 id: DC:0000602
 name: Transposition of the Great Arteries
 comment: OMIM series 608808.
+xref: PS:608808
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T14:59:39Z
@@ -4660,6 +4904,7 @@ creation_date: 2013-10-16T14:59:39Z
 id: DC:0000603
 name: Tremor, Hereditary Essential
 comment: OMIM series 190300.
+xref: PS:190300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T15:00:54Z
@@ -4684,6 +4929,7 @@ creation_date: 2013-10-16T15:05:03Z
 id: DC:0000606
 name: Trigonocephaly
 comment: OMIM series 190440.
+xref: PS:190440
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T15:06:05Z
@@ -4706,6 +4952,7 @@ creation_date: 2013-10-16T15:13:01Z
 id: DC:0000609
 name: Urofacial Syndrome
 comment: OMIM series 236730.
+xref: PS:236730
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T15:15:15Z
@@ -4714,6 +4961,7 @@ creation_date: 2013-10-16T15:15:15Z
 id: DC:0000610
 name: Ventricular Septal Defect
 comment: OMIM series 614429.
+xref: PS:614429
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T15:18:05Z
@@ -4722,6 +4970,7 @@ creation_date: 2013-10-16T15:18:05Z
 id: DC:0000611
 name: Warburg Micro Syndrome
 comment: OMIM series 600118.
+xref: PS:600118
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T15:20:38Z
@@ -4730,6 +4979,7 @@ creation_date: 2013-10-16T15:20:38Z
 id: DC:0000612
 name: Weill-Marchesani Syndrome
 comment: OMIM series 277600.
+xref: PS:277600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-10-16T15:21:43Z
@@ -4760,6 +5010,7 @@ creation_date: 2013-12-04T11:44:59Z
 id: DC:0000616
 name: Episodic Pain Syndrome, Familial
 comment: OMIM series 615040.
+xref: PS:615040
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-12-09T10:13:49Z
@@ -4768,6 +5019,7 @@ creation_date: 2013-12-09T10:13:49Z
 id: DC:0000617
 name: Van Maldergem Syndrome
 comment: OMIM series 601390.
+xref: PS:601390
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-12-09T10:19:39Z
@@ -4776,6 +5028,7 @@ creation_date: 2013-12-09T10:19:39Z
 id: DC:0000618
 name: Developmental Dysplasia of the Hip
 comment: OMIM series 142700.
+xref: PS:142700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-02-03T10:16:48Z
@@ -4784,6 +5037,7 @@ creation_date: 2014-02-03T10:16:48Z
 id: DC:0000619
 name: Schwannomatosis
 comment: OMIM series 162091.
+xref: PS:162091
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-03-10T10:22:36Z
@@ -4814,6 +5068,7 @@ creation_date: 2014-05-05T10:30:20Z
 id: DC:0000623
 name: Desbuquois Dysplasia
 comment: OMIM series 251450.
+xref: PS:251450
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-05-12T13:54:32Z
@@ -4822,6 +5077,7 @@ creation_date: 2014-05-12T13:54:32Z
 id: DC:0000624
 name: Epilepsy, Familial Adult Myoclonic
 comment: OMIM series 601068.
+xref: PS:601068
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-05-12T14:00:01Z
@@ -4830,6 +5086,7 @@ creation_date: 2014-05-12T14:00:01Z
 id: DC:0000625
 name: Epilepsy, Progressive Myoclonic
 comment: OMIM series 254800.
+xref: PS:254800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-05-12T14:00:38Z
@@ -4838,6 +5095,7 @@ creation_date: 2014-05-12T14:00:38Z
 id: DC:0000626
 name: White Sponge Nevus
 comment: OMIM series 193900.
+xref: PS:193900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-05-19T10:41:54Z
@@ -4854,6 +5112,7 @@ creation_date: 2014-06-02T14:02:17Z
 id: DC:0000628
 name: Congenital Disorders of Glycosylation, Type I
 comment: OMIM series 212065.
+xref: PS:212065
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-09T10:50:59Z
@@ -4862,6 +5121,7 @@ creation_date: 2014-06-09T10:50:59Z
 id: DC:0000629
 name: Congenital Disorders of Glycosylation, Type II
 comment: OMIM series 212066.
+xref: PS:212066
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-09T10:52:10Z
@@ -4870,6 +5130,7 @@ creation_date: 2014-06-09T10:52:10Z
 id: DC:0000630
 name: Achondrogenesis
 comment: OMIM series 200600.
+xref: PS:200600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-12T15:13:25Z
@@ -4907,6 +5168,7 @@ creation_date: 2014-06-19T11:35:15Z
 id: DC:0000635
 name: Aortic Aneurysm, Familial Abdominal
 comment: OMIM series 100070.
+xref: PS:100070
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-19T14:44:48Z
@@ -4915,6 +5177,7 @@ creation_date: 2014-06-19T14:44:48Z
 id: DC:0000636
 name: Aortic Aneurysm, Familial Thoracic
 comment: OMIM series 607086.
+xref: PS:607086
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-19T14:47:13Z
@@ -4931,6 +5194,7 @@ creation_date: 2014-06-20T10:39:12Z
 id: DC:0000638
 name: Breast-Ovarian Cancer, Familial, Susceptibility to
 comment: OMIM series 604370.
+xref: PS:604370
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-20T14:47:33Z
@@ -4939,6 +5203,7 @@ creation_date: 2014-06-20T14:47:33Z
 id: DC:0000639
 name: Brugada Syndrome
 comment: OMIM series 601144.
+xref: PS:601144
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-20T15:03:25Z
@@ -4955,6 +5220,7 @@ creation_date: 2014-06-20T15:06:18Z
 id: DC:0000641
 name: Cerebral Palsy, Spastic Quadriplegic
 comment: OMIM series 603513.
+xref: PS:603513
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-20T16:10:47Z
@@ -4963,6 +5229,7 @@ creation_date: 2014-06-20T16:10:47Z
 id: DC:0000642
 name: Colorectal Cancer, Hereditary Nonpolyposis
 comment: OMIM series 120435.
+xref: PS:120435
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-23T15:56:09Z
@@ -4971,6 +5238,7 @@ creation_date: 2014-06-23T15:56:09Z
 id: DC:0000643
 name: Corneal Dystrophy, Fuchs Endothelial
 comment: OMIM series 136800.
+xref: PS:136800
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-23T17:28:29Z
@@ -4979,6 +5247,7 @@ creation_date: 2014-06-23T17:28:29Z
 id: DC:0000644
 name: Corneal Dystrophy, Posterior Polymorphous
 comment: OMIM series 122000.
+xref: PS:122000
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-23T17:31:19Z
@@ -4987,6 +5256,7 @@ creation_date: 2014-06-23T17:31:19Z
 id: DC:0000645
 name: Ectodermal Dysplasia-Syndactyly Syndrome
 comment: OMIM series 613573.
+xref: PS:613573
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-24T14:15:35Z
@@ -4995,6 +5265,7 @@ creation_date: 2014-06-24T14:15:35Z
 id: DC:0000646
 name: Encephalopathy, Acute, Infection-Induced
 comment: OMIM series 601551.
+xref: PS:601551
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-24T14:56:29Z
@@ -5026,6 +5297,7 @@ creation_date: 2014-06-26T10:27:55Z
 id: DC:0000650
 name: Hydrolethalus Syndrome
 comment: OMIM series 236680.
+xref: PS:236680
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-26T10:33:11Z
@@ -5034,6 +5306,7 @@ creation_date: 2014-06-26T10:33:11Z
 id: DC:0000651
 name: Pulmonary Hypertension, Primary
 comment: OMIM series 178600.
+xref: PS:178600
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-26T11:11:29Z
@@ -5042,6 +5315,7 @@ creation_date: 2014-06-26T11:11:29Z
 id: DC:0000652
 name: Ichthyosis, Congenital, Autosomal Recessive
 comment: OMIM series 242300.
+xref: PS:242300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-26T13:48:39Z
@@ -5058,6 +5332,7 @@ creation_date: 2014-06-26T14:52:07Z
 id: DC:0000654
 name: Mental Retardation, Autosomal Dominant
 comment: OMIM series 156200.
+xref: PS:156200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-27T13:34:21Z
@@ -5066,6 +5341,7 @@ creation_date: 2014-06-27T13:34:21Z
 id: DC:0000655
 name: Mental Retardation, Autosomal Recessive
 comment: OMIM series 249500.
+xref: PS:249500
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-27T13:35:22Z
@@ -5074,6 +5350,7 @@ creation_date: 2014-06-27T13:35:22Z
 id: DC:0000656
 name: Mental Retardation, X-linked, Nonsyndromic
 comment: OMIM series 309530.
+xref: PS:309530
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-27T13:36:02Z
@@ -5082,6 +5359,7 @@ creation_date: 2014-06-27T13:36:02Z
 id: DC:0000657
 name: Microphthalmia, Isolated, with Cataract
 comment: OMIM series 156850.
+xref: PS:156850
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-27T14:56:22Z
@@ -5090,6 +5368,7 @@ creation_date: 2014-06-27T14:56:22Z
 id: DC:0000658
 name: Microphthalmia, Isolated, with Coloboma
 comment: OMIM series 300345.
+xref: PS:300345
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-27T14:57:57Z
@@ -5098,6 +5377,7 @@ creation_date: 2014-06-27T14:57:57Z
 id: DC:0000659
 name: Muscular Dystrophy-Dystroglycanopathy, Type A
 comment: OMIM series 236670.
+xref: PS:236670
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-30T11:11:11Z
@@ -5106,6 +5386,7 @@ creation_date: 2014-06-30T11:11:11Z
 id: DC:0000660
 name: Muscular Dystrophy-Dystroglycanopathy, Type B
 comment: OMIM series 613155.
+xref: PS:613155
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-30T11:12:03Z
@@ -5114,6 +5395,7 @@ creation_date: 2014-06-30T11:12:03Z
 id: DC:0000661
 name: Muscular Dystrophy-Dystroglycanopathy, Type C
 comment: OMIM series 609308.
+xref: PS:609308
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-06-30T11:13:02Z
@@ -5138,6 +5420,7 @@ creation_date: 2014-07-08T15:28:11Z
 id: DC:0000664
 name: Telangiectasia, Hereditary Hemorrhagic
 comment: OMIM series 187300.
+xref: PS:187300
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-07-08T16:52:35Z
@@ -5146,6 +5429,7 @@ creation_date: 2014-07-08T16:52:35Z
 id: DC:0000665
 name: Ventricular Tachycardia, Catecholaminergic Polymorphic
 comment: OMIM series 604772.
+xref: PS:604772
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-07-09T11:42:46Z
@@ -5162,6 +5446,7 @@ creation_date: 2014-07-11T11:21:41Z
 id: DC:0000667
 name: Myopathy, Tubular Aggregate
 comment: OMIM series 160565.
+xref: PS:160565
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-07-21T16:08:22Z
@@ -5170,6 +5455,7 @@ creation_date: 2014-07-21T16:08:22Z
 id: DC:0000668
 name: Ataxia-Telangiectasia-Like Disorder
 comment: OMIM series 604391.
+xref: PS:604391
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-08-11T10:38:49Z
@@ -5193,6 +5479,7 @@ creation_date: 2014-09-10T11:47:31Z
 id: DC:0000671
 name: Breasts and/or Nipples, Aplasia or Hypoplasia of
 comment: OMIM series 113700.
+xref: PS:113700
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-09-15T13:01:37Z
@@ -5201,6 +5488,7 @@ creation_date: 2014-09-15T13:01:37Z
 id: DC:0000672
 name: Neu-Laxova Syndrome
 comment: OMIM series 256520.
+xref: PS:256520
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-10-15T16:09:22Z
@@ -5209,6 +5497,7 @@ creation_date: 2014-10-15T16:09:22Z
 id: DC:0000673
 name: Bardet-Biedl Syndrome
 comment: OMIM series 209900.
+xref: PS:209900
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-10-28T10:43:17Z
@@ -5217,6 +5506,7 @@ creation_date: 2014-10-28T10:43:17Z
 id: DC:0000674
 name: Inflammatory Skin and Bowel Disease, Neonatal
 comment: OMIM series 614328.
+xref: PS:614328
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2014-11-10T10:32:23Z
@@ -5225,6 +5515,7 @@ creation_date: 2014-11-10T10:32:23Z
 id: DC:0000675
 name: Macular Dystrophy, Vitelliform
 comment: OMIM series 153840.
+xref: PS:153840
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-01-05T10:52:12Z
@@ -5233,6 +5524,7 @@ creation_date: 2015-01-05T10:52:12Z
 id: DC:0000676
 name: Microcephaly and Chorioretinopathy
 comment: OMIM series 251279.
+xref: PS:251279
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-01-12T10:30:11Z
@@ -5574,7 +5866,7 @@ is_a: DC:0000022 ! Amelogenesis Imperfecta
 
 [Term]
 id: OMIM:104530
-name: Amelogenesis imperfecta local hypoplastic form
+name: Amelogenesis Imperfecta, Type IA
 comment: Not in the OMIM series.
 is_a: DC:0000022 ! Amelogenesis Imperfecta
 
@@ -6785,7 +7077,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:118450
 name: ALAGILLE SYNDROME 1
-is_a: DC:0000015 ! Alagille syndrome
+is_a: DC:0000015 ! Alagille Syndrome
 
 [Term]
 id: OMIM:118600
@@ -10675,7 +10967,7 @@ is_a: DC:0000309 ! Myotonia Congenita
 [Term]
 id: OMIM:160900
 name: Dystrophia myotonica 1
-is_a: DC:0000127 ! Myotonic dystrophy
+is_a: DC:0000127 ! Myotonic Dystrophy
 
 [Term]
 id: OMIM:160980
@@ -10695,7 +10987,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:161050
 name: Nail Disorder, Nonsyndromic Congenital, 1; NDNC1
-comment: This is linked to the OMIM series but not on the list.
 is_a: DC:0000310 ! Nail Disorder, Nonsyndromic Congenital
 
 [Term]
@@ -13255,11 +13546,6 @@ is_a: DC:0000057 ! Bleeding Disorder, Platelet-Type
 id: OMIM:187900
 name: Thrombasthenia-Thrombocytopenia, Hereditary
 is_a: DC:0000057 ! Bleeding Disorder, Platelet-Type
-
-[Term]
-id: OMIM:187940
-name: Thrombocyte B; THB
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:187950
@@ -16352,7 +16638,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:225750
 name: AICARDI-GOUTIERES SYNDROME 1
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:225753
@@ -26883,7 +27169,7 @@ is_a: DC:0000439 ! Tooth Agenesis, Selective
 [Term]
 id: OMIM:602668
 name: Dystrophia myotonica 2
-is_a: DC:0000127 ! Myotonic dystrophy
+is_a: DC:0000127 ! Myotonic Dystrophy
 
 [Term]
 id: OMIM:602685
@@ -32829,7 +33115,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:610181
 name: AICARDI-GOUTIERES SYNDROME 2
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:610185
@@ -32879,7 +33165,7 @@ is_a: DC:0000364 ! Pontocerebellar Hypoplasia
 [Term]
 id: OMIM:610205
 name: ALAGILLE SYNDROME 2
-is_a: DC:0000015 ! Alagille syndrome
+is_a: DC:0000015 ! Alagille Syndrome
 
 [Term]
 id: OMIM:610208
@@ -33039,12 +33325,12 @@ is_a: DC:0000375 ! Prostate Cancer
 [Term]
 id: OMIM:610329
 name: Aicardi-Goutieres Syndrome 3
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:610333
 name: Aicardi-Goutieres Syndrome 4
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:610338
@@ -35986,7 +36272,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:612952
 name: Aicardi-Goutieres syndrome 5
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:612953
@@ -40766,7 +41052,7 @@ is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
 [Term]
 id: OMIM:615010
 name: Aicardi-Goutieres Syndrome 6; AGS6
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:615011
@@ -42580,7 +42866,7 @@ is_a: DC:0000404 ! Spermatogenic Failure
 [Term]
 id: OMIM:615846
 name: Aicardi-Goutieres Syndrome 7; AGS7
-is_a: DC:0000014 ! Aicardi-Goutieres syndrome
+is_a: DC:0000014 ! Aicardi-Goutieres Syndrome
 
 [Term]
 id: OMIM:615848
@@ -42755,6 +43041,11 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:615924
 name: Encephalopathy, Progressive, with or without Lipodystrophy; PELD
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:615925
+name: Growth Hormone Deficiency, Isolated Partial; GHDP
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -43423,4 +43714,30 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:616216
 name: Thrombocytopenia 5; THC5
 is_a: DC:0000434 ! Thrombocytopenia
+
+[Term]
+id: OMIM:616217
+name: Nephronophthisis 19; NPHP19
+is_a: DC:0000316 ! Nephronophthisis
+
+[Term]
+id: OMIM:616219
+name: Fibrosis of Extraocular Muscles, Congenital, 5; CFEOM5
+is_a: DC:0000163 ! Fibrosis Of Extraocular Muscles, Congenital
+
+[Term]
+id: OMIM:616220
+name: Focal Segmental Glomerulosclerosis 9; FSGS9
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616221
+name: Amelogenesis Imperfecta, Type IH; AI1H
+comment: Not in the OMIM series.
+is_a: DC:0000022 ! Amelogenesis Imperfecta
+
+[Term]
+id: OMIM:616222
+name: Temple Syndrome
+is_a: DC:0000138 ! Disease Cluster
 
