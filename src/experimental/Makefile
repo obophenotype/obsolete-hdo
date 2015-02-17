@@ -1,3 +1,4 @@
+all: missing-omc.obo missing-omimps.obo sim-omc.tsv
 
 ../contrib/omimclusters.obo:
 	wget ftp://ftp.informatics.jax.org/pub/curatorwork/OMIM.clusters -O $@

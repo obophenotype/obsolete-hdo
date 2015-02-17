@@ -9,10 +9,10 @@ DC:0000009	Acromesomelic dysplasia	DOID:0080049	acromesomelic dysplasia	false
 DC:0000009	Acromesomelic dysplasia	DOID:0080049	acromesomelic dysplasia	true	
 DC:0000013	Agammaglobulinemia	DOID:2583	agammaglobulinemia	false	
 DC:0000013	Agammaglobulinemia	DOID:2583	agammaglobulinemia	true	
-DC:0000014	Aicardi-Goutieres syndrome	DOID:0050629	Aicardi-Goutieres syndrome	false	
-DC:0000014	Aicardi-Goutieres syndrome	DOID:0050629	Aicardi-Goutieres syndrome	true	
-DC:0000015	Alagille syndrome	DOID:9245	Alagille syndrome	false	
-DC:0000015	Alagille syndrome	DOID:9245	Alagille syndrome	true	
+DC:0000014	Aicardi-Goutieres Syndrome	DOID:0050629	Aicardi-Goutieres syndrome	false	
+DC:0000014	Aicardi-Goutieres Syndrome	DOID:0050629	Aicardi-Goutieres syndrome	true	
+DC:0000015	Alagille Syndrome	DOID:9245	Alagille syndrome	false	
+DC:0000015	Alagille Syndrome	DOID:9245	Alagille syndrome	true	
 DC:0000019	Alport Syndrome	DOID:10983	Alport syndrome	false	
 DC:0000019	Alport Syndrome	DOID:10983	Alport syndrome	true	
 DC:0000020	Alzheimer Disease	DOID:10652	Alzheimer's disease	false	
@@ -67,6 +67,7 @@ DC:0000052	Systemic Lupus Erythematosus	DOID:9074	systemic lupus erythematosus	f
 DC:0000052	Systemic Lupus Erythematosus	DOID:9074	systemic lupus erythematosus	true	
 DC:0000053	Axenfeld-Rieger syndrome	DOID:14686	Axenfeld-Rieger syndrome	false	
 DC:0000053	Axenfeld-Rieger syndrome	DOID:14686	Axenfeld-Rieger syndrome	true	
+DC:0000055	Bartter Syndrome	DOID:445	Bartter disease	false	
 DC:0000056	Basal Cell Carcinoma	DOID:2513	basal cell carcinoma	false	
 DC:0000056	Basal Cell Carcinoma	DOID:2513	basal cell carcinoma	true	
 DC:0000058	Brachydactyly	DOID:0050581	brachydactyly	false	
@@ -847,8 +848,8 @@ DOID:0050591	tooth agenesis	DC:0000439	Tooth Agenesis, Selective	false
 DOID:0050591	tooth agenesis	DC:0000439	Tooth Agenesis, Selective	true	
 DOID:0050628	advanced sleep phase syndrome	DC:0000467	Advanced Sleep-Phase Syndrome	false	
 DOID:0050628	advanced sleep phase syndrome	DC:0000467	Advanced Sleep-Phase Syndrome	true	
-DOID:0050629	Aicardi-Goutieres syndrome	DC:0000014	Aicardi-Goutieres syndrome	false	
-DOID:0050629	Aicardi-Goutieres syndrome	DC:0000014	Aicardi-Goutieres syndrome	true	
+DOID:0050629	Aicardi-Goutieres syndrome	DC:0000014	Aicardi-Goutieres Syndrome	false	
+DOID:0050629	Aicardi-Goutieres syndrome	DC:0000014	Aicardi-Goutieres Syndrome	true	
 DOID:0050632	oculocutaneous albinism	DC:0000329	Albinism, Oculocutaneous	false	
 DOID:0050632	oculocutaneous albinism	DC:0000329	Albinism, Oculocutaneous	true	
 DOID:0050635	alternating hemiplegia of childhood	DC:0000480	Alternating Hemiplegia of Childhood	false	
@@ -1394,6 +1395,7 @@ DOID:420	hypertrichosis	DC:0000207	Hypertrichosis	false
 DOID:420	hypertrichosis	DC:0000207	Hypertrichosis	true	
 DOID:4428	dyslexia	DC:0000125	Dyslexia	false	
 DOID:4428	dyslexia	DC:0000125	Dyslexia	true	
+DOID:445	Bartter disease	DC:0000055	Bartter Syndrome	false	
 DOID:4450	renal cell carcinoma	DC:0000383	Renal Cell Carcinoma	false	
 DOID:4450	renal cell carcinoma	DC:0000383	Renal Cell Carcinoma	true	
 DOID:446	hyperaldosteronism	DC:0000193	Hyperaldosteronism, Familial	false	
@@ -1482,8 +1484,8 @@ DOID:9074	systemic lupus erythematosus	DC:0000052	Systemic Lupus Erythematosus	f
 DOID:9074	systemic lupus erythematosus	DC:0000052	Systemic Lupus Erythematosus	true	
 DOID:9169	Wiskott-Aldrich syndrome	DC:0000613	Wiskott-Aldrich Syndrome	false	
 DOID:9169	Wiskott-Aldrich syndrome	DC:0000613	Wiskott-Aldrich Syndrome	true	
-DOID:9245	Alagille syndrome	DC:0000015	Alagille syndrome	false	
-DOID:9245	Alagille syndrome	DC:0000015	Alagille syndrome	true	
+DOID:9245	Alagille syndrome	DC:0000015	Alagille Syndrome	false	
+DOID:9245	Alagille syndrome	DC:0000015	Alagille Syndrome	true	
 DOID:9246	cerebral amyloid angiopathy	DC:0000073	Cerebral Amyloid Angiopathy	false	
 DOID:9246	cerebral amyloid angiopathy	DC:0000073	Cerebral Amyloid Angiopathy	true	
 DOID:9255	frontotemporal dementia	DC:0000167	Frontotemporal Dementia	false	

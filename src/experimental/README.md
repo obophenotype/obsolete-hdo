@@ -1,6 +1,8 @@
 
 Matching DO to OMIM via external sources
 
+Note on viewing in GH: use scroll bar to see all cols
+
 ## Methods
 
 Two methods are applied:
@@ -24,6 +26,6 @@ new classes need to be added to DO.
  * [align-doid-to-omc.tsv](align-doid-to-omc.tsv) -- matching based on labels
  * [sim-omc.tsv](sim-omc.tsv) -- jaccard similarity of OMIMs in common
 
-
 ## OMIM Cluster + PS overlap
 
+TODO

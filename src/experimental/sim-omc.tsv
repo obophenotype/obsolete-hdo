@@ -37,7 +37,7 @@ DC:0000110 ! Deafness, Autosomal Recessive	DOID:0050565 ! autosomal recessive no
 DC:0000152 ! Epilepsy, Idiopathic Generalized	DOID:1827 ! idiopathic generalized epilepsy	0.4	12	30
 DC:0000206 ! Hyperthyroidism	DOID:7998 ! hyperthyroidism	0.4	2	5
 DC:0000346 ! Pachyonychia Congenita	DOID:0050449 ! pachyonychia congenita	0.4	2	5
-DC:0000138 ! Disease Cluster	DOID:4 ! disease	0.41029661570625897	3140	7653
+DC:0000138 ! Disease Cluster	DOID:4 ! disease	0.4100287281274484	3140	7658
 DC:0000185 ! Hirschsprung Disease	DOID:10426 ! Klippel-Feil syndrome	0.4166666666666667	5	12
 DC:0000300 ! Epilepsy, Myoclonic	DOID:0050705 ! adolescence-adult electroclinical syndrome	0.4444444444444444	4	9
 DC:0000300 ! Epilepsy, Myoclonic	DOID:4890 ! juvenile myoclonic epilepsy	0.4444444444444444	4	9
@@ -96,7 +96,7 @@ DC:0000009 ! Acromesomelic dysplasia	DOID:0080049 ! acromesomelic dysplasia	0.66
 DC:0000081 ! Chondrodysplasia Punctata	DOID:2581 ! chondrodysplasia punctata	0.6666666666666666	6	9
 DC:0000084 ! Choroidal Dystrophy	DOID:9799 ! eye degenerative disease	0.6666666666666666	2	3
 DC:0000084 ! Choroidal Dystrophy	DOID:980 ! choroidal sclerosis	0.6666666666666666	2	3
-DC:0000127 ! Myotonic dystrophy	DOID:450 ! myotonic disease	0.6666666666666666	2	3
+DC:0000127 ! Myotonic Dystrophy	DOID:450 ! myotonic disease	0.6666666666666666	2	3
 DC:0000223 ! Immunoglobulin A Deficiency	DOID:0060025 ! immunoglobulin alpha deficiency	0.6666666666666666	2	3
 DC:0000238 ! Leigh Syndrome	DOID:3652 ! Leigh disease	0.6666666666666666	2	3
 DC:0000255 ! Loeys-Dietz Syndrome	DOID:0050466 ! Loeys-Dietz syndrome	0.6666666666666666	4	6
@@ -202,6 +202,9 @@ DC:0000024 ! Amyotrophic Lateral Sclerosis	DOID:332 ! amyotrophic lateral sclero
 DC:0000092 ! Combined Oxidative Phosphorylation Deficiency	DOID:0060286 ! combined oxidative phosphorylation deficiency	0.9130434782608695	21	23
 DC:0000386 ! Retinitis Pigmentosa	DOID:10584 ! retinitis pigmentosa	0.9142857142857143	64	70
 DC:0000307 ! Myopia	DOID:11830 ! myopia	0.9166666666666666	22	24
+DC:0000022 ! Amelogenesis Imperfecta	DOID:2187 ! amelogenesis imperfecta	0.9230769230769231	12	13
+DC:0000022 ! Amelogenesis Imperfecta	DOID:693 ! dental enamel hypoplasia	0.9230769230769231	12	13
+DC:0000316 ! Nephronophthisis	DOID:12712 ! nephronophthisis	0.9333333333333333	14	15
 DC:0000231 ! Joubert Syndrome	DOID:0050777 ! Joubert syndrome	0.95	19	20
 DC:0000066 ! Cardiomyopathy, Familial Hypertrophic	DOID:11984 ! hypertrophic cardiomyopathy	0.9523809523809523	20	21
 DC:0000388 ! Retinal Cone-Rod Dystrophy	DOID:0050572 ! cone-rod dystrophy	0.9565217391304348	22	23
@@ -211,13 +214,11 @@ DC:0000410 ! Spastic Paraplegia	DOID:607 ! paraplegia	0.9833333333333333	59	60
 DC:0000007 ! Acne Inversa	DOID:2280 ! hidradenitis suppurativa	1	3	3
 DC:0000007 ! Acne Inversa	DOID:2282 ! hidradenitis	1	3	3
 DC:0000008 ! Carpenter Syndrome	DOID:0060234 ! Carpenter syndrome	1	2	2
-DC:0000014 ! Aicardi-Goutieres syndrome	DOID:0050629 ! Aicardi-Goutieres syndrome	1	7	7
-DC:0000015 ! Alagille syndrome	DOID:9245 ! Alagille syndrome	1	2	2
+DC:0000014 ! Aicardi-Goutieres Syndrome	DOID:0050629 ! Aicardi-Goutieres syndrome	1	7	7
+DC:0000015 ! Alagille Syndrome	DOID:9245 ! Alagille syndrome	1	2	2
 DC:0000019 ! Alport Syndrome	DOID:10983 ! Alport syndrome	1	3	3
 DC:0000020 ! Alzheimer Disease	DOID:10652 ! Alzheimer's disease	1	21	21
 DC:0000020 ! Alzheimer Disease	DOID:680 ! tauopathy	1	21	21
-DC:0000022 ! Amelogenesis Imperfecta	DOID:2187 ! amelogenesis imperfecta	1	12	12
-DC:0000022 ! Amelogenesis Imperfecta	DOID:693 ! dental enamel hypoplasia	1	12	12
 DC:0000023 ! Amyloidosis, Primary Localized Cutaneous	DOID:0050639 ! primary cutaneous amyloidosis	1	2	2
 DC:0000025 ! Diamond-Blackfan Anemia	DOID:1339 ! Diamond-Blackfan anemia	1	13	13
 DC:0000026 ! Anemia, Congenital Dyserythropoietic	DOID:1338 ! congenital dyserythropoietic anemia	1	5	5
@@ -349,7 +350,6 @@ DC:0000299 ! Myocardial Infarction, Susceptibility	DOID:5844 ! myocardial infarc
 DC:0000301 ! Myopathy, Centronuclear	DOID:14717 ! centronuclear myopathy	1	6	6
 DC:0000312 ! Narcolepsy	DOID:8986 ! narcolepsy	1	7	7
 DC:0000315 ! Citrullinemia	DOID:9273 ! citrullinemia	1	3	3
-DC:0000316 ! Nephronophthisis	DOID:12712 ! nephronophthisis	1	14	14
 DC:0000317 ! Nephrotic Syndrome	DOID:1184 ! nephrotic syndrome	1	10	10
 DC:0000317 ! Nephrotic Syndrome	DOID:2527 ! nephrosis	1	10	10
 DC:0000321 ! Neurofibromatosis	DOID:8712 ! neurofibromatosis	1	5	5
