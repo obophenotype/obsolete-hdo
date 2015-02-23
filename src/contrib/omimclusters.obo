@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:02:2015 12:07
+date: 23:02:2015 11:11
 saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
@@ -2771,7 +2771,7 @@ creation_date: 2013-09-11T14:00:54Z
 [Term]
 id: DC:0000338
 name: Osteogenesis Imperfecta
-comment: OMIM series 166200.
+comment: OMIM series 166200. OMIM 616229 not yet part of the series (2/23/15).
 xref: PS:166200
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
@@ -5528,6 +5528,15 @@ xref: PS:251279
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-01-12T10:30:11Z
+
+[Term]
+id: DC:0000677
+name: Myasthenic Syndrome, Congenital, with Tubular Aggregates
+comment: OMIM series PS610542.
+xref: PS:610542
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-02-23T11:05:46Z
 
 [Term]
 id: OMIM:100050
@@ -33560,7 +33569,7 @@ is_a: DC:0000171 ! Gaucher Disease
 [Term]
 id: OMIM:610542
 name: Myasthenic Syndrome, Congenital, with Tubular Aggregates 1; CMSTA1
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000677 ! Myasthenic Syndrome, Congenital, with Tubular Aggregates
 
 [Term]
 id: OMIM:610543
@@ -40428,7 +40437,7 @@ is_a: DC:0000203 ! Hyperphosphatasia with Mental Retardation Syndrome
 [Term]
 id: OMIM:614750
 name: Myasthenic Syndrome, Congenital, with Tubular Aggregates 2; CMSTA2
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000677 ! Myasthenic Syndrome, Congenital, with Tubular Aggregates
 
 [Term]
 id: OMIM:614751
@@ -43371,7 +43380,7 @@ is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 [Term]
 id: OMIM:616040
 name: Myasthenic Syndrome, Presynaptic, Congenital, with or without Motor Neuropathy; MYSPC
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000297 ! Myasthenic Syndrome
 
 [Term]
 id: OMIM:616042
@@ -43739,5 +43748,30 @@ is_a: DC:0000022 ! Amelogenesis Imperfecta
 [Term]
 id: OMIM:616222
 name: Temple Syndrome
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616227
+name: Myasthenic Syndrome, Congenital, without Tubular Aggregates; CMSWTA
+is_a: DC:0000297 ! Myasthenic Syndrome
+
+[Term]
+id: OMIM:616228
+name: Myasthenic Syndrome, Congenital, with Tubular Aggregates 3; CMSTA3
+is_a: DC:0000677 ! Myasthenic Syndrome, Congenital, with Tubular Aggregates
+
+[Term]
+id: OMIM:616229
+name: Osteogenesis Imperfecta, Type Xvi; OI16
+is_a: DC:0000338 ! Osteogenesis Imperfecta
+
+[Term]
+id: OMIM:616230
+name: Epilepsy, Progressive Myoclonic, 8; EPM8
+is_a: DC:0000625 ! Epilepsy, Progressive Myoclonic
+
+[Term]
+id: OMIM:616231
+name: Myopathy, Vacuolar, with Casq1 Aggregates; VMCQA
 is_a: DC:0000138 ! Disease Cluster
 
