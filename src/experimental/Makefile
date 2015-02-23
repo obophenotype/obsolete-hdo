@@ -54,7 +54,13 @@ missing-%.obo: %.obo ixrefs-doid-to-%.obo sim-ixrefs-%.obo
 ## --
 
 sim-omc.tsv: ../contrib/omimclusters.obo
-	blip-findall -debug index -consult jaccard.pro -i ../contrib/omimclusters.obo -r disease -goal ix sim_dc_bm/5 -label -no_pred > $@.tmp && mysort -k1,3 -n $@.tmp > $@
+	blip-findall -debug index -consult jaccard.pro -i $< -r disease -goal ix sim_dc_bm/5 -label -no_pred > $@.tmp && mysort -k1,3 -n $@.tmp > $@
+
+omcrest.obo:  ../contrib/omimclusters.obo ixrefs-doid-to-omc.obo 
+	obo-subtract.pl $^ > $@
+
+sim-omcrest.tsv: omcrest.obo
+	blip-findall -debug index -consult jaccard.pro -i $< -r disease -goal ix sim_dc_bm/5 -label -no_pred > $@.tmp && mysort -k1,3 -n $@.tmp > $@
 
 #sim-omc.pro: sim-omc.tsv
 #	tbl2p -p s $< > $@
