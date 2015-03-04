@@ -12,6 +12,8 @@
 # Questions to: Chris Mungall cjmungall AT lbl DOT gov
 
 OBO = http://purl.obolibrary.org/obo
+OIO = http://www.geneontology.org/formats/oboInOwl\#
+EFO = http://www.ebi.ac.uk/efo
 
 initial-build: doid.obo
 build: doid.obo minidiff
@@ -31,6 +33,9 @@ doid-merged.owl: doid.owl
 	owltools --use-catalog $< --merge-imports-closure -o $@
 doid-merged.obo: doid-merged.owl
 	owltools $< -o -f obo $@
+
+doid-plus-%.obo: doid-plus-%.owl
+	owltools --use-catalog $< --merge-imports-closure -o -f obo --no-check $@
 
 # TEMPORARY!!! Sync with SVN. Once github is primary, this will be removed
 doid-edit.owl:
@@ -67,8 +72,11 @@ mirror/ctd.owl: mirror/CTD_diseases.obo
 imports/%_import.owl: seed.owl mirror/%.owl
 	owltools --use-catalog $< mirror/$*.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/$@ -o $@
 
-imports/orphanet_import.owl: seed.owl orphanet/ordo-slim.owl
-	owltools --use-catalog $< orphanet/orphanet-orig.owl --merge-support-ontologies --extract-module -s http://www.orpha.net/ontology/orphanet.owl -c --extract-mingraph --set-ontology-id $(OBO)/doid/imports/orphanet_import.owl -o $@
+imports/orphanet_import.owl: orphanet/ordo-slim.owl
+	owltools $< --remove-axiom-annotations --remove-annotation-assertions -l -s -d --set-ontology-id $(OBO)/doid/$@  -o $@
+##	owltools $< --remove-axiom-annotations --remove-annotation-assertions -l -s -d --reasoner-query -l disease --make-ontology-from-results $(OBO)/doid/$@  -o $@
+###imports/orphanet_import.owl: seed.owl orphanet/ordo-slim.owl
+###	owltools --use-catalog $< orphanet/orphanet-orig.owl --merge-support-ontologies --extract-module -s http://www.orpha.net/ontology/orphanet.owl -c --extract-mingraph --set-ontology-id $(OBO)/doid/imports/orphanet_import.owl -o $@
 
 # NCIT import is mirror of ALL of DISEASE SUBSET of NCI
 imports/ncit_import.owl: mirror/Thesaurus.owl
@@ -162,11 +170,15 @@ orphanet/orphanet-orig.owl:
 	touch orphanet/ontology_verion_1.2
 
 # preserve only 'disease' and 'group of disorders' hierarchies, plus links between them
-orphanet/ordo-slim-1.owl: orphanet/orphanet-orig.owl
-	owltools $<  --add-obo-shorthand-to-properties --make-subset-by-properties  part_of --reasoner-query -l 'group of disorders' --reasoner-query -l disease --make-ontology-from-results $(OBO)/doid/ordo-slim.owl  -o $@
+orphanet/ordo-slim-po.owl: orphanet/orphanet-orig.owl
+	owltools $< --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties --make-subset-by-properties  part_of --reasoner-query -l 'group of disorders' --reasoner-query -l disease --make-ontology-from-results $(OBO)/doid/ordo-slim.owl  -o $@
 
-orphanet/ordo-slim.owl: orphanet/ordo-slim-1.owl
+# translate all relationships (part_of) to subclass
+orphanet/ordo-slim.owl: orphanet/ordo-slim-po.owl
 	owljs-dlmatch -o $@ -r 'function(m){return owl.subClassOf(m.x, m.y)}' 'q.subClassOfMatch("?x",q.objectSomeValuesFromMatch("?r","?y"))'  $< 
+
+bridge/orphanet_bridge.owl: ../experimental/orphanet_bridge.owl
+	cp $< $@
 
 # translate _init.owl use decluster step
 bridge/%_bridge.owl: bridge/%_bridge_init.owl
@@ -204,8 +216,11 @@ bridge/all.obo: bridge/all.owl
 # Class-merges
 # ----------------------------------------
 %-ecmerged.owl: %.owl
-	owltools --use-catalog $< --merge-imports-closure --use-reasoner elk --merge-equivalence-sets -s OMIM 10 -s ORPHANET 9 -s DOID 8 -s MESH 3 -l DOID 10 -l OMIM 1 -o $@ >& $@.log
+	owltools --use-catalog $< --merge-imports-closure --reasoner elk --merge-equivalence-sets -s OMIM 10 -s Orphanet 9 -s DOID 8 -s MESH 3 -l DOID 10 -l Orphanet 5 -l OMIM 1 -o $@ >& $@.log
 .PRECIOUS: %-ecmerged.owl
+
+%-ecmerged.obo: %-ecmerged.owl
+	owltools $< -o -f obo $@
 
 # ----------------------------------------
 # Subsets

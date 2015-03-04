@@ -1,5 +1,12 @@
 all: missing-omc.obo missing-omimps.obo sim-omc.tsv
 
+
+## --
+## DO
+## --
+disease_nosyn.obo: ../ontology/doid.obo
+	grep -v ^synonym $< > $@
+
 ## --
 ## MGI clusters
 ## --
@@ -32,6 +39,12 @@ align-doid-to-omc.tsv: omc.obo
 align-doid-to-omimps.tsv: omimps.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
+align-doid-to-ordo.tsv: ordo.obo
+	blip-findall -i ignore.pro -i ignore_rare_genetic.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+
+align-doid-to-ordo-nosyn.tsv: ordo_nosyn.obo disease_nosyn.obo
+	blip-findall -i ignore.pro -u metadata_nlp -i $< -i disease_nosyn.obo -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,false),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+
 ## --
 ## Extract xrefs
 ## --
@@ -41,6 +54,17 @@ xrefs-%.obo: align-%.tsv
 
 ixrefs-%.obo: align-%.tsv
 	cut -f1-4 $< | sort -u | grep -v ^DOID | tbl2obolinks.pl --rel xref > $@.tmp && mv $@.tmp $@
+
+isa-%.obo: align-%.tsv
+	cut -f1-4 $< | sort -u | grep -v ^DOID | tbl2obolinks.pl --rel is_a > $@.tmp && mv $@.tmp $@
+
+## --
+## Xrefs to logic axioms
+## --
+doid-equiv-ordo.owl: xrefs-doid-to-ordo-nosyn.obo
+	owltools $< --translate-xrefs-to-equivs -n -p Orphanet --set-ontology-id $(OBO)/doid/bridge/$@ -o $@
+orphanet_bridge.owl: doid-equiv-ordo.owl isa-doid-to-ordo.obo 
+	owltools $^ --merge-support-ontologies --reasoner elk --remove-redundant-inferred-super-classes --set-ontology-id $(OBO)/doid/bridge/$@  -o $@.tmp && fix-ordo-uris.pl $@.tmp >$@
 
 ## --
 ## All those that lack an xref pointing at them are considered missing
@@ -74,3 +98,20 @@ sim-xrefs-omc.obo: sim-omc.tsv
 
 all-xrefs-omc.obo: sim-xrefs-omc.obo xrefs-doid-to-omc.obo
 	obo-simple-merge.pl $^ > $@
+
+
+## --
+## Orphanet
+## --
+
+ordo.obo: ../ontology/orphanet/ordo-slim-po.owl 
+	owltools $< -o -f obo $@.tmp && fix-ordo.pl $@.tmp > $@
+
+ordo_nosyn.obo: ordo.obo
+	grep -v ^synonym $< > $@
+
+ordogrp.obo: ordo.obo
+	blip ontol-query -i $< -query "subclassRT(ID,'Orphanet:377794')"  -to obo > $@.tmp && mv $@.tmp $@
+
+ordorest.obo:  ordo.obo ixrefs-doid-to-ordo.obo 
+	obo-subtract.pl $^ > $@
