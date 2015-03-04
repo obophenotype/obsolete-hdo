@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:02:2015 11:11
+date: 02:03:2015 10:41
 saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
@@ -9480,7 +9480,12 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:145250
-name: HYPERPIGMENTATION, FAMILIAL PROGRESSIVE, 2
+name: HYPERPIGMENTATION WITH OR WITHOUT HYPOPIGMENTATION, FAMILIAL PROGRESSIVE; FPHH
+alt_id: OMIM:154000
+alt_id: OMIM:155800
+synonym: "Macules, Hereditary Congenital Hypopigmented and Hyperpigmented" EXACT []
+synonym: "Melanosis, Universal" EXACT []
+is_a: DC:0000138 ! Disease Cluster
 is_a: DC:0000540 ! Hyperpigmentation, Familial Progressive
 
 [Term]
@@ -10347,11 +10352,6 @@ name: Macular Dystrophy, Fenestrated Sheen Type
 is_a: DC:0000263 ! Macular Dystrophy
 
 [Term]
-id: OMIM:154000
-name: Macules, Hereditary Congenital Hypopigmented and Hyperpigmented
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:154020
 name: Hypomagnesemia 2, renal
 is_a: DC:0000212 ! Hypomagnesemia
@@ -10514,11 +10514,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:155770
 name: Melanoma Tumor Antigen Gp90
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:155800
-name: Melanosis, Universal
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -43774,4 +43769,19 @@ is_a: DC:0000625 ! Epilepsy, Progressive Myoclonic
 id: OMIM:616231
 name: Myopathy, Vacuolar, with Casq1 Aggregates; VMCQA
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616233
+name: Charcot-Marie-Tooth Disease, Axonal, Type 2t; CMT2T
+is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
+
+[Term]
+id: OMIM:616239
+name: Combined Oxidative Phosphorylation Deficiency 24; COXPD24
+is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
+
+[Term]
+id: OMIM:616248
+name: Lethal Congenital Contracture Syndrome 6; LCCS6
+is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
 
