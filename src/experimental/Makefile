@@ -61,10 +61,19 @@ isa-%.obo: align-%.tsv
 ## --
 ## Xrefs to logic axioms
 ## --
+
+ordo-subclassof-doid.obo: isa-doid-to-ordo.obo ixrefs-doid-to-ordo-nosyn.obo
+	obo-subtract.pl $^ > $@
+
 doid-equiv-ordo.owl: xrefs-doid-to-ordo-nosyn.obo
 	owltools $< --translate-xrefs-to-equivs -n -p Orphanet --set-ontology-id $(OBO)/doid/bridge/$@ -o $@
-orphanet_bridge.owl: doid-equiv-ordo.owl isa-doid-to-ordo.obo 
-	owltools $^ --merge-support-ontologies --reasoner elk --remove-redundant-inferred-super-classes --set-ontology-id $(OBO)/doid/bridge/$@  -o $@.tmp && fix-ordo-uris.pl $@.tmp >$@
+
+orphanet_bridge.owl: doid-equiv-ordo.owl ordo-subclassof-doid.obo
+	owltools $^ --merge-support-ontologies --set-ontology-id $(OBO)/doid/bridge/$@  -o $@.tmp && fix-ordo-uris.pl $@.tmp >$@
+
+
+#orphanet_bridge.owl: doid-equiv-ordo.owl isa-doid-to-ordo.obo 
+#	owltools $^ --merge-support-ontologies --reasoner elk --remove-redundant-inferred-super-classes --set-ontology-id $(OBO)/doid/bridge/$@  -o $@.tmp && fix-ordo-uris.pl $@.tmp >$@
 
 ## --
 ## All those that lack an xref pointing at them are considered missing
