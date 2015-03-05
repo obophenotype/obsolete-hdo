@@ -20,5 +20,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/omim_bridge.owl" uri="bridge/omim_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/ctd_omim_mesh_bridge.owl" uri="bridge/ctd_omim_mesh_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/orphanet_disease_omim_bridge.owl" uri="bridge/orphanet_disease_omim_bridge.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/orphanet_bridge.owl" uri="bridge/orphanet_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/bridge/mega_bridge.owl" uri="bridge/mega_bridge.owl"/>
 </catalog>
