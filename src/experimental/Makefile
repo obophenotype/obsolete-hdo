@@ -137,9 +137,9 @@ ordorest.obo:  ordo.obo ixrefs-doid-to-ordo.obo
 ## --
 ## Summary Report
 ## --
-mapping.rpt:
+mapping.tsv:
 	blip-findall -i d2p.pro -consult summary.pro -i omimclusters.obo -i ordo.obo -r disease -i omimps-min.obo s/6 -label -no_pred | grep ^OMIM > $@
-mapping2.rpt:
+mapping2.tsv:
 	blip-findall -i d2p.pro -consult summary.pro -i omimclusters.obo -i ordo.obo -i efo.obo -r disease s/6 -label -no_pred | grep ^OMIM > $@
 
 all-rpt: mapping-grep-DC-noORDO.txt mapping-grep-noDC-ORDO.txt mapping-grep-noDC-noORDO.txt
@@ -148,9 +148,9 @@ all2-rpt: mapping2-grep-DC-noORDO.txt mapping2-grep-noDC-ORDO.txt
 clean-rpt: 
 	rm mapping*-grep-*.txt
 
-%-grep-DC-noORDO.txt: %.rpt
+%-grep-DC-noORDO.txt: %.tsv
 	grep DC $< | grep -v Orphanet > $@ && wc $@
-%-grep-noDC-ORDO.txt: %.rpt
+%-grep-noDC-ORDO.txt: %.tsv
 	grep -v DC $< | grep Orphanet > $@ && wc $@
-%-grep-noDC-noORDO.txt: %.rpt
+%-grep-noDC-noORDO.txt: %.tsv
 	grep -v DC $< | grep -v Orphanet > $@ && wc $@
