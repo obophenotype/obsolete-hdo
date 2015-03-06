@@ -29,6 +29,9 @@ omc.obo: ../contrib/omimclusters.obo
 omimps.obo: ../ontology/imports/omim_import.obo
 	obo-grep.pl -r 'id: OMIM:PS' $< > $@.tmp && grep -v ^owl-ax $@.tmp > $@
 
+omimps-min.obo: ../ontology/imports/omim_import.obo
+	grep -v ^def: $< | obo-grep.pl -r 'OMIM:PS' - > $@.tmp && grep -v ^owl-ax $@.tmp > $@
+
 ## --
 ## Textual alignment based on labels/syns
 ## --
@@ -113,7 +116,7 @@ all-xrefs-omc.obo: sim-xrefs-omc.obo xrefs-doid-to-omc.obo
 ## Orphanet
 ## --
 
-ordo.obo: ../ontology/orphanet/ordo-slim-po.owl 
+ordo.obo: ../ontology/orphanet/ordo-phenome.owl 
 	owltools $< -o -f obo $@.tmp && fix-ordo.pl $@.tmp > $@
 
 ordo_nosyn.obo: ordo.obo
@@ -124,3 +127,29 @@ ordogrp.obo: ordo.obo
 
 ordorest.obo:  ordo.obo ixrefs-doid-to-ordo.obo 
 	obo-subtract.pl $^ > $@
+
+## --
+## Annotations
+## --
+
+
+## --
+## Summary Report
+## --
+mapping.rpt:
+	blip-findall -i d2p.pro -consult summary.pro -i omimclusters.obo -i ordo.obo -r disease -i omimps-min.obo s/6 -label -no_pred | grep ^OMIM > $@
+mapping2.rpt:
+	blip-findall -i d2p.pro -consult summary.pro -i omimclusters.obo -i ordo.obo -i efo.obo -r disease s/6 -label -no_pred | grep ^OMIM > $@
+
+all-rpt: mapping-grep-DC-noORDO.txt mapping-grep-noDC-ORDO.txt mapping-grep-noDC-noORDO.txt
+all2-rpt: mapping2-grep-DC-noORDO.txt mapping2-grep-noDC-ORDO.txt
+
+clean-rpt: 
+	rm mapping*-grep-*.txt
+
+%-grep-DC-noORDO.txt: %.rpt
+	grep DC $< | grep -v Orphanet > $@ && wc $@
+%-grep-noDC-ORDO.txt: %.rpt
+	grep -v DC $< | grep Orphanet > $@ && wc $@
+%-grep-noDC-noORDO.txt: %.rpt
+	grep -v DC $< | grep -v Orphanet > $@ && wc $@
