@@ -116,8 +116,9 @@ all-xrefs-omc.obo: sim-xrefs-omc.obo xrefs-doid-to-omc.obo
 ## Orphanet
 ## --
 
-ordo.obo: ../ontology/orphanet/ordo-phenome.owl 
-	owltools $< -o -f obo $@.tmp && fix-ordo.pl $@.tmp > $@
+ordo.obo: ../ontology/orphanet/orphanet-obostyle.obo
+	cp $< $@
+#	owltools $< -o -f obo $@.tmp && fix-ordo.pl $@.tmp > $@
 
 ordo_nosyn.obo: ordo.obo
 	grep -v ^synonym $< > $@

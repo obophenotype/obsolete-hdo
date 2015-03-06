@@ -176,7 +176,7 @@ orphanet/orphanet-orig.owl:
 	touch orphanet/ontology_verion_1.2
 
 orphanet/orphanet-obostyle.obo: orphanet/orphanet-orig.owl
-	owltools $< --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties -o $@
+	owltools $< --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties -o -f obo $@
 
 # preserve only 'disease' and 'group of disorders' hierarchies, plus links between them
 orphanet/ordo-phenome.owl: orphanet/orphanet-obostyle.obo
