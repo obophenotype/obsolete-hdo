@@ -73,7 +73,8 @@ imports/%_import.owl: seed.owl mirror/%.owl
 	owltools --use-catalog $< mirror/$*.owl --merge-support-ontologies  --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/doid/$@ -o $@
 
 imports/orphanet_import.owl: orphanet/ordo-slim.owl
-	owltools $< --remove-axiom-annotations --remove-annotation-assertions -l -s -d --set-ontology-id $(OBO)/doid/$@  -o $@
+	owltools $< --remove-axiom-annotations --set-ontology-id $(OBO)/doid/$@  -o $@
+##	owltools $< --remove-axiom-annotations --remove-annotation-assertions -l -s -d --set-ontology-id $(OBO)/doid/$@  -o $@
 ##	owltools $< --remove-axiom-annotations --remove-annotation-assertions -l -s -d --reasoner-query -l disease --make-ontology-from-results $(OBO)/doid/$@  -o $@
 ###imports/orphanet_import.owl: seed.owl orphanet/ordo-slim.owl
 ###	owltools --use-catalog $< orphanet/orphanet-orig.owl --merge-support-ontologies --extract-module -s http://www.orpha.net/ontology/orphanet.owl -c --extract-mingraph --set-ontology-id $(OBO)/doid/imports/orphanet_import.owl -o $@
@@ -133,6 +134,10 @@ bridge/umls_bridge_init.owl: doid-edit.owl
 bridge/omim_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/omim_import.owl -o $@
 
+# use Orphanet xrefs
+bridge/omim2ordo_bridge_init.owl: orphanet/ordo-phenome.owl
+	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/imports/orphanet_import.owl $(OBO)/doid/imports/omim_import.owl -o $@
+
 # DO maintains links to Mesh via xrefs of the form MSH:{D,C}nnnnn
 bridge/mesh_bridge_init.owl: doid-edit.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p MSH -m MSH $(OBO)/MESH_ --set-ontology-id $(OBO)/doid/$@ --add-imports-declarations $(OBO)/doid.owl $(OBO)/doid/imports/ctd_import.owl -o $@
@@ -169,12 +174,25 @@ orphanet/orphanet-orig.owl:
 	rm orphanet/ontology_version_* >/dev/null 2>&1 || true
 	touch orphanet/ontology_verion_1.2
 
+orphanet/orphanet-obostyle.obo: orphanet/orphanet-orig.owl
+	owltools $< --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties -o $@
+
 # preserve only 'disease' and 'group of disorders' hierarchies, plus links between them
-orphanet/ordo-slim-po.owl: orphanet/orphanet-orig.owl
-	owltools $< --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties --make-subset-by-properties  part_of --reasoner-query -l 'group of disorders' --reasoner-query -l disease --make-ontology-from-results $(OBO)/doid/ordo-slim.owl  -o $@
+orphanet/ordo-phenome.owl: orphanet/orphanet-obostyle.obo
+	owltools $< --make-subset-by-properties  part_of --reasoner-query -l phenome --make-ontology-from-results $(OBO)/orphanet.owl  -o $@
+
+orphanet/omim-equiv-ordo.owl: orphanet/ordo-phenome.owl
+	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM --set-ontology-id $(OBO)/doid/$@ -o $@
+
+hpoa.ttl:
+	wget http://nif-crawler.neuinfo.org/monarch/ttl/hpoa.ttl -O $@
+
+## slim is only used terms
+orphanet/ordo-subset-po.owl: orphanet/omim-equiv-ordo.owl
+	owltools --use-catalog $< orphanet/ordo-phenome.owl  --extract-module -s $(OBO)/orphanet.owl -c  --set-ontology-id $(OBO)/doid/$@ -o $@
 
 # translate all relationships (part_of) to subclass
-orphanet/ordo-slim.owl: orphanet/ordo-slim-po.owl
+orphanet/ordo-slim.owl: orphanet/ordo-subset-po.owl
 	owljs-dlmatch -o $@ -r 'function(m){return owl.subClassOf(m.x, m.y)}' 'q.subClassOfMatch("?x",q.objectSomeValuesFromMatch("?r","?y"))'  $< 
 
 bridge/orphanet_bridge.owl: ../experimental/orphanet_bridge.owl
@@ -215,7 +233,7 @@ bridge/all.obo: bridge/all.owl
 # ----------------------------------------
 # Class-merges
 # ----------------------------------------
-%-ecmerged.owl: %.owl
+%-ecmerged.owl: %.owl doid.owl
 	owltools --use-catalog $< --merge-imports-closure --reasoner elk --merge-equivalence-sets -s OMIM 10 -s Orphanet 9 -s DOID 8 -s MESH 3 -l DOID 10 -l Orphanet 5 -l OMIM 1 -o $@ >& $@.log
 .PRECIOUS: %-ecmerged.owl
 
