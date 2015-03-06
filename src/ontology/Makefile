@@ -153,7 +153,8 @@ bridge/ctd_omim_mesh_bridge_init.owl: imports/ctd_import.owl
 bridge/mega_bridge_init.owl: $(BRIDGE_OWL)
 	owltools --use-catalog $^ --merge-support-ontologies --set-ontology-id $(OBO)/doid/$@ -o $@
 
-
+kegg2omim.txt:
+	wget http://rest.genome.jp/link/disease/omim -O $@.tmp && cut -f1,2 $@.tmp | perl -npe 's/omim:/OMIM:/' > $@
 
 ## TODO: Orphanet
 orphanet_bridges: bridge/orphanet_disease_omim_bridge.owl
