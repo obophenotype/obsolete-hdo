@@ -39,7 +39,7 @@ doid-plus-%.obo: doid-plus-%.owl
 
 # TEMPORARY!!! Sync with SVN. Once github is primary, this will be removed
 doid-edit.owl:
-	owltools $(HOME)/repos/diseaseontology/HumanDO.obo --add-imports-declarations $(OBO)/doid/ext.owl -o -f ofn $@
+	owltools $(HOME)/repos/diseaseontology/HumanDO.obo --add-imports-declarations $(OBO)/doid/ext.owl -o -f ofn $@.tmp && perl -npe 's@"ORDO:@"Orphanet:@' $@.tmp > $@
 
 # ----------------------------------------
 # Imports

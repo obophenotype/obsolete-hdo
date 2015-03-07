@@ -26,6 +26,9 @@ omc.obo: ../contrib/omimclusters.obo
 ## OMIM Phenotypic Series
 ## --
 
+omim-leaf.obo: ../ontology/imports/omim_import.obo
+	obo-grep.pl --neg -r 'id: OMIM:PS' $< > $@.tmp && grep -v ^owl-ax $@.tmp > $@
+
 omimps.obo: ../ontology/imports/omim_import.obo
 	obo-grep.pl -r 'id: OMIM:PS' $< > $@.tmp && grep -v ^owl-ax $@.tmp > $@
 
@@ -35,6 +38,9 @@ omimps-min.obo: ../ontology/imports/omim_import.obo
 ## --
 ## Textual alignment based on labels/syns
 ## --
+
+align-doid-to-omim.tsv: omim-leaf.obo
+	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-omc.tsv: omc.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
@@ -133,6 +139,13 @@ ordorest.obo:  ordo.obo ixrefs-doid-to-ordo.obo
 ## Annotations
 ## --
 
+
+## --
+## New cluster suggestions
+## --
+
+suggest-omimcluster.tsv: omimclusters.obo
+	blip-findall  -i $< -consult munger.pro new_omim_cluster/2 -label -use_tabs -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 ## --
 ## Summary Report
