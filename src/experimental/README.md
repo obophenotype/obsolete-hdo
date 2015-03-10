@@ -1,4 +1,9 @@
+these docs are drafty and not very cohesive yet
+
 # Making MonDo (Monarch Disease Ontology)
+
+See the file mondo.obo - we will maintain as obo for the time being as
+it makes sense for github. Paths etc may change.
 
 MonDo is a merge of 4 sources:
 
@@ -46,13 +51,33 @@ In MonDo, OMIMs are always placed as leaf nodes. They may classify
 under some mixture of DC, DOID and Orphanet, and these 3 hierarchies
 are themselves intermingled in a way that should be inutitive.
 
-Examples:
+### Examples
 
-### PD
+ * peru: OMIM
+ * hotpink: MGI DCs
+ * yellow: Orphanet
+ * blue: DO
 
-![ataxia](images/mdo-doid-14330.png)
+Note: the coloration reflects the source of the class. We need to show
+the source of the edge. E.g. Even though many DC classes are merged
+into DO classes, they make their contribution as trusted
+OMIM->Grouping classes
 
-### Alzheimers
+#### PD
+
+![PD](images/mdo-doid-14330.png)
+
+#### Alzheimers
+
+![Alz](images/mdo-doid-10652.png)
+
+#### CMT
+
+![CMT](images/mdo-doid-10595.png)
+
+#### TODO
+
+More!
 
 # Methods
 
