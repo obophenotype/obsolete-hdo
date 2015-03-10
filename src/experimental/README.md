@@ -75,6 +75,8 @@ OMIM->Grouping classes
 
 ![CMT](images/mdo-doid-10595.png)
 
+Note: some classifications are too general, presumably because of non-inclusion of OMIM in Orphanet
+
 #### TODO
 
 More!
