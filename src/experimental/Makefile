@@ -22,6 +22,13 @@ omimclusters.obo: ../contrib/omimclusters.obo
 omc.obo: ../contrib/omimclusters.obo
 	obo-grep.pl -r 'id: DC' $< > $@.tmp && mv $@.tmp $@
 
+# DO-mapped clusters
+omc-mapped-to-do.obo: omimclusters.obo
+	obo-map-ids.pl --use-xref-inverse xrefs-doid-to-omc.obo  xrefs-doid-to-omc-edited.obo $< > $@
+
+omc-minimal.obo: omc-mapped-to-do.obo
+	obo-subtract.pl $< ../ontology/doid.obo  > $@.tmp && obo-grep.pl --neg -r is_obsolete $@.tmp > $@
+
 ## --
 ## OMIM Phenotypic Series
 ## --
@@ -43,7 +50,7 @@ align-doid-to-omim.tsv: omim-leaf.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-omc.tsv: omc.obo
-	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+	blip-findall -i super_ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-omimps.tsv: omimps.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
@@ -167,3 +174,28 @@ clean-rpt:
 	grep -v DC $< | grep Orphanet > $@ && wc $@
 %-grep-noDC-noORDO.txt: %.tsv
 	grep -v DC $< | grep -v Orphanet > $@ && wc $@
+
+
+# find discriminatory phenotypes
+omc-differentia.txt:
+	blip-findall  -r hpoa -consult munger -r HP -i omimclusters.obo -goal ix group_phenotype_number/6 -label -no_pred > $@
+ordo-differentia.txt:
+	blip-findall  -r hpoa -consult munger -r HP -i ordo.obo -goal ix ordo_group_phenotype_number/6 -label -no_pred > $@
+
+### REWRITE ORDO
+
+G = write_all_mdo
+IG = -i super_ignore.pro
+ordo_category.tsv: ordo.obo
+	blip-findall -u metadata_nlp -debug index $(IG) -goal index_entity_pair_label_match   -r disease -i omcrest.obo -i $< -consult munger.pro -r hpoa all_ordo_category/3 -label -no_pred > $@
+new_ordo.obo: ordo.obo omc-minimal.obo
+	blip-findall -u metadata_nlp -debug index $(IG) -goal index_entity_pair_label_match  -r disease -i omc-minimal.obo -i $< -consult munger.pro -r hpoa $(G) -label > $@.tmp && grep -v $(G) $@.tmp > $@
+
+new_ordo_merged.obo: new_ordo.obo omc-minimal.obo
+	blip-ddb -debug xontol -i $< -i omc-minimal.obo -r disease  -u ontol_management -goal remove_simple_redundant_facts io-convert -to obo -o $@
+
+mondo.obo: new_ordo_merged.obo
+	blip-ddb -debug merge -i $< -u ontol_management -consult munger.pro -goal merge_equiv_omims io-convert -to obo -o $@
+
+images/mdo-doid-%.png: mondo.obo
+	blip ontol-subset -i $< -query "subclassT(ID,'DOID:$*')" -u ontol_config_do -to png -cr part_of > $@
