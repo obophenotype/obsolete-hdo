@@ -63,6 +63,7 @@ DC:0000050	Diabetes Mellitus, Insulin-Dependent	DOID:9744	type 1 diabetes mellit
 DC:0000050	Diabetes Mellitus, Insulin-Dependent	DOID:9744	type 1 diabetes mellitus	true	
 DC:0000051	Graves Disease	DOID:12361	Graves' disease	false	
 DC:0000051	Graves Disease	DOID:12361	Graves' disease	true	
+DC:0000052	Systemic Lupus Erythematosus	DOID:8857	lupus erythematosus	true	
 DC:0000052	Systemic Lupus Erythematosus	DOID:9074	systemic lupus erythematosus	false	
 DC:0000052	Systemic Lupus Erythematosus	DOID:9074	systemic lupus erythematosus	true	
 DC:0000053	Axenfeld-Rieger syndrome	DOID:14686	Axenfeld-Rieger syndrome	false	
@@ -281,6 +282,7 @@ DC:0000218	Hypotrichosis	DOID:4535	hypotrichosis	false
 DC:0000218	Hypotrichosis	DOID:4535	hypotrichosis	true	
 DC:0000225	Inflammatory Bowel Disease	DOID:0050589	inflammatory bowel disease	false	
 DC:0000225	Inflammatory Bowel Disease	DOID:0050589	inflammatory bowel disease	true	
+DC:0000228	Iridogoniodysgenesis	DOID:0050786	iridogoniodysgenesis syndrome	false	
 DC:0000231	Joubert Syndrome	DOID:0050777	Joubert syndrome	false	
 DC:0000231	Joubert Syndrome	DOID:0050777	Joubert syndrome	true	
 DC:0000232	Keratoconus	DOID:10126	keratoconus	false	
@@ -315,6 +317,8 @@ DC:0000256	Long QT Syndrome	DOID:2843	long QT syndrome	false
 DC:0000256	Long QT Syndrome	DOID:2843	long QT syndrome	true	
 DC:0000257	Lung Cancer	DOID:1324	lung cancer	false	
 DC:0000257	Lung Cancer	DOID:1324	lung cancer	true	
+DC:0000257	Lung Cancer	DOID:3683	lung benign neoplasm	false	
+DC:0000257	Lung Cancer	DOID:3683	lung benign neoplasm	true	
 DC:0000257	Lung Cancer	DOID:3905	lung carcinoma	false	
 DC:0000257	Lung Cancer	DOID:3905	lung carcinoma	true	
 DC:0000258	Lymphedema	DOID:4977	lymphedema	false	
@@ -323,6 +327,7 @@ DC:0000262	Macular Degeneration, Age-Related	DOID:10871	age related macular dege
 DC:0000262	Macular Degeneration, Age-Related	DOID:10871	age related macular degeneration	true	
 DC:0000266	Malignant Hyperthermia	DOID:8545	malignant hyperthermia	false	
 DC:0000266	Malignant Hyperthermia	DOID:8545	malignant hyperthermia	true	
+DC:0000268	Medullary Cystic Kidney Disease	DOID:12712	nephronophthisis	false	
 DC:0000269	Megaloblastic Anemia	DOID:13382	megaloblastic anemia	false	
 DC:0000269	Megaloblastic Anemia	DOID:13382	megaloblastic anemia	true	
 DC:0000270	Meier-Gorlin Syndrome	DOID:0060306	Meier-Gorlin syndrome	false	
@@ -467,6 +472,7 @@ DC:0000379	Pseudoxanthoma Elasticum	DOID:2738	pseudoxanthoma elasticum	false
 DC:0000379	Pseudoxanthoma Elasticum	DOID:2738	pseudoxanthoma elasticum	true	
 DC:0000380	Ptosis	DOID:0060260	ptosis	false	
 DC:0000380	Ptosis	DOID:0060260	ptosis	true	
+DC:0000382	Pyruvate Dehydrogenase Complex Deficiency	DOID:3649	pyruvate decarboxylase deficiency	false	
 DC:0000383	Renal Cell Carcinoma	DOID:4450	renal cell carcinoma	false	
 DC:0000383	Renal Cell Carcinoma	DOID:4450	renal cell carcinoma	true	
 DC:0000384	Renal Tubular Acidosis	DOID:14219	renal tubular acidosis	false	
@@ -544,6 +550,8 @@ DC:0000427	Syndactyly	DOID:11193	syndactyly	false
 DC:0000427	Syndactyly	DOID:11193	syndactyly	true	
 DC:0000428	Synpolydactyly	DOID:0060242	synpolydactyly	false	
 DC:0000428	Synpolydactyly	DOID:0060242	synpolydactyly	true	
+DC:0000431	Testicular Germ Cell Tumor	DOID:5557	testicular germ cell cancer	false	
+DC:0000431	Testicular Germ Cell Tumor	DOID:5557	testicular germ cell cancer	true	
 DC:0000432	Thanatophoric Dysplasia	DOID:13481	thanatophoric dysplasia	false	
 DC:0000432	Thanatophoric Dysplasia	DOID:13481	thanatophoric dysplasia	true	
 DC:0000433	Thrombocythemia	DOID:2228	thrombocytosis	false	
@@ -668,6 +676,8 @@ DC:0000570	Ohdo Syndrome	DOID:0060289	Ohdo syndrome	false
 DC:0000570	Ohdo Syndrome	DOID:0060289	Ohdo syndrome	true	
 DC:0000571	Omodysplasia	DOID:0060288	omodysplasia	false	
 DC:0000571	Omodysplasia	DOID:0060288	omodysplasia	true	
+DC:0000572	Omphalocele	DOID:0060327	omphalocele	false	
+DC:0000572	Omphalocele	DOID:0060327	omphalocele	true	
 DC:0000574	Osteoporosis	DOID:11476	osteoporosis	false	
 DC:0000574	Osteoporosis	DOID:11476	osteoporosis	true	
 DC:0000575	Paroxysmal Nocturnal Hemoglobinuria	DOID:0060284	paroxysmal nocturnal hemoglobinuria	false	
@@ -714,6 +724,7 @@ DC:0000613	Wiskott-Aldrich Syndrome	DOID:9169	Wiskott-Aldrich syndrome	false
 DC:0000613	Wiskott-Aldrich Syndrome	DOID:9169	Wiskott-Aldrich syndrome	true	
 DC:0000614	Xanthinuria	DOID:0060236	xanthinuria	false	
 DC:0000614	Xanthinuria	DOID:0060236	xanthinuria	true	
+DC:0000615	Immunodeficiency	DOID:612	primary immunodeficiency disease	false	
 DC:0000617	Van Maldergem Syndrome	DOID:0060238	Van Maldergem syndrome	false	
 DC:0000617	Van Maldergem Syndrome	DOID:0060238	Van Maldergem syndrome	true	
 DC:0000619	Schwannomatosis	DOID:3204	neurilemmomatosis	false	
@@ -890,6 +901,7 @@ DOID:0050779	hydrolethalus syndrome	DC:0000650	Hydrolethalus Syndrome	false
 DOID:0050779	hydrolethalus syndrome	DC:0000650	Hydrolethalus Syndrome	true	
 DOID:0050780	Opitz-GBBB syndrome	DC:0000332	Opitz GBBB Syndrome	false	
 DOID:0050780	Opitz-GBBB syndrome	DC:0000332	Opitz GBBB Syndrome	true	
+DOID:0050786	iridogoniodysgenesis syndrome	DC:0000228	Iridogoniodysgenesis	false	
 DOID:0050793	short QT syndrome	DC:0000640	Short QT Syndrome	false	
 DOID:0050793	short QT syndrome	DC:0000640	Short QT Syndrome	true	
 DOID:0050794	multiple synostoses syndrome	DC:0000294	Multiple Synostoses Syndrome	false	
@@ -1015,6 +1027,8 @@ DOID:0060308	autosomal recessive non-syndromic intellectual disability	DC:000065
 DOID:0060308	autosomal recessive non-syndromic intellectual disability	DC:0000655	Mental Retardation, Autosomal Recessive	true	
 DOID:0060309	syndromic X-linked intellectual disability	DC:0000273	Mental Retardation, X-Linked, Syndromic	false	
 DOID:0060309	syndromic X-linked intellectual disability	DC:0000273	Mental Retardation, X-Linked, Syndromic	true	
+DOID:0060327	omphalocele	DC:0000572	Omphalocele	false	
+DOID:0060327	omphalocele	DC:0000572	Omphalocele	true	
 DOID:0080027	spondyloepimetaphyseal dysplasia	DC:0000419	Spondyloepimetaphyseal Dysplasia	false	
 DOID:0080027	spondyloepimetaphyseal dysplasia	DC:0000419	Spondyloepimetaphyseal Dysplasia	true	
 DOID:0080032	craniodiaphyseal dysplasia	DC:0000499	Craniodiaphyseal Dysplasia	false	
@@ -1146,6 +1160,7 @@ DOID:1270	hereditary hemorrhagic telangiectasia	DC:0000664	Telangiectasia, Hered
 DOID:1270	hereditary hemorrhagic telangiectasia	DC:0000664	Telangiectasia, Hereditary Hemorrhagic	true	
 DOID:12705	Friedreich ataxia	DC:0000165	Friedreich Ataxia	false	
 DOID:12705	Friedreich ataxia	DC:0000165	Friedreich Ataxia	true	
+DOID:12712	nephronophthisis	DC:0000268	Medullary Cystic Kidney Disease	false	
 DOID:12712	nephronophthisis	DC:0000316	Nephronophthisis	false	
 DOID:12712	nephronophthisis	DC:0000316	Nephronophthisis	true	
 DOID:12721	multiple epiphyseal dysplasia	DC:0000139	Epiphyseal Dysplasia, Multiple	false	
@@ -1371,8 +1386,11 @@ DOID:3490	Noonan syndrome	DC:0000327	Noonan Syndrome	false
 DOID:3490	Noonan syndrome	DC:0000327	Noonan Syndrome	true	
 DOID:3590	gestational trophoblastic neoplasm	DC:0000533	Hydatidiform Mole	false	
 DOID:3590	gestational trophoblastic neoplasm	DC:0000533	Hydatidiform Mole	true	
+DOID:3649	pyruvate decarboxylase deficiency	DC:0000382	Pyruvate Dehydrogenase Complex Deficiency	false	
 DOID:3652	Leigh disease	DC:0000238	Leigh Syndrome	false	
 DOID:3652	Leigh disease	DC:0000238	Leigh Syndrome	true	
+DOID:3683	lung benign neoplasm	DC:0000257	Lung Cancer	false	
+DOID:3683	lung benign neoplasm	DC:0000257	Lung Cancer	true	
 DOID:3753	Hermansky-Pudlak syndrome	DC:0000530	Hermansky-Pudlak Syndrome	false	
 DOID:3753	Hermansky-Pudlak syndrome	DC:0000530	Hermansky-Pudlak Syndrome	true	
 DOID:3805	porokeratosis	DC:0000365	Porokeratosis	false	
@@ -1425,12 +1443,15 @@ DOID:5426	premature ovarian failure	DC:0000370	Premature Ovarian Failure	false
 DOID:5426	premature ovarian failure	DC:0000370	Premature Ovarian Failure	true	
 DOID:543	dystonia	DC:0000126	Dystonia	false	
 DOID:543	dystonia	DC:0000126	Dystonia	true	
+DOID:5557	testicular germ cell cancer	DC:0000431	Testicular Germ Cell Tumor	false	
+DOID:5557	testicular germ cell cancer	DC:0000431	Testicular Germ Cell Tumor	true	
 DOID:5723	optic atrophy	DC:0000333	Optic Atrophy	false	
 DOID:5723	optic atrophy	DC:0000333	Optic Atrophy	true	
 DOID:594	panic disorder	DC:0000637	Panic Disorder	false	
 DOID:594	panic disorder	DC:0000637	Panic Disorder	true	
 DOID:6039	uveal melanoma	DC:0000448	Uveal Melanoma	false	
 DOID:6039	uveal melanoma	DC:0000448	Uveal Melanoma	true	
+DOID:612	primary immunodeficiency disease	DC:0000615	Immunodeficiency	false	
 DOID:62	aortic valve disease	DC:0000481	Aortic Valve Disease	false	
 DOID:62	aortic valve disease	DC:0000481	Aortic Valve Disease	true	
 DOID:627	severe combined immunodeficiency	DC:0000405	Severe Combined Immunodeficiency	false	
@@ -1468,6 +1489,7 @@ DOID:8567	Hodgkin's lymphoma	DC:0000187	Hodgkin Disease	false
 DOID:8567	Hodgkin's lymphoma	DC:0000187	Hodgkin Disease	true	
 DOID:8712	neurofibromatosis	DC:0000321	Neurofibromatosis	false	
 DOID:8712	neurofibromatosis	DC:0000321	Neurofibromatosis	true	
+DOID:8857	lupus erythematosus	DC:0000052	Systemic Lupus Erythematosus	true	
 DOID:8893	psoriasis	DC:0000378	Psoriasis	false	
 DOID:8893	psoriasis	DC:0000378	Psoriasis	true	
 DOID:891	progressive myoclonus epilepsy	DC:0000625	Epilepsy, Progressive Myoclonic	false	
