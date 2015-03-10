@@ -17,6 +17,12 @@ diseases, but OMIM is a flat list (OMIM Phenotypic Series are highly
 incomplete). In addition, we have some HPO annotations to Orphanet
 diseases.
 
+The following file (best viewed in Excel) lists for each OMIM ID that
+Monarch has annotations for, what the corresponding equivalent or
+grouping is in DC, Orphanet, OMIM Phenotypic Series and DOID:
+
+ * [mapping.tsv](mapping.tsv)
+
 The Disease Ontology (DOID) is in itself not complete enough for
 complete classification of OMIM. There are many gaps, and in many
 cases xrefs in DOID are ambiguous w.r.t whether the meaning is
@@ -25,7 +31,7 @@ heirarchy
 
 One option is to use Orphanet by itself, or the combination of
 Orphanet plus OMIM. However, The ORDO ontology representation of
-Orphanet presents a number of challenges.
+Orphanet presents a number of challenges, outlined below.
 
 ## Hierarchy issues with ORDO
 
@@ -36,14 +42,72 @@ ORDO includes various distinct terms of the form
  * genetic X
  * rare genetic X
 
-However, these are typically arranged in separate hierarchies. See for
-example:
+However, these are typically not arranged together as we might expect. See for example:
 
-![ataxia](images/familial-prostate-cancer-orphanet.png)
+![eye](images/eye-disease-ordo.png)
 
-Despite these ontological issues, Orphanet has obvious advantages.
+The has the hierarchy:
+
+ * Orphanet:101435 ! Rare genetic eye disease
+    * Orphanet:140653 ! Neuro-ophthalmological disease
+    * Orphanet:183616 ! Genetic neuro-ophthalmological disease
+
+It's not clear why the two terms are siblings rather than the genetic
+form being a subclass of the genetics-unspecified form. Furthermore,
+the parent implies that both children are genetic, rendering the
+distinction between them meaningless.
+
+There are may cases where 'rare' and 'genetic' forms are not
+linked. See:
+
+![fpc](images/familial-prostate-cancer-orphanet.png)
+
+This makes it difficult to use Orphanet the way a standard ontology
+like GO is used to group data, in which the true path rule is
+expected. It also poses complications when making a combined rare and
+common disease ontology.
+
+Despite these ontological issues, Orphanet has advantages, especially
+in the deeper levels in which diseases are clustered into small groups
+according to clinically relevant criteria.
+
+However, various challenges remain, including the fact that we have
+1675 OMIM IDs annotated with HPO terms for which there is no Orphanet
+grouping.
 
 ## MGI DiseaseClusters
+
+The MGI Disease Clusters (DC) ontology groups OMIM IDs into intuitive
+categories. For example, all forms of Parkinsons in OMIM are grouped
+under Parkinson's disease.
+
+Currently we have 3255 Annotated OMIM IDs that lack a DC equivalent or
+grouping.
+
+We are currently extending DC to include more OMIM IDs.
+
+Note that DC does not attempt to group its categories into higher bins
+like 'nervous system disease'. It's bins may also be higher level than
+Orphanet.
+
+## DOID 
+
+DO (ID space DOID) attempts to cover all areas of disease, from rare
+genetic through common and infectious to cancer.
+
+Currently we have 3726 Annotated OMIM IDs that lack a DOID equivalent
+or grouping.
+
+# Approach
+
+Our broad approach is to combine the strengths of each scheme,
+ensuring consistency and cohesivity and avoiding redundancy. We want
+to include Orphanets specific classification of leaf annotated OMIM
+IDs (and of the Orphanet leaf nodes we have HPO annotations to). We
+want to fill in the gaps with DC (whilst making sure DC integrates
+appropriately). Finally we want both the high level groups of DOID,
+including groupings that are agnostic to rareness, also making use of
+DOID to plug any gaps.
 
 ## MonDo Structure
 
@@ -83,9 +147,32 @@ More!
 
 # Methods
 
+## Merging DC into DOID
+
+We first merge DC clusters into DOID based on label matching. This
+still leaves nnn DC IDs. Note also we keep the copy of OMIM in DC and
+rewire to point to DOID as superclass when we make the replacement.
+
+We refer to the resulting product here as DOID+DC.
+
 ## Rewiring ORDO
 
+Repair of Orphanet is key to our strategy. Broadly speaking, we want
+to eliminate Orphanet groupings where they either directly correspond
+to existing DOID or DC concepts, or where they add no additional
+value, or indeed where they differ trivially from other Orphanet
+categories. For example, we would remove 'rare tumor' 'rare genetic
+tumor' as they add no value to an existing disease classification
+'cancer' in DOID. We choose DOID (or DC if no DOID exists) as prime
+here, as these are more generally useful and less ontologically
+problematic.
 
+Our procedure is to take each class in ORDO, and to first categorize
+it based on textual alignment with DOID+DC
+
+# Results
+
+# Conclusions
 
 # OLD DOCS
 
