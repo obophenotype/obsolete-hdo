@@ -50,6 +50,8 @@ Examples:
 
 ### PD
 
+![ataxia](images/mdo-doid-14330.png)
+
 ### Alzheimers
 
 # Methods
