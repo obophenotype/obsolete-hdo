@@ -127,7 +127,7 @@ the source of the edge. E.g. Even though many DC classes are merged
 into DO classes, they make their contribution as trusted
 OMIM->Grouping classes
 
-#### PD
+#### Parkinson's Disease
 
 ![PD](images/mdo-doid-14330.png)
 
@@ -135,11 +135,20 @@ OMIM->Grouping classes
 
 ![Alz](images/mdo-doid-10652.png)
 
-#### CMT
+#### Charcot Marie Tooth
 
 ![CMT](images/mdo-doid-10595.png)
 
 Note: some classifications are too general, presumably because of non-inclusion of OMIM in Orphanet
+
+#### Prostate Cancer
+
+![PC](images/mdo-doid-10283.png)
+
+Note that there are no Orphanet classes here - this is because the
+class for familial PC is ditched in favor of the more generic PC, with
+OMIMs directly under this. Compare this with the representation
+directly in Orphanet above.
 
 #### TODO
 
@@ -168,9 +177,53 @@ here, as these are more generally useful and less ontologically
 problematic.
 
 Our procedure is to take each class in ORDO, and to first categorize
-it based on textual alignment with DOID+DC
+it based on textual alignment with DOID+DC, where we tokenize labels
+and synonyms and compare on sorted tokens. We try first on bare
+tokens, and then on stemmed tokens. If a corresponding DOID+DC class
+exists, we categorize this ORDO as being replaced by that
+disease. Next we perform comparisons based on removing 'rare' and
+'genetic', and again categorize as being replaced by if a match is
+found. If no match is found in DOID+DC, we then compare between ORDOs,
+and if the terms differ only in including 'rare' and 'genetic' we
+categorize one as collapsing into another.
+
+We then iterate through all ORDO classes. If it's categorized as being
+replaced we skip it, otherwise we write it, rewiring
+relationships. All ORDO part_ofs are rewired to SubClassOf. If the
+target of the relationship is a replacement class in DOID+DC, we use
+that instead.
+
+We then iterate through DOID+DC and write any bridging axioms. If an
+ORDO was merged into a DOID+DC we create an xref back to the ORDO.
+
+We iterate through OMIMs writing SubClassOf axioms to any DOID+DC
+parents, and any ORDO parents, 
+
+Thew results are called new_ordo.obo
+
+## Reduction and Compression
+
+We then perform a transitive reduction, as the previous process can
+leave redundant links.
+
+We then attempt to compress any OMIM classes that appear identical to
+their parents. These can arise because Orphanet is not specific as to
+whether their xrefs are SubClassOf or EquivalentTo, so in the previous
+step we assume SubClassOf for safety.
+
+If an OMIM is the only child of its parent and the label matches, we
+merge the parent into the OMIM (ie the OMIM ID is primary).
 
 # Results
+
+See images above
+
+# TODO
+
+What should we do about e.g. primary myoclonus? Should we create
+diseases based on phenotype?
+
+Need to axiomatize many classes.
 
 # Conclusions
 

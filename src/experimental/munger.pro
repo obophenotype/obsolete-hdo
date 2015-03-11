@@ -371,20 +371,71 @@ write_all_non_ordo :-
         member(D,Ds),
         write_non_ordo(D,C,X),
         fail.
+write_all_non_ordo :-
+        class(M),
+        id_idspace(M,'OMIM'),
+        write_omim(M),
+        fail.
 write_all_non_ordo.        
 
 % e.g. write DOID stanzas with ORDO as xref
 write_non_ordo(X,map_to_disease,Y) :-
         class2n(Y,YN),
         class2n(X,XN),
+        format('! ORDO term disappears, using DOID+DC as replacement~n'),
         format('[Term]~n'),
         format('id: ~w ! ~w~n',[X,XN]),
         format('xref: ~w ! ~w~n',[Y,YN]),
         nl.
 
+/*
+        % rewire OMIMs
+        forall(entity_xref_idspace(Y,M,'OMIM'),
+               (
+                class2n(M,MN),
+                format('! Rewiring an OMIM~n'),
+                format('[Term]~n'),
+                format('id: ~w ! ~w~n',[M,MN]),
+                format('is_a: ~w ! ~w~n',[X,XN]),
+                nl)).
+*/
+
+write_omim(M) :-
+        forall(entity_xref_idspace(D,M,'OMIM'),
+               write_omim(M,D)).
+
+write_omim(M,D) :-
+        id_idspace(D,'Orphanet'),
+        ordo_category(D,map_to_disease,DGs),
+        !,
+        forall(member(DG,DGs),
+               (   
+                   class2n(M,MN),
+                   class2n(DG,DGN),
+                   format('! Rewiring an OMIM from ~w~n',[D]),
+                   format('[Term]~n'),
+                   format('id: ~w ! ~w~n',[M,MN]),
+                   format('is_a: ~w ! ~w~n',[DG,DGN]),
+                   nl
+               )).
+write_omim(M,D) :-
+        !,
+        class2n(M,MN),
+        class2n(D,DN),
+        format('! Making OMIM isa from xref~n',[D]),
+        format('[Term]~n'),
+        format('id: ~w ! ~w~n',[M,MN]),
+        format('is_a: ~w ! ~w~n',[D,DN]),
+        nl.
+
+
+        
+
+              /*
 write_non_ordo(X,map_to_omim,Y) :-
         class2n(Y,YN),
         class2n(X,XN),
+        format('! map to omim~n'),
         format('[Term]~n'),
         format('id: ~w ! ~w~n',[X,XN]),
         (   \+parent(_,Y)
@@ -395,11 +446,12 @@ write_non_ordo(X,map_to_omim,Y) :-
 write_non_ordo(X,multi_map_to_omim,Y) :-
         class2n(Y,YN),
         class2n(X,XN),
+        format('! multi-map to omim~n'),
         format('[Term]~n'),
         format('id: ~w ! ~w~n',[X,XN]),
         format('is_a: ~w ! ~w~n',[Y,YN]),
         nl.
-
+*/
 
 
 keep(preserve).
@@ -492,16 +544,58 @@ ordo_parent(X,R,Z) :-
 ordo_parent(_,R,Y) :-
         ordo_category(Y,map_to_disease,Z).
 */
-        
-        
+
+subclass_in(M,P,S) :-
+        subclass(M,P),
+        id_idspace(P,S).
+
+write_equiv_omims :-
+        class(M),
+        id_idspace(M,'OMIM'),
+        setof(P,subclass_in(M,P,_S),[P]), % P must be only parent of M in S
+        setof(Z,subclass(Z,P),[M]),      % ...and M must be only child of P
+        \+ is_group_of_disorders(P),
+        %\+ restriction(_,_,P),  % never merge into group-of-disorders
+        % labels must match
+        \+ \+ entity_pair_label_intermatch(M,P,_,_,_),
+        class2n(M,MN),
+        class2n(P,PN),
+        format('[Term]~n'),
+        format('id: ~w ! ~w~n',[M,MN]),
+        format('equivalent_to: ~w ! ~w~n',[P,PN]),
+        nl,
+        fail.
+write_equiv_omims.
+
+/*
+% DEPREC:
+% push OMIMs up a level        
 merge_equiv_omims :-
         class(M),
         id_idspace(M,'OMIM'),
-        setof(P,subclass(M,P),[P]),
-        setof(Z,subclass(Z,P),[M]),
-        \+ restriction(_,_,P),
+        setof(P,subclass(M,P),[P]),    % P must be only parent of M...
+        setof(Z,subclass(Z,P),[M]),    % ...and M must be only child of P
+        \+ is_group_of_disorders(P),
+        %\+ restriction(_,_,P),  % never merge into group-of-disorders
+        % labels must match
         \+ \+ entity_pair_label_intermatch(M,P,_,_,_),
         debug(merge,'Merging ~w -> ~w',[P,M]),
-        merge_class(P,M,[use_xrefs(true),add_provenance(true)]),
+        %merge_class(P,M,[use_xrefs(true),add_provenance(true)]),
+        merge_into(P,M,[use_xrefs(true),add_provenance(true)]),
         fail.
 merge_equiv_omims.
+
+
+% e.g. DOID/ORDO->OMIM
+% we assume OMIM is only child of DOID;
+% remove all trace of DOID ID, but keep its superclass
+merge_into(D,M,Opts) :-
+        merge_class_axiom(subclass(D,P),subclass(M,P),Opts),
+        merge_class_axiom(entity_synonym_scope(D,X,Sc),entity_synonym_scope(M,X,Sc),Opts),
+        (   \+ def(M,_)
+	->  merge_class_axiom(def(D,X),def(M,X),Opts),
+	    merge_class_axiom(def_xref(D,X),def_xref(M,X),Opts)
+        ;   true), % keep existing def
+        retractall(class(D)).
+*/
+

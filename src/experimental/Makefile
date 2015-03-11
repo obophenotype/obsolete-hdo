@@ -194,8 +194,13 @@ new_ordo.obo: ordo.obo omc-minimal.obo
 new_ordo_merged.obo: new_ordo.obo omc-minimal.obo
 	blip-ddb -debug xontol -i $< -i omc-minimal.obo -r disease  -u ontol_management -goal remove_simple_redundant_facts io-convert -to obo -o $@
 
-mondo.obo: new_ordo_merged.obo
-	blip-ddb -debug merge -i $< -u ontol_management -consult munger.pro -goal merge_equiv_omims io-convert -to obo -o $@
+new_ordo_equivs.obo: new_ordo_merged.obo
+	blip -i $< -consult munger.pro -goal write_equiv_omims,halt > $@ 
+
+mondo.obo: new_ordo_merged.obo new_ordo_equivs.obo
+	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 9 -l DOID 10 -l Orphanet 5 -l OMIM 1 -o -f obo $@.tmp && ./fix-final.pl $@.tmp > $@
+#mondo.obo: new_ordo_merged.obo
+#	blip-ddb -debug merge -i $< -u ontol_management -consult munger.pro -goal merge_equiv_omims io-convert -to obo -o $@.tmp && owltools $@.tmp -o -f obo $@
 
 images/mdo-doid-%.png: mondo.obo
 	blip ontol-subset -i $< -query "subclassT(ID,'DOID:$*')" -u ontol_config_do -to png -cr part_of > $@
