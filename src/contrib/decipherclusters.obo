@@ -1,5 +1,16 @@
+format-version: 1.2
+date: 12:03:2015 18:20
+saved-by: vasilevs
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: file:/Users/vasilevs/git/MonarchDiseaseOntology/src/contrib/decipherclusters.obo
+remark: Filtered by ID contains "omim"
 ontology: decipherclusters
+generated-by: $Id: MGIOBOFileGeneratorMgr.java
 import: http://purl.obolibrary.org/obo/doid/contrib/omimclusters.owl
+
+[Term]
+id: DECIPHER:1
+name: Wolf-Hirschhorn Syndrome
 
 [Term]
 id: DECIPHER:14
@@ -26,8 +37,8 @@ id: DECIPHER:19
 name: Potocki-Lupski Syndrome (17p11.2 Duplication Syndrome)
 
 [Term]
-id: DECIPHER:1
-name: Wolf-Hirschhorn Syndrome
+id: DECIPHER:2
+name: Cri Du Chat Syndrome (5p Deletion)
 
 [Term]
 id: DECIPHER:20
@@ -42,8 +53,8 @@ id: DECIPHER:29
 name: Charcot-Marie-Tooth Syndrome Type 1a (Cmt1a)
 
 [Term]
-id: DECIPHER:2
-name: Cri Du Chat Syndrome (5p Deletion)
+id: DECIPHER:3
+name: Williams-Beuren Syndrome (Wbs)
 
 [Term]
 id: DECIPHER:31
@@ -74,8 +85,8 @@ id: DECIPHER:39
 name: 8p23.1 Deletion Syndrome
 
 [Term]
-id: DECIPHER:3
-name: Williams-Beuren Syndrome (Wbs)
+id: DECIPHER:4
+name: Angelman Syndrome (Type 1)
 
 [Term]
 id: DECIPHER:42
@@ -104,10 +115,6 @@ name: Rcad (Renal Cysts And Diabetes)
 [Term]
 id: DECIPHER:48
 name: Early-Onset Alzheimer Disease With Cerebral Amyloid Angiopathy
-
-[Term]
-id: DECIPHER:4
-name: Angelman Syndrome (Type 1)
 
 [Term]
 id: DECIPHER:51
@@ -174,16 +181,16 @@ id: DECIPHER:76
 name: 12q14 Microdeletion Syndrome
 
 [Term]
+id: DECIPHER:8
+name: Smith-Magenis Syndrome
+
+[Term]
 id: DECIPHER:81
 name: 15q26 Overgrowth Syndrome
 
 [Term]
 id: DECIPHER:85
 name: 8p23.1 Duplication Syndrome
-
-[Term]
-id: DECIPHER:8
-name: Smith-Magenis Syndrome
 
 [Term]
 id: DECIPHER:92
