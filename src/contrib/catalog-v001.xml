@@ -1,6 +1,6 @@
 
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/do/contrib/omimclusters.owl" uri="omimclusters.obo"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/contrib/omimclusters.owl" uri="omimclusters.obo"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid.owl" uri="../ontology/doid-edit.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/ext.owl" uri="../ontology/ext.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl" uri="../ontology/imports/ncbitaxon_import.owl"/>

@@ -202,5 +202,11 @@ mondo.obo: new_ordo_merged.obo new_ordo_equivs.obo
 #mondo.obo: new_ordo_merged.obo
 #	blip-ddb -debug merge -i $< -u ontol_management -consult munger.pro -goal merge_equiv_omims io-convert -to obo -o $@.tmp && owltools $@.tmp -o -f obo $@
 
+mondo_rpt.tsv: mondo.obo
+	blip-findall  -i $< -i d2p.pro -consult summary.pro disease_lineage/3 -label -no_pred -use_tabs > $@.tmp && mv $@.tmp $@
+
+mondo_unclassified.tsv: mondo_rpt.tsv
+	egrep '\t(2|1|0)\t' $< > $@
+
 images/mdo-doid-%.png: mondo.obo
 	blip ontol-subset -i $< -query "subclassT(ID,'DOID:$*')" -u ontol_config_do -to png -cr part_of > $@

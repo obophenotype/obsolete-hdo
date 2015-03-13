@@ -1,5 +1,5 @@
 ontology: decipherclusters
-import: http://purl.obolibrary.org/obo/do/contrib/omimclusters.owl
+import: http://purl.obolibrary.org/obo/doid/contrib/omimclusters.owl
 
 [Term]
 id: DECIPHER:14
