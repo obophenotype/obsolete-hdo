@@ -1,11 +1,11 @@
 format-version: 1.2
-date: 02:03:2015 10:41
-saved-by: nicole-test
+date: 09:03:2015 10:46
+saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
 remark: Filtered by ID contains "omim"
 generated-by: $Id: MGIOBOFileGeneratorMgr.java
-ontology: doid/contrib/omimclusters
++ontology: doid/contrib/omimclusters
 
 [Term]
 id: DC:0000000
@@ -43781,7 +43781,17 @@ name: Combined Oxidative Phosphorylation Deficiency 24; COXPD24
 is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
 
 [Term]
+id: OMIM:616247
+name: Long QT Syndrome 14; LQT14
+is_a: DC:0000256 ! Long QT Syndrome
+
+[Term]
 id: OMIM:616248
 name: Lethal Congenital Contracture Syndrome 6; LCCS6
 is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
+
+[Term]
+id: OMIM:616249
+name: Long QT Syndrome 15; LQT15
+is_a: DC:0000256 ! Long QT Syndrome
 
