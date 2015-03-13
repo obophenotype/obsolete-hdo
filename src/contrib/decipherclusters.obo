@@ -1,0 +1,191 @@
+ontology: decipherclusters
+import: http://purl.obolibrary.org/obo/do/contrib/omimclusters.owl
+
+[Term]
+id: DECIPHER:14
+name: Prader-Willi Syndrome (Type 1)
+
+[Term]
+id: DECIPHER:15
+name: Nf1-Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:16
+name: 22q11 Deletion Syndrome (Velocardiofacial / Digeorge Syndrome)
+
+[Term]
+id: DECIPHER:17
+name: Sotos Syndrome
+
+[Term]
+id: DECIPHER:18
+name: 1p36 Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:19
+name: Potocki-Lupski Syndrome (17p11.2 Duplication Syndrome)
+
+[Term]
+id: DECIPHER:1
+name: Wolf-Hirschhorn Syndrome
+
+[Term]
+id: DECIPHER:20
+name: 22q13 Deletion Syndrome (Phelan-Mcdermid Syndrome)
+
+[Term]
+id: DECIPHER:21
+name: Miller-Dieker Syndrome (Mds)
+
+[Term]
+id: DECIPHER:29
+name: Charcot-Marie-Tooth Syndrome Type 1a (Cmt1a)
+
+[Term]
+id: DECIPHER:2
+name: Cri Du Chat Syndrome (5p Deletion)
+
+[Term]
+id: DECIPHER:31
+name: Hereditary Liability To Pressure Palsies (Hnpp)
+
+[Term]
+id: DECIPHER:32
+name: 22q11 Duplication Syndrome
+
+[Term]
+id: DECIPHER:34
+name: Potocki-Shaffer Syndrome
+
+[Term]
+id: DECIPHER:35
+name: Wagr 11p13 Deletion Syndrome
+
+[Term]
+id: DECIPHER:37
+name: 3q29 Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:38
+name: Pelizaeus-Merzbacher Disease
+
+[Term]
+id: DECIPHER:39
+name: 8p23.1 Deletion Syndrome
+
+[Term]
+id: DECIPHER:3
+name: Williams-Beuren Syndrome (Wbs)
+
+[Term]
+id: DECIPHER:42
+name: Cat-Eye Syndrome (Type I)
+
+[Term]
+id: DECIPHER:43
+name: 7q11.23 Duplication Syndrome
+
+[Term]
+id: DECIPHER:44
+name: 2q37 Monosomy
+
+[Term]
+id: DECIPHER:45
+name: Xq28 (Mecp2) Duplication
+
+[Term]
+id: DECIPHER:46
+name: Split Hand/Foot Malformation 1 (Shfm1)
+
+[Term]
+id: DECIPHER:47
+name: Rcad (Renal Cysts And Diabetes)
+
+[Term]
+id: DECIPHER:48
+name: Early-Onset Alzheimer Disease With Cerebral Amyloid Angiopathy
+
+[Term]
+id: DECIPHER:4
+name: Angelman Syndrome (Type 1)
+
+[Term]
+id: DECIPHER:51
+name: 2q33.1 Deletion Syndrome
+
+[Term]
+id: DECIPHER:52
+name: 9q Subtelomeric Deletion Syndrome
+
+[Term]
+id: DECIPHER:53
+name: Prader-Willi Syndrome (Type 2)
+
+[Term]
+id: DECIPHER:54
+name: Angelman Syndrome (Type 2)
+
+[Term]
+id: DECIPHER:57
+name: 17q21.31 Recurrent Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:58
+name: Leri-Weill Dyschondrostosis (Lwd) - Shox Deletion
+
+[Term]
+id: DECIPHER:59
+name: Adult-Onset Autosomal Dominant Leukodystrophy (Adld)
+
+[Term]
+id: DECIPHER:62
+name: 1q21.1 Recurrent Microdeletion (Susceptibility Locus For Neurodevelopmental Disorders)
+
+[Term]
+id: DECIPHER:65
+name: Atr-16 Syndrome
+
+[Term]
+id: DECIPHER:66
+name: 15q24 Recurrent Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:67
+name: 1q21.1 Recurrent Microduplication (Possible Susceptibility Locus For Neurodevelopmental Disorders)
+
+[Term]
+id: DECIPHER:68
+name: 16p11.2-P12.2 Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:70
+name: 2p15-16.1 Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:72
+name: 22q11.2 Distal Deletion Syndrome
+
+[Term]
+id: DECIPHER:74
+name: 15q13.3 Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:76
+name: 12q14 Microdeletion Syndrome
+
+[Term]
+id: DECIPHER:81
+name: 15q26 Overgrowth Syndrome
+
+[Term]
+id: DECIPHER:85
+name: 8p23.1 Duplication Syndrome
+
+[Term]
+id: DECIPHER:8
+name: Smith-Magenis Syndrome
+
+[Term]
+id: DECIPHER:92
+name: Recurrent 16p12.1 Microdeletion (Neurodevelopmental Susceptibility Locus)
+
