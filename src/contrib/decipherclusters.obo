@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:03:2015 18:20
+date: 12:03:2015 18:23
 saved-by: vasilevs
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: file:/Users/vasilevs/git/MonarchDiseaseOntology/src/contrib/decipherclusters.obo
@@ -51,6 +51,7 @@ name: Miller-Dieker Syndrome (Mds)
 [Term]
 id: DECIPHER:29
 name: Charcot-Marie-Tooth Syndrome Type 1a (Cmt1a)
+is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 
 [Term]
 id: DECIPHER:3
