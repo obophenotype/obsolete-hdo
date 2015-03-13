@@ -107,7 +107,6 @@ OMIM:113301	Brachydactyly, Type E, with Atrial Septal Defect, Type II	1		DOID:4	
 OMIM:113470	Brachymesomelia-Renal Syndrome	1		DOID:4	disease
 OMIM:113475	Brachymetatarsus IV	1		DOID:4	disease
 OMIM:113610	Branchial Myoclonus with Spastic Paraparesis and Cerebellar Ataxia	1		DOID:4	disease
-OMIM:113750		0		
 OMIM:113950	Bundle Branch Block, Familial Isolated Complete Right	1		DOID:4	disease
 OMIM:114065	Calcific Aortic Disease with Immunologic Abnormalities, Familial	1		DOID:4	disease
 OMIM:114450	Cancer, Familial, with In Vitro Radioresistance	1		DOID:4	disease
@@ -277,17 +276,14 @@ OMIM:140500	Heart, Malformation of	1		DOID:4	disease
 OMIM:140900	Hemangiomas of Small Intestine	1		DOID:4	disease
 OMIM:141200	Hematuria, Benign Familial	1		DOID:4	disease
 OMIM:141700	Hemolytic Poikilocytic Anemia Due to Reduced Ankyrin Binding Sites	1		DOID:4	disease
-OMIM:141749		0		
 OMIM:142000		0		
 OMIM:142100		0		
 OMIM:142240		0		
 OMIM:142309	Hemoglobin--Variants for Which the Chain Carrying the Mutation Is Unknown or Uncertain	1		DOID:4	disease
 OMIM:142310		0		
 OMIM:142330	Hepatic Adenomas, Familial	1		DOID:4	disease
-OMIM:142335		0		
 OMIM:142350	Hernia, Double Inguinal	1		DOID:4	disease
 OMIM:142395		0		
-OMIM:142470		0		
 OMIM:142500	Heterochromia Iridis	1		DOID:4	disease
 OMIM:142860		0		
 OMIM:143850	Orthostatic Hypotensive Disorder, Streeten Type	1		DOID:4	disease
@@ -296,7 +292,6 @@ OMIM:144050	Hyperheparinemia	1		DOID:4	disease
 OMIM:144110	Hyperhidrosis Palmaris Et Plantaris; HYPRPP	1		DOID:4	disease
 OMIM:144120	Hyperimmunoglobulin G1(A1) Syndrome	1		DOID:4	disease
 OMIM:144300	Hyperlipoproteinemia, Type II, and Deafness	1		DOID:4	disease
-OMIM:144400		0		
 OMIM:144755	Hyperostosis Cranialis Interna	1		DOID:4	disease
 OMIM:145200	Hyperpigmentation of Fuldauer and Kuijpers	1		DOID:4	disease
 OMIM:145270	Hyperproglucagonemia	1		DOID:4	disease
@@ -351,7 +346,6 @@ OMIM:152600	Lunulae of Fingernails	1		DOID:4	disease
 OMIM:153470	Macrocephaly, Benign Familial	1		DOID:4	disease
 OMIM:153640	Fechtner syndrome	1		DOID:4	disease
 OMIM:153650	Epstein syndrome	1		DOID:4	disease
-OMIM:154000		0		
 OMIM:154300	Malocclusion Due to Protuberant Upper Front Teeth	1		DOID:4	disease
 OMIM:154570	Mannose 6-Phosphate Receptor Recognition Defect, Lebanese Type	1		DOID:4	disease
 OMIM:154750	Marfanoid Hypermobility Syndrome	1		DOID:4	disease
@@ -546,7 +540,6 @@ OMIM:187501	Tetralogy of Fallot and Glaucoma	1		DOID:4	disease
 OMIM:187750	Thoracic Dysostosis, Isolated	1		DOID:4	disease
 OMIM:188100	Thumb Deformity	1		DOID:4	disease
 OMIM:188560	Thyroid Hormone Plasma Membrane Transport Defect	1		DOID:4	disease
-OMIM:188770		0		
 OMIM:188800	Tibial Torsion, Bilateral Medial	1		DOID:4	disease
 OMIM:189000	Toe, Fifth, Number of Phalanges in	1		DOID:4	disease
 OMIM:189100	Toe, Misshapen	1		DOID:4	disease
@@ -580,7 +573,6 @@ OMIM:191850	Urticaria, Aquagenic	1		DOID:4	disease
 OMIM:191950	Urticaria, Familial Localized Heat	1		DOID:4	disease
 OMIM:192000	Uterine Anomalies	1		DOID:4	disease
 OMIM:192100	Uvula, Bifid	1		DOID:4	disease
-OMIM:192200		0		
 OMIM:192310	Vasculitis, Lymphocytic, Nodular	1		DOID:4	disease
 OMIM:192605	VENTRICULAR TACHYCARDIA, FAMILIAL	1		DOID:4	disease
 OMIM:192700	Venular Insufficiency, Systemic	1		DOID:4	disease
@@ -781,7 +773,6 @@ OMIM:248010	Macroepiphyseal Dysplasia with Osteoporosis, Wrinkled Skin, and Aged
 OMIM:248100	Macrosomia Adiposa Congenita	1		DOID:4	disease
 OMIM:248260	Magnesium, Elevated Red Cell	1		DOID:4	disease
 OMIM:248400	Mandibulofacial Dysostosis with Mental Deficiency	1		DOID:4	disease
-OMIM:249210		0		
 OMIM:249230	Megaepiphyseal Dwarfism	1		DOID:4	disease
 OMIM:249240	Megalencephaly with Dysmyelination	1		DOID:4	disease
 OMIM:249660	Mesangial Sclerosis, Diffuse Renal, with Ocular Abnormalities	1		DOID:4	disease
@@ -928,18 +919,15 @@ OMIM:300615	Brunner Syndrome	1		DOID:4	disease
 OMIM:300619	Cataract, Ataxia, Short Stature, and Mental Retardation	1		DOID:4	disease
 OMIM:300622	Tn Syndrome	1		DOID:4	disease
 OMIM:300719	Deafness, Cataract, Retinitis Pigmentosa, And Sperm Abnormalities	1		DOID:4	disease
-OMIM:300910		0		
 OMIM:300918	Palmoplantar Keratoderma, Mutilating, with Periorificial Keratotic Plaques, X-Linked	1		DOID:4	disease
 OMIM:301700	Anosmia	1		DOID:4	disease
 OMIM:302300		0		
-OMIM:302380		0		
 OMIM:302400	Central Incisors, Absence of	1		DOID:4	disease
 OMIM:302650		0		
 OMIM:302803	Charcot-Marie-Tooth Peroneal Muscular Atrophy, X-Linked, with Aplasia Cutis Congenita	1		DOID:4	disease
 OMIM:302900	Charcot-Marie-Tooth Peroneal Muscular Atrophy and Friedreich Ataxia, Combined	1		DOID:4	disease
 OMIM:304200	Cutis Verticis Gyrata, Thyroid Aplasia, and Mental Retardation	1		DOID:4	disease
 OMIM:304300	Cyanide, Inability to Smell	1		DOID:4	disease
-OMIM:305435		0		
 OMIM:305690	Genitourinary Tract Anomalies	1		DOID:4	disease
 OMIM:306300	Granulomas, Congenital Cerebral	1		DOID:4	disease
 OMIM:306500	Gynecomastia, Familial	1		DOID:4	disease
@@ -953,7 +941,6 @@ OMIM:308280	Impacted Teeth, Multiple	1		DOID:4	disease
 OMIM:308500	Iris hypoplasia and glaucoma	1		DOID:4	disease
 OMIM:308600	Jaundice, Familial Obstructive, of Infancy	1		DOID:4	disease
 OMIM:308750	Kallmann Syndrome with Spastic Paraplegia	1		DOID:4	disease
-OMIM:308930		0		
 OMIM:309050	Lutheran Suppressor, X-Linked; XS	1		DOID:4	disease
 OMIM:309840	Modifier, X-Linked, for Neurofunctional Defects	1		DOID:4	disease
 OMIM:309860		0		
@@ -972,7 +959,6 @@ OMIM:312200	Radial Loop, Plain, on Right Index Finger	1		DOID:4	disease
 OMIM:312210	Radiation Sensitivity of Natural Killer Activity	1		DOID:4	disease
 OMIM:312420		0		
 OMIM:312500	Reticuloendotheliosis, X-Linked	1		DOID:4	disease
-OMIM:312530		0		
 OMIM:313000	SPATIAL VISUALIZATION, APTITUDE FOR	1		DOID:4	disease
 OMIM:313490	Taurodontism, Microdontia, and Dens Invaginatus	1		DOID:4	disease
 OMIM:314000	Thrombocytopenia with Elevated Serum Iga and Renal Disease	1		DOID:4	disease
@@ -1059,7 +1045,6 @@ OMIM:601846	Vacuolar Neuromyopathy	1		DOID:4	disease
 OMIM:601884		0		
 OMIM:601976	Otofacioosseous-Gonadal Syndrome	1		DOID:4	disease
 OMIM:601979	Hyperzincemia with Functional Zinc Depletion	1		DOID:4	disease
-OMIM:602025		0		
 OMIM:602068	Leishmaniasis, Tegumentary, Susceptibility to	1		DOID:4	disease
 OMIM:602071	Broad Terminal Phalanges, Familial	1		DOID:4	disease
 OMIM:602079	Trimethylaminuria	1		DOID:4	disease
@@ -1111,11 +1096,9 @@ OMIM:608279	Craniosynostosis with Ocular Abnormalities and Hallucal Defects	1		D
 OMIM:608611	Ribose 5-Phosphate Isomerase Deficiency	1		DOID:4	disease
 OMIM:608622	Hypertension, Diastolic, Resistance to	1		DOID:4	disease
 OMIM:608624	Midface Hypoplasia, Obesity, Developmental Delay, and Neonatal Hypotonia	1		DOID:4	disease
-OMIM:608664		0		
 OMIM:608720	Neuropathy, Hereditary Sensory and Autonomic, Adult-Onset, with Anosmia	1		DOID:4	disease
 OMIM:608809	Leukoencephalopathy, Arthritis, Colitis, and Hypogammaglobulinema;	1		DOID:4	disease
 OMIM:608902	Drug Metabolism, Poor, CYP2D6-Related	1		DOID:4	disease
-OMIM:608967		0		
 OMIM:608984	ATAXIA, SENSORY, 1, AUTOSOMAL DOMINANT	1		DOID:4	disease
 OMIM:609008	Marfanoid Habitus with Situs Inversus	1		DOID:4	disease
 OMIM:609021	Peripheral Cone Dystrophy	1		DOID:4	disease
@@ -1140,12 +1123,10 @@ OMIM:610251	ALCOHOL SENSITIVITY, ACUTE	1		DOID:4	disease
 OMIM:610279	Pachygyria, Frontotemporal	1		DOID:4	disease
 OMIM:610319	Rhizomelic Dysplasia, Scoliosis, and Retinitis Pigmentosa	1		DOID:4	disease
 OMIM:610338	Right Pulmonary Artery, Anomalous Origin of, Familial	1		DOID:4	disease
-OMIM:610380		0		
 OMIM:610420	Preauricular Tag, Isolated, Autosomal Dominant, 1	1		DOID:4	disease
 OMIM:610441	Testicular Microlithiasis	1		DOID:4	disease
 OMIM:610504	Fetal Membranes, Premature Rupture	1		DOID:4	disease
 OMIM:610680	Holoprosencephaly, Recurrent Infections, and Monocytosis	1		DOID:4	disease
-OMIM:610765		0		
 OMIM:610797	Epiphyseal Dysplasia, Baumann Type	1		DOID:4	disease
 OMIM:610805	Renal Hypodysplasia, Nonsyndromic, 1	1		DOID:4	disease
 OMIM:610965	XFE Progeroid Syndrome	1		DOID:4	disease
@@ -1168,7 +1149,6 @@ OMIM:612671		0
 OMIM:612731	Faciocardiomelic Syndrome	1		DOID:4	disease
 OMIM:612798	Question Mark Ears, Isolated	1		DOID:4	disease
 OMIM:612917	Giacheti Syndrome	1		DOID:4	disease
-OMIM:612934		0		
 OMIM:612947	Microcephaly, Growth Retardation, Cataract, Hearing Loss, and Unusual Appearance	1		DOID:4	disease
 OMIM:612948	Stargardt Macular Degeneration, Absent or Hypoplastic Corpus Callosum, Mental Retardation, and Dysmorphic Features	1		DOID:4	disease
 OMIM:613005	Santos Syndrome	1		DOID:4	disease
@@ -1202,7 +1182,6 @@ OMIM:614098	Keppen-Lubinsky Syndrome; KPLBS	1		DOID:4	disease
 OMIM:614132		0		
 OMIM:614164	Glutathione Peroxidase Deficiency; GPXD	1		DOID:4	disease
 OMIM:614195	Craniofacial Anomalies and Anterior Segment Dysgenesis Syndrome; CAASDS	1		DOID:4	disease
-OMIM:614253		0		
 OMIM:614262	Arthrogryposis, Perthes Disease, and Upward Gaze Palsy; APUG	1		DOID:4	disease
 OMIM:614306	Cognitive Impairment with or without Cerebellar Ataxia; CIAT	1		DOID:4	disease
 OMIM:614369	Peripheral Neuropathy, Myopathy, Hoarseness, and Hearing Loss; PNMHH	1		DOID:4	disease
@@ -1249,1193 +1228,146 @@ OMIM:615960	Poretti-Boltshauser Syndrome; PTBHS	1		DOID:4	disease
 OMIM:615962	Glucocorticoid Resistance, Generalized	1		DOID:4	disease
 OMIM:616006	Hennekam Lymphangiectasia-Lymphedema Syndrome 2; HKLLS2	1		DOID:4	disease
 OMIM:616033	Microcephaly, Short Stature, and Impaired Glucose Metabolism; MSSGM	1		DOID:4	disease
-Orphanet:100		0		
-Orphanet:100026		0		
-Orphanet:100100		0		
 Orphanet:1002		0		
-Orphanet:1010		0		
-Orphanet:101078		0		
-Orphanet:101330		0		
-Orphanet:1027		0		
-Orphanet:1028		0		
-Orphanet:1037		0		
-Orphanet:1052		0		
+Orphanet:1052		1		DOID:4	disease
 Orphanet:1055		0		
-Orphanet:1059		0		
-Orphanet:1062		0		
-Orphanet:107		0		
-Orphanet:1070		0		
-Orphanet:1071		0		
-Orphanet:1072		0		
-Orphanet:1077		0		
-Orphanet:108		0		
-Orphanet:109		0		
-Orphanet:110		0		
-Orphanet:1104		0		
-Orphanet:1106		0		
-Orphanet:111		0		
-Orphanet:112		0		
-Orphanet:1131		0		
-Orphanet:114		0		
-Orphanet:1145		0		
-Orphanet:1147		0		
-Orphanet:1150		0		
-Orphanet:1159		0		
-Orphanet:116		0		
-Orphanet:1160		0		
-Orphanet:1164		0		
 Orphanet:1167		0		
-Orphanet:1168		0		
 Orphanet:1171		0		
-Orphanet:1179		0		
-Orphanet:118		0		
 Orphanet:1184		0		
-Orphanet:1186		0		
-Orphanet:1187		0		
-Orphanet:1188		0		
-Orphanet:1193		0		
-Orphanet:1198		0		
 Orphanet:120		0		
-Orphanet:1200		0		
-Orphanet:1203		0		
-Orphanet:1214		0		
-Orphanet:1221		0		
-Orphanet:1225		0		
-Orphanet:1226		0		
-Orphanet:1227		0		
-Orphanet:1228		0		
-Orphanet:1229		0		
-Orphanet:1231		0		
 Orphanet:1232		0		
 Orphanet:1236		0		
-Orphanet:1239		0		
-Orphanet:124		0		
-Orphanet:1240		0		
-Orphanet:1243		0		
-Orphanet:1246		0		
-Orphanet:1248		0		
-Orphanet:125		0		
-Orphanet:1252		0		
-Orphanet:126		0		
-Orphanet:1263		0		
-Orphanet:1267		0		
-Orphanet:127		0		
-Orphanet:1270		0		
-Orphanet:1293		0		
-Orphanet:1296		0		
-Orphanet:1297		0		
-Orphanet:1308		0		
-Orphanet:131		0		
-Orphanet:1310		0		
 Orphanet:1313		0		
-Orphanet:1318		0		
-Orphanet:1319		0		
 Orphanet:1321		0		
 Orphanet:1323		0		
-Orphanet:1328		0		
-Orphanet:1334		0		
-Orphanet:1335		0		
-Orphanet:1336		0		
-Orphanet:1340		0		
-Orphanet:1342		0		
-Orphanet:1355		0		
-Orphanet:1359		0		
-Orphanet:136		0		
-Orphanet:1361		0		
-Orphanet:1366		0		
-Orphanet:137		0		
-Orphanet:1375		0		
-Orphanet:137817		0		
-Orphanet:138		0		
-Orphanet:1380		0		
-Orphanet:1387		0		
-Orphanet:1393		0		
-Orphanet:1394		0		
-Orphanet:139411		0		
-Orphanet:139436		0		
-Orphanet:139491		0		
-Orphanet:139498		0		
-Orphanet:14		0		
-Orphanet:140		0		
-Orphanet:140908		0		
-Orphanet:141		0		
-Orphanet:1410		0		
-Orphanet:1412		0		
-Orphanet:1414		0		
-Orphanet:1415		0		
-Orphanet:1416		0		
-Orphanet:1425		0		
-Orphanet:1427		0		
-Orphanet:144		0		
-Orphanet:1452		0		
-Orphanet:1453		0		
-Orphanet:1454		0		
-Orphanet:1458		0		
-Orphanet:1465		0		
-Orphanet:1466		0		
-Orphanet:1467		0		
-Orphanet:1475		0		
-Orphanet:1478		0		
-Orphanet:148		0		
-Orphanet:1487		0		
-Orphanet:1493		0		
-Orphanet:1496		0		
-Orphanet:15		0		
-Orphanet:1507		0		
-Orphanet:1508		0		
-Orphanet:1509		0		
-Orphanet:1512		0		
-Orphanet:1513		0		
-Orphanet:1515		0		
-Orphanet:1519		0		
-Orphanet:1520		0		
-Orphanet:1522		0		
-Orphanet:1524		0		
-Orphanet:1528		0		
-Orphanet:1529		0		
-Orphanet:1532		0		
-Orphanet:1540		0		
-Orphanet:1545		0		
-Orphanet:1547		0		
-Orphanet:155		0		
-Orphanet:1551		0		
-Orphanet:1552		0		
-Orphanet:1555		0		
+Orphanet:1425		1		DOID:4	disease
+Orphanet:1466		1		DOID:4	disease
 Orphanet:156177		0		
-Orphanet:1563		0		
-Orphanet:157		0		
-Orphanet:1572		0		
-Orphanet:157215		0		
 Orphanet:1577		0		
-Orphanet:157801		0		
-Orphanet:157850		0		
-Orphanet:157973		0		
-Orphanet:158000		0		
-Orphanet:158668		0		
-Orphanet:158681		0		
-Orphanet:158684		0		
-Orphanet:158687		0		
-Orphanet:16		0		
-Orphanet:163634		0		
 Orphanet:164		0		
-Orphanet:1647		0		
 Orphanet:1648		0		
-Orphanet:165		0		
-Orphanet:1653		0		
-Orphanet:1656		0		
-Orphanet:1657		0		
 Orphanet:1659		0		
-Orphanet:166		0		
-Orphanet:1660		0		
-Orphanet:166016		0		
-Orphanet:166100		0		
-Orphanet:1662		0		
 Orphanet:1664		0		
 Orphanet:1665		0		
-Orphanet:1667		0		
-Orphanet:1671		0		
-Orphanet:1680		0		
 Orphanet:1681		0		
-Orphanet:168549		0		
-Orphanet:168555		0		
-Orphanet:168829		0		
-Orphanet:169105		0		
-Orphanet:1713		0		
-Orphanet:173		0		
-Orphanet:174		0		
-Orphanet:175		0		
-Orphanet:1764		0		
 Orphanet:1767		0		
-Orphanet:177		0		
 Orphanet:1773		0		
-Orphanet:1775		0		
 Orphanet:1780		0		
-Orphanet:178029		0		
-Orphanet:1782		0		
-Orphanet:1784		0		
-Orphanet:178475		0		
-Orphanet:178478		0		
-Orphanet:178481		0		
-Orphanet:178509		0		
-Orphanet:1786		0		
-Orphanet:1787		0		
-Orphanet:1790		0		
-Orphanet:1795		0		
-Orphanet:1799		0		
-Orphanet:180		0		
-Orphanet:1801		0		
-Orphanet:1802		0		
-Orphanet:1803		0		
 Orphanet:1807		0		
-Orphanet:1808		0		
-Orphanet:181		0		
-Orphanet:1811		0		
-Orphanet:1818		0		
 Orphanet:1819		0		
-Orphanet:1822		0		
-Orphanet:1826		0		
-Orphanet:183		0		
-Orphanet:1830		0		
-Orphanet:1832		0		
-Orphanet:183660		0		
-Orphanet:1837		0		
-Orphanet:183707		0		
-Orphanet:183713		0		
-Orphanet:1839		0		
-Orphanet:184		0		
-Orphanet:1842		0		
-Orphanet:1861		0		
 Orphanet:1863		0		
-Orphanet:1865		0		
-Orphanet:1871		0		
-Orphanet:1872		0		
-Orphanet:1873		0		
-Orphanet:188		0		
-Orphanet:1885		0		
-Orphanet:189		0		
-Orphanet:1892		0		
+Orphanet:1885		1		DOID:4	disease
 Orphanet:1894		0		
-Orphanet:189427		0		
-Orphanet:189439		0		
 Orphanet:1895		0		
-Orphanet:190		0		
-Orphanet:191		0		
-Orphanet:1915		0		
-Orphanet:192		0		
-Orphanet:193		0		
 Orphanet:1937		0		
-Orphanet:1949		0		
-Orphanet:195		0		
 Orphanet:1951		0		
-Orphanet:1952		0		
-Orphanet:1954		0		
-Orphanet:1956		0		
 Orphanet:1964		0		
 Orphanet:1968		0		
 Orphanet:1969		0		
-Orphanet:1972		0		
-Orphanet:1973		0		
-Orphanet:1974		0		
-Orphanet:198		0		
-Orphanet:1980		0		
-Orphanet:199		0		
 Orphanet:1991		0		
 Orphanet:200		0		
-Orphanet:201		0		
-Orphanet:2014		0		
-Orphanet:2019		0		
-Orphanet:2021		0		
+Orphanet:2021		1		DOID:4	disease
 Orphanet:2031		0		
 Orphanet:2033		0		
-Orphanet:2047		0		
 Orphanet:2048		0		
-Orphanet:205		0		
-Orphanet:2052		0		
-Orphanet:2053		0		
 Orphanet:2058		0		
 Orphanet:206		0		
 Orphanet:2060		0		
-Orphanet:2067		0		
-Orphanet:2069		0		
-Orphanet:207		0		
-Orphanet:2072		0		
 Orphanet:2074		0		
-Orphanet:2075		0		
-Orphanet:2077		0		
-Orphanet:2083		0		
-Orphanet:2084		0		
-Orphanet:209		0		
-Orphanet:2090		0		
-Orphanet:2092		0		
-Orphanet:2095		0		
-Orphanet:2097		0		
-Orphanet:2098		0		
 Orphanet:2099		0		
-Orphanet:210122		0		
 Orphanet:2104		0		
-Orphanet:2108		0		
-Orphanet:211		0		
 Orphanet:2111		0		
-Orphanet:2114		0		
-Orphanet:2115		0		
-Orphanet:2116		0		
-Orphanet:2118		0		
 Orphanet:2120		0		
-Orphanet:2128		0		
 Orphanet:2129		0		
-Orphanet:213		0		
-Orphanet:214		0		
-Orphanet:2140		0		
-Orphanet:2143		0		
 Orphanet:2158		0		
-Orphanet:216		0		
-Orphanet:2162		0		
-Orphanet:2166		0		
-Orphanet:218		0		
 Orphanet:2184		0		
-Orphanet:2189		0		
-Orphanet:2199		0		
-Orphanet:22		0		
-Orphanet:220		0		
-Orphanet:220402		0		
-Orphanet:2206		0		
-Orphanet:221		0		
-Orphanet:2213		0		
-Orphanet:2220		0		
-Orphanet:2227		0		
-Orphanet:2228		0		
-Orphanet:2248		0		
 Orphanet:2258		0		
-Orphanet:2267		0		
-Orphanet:2268		0		
-Orphanet:228371		0		
-Orphanet:2285		0		
-Orphanet:2287		0		
-Orphanet:2289		0		
-Orphanet:2295		0		
-Orphanet:23		0		
-Orphanet:2300		0		
-Orphanet:2307		0		
-Orphanet:2308		0		
-Orphanet:2309		0		
-Orphanet:231		0		
-Orphanet:2311		0		
-Orphanet:2314		0		
-Orphanet:2315		0		
+Orphanet:2268		1		DOID:4	disease
 Orphanet:2321		0		
-Orphanet:2322		0		
-Orphanet:2328		0		
-Orphanet:233		0		
-Orphanet:2331		0		
-Orphanet:2332		0		
-Orphanet:2333		0		
+Orphanet:2322		1		DOID:4	disease
+Orphanet:2333		1		DOID:4	disease
 Orphanet:2335		0		
-Orphanet:2337		0		
-Orphanet:234		0		
-Orphanet:2340		0		
-Orphanet:2342		0		
-Orphanet:2347		0		
-Orphanet:2348		0		
-Orphanet:235		0		
+Orphanet:2340		1		DOID:4	disease
 Orphanet:2352		0		
-Orphanet:2353		0		
-Orphanet:2363		0		
-Orphanet:2368		0		
-Orphanet:2377		0		
-Orphanet:2378		0		
-Orphanet:2380		0		
-Orphanet:238468		0		
-Orphanet:2388		0		
-Orphanet:2391		0		
-Orphanet:2394		0		
-Orphanet:2398		0		
-Orphanet:2406		0		
-Orphanet:2407		0		
-Orphanet:2409		0		
-Orphanet:2414		0		
-Orphanet:2429		0		
-Orphanet:243		0		
-Orphanet:2438		0		
-Orphanet:244		0		
-Orphanet:2440		0		
-Orphanet:2461		0		
-Orphanet:2466		0		
-Orphanet:2467		0		
-Orphanet:2470		0		
-Orphanet:2471		0		
-Orphanet:2473		0		
-Orphanet:2475		0		
-Orphanet:247604		0		
-Orphanet:2481		0		
-Orphanet:2483		0		
-Orphanet:2484		0		
-Orphanet:2485		0		
-Orphanet:2496		0		
-Orphanet:2499		0		
-Orphanet:250		0		
-Orphanet:2500		0		
-Orphanet:2501		0		
-Orphanet:251		0		
-Orphanet:2510		0		
-Orphanet:2514		0		
-Orphanet:2515		0		
-Orphanet:254		0		
+Orphanet:2440		1		DOID:4	disease
+Orphanet:250		1		DOID:4	disease
+Orphanet:254		1		DOID:4	disease
 Orphanet:2547		0		
-Orphanet:2551		0		
-Orphanet:2554		0		
-Orphanet:256		0		
-Orphanet:2561		0		
-Orphanet:2563		0		
-Orphanet:2564		0		
-Orphanet:257		0		
-Orphanet:2571		0		
-Orphanet:2573		0		
-Orphanet:2574		0		
-Orphanet:2576		0		
 Orphanet:2582	Myalgia-eosinophilia syndrome associated with tryptophan	1		DOID:4	disease
-Orphanet:2585		0		
-Orphanet:2588		0		
-Orphanet:2591		0		
-Orphanet:2598		0		
-Orphanet:2604		0		
-Orphanet:2608		0		
-Orphanet:261		0		
-Orphanet:2613		0		
-Orphanet:2614		0		
-Orphanet:2616		0		
-Orphanet:2619		0		
-Orphanet:2623		0		
-Orphanet:2632		0		
-Orphanet:2633		0		
-Orphanet:2635		0		
-Orphanet:2637		0		
-Orphanet:2639		0		
-Orphanet:2643		0		
-Orphanet:2645		0		
-Orphanet:2646		0		
-Orphanet:2655		0		
-Orphanet:2658		0		
-Orphanet:2662		0		
-Orphanet:2663		0		
-Orphanet:2670		0		
-Orphanet:2671		0		
+Orphanet:2591		1		DOID:4	disease
+Orphanet:2598		1		DOID:4	disease
+Orphanet:2623		1		DOID:4	disease
+Orphanet:2671		1		DOID:4	disease
 Orphanet:2672		0		
-Orphanet:2673		0		
-Orphanet:2674		0		
-Orphanet:26790		0		
-Orphanet:2686		0		
-Orphanet:269		0		
-Orphanet:2695		0		
-Orphanet:2697		0		
-Orphanet:2698		0		
-Orphanet:2699		0		
-Orphanet:270		0		
-Orphanet:2701		0		
+Orphanet:2695		1		DOID:4	disease
 Orphanet:2703		0		
-Orphanet:2704		0		
 Orphanet:2705		0		
-Orphanet:2709		0		
-Orphanet:2710		0		
-Orphanet:2714		0		
 Orphanet:2715		0		
 Orphanet:2720		0		
-Orphanet:2721		0		
 Orphanet:2725		0		
-Orphanet:2728		0		
-Orphanet:273		0		
-Orphanet:2730		0		
-Orphanet:2733		0		
-Orphanet:2736		0		
-Orphanet:2741		0		
 Orphanet:2742		0		
-Orphanet:2745		0		
-Orphanet:2750		0		
-Orphanet:2751		0		
-Orphanet:275543		0		
-Orphanet:2760		0		
-Orphanet:2762		0		
-Orphanet:2768		0		
-Orphanet:2769		0		
-Orphanet:2770		0		
-Orphanet:2771		0		
-Orphanet:2777		0		
-Orphanet:2780		0		
-Orphanet:2781		0		
-Orphanet:2789		0		
-Orphanet:2790		0		
 Orphanet:2793		0		
-Orphanet:280		0		
-Orphanet:2801		0		
-Orphanet:2802		0		
-Orphanet:2804		0		
-Orphanet:2805		0		
-Orphanet:2807		0		
-Orphanet:2808		0		
-Orphanet:281		0		
-Orphanet:2812		0		
-Orphanet:2823		0		
-Orphanet:2825		0		
-Orphanet:2831		0		
-Orphanet:2834		0		
+Orphanet:2808		1		DOID:4	disease
 Orphanet:2835		0		
-Orphanet:28378		0		
-Orphanet:2839		0		
-Orphanet:284		0		
-Orphanet:2841		0		
-Orphanet:284804		0		
-Orphanet:285		0		
-Orphanet:2855		0		
-Orphanet:2863		0		
-Orphanet:2869		0		
-Orphanet:2871		0		
-Orphanet:2872		0		
-Orphanet:2876		0		
-Orphanet:2884		0		
-Orphanet:2886		0		
-Orphanet:289		0		
-Orphanet:2896		0		
-Orphanet:2897		0		
-Orphanet:29		0		
-Orphanet:2900		0		
-Orphanet:2901		0		
-Orphanet:2905		0		
-Orphanet:2909		0		
-Orphanet:2911		0		
-Orphanet:2920		0		
-Orphanet:29207		0		
-Orphanet:2929		0		
-Orphanet:2930		0		
-Orphanet:2935		0		
-Orphanet:2940		0		
-Orphanet:296		0		
-Orphanet:2968		0		
-Orphanet:2971		0		
-Orphanet:2990		0		
-Orphanet:2995		0		
-Orphanet:30		0		
-Orphanet:3000		0		
-Orphanet:3003		0		
-Orphanet:3005		0		
-Orphanet:3006		0		
-Orphanet:300878		0		
-Orphanet:3010		0		
 Orphanet:3018	Retinal ischemic syndrome - digestive tract small vessel hyalinosis - diffuse cerebral calcifications	1		DOID:4	disease
-Orphanet:3019		0		
-Orphanet:302		0		
-Orphanet:3021		0		
 Orphanet:3023		0		
 Orphanet:3029		0		
-Orphanet:303		0		
-Orphanet:3032		0		
-Orphanet:3034		0		
-Orphanet:304		0		
 Orphanet:3043		0		
 Orphanet:3046		0		
-Orphanet:3047		0		
-Orphanet:305		0		
-Orphanet:306		0		
-Orphanet:3071		0		
-Orphanet:3087		0		
-Orphanet:3097		0		
-Orphanet:3099		0		
-Orphanet:31		0		
-Orphanet:3103		0		
-Orphanet:3110		0		
-Orphanet:31112		0		
-Orphanet:31153		0		
-Orphanet:312		0		
-Orphanet:3121		0		
 Orphanet:3122		0		
-Orphanet:313		0		
 Orphanet:3130		0		
-Orphanet:3134		0		
-Orphanet:3135		0		
-Orphanet:3138		0		
 Orphanet:3140		0		
-Orphanet:3143		0		
-Orphanet:3144		0		
-Orphanet:3152		0		
-Orphanet:3156		0		
-Orphanet:3163		0		
-Orphanet:3165		0		
-Orphanet:317		0		
-Orphanet:3181		0		
 Orphanet:3185		0		
-Orphanet:3186		0		
-Orphanet:319213		0		
-Orphanet:319218		0		
-Orphanet:319251		0		
-Orphanet:3193		0		
-Orphanet:3194		0		
-Orphanet:3197		0		
+Orphanet:3197		1		DOID:4	disease
 Orphanet:3200		0		
-Orphanet:3210		0		
 Orphanet:3215		0		
 Orphanet:3216		0		
-Orphanet:3219		0		
-Orphanet:3222		0		
-Orphanet:323		0		
-Orphanet:3237		0		
-Orphanet:324		0		
-Orphanet:3241		0		
-Orphanet:3242		0		
-Orphanet:3243		0		
-Orphanet:3246		0		
-Orphanet:3248		0		
-Orphanet:324964		0		
-Orphanet:3250		0		
-Orphanet:3253		0		
-Orphanet:3259		0		
-Orphanet:3265		0		
-Orphanet:3286		0		
-Orphanet:3287		0		
-Orphanet:3289		0		
-Orphanet:3291		0		
-Orphanet:33		0		
-Orphanet:3303		0		
-Orphanet:33067		0		
-Orphanet:3307		0		
+Orphanet:3265		1		DOID:4	disease
+Orphanet:3286		1		DOID:4	disease
 Orphanet:3311		0		
-Orphanet:3319		0		
-Orphanet:3320		0		
-Orphanet:33226		0		
-Orphanet:3326		0		
 Orphanet:33271		0		
-Orphanet:3329		0		
-Orphanet:333		0		
-Orphanet:33355		0		
+Orphanet:3329		1		DOID:4	disease
 Orphanet:3336		0		
 Orphanet:33409		0		
-Orphanet:3341		0		
-Orphanet:3342		0		
-Orphanet:33445		0		
-Orphanet:3347		0		
-Orphanet:3352		0		
-Orphanet:33577		0		
 Orphanet:3360		0		
-Orphanet:3361		0		
-Orphanet:337		0		
 Orphanet:3374		0		
-Orphanet:3377		0		
-Orphanet:3378		0		
-Orphanet:3380		0		
-Orphanet:3383		0		
-Orphanet:340		0		
-Orphanet:3408		0		
-Orphanet:3416		0		
-Orphanet:3417		0		
 Orphanet:3419		0		
-Orphanet:342		0		
-Orphanet:34217		0		
-Orphanet:3429		0		
-Orphanet:343		0		
-Orphanet:3437		0		
-Orphanet:3439		0		
-Orphanet:3440		0		
 Orphanet:3446		0		
-Orphanet:3447		0		
-Orphanet:3448		0		
-Orphanet:3449		0		
-Orphanet:3452		0		
-Orphanet:3453		0		
-Orphanet:3455		0		
-Orphanet:3456		0		
-Orphanet:34587		0		
-Orphanet:3463		0		
-Orphanet:3464		0		
-Orphanet:3465		0		
-Orphanet:3466		0		
-Orphanet:347		0		
-Orphanet:3471		0		
-Orphanet:349		0		
-Orphanet:35		0		
-Orphanet:351		0		
-Orphanet:35107		0		
-Orphanet:35173		0		
-Orphanet:352		0		
-Orphanet:354		0		
-Orphanet:355		0		
-Orphanet:35612		0		
-Orphanet:35687		0		
 Orphanet:357		0		
-Orphanet:357154		0		
-Orphanet:36		0		
-Orphanet:36258		0		
-Orphanet:363705		0		
-Orphanet:36397		0		
-Orphanet:364		0		
-Orphanet:36426		0		
-Orphanet:365		0		
-Orphanet:366		0		
-Orphanet:367		0		
-Orphanet:368		0		
-Orphanet:37		0		
-Orphanet:373		0		
-Orphanet:374		0		
-Orphanet:375		0		
-Orphanet:377		0		
-Orphanet:37748		0		
 Orphanet:378		0		
-Orphanet:379		0		
-Orphanet:380		0		
-Orphanet:381		0		
-Orphanet:384		0		
-Orphanet:385		0		
+Orphanet:381		1		DOID:4	disease
+Orphanet:385		1		DOID:4	disease
 Orphanet:387		0		
-Orphanet:388		0		
-Orphanet:39041		0		
-Orphanet:392		0		
-Orphanet:394		0		
-Orphanet:397		0		
-Orphanet:399		0		
-Orphanet:40		0		
-Orphanet:400		0		
-Orphanet:409		0		
-Orphanet:41		0		
-Orphanet:416		0		
-Orphanet:417		0		
-Orphanet:418		0		
 Orphanet:41842		0		
-Orphanet:425		0		
-Orphanet:42665		0		
-Orphanet:429		0		
-Orphanet:435		0		
-Orphanet:436		0		
-Orphanet:437		0		
-Orphanet:440		0		
-Orphanet:442		0		
-Orphanet:446		0		
-Orphanet:44890		0		
-Orphanet:46059		0		
-Orphanet:461		0		
 Orphanet:462		0		
-Orphanet:46348		0		
-Orphanet:464		0		
-Orphanet:46486		0		
-Orphanet:46487		0		
-Orphanet:46627		0		
-Orphanet:47		0		
-Orphanet:47045		0		
-Orphanet:474		0		
-Orphanet:475		0		
-Orphanet:47612		0		
-Orphanet:478		0		
-Orphanet:480		0		
-Orphanet:481		0		
-Orphanet:48104		0		
-Orphanet:48377		0		
+Orphanet:47045		1		DOID:4	disease
 Orphanet:484		0		
-Orphanet:485		0		
-Orphanet:48652		0		
-Orphanet:487		0		
-Orphanet:48818		0		
-Orphanet:493		0		
-Orphanet:495		0		
-Orphanet:49827		0		
-Orphanet:50		0		
-Orphanet:500		0		
-Orphanet:502		0		
-Orphanet:506		0		
-Orphanet:508		0		
-Orphanet:50814		0		
-Orphanet:50815		0		
 Orphanet:50817		0		
-Orphanet:50942		0		
-Orphanet:50943		0		
-Orphanet:50945		0		
-Orphanet:510		0		
-Orphanet:511		0		
-Orphanet:512		0		
-Orphanet:52		0		
-Orphanet:52022		0		
-Orphanet:523		0		
-Orphanet:524		0		
-Orphanet:52416		0		
-Orphanet:52417		0		
-Orphanet:52429		0		
-Orphanet:526		0		
-Orphanet:528		0		
-Orphanet:530		0		
-Orphanet:53271		0		
-Orphanet:53296		0		
-Orphanet:534		0		
-Orphanet:535		0		
-Orphanet:536		0		
-Orphanet:53693		0		
-Orphanet:53697		0		
-Orphanet:53715		0		
-Orphanet:538		0		
-Orphanet:54		0		
-Orphanet:545		0		
-Orphanet:549		0		
-Orphanet:55		0		
-Orphanet:550		0		
-Orphanet:551		0		
-Orphanet:553		0		
-Orphanet:558		0		
-Orphanet:55881		0		
-Orphanet:56		0		
-Orphanet:560		0		
-Orphanet:56044		0		
-Orphanet:561		0		
-Orphanet:562		0		
-Orphanet:564		0		
-Orphanet:565		0		
-Orphanet:567		0		
-Orphanet:573		0		
-Orphanet:575		0		
-Orphanet:579		0		
-Orphanet:58		0		
-Orphanet:580		0		
-Orphanet:583		0		
-Orphanet:584		0		
-Orphanet:585		0		
-Orphanet:586		0		
-Orphanet:587		0		
-Orphanet:59		0		
-Orphanet:59305		0		
-Orphanet:595		0		
-Orphanet:596		0		
-Orphanet:597		0		
-Orphanet:599		0		
-Orphanet:6		0		
-Orphanet:60		0		
-Orphanet:60030		0		
+Orphanet:50942		1		DOID:4	disease
+Orphanet:53715		1		DOID:4	disease
 Orphanet:60039		0		
-Orphanet:606		0		
-Orphanet:61		0		
-Orphanet:610		0		
-Orphanet:611		0		
-Orphanet:614		0		
-Orphanet:618		0		
 Orphanet:625		0		
-Orphanet:627		0		
-Orphanet:628		0		
-Orphanet:63		0		
-Orphanet:633		0		
-Orphanet:634		0		
-Orphanet:63446		0		
-Orphanet:635		0		
-Orphanet:636		0		
-Orphanet:637		0		
 Orphanet:638		0		
-Orphanet:640		0		
-Orphanet:646		0		
-Orphanet:647		0		
-Orphanet:64741		0		
-Orphanet:64755		0		
-Orphanet:648		0		
-Orphanet:649		0		
-Orphanet:65		0		
-Orphanet:650		0		
-Orphanet:651		0		
-Orphanet:652		0		
 Orphanet:65250		0		
-Orphanet:65285		0		
-Orphanet:654		0		
-Orphanet:658		0		
-Orphanet:659		0		
-Orphanet:660		0		
-Orphanet:662		0		
-Orphanet:664		0		
-Orphanet:665		0		
-Orphanet:666		0		
-Orphanet:66625		0		
-Orphanet:66629		0		
-Orphanet:66637		0		
-Orphanet:66646		0		
-Orphanet:66661		0		
-Orphanet:669		0		
-Orphanet:672		0		
-Orphanet:675		0		
-Orphanet:679		0		
-Orphanet:682		0		
-Orphanet:685		0		
-Orphanet:69		0		
-Orphanet:69028		0		
-Orphanet:69077		0		
-Orphanet:69078		0		
-Orphanet:69087		0		
-Orphanet:69127		0		
-Orphanet:699		0		
-Orphanet:701		0		
-Orphanet:702		0		
-Orphanet:703		0		
-Orphanet:70482		0		
-Orphanet:705		0		
-Orphanet:70567		0		
-Orphanet:70592		0		
-Orphanet:706		0		
-Orphanet:709		0		
-Orphanet:710		0		
-Orphanet:71493		0		
-Orphanet:716		0		
-Orphanet:72		0		
-Orphanet:726		0		
-Orphanet:728		0		
-Orphanet:729		0		
-Orphanet:730		0		
-Orphanet:733		0		
+Orphanet:669		1		DOID:4	disease
 Orphanet:736		0		
-Orphanet:738		0		
-Orphanet:739		0		
-Orphanet:740		0		
-Orphanet:742		0		
 Orphanet:743		0		
-Orphanet:744		0		
-Orphanet:750		0		
-Orphanet:75233		0		
-Orphanet:75234		0		
-Orphanet:75373		0		
-Orphanet:754		0		
-Orphanet:75496		0		
-Orphanet:75501		0		
-Orphanet:75563		0		
-Orphanet:758		0		
-Orphanet:763		0		
-Orphanet:764		0		
-Orphanet:765		0		
-Orphanet:767		0		
-Orphanet:768		0		
-Orphanet:77		0		
-Orphanet:770		0		
 Orphanet:771		0		
-Orphanet:772		0		
-Orphanet:77243		0		
-Orphanet:77297		0		
-Orphanet:773		0		
-Orphanet:774		0		
-Orphanet:777		0		
-Orphanet:778		0		
-Orphanet:779		0		
-Orphanet:782		0		
-Orphanet:783		0		
-Orphanet:790		0		
-Orphanet:79083		0		
-Orphanet:791		0		
-Orphanet:79141		0		
-Orphanet:79152		0		
-Orphanet:79234		0		
-Orphanet:79235		0		
-Orphanet:79237		0		
-Orphanet:79241		0		
-Orphanet:79242		0		
-Orphanet:79264		0		
-Orphanet:79273		0		
-Orphanet:79276		0		
-Orphanet:79278		0		
-Orphanet:79280		0		
-Orphanet:793		0		
-Orphanet:79301		0		
-Orphanet:79303		0		
-Orphanet:79314		0		
-Orphanet:79319		0		
-Orphanet:79320		0		
-Orphanet:79321		0		
-Orphanet:79322		0		
-Orphanet:79323		0		
-Orphanet:79327		0		
-Orphanet:79328		0		
-Orphanet:79329		0		
-Orphanet:79330		0		
-Orphanet:79332		0		
-Orphanet:79333		0		
-Orphanet:79358		0		
-Orphanet:79364		0		
-Orphanet:79365		0		
-Orphanet:79373		0		
-Orphanet:79394		0		
-Orphanet:79396		0		
-Orphanet:79397		0		
-Orphanet:794		0		
-Orphanet:79400		0		
-Orphanet:79401		0		
-Orphanet:79404		0		
-Orphanet:79411		0		
-Orphanet:79430		0		
-Orphanet:79432		0		
-Orphanet:79433		0		
-Orphanet:79455		0		
-Orphanet:79456		0		
-Orphanet:79457		0		
-Orphanet:79473		0		
-Orphanet:79503		0		
-Orphanet:796		0		
-Orphanet:799		0		
+Orphanet:79373		1		DOID:4	disease
 Orphanet:80		0		
-Orphanet:800		0		
-Orphanet:801		0		
-Orphanet:805		0		
-Orphanet:808		0		
-Orphanet:809		0		
-Orphanet:812		0		
-Orphanet:813		0		
-Orphanet:817		0		
-Orphanet:818		0		
-Orphanet:819		0		
-Orphanet:820		0		
-Orphanet:821		0		
-Orphanet:825		0		
-Orphanet:828		0		
-Orphanet:83		0		
-Orphanet:83317		0		
-Orphanet:83461		0		
-Orphanet:83465		0		
-Orphanet:839		0		
-Orphanet:84		0		
-Orphanet:840		0		
-Orphanet:84090		0		
-Orphanet:841		0		
-Orphanet:845		0		
-Orphanet:846		0		
-Orphanet:847		0		
-Orphanet:848		0		
-Orphanet:85164		0		
-Orphanet:85166		0		
-Orphanet:85170		0		
-Orphanet:85173		0		
-Orphanet:85174		0		
-Orphanet:85193		0		
-Orphanet:85202		0		
-Orphanet:85203		0		
-Orphanet:85212		0		
-Orphanet:85276		0		
-Orphanet:85282		0		
-Orphanet:85291		0		
+Orphanet:812		1		DOID:4	disease
+Orphanet:84090		1		DOID:4	disease
 Orphanet:856		0		
-Orphanet:857		0		
-Orphanet:858		0		
-Orphanet:859		0		
-Orphanet:861		0		
-Orphanet:867		0		
-Orphanet:86788		0		
-Orphanet:868		0		
-Orphanet:86814		0		
-Orphanet:869		0		
-Orphanet:87		0		
-Orphanet:870		0		
-Orphanet:871		0		
-Orphanet:87503		0		
-Orphanet:881		0		
-Orphanet:882		0		
-Orphanet:886		0		
-Orphanet:88621		0		
-Orphanet:887		0		
-Orphanet:888		0		
-Orphanet:892		0		
-Orphanet:893		0		
-Orphanet:894		0		
-Orphanet:896		0		
-Orphanet:897		0		
-Orphanet:899		0		
-Orphanet:89936		0		
-Orphanet:89937		0		
-Orphanet:90		0		
-Orphanet:900		0		
-Orphanet:90035		0		
-Orphanet:90042		0		
-Orphanet:90045		0		
-Orphanet:90153		0		
-Orphanet:90154		0		
-Orphanet:902		0		
-Orphanet:90289		0		
-Orphanet:90290		0		
-Orphanet:90291		0		
-Orphanet:903		0		
-Orphanet:90307		0		
-Orphanet:90309		0		
-Orphanet:90318		0		
-Orphanet:90340		0		
-Orphanet:90354		0		
-Orphanet:904		0		
-Orphanet:906		0		
-Orphanet:90650		0		
-Orphanet:90652		0		
-Orphanet:90654		0		
+Orphanet:867		1		DOID:4	disease
+Orphanet:86814		1		DOID:4	disease
+Orphanet:871		1		DOID:4	disease
 Orphanet:907		0		
-Orphanet:908		0		
-Orphanet:909		0		
-Orphanet:91		0		
-Orphanet:910		0		
-Orphanet:91131		0		
-Orphanet:912		0		
-Orphanet:91378		0		
-Orphanet:915		0		
-Orphanet:91546		0		
-Orphanet:916		0		
-Orphanet:92		0		
-Orphanet:920		0		
-Orphanet:924		0		
-Orphanet:929		0		
-Orphanet:93		0		
-Orphanet:931		0		
-Orphanet:93111		0		
-Orphanet:932		0		
-Orphanet:93256		0		
-Orphanet:93283		0		
-Orphanet:93296		0		
-Orphanet:93298		0		
-Orphanet:93299		0		
-Orphanet:93301		0		
-Orphanet:93302		0		
-Orphanet:93303		0		
-Orphanet:93304		0		
-Orphanet:93314		0		
-Orphanet:93316		0		
-Orphanet:93317		0		
-Orphanet:93352		0		
-Orphanet:93356		0		
-Orphanet:93357		0		
-Orphanet:93384		0		
 Orphanet:93385		0		
 Orphanet:93393		0		
-Orphanet:93396		0		
-Orphanet:93403		0		
-Orphanet:93404		0		
-Orphanet:93473		0		
-Orphanet:93474		0		
-Orphanet:93476		0		
-Orphanet:935		0		
-Orphanet:93672		0		
-Orphanet:939		0		
-Orphanet:93929		0		
-Orphanet:93930		0		
-Orphanet:93955		0		
-Orphanet:94068		0		
-Orphanet:943		0		
-Orphanet:949		0		
-Orphanet:950		0		
-Orphanet:95159		0		
-Orphanet:952		0		
-Orphanet:95429		0		
-Orphanet:955		0		
 Orphanet:95501		0		
-Orphanet:957		0		
-Orphanet:95716		0		
-Orphanet:958		0		
-Orphanet:96		0		
-Orphanet:96167		0		
-Orphanet:96169		0		
-Orphanet:96253		0		
-Orphanet:963		0		
-Orphanet:965		0		
+Orphanet:95716		1		DOID:4	disease
 Orphanet:966		0		
-Orphanet:968		0		
-Orphanet:971		0		
-Orphanet:97229		0		
-Orphanet:97286		0		
-Orphanet:97297		0		
-Orphanet:97330		0		
-Orphanet:974		0		
-Orphanet:977		0		
-Orphanet:978		0		
-Orphanet:98292		0		
-Orphanet:98293		0		
+Orphanet:971		1		DOID:4	disease
 Orphanet:98296		0		
 Orphanet:98299		0		
-Orphanet:98375		0		
-Orphanet:98428		0		
-Orphanet:98848		0		
-Orphanet:98850		0		
-Orphanet:991		0		
-Orphanet:99742		0		
-Orphanet:99745		0		
-Orphanet:99748		0		
-Orphanet:99797		0		
-Orphanet:99798		0		
-Orphanet:998		0		
-Orphanet:99812		0		
-Orphanet:99824		0		
-Orphanet:99826		0		
-Orphanet:99827		0		
-Orphanet:99828		0		
-Orphanet:99829		0		
-Orphanet:99867		0		
-Orphanet:99868		0		
 Orphanet:99888		0		
-Orphanet:999		0		
-Orphanet:99927		0		
-Orphanet:99928		0		
-Orphanet:99969		0		
-Orphanet:99971		0		
-Orphanet:99978		0		
