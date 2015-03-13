@@ -344,7 +344,30 @@ is_phenome(C) :-
         parentRT(C,part_of,'Orphanet:C001'),
         !.
 
+orphaleaf_orpharoot(D,AN) :-
+        id_idspace(D,'Orphanet'),
+        c_orpharoot(D,A),
+        class(A,AN1),
+        concat_atom(L,' ',AN1),
+        concat_atom(L,'_',AN).
 
+c_orpharoot(D,A) :-
+        subclassT(D,A),
+        orpharoot(A),
+        !.
+
+orpharoot(A) :- subclass(A,'Orphanet:C001'), !.
+orpharoot(A) :- \+ subclass(A,_),A\='Orphanet:C001', !.
+
+write_header :-
+        format('ontology: upheno/doid/mondo~n'),
+        solutions(X,(class(D),
+                     id_idspace(D,'Orphanet'),
+                     orphaleaf_orpharoot(D,X)),
+                  Xs),
+        forall(member(X,Xs),
+               format('subsetdef: ~w "~w"~n',[X,X])),
+        nl.
 
 all_ordo_category(X,C,W) :-
         class(X),
@@ -357,6 +380,7 @@ keep(X) :- ordo_category(X,multi_map_to_omim,_),!.
 keep(X) :- ordo_category(X,map_to_omim,_),!.    % see notes above; 
 
 write_all_mdo :-
+        write_header,
         write_all_ordo,
         write_all_non_ordo.
 write_all_ordo :-
@@ -400,6 +424,10 @@ write_non_ordo(X,map_to_disease,Y) :-
                 nl)).
 */
 
+% for each OMIM ID, write a bridge axiom
+% connecting to its parent, where the parent is
+% solely determined by xrefs; these may come
+% from DOID or from ORDO
 write_omim(M) :-
         forall(entity_xref_idspace(D,M,'OMIM'),
                write_omim(M,D)).
@@ -425,6 +453,7 @@ write_omim(M,D) :-
         format('! Making OMIM isa from xref~n',[D]),
         format('[Term]~n'),
         format('id: ~w ! ~w~n',[M,MN]),
+        format('is_a: DOID:630 ! genetic disease~n'),
         format('is_a: ~w ! ~w~n',[D,DN]),
         nl.
 
@@ -478,6 +507,8 @@ write_ordo(X) :-
         format('[Term]~n'),
         format('id: ~w~n',[X]),
         format('name: ~w~n',[XN]),
+        forall(orphaleaf_orpharoot(X,Y),
+               format('subset: ~w~n',[Y])),
         forall(def(X,Y),
                format('def: "~w" [~w]~n',[Y,X])),
         forall(entity_synonym_scope(X,Syn,Scope),
@@ -547,7 +578,11 @@ ordo_parent(_,R,Y) :-
 
 subclass_in(M,P,S) :-
         subclass(M,P),
+        P\='DOID:4',
+        P\='DOID:630',
         id_idspace(P,S).
+
+foo('0').
 
 write_equiv_omims :-
         class(M),

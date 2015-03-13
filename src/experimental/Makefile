@@ -186,9 +186,9 @@ ordo-differentia.txt:
 
 G = write_all_mdo
 IG = -i super_ignore.pro
-ordo_category.tsv: ordo.obo
+ordo_category.tsv: ordo.obo ../ontology/doid.obo
 	blip-findall -u metadata_nlp -debug index $(IG) -goal index_entity_pair_label_match   -r disease -i omcrest.obo -i $< -consult munger.pro -r hpoa all_ordo_category/3 -label -no_pred > $@
-new_ordo.obo: ordo.obo omc-minimal.obo
+new_ordo.obo: ordo.obo omc-minimal.obo ../ontology/doid.obo
 	blip-findall -u metadata_nlp -debug index $(IG) -goal index_entity_pair_label_match  -r disease -i omc-minimal.obo -i $< -consult munger.pro -r hpoa $(G) -label > $@.tmp && grep -v $(G) $@.tmp > $@
 
 new_ordo_merged.obo: new_ordo.obo omc-minimal.obo
