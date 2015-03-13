@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:03:2015 10:46
+date: 13:03:2015 14:39
 saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
@@ -5537,6 +5537,14 @@ xref: PS:610542
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-02-23T11:05:46Z
+
+[Term]
+id: DC:0000678
+name: Hypobetalipoproteinemia, Familial
+comment: Based on genetic heterogeneity of OMIM 615558.
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-13T14:34:27Z
 
 [Term]
 id: OMIM:100050
@@ -28419,7 +28427,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:605019
 name: Hypobetalipoproteinemia, Familial, 2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000678 ! Hypobetalipoproteinemia, Familial
 
 [Term]
 id: OMIM:605021
@@ -42299,7 +42307,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:615558
 name: Hypobetalipoproteinemia, Familial, 1; FHBL1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000678 ! Hypobetalipoproteinemia, Familial
 
 [Term]
 id: OMIM:615559
