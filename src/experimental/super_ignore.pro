@@ -10,3 +10,4 @@ metadata_nlp:synset_hook(['',rare]).
 metadata_nlp:synset_hook(['',genetic]).
 metadata_nlp:synset_hook(['',heriditary]).
 metadata_nlp:synset_hook(['',with]).
+metadata_nlp:synset_hook([disease,anomaly]).
