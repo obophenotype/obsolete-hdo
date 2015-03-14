@@ -870,6 +870,7 @@ OMIM:258300	Olivopontocerebellar Atrophy II, Autosomal Recessive	1		DOID:4	disea
 OMIM:258360	Onychotrichodysplasia and Neutropenia	1		DOID:4	disease
 OMIM:258400	Ophthalmoplegia Totalis with Ptosis and Miosis	1		DOID:4	disease
 OMIM:258470	Ophthalmoplegic Neuromuscular Disorder with Abnormal Mitochondria	1		DOID:4	disease
+OMIM:258501	3-METHYLGLUTACONIC ACIDURIA, TYPE III	2		DC:0000004	3-Methylglutaconic Aciduria,DOID:4	disease
 OMIM:258650	Optic Atrophy, Hearing Loss, and Peripheral Neuropathy, Autosomal Recessive	1		DOID:4	disease
 OMIM:258660	NONARTERITIC ANTERIOR ISCHEMIC OPTIC NEUROPATHY, SUSCEPTIBILITY TO	1		DOID:4	disease
 OMIM:258700	Opticocochleodentate Degeneration	1		DOID:4	disease
@@ -1157,7 +1158,7 @@ OMIM:604559	Progressive Familial Heart Block, Type Ib	2		DC:0000374	Progressive 
 OMIM:604715	Orthostatic Intolerance	1		DOID:4	disease
 OMIM:604772	VENTRICULAR TACHYCARDIA, CATECHOLAMINERGIC POLYMORPHIC, 1, WITH OR WITHOUT ATRIAL DYSFUNCTION AND/OR DILATED CARDIOMYOPATHY	2		DC:0000665	Ventricular Tachycardia, Catecholaminergic Polymorphic,DOID:4	disease
 OMIM:605013	Microhydranencephaly	1		DOID:4	disease
-OMIM:605019	Hypobetalipoproteinemia, Familial, 2	1		DOID:4	disease
+OMIM:605019	Hypobetalipoproteinemia, Familial, 2	2		DC:0000678	Hypobetalipoproteinemia, Familial,DOID:4	disease
 OMIM:605249	Sebastian syndrome	1		DOID:4	disease
 OMIM:605289	Split-Hand/Foot Malformation 4	2		DC:0000416	Split-Hand/Foot Malformation,DOID:4	disease
 OMIM:605321	Frontoocular Syndrome	1		DOID:4	disease
@@ -1370,7 +1371,7 @@ OMIM:615457		0
 OMIM:615468	Immunodeficiency 12; IMD12	2		DC:0000615	Immunodeficiency,DOID:4	disease
 OMIM:615513	Activated Pi3k-Delta Syndrome; APDS	1		DOID:4	disease
 OMIM:615547	Prader-Willi-Like Syndrome; PWLS	1		DOID:4	disease
-OMIM:615558	Hypobetalipoproteinemia, Familial, 1; FHBL1	1		DOID:4	disease
+OMIM:615558	Hypobetalipoproteinemia, Familial, 1; FHBL1	2		DC:0000678	Hypobetalipoproteinemia, Familial,DOID:4	disease
 OMIM:615582	Rienhoff Syndrome; RNHF	1		DOID:4	disease
 OMIM:615583	Verheij Syndrome; VRJS	1		DOID:4	disease
 OMIM:615592	Immunodeficiency 15; IMD15	2		DC:0000615	Immunodeficiency,DOID:4	disease
@@ -1586,6 +1587,7 @@ Orphanet:65250		0
 Orphanet:660		2		DOID:0080015	physical disorder,DOID:4	disease
 Orphanet:669		1		DOID:4	disease
 Orphanet:67046	3-methylglutaconic aciduria type 1	2		DC:0000004	3-Methylglutaconic Aciduria,DOID:4	disease
+Orphanet:67047		1		DOID:4	disease
 Orphanet:67048	3-methylglutaconic aciduria type 4	2		DC:0000004	3-Methylglutaconic Aciduria,DOID:4	disease
 Orphanet:71276	Silent sinus syndrome	2		DOID:4	disease,Orphanet:98036	Rare otorhinolaryngologic disease
 Orphanet:722	Hypoplasminogenemia	2		DOID:4	disease,Orphanet:98023	Rare systemic or rheumatologic disease
