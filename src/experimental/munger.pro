@@ -447,6 +447,7 @@ write_omim(M,D) :-
                    nl
                )).
 write_omim(M,D) :-
+        \+ is_a_gene(D),
         !,
         class2n(M,MN),
         class2n(D,DN),
@@ -456,6 +457,10 @@ write_omim(M,D) :-
         format('is_a: DOID:630 ! genetic disease~n'),
         format('is_a: ~w ! ~w~n',[D,DN]),
         nl.
+
+
+is_a_gene(G) :- subclassRT(G,'Orphanet:C010'), !.
+        
 
 
         
