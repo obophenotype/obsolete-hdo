@@ -136,6 +136,7 @@ DC:0000100	Corneal Endothelial Dystrophy	DOID:11554	Chandler syndrome	false
 DC:0000100	Corneal Endothelial Dystrophy	DOID:11554	Chandler syndrome	true	
 DC:0000101	Cornelia De Lange Syndrome	DOID:11725	Cornelia de Lange syndrome	false	
 DC:0000101	Cornelia De Lange Syndrome	DOID:11725	Cornelia de Lange syndrome	true	
+DC:0000102	Coronary Artery Disease	DOID:11843	coronary artery anomaly	false	
 DC:0000102	Coronary Artery Disease	DOID:3393	coronary artery disease	false	
 DC:0000102	Coronary Artery Disease	DOID:3393	coronary artery disease	true	
 DC:0000103	Coronary Heart Disease	DOID:3393	coronary artery disease	false	
@@ -152,6 +153,8 @@ DC:0000110	Deafness, Autosomal Recessive	DOID:0050565	autosomal recessive nonsyn
 DC:0000110	Deafness, Autosomal Recessive	DOID:0050565	autosomal recessive nonsyndromic deafness	true	
 DC:0000111	Deafness, X-Linked	DOID:0050566	X-linked nonsyndromic deafness	false	
 DC:0000111	Deafness, X-Linked	DOID:0050566	X-linked nonsyndromic deafness	true	
+DC:0000112	Dent Disease	DOID:0050699	Dent disease	false	
+DC:0000112	Dent Disease	DOID:0050699	Dent disease	true	
 DC:0000113	Dentin Dysplasia	DOID:701	dentin dysplasia	false	
 DC:0000113	Dentin Dysplasia	DOID:701	dentin dysplasia	true	
 DC:0000114	Major Depressive Disorder	DOID:1470	major depressive disorder	false	
@@ -160,6 +163,8 @@ DC:0000115	Dermatitis, Atopic	DOID:3310	atopic dermatitis	false
 DC:0000115	Dermatitis, Atopic	DOID:3310	atopic dermatitis	true	
 DC:0000116	Diabetes Insipidus	DOID:9409	diabetes insipidus	false	
 DC:0000116	Diabetes Insipidus	DOID:9409	diabetes insipidus	true	
+DC:0000117	Diabetes Mellitus, Transient Neonatal	DOID:0060334	transient neonatal diabetes mellitus	false	
+DC:0000117	Diabetes Mellitus, Transient Neonatal	DOID:0060334	transient neonatal diabetes mellitus	true	
 DC:0000118	Diabetes Mellitus, Noninsulin-Dependent	DOID:9352	type 2 diabetes mellitus	false	
 DC:0000118	Diabetes Mellitus, Noninsulin-Dependent	DOID:9352	type 2 diabetes mellitus	true	
 DC:0000119	Diabetes, Maturity-Onset of the Young	DOID:0050524	maturity-onset diabetes of the young	false	
@@ -775,6 +780,10 @@ DC:0000673	Bardet-Biedl Syndrome	DOID:1935	Bardet-Biedl syndrome	false
 DC:0000673	Bardet-Biedl Syndrome	DOID:1935	Bardet-Biedl syndrome	true	
 DC:0000675	Macular Dystrophy, Vitelliform	DOID:0050661	vitelliform macular dystrophy	false	
 DC:0000675	Macular Dystrophy, Vitelliform	DOID:0050661	vitelliform macular dystrophy	true	
+DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1386	abetalipoproteinemia	false	
+DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1386	abetalipoproteinemia	true	
+DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1390	hypobetalipoproteinemia	false	
+DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1390	hypobetalipoproteinemia	true	
 DOID:0050120	hemophagocytic lymphohistiocytosis	DC:0000183	Hemophagocytic Lymphohistiocytosis, Familial	false	
 DOID:0050425	restless legs syndrome	DC:0000385	Restless Legs Syndrome	false	
 DOID:0050425	restless legs syndrome	DC:0000385	Restless Legs Syndrome	true	
@@ -886,6 +895,8 @@ DOID:0050690	brachyolmia	DC:0000483	Brachyolmia	false
 DOID:0050690	brachyolmia	DC:0000483	Brachyolmia	true	
 DOID:0050694	Brown-Vialetto-Van Laere syndrome	DC:0000485	Brown-Vialetto-Van Laere Syndrome	false	
 DOID:0050694	Brown-Vialetto-Van Laere syndrome	DC:0000485	Brown-Vialetto-Van Laere Syndrome	true	
+DOID:0050699	Dent disease	DC:0000112	Dent Disease	false	
+DOID:0050699	Dent disease	DC:0000112	Dent Disease	true	
 DOID:0050709	Ohtahara syndrome	DC:0000137	Epileptic Encephalopathy, Early Infantile	false	
 DOID:0050709	Ohtahara syndrome	DC:0000137	Epileptic Encephalopathy, Early Infantile	true	
 DOID:0050730	coenzyme Q10 deficiency disease	DC:0000496	Coenzyme Q10 Deficiency, Primary	false	
@@ -1029,6 +1040,8 @@ DOID:0060309	syndromic X-linked intellectual disability	DC:0000273	Mental Retard
 DOID:0060309	syndromic X-linked intellectual disability	DC:0000273	Mental Retardation, X-Linked, Syndromic	true	
 DOID:0060327	omphalocele	DC:0000572	Omphalocele	false	
 DOID:0060327	omphalocele	DC:0000572	Omphalocele	true	
+DOID:0060334	transient neonatal diabetes mellitus	DC:0000117	Diabetes Mellitus, Transient Neonatal	false	
+DOID:0060334	transient neonatal diabetes mellitus	DC:0000117	Diabetes Mellitus, Transient Neonatal	true	
 DOID:0080027	spondyloepimetaphyseal dysplasia	DC:0000419	Spondyloepimetaphyseal Dysplasia	false	
 DOID:0080027	spondyloepimetaphyseal dysplasia	DC:0000419	Spondyloepimetaphyseal Dysplasia	true	
 DOID:0080032	craniodiaphyseal dysplasia	DC:0000499	Craniodiaphyseal Dysplasia	false	
@@ -1127,6 +1140,7 @@ DOID:11830	myopia	DC:0000307	Myopia	false
 DOID:11830	myopia	DC:0000307	Myopia	true	
 DOID:1184	nephrotic syndrome	DC:0000317	Nephrotic Syndrome	false	
 DOID:1184	nephrotic syndrome	DC:0000317	Nephrotic Syndrome	true	
+DOID:11843	coronary artery anomaly	DC:0000102	Coronary Artery Disease	false	
 DOID:11984	hypertrophic cardiomyopathy	DC:0000066	Cardiomyopathy, Familial Hypertrophic	false	
 DOID:11984	hypertrophic cardiomyopathy	DC:0000066	Cardiomyopathy, Familial Hypertrophic	true	
 DOID:1206	Rett syndrome	DC:0000389	Rett Syndrome	false	
@@ -1210,8 +1224,12 @@ DOID:13777	epidermodysplasia verruciformis	DC:0000514	Epidermodysplasia Verrucif
 DOID:13809	familial combined hyperlipidemia	DC:0000198	Hyperlipidemia, Combined	false	
 DOID:13810	familial hypercholesterolemia	DC:0000195	Hypercholesterolemia	false	
 DOID:13810	familial hypercholesterolemia	DC:0000195	Hypercholesterolemia	true	
+DOID:1386	abetalipoproteinemia	DC:0000678	Hypobetalipoproteinemia, Familial	false	
+DOID:1386	abetalipoproteinemia	DC:0000678	Hypobetalipoproteinemia, Familial	true	
 DOID:13884	sick sinus syndrome	DC:0000407	Sick Sinus Syndrome	false	
 DOID:13884	sick sinus syndrome	DC:0000407	Sick Sinus Syndrome	true	
+DOID:1390	hypobetalipoproteinemia	DC:0000678	Hypobetalipoproteinemia, Familial	false	
+DOID:1390	hypobetalipoproteinemia	DC:0000678	Hypobetalipoproteinemia, Familial	true	
 DOID:13911	achromatopsia	DC:0000006	Achromatopsia	false	
 DOID:13911	achromatopsia	DC:0000006	Achromatopsia	true	
 DOID:13922	eosinophilic esophagitis	DC:0000156	Esophagitis, Eosinophilic	false	
