@@ -11,8 +11,9 @@ disease_nosyn.obo: ../ontology/doid.obo
 ## MGI clusters
 ## --
 
-../contrib/omimclusters.obo:
-	wget ftp://ftp.informatics.jax.org/pub/curatorwork/OMIM.clusters -O $@
+# this is now maintained directly in contrib
+#../contrib/omimclusters.obo:
+#	wget ftp://ftp.informatics.jax.org/pub/curatorwork/OMIM.clusters -O $@
 
 # local copy of MGI's file
 omimclusters.obo: ../contrib/omimclusters.obo
@@ -26,8 +27,11 @@ omc.obo: ../contrib/omimclusters.obo
 omc-mapped-to-do.obo: omimclusters.obo
 	obo-map-ids.pl --use-xref-inverse xrefs-doid-to-omc.obo  xrefs-doid-to-omc-edited.obo $< > $@
 
+omim-genes.obo: omimclusters.obo
+	blip ontol-query -consult munger.pro -i $< -i ordo.obo -query "omim_gene(ID)" -to obo > $@
+
 omc-minimal.obo: omc-mapped-to-do.obo
-	obo-subtract.pl $< ../ontology/doid.obo  > $@.tmp && obo-grep.pl --neg -r is_obsolete $@.tmp > $@
+	obo-subtract.pl $< ../ontology/doid.obo omim-genes.obo  > $@.tmp && obo-grep.pl --neg -r is_obsolete $@.tmp > $@
 
 ## --
 ## OMIM Phenotypic Series
