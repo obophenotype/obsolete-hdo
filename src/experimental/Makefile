@@ -85,8 +85,17 @@ isa-%.obo: align-%.tsv
 ## --
 ## MESH missing from DO
 ## --
+m.pro: ../contrib/MesH.contrib/mesh_list.txt
+	perl -npe 's/:.*//;s/^/MESH:/' $< | tbl2p -p m > m.pro
+
 mesh-missing-from-doid.tsv:
 	blip-findall -i ../ontology/imports/ctd_import.obo -r disease -i xrefs-doid-to-mesh.obo -i m.pro "m(X),\+entity_xref(D,X)" -select X -use_tabs  -label > $@
+
+mesh-missing-nearest-parent-doid.tsv: xrefs-doid-to-mesh.obo
+	blip-findall -i ../ontology/imports/ctd_import.obo -r disease -i $< -i m.pro "m(X),\+entity_xref(D,X),subclassT(X,X1),entity_xref(D,X1),\\+((subclassT(X,X2),subclassT(X2,X1),entity_xref(_,X2)))" -select X-D -no_pred -use_tabs  -label > $@
+
+mesh_rest.obo: xrefs-doid-to-mesh.obo
+	blip-findall -i m.pro -consult munger.pro -i $< -i ../ontology/imports/ctd_import.obo -r disease "m(M),write_mesh(M),fail" > $@
 
 ## --
 ## Xrefs to logic axioms

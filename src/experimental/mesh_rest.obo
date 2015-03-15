@@ -1,0 +1,4521 @@
+[Term]
+id: MESH:D002558
+name: Cerebrospinal Fluid Otorrhea
+is_a: MESH:D065634 ! Cerebrospinal Fluid Leak
+
+[Term]
+id: MESH:D020945
+name: Lupus Vasculitis, Central Nervous System
+is_a: DOID:9074 ! systemic lupus erythematosus
+is_a: DOID:10554 ! meningoencephalitis
+is_a: DOID:2555 ! granulomatous angiitis
+
+[Term]
+id: MESH:D002559
+name: Cerebrospinal Fluid Rhinorrhea
+is_a: MESH:D065634 ! Cerebrospinal Fluid Leak
+
+[Term]
+id: MESH:D004803
+name: Eosinophilic Granuloma
+is_a: DOID:0080001 ! bone disease
+is_a: DOID:999 ! eosinophilia
+is_a: MESH:D006099 ! Granuloma
+is_a: DOID:2571 ! Langerhans-cell histiocytosis
+
+[Term]
+id: MESH:D005935
+name: Glucagonoma
+is_a: DOID:1798 ! pancreatic endocrine carcinoma
+
+[Term]
+id: MESH:D057873
+name: Peri-Implantitis
+is_a: DOID:403 ! mouth disease
+is_a: DOID:3388 ! periodontal disease
+
+[Term]
+id: MESH:D054868
+name: Jacobsen Distal 11q Deletion Syndrome
+is_a: DOID:1588 ! thrombocytopenia
+is_a: DOID:0080014 ! chromosomal disease
+
+[Term]
+id: MESH:D020179
+name: Jet Lag Syndrome
+is_a: DOID:0050628 ! advanced sleep phase syndrome
+is_a: DOID:13364 ! chronobiology disease
+
+[Term]
+id: MESH:D054098
+name: Thrombocytopenia, Neonatal Alloimmune
+is_a: MESH:D007232 ! Infant, Newborn, Diseases
+is_a: DOID:1588 ! thrombocytopenia
+
+[Term]
+id: MESH:D020177
+name: Hypersomnolence, Idiopathic
+is_a: DOID:8619 ! recurrent hypersomnia
+
+[Term]
+id: MESH:D017486
+name: Acneiform Eruptions
+is_a: DOID:3134 ! facial dermatosis
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D002543
+name: Cerebral Hemorrhage
+is_a: MESH:D020300 ! Intracranial Hemorrhages
+
+[Term]
+id: MESH:D051474
+name: Neuralgia, Postherpetic
+is_a: MESH:D009437 ! Neuralgia
+
+[Term]
+id: MESH:D054083
+name: Ectopia Cordis
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: MESH:D005911
+name: Gliosis
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D002538
+name: Intracranial Arteriovenous Malformations
+is_a: DOID:11294 ! arteriovenous malformation
+is_a: DOID:6713 ! cerebrovascular disease
+is_a: DOID:13089 ! intracranial arterial disease
+is_a: MESH:D020785 ! Central Nervous System Vascular Malformations
+
+[Term]
+id: MESH:D057851
+name: Posterior Capsular Rupture, Ocular
+is_a: MESH:D005131 ! Eye Injuries
+
+[Term]
+id: MESH:D002534
+name: Hypoxia, Brain
+is_a: DOID:936 ! brain disease
+
+[Term]
+id: MESH:D005925
+name: Glomus Jugulare Tumor
+is_a: DOID:0050773 ! paraganglioma
+
+[Term]
+id: MESH:D007953
+name: Leukemia, Radiation-Induced
+is_a: DOID:1240 ! leukemia
+is_a: MESH:D009381 ! Neoplasms, Radiation-Induced
+is_a: MESH:D011832 ! Radiation Injuries
+
+[Term]
+id: MESH:D054069
+name: Multiple Acyl Coenzyme A Dehydrogenase Deficiency
+is_a: DOID:9252 ! amino acid metabolic disorder
+is_a: DOID:700 ! mitochondrial metabolism disease
+
+[Term]
+id: MESH:D020149
+name: Manganese Poisoning
+is_a: MESH:D011041 ! Poisoning
+is_a: MESH:D020260 ! Heavy Metal Poisoning, Nervous System
+
+[Term]
+id: MESH:D011885
+name: Radius Fractures
+is_a: MESH:D005543 ! Forearm Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D020146
+name: Putaminal Hemorrhage
+is_a: MESH:D020145 ! Basal Ganglia Hemorrhage
+
+[Term]
+id: MESH:D020145
+name: Basal Ganglia Hemorrhage
+is_a: MESH:D002543 ! Cerebral Hemorrhage
+is_a: DOID:10991 ! basal ganglia cerebrovascular disease
+
+[Term]
+id: MESH:D054068
+name: Livedo Reticularis
+is_a: MESH:D012877 ! Skin Manifestations
+is_a: DOID:341 ! peripheral vascular disease
+is_a: DOID:9540 ! vascular skin disease
+
+[Term]
+id: MESH:D013352
+name: Subcutaneous Emphysema
+is_a: MESH:D004646 ! Emphysema
+
+[Term]
+id: MESH:D013353
+name: Subdural Effusion
+is_a: DOID:936 ! brain disease
+is_a: MESH:D020819 ! Perimeningeal Infections
+
+[Term]
+id: MESH:D007971
+name: Leukoplakia
+is_a: MESH:D011230 ! Precancerous Conditions
+is_a: MESH:D020763 ! Pathological Conditions, Anatomical
+
+[Term]
+id: MESH:D053706
+name: Typhlitis
+is_a: DOID:1518 ! cecal disease
+is_a: DOID:2326 ! gastroenteritis
+is_a: MESH:D059413 ! Intraabdominal Infections
+
+[Term]
+id: MESH:D007979
+name: Levocardia
+is_a: DOID:1682 ! congenital heart disease
+is_a: DOID:758 ! situs inversus
+
+[Term]
+id: MESH:D013369
+name: Subphrenic Abscess
+is_a: DOID:8283 ! peritonitis
+is_a: MESH:D018784 ! Abdominal Abscess
+
+[Term]
+id: MESH:D013365
+name: Submandibular Gland Neoplasms
+is_a: DOID:8850 ! salivary gland cancer
+is_a: DOID:12897 ! submandibular gland disease
+
+[Term]
+id: MESH:D013362
+name: Sublingual Gland Neoplasms
+is_a: DOID:8850 ! salivary gland cancer
+
+[Term]
+id: MESH:D053716
+name: Female Athlete Triad Syndrome
+is_a: DOID:8670 ! eating disorder
+is_a: DOID:2277 ! gonadal disease
+is_a: DOID:11476 ! osteoporosis
+
+[Term]
+id: MESH:D053717
+name: Pneumonia, Ventilator-Associated
+is_a: MESH:D003428 ! Cross Infection
+is_a: DOID:552 ! pneumonia
+is_a: MESH:D055397 ! Ventilator-Induced Lung Injury
+
+[Term]
+id: MESH:D053718
+name: Scleromyxedema
+is_a: DOID:3141 ! mucinoses
+
+[Term]
+id: MESH:D020923
+name: REM Sleep Parasomnias
+is_a: MESH:D020447 ! Parasomnias
+
+[Term]
+id: MESH:D058387
+name: Candidemia
+is_a: MESH:D016469 ! Fungemia
+is_a: MESH:D058365 ! Candidiasis, Invasive
+
+[Term]
+id: MESH:D013341
+name: Sturge-Weber Syndrome
+is_a: MESH:D000798 ! Angiomatosis
+is_a: DOID:255 ! hemangioma
+is_a: MESH:D020752 ! Neurocutaneous Syndromes
+
+[Term]
+id: MESH:D054019
+name: Immune Reconstitution Inflammatory Syndrome
+is_a: DOID:2914 ! immune system disease
+
+[Term]
+id: MESH:D015428
+name: Myocardial Reperfusion Injury
+is_a: DOID:0050700 ! cardiomyopathy
+is_a: MESH:D015427 ! Reperfusion Injury
+is_a: DOID:3393 ! coronary artery disease
+
+[Term]
+id: MESH:D015427
+name: Reperfusion Injury
+is_a: MESH:D011183 ! Postoperative Complications
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D004881
+name: Ergotism
+is_a: MESH:D010939 ! Plant Poisoning
+is_a: MESH:D011041 ! Poisoning
+is_a: MESH:D015651 ! Mycotoxicosis
+
+[Term]
+id: MESH:D054000
+name: Nevus, Sebaceous of Jadassohn
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: MESH:D009506 ! Nevus
+is_a: MESH:D020752 ! Neurocutaneous Syndromes
+
+[Term]
+id: MESH:D004893
+name: Erythema Nodosum
+is_a: MESH:D003875 ! Drug Eruptions
+is_a: MESH:D004890 ! Erythema
+
+[Term]
+id: MESH:D055677
+name: Refeeding Syndrome
+is_a: DOID:5113 ! nutritional deficiency disease
+
+[Term]
+id: MESH:D004891
+name: Erythema Induratum
+is_a: MESH:D004890 ! Erythema
+is_a: MESH:D014382 ! Tuberculosis, Cutaneous
+is_a: DOID:1526 ! panniculitis
+
+[Term]
+id: MESH:D003665
+name: Decompression Sickness
+is_a: MESH:D001469 ! Barotrauma
+
+[Term]
+id: MESH:D004863
+name: Equinus Deformity
+is_a: MESH:D005531 ! Foot Deformities, Acquired
+
+[Term]
+id: MESH:D054058
+name: Acute Coronary Syndrome
+is_a: MESH:D000787 ! Angina Pectoris
+is_a: DOID:3393 ! coronary artery disease
+
+[Term]
+id: MESH:D054059
+name: Coronary Occlusion
+is_a: DOID:3393 ! coronary artery disease
+
+[Term]
+id: MESH:D010322
+name: Parvoviridae Infections
+is_a: MESH:D004266 ! DNA Virus Infections
+
+[Term]
+id: MESH:D003645
+name: Death, Sudden
+is_a: MESH:D003643 ! Death
+
+[Term]
+id: MESH:D054060
+name: Pulmonary Infarction
+is_a: DOID:9477 ! pulmonary embolism
+
+[Term]
+id: MESH:D006086
+name: Graft vs Host Disease
+is_a: DOID:2914 ! immune system disease
+
+[Term]
+id: MESH:D006083
+name: Graft Occlusion, Vascular
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D003639
+name: Hearing Loss, Sudden
+is_a: MESH:D034381 ! Hearing Loss
+
+[Term]
+id: MESH:D016399
+name: Lymphoma, T-Cell
+is_a: DOID:8538 ! reticulosarcoma
+
+[Term]
+id: MESH:D006848
+name: Testicular Hydrocele
+is_a: DOID:48 ! male reproductive system disease
+
+[Term]
+id: MESH:D020198
+name: Intracranial Hemorrhage, Traumatic
+is_a: MESH:D006259 ! Craniocerebral Trauma
+is_a: MESH:D020300 ! Intracranial Hemorrhages
+
+[Term]
+id: MESH:D020199
+name: Hematoma, Subdural, Acute
+is_a: MESH:D006408 ! Hematoma, Subdural
+
+[Term]
+id: MESH:D054038
+name: Posterior Leukoencephalopathy Syndrome
+is_a: DOID:9427 ! hypertensive encephalopathy
+is_a: MESH:D056784 ! Leukoencephalopathies
+
+[Term]
+id: MESH:D054039
+name: Onycholysis
+is_a: DOID:4123 ! nail disease
+
+[Term]
+id: MESH:D006872
+name: Hydropneumothorax
+is_a: DOID:1532 ! pleural disease
+
+[Term]
+id: MESH:D052582
+name: Trigger Finger Disorder
+is_a: MESH:D053682 ! Tendon Entrapment
+
+[Term]
+id: MESH:D020183
+name: Nocturnal Paroxysmal Dystonia
+is_a: MESH:D020447 ! Parasomnias
+
+[Term]
+id: MESH:D054853
+name: Malignant Atrophic Papulosis
+is_a: DOID:341 ! peripheral vascular disease
+is_a: DOID:865 ! vasculitis
+is_a: DOID:9540 ! vascular skin disease
+
+[Term]
+id: MESH:D010319
+name: Parturient Paresis
+is_a: MESH:D000820 ! Animal Diseases
+
+[Term]
+id: MESH:D004834
+name: Epilepsy, Post-Traumatic
+is_a: MESH:D001930 ! Brain Injuries
+is_a: DOID:1826 ! epilepsy syndrome
+
+[Term]
+id: MESH:D004839
+name: Epiphyses, Slipped
+is_a: DOID:0080001 ! bone disease
+
+[Term]
+id: MESH:D000219
+name: Adams-Stokes Syndrome
+is_a: MESH:D006327 ! Heart Block
+
+[Term]
+id: MESH:D012652
+name: Self Mutilation
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D006944
+name: Hyperglycemic Hyperosmolar Nonketotic Coma
+is_a: MESH:D003926 ! Diabetic Coma
+
+[Term]
+id: MESH:D006940
+name: Hyperemia
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D056304
+name: Genu Valgum
+is_a: DOID:0080001 ! bone disease
+
+[Term]
+id: MESH:D062025
+name: Organophosphate Poisoning
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D062026
+name: Alice in Wonderland Syndrome
+is_a: DOID:6364 ! migraine
+is_a: MESH:D010468 ! Perceptual Disorders
+is_a: MESH:D014786 ! Vision Disorders
+
+[Term]
+id: MESH:D062027
+name: Linear IgA Bullous Dermatosis
+is_a: DOID:417 ! hypersensitivity reaction type II disease
+is_a: DOID:2731 ! vesiculobullous skin disease
+
+[Term]
+id: MESH:D055652
+name: Gray Platelet Syndrome
+is_a: DOID:2218 ! blood platelet disease
+is_a: DOID:2214 ! inherited blood coagulation disease
+
+[Term]
+id: MESH:D055665
+name: Purpura Fulminans
+is_a: DOID:3326 ! purpura
+
+[Term]
+id: MESH:D014869
+name: Water Intoxication
+is_a: MESH:D011041 ! Poisoning
+is_a: MESH:D014883 ! Water-Electrolyte Imbalance
+
+[Term]
+id: MESH:D001746
+name: Bladder Exstrophy
+is_a: DOID:365 ! bladder disease
+is_a: MESH:D014564 ! Urogenital Abnormalities
+
+[Term]
+id: MESH:D001747
+name: Urinary Bladder Fistula
+is_a: DOID:365 ! bladder disease
+is_a: MESH:D014548 ! Urinary Fistula
+
+[Term]
+id: MESH:D060426
+name: Anti-N-Methyl-D-Aspartate Receptor Encephalitis
+is_a: DOID:9588 ! encephalitis
+is_a: DOID:438 ! autoimmune disease of the nervous system
+is_a: MESH:D020361 ! Paraneoplastic Syndromes, Nervous System
+
+[Term]
+id: MESH:D060425
+name: Cerebral Phaeohyphomycosis
+is_a: MESH:D060605 ! Hyalohyphomycosis
+
+[Term]
+id: MESH:D011007
+name: Pneumocephalus
+is_a: MESH:D001930 ! Brain Injuries
+is_a: DOID:331 ! central nervous system disease
+
+[Term]
+id: MESH:D013273
+name: Diverticulum, Stomach
+is_a: MESH:D004240 ! Diverticulum
+
+[Term]
+id: MESH:D013275
+name: Stomach Rupture
+is_a: MESH:D000007 ! Abdominal Injuries
+is_a: MESH:D012421 ! Rupture
+is_a: DOID:76 ! stomach disease
+
+[Term]
+id: MESH:D011004
+name: Plummer-Vinson Syndrome
+is_a: DOID:9192 ! dyskinesia of esophagus
+
+[Term]
+id: MESH:D013277
+name: Stomach Volvulus
+is_a: DOID:76 ! stomach disease
+
+[Term]
+id: MESH:D050489
+name: Bunion, Tailor's
+is_a: MESH:D005531 ! Foot Deformities, Acquired
+
+[Term]
+id: MESH:D060437
+name: Artificial Lens Implant Migration
+is_a: MESH:D005548 ! Foreign-Body Migration
+is_a: DOID:110 ! lens disease
+
+[Term]
+id: MESH:D058496
+name: Smith-Magenis Syndrome
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: DOID:13364 ! chronobiology disease
+is_a: DOID:0080014 ! chromosomal disease
+
+[Term]
+id: MESH:D058497
+name: Fraser Syndrome
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: MESH:D005124 ! Eye Abnormalities
+
+[Term]
+id: MESH:D005885
+name: Gingival Hyperplasia
+is_a: DOID:3086 ! gingival overgrowth
+
+[Term]
+id: MESH:D002485
+name: Cementoma
+is_a: MESH:D009808 ! Odontogenic Tumors
+
+[Term]
+id: MESH:D005888
+name: Gingival Pocket
+is_a: DOID:3087 ! gingivitis
+
+[Term]
+id: MESH:D005884
+name: Gingival Hemorrhage
+is_a: DOID:1483 ! gingival disease
+is_a: MESH:D006472 ! Oral Hemorrhage
+
+[Term]
+id: MESH:D011027
+name: Pneumoperitoneum
+is_a: MESH:D010532 ! Peritoneal Diseases
+
+[Term]
+id: MESH:D014823
+name: Vitreous Hemorrhage
+is_a: MESH:D005130 ! Eye Hemorrhage
+
+[Term]
+id: MESH:D014826
+name: Vocal Cord Paralysis
+is_a: DOID:786 ! laryngeal disease
+is_a: MESH:D010243 ! Paralysis
+is_a: DOID:12491 ! Vagus nerve disease
+
+[Term]
+id: MESH:D005871
+name: Giant Lymph Node Hyperplasia
+is_a: MESH:D008232 ! Lymphoproliferative Disorders
+
+[Term]
+id: MESH:D058442
+name: Capsule Opacification
+is_a: DOID:83 ! cataract
+
+[Term]
+id: MESH:D014804
+name: Vitamin B Deficiency
+is_a: MESH:D001361 ! Avitaminosis
+
+[Term]
+id: MESH:D011855
+name: Radiodermatitis
+is_a: DOID:2723 ! dermatitis
+is_a: MESH:D011832 ! Radiation Injuries
+
+[Term]
+id: MESH:D058457
+name: Trichiasis
+is_a: DOID:530 ! eyelid disease
+
+[Term]
+id: MESH:D009669
+name: Nose Neoplasms
+is_a: DOID:2825 ! nose disease
+is_a: MESH:D010039 ! Otorhinolaryngologic Neoplasms
+is_a: MESH:D012142 ! Respiratory Tract Neoplasms
+is_a: DOID:1863 ! skull cancer
+
+[Term]
+id: MESH:D007119
+name: Immunoblastic Lymphadenopathy
+is_a: MESH:D008232 ! Lymphoproliferative Disorders
+
+[Term]
+id: MESH:D000235
+name: Adenolymphoma
+is_a: MESH:D018193 ! Neoplasms, Complex and Mixed
+
+[Term]
+id: MESH:D011842
+name: Radicular Cyst
+is_a: MESH:D010483 ! Periapical Diseases
+is_a: MESH:D010509 ! Periodontal Cyst
+
+[Term]
+id: MESH:D007102
+name: Immersion Foot
+is_a: MESH:D005534 ! Foot Diseases
+
+[Term]
+id: MESH:D001752
+name: Blast Crisis
+is_a: MESH:D002471 ! Cell Transformation, Neoplastic
+is_a: DOID:8552 ! chronic myeloid leukemia
+
+[Term]
+id: MESH:D057971
+name: Anterior Capsular Rupture, Ocular
+is_a: MESH:D005131 ! Eye Injuries
+
+[Term]
+id: MESH:D020270
+name: Alcohol Withdrawal Seizures
+is_a: DOID:11832 ! visual epilepsy
+is_a: MESH:D013375 ! Substance Withdrawal Syndrome
+is_a: MESH:D020268 ! Alcohol-Induced Disorders, Nervous System
+
+[Term]
+id: MESH:D018487
+name: Ventricular Dysfunction, Left
+is_a: MESH:D018754 ! Ventricular Dysfunction
+
+[Term]
+id: MESH:D020263
+name: Lead Poisoning, Nervous System
+is_a: MESH:D007855 ! Lead Poisoning
+is_a: MESH:D020260 ! Heavy Metal Poisoning, Nervous System
+
+[Term]
+id: MESH:D020262
+name: Mercury Poisoning, Nervous System
+is_a: MESH:D008630 ! Mercury Poisoning
+is_a: MESH:D020260 ! Heavy Metal Poisoning, Nervous System
+
+[Term]
+id: MESH:D020265
+name: Lead Poisoning, Nervous System, Adult
+is_a: MESH:D020263 ! Lead Poisoning, Nervous System
+
+[Term]
+id: MESH:D020264
+name: Lead Poisoning, Nervous System, Childhood
+is_a: MESH:D020263 ! Lead Poisoning, Nervous System
+
+[Term]
+id: MESH:D020261
+name: Arsenic Poisoning
+is_a: MESH:D011041 ! Poisoning
+is_a: MESH:D020260 ! Heavy Metal Poisoning, Nervous System
+
+[Term]
+id: MESH:D020260
+name: Heavy Metal Poisoning, Nervous System
+is_a: DOID:3602 ! toxic encephalopathy
+
+[Term]
+id: MESH:D020267
+name: MPTP Poisoning
+is_a: DOID:13548 ! secondary Parkinson disease
+is_a: DOID:3602 ! toxic encephalopathy
+
+[Term]
+id: MESH:D020299
+name: Intracranial Hemorrhage, Hypertensive
+is_a: MESH:D020300 ! Intracranial Hemorrhages
+
+[Term]
+id: MESH:D053627
+name: Asthenozoospermia
+is_a: DOID:12336 ! male infertility
+
+[Term]
+id: MESH:D013207
+name: Staphylococcal Skin Infections
+is_a: MESH:D013203 ! Staphylococcal Infections
+is_a: MESH:D017192 ! Skin Diseases, Bacterial
+
+[Term]
+id: MESH:D030361
+name: Papillomavirus Infections
+is_a: MESH:D004266 ! DNA Virus Infections
+is_a: MESH:D014412 ! Tumor Virus Infections
+
+[Term]
+id: MESH:D018457
+name: Placenta, Retained
+is_a: DOID:780 ! placenta disease
+
+[Term]
+id: MESH:D017379
+name: Hypertrophy, Left Ventricular
+is_a: MESH:D006332 ! Cardiomegaly
+
+[Term]
+id: MESH:D018459
+name: Lichen Sclerosus et Atrophicus
+is_a: MESH:D017512 ! Lichenoid Eruptions
+
+[Term]
+id: MESH:D013217
+name: Starvation
+is_a: DOID:5113 ! nutritional deficiency disease
+
+[Term]
+id: MESH:D018460
+name: Fractures, Comminuted
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D020230
+name: Serotonin Syndrome
+is_a: MESH:D064420 ! Drug-Related Side Effects and Adverse Reactions
+
+[Term]
+id: MESH:D017380
+name: Hypertrophy, Right Ventricular
+is_a: MESH:D006332 ! Cardiomegaly
+
+[Term]
+id: MESH:D058267
+name: Flea Infestations
+is_a: DOID:4110 ! parasitic ectoparasitic infectious disease
+
+[Term]
+id: MESH:D020222
+name: Abducens Nerve Injury
+is_a: MESH:D020209 ! Cranial Nerve Injuries
+is_a: DOID:10865 ! abducens nerve disease
+
+[Term]
+id: MESH:D060487
+name: Alternariosis
+is_a: MESH:D060605 ! Hyalohyphomycosis
+
+[Term]
+id: MESH:D060486
+name: Ophthalmoplegic Migraine
+is_a: DOID:3817 ! cranial nerve palsy
+is_a: DOID:3213 ! demyelinating disease
+is_a: DOID:6364 ! migraine
+is_a: DOID:539 ! ophthalmoplegia
+
+[Term]
+id: MESH:D020256
+name: Choroidal Neovascularization
+is_a: MESH:D009389 ! Neovascularization, Pathologic
+is_a: DOID:1417 ! choroid disease
+
+[Term]
+id: MESH:D058288
+name: Sister Mary Joseph's Nodule
+is_a: MESH:D000008 ! Abdominal Neoplasms
+
+[Term]
+id: MESH:D020246
+name: Venous Thrombosis
+is_a: MESH:D013927 ! Thrombosis
+
+[Term]
+id: MESH:D003789
+name: Dental Pulp Exposure
+is_a: DOID:5330 ! dental pulp disease
+
+[Term]
+id: MESH:D004751
+name: Enteritis
+is_a: DOID:2326 ! gastroenteritis
+is_a: DOID:5295 ! intestinal disease
+
+[Term]
+id: MESH:D051527
+name: Odontogenic Tumor, Squamous
+is_a: MESH:D009808 ! Odontogenic Tumors
+
+[Term]
+id: MESH:D004760
+name: Enterocolitis
+is_a: DOID:2326 ! gastroenteritis
+is_a: DOID:5295 ! intestinal disease
+
+[Term]
+id: MESH:D006996
+name: Hypocalcemia
+is_a: DOID:10575 ! calcium metabolism disease
+is_a: MESH:D014883 ! Water-Electrolyte Imbalance
+
+[Term]
+id: MESH:D010438
+name: Peptic Ulcer Hemorrhage
+is_a: MESH:D006471 ! Gastrointestinal Hemorrhage
+
+[Term]
+id: MESH:D062788
+name: Adenomyosis
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: MESH:D053682
+name: Tendon Entrapment
+is_a: DOID:970 ! tenosynovitis
+
+[Term]
+id: MESH:D004714
+name: Endometrial Hyperplasia
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: MESH:D053653
+name: Pyelocystitis
+is_a: DOID:1679 ! cystitis
+is_a: DOID:2744 ! pyelitis
+
+[Term]
+id: MESH:D019567
+name: Back Injuries
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D063192
+name: Pregnancy, Heterotopic
+is_a: DOID:0060329 ! ectopic pregnancy
+
+[Term]
+id: MESH:D006968
+name: Hypersensitivity, Delayed
+is_a: DOID:1205 ! hypersensitivity reaction type I disease
+
+[Term]
+id: MESH:D006969
+name: Hypersensitivity, Immediate
+is_a: DOID:1205 ! hypersensitivity reaction type I disease
+
+[Term]
+id: MESH:D019048
+name: Prostatic Intraepithelial Neoplasia
+is_a: DOID:8719 ! in situ carcinoma
+
+[Term]
+id: MESH:D003751
+name: Dental Fistula
+is_a: MESH:D016155 ! Oral Fistula
+
+[Term]
+id: MESH:D019557
+name: Dermatitis, Perioral
+is_a: DOID:2723 ! dermatitis
+is_a: DOID:3134 ! facial dermatosis
+
+[Term]
+id: MESH:D047508
+name: Massive Hepatic Necrosis
+is_a: MESH:D017114 ! Liver Failure, Acute
+
+[Term]
+id: MESH:D055732
+name: Pulmonary Aspergillosis
+is_a: MESH:D008172 ! Lung Diseases, Fungal
+
+[Term]
+id: MESH:D015479
+name: Leukemia, Myelomonocytic, Acute
+is_a: DOID:8593 ! chronic monocytic leukemia
+
+[Term]
+id: MESH:D015477
+name: Leukemia, Myelomonocytic, Chronic
+is_a: DOID:8593 ! chronic monocytic leukemia
+is_a: DOID:4972 ! myelodysplastic myeloproliferative cancer
+
+[Term]
+id: MESH:D059885
+name: Kasabach-Merritt Syndrome
+is_a: DOID:255 ! hemangioma
+is_a: DOID:1588 ! thrombocytopenia
+
+[Term]
+id: MESH:D055744
+name: Invasive Pulmonary Aspergillosis
+is_a: MESH:D055732 ! Pulmonary Aspergillosis
+
+[Term]
+id: MESH:D029241
+name: Optic Atrophy, Autosomal Dominant
+is_a: MESH:D015418 ! Optic Atrophies, Hereditary
+is_a: DOID:700 ! mitochondrial metabolism disease
+
+[Term]
+id: MESH:D004677
+name: Encephalocele
+is_a: DOID:1283 ! enterocele
+is_a: DOID:1089 ! tethered spinal cord syndrome
+
+[Term]
+id: MESH:D015435
+name: Panniculitis, Lupus Erythematosus
+is_a: MESH:D008179 ! Lupus Erythematosus, Discoid
+is_a: DOID:1526 ! panniculitis
+
+[Term]
+id: MESH:D050380
+name: Monckeberg Medial Calcific Sclerosis
+is_a: MESH:D061205 ! Vascular Calcification
+
+[Term]
+id: MESH:D015448
+name: Leukemia, B-Cell
+is_a: DOID:1037 ! lymphoblastic leukemia
+
+[Term]
+id: MESH:D012517
+name: Sarcoma, Yoshida
+is_a: MESH:D012513 ! Sarcoma, Experimental
+
+[Term]
+id: MESH:D015461
+name: Leukemia, Prolymphocytic, T-Cell
+is_a: DOID:715 ! T-cell leukemia
+is_a: DOID:1039 ! prolymphocytic leukemia
+
+[Term]
+id: MESH:D014770
+name: Virilism
+is_a: MESH:D012816 ! Signs and Symptoms
+
+[Term]
+id: MESH:D004688
+name: Encopresis
+is_a: MESH:D012817 ! Signs and Symptoms, Digestive
+is_a: MESH:D019960 ! Elimination Disorders
+
+[Term]
+id: MESH:D006102
+name: Granuloma, Laryngeal
+is_a: DOID:786 ! laryngeal disease
+is_a: DOID:11162 ! respiratory failure
+is_a: MESH:D015769 ! Granuloma, Respiratory Tract
+
+[Term]
+id: MESH:D015471
+name: Leukemia, Basophilic, Acute
+is_a: DOID:9119 ! acute myeloid leukemia
+
+[Term]
+id: MESH:D006104
+name: Granuloma, Plasma Cell
+is_a: MESH:D006099 ! Granuloma
+
+[Term]
+id: MESH:D015472
+name: Leukemia, Eosinophilic, Acute
+is_a: DOID:9119 ! acute myeloid leukemia
+
+[Term]
+id: MESH:D015467
+name: Leukemia, Neutrophilic, Chronic
+is_a: DOID:4960 ! bone marrow cancer
+
+[Term]
+id: MESH:D015466
+name: Leukemia, Myeloid, Chronic-Phase
+is_a: DOID:8552 ! chronic myeloid leukemia
+
+[Term]
+id: MESH:D015465
+name: Leukemia, Myeloid, Accelerated Phase
+is_a: DOID:8552 ! chronic myeloid leukemia
+
+[Term]
+id: MESH:D004692
+name: Endarteritis
+is_a: MESH:D001167 ! Arteritis
+
+[Term]
+id: MESH:D000153
+name: Acne Keloid
+is_a: DOID:4409 ! folliculitis
+is_a: MESH:D007627 ! Keloid
+is_a: MESH:D017486 ! Acneiform Eruptions
+
+[Term]
+id: MESH:D013145
+name: Spirochaetales Infections
+is_a: DOID:104 ! bacterial infectious disease
+
+[Term]
+id: MESH:D014719
+name: Vesicovaginal Fistula
+is_a: MESH:D001747 ! Urinary Bladder Fistula
+is_a: MESH:D014624 ! Vaginal Fistula
+
+[Term]
+id: MESH:D034141
+name: Hypoalbuminemia
+is_a: MESH:D007019 ! Hypoproteinemia
+
+[Term]
+id: MESH:D000142
+name: Acidosis, Respiratory
+is_a: DOID:0050758 ! metabolic acidosis
+is_a: DOID:11162 ! respiratory failure
+
+[Term]
+id: MESH:D020207
+name: Coma, Post-Head Injury
+is_a: MESH:D003128 ! Coma
+is_a: MESH:D006259 ! Craniocerebral Trauma
+
+[Term]
+id: MESH:D020206
+name: Subarachnoid Hemorrhage, Traumatic
+is_a: DOID:0060228 ! intracranial berry aneurysm
+is_a: MESH:D020198 ! Intracranial Hemorrhage, Traumatic
+is_a: MESH:D020214 ! Cerebrovascular Trauma
+
+[Term]
+id: MESH:D020205
+name: Skull Fracture, Basilar
+is_a: MESH:D012887 ! Skull Fractures
+
+[Term]
+id: MESH:D020204
+name: Skull Fracture, Depressed
+is_a: MESH:D012887 ! Skull Fractures
+
+[Term]
+id: MESH:D020203
+name: Brain Stem Hemorrhage, Traumatic
+is_a: MESH:D020201 ! Brain Hemorrhage, Traumatic
+
+[Term]
+id: MESH:D020202
+name: Cerebral Hemorrhage, Traumatic
+is_a: MESH:D002543 ! Cerebral Hemorrhage
+is_a: MESH:D020201 ! Brain Hemorrhage, Traumatic
+
+[Term]
+id: MESH:D020201
+name: Brain Hemorrhage, Traumatic
+is_a: MESH:D001930 ! Brain Injuries
+is_a: MESH:D020198 ! Intracranial Hemorrhage, Traumatic
+
+[Term]
+id: MESH:D020200
+name: Hematoma, Subdural, Chronic
+is_a: MESH:D006408 ! Hematoma, Subdural
+
+[Term]
+id: MESH:D000182
+name: ACTH Syndrome, Ectopic
+is_a: MESH:D009384 ! Paraneoplastic Endocrine Syndromes
+
+[Term]
+id: MESH:D058365
+name: Candidiasis, Invasive
+is_a: DOID:1508 ! candidiasis
+
+[Term]
+id: MESH:D057925
+name: Femoracetabular Impingement
+is_a: DOID:381 ! arthropathy
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D060545
+name: Pudendal Neuralgia
+is_a: DOID:573 ! nerve compression syndrome
+is_a: MESH:D009437 ! Neuralgia
+
+[Term]
+id: MESH:D020210
+name: Central Cord Syndrome
+is_a: MESH:D013119 ! Spinal Cord Injuries
+
+[Term]
+id: MESH:D020216
+name: Carotid-Cavernous Sinus Fistula
+is_a: DOID:3407 ! carotid artery disease
+is_a: MESH:D020212 ! Carotid Artery Injuries
+
+[Term]
+id: MESH:D020215
+name: Carotid Artery, Internal, Dissection
+is_a: MESH:D000784 ! Aneurysm, Dissecting
+is_a: DOID:3407 ! carotid artery disease
+is_a: MESH:D020212 ! Carotid Artery Injuries
+
+[Term]
+id: MESH:D020217
+name: Vertebral Artery Dissection
+is_a: MESH:D000784 ! Aneurysm, Dissecting
+is_a: DOID:6713 ! cerebrovascular disease
+is_a: MESH:D020214 ! Cerebrovascular Trauma
+
+[Term]
+id: MESH:D020211
+name: Autonomic Dysreflexia
+is_a: DOID:11465 ! autonomic nervous system disease
+is_a: MESH:D013119 ! Spinal Cord Injuries
+
+[Term]
+id: MESH:D000170
+name: Acrodynia
+is_a: DOID:574 ! peripheral nervous system disease
+is_a: MESH:D020262 ! Mercury Poisoning, Nervous System
+
+[Term]
+id: MESH:D045262
+name: Reticulocytosis
+is_a: MESH:D012816 ! Signs and Symptoms
+
+[Term]
+id: MESH:D013161
+name: Splenic Rupture
+is_a: MESH:D000007 ! Abdominal Injuries
+is_a: MESH:D012421 ! Rupture
+is_a: DOID:2529 ! splenic disease
+
+[Term]
+id: MESH:D057910
+name: Implant Capsular Contracture
+is_a: MESH:D005549 ! Foreign-Body Reaction
+is_a: MESH:D011475 ! Prosthesis Failure
+
+[Term]
+id: MESH:D012585
+name: Sciatica
+is_a: MESH:D009437 ! Neuralgia
+is_a: DOID:11446 ! sciatic neuropathy
+
+[Term]
+id: MESH:D012593
+name: Sclerema Neonatorum
+is_a: MESH:D007232 ! Infant, Newborn, Diseases
+is_a: MESH:D012868 ! Skin Abnormalities
+
+[Term]
+id: MESH:D000126
+name: Achlorhydria
+is_a: MESH:D000137 ! Acid-Base Imbalance
+is_a: DOID:76 ! stomach disease
+
+[Term]
+id: MESH:D020370
+name: Osteoarthritis, Knee
+is_a: DOID:8398 ! osteoarthritis
+
+[Term]
+id: MESH:D018321
+name: Neurothekeoma
+is_a: MESH:D009232 ! Myxoma
+is_a: DOID:3193 ! peripheral nerve sheath neoplasm
+
+[Term]
+id: MESH:D031221
+name: Knee Dislocation
+is_a: MESH:D004204 ! Dislocations
+is_a: MESH:D007718 ! Knee Injuries
+
+[Term]
+id: MESH:D011696
+name: Purpura, Thrombocytopenic
+is_a: DOID:2914 ! immune system disease
+is_a: DOID:3326 ! purpura
+is_a: MESH:D057049 ! Thrombotic Microangiopathies
+
+[Term]
+id: MESH:D013117
+name: Spinal Cord Compression
+is_a: DOID:319 ! spinal cord disease
+is_a: MESH:D013119 ! Spinal Cord Injuries
+
+[Term]
+id: MESH:D031222
+name: Patellar Dislocation
+is_a: MESH:D004204 ! Dislocations
+is_a: MESH:D007718 ! Knee Injuries
+
+[Term]
+id: MESH:D016917
+name: Angiomatosis, Bacillary
+is_a: MESH:D000798 ! Angiomatosis
+is_a: DOID:11258 ! cat-scratch disease
+is_a: MESH:D017192 ! Skin Diseases, Bacterial
+is_a: DOID:9540 ! vascular skin disease
+
+[Term]
+id: MESH:D003803
+name: Dentigerous Cyst
+is_a: MESH:D009807 ! Odontogenic Cysts
+
+[Term]
+id: MESH:D050724
+name: Fractures, Cartilage
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D020361
+name: Paraneoplastic Syndromes, Nervous System
+is_a: DOID:3093 ! nervous system cancer
+is_a: MESH:D010257 ! Paraneoplastic Syndromes
+is_a: DOID:1289 ! neurodegenerative disease
+
+[Term]
+id: MESH:D013128
+name: Spinal Osteophytosis
+is_a: MESH:D013122 ! Spinal Diseases
+
+[Term]
+id: MESH:D020362
+name: Paraneoplastic Cerebellar Degeneration
+is_a: DOID:2786 ! cerebellar disease
+is_a: MESH:D020361 ! Paraneoplastic Syndromes, Nervous System
+
+[Term]
+id: MESH:D020363
+name: Limbic Encephalitis
+is_a: DOID:9588 ! encephalitis
+is_a: MESH:D020361 ! Paraneoplastic Syndromes, Nervous System
+
+[Term]
+id: MESH:D016908
+name: Gram-Positive Bacterial Infections
+is_a: DOID:104 ! bacterial infectious disease
+
+[Term]
+id: MESH:D050738
+name: Mesomycetozoea Infections
+is_a: MESH:D010272 ! Parasitic Diseases
+
+[Term]
+id: MESH:D022124
+name: Hyperammonemia
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D018333
+name: Odontogenic Cyst, Calcifying
+is_a: MESH:D009807 ! Odontogenic Cysts
+is_a: MESH:D009808 ! Odontogenic Tumors
+
+[Term]
+id: MESH:D020347
+name: Lithiasis
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D051298
+name: Post-Traumatic Headache
+is_a: MESH:D051271 ! Headache Disorders, Secondary
+
+[Term]
+id: MESH:D051299
+name: Post-Dural Puncture Headache
+is_a: MESH:D051271 ! Headache Disorders, Secondary
+
+[Term]
+id: MESH:D018323
+name: Hemangioendothelioma, Epithelioid
+is_a: MESH:D006390 ! Hemangioendothelioma
+
+[Term]
+id: MESH:D018322
+name: Angiofibroma
+is_a: DOID:175 ! vascular cancer
+
+[Term]
+id: MESH:D018327
+name: Hutchinson's Melanotic Freckle
+is_a: DOID:1909 ! melanoma
+
+[Term]
+id: MESH:D016103
+name: Spinal Fractures
+is_a: MESH:D013124 ! Spinal Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D051261
+name: Granulomatosis, Orofacial
+is_a: DOID:403 ! mouth disease
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D005271
+name: Femur Head Necrosis
+is_a: DOID:10159 ! osteonecrosis
+
+[Term]
+id: MESH:D005265
+name: Femoral Neck Fractures
+is_a: MESH:D006620 ! Hip Fractures
+
+[Term]
+id: MESH:D011645
+name: Puerperal Infection
+is_a: MESH:D011251 ! Pregnancy Complications, Infectious
+is_a: MESH:D011644 ! Puerperal Disorders
+
+[Term]
+id: MESH:D020385
+name: Myokymia
+is_a: MESH:D020879 ! Neuromuscular Manifestations
+
+[Term]
+id: MESH:D005264
+name: Femoral Fractures
+is_a: MESH:D007869 ! Leg Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D017676
+name: Lichen Planus, Oral
+is_a: DOID:9201 ! lichen planus
+is_a: DOID:403 ! mouth disease
+
+[Term]
+id: MESH:D006617
+name: Hip Dislocation
+is_a: MESH:D004204 ! Dislocations
+is_a: MESH:D025981 ! Hip Injuries
+
+[Term]
+id: MESH:D004619
+name: Embolism, Amniotic Fluid
+is_a: MESH:D004617 ! Embolism
+is_a: MESH:D011249 ! Pregnancy Complications, Cardiovascular
+
+[Term]
+id: MESH:D016156
+name: Respiratory Tract Fistula
+is_a: MESH:D005402 ! Fistula
+is_a: MESH:D012140 ! Respiratory Tract Diseases
+
+[Term]
+id: MESH:D003873
+name: Dermatitis, Exfoliative
+is_a: DOID:2723 ! dermatitis
+is_a: MESH:D017443 ! Skin Diseases, Eczematous
+
+[Term]
+id: MESH:D053559
+name: Corneal Dystrophy, Juvenile Epithelial of Meesmann
+is_a: DOID:12318 ! corneal granular dystrophy
+
+[Term]
+id: MESH:D005218
+name: Fat Necrosis
+is_a: MESH:D009336 ! Necrosis
+
+[Term]
+id: MESH:D006620
+name: Hip Fractures
+is_a: MESH:D005264 ! Femoral Fractures
+is_a: MESH:D025981 ! Hip Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D016137
+name: Spina Bifida Cystica
+is_a: DOID:1089 ! tethered spinal cord syndrome
+
+[Term]
+id: MESH:D016136
+name: Spina Bifida Occulta
+is_a: DOID:1089 ! tethered spinal cord syndrome
+
+[Term]
+id: MESH:D053560
+name: Ichthyosis Bullosa of Siemens
+is_a: MESH:D007057 ! Ichthyosis
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D004646
+name: Emphysema
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D053578
+name: Opsoclonus-Myoclonus Syndrome
+is_a: DOID:9207 ! periodic limb movement disorder
+is_a: DOID:10235 ! Brown's tendon sheath syndrome
+is_a: MESH:D020361 ! Paraneoplastic Syndromes, Nervous System
+
+[Term]
+id: MESH:D053570
+name: Porcine Postweaning Multisystemic Wasting Syndrome
+is_a: MESH:D013553 ! Swine Diseases
+is_a: MESH:D018173 ! Circoviridae Infections
+
+[Term]
+id: MESH:D037801
+name: Hammer Toe Syndrome
+is_a: MESH:D005530 ! Foot Deformities
+
+[Term]
+id: MESH:D054243
+name: Vesicular Stomatitis
+is_a: MESH:D000820 ! Animal Diseases
+is_a: DOID:9637 ! stomatitis
+is_a: MESH:D018353 ! Rhabdoviridae Infections
+
+[Term]
+id: MESH:D053584
+name: Urinoma
+is_a: MESH:D020924 ! Urological Manifestations
+
+[Term]
+id: MESH:D004620
+name: Embolism, Fat
+is_a: MESH:D004617 ! Embolism
+
+[Term]
+id: MESH:D012006
+name: Rectovaginal Fistula
+is_a: DOID:0060328 ! anal fistula
+is_a: MESH:D014624 ! Vaginal Fistula
+
+[Term]
+id: MESH:D046151
+name: Lingual Thyroid
+is_a: MESH:D050033 ! Thyroid Dysgenesis
+
+[Term]
+id: MESH:D016171
+name: Torsades de Pointes
+is_a: MESH:D017180 ! Tachycardia, Ventricular
+
+[Term]
+id: MESH:D010591
+name: Phantom Limb
+is_a: MESH:D010149 ! Pain, Postoperative
+is_a: MESH:D010468 ! Perceptual Disorders
+
+[Term]
+id: MESH:D054222
+name: Cobblestone Lissencephaly
+is_a: MESH:D054081 ! Malformations of Cortical Development, Group II
+is_a: DOID:0050453 ! lissencephaly
+
+[Term]
+id: MESH:D000417
+name: Albinism
+is_a: DOID:9252 ! amino acid metabolic disorder
+is_a: DOID:37 ! skin disease
+is_a: MESH:D015785 ! Eye Diseases, Hereditary
+is_a: MESH:D017496 ! Hypopigmentation
+
+[Term]
+id: MESH:D012848
+name: Sinoatrial Block
+is_a: MESH:D006327 ! Heart Block
+
+[Term]
+id: MESH:D017726
+name: Cytomegalovirus Retinitis
+is_a: MESH:D003586 ! Cytomegalovirus Infections
+is_a: DOID:10176 ! neuroretinitis
+is_a: MESH:D015828 ! Eye Infections, Viral
+
+[Term]
+id: MESH:D000419
+name: Albuminuria
+is_a: DOID:576 ! proteinuria
+
+[Term]
+id: MESH:D000402
+name: Airway Obstruction
+is_a: DOID:11162 ! respiratory failure
+
+[Term]
+id: MESH:D017719
+name: Diabetic Foot
+is_a: DOID:11713 ! diabetic angiopathy
+is_a: DOID:11503 ! diabetic autonomic neuropathy
+is_a: MESH:D016523 ! Foot Ulcer
+
+[Term]
+id: MESH:D055092
+name: Laryngomalacia
+is_a: DOID:1222 ! cartilage disease
+is_a: DOID:786 ! laryngeal disease
+is_a: MESH:D009139 ! Musculoskeletal Abnormalities
+
+[Term]
+id: MESH:D055091
+name: Bronchomalacia
+is_a: MESH:D055089 ! Tracheobronchomalacia
+
+[Term]
+id: MESH:D017703
+name: Retropharyngeal Abscess
+is_a: MESH:D000038 ! Abscess
+is_a: DOID:2275 ! pharyngitis
+
+[Term]
+id: MESH:D055089
+name: Tracheobronchomalacia
+is_a: DOID:1176 ! bronchial disease
+is_a: DOID:1222 ! cartilage disease
+is_a: MESH:D009139 ! Musculoskeletal Abnormalities
+is_a: DOID:3225 ! tracheal disease
+
+[Term]
+id: MESH:D004541
+name: Eisenmenger Complex
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: MESH:D012883
+name: Skin Ulcer
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D012887
+name: Skull Fractures
+is_a: MESH:D006259 ! Craniocerebral Trauma
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D012892
+name: Sleep Deprivation
+is_a: DOID:535 ! sleep disorder
+is_a: MESH:D020920 ! Dyssomnias
+
+[Term]
+id: MESH:D014098
+name: Toothache
+is_a: MESH:D005157 ! Facial Pain
+is_a: DOID:1091 ! tooth disease
+
+[Term]
+id: MESH:D056104
+name: Commotio Cordis
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+
+[Term]
+id: MESH:D055847
+name: Lynch Syndrome II
+is_a: DOID:3883 ! Lynch syndrome
+
+[Term]
+id: MESH:D010514
+name: Periodontal Pocket
+is_a: DOID:824 ! periodontitis
+
+[Term]
+id: MESH:D058625
+name: End Stage Liver Disease
+is_a: MESH:D017093 ! Liver Failure
+
+[Term]
+id: MESH:D000425
+name: Alcohol Amnestic Disorder
+is_a: DOID:10914 ! amnestic disorder
+is_a: MESH:D019973 ! Alcohol-Related Disorders
+is_a: MESH:D020268 ! Alcohol-Induced Disorders, Nervous System
+
+[Term]
+id: MESH:D014082
+name: Tooth Fractures
+is_a: MESH:D018677 ! Tooth Injuries
+
+[Term]
+id: MESH:D055035
+name: Spinal Osteochondrosis
+is_a: MESH:D013122 ! Spinal Diseases
+is_a: DOID:7489 ! Osgood-Schlatter's disease
+
+[Term]
+id: MESH:D010508
+name: Periodontal Abscess
+is_a: MESH:D000038 ! Abscess
+is_a: DOID:824 ! periodontitis
+
+[Term]
+id: MESH:D055031
+name: Primary Graft Dysfunction
+is_a: MESH:D015427 ! Reperfusion Injury
+
+[Term]
+id: MESH:D058686
+name: Coronary-Subclavian Steal Syndrome
+is_a: DOID:3393 ! coronary artery disease
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D058687
+name: Out-of-Hospital Cardiac Arrest
+is_a: DOID:0060319 ! cardiac arrest
+
+[Term]
+id: MESH:D013978
+name: Tibial Fractures
+is_a: MESH:D007869 ! Leg Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D052016
+name: Mucositis
+is_a: DOID:2326 ! gastroenteritis
+is_a: DOID:403 ! mouth disease
+
+[Term]
+id: MESH:D055013
+name: Osteoarthritis, Spine
+is_a: DOID:8398 ! osteoarthritis
+is_a: MESH:D025241 ! Spondylarthritis
+
+[Term]
+id: MESH:D013986
+name: Tick Toxicoses
+is_a: MESH:D064927 ! Tick Bites
+
+[Term]
+id: MESH:D056150
+name: Acute Generalized Exanthematous Pustulosis
+is_a: MESH:D003875 ! Drug Eruptions
+
+[Term]
+id: MESH:D002284
+name: Carcinoma, Brown-Pearce
+is_a: MESH:D009374 ! Neoplasms, Experimental
+
+[Term]
+id: MESH:D015155
+name: Esophageal Spasm, Diffuse
+is_a: DOID:9192 ! dyskinesia of esophagus
+
+[Term]
+id: MESH:D056124
+name: Slit Ventricle Syndrome
+is_a: MESH:D006261 ! Headache
+is_a: DOID:0060164 ! pain disorder
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D007333
+name: Insulin Resistance
+is_a: DOID:2018 ! hyperinsulinism
+
+[Term]
+id: MESH:D015168
+name: Lightning Injuries
+is_a: MESH:D004556 ! Electric Injuries
+
+[Term]
+id: MESH:D007331
+name: Insulin Coma
+is_a: MESH:D003128 ! Coma
+is_a: DOID:9993 ! hypoglycemia
+
+[Term]
+id: MESH:D002275
+name: Carcinoid Heart Disease
+is_a: DOID:114 ! heart disease
+is_a: MESH:D008303 ! Malignant Carcinoid Syndrome
+
+[Term]
+id: MESH:D002276
+name: Carcinoid Tumor
+is_a: DOID:299 ! adenocarcinoma
+is_a: DOID:169 ! neuroendocrine tumor
+
+[Term]
+id: MESH:D020336
+name: Paraparesis, Spastic
+is_a: MESH:D020335 ! Paraparesis
+
+[Term]
+id: MESH:D031261
+name: Poult Enteritis Mortality Syndrome
+is_a: MESH:D011201 ! Poultry Diseases
+
+[Term]
+id: MESH:D056986
+name: Euglenozoa Infections
+is_a: DOID:2789 ! parasitic protozoa infectious disease
+
+[Term]
+id: MESH:D002249
+name: Carbon Monoxide Poisoning
+is_a: MESH:D005739 ! Gas Poisoning
+
+[Term]
+id: MESH:D020300
+name: Intracranial Hemorrhages
+is_a: DOID:6713 ! cerebrovascular disease
+is_a: MESH:D006470 ! Hemorrhage
+
+[Term]
+id: MESH:D013952
+name: Thymus Hyperplasia
+is_a: DOID:75 ! lymphatic system disease
+
+[Term]
+id: MESH:D002252
+name: Carbon Tetrachloride Poisoning
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D044504
+name: Enterocolitis, Neutropenic
+is_a: MESH:D004760 ! Enterocolitis
+
+[Term]
+id: MESH:D020315
+name: Latex Hypersensitivity
+is_a: DOID:1205 ! hypersensitivity reaction type I disease
+
+[Term]
+id: MESH:D020314
+name: Central Nervous System Fungal Infections
+is_a: MESH:D002494 ! Central Nervous System Infections
+is_a: DOID:1564 ! fungal infectious disease
+
+[Term]
+id: MESH:D018221
+name: Fibromatosis, Abdominal
+is_a: DOID:0050871 ! fibroma
+
+[Term]
+id: MESH:D018222
+name: Fibromatosis, Aggressive
+is_a: DOID:0050871 ! fibroma
+
+[Term]
+id: MESH:D018220
+name: Fibroma, Desmoplastic
+is_a: DOID:0050871 ! fibroma
+
+[Term]
+id: MESH:D052878
+name: Urolithiasis
+is_a: DOID:18 ! urinary system disease
+
+[Term]
+id: MESH:D052879
+name: Subacute Combined Degeneration
+is_a: DOID:3213 ! demyelinating disease
+is_a: MESH:D009410 ! Nerve Degeneration
+is_a: DOID:319 ! spinal cord disease
+is_a: DOID:0050731 ! vitamin B12 deficiency
+is_a: DOID:1289 ! neurodegenerative disease
+
+[Term]
+id: MESH:D005183
+name: Failure to Thrive
+is_a: MESH:D012816 ! Signs and Symptoms
+
+[Term]
+id: MESH:D018210
+name: Chondromatosis
+is_a: DOID:2602 ! chondroma
+
+[Term]
+id: MESH:D018205
+name: Neoplasms, Adipose Tissue
+is_a: DOID:1115 ! sarcoma
+
+[Term]
+id: MESH:D018209
+name: Myelolipoma
+is_a: MESH:D018205 ! Neoplasms, Adipose Tissue
+
+[Term]
+id: MESH:D003926
+name: Diabetic Coma
+is_a: MESH:D048909 ! Diabetes Complications
+
+[Term]
+id: MESH:D036841
+name: Ciguatera Poisoning
+is_a: MESH:D005517 ! Foodborne Diseases
+
+[Term]
+id: MESH:D018261
+name: Mesothelioma, Cystic
+is_a: DOID:1790 ! malignant mesothelioma
+
+[Term]
+id: MESH:D018256
+name: Adenomatous Polyps
+is_a: DOID:3172 ! papillary adenoma
+
+[Term]
+id: MESH:D019701
+name: Hepatitis D, Chronic
+is_a: DOID:2047 ! hepatitis D
+is_a: DOID:2237 ! hepatitis
+
+[Term]
+id: MESH:D018255
+name: Adenomatosis, Pulmonary
+is_a: DOID:3172 ! papillary adenoma
+
+[Term]
+id: MESH:D054989
+name: Nephrogenic Fibrosing Dermopathy
+is_a: DOID:5082 ! liver cirrhosis
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D009349
+name: Nematode Infections
+is_a: DOID:883 ! parasitic helminthiasis infectious disease
+
+[Term]
+id: MESH:D003968
+name: Diarrhea, Infantile
+is_a: DOID:13250 ! diarrhea
+
+[Term]
+id: MESH:D005126
+name: Eye Burns
+is_a: MESH:D002056 ! Burns
+is_a: MESH:D005131 ! Eye Injuries
+
+[Term]
+id: MESH:D005129
+name: Eye Foreign Bodies
+is_a: MESH:D005131 ! Eye Injuries
+is_a: MESH:D005547 ! Foreign Bodies
+
+[Term]
+id: MESH:D018230
+name: Leiomyoma, Epithelioid
+is_a: DOID:127 ! leiomyoma
+
+[Term]
+id: MESH:D037061
+name: Metatarsalgia
+is_a: MESH:D005534 ! Foot Diseases
+is_a: DOID:381 ! arthropathy
+is_a: DOID:0060164 ! pain disorder
+
+[Term]
+id: MESH:D018224
+name: Myofibromatosis
+is_a: DOID:3355 ! fibrosarcoma
+
+[Term]
+id: MESH:D017543
+name: Iliac Aneurysm
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D017541
+name: Aneurysm, False
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D017542
+name: Aneurysm, Ruptured
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D054972
+name: Postural Orthostatic Tachycardia Syndrome
+is_a: DOID:11569 ! neurocirculatory asthenia
+
+[Term]
+id: MESH:D054970
+name: Pure Autonomic Failure
+is_a: DOID:11589 ! Riley-Day syndrome
+
+[Term]
+id: MESH:D017566
+name: Microvascular Angina
+is_a: MESH:D000787 ! Angina Pectoris
+
+[Term]
+id: MESH:D017564
+name: Radiation Pneumonitis
+is_a: MESH:D011832 ! Radiation Injuries
+is_a: DOID:3082 ! interstitial lung disease
+is_a: MESH:D055370 ! Lung Injury
+
+[Term]
+id: MESH:D053421
+name: Hand-Arm Vibration Syndrome
+is_a: MESH:D009784 ! Occupational Diseases
+is_a: DOID:574 ! peripheral nervous system disease
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D016055
+name: Urinary Retention
+is_a: MESH:D014555 ! Urination Disorders
+
+[Term]
+id: MESH:D051302
+name: Paroxysmal Hemicrania
+is_a: MESH:D051303 ! Trigeminal Autonomic Cephalalgias
+
+[Term]
+id: MESH:D051303
+name: Trigeminal Autonomic Cephalalgias
+is_a: MESH:D051270 ! Headache Disorders, Primary
+
+[Term]
+id: MESH:D054908
+name: Extensively Drug-Resistant Tuberculosis
+is_a: DOID:401 ! multidrug-resistant tuberculosis
+
+[Term]
+id: MESH:D017514
+name: Pityriasis Lichenoides
+is_a: DOID:9088 ! parapsoriasis
+is_a: MESH:D010915 ! Pityriasis
+is_a: MESH:D017512 ! Lichenoid Eruptions
+
+[Term]
+id: MESH:D054139
+name: Tachycardia, Reciprocating
+is_a: MESH:D013610 ! Tachycardia
+
+[Term]
+id: MESH:D054138
+name: Sinus Arrest, Cardiac
+is_a: MESH:D001146 ! Arrhythmia, Sinus
+
+[Term]
+id: MESH:D014997
+name: XYY Karyotype
+is_a: MESH:D012729 ! Sex Chromosome Aberrations
+is_a: MESH:D059786 ! Abnormal Karyotype
+
+[Term]
+id: MESH:D015207
+name: Osteoarthritis, Hip
+is_a: DOID:8398 ! osteoarthritis
+
+[Term]
+id: MESH:D015208
+name: Smoke Inhalation Injury
+is_a: MESH:D002059 ! Burns, Inhalation
+
+[Term]
+id: MESH:D015218
+name: Hyperostosis, Sternocostoclavicular
+is_a: DOID:204 ! enthesopathy
+is_a: DOID:205 ! hyperostosis
+
+[Term]
+id: MESH:D007405
+name: Intervertebral Disc Displacement
+is_a: DOID:1283 ! enterocele
+is_a: MESH:D013122 ! Spinal Diseases
+
+[Term]
+id: MESH:D004480
+name: Ectromelia
+is_a: MESH:D017880 ! Limb Deformities, Congenital
+
+[Term]
+id: MESH:D012783
+name: Shoulder Dislocation
+is_a: MESH:D001134 ! Arm Injuries
+is_a: MESH:D004204 ! Dislocations
+
+[Term]
+id: MESH:D058502
+name: Pentalogy of Cantrell
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: DOID:1089 ! tethered spinal cord syndrome
+
+[Term]
+id: MESH:D055985
+name: Latent Tuberculosis
+is_a: DOID:399 ! tuberculosis
+
+[Term]
+id: MESH:D006837
+name: Hydroa Vacciniforme
+is_a: DOID:3159 ! photosensitivity disease
+is_a: DOID:2731 ! vesiculobullous skin disease
+
+[Term]
+id: MESH:D055958
+name: Piriformis Muscle Syndrome
+is_a: DOID:573 ! nerve compression syndrome
+is_a: MESH:D009437 ! Neuralgia
+is_a: MESH:D017699 ! Pelvic Pain
+is_a: DOID:11446 ! sciatic neuropathy
+
+[Term]
+id: MESH:D055959
+name: Intervertebral Disc Degeneration
+is_a: MESH:D013122 ! Spinal Diseases
+
+[Term]
+id: MESH:D000334
+name: Aerophagy
+is_a: MESH:D012817 ! Signs and Symptoms, Digestive
+
+[Term]
+id: MESH:D012769
+name: Shock
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D055953
+name: Microscopic Polyangiitis
+is_a: MESH:D056648 ! Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis
+is_a: MESH:D059345 ! Cerebral Small Vessel Diseases
+
+[Term]
+id: MESH:D055955
+name: Susac Syndrome
+is_a: DOID:6713 ! cerebrovascular disease
+is_a: DOID:2742 ! auditory system disease
+is_a: MESH:D005132 ! Eye Manifestations
+is_a: MESH:D009461 ! Neurologic Manifestations
+is_a: MESH:D014786 ! Vision Disorders
+is_a: DOID:13094 ! branch retinal artery occlusion
+
+[Term]
+id: MESH:D055954
+name: Corneal Endothelial Cell Loss
+is_a: DOID:10124 ! corneal disease
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D058527
+name: Enteropathy-Associated T-Cell Lymphoma
+is_a: MESH:D016399 ! Lymphoma, T-Cell
+
+[Term]
+id: MESH:D055956
+name: Diffuse Neurofibrillary Tangles with Calcification
+is_a: DOID:1307 ! dementia
+is_a: DOID:680 ! tauopathy
+
+[Term]
+id: MESH:D012770
+name: Shock, Cardiogenic
+is_a: DOID:5844 ! myocardial infarction
+is_a: MESH:D012769 ! Shock
+
+[Term]
+id: MESH:D012771
+name: Shock, Hemorrhagic
+is_a: MESH:D006470 ! Hemorrhage
+is_a: MESH:D012769 ! Shock
+
+[Term]
+id: MESH:D012773
+name: Shock, Surgical
+is_a: MESH:D011183 ! Postoperative Complications
+is_a: MESH:D012769 ! Shock
+
+[Term]
+id: MESH:D012774
+name: Shock, Traumatic
+is_a: MESH:D012769 ! Shock
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D006810
+name: Humeral Fractures
+is_a: MESH:D001134 ! Arm Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D055964
+name: Alien Hand Syndrome
+is_a: DOID:4090 ! agnosia
+
+[Term]
+id: MESH:D055963
+name: Asthma, Aspirin-Induced
+is_a: DOID:2841 ! asthma
+is_a: MESH:D004342 ! Drug Hypersensitivity
+is_a: MESH:D006969 ! Hypersensitivity, Immediate
+
+[Term]
+id: MESH:D058535
+name: Echogenic Bowel
+is_a: MESH:D005315 ! Fetal Diseases
+
+[Term]
+id: MESH:D058536
+name: Pyelectasis
+is_a: MESH:D005315 ! Fetal Diseases
+is_a: MESH:D014564 ! Urogenital Abnormalities
+
+[Term]
+id: MESH:D004489
+name: Edema, Cardiac
+is_a: MESH:D004487 ! Edema
+is_a: DOID:6000 ! congestive heart failure
+
+[Term]
+id: MESH:D046748
+name: Hematoma, Epidural, Spinal
+is_a: MESH:D006406 ! Hematoma
+
+[Term]
+id: MESH:D015275
+name: Tumor Lysis Syndrome
+is_a: MESH:D008232 ! Lymphoproliferative Disorders
+
+[Term]
+id: MESH:D014912
+name: White Muscle Disease
+is_a: MESH:D009137 ! Muscular Dystrophy, Animal
+
+[Term]
+id: MESH:D059607
+name: Polydipsia, Psychogenic
+is_a: MESH:D059606 ! Polydipsia
+
+[Term]
+id: MESH:D059608
+name: Laryngocele
+is_a: DOID:786 ! laryngeal disease
+is_a: MESH:D015619 ! Respiratory System Abnormalities
+
+[Term]
+id: MESH:D055111
+name: Failed Back Surgery Syndrome
+is_a: MESH:D001416 ! Back Pain
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D055112
+name: Pyometra
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: MESH:D055948
+name: Sarcopenia
+is_a: DOID:767 ! muscular atrophy
+
+[Term]
+id: MESH:D058568
+name: Necrolytic Migratory Erythema
+is_a: DOID:37 ! skin disease
+is_a: MESH:D012877 ! Skin Manifestations
+
+[Term]
+id: MESH:D058565
+name: Cerebral Ventriculitis
+is_a: DOID:9588 ! encephalitis
+
+[Term]
+id: MESH:D058566
+name: Sacroiliitis
+is_a: DOID:848 ! arthritis
+
+[Term]
+id: MESH:D000370
+name: Ageusia
+is_a: MESH:D013651 ! Taste Disorders
+
+[Term]
+id: MESH:D056267
+name: Pagetoid Reticulosis
+is_a: DOID:8691 ! mycosis fungoides
+
+[Term]
+id: MESH:D052958
+name: Tarlov Cysts
+is_a: MESH:D003560 ! Cysts
+is_a: DOID:574 ! peripheral nervous system disease
+
+[Term]
+id: MESH:D007412
+name: Intestinal Fistula
+is_a: DOID:5295 ! intestinal disease
+is_a: MESH:D016154 ! Digestive System Fistula
+
+[Term]
+id: MESH:D002375
+name: Catalepsy
+is_a: MESH:D020820 ! Dyskinesias
+
+[Term]
+id: MESH:D014946
+name: Wound Infection
+is_a: MESH:D007239 ! Infection
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D020430
+name: Cubital Tunnel Syndrome
+is_a: MESH:D017769 ! Ulnar Nerve Compression Syndromes
+is_a: DOID:4613 ! ulnar neuropathy
+
+[Term]
+id: MESH:D031368
+name: Zoster Sine Herpete
+is_a: DOID:8536 ! herpes zoster
+
+[Term]
+id: MESH:D002389
+name: Catatonia
+is_a: MESH:D019954 ! Neurobehavioral Manifestations
+
+[Term]
+id: MESH:D002385
+name: Cataplexy
+is_a: DOID:8986 ! narcolepsy
+
+[Term]
+id: MESH:D014124
+name: Toxoplasmosis, Animal
+is_a: MESH:D011529 ! Protozoan Infections, Animal
+is_a: DOID:9965 ! toxoplasmosis
+
+[Term]
+id: MESH:D062108
+name: May-Thurner Syndrome
+is_a: DOID:341 ! peripheral vascular disease
+is_a: MESH:D054079 ! Vascular Malformations
+
+[Term]
+id: MESH:D014138
+name: Tracheoesophageal Fistula
+is_a: MESH:D004937 ! Esophageal Fistula
+is_a: DOID:3225 ! tracheal disease
+is_a: MESH:D016156 ! Respiratory Tract Fistula
+
+[Term]
+id: MESH:D014137
+name: Tracheobronchomegaly
+is_a: DOID:1176 ! bronchial disease
+is_a: DOID:3225 ! tracheal disease
+is_a: MESH:D015619 ! Respiratory System Abnormalities
+
+[Term]
+id: MESH:D017890
+name: Splenosis
+is_a: MESH:D013161 ! Splenic Rupture
+
+[Term]
+id: MESH:D004412
+name: Dysmenorrhea
+is_a: MESH:D008599 ! Menstruation Disturbances
+is_a: MESH:D017699 ! Pelvic Pain
+
+[Term]
+id: MESH:D017887
+name: Ossification of Posterior Longitudinal Ligament
+is_a: MESH:D009999 ! Ossification, Heterotopic
+is_a: MESH:D013122 ! Spinal Diseases
+
+[Term]
+id: MESH:D004417
+name: Dyspnea
+is_a: MESH:D012120 ! Respiration Disorders
+is_a: MESH:D012818 ! Signs and Symptoms, Respiratory
+
+[Term]
+id: MESH:D008100
+name: Liver Abscess
+is_a: DOID:409 ! liver disease
+is_a: MESH:D018784 ! Abdominal Abscess
+
+[Term]
+id: MESH:D008101
+name: Liver Abscess, Amebic
+is_a: DOID:9181 ! amebiasis
+is_a: MESH:D008100 ! Liver Abscess
+is_a: MESH:D008109 ! Liver Diseases, Parasitic
+
+[Term]
+id: MESH:D004404
+name: Dysentery, Amebic
+is_a: DOID:9181 ! amebiasis
+is_a: DOID:12384 ! dysentery
+is_a: MESH:D007411 ! Intestinal Diseases, Parasitic
+
+[Term]
+id: MESH:D014399
+name: Tuberculosis, Spinal
+is_a: DOID:6590 ! spondylitis
+is_a: DOID:1639 ! skeletal tuberculosis
+
+[Term]
+id: MESH:D013706
+name: Temporomandibular Joint Dysfunction Syndrome
+is_a: DOID:431 ! myofascial pain syndrome
+is_a: MESH:D013705 ! Temporomandibular Joint Disorders
+
+[Term]
+id: MESH:D056732
+name: Prolidase Deficiency
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: DOID:9252 ! amino acid metabolic disorder
+is_a: MESH:D012868 ! Skin Abnormalities
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D002179
+name: Candidiasis, Cutaneous
+is_a: DOID:1508 ! candidiasis
+is_a: DOID:1563 ! dermatomycosis
+
+[Term]
+id: MESH:D009298
+name: Nasal Polyps
+is_a: DOID:2825 ! nose disease
+is_a: MESH:D011127 ! Polyps
+
+[Term]
+id: MESH:D056728
+name: von Willebrand Disease, Type 2
+is_a: DOID:12531 ! von Willebrand's disease
+
+[Term]
+id: MESH:D056729
+name: von Willebrand Disease, Type 3
+is_a: DOID:12531 ! von Willebrand's disease
+
+[Term]
+id: MESH:D017093
+name: Liver Failure
+is_a: MESH:D048550 ! Hepatic Insufficiency
+
+[Term]
+id: MESH:D056725
+name: von Willebrand Disease, Type 1
+is_a: DOID:12531 ! von Willebrand's disease
+
+[Term]
+id: MESH:D012224
+name: Rhinophyma
+is_a: DOID:8881 ! rosacea
+is_a: DOID:9098 ! sebaceous gland disease
+
+[Term]
+id: MESH:D058968
+name: Pythiosis
+is_a: MESH:D000820 ! Animal Diseases
+is_a: MESH:D015047 ! Zoonoses
+
+[Term]
+id: MESH:D013746
+name: Tetany
+is_a: MESH:D006996 ! Hypocalcemia
+is_a: MESH:D020879 ! Neuromuscular Manifestations
+
+[Term]
+id: MESH:D012215
+name: Rheumatic Nodule
+is_a: DOID:1586 ! rheumatic fever
+
+[Term]
+id: MESH:D012218
+name: Rheumatoid Nodule
+is_a: DOID:7148 ! rheumatoid arthritis
+
+[Term]
+id: MESH:D012207
+name: Rhabdomyoma
+is_a: DOID:2691 ! myoma
+
+[Term]
+id: MESH:D008630
+name: Mercury Poisoning
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D043604
+name: Glomus Tympanicum Tumor
+is_a: DOID:0050773 ! paraganglioma
+
+[Term]
+id: MESH:D003236
+name: Conjunctivitis, Viral
+is_a: DOID:6195 ! conjunctivitis
+is_a: MESH:D015828 ! Eye Infections, Viral
+
+[Term]
+id: MESH:D000673
+name: Amputation, Traumatic
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D009232
+name: Myxoma
+is_a: DOID:201 ! connective tissue cancer
+
+[Term]
+id: MESH:D013798
+name: Thecoma
+is_a: DOID:2394 ! ovarian cancer
+is_a: DOID:192 ! sex cord-gonadal stromal tumor
+
+[Term]
+id: MESH:D018126
+name: Odontodysplasia
+is_a: MESH:D014071 ! Tooth Abnormalities
+
+[Term]
+id: MESH:D054403
+name: Leukemia, Prolymphocytic, B-Cell
+is_a: MESH:D015448 ! Leukemia, B-Cell
+is_a: DOID:1039 ! prolymphocytic leukemia
+
+[Term]
+id: MESH:D003294
+name: Seizures, Febrile
+is_a: DOID:1826 ! epilepsy syndrome
+
+[Term]
+id: MESH:D054438
+name: Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative
+is_a: DOID:8593 ! chronic monocytic leukemia
+is_a: DOID:4972 ! myelodysplastic myeloproliferative cancer
+
+[Term]
+id: MESH:D000652
+name: Amniotic Band Syndrome
+is_a: MESH:D007232 ! Infant, Newborn, Diseases
+
+[Term]
+id: MESH:D054446
+name: Lymphoma, Primary Cutaneous Anaplastic Large Cell
+is_a: DOID:0060061 ! cutaneous T cell lymphoma
+
+[Term]
+id: MESH:D052202
+name: Hydrocolpos
+is_a: DOID:121 ! vaginal disease
+
+[Term]
+id: MESH:D020047
+name: Rectocele
+is_a: DOID:1285 ! rectal disease
+
+[Term]
+id: MESH:D020042
+name: Histiocytic Necrotizing Lymphadenitis
+is_a: DOID:1602 ! lymphadenitis
+
+[Term]
+id: MESH:D016868
+name: Serratia Infections
+is_a: MESH:D004756 ! Enterobacteriaceae Infections
+
+[Term]
+id: MESH:D007040
+name: Hypoventilation
+is_a: DOID:11162 ! respiratory failure
+is_a: MESH:D012818 ! Signs and Symptoms, Respiratory
+
+[Term]
+id: MESH:D007570
+name: Jaw Cysts
+is_a: MESH:D001845 ! Bone Cysts
+is_a: MESH:D007571 ! Jaw Diseases
+
+[Term]
+id: MESH:D038223
+name: Post-Concussion Syndrome
+is_a: MESH:D001924 ! Brain Concussion
+
+[Term]
+id: MESH:D050010
+name: Hyperthyroxinemia, Familial Dysalbuminemic
+is_a: DOID:2855 ! hyperthyroxinemia
+is_a: DOID:630 ! genetic disease
+
+[Term]
+id: MESH:D006431
+name: Hemobilia
+is_a: MESH:D006470 ! Hemorrhage
+
+[Term]
+id: MESH:D006408
+name: Hematoma, Subdural
+is_a: MESH:D006406 ! Hematoma
+is_a: MESH:D020198 ! Intracranial Hemorrhage, Traumatic
+is_a: MESH:D020300 ! Intracranial Hemorrhages
+
+[Term]
+id: MESH:D006407
+name: Hematoma, Epidural, Cranial
+is_a: MESH:D006406 ! Hematoma
+is_a: MESH:D020198 ! Intracranial Hemorrhage, Traumatic
+is_a: MESH:D020300 ! Intracranial Hemorrhages
+
+[Term]
+id: MESH:D016849
+name: Keratitis, Herpetic
+is_a: DOID:8566 ! herpes simplex
+is_a: DOID:4677 ! keratitis
+is_a: MESH:D015828 ! Eye Infections, Viral
+
+[Term]
+id: MESH:D007022
+name: Hypotension
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D005458
+name: Fluoride Poisoning
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D003310
+name: Cor Triatriatum
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: MESH:D020016
+name: Activated Protein C Resistance
+is_a: DOID:2452 ! thrombophilia
+is_a: DOID:2212 ! coagulation protein disease
+is_a: DOID:2214 ! inherited blood coagulation disease
+
+[Term]
+id: MESH:D004392
+name: Dwarfism
+is_a: MESH:D001848 ! Bone Diseases, Developmental
+is_a: DOID:28 ! endocrine system disease
+is_a: DOID:630 ! genetic disease
+
+[Term]
+id: MESH:D020518
+name: Focal Nodular Hyperplasia
+is_a: DOID:409 ! liver disease
+
+[Term]
+id: MESH:D018175
+name: Birnaviridae Infections
+is_a: MESH:D012327 ! RNA Virus Infections
+
+[Term]
+id: MESH:D018173
+name: Circoviridae Infections
+is_a: MESH:D004266 ! DNA Virus Infections
+
+[Term]
+id: MESH:D005497
+name: Follicular Cyst
+is_a: MESH:D003560 ! Cysts
+
+[Term]
+id: MESH:D060831
+name: Hand-Foot Syndrome
+is_a: MESH:D003875 ! Drug Eruptions
+
+[Term]
+id: MESH:D058923
+name: Medial Tibial Stress Syndrome
+is_a: MESH:D007869 ! Leg Injuries
+is_a: DOID:423 ! myopathy
+
+[Term]
+id: MESH:D008181
+name: Lupus Nephritis
+is_a: DOID:2921 ! glomerulonephritis
+is_a: DOID:9074 ! systemic lupus erythematosus
+
+[Term]
+id: MESH:D048550
+name: Hepatic Insufficiency
+is_a: DOID:409 ! liver disease
+
+[Term]
+id: MESH:D008179
+name: Lupus Erythematosus, Discoid
+is_a: DOID:0050169 ! cutaneous lupus erythematosus
+
+[Term]
+id: MESH:D014458
+name: Ulna Fractures
+is_a: MESH:D005543 ! Forearm Injuries
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D059525
+name: Supraglottitis
+is_a: DOID:786 ! laryngeal disease
+is_a: MESH:D012141 ! Respiratory Tract Infections
+
+[Term]
+id: MESH:D006465
+name: Hemoperitoneum
+is_a: MESH:D006470 ! Hemorrhage
+is_a: MESH:D010532 ! Peritoneal Diseases
+
+[Term]
+id: MESH:D002915
+name: Chylous Ascites
+is_a: MESH:D010532 ! Peritoneal Diseases
+
+[Term]
+id: MESH:D046290
+name: Liver Abscess, Pyogenic
+is_a: MESH:D008100 ! Liver Abscess
+
+[Term]
+id: MESH:D012185
+name: Retroperitoneal Fibrosis
+is_a: DOID:5082 ! liver cirrhosis
+
+[Term]
+id: MESH:D006471
+name: Gastrointestinal Hemorrhage
+is_a: DOID:77 ! gastrointestinal system disease
+is_a: MESH:D006470 ! Hemorrhage
+
+[Term]
+id: MESH:D012188
+name: Retropneumoperitoneum
+is_a: MESH:D010335 ! Pathologic Processes
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D002916
+name: Chylothorax
+is_a: DOID:1532 ! pleural disease
+
+[Term]
+id: MESH:D061387
+name: Chlamydial Pneumonia
+is_a: MESH:D002690 ! Chlamydia Infections
+is_a: DOID:874 ! bacterial pneumonia
+is_a: MESH:D023521 ! Chlamydophila Infections
+
+[Term]
+id: MESH:D006482
+name: Hemorrhagic Fevers, Viral
+is_a: MESH:D012327 ! RNA Virus Infections
+
+[Term]
+id: MESH:D056768
+name: Giant Axonal Neuropathy
+is_a: DOID:574 ! peripheral nervous system disease
+is_a: DOID:2477 ! motor peripheral neuropathy
+
+[Term]
+id: MESH:D012166
+name: Retinal Hemorrhage
+is_a: MESH:D005130 ! Eye Hemorrhage
+is_a: DOID:5679 ! retinal disease
+
+[Term]
+id: MESH:D008108
+name: Liver Diseases, Alcoholic
+is_a: DOID:409 ! liver disease
+is_a: MESH:D020751 ! Alcohol-Induced Disorders
+
+[Term]
+id: MESH:D050032
+name: Postpartum Thyroiditis
+is_a: MESH:D011644 ! Puerperal Disorders
+is_a: DOID:7188 ! autoimmune thyroiditis
+
+[Term]
+id: MESH:D050035
+name: Sexual Infantilism
+is_a: DOID:14447 ! gonadal dysgenesis
+is_a: DOID:1924 ! hypogonadism
+
+[Term]
+id: MESH:D047808
+name: Adrenogenital Syndrome
+is_a: DOID:1923 ! sex differentiation disease
+
+[Term]
+id: MESH:D001361
+name: Avitaminosis
+is_a: DOID:5113 ! nutritional deficiency disease
+
+[Term]
+id: MESH:D001167
+name: Arteritis
+is_a: DOID:178 ! vascular disease
+is_a: DOID:865 ! vasculitis
+
+[Term]
+id: MESH:D001169
+name: Arthritis, Experimental
+is_a: DOID:848 ! arthritis
+
+[Term]
+id: MESH:D012133
+name: Respiratory Paralysis
+is_a: MESH:D010243 ! Paralysis
+is_a: DOID:11162 ! respiratory failure
+
+[Term]
+id: MESH:D001164
+name: Arteriovenous Fistula
+is_a: DOID:11294 ! arteriovenous malformation
+is_a: MESH:D016157 ! Vascular Fistula
+
+[Term]
+id: MESH:D008796
+name: Metrorrhagia
+is_a: MESH:D014592 ! Uterine Hemorrhage
+
+[Term]
+id: MESH:D002059
+name: Burns, Inhalation
+is_a: MESH:D002056 ! Burns
+
+[Term]
+id: MESH:D001159
+name: Arterio-Arterial Fistula
+is_a: MESH:D016157 ! Vascular Fistula
+is_a: MESH:D054079 ! Vascular Malformations
+
+[Term]
+id: MESH:D010996
+name: Pleural Effusion
+is_a: DOID:1532 ! pleural disease
+
+[Term]
+id: MESH:D059373
+name: Mastodynia
+is_a: DOID:0060164 ! pain disorder
+
+[Term]
+id: MESH:D045827
+name: Cytophagaceae Infections
+is_a: MESH:D016905 ! Gram-Negative Bacterial Infections
+
+[Term]
+id: MESH:D059369
+name: Pott Puffy Tumor
+is_a: DOID:930 ! orbital disease
+is_a: DOID:1019 ! osteomyelitis
+
+[Term]
+id: MESH:D059366
+name: Asthma, Occupational
+is_a: DOID:2841 ! asthma
+is_a: MESH:D009784 ! Occupational Diseases
+
+[Term]
+id: MESH:D056844
+name: Renal Colic
+is_a: MESH:D003085 ! Colic
+is_a: MESH:D015746 ! Abdominal Pain
+
+[Term]
+id: MESH:D017731
+name: Lymphomatoid Papulosis
+is_a: DOID:0060061 ! cutaneous T cell lymphoma
+
+[Term]
+id: MESH:D010017
+name: Osteoma, Osteoid
+is_a: MESH:D010016 ! Osteoma
+
+[Term]
+id: MESH:D010016
+name: Osteoma
+is_a: DOID:3347 ! osteosarcoma
+
+[Term]
+id: MESH:D009188
+name: Myelitis, Transverse
+is_a: DOID:322 ! myelitis
+is_a: MESH:D020278 ! Demyelinating Autoimmune Diseases, CNS
+is_a: MESH:D020361 ! Paraneoplastic Syndromes, Nervous System
+
+[Term]
+id: MESH:D017769
+name: Ulnar Nerve Compression Syndromes
+is_a: DOID:573 ! nerve compression syndrome
+is_a: MESH:D012090 ! Cumulative Trauma Disorders
+is_a: DOID:4613 ! ulnar neuropathy
+
+[Term]
+id: MESH:D014286
+name: Trilogy of Fallot
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: MESH:D012142
+name: Respiratory Tract Neoplasms
+is_a: MESH:D012140 ! Respiratory Tract Diseases
+is_a: DOID:5093 ! thoracic cancer
+
+[Term]
+id: MESH:D053201
+name: Urinary Bladder, Overactive
+is_a: DOID:365 ! bladder disease
+is_a: MESH:D059411 ! Lower Urinary Tract Symptoms
+
+[Term]
+id: MESH:D053202
+name: Urinary Incontinence, Urge
+is_a: MESH:D014549 ! Urinary Incontinence
+
+[Term]
+id: MESH:D053206
+name: Nocturnal Enuresis
+is_a: MESH:D004775 ! Enuresis
+
+[Term]
+id: MESH:D053207
+name: Diurnal Enuresis
+is_a: MESH:D004775 ! Enuresis
+
+[Term]
+id: MESH:D017789
+name: Granuloma, Pyogenic
+is_a: MESH:D006099 ! Granuloma
+
+[Term]
+id: MESH:D009807
+name: Odontogenic Cysts
+is_a: MESH:D007570 ! Jaw Cysts
+
+[Term]
+id: MESH:D009808
+name: Odontogenic Tumors
+is_a: MESH:D009370 ! Neoplasms by Histologic Type
+
+[Term]
+id: MESH:D013612
+name: Tachycardia, Ectopic Atrial
+is_a: MESH:D013617 ! Tachycardia, Supraventricular
+
+[Term]
+id: MESH:D013614
+name: Tachycardia, Paroxysmal
+is_a: MESH:D013610 ! Tachycardia
+
+[Term]
+id: MESH:D013613
+name: Tachycardia, Ectopic Junctional
+is_a: MESH:D013617 ! Tachycardia, Supraventricular
+
+[Term]
+id: MESH:D013616
+name: Tachycardia, Sinus
+is_a: MESH:D013617 ! Tachycardia, Supraventricular
+
+[Term]
+id: MESH:D013615
+name: Tachycardia, Sinoatrial Nodal Reentry
+is_a: MESH:D054139 ! Tachycardia, Reciprocating
+
+[Term]
+id: MESH:D019106
+name: Postoperative Hemorrhage
+is_a: MESH:D006470 ! Hemorrhage
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D056830
+name: Isolated Noncompaction of the Ventricular Myocardium
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: DOID:12929 ! endocardial fibroelastosis
+is_a: DOID:1682 ! congenital heart disease
+is_a: DOID:0050735 ! X-linked disease
+
+[Term]
+id: MESH:D056833
+name: Central Serous Chorioretinopathy
+is_a: DOID:5679 ! retinal disease
+
+[Term]
+id: MESH:D056829
+name: Hereditary Angioedema Types I and II
+is_a: DOID:14735 ! hereditary angioedema
+
+[Term]
+id: MESH:D056828
+name: Hereditary Angioedema Type III
+is_a: DOID:14735 ! hereditary angioedema
+
+[Term]
+id: MESH:D050798
+name: SUNCT Syndrome
+is_a: MESH:D051303 ! Trigeminal Autonomic Cephalalgias
+
+[Term]
+id: MESH:D056824
+name: Upper Extremity Deep Vein Thrombosis
+is_a: MESH:D020246 ! Venous Thrombosis
+
+[Term]
+id: MESH:D009810
+name: Odontoma
+is_a: MESH:D009808 ! Odontogenic Tumors
+
+[Term]
+id: MESH:D046449
+name: Hernia, Abdominal
+is_a: DOID:1283 ! enterocele
+
+[Term]
+id: MESH:D003100
+name: Colles' Fracture
+is_a: MESH:D011885 ! Radius Fractures
+
+[Term]
+id: MESH:D010915
+name: Pityriasis
+is_a: MESH:D017444 ! Skin Diseases, Papulosquamous
+
+[Term]
+id: MESH:D015792
+name: Retinal Dysplasia
+is_a: MESH:D005124 ! Eye Abnormalities
+is_a: DOID:5679 ! retinal disease
+is_a: MESH:D015785 ! Eye Diseases, Hereditary
+
+[Term]
+id: MESH:D018934
+name: Fournier Gangrene
+is_a: DOID:104 ! bacterial infectious disease
+is_a: DOID:48 ! male reproductive system disease
+
+[Term]
+id: MESH:D011542
+name: Pseudarthrosis
+is_a: MESH:D005599 ! Fractures, Ununited
+
+[Term]
+id: MESH:D009102
+name: Multiple Organ Failure
+is_a: MESH:D012769 ! Shock
+
+[Term]
+id: MESH:D009104
+name: Multiple Trauma
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D011536
+name: Prurigo
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D011539
+name: Pruritus Vulvae
+is_a: MESH:D011537 ! Pruritus
+is_a: DOID:2059 ! vulvar disease
+
+[Term]
+id: MESH:D011535
+name: Prune Belly Syndrome
+is_a: MESH:D000015 ! Abnormalities, Multiple
+
+[Term]
+id: MESH:D016659
+name: Psoas Abscess
+is_a: MESH:D000038 ! Abscess
+
+[Term]
+id: MESH:D010031
+name: Otitis
+is_a: DOID:2742 ! auditory system disease
+
+[Term]
+id: MESH:D010025
+name: Osteoradionecrosis
+is_a: MESH:D011832 ! Radiation Injuries
+
+[Term]
+id: MESH:D000532
+name: Altitude Sickness
+is_a: MESH:D012120 ! Respiration Disorders
+
+[Term]
+id: MESH:D011552
+name: Pseudomonas Infections
+is_a: MESH:D016905 ! Gram-Negative Bacterial Infections
+
+[Term]
+id: MESH:D016672
+name: Zenker Diverticulum
+is_a: MESH:D004936 ! Diverticulum, Esophageal
+
+[Term]
+id: MESH:D054319
+name: Marchiafava-Bignami Disease
+is_a: MESH:D001928 ! Brain Diseases, Metabolic
+is_a: DOID:3213 ! demyelinating disease
+
+[Term]
+id: MESH:D054364
+name: Solitary Fibrous Tumors
+is_a: DOID:3355 ! fibrosarcoma
+
+[Term]
+id: MESH:D049291
+name: Seroma
+is_a: MESH:D007249 ! Inflammation
+
+[Term]
+id: MESH:D049292
+name: Leukoaraiosis
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D015838
+name: Chondromatosis, Synovial
+is_a: DOID:381 ! arthropathy
+
+[Term]
+id: MESH:D061270
+name: Nasal Septal Perforation
+is_a: DOID:2825 ! nose disease
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D015831
+name: Osteochondroma
+is_a: DOID:12721 ! multiple epiphyseal dysplasia
+is_a: DOID:3347 ! osteosarcoma
+
+[Term]
+id: MESH:D050815
+name: Fractures, Compression
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D061285
+name: Vestibulocochlear Nerve Injuries
+is_a: DOID:12657 ! vestibulocochlear nerve disease
+is_a: MESH:D020209 ! Cranial Nerve Injuries
+
+[Term]
+id: MESH:D025241
+name: Spondylarthritis
+is_a: DOID:848 ! arthritis
+is_a: DOID:6590 ! spondylitis
+
+[Term]
+id: MESH:D006550
+name: Hernia, Femoral
+is_a: MESH:D046449 ! Hernia, Abdominal
+
+[Term]
+id: MESH:D055331
+name: Adenomyoepithelioma
+is_a: MESH:D018193 ! Neoplasms, Complex and Mixed
+
+[Term]
+id: MESH:D018883
+name: Heat Stroke
+is_a: MESH:D018882 ! Heat Stress Disorders
+
+[Term]
+id: MESH:D006549
+name: Hernia, Diaphragmatic, Traumatic
+is_a: MESH:D000007 ! Abdominal Injuries
+is_a: DOID:3827 ! congenital diaphragmatic hernia
+
+[Term]
+id: MESH:D018886
+name: Aphasia, Conduction
+is_a: DOID:0060046 ! aphasia
+
+[Term]
+id: MESH:D018888
+name: Aphasia, Primary Progressive
+is_a: DOID:0060046 ! aphasia
+is_a: DOID:1307 ! dementia
+
+[Term]
+id: MESH:D006560
+name: Herpes Labialis
+is_a: DOID:8566 ! herpes simplex
+is_a: DOID:9297 ! lip disease
+
+[Term]
+id: MESH:D015861
+name: Retinal Neovascularization
+is_a: MESH:D009389 ! Neovascularization, Pathologic
+is_a: DOID:5679 ! retinal disease
+
+[Term]
+id: MESH:D006553
+name: Hernia, Obturator
+is_a: DOID:1283 ! enterocele
+
+[Term]
+id: MESH:D006555
+name: Hernia, Ventral
+is_a: MESH:D046449 ! Hernia, Abdominal
+
+[Term]
+id: MESH:D016757
+name: Death, Sudden, Cardiac
+is_a: MESH:D003645 ! Death, Sudden
+is_a: DOID:0060319 ! cardiac arrest
+
+[Term]
+id: MESH:D015878
+name: Mydriasis
+is_a: DOID:238 ! pupil disease
+
+[Term]
+id: MESH:D005311
+name: Fetal Hypoxia
+is_a: MESH:D000860 ! Anoxia
+is_a: MESH:D005315 ! Fetal Diseases
+
+[Term]
+id: MESH:D018827
+name: Carcinoma, Lewis Lung
+is_a: DOID:305 ! carcinoma
+is_a: MESH:D009374 ! Neoplasms, Experimental
+
+[Term]
+id: MESH:D005331
+name: Fetomaternal Transfusion
+is_a: DOID:11244 ! neonatal anemia
+
+[Term]
+id: MESH:D005335
+name: Fever of Unknown Origin
+is_a: MESH:D005334 ! Fever
+
+[Term]
+id: MESH:D006504
+name: Hepatic Veno-Occlusive Disease
+is_a: DOID:409 ! liver disease
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D054391
+name: Lymphoma, Extranodal NK-T-Cell
+is_a: MESH:D016399 ! Lymphoma, T-Cell
+
+[Term]
+id: MESH:D005351
+name: Fibromatosis, Gingival
+is_a: MESH:D009056 ! Mouth Abnormalities
+is_a: DOID:3086 ! gingival overgrowth
+
+[Term]
+id: MESH:D016710
+name: Yin Deficiency
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D016711
+name: Yang Deficiency
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D055397
+name: Ventilator-Induced Lung Injury
+is_a: MESH:D055370 ! Lung Injury
+
+[Term]
+id: MESH:D005358
+name: Fibrous Dysplasia, Monostotic
+is_a: DOID:1858 ! McCune Albright syndrome
+
+[Term]
+id: MESH:D059409
+name: Stroke, Lacunar
+is_a: DOID:6713 ! cerebrovascular disease
+is_a: MESH:D059345 ! Cerebral Small Vessel Diseases
+
+[Term]
+id: MESH:D057178
+name: Primary Progressive Nonfluent Aphasia
+is_a: MESH:D018888 ! Aphasia, Primary Progressive
+is_a: DOID:9255 ! frontotemporal dementia
+
+[Term]
+id: MESH:D004241
+name: Diverticulum, Colon
+is_a: MESH:D004240 ! Diverticulum
+
+[Term]
+id: MESH:D045888
+name: Ganglion Cysts
+is_a: MESH:D003560 ! Cysts
+is_a: DOID:3141 ! mucinoses
+
+[Term]
+id: MESH:D002105
+name: Cadmium Poisoning
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D002100
+name: Cachexia
+is_a: MESH:D004614 ! Emaciation
+
+[Term]
+id: MESH:D060048
+name: Slipped Capital Femoral Epiphyses
+is_a: MESH:D004839 ! Epiphyses, Slipped
+is_a: DOID:12721 ! multiple epiphyseal dysplasia
+
+[Term]
+id: MESH:D061220
+name: Oculomotor Nerve Injuries
+is_a: DOID:10864 ! partial third-nerve palsy
+is_a: MESH:D020209 ! Cranial Nerve Injuries
+
+[Term]
+id: MESH:D061226
+name: Recurrent Laryngeal Nerve Injuries
+is_a: MESH:D061224 ! Laryngeal Nerve Injuries
+
+[Term]
+id: MESH:D061223
+name: Vagus Nerve Injuries
+is_a: MESH:D020209 ! Cranial Nerve Injuries
+is_a: DOID:12491 ! Vagus nerve disease
+
+[Term]
+id: MESH:D014339
+name: Truncus Arteriosus, Persistent
+is_a: MESH:D001028 ! Aortopulmonary Septal Defect
+
+[Term]
+id: MESH:D060050
+name: Angina, Stable
+is_a: MESH:D000787 ! Angina Pectoris
+
+[Term]
+id: MESH:D056886
+name: Contrecoup Injury
+is_a: MESH:D001924 ! Brain Concussion
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D007627
+name: Keloid
+is_a: MESH:D002921 ! Cicatrix
+is_a: DOID:854 ! collagen disease
+
+[Term]
+id: MESH:D017824
+name: Bone Cysts, Aneurysmal
+is_a: MESH:D001845 ! Bone Cysts
+
+[Term]
+id: MESH:D061247
+name: Trochlear Nerve Injuries
+is_a: MESH:D020209 ! Cranial Nerve Injuries
+
+[Term]
+id: MESH:D001247
+name: Asthenia
+is_a: MESH:D012816 ! Signs and Symptoms
+
+[Term]
+id: MESH:D015807
+name: Eye Injuries, Penetrating
+is_a: MESH:D005131 ! Eye Injuries
+is_a: MESH:D014950 ! Wounds, Penetrating
+
+[Term]
+id: MESH:D007639
+name: Keratoconjunctivitis, Infectious
+is_a: MESH:D000820 ! Animal Diseases
+is_a: DOID:9368 ! keratoconjunctivitis
+is_a: MESH:D015818 ! Eye Infections, Bacterial
+
+[Term]
+id: MESH:D059468
+name: Masked Hypertension
+is_a: DOID:10763 ! hypertension
+
+[Term]
+id: MESH:D059466
+name: White Coat Hypertension
+is_a: DOID:10763 ! hypertension
+
+[Term]
+id: MESH:D048629
+name: Micronuclei, Chromosome-Defective
+is_a: MESH:D002869 ! Chromosome Aberrations
+
+[Term]
+id: MESH:D060905
+name: Coxa Vara
+is_a: MESH:D060750 ! Bone Anteversion
+
+[Term]
+id: MESH:D001264
+name: Athetosis
+is_a: MESH:D020820 ! Dyskinesias
+
+[Term]
+id: MESH:D001261
+name: Pulmonary Atelectasis
+is_a: DOID:850 ! lung disease
+
+[Term]
+id: MESH:D008414
+name: Mastitis, Bovine
+is_a: MESH:D002418 ! Cattle Diseases
+
+[Term]
+id: MESH:D012480
+name: Salmonella Infections
+is_a: MESH:D004756 ! Enterobacteriaceae Infections
+
+[Term]
+id: MESH:D058736
+name: Intrauterine Device Migration
+is_a: MESH:D005548 ! Foreign-Body Migration
+
+[Term]
+id: MESH:D001998
+name: Bronchopulmonary Sequestration
+is_a: MESH:D015619 ! Respiratory System Abnormalities
+
+[Term]
+id: MESH:D010845
+name: Obesity Hypoventilation Syndrome
+is_a: MESH:D007040 ! Hypoventilation
+is_a: DOID:9970 ! obesity
+is_a: DOID:0050848 ! obstructive sleep apnea
+
+[Term]
+id: MESH:D001990
+name: Bronchiolitis, Viral
+is_a: DOID:2942 ! bronchiolitis
+is_a: DOID:934 ! viral infectious disease
+
+[Term]
+id: MESH:D001994
+name: Bronchogenic Cyst
+is_a: DOID:1176 ! bronchial disease
+is_a: MESH:D003560 ! Cysts
+is_a: MESH:D015619 ! Respiratory System Abnormalities
+
+[Term]
+id: MESH:D019449
+name: Pouchitis
+is_a: DOID:0060189 ! ileitis
+
+[Term]
+id: MESH:D019446
+name: Endotoxemia
+is_a: MESH:D014115 ! Toxemia
+is_a: MESH:D016470 ! Bacteremia
+
+[Term]
+id: MESH:D012467
+name: Salivary Gland Fistula
+is_a: DOID:10854 ! salivary gland disease
+is_a: MESH:D016155 ! Oral Fistula
+
+[Term]
+id: MESH:D057135
+name: Wet Macular Degeneration
+is_a: DOID:10871 ! age related macular degeneration
+
+[Term]
+id: MESH:D019462
+name: Syncope, Vasovagal
+is_a: MESH:D013575 ! Syncope
+is_a: DOID:11569 ! neurocirculatory asthenia
+
+[Term]
+id: MESH:D011289
+name: Preleukemia
+is_a: DOID:74 ! hematopoietic system disease
+is_a: MESH:D011230 ! Precancerous Conditions
+
+[Term]
+id: MESH:D014597
+name: Uterine Rupture
+is_a: MESH:D007744 ! Obstetric Labor Complications
+is_a: MESH:D012421 ! Rupture
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: MESH:D014595
+name: Uterine Perforation
+is_a: MESH:D014597 ! Uterine Rupture
+
+[Term]
+id: MESH:D014596
+name: Uterine Prolapse
+is_a: DOID:345 ! uterine disease
+is_a: DOID:9307 ! rectal prolapse
+
+[Term]
+id: MESH:D014593
+name: Uterine Inertia
+is_a: MESH:D004420 ! Dystocia
+
+[Term]
+id: MESH:D014592
+name: Uterine Hemorrhage
+is_a: MESH:D006470 ! Hemorrhage
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: MESH:D009917
+name: Orbital Fractures
+is_a: MESH:D008446 ! Maxillofacial Injuries
+is_a: MESH:D012887 ! Skull Fractures
+
+[Term]
+id: MESH:D011274
+name: Pregnancy, Tubal
+is_a: DOID:0060329 ! ectopic pregnancy
+
+[Term]
+id: MESH:D001079
+name: Apudoma
+is_a: DOID:3172 ! papillary adenoma
+is_a: DOID:169 ! neuroendocrine tumor
+
+[Term]
+id: MESH:D011269
+name: Pregnancy, Abdominal
+is_a: DOID:0060329 ! ectopic pregnancy
+
+[Term]
+id: MESH:D009062
+name: Mouth Neoplasms
+is_a: DOID:11934 ! head and neck cancer
+is_a: DOID:403 ! mouth disease
+
+[Term]
+id: MESH:D059266
+name: Bisphosphonate-Associated Osteonecrosis of the Jaw
+is_a: MESH:D007571 ! Jaw Diseases
+is_a: DOID:10159 ! osteonecrosis
+
+[Term]
+id: MESH:D059268
+name: Atrophic Vaginitis
+is_a: DOID:2170 ! vaginitis
+
+[Term]
+id: MESH:D059269
+name: Chilaiditi Syndrome
+is_a: DOID:5353 ! colonic disease
+
+[Term]
+id: MESH:D008309
+name: Mallory-Weiss Syndrome
+is_a: MESH:D004939 ! Esophageal Perforation
+
+[Term]
+id: MESH:D001041
+name: Aphasia, Wernicke
+is_a: DOID:0060046 ! aphasia
+
+[Term]
+id: MESH:D053120
+name: Respiratory Aspiration
+is_a: MESH:D010335 ! Pathologic Processes
+is_a: MESH:D012120 ! Respiration Disorders
+
+[Term]
+id: MESH:D058745
+name: Iliotibial Band Syndrome
+is_a: MESH:D007718 ! Knee Injuries
+is_a: MESH:D012090 ! Cumulative Trauma Disorders
+
+[Term]
+id: MESH:D059245
+name: Transient Tachypnea of the Newborn
+is_a: DOID:12716 ! newborn respiratory distress syndrome
+is_a: MESH:D059246 ! Tachypnea
+
+[Term]
+id: MESH:D001039
+name: Aphasia, Broca
+is_a: DOID:0060046 ! aphasia
+
+[Term]
+id: MESH:D011227
+name: Pre-Excitation, Mahaim-Type
+is_a: MESH:D011226 ! Pre-Excitation Syndromes
+
+[Term]
+id: MESH:D005747
+name: Gastric Fistula
+is_a: MESH:D016154 ! Digestive System Fistula
+
+[Term]
+id: MESH:D010181
+name: Pancreatic Cyst
+is_a: MESH:D003560 ! Cysts
+is_a: DOID:26 ! pancreas disease
+
+[Term]
+id: MESH:D005736
+name: Gardner Syndrome
+is_a: MESH:D000015 ! Abnormalities, Multiple
+is_a: DOID:0050424 ! familial adenomatous polyposis
+
+[Term]
+id: MESH:D005734
+name: Gangrene
+is_a: MESH:D009336 ! Necrosis
+
+[Term]
+id: MESH:D010157
+name: Palatal Neoplasms
+is_a: DOID:1862 ! jaw cancer
+is_a: MESH:D009062 ! Mouth Neoplasms
+
+[Term]
+id: MESH:D056005
+name: Leprosy, Paucibacillary
+is_a: DOID:1024 ! leprosy
+
+[Term]
+id: MESH:D056006
+name: Leprosy, Multibacillary
+is_a: DOID:1024 ! leprosy
+
+[Term]
+id: MESH:D016534
+name: Cardiac Output, High
+is_a: DOID:114 ! heart disease
+is_a: MESH:D012816 ! Signs and Symptoms
+
+[Term]
+id: MESH:D054685
+name: Lymphoma, Primary Effusion
+is_a: DOID:707 ! B-cell lymphoma
+
+[Term]
+id: MESH:D009011
+name: Monteggia's Fracture
+is_a: MESH:D014458 ! Ulna Fractures
+
+[Term]
+id: MESH:D013575
+name: Syncope
+is_a: MESH:D014474 ! Unconsciousness
+
+[Term]
+id: MESH:D016523
+name: Foot Ulcer
+is_a: MESH:D005534 ! Foot Diseases
+is_a: MESH:D007871 ! Leg Ulcer
+
+[Term]
+id: MESH:D018805
+name: Sepsis
+is_a: MESH:D007239 ! Infection
+is_a: MESH:D018746 ! Systemic Inflammatory Response Syndrome
+
+[Term]
+id: MESH:D016583
+name: Enzootic Bovine Leukosis
+is_a: MESH:D002418 ! Cattle Diseases
+is_a: MESH:D006800 ! Deltaretrovirus Infections
+is_a: DOID:1240 ! leukemia
+
+[Term]
+id: MESH:D010185
+name: Pancreatic Fistula
+is_a: DOID:26 ! pancreas disease
+is_a: MESH:D016154 ! Digestive System Fistula
+
+[Term]
+id: MESH:D010192
+name: Pancreatic Pseudocyst
+is_a: MESH:D010181 ! Pancreatic Cyst
+
+[Term]
+id: MESH:D009957
+name: Oroantral Fistula
+is_a: MESH:D016155 ! Oral Fistula
+
+[Term]
+id: MESH:D046548
+name: Pubic Symphysis Diastasis
+is_a: MESH:D004204 ! Dislocations
+is_a: MESH:D011644 ! Puerperal Disorders
+
+[Term]
+id: MESH:D055499
+name: Catheter-Related Infections
+is_a: MESH:D007239 ! Infection
+
+[Term]
+id: MESH:D000006
+name: Abdomen, Acute
+is_a: MESH:D015746 ! Abdominal Pain
+
+[Term]
+id: MESH:D020779
+name: Sinus Pericranii
+is_a: MESH:D020785 ! Central Nervous System Vascular Malformations
+
+[Term]
+id: MESH:D015775
+name: Fractures, Stress
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D017205
+name: Spirurida Infections
+is_a: MESH:D017190 ! Secernentea Infections
+
+[Term]
+id: MESH:D020752
+name: Neurocutaneous Syndromes
+is_a: DOID:14693 ! Clouston syndrome
+is_a: DOID:863 ! nervous system disease
+
+[Term]
+id: MESH:D020757
+name: Amaurosis Fugax
+is_a: DOID:1432 ! blindness
+
+[Term]
+id: MESH:D015769
+name: Granuloma, Respiratory Tract
+is_a: MESH:D006099 ! Granuloma
+is_a: MESH:D012140 ! Respiratory Tract Diseases
+
+[Term]
+id: MESH:D058252
+name: Necrobiotic Xanthogranuloma
+is_a: MESH:D006099 ! Granuloma
+is_a: DOID:3345 ! xanthomatosis
+is_a: MESH:D017441 ! Necrobiotic Disorders
+
+[Term]
+id: MESH:D058247
+name: Loose Anagen Hair Syndrome
+is_a: DOID:987 ! alopecia
+
+[Term]
+id: MESH:D015745
+name: Granuloma, Foreign-Body
+is_a: MESH:D005549 ! Foreign-Body Reaction
+is_a: MESH:D006099 ! Granuloma
+
+[Term]
+id: MESH:D018781
+name: Tension-Type Headache
+is_a: MESH:D051270 ! Headache Disorders, Primary
+
+[Term]
+id: MESH:D018746
+name: Systemic Inflammatory Response Syndrome
+is_a: MESH:D007249 ! Inflammation
+is_a: MESH:D012769 ! Shock
+
+[Term]
+id: MESH:D000027
+name: Abortion, Incomplete
+is_a: MESH:D000022 ! Abortion, Spontaneous
+
+[Term]
+id: MESH:D062688
+name: Buschke-Lowenstein Tumor
+is_a: DOID:11168 ! anogenital venereal wart
+is_a: DOID:3737 ! verrucous carcinoma
+
+[Term]
+id: MESH:D000853
+name: Anophthalmos
+is_a: MESH:D005124 ! Eye Abnormalities
+
+[Term]
+id: MESH:D062689
+name: Lipoblastoma
+is_a: DOID:10192 ! pleomorphic lipoma
+
+[Term]
+id: MESH:D000855
+name: Anorexia
+is_a: MESH:D012817 ! Signs and Symptoms, Digestive
+
+[Term]
+id: MESH:D020792
+name: Salivary Calculi
+is_a: MESH:D002137 ! Calculi
+is_a: DOID:10854 ! salivary gland disease
+
+[Term]
+id: MESH:D062685
+name: Steatocystoma Multiplex
+is_a: DOID:0050449 ! pachyonychia congenita
+
+[Term]
+id: MESH:D004940
+name: Esophageal Stenosis
+is_a: DOID:6050 ! esophageal disease
+
+[Term]
+id: MESH:D020785
+name: Central Nervous System Vascular Malformations
+is_a: DOID:2490 ! congenital nervous system abnormality
+is_a: MESH:D054079 ! Vascular Malformations
+
+[Term]
+id: MESH:D020786
+name: Hemangioma, Cavernous, Central Nervous System
+is_a: DOID:483 ! cavernous hemangioma
+is_a: MESH:D020785 ! Central Nervous System Vascular Malformations
+
+[Term]
+id: MESH:D052476
+name: Hypobetalipoproteinemia, Familial, Apolipoprotein B
+is_a: DOID:1390 ! hypobetalipoproteinemia
+
+[Term]
+id: MESH:D000030
+name: Abortion, Missed
+is_a: MESH:D000022 ! Abortion, Spontaneous
+
+[Term]
+id: MESH:D020787
+name: Central Nervous System Venous Angioma
+is_a: DOID:255 ! hemangioma
+is_a: MESH:D020785 ! Central Nervous System Vascular Malformations
+
+[Term]
+id: MESH:D001922
+name: Brain Abscess
+is_a: MESH:D000038 ! Abscess
+is_a: MESH:D001423 ! Bacterial Infections and Mycoses
+is_a: DOID:936 ! brain disease
+is_a: MESH:D002494 ! Central Nervous System Infections
+is_a: MESH:D020806 ! Central Nervous System Bacterial Infections
+
+[Term]
+id: MESH:D001924
+name: Brain Concussion
+is_a: MESH:D001930 ! Brain Injuries
+is_a: MESH:D014949 ! Wounds, Nonpenetrating
+is_a: MESH:D016489 ! Head Injuries, Closed
+
+[Term]
+id: MESH:D014647
+name: Varicose Ulcer
+is_a: MESH:D007871 ! Leg Ulcer
+is_a: DOID:799 ! varicose veins
+
+[Term]
+id: MESH:D008380
+name: Marek Disease
+is_a: MESH:D001715 ! Bird Diseases
+is_a: MESH:D006566 ! Herpesviridae Infections
+is_a: MESH:D008232 ! Lymphoproliferative Disorders
+is_a: MESH:D014412 ! Tumor Virus Infections
+
+[Term]
+id: MESH:D001139
+name: Arnold-Chiari Malformation
+is_a: DOID:1089 ! tethered spinal cord syndrome
+
+[Term]
+id: MESH:D004934
+name: Esophageal Cyst
+is_a: MESH:D003560 ! Cysts
+is_a: DOID:6050 ! esophageal disease
+
+[Term]
+id: MESH:D059347
+name: Cardio-Renal Syndrome
+is_a: DOID:6000 ! congestive heart failure
+is_a: DOID:1074 ! kidney failure
+
+[Term]
+id: MESH:D004939
+name: Esophageal Perforation
+is_a: DOID:6050 ! esophageal disease
+is_a: MESH:D014947 ! Wounds and Injuries
+
+[Term]
+id: MESH:D004936
+name: Diverticulum, Esophageal
+is_a: MESH:D004240 ! Diverticulum
+
+[Term]
+id: MESH:D004937
+name: Esophageal Fistula
+is_a: DOID:6050 ! esophageal disease
+is_a: MESH:D016154 ! Digestive System Fistula
+
+[Term]
+id: MESH:D001913
+name: Bowen's Disease
+is_a: DOID:0050865 ! tongue squamous cell carcinoma
+
+[Term]
+id: MESH:D014653
+name: Vascular Headaches
+is_a: DOID:6713 ! cerebrovascular disease
+is_a: MESH:D051271 ! Headache Disorders, Secondary
+
+[Term]
+id: MESH:D008476
+name: Mediastinal Cyst
+is_a: MESH:D003560 ! Cysts
+is_a: MESH:D008477 ! Mediastinal Diseases
+
+[Term]
+id: MESH:D004919
+name: Erythroplasia
+is_a: MESH:D011230 ! Precancerous Conditions
+
+[Term]
+id: MESH:D004915
+name: Leukemia, Erythroblastic, Acute
+is_a: DOID:4960 ! bone marrow cancer
+is_a: DOID:9119 ! acute myeloid leukemia
+
+[Term]
+id: MESH:D059325
+name: Intra-Abdominal Hypertension
+is_a: DOID:682 ! compartment syndrome
+
+[Term]
+id: MESH:D018784
+name: Abdominal Abscess
+is_a: MESH:D000038 ! Abscess
+
+[Term]
+id: MESH:D018785
+name: Tricuspid Atresia
+is_a: DOID:1682 ! congenital heart disease
+is_a: DOID:4079 ! heart valve disease
+
+[Term]
+id: MESH:D001129
+name: Argyria
+is_a: DOID:3156 ! incontinentia pigmenti achromians
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D001935
+name: Branchioma
+is_a: MESH:D003560 ! Cysts
+
+[Term]
+id: MESH:D008478
+name: Mediastinal Emphysema
+is_a: MESH:D004646 ! Emphysema
+is_a: MESH:D008477 ! Mediastinal Diseases
+
+[Term]
+id: MESH:D057091
+name: Poroma
+is_a: DOID:5442 ! eccrine acrospiroma
+
+[Term]
+id: MESH:D057096
+name: Shellfish Poisoning
+is_a: MESH:D005517 ! Foodborne Diseases
+
+[Term]
+id: MESH:D014681
+name: Velopharyngeal Insufficiency
+is_a: MESH:D009056 ! Mouth Abnormalities
+is_a: DOID:2275 ! pharyngitis
+
+[Term]
+id: MESH:D057088
+name: Anetoderma
+is_a: DOID:65 ! connective tissue disease
+is_a: MESH:D012868 ! Skin Abnormalities
+
+[Term]
+id: MESH:D014693
+name: Ventricular Fibrillation
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+
+[Term]
+id: MESH:D014694
+name: Ventricular Outflow Obstruction
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: MESH:D007724
+name: Vulvar Lichen Sclerosus
+is_a: DOID:2059 ! vulvar disease
+
+[Term]
+id: MESH:D017254
+name: Leukemic Infiltration
+is_a: MESH:D009361 ! Neoplasm Invasiveness
+
+[Term]
+id: MESH:D057068
+name: Periprosthetic Fractures
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D060605
+name: Hyalohyphomycosis
+is_a: DOID:1563 ! dermatomycosis
+is_a: DOID:1564 ! fungal infectious disease
+
+[Term]
+id: MESH:D006259
+name: Craniocerebral Trauma
+is_a: MESH:D014947 ! Wounds and Injuries
+is_a: MESH:D020196 ! Trauma, Nervous System
+
+[Term]
+id: MESH:D043963
+name: Diverticulosis, Colonic
+is_a: DOID:5353 ! colonic disease
+
+[Term]
+id: MESH:D019315
+name: Retrobulbar Hemorrhage
+is_a: MESH:D006470 ! Hemorrhage
+is_a: DOID:930 ! orbital disease
+
+[Term]
+id: MESH:D007925
+name: Leriche Syndrome
+is_a: DOID:520 ! aortic disease
+is_a: DOID:341 ! peripheral vascular disease
+
+[Term]
+id: MESH:D051799
+name: Delayed Graft Function
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D019320
+name: Embolism, Paradoxical
+is_a: MESH:D013923 ! Thromboembolism
+
+[Term]
+id: MESH:D063205
+name: Pneumorrhachis
+is_a: DOID:319 ! spinal cord disease
+
+[Term]
+id: MESH:D057045
+name: Laryngopharyngeal Reflux
+is_a: DOID:8534 ! gastroesophageal reflux disease
+is_a: DOID:786 ! laryngeal disease
+
+[Term]
+id: MESH:D058866
+name: Osteoporotic Fractures
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D019310
+name: Pseudolymphoma
+is_a: DOID:75 ! lymphatic system disease
+
+[Term]
+id: MESH:D008201
+name: Lymphangiectasis, Intestinal
+is_a: MESH:D008200 ! Lymphangiectasis
+is_a: MESH:D044148 ! Lymphatic Abnormalities
+
+[Term]
+id: MESH:D002820
+name: Hydatidiform Mole, Invasive
+is_a: DOID:3590 ! gestational trophoblastic neoplasm
+
+[Term]
+id: MESH:D008207
+name: Lymphatic Metastasis
+is_a: MESH:D009362 ! Neoplasm Metastasis
+
+[Term]
+id: MESH:D058890
+name: Granulomatous Mastitis
+is_a: DOID:10690 ! mastitis
+
+[Term]
+id: MESH:D002828
+name: Choristoma
+is_a: MESH:D020763 ! Pathological Conditions, Anatomical
+
+[Term]
+id: MESH:D017180
+name: Tachycardia, Ventricular
+is_a: MESH:D013610 ! Tachycardia
+
+[Term]
+id: MESH:D008218
+name: Lymphocytosis
+is_a: MESH:D007964 ! Leukocytosis
+
+[Term]
+id: MESH:D002832
+name: Choroid Hemorrhage
+is_a: MESH:D005130 ! Eye Hemorrhage
+is_a: DOID:1417 ! choroid disease
+
+[Term]
+id: MESH:D056627
+name: Peritoneal Fibrosis
+is_a: DOID:5082 ! liver cirrhosis
+is_a: MESH:D010532 ! Peritoneal Diseases
+
+[Term]
+id: MESH:D010241
+name: Parakeratosis
+is_a: DOID:161 ! keratosis
+
+[Term]
+id: MESH:D001845
+name: Bone Cysts
+is_a: DOID:0080001 ! bone disease
+is_a: MESH:D003560 ! Cysts
+
+[Term]
+id: MESH:D010246
+name: Paralysis, Obstetric
+is_a: MESH:D001720 ! Birth Injuries
+
+[Term]
+id: MESH:D017190
+name: Secernentea Infections
+is_a: MESH:D009349 ! Nematode Infections
+
+[Term]
+id: MESH:D003387
+name: Cracked Tooth Syndrome
+is_a: MESH:D014082 ! Tooth Fractures
+
+[Term]
+id: MESH:D016400
+name: Lymphoma, Large-Cell, Immunoblastic
+is_a: DOID:8538 ! reticulosarcoma
+
+[Term]
+id: MESH:D057774
+name: Post-Exercise Hypotension
+is_a: MESH:D007022 ! Hypotension
+is_a: DOID:11569 ! neurocirculatory asthenia
+
+[Term]
+id: MESH:D057770
+name: Hyalinosis, Systemic
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: MESH:D054549
+name: Takotsubo Cardiomyopathy
+is_a: MESH:D018487 ! Ventricular Dysfunction, Left
+
+[Term]
+id: MESH:D046608
+name: Synkinesis
+is_a: MESH:D020820 ! Dyskinesias
+
+[Term]
+id: MESH:D013474
+name: Sunstroke
+is_a: MESH:D018883 ! Heat Stroke
+
+[Term]
+id: MESH:D013471
+name: Sunburn
+is_a: MESH:D002056 ! Burns
+is_a: DOID:3159 ! photosensitivity disease
+
+[Term]
+id: MESH:D000754
+name: Anemia, Refractory, with Excess of Blasts
+is_a: MESH:D000753 ! Anemia, Refractory
+
+[Term]
+id: MESH:D000757
+name: Anencephaly
+is_a: MESH:D009008 ! Abnormalities, Severe Teratoid
+is_a: DOID:1089 ! tethered spinal cord syndrome
+
+[Term]
+id: MESH:D013479
+name: Superior Vena Cava Syndrome
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D055538
+name: delta-Thalassemia
+is_a: DOID:10241 ! thalassemia
+
+[Term]
+id: MESH:D055535
+name: Morgellons Disease
+is_a: DOID:37 ! skin disease
+is_a: MESH:D019967 ! Schizophrenia and Disorders with Psychotic Features
+
+[Term]
+id: MESH:D057792
+name: Mirizzi Syndrome
+is_a: DOID:13580 ! cholestasis
+
+[Term]
+id: MESH:D038642
+name: Shaken Baby Syndrome
+is_a: MESH:D001930 ! Brain Injuries
+
+[Term]
+id: MESH:D058066
+name: Digital Dermatitis
+is_a: MESH:D000820 ! Animal Diseases
+is_a: MESH:D017192 ! Skin Diseases, Bacterial
+
+[Term]
+id: MESH:D058065
+name: Diabetic Cardiomyopathies
+is_a: DOID:0050700 ! cardiomyopathy
+is_a: MESH:D048909 ! Diabetes Complications
+
+[Term]
+id: MESH:D016459
+name: Prosthesis-Related Infections
+is_a: MESH:D007239 ! Infection
+is_a: MESH:D011183 ! Postoperative Complications
+
+[Term]
+id: MESH:D044225
+name: Piscirickettsiaceae Infections
+is_a: MESH:D016905 ! Gram-Negative Bacterial Infections
+
+[Term]
+id: MESH:D000785
+name: Aneurysm, Infected
+is_a: DOID:178 ! vascular disease
+is_a: MESH:D007239 ! Infection
+
+[Term]
+id: MESH:D016483
+name: Lymphoma, AIDS-Related
+is_a: DOID:707 ! B-cell lymphoma
+
+[Term]
+id: MESH:D054515
+name: Vulvar Vestibulitis
+is_a: DOID:3901 ! vulvitis
+
+[Term]
+id: MESH:D011304
+name: Presbycusis
+is_a: DOID:10003 ! sensorineural hearing loss
+
+[Term]
+id: MESH:D000784
+name: Aneurysm, Dissecting
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D057767
+name: Kashin-Beck Disease
+is_a: DOID:12721 ! multiple epiphyseal dysplasia
+
+[Term]
+id: MESH:D055501
+name: Macrophage Activation Syndrome
+is_a: MESH:D008232 ! Lymphoproliferative Disorders
+
+[Term]
+id: MESH:D000798
+name: Angiomatosis
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: MESH:D016470
+name: Bacteremia
+is_a: DOID:104 ! bacterial infectious disease
+is_a: MESH:D018805 ! Sepsis
+
+[Term]
+id: MESH:D054508
+name: Acute Radiation Syndrome
+is_a: MESH:D011832 ! Radiation Injuries
+
+[Term]
+id: MESH:D046648
+name: Hematoma, Subdural, Intracranial
+is_a: MESH:D006408 ! Hematoma, Subdural
+
+[Term]
+id: MESH:D046649
+name: Hematoma, Subdural, Spinal
+is_a: MESH:D006408 ! Hematoma, Subdural
+
+[Term]
+id: MESH:D054506
+name: Chloracne
+is_a: MESH:D017486 ! Acneiform Eruptions
+
+[Term]
+id: MESH:D016463
+name: Sweet Syndrome
+is_a: MESH:D004890 ! Erythema
+
+[Term]
+id: MESH:D016469
+name: Fungemia
+is_a: DOID:1564 ! fungal infectious disease
+is_a: MESH:D018805 ! Sepsis
+
+[Term]
+id: MESH:D003420
+name: Crisscross Heart
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: MESH:D003428
+name: Cross Infection
+is_a: MESH:D007239 ! Infection
+
+[Term]
+id: MESH:D061085
+name: Agenesis of Corpus Callosum
+is_a: DOID:2490 ! congenital nervous system abnormality
+is_a: MESH:D020763 ! Pathological Conditions, Anatomical
+
+[Term]
+id: MESH:D025962
+name: Septo-Optic Dysplasia
+is_a: DOID:2490 ! congenital nervous system abnormality
+
+[Term]
+id: MESH:D015651
+name: Mycotoxicosis
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D053099
+name: Azotemia
+is_a: MESH:D010335 ! Pathologic Processes
+is_a: DOID:4676 ! uremia
+
+[Term]
+id: MESH:D060750
+name: Bone Anteversion
+is_a: MESH:D014102 ! Torsion Abnormality
+is_a: MESH:D017760 ! Bone Malalignment
+
+[Term]
+id: MESH:D003444
+name: Crush Syndrome
+is_a: MESH:D012774 ! Shock, Traumatic
+
+[Term]
+id: MESH:D018614
+name: Sweating Sickness
+is_a: MESH:D005334 ! Fever
+
+[Term]
+id: MESH:D015663
+name: Osteoporosis, Postmenopausal
+is_a: DOID:11476 ! osteoporosis
+
+[Term]
+id: MESH:D049970
+name: Graves Ophthalmopathy
+is_a: DOID:12361 ! Graves' disease
+is_a: MESH:D015785 ! Eye Diseases, Hereditary
+
+[Term]
+id: MESH:D013375
+name: Substance Withdrawal Syndrome
+is_a: DOID:302 ! substance abuse
+
+[Term]
+id: MESH:D018633
+name: Pulmonary Atresia
+is_a: DOID:4079 ! heart valve disease
+is_a: MESH:D054079 ! Vascular Malformations
+
+[Term]
+id: MESH:D049068
+name: Plagiocephaly, Nonsynostotic
+is_a: MESH:D059041 ! Plagiocephaly
+
+[Term]
+id: MESH:D005535
+name: Foot Rot
+is_a: MESH:D000820 ! Animal Diseases
+
+[Term]
+id: MESH:D005533
+name: Foot Dermatoses
+is_a: MESH:D005534 ! Foot Diseases
+
+[Term]
+id: MESH:D015618
+name: Histiocytosis, Sinus
+is_a: DOID:4330 ! non-langerhans-cell histiocytosis
+
+[Term]
+id: MESH:D015615
+name: Cystic Adenomatoid Malformation of Lung, Congenital
+is_a: DOID:850 ! lung disease
+is_a: MESH:D015619 ! Respiratory System Abnormalities
+
+[Term]
+id: MESH:D005548
+name: Foreign-Body Migration
+is_a: MESH:D005547 ! Foreign Bodies
+
+[Term]
+id: MESH:D006317
+name: Hearing Loss, Noise-Induced
+is_a: DOID:10003 ! sensorineural hearing loss
+
+[Term]
+id: MESH:D055589
+name: Pancreatitis, Graft
+is_a: DOID:4989 ! pancreatitis
+
+[Term]
+id: MESH:D018658
+name: Ventricular Septal Rupture
+is_a: MESH:D006342 ! Heart Rupture, Post-Infarction
+
+[Term]
+id: MESH:D000707
+name: Anaphylaxis
+is_a: MESH:D006969 ! Hypersensitivity, Immediate
+
+[Term]
+id: MESH:D056648
+name: Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis
+is_a: DOID:417 ! hypersensitivity reaction type II disease
+is_a: DOID:865 ! vasculitis
+
+[Term]
+id: MESH:D007855
+name: Lead Poisoning
+is_a: MESH:D011041 ! Poisoning
+
+[Term]
+id: MESH:D006327
+name: Heart Block
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+
+[Term]
+id: MESH:D006342
+name: Heart Rupture, Post-Infarction
+is_a: MESH:D006341 ! Heart Rupture
+
+[Term]
+id: MESH:D007871
+name: Leg Ulcer
+is_a: MESH:D012883 ! Skin Ulcer
+
+[Term]
+id: MESH:D008230
+name: Lymphomatoid Granulomatosis
+is_a: MESH:D011230 ! Precancerous Conditions
+is_a: DOID:707 ! B-cell lymphoma
+
+[Term]
+id: MESH:D056653
+name: Rheumatoid Vasculitis
+is_a: DOID:7148 ! rheumatoid arthritis
+is_a: DOID:865 ! vasculitis
+
+[Term]
+id: MESH:D056650
+name: Vulvodynia
+is_a: DOID:2059 ! vulvar disease
+
+[Term]
+id: MESH:D053018
+name: Pyonephrosis
+is_a: DOID:11111 ! hydronephrosis
+
+[Term]
+id: MESH:D001017
+name: Aortic Coarctation
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: MESH:D059228
+name: Renal Nutcracker Syndrome
+is_a: DOID:557 ! kidney disease
+
+[Term]
+id: MESH:D020819
+name: Perimeningeal Infections
+is_a: MESH:D002494 ! Central Nervous System Infections
+
+[Term]
+id: MESH:D050177
+name: Overweight
+is_a: MESH:D001835 ! Body Weight
+
+[Term]
+id: MESH:D001028
+name: Aortopulmonary Septal Defect
+is_a: DOID:1681 ! heart septal defect
+
+[Term]
+id: MESH:D042882
+name: Gallstones
+is_a: MESH:D002137 ! Calculi
+is_a: DOID:10211 ! cholelithiasis
+is_a: DOID:11151 ! cholecystolithiasis
+
+[Term]
+id: MESH:D020806
+name: Central Nervous System Bacterial Infections
+is_a: DOID:104 ! bacterial infectious disease
+is_a: MESH:D002494 ! Central Nervous System Infections
+
+[Term]
+id: MESH:D020807
+name: Central Nervous System Parasitic Infections
+is_a: MESH:D002494 ! Central Nervous System Infections
+is_a: MESH:D010272 ! Parasitic Diseases
+
+[Term]
+id: MESH:D006356
+name: Heartburn
+is_a: MESH:D012817 ! Signs and Symptoms, Digestive
+
+[Term]
+id: MESH:D020809
+name: Central Nervous System Helminthiasis
+is_a: MESH:D020807 ! Central Nervous System Parasitic Infections
+
+[Term]
+id: MESH:D014548
+name: Urinary Fistula
+is_a: MESH:D005402 ! Fistula
+is_a: MESH:D014564 ! Urogenital Abnormalities
+
+[Term]
+id: MESH:D008287
+name: Malacoplakia
+is_a: MESH:D010335 ! Pathologic Processes
+
+[Term]
+id: MESH:D014545
+name: Urinary Calculi
+is_a: MESH:D002137 ! Calculi
+is_a: MESH:D052878 ! Urolithiasis
+
+[Term]
+id: MESH:D005599
+name: Fractures, Ununited
+is_a: MESH:D050723 ! Fractures, Bone
+
+[Term]
+id: MESH:D014550
+name: Urinary Incontinence, Stress
+is_a: MESH:D014549 ! Urinary Incontinence
+
+[Term]
+id: MESH:D060725
+name: Uterine Retroversion
+is_a: MESH:D014102 ! Torsion Abnormality
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: MESH:D017114
+name: Liver Failure, Acute
+is_a: MESH:D017093 ! Liver Failure
+
+[Term]
+id: MESH:D017116
+name: Low Back Pain
+is_a: MESH:D001416 ! Back Pain
+
+[Term]
+id: MESH:D006390
+name: Hemangioendothelioma
+is_a: DOID:255 ! hemangioma
+
+[Term]
+id: MESH:D020857
+name: Hallux Limitus
+is_a: MESH:D005531 ! Foot Deformities, Acquired
+is_a: DOID:381 ! arthropathy
+
+[Term]
+id: MESH:D007842
+name: Lathyrism
+is_a: MESH:D010939 ! Plant Poisoning
+
+[Term]
+id: MESH:D006399
+name: Hematocolpos
+is_a: DOID:121 ! vaginal disease
+
