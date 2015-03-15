@@ -38,7 +38,6 @@ MESH:D053718	Scleromyxedema
 MESH:D020923	REM Sleep Parasomnias
 MESH:D058387	Candidemia
 MESH:D013341	Sturge-Weber Syndrome
-MESH:D013345	Subarachnoid Hemorrhage
 MESH:D054019	Immune Reconstitution Inflammatory Syndrome
 MESH:D015428	Myocardial Reperfusion Injury
 MESH:D015427	Reperfusion Injury
@@ -334,7 +333,6 @@ MESH:D005129	Eye Foreign Bodies
 MESH:D018230	Leiomyoma, Epithelioid
 MESH:D037061	Metatarsalgia
 MESH:D018224	Myofibromatosis
-MESH:D054969	Primary Dysautonomias
 MESH:D017543	Iliac Aneurysm
 MESH:D017541	Aneurysm, False
 MESH:D017542	Aneurysm, Ruptured
@@ -433,7 +431,6 @@ MESH:D000673	Amputation, Traumatic
 MESH:D009232	Myxoma
 MESH:D013798	Thecoma
 MESH:D018126	Odontodysplasia
-MESH:D044342	Malnutrition
 MESH:D054403	Leukemia, Prolymphocytic, B-Cell
 MESH:D003294	Seizures, Febrile
 MESH:D054438	Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative
@@ -467,7 +464,6 @@ MESH:D048550	Hepatic Insufficiency
 MESH:D008179	Lupus Erythematosus, Discoid
 MESH:D014458	Ulna Fractures
 MESH:D059525	Supraglottitis
-MESH:D061325	Hereditary Breast and Ovarian Cancer Syndrome
 MESH:D006465	Hemoperitoneum
 MESH:D002915	Chylous Ascites
 MESH:D046290	Liver Abscess, Pyogenic
@@ -626,7 +622,6 @@ MESH:D059266	Bisphosphonate-Associated Osteonecrosis of the Jaw
 MESH:D059268	Atrophic Vaginitis
 MESH:D059269	Chilaiditi Syndrome
 MESH:D008309	Mallory-Weiss Syndrome
-MESH:D028226	Amyloidosis, Familial
 MESH:D001041	Aphasia, Wernicke
 MESH:D053120	Respiratory Aspiration
 MESH:D058745	Iliotibial Band Syndrome

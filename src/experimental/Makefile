@@ -55,7 +55,7 @@ align-doid-to-omim.tsv: omim-leaf.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-mesh.tsv: ../ontology/imports/ctd_import.obo
-	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+	blip-findall -i super_ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-omc.tsv: omc.obo
 	blip-findall -i super_ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
@@ -81,6 +81,12 @@ ixrefs-%.obo: align-%.tsv
 
 isa-%.obo: align-%.tsv
 	cut -f1-4 $< | sort -u | grep -v ^DOID | tbl2obolinks.pl --rel is_a > $@.tmp && mv $@.tmp $@
+
+## --
+## MESH missing from DO
+## --
+mesh-missing-from-doid.tsv:
+	blip-findall -i ../ontology/imports/ctd_import.obo -r disease -i xrefs-doid-to-mesh.obo -i m.pro "m(X),\+entity_xref(D,X)" -select X -use_tabs  -label > $@
 
 ## --
 ## Xrefs to logic axioms

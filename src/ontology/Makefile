@@ -25,7 +25,7 @@ release: all all_imports all_bridges
 # all release files are derived from the editors version.
 # we use the default Oort setup
 doid.obo: doid-edit.owl
-	ontology-release-runner --catalog-xml catalog-v001.xml $< --skip-format owx --allow-overwrite --asserted --simple && mv doid-simple.obo doid.obo
+	ontology-release-runner --catalog-xml catalog-v001.xml $< --skip-format owx --allow-overwrite --asserted --simple && ../experimental/fix-doid.pl doid-simple.obo > doid.obo
 doid.owl: doid.obo
 
 # axiom from imported ontology (ext) merged in
