@@ -76,7 +76,10 @@ OMIM:106500	Annular Erythema	1		DOID:4	disease
 OMIM:106900	Anonychia-Ectrodactyly	1		DOID:4	disease
 OMIM:106990	Anonychia-Onychodystrophy with Brachydactyly Type B and Ectrodactyly	1		DOID:4	disease
 OMIM:107550	Aortic Arch Interruption, Facial Palsy, and Retinal Coloboma	1		DOID:4	disease
+OMIM:107680		0		
 OMIM:107700	Appendicitis, Proneness to	1		DOID:4	disease
+OMIM:107730		0		
+OMIM:107741		0		
 OMIM:107900	Arms, Malformation of	1		DOID:4	disease
 OMIM:108000	Arteries, Anomalies of	1		DOID:4	disease
 OMIM:108050	Arteritis, Familial Granulomatous, with Juvenile Polyarthritis	1		DOID:4	disease
@@ -96,6 +99,7 @@ OMIM:109100	Autoimmune Disease	1		DOID:4	disease
 OMIM:109120	Axenfeld-Rieger Anomaly with Partially Absent Eye Muscles, Distinctive Face, Hydrocephaly, and Skeletal Abnormalities	1		DOID:4	disease
 OMIM:109130	Axial Osteomalacia	1		DOID:4	disease
 OMIM:109160	Azotemia, Familial	1		DOID:4	disease
+OMIM:109270		0		
 OMIM:109560		0		
 OMIM:109600		0		
 OMIM:109740	Bifid Nose, Autosomal Dominant	2		DC:0000479	Bifid Nose,DOID:4	disease
@@ -122,6 +126,7 @@ OMIM:114890		0
 OMIM:115000	Arrhythmias, Cardiac	1		DOID:4	disease
 OMIM:115080	Cardiac Conduction Defect	2		DC:0000374	Progressive Familial Heart Block,DOID:4	disease
 OMIM:115400	Carpal Displacement	1		DOID:4	disease
+OMIM:116790		0		
 OMIM:116850	Catatrichy	1		DOID:4	disease
 OMIM:116870	Celiac Artery Stenosis From Compression By Median Arcuate Ligament of Diaphragm	1		DOID:4	disease
 OMIM:116950		0		
@@ -234,6 +239,7 @@ OMIM:131600	Epidermoid Cysts	1		DOID:4	disease
 OMIM:131880	Epidermolysis Bullosa with Deficiency of Galactosylhydroxylysyl Glucosyltransferase	1		DOID:4	disease
 OMIM:132000	Epidermolysis Bullosa With Congenital Localized Absence Of Skin And Deformity Of Nails	1		DOID:4	disease
 OMIM:132500	Epistaxis, Hereditary	1		DOID:4	disease
+OMIM:132810		0		
 OMIM:132990	Erythema Nodosum, Familial	1		DOID:4	disease
 OMIM:133240	Esophageal Ring, Lower	1		DOID:4	disease
 OMIM:133500	Exchondrosis of Pinna, Posterior	1		DOID:4	disease
@@ -277,6 +283,7 @@ OMIM:137900	Globulin Anomaly Involving Beta (2a)-Globulin	1		DOID:4	disease
 OMIM:137950	GLOMERULOPATHY WITH FIBRONECTIN DEPOSITS 1; GFND1	2		DC:0000174	Glomerulopathy with Fibronectin Deposits,DOID:4	disease
 OMIM:138040		0		
 OMIM:138070	Glucoglycinuria	1		DOID:4	disease
+OMIM:138300		0		
 OMIM:138500	HYPERGLYCINURIA	1		DOID:4	disease
 OMIM:138900		0		
 OMIM:138920	Granddad Syndrome	1		DOID:4	disease
@@ -293,6 +300,7 @@ OMIM:140500	Heart, Malformation of	1		DOID:4	disease
 OMIM:140900	Hemangiomas of Small Intestine	1		DOID:4	disease
 OMIM:141200	Hematuria, Benign Familial	1		DOID:4	disease
 OMIM:141700	Hemolytic Poikilocytic Anemia Due to Reduced Ankyrin Binding Sites	1		DOID:4	disease
+OMIM:141900		0		
 OMIM:142000		0		
 OMIM:142100		0		
 OMIM:142240		0		
@@ -356,6 +364,7 @@ OMIM:150550	Lazy Leukocyte Syndrome	1		DOID:4	disease
 OMIM:150590	Leg Ulcers, Familial, of Juvenile Onset	1		DOID:4	disease
 OMIM:150900	Lentigines	1		DOID:4	disease
 OMIM:151000	Lentiginosis, Centrofacial Neurodysraphic	1		DOID:4	disease
+OMIM:151430		0		
 OMIM:151440		0		
 OMIM:151441		0		
 OMIM:151500	Leukocyte Nuclear Appendages, Hereditary Prevalence of	1		DOID:4	disease
@@ -368,6 +377,7 @@ OMIM:152200		0
 OMIM:152420	Lithium Transport	1		DOID:4	disease
 OMIM:152550	Lumbar Stenosis, Familial	1		DOID:4	disease
 OMIM:152600	Lunulae of Fingernails	1		DOID:4	disease
+OMIM:152780		0		
 OMIM:153470	Macrocephaly, Benign Familial	1		DOID:4	disease
 OMIM:153640	Fechtner syndrome	1		DOID:4	disease
 OMIM:153650	Epstein syndrome	1		DOID:4	disease
@@ -400,6 +410,7 @@ OMIM:159300		0
 OMIM:159410		0		
 OMIM:159420		0		
 OMIM:159500	Myelinated Optic Nerve Fibers	1		DOID:4	disease
+OMIM:159555		0		
 OMIM:159556		0		
 OMIM:159557		0		
 OMIM:159558		0		
@@ -453,6 +464,7 @@ OMIM:167900	Papillomatosis, Confluent and Reticulated; CARP	1		DOID:4	disease
 OMIM:167950	Papillomatosis, Florid, of Nipple	1		DOID:4	disease
 OMIM:168200	Paramolar Tubercle of Bolk	1		DOID:4	disease
 OMIM:168800	Parotidomegaly, Hereditary Bilateral	1		DOID:4	disease
+OMIM:168820		0		
 OMIM:168830	Passovoy Factor Defect	1		DOID:4	disease
 OMIM:168850	Patella Aplasia, Coxa Vara, and Tarsal Synostosis	1		DOID:4	disease
 OMIM:169000	Patella, Familial Recurrent Dislocation of	1		DOID:4	disease
@@ -475,6 +487,7 @@ OMIM:173000	Pilonidal Sinus	1		DOID:4	disease
 OMIM:173400	Platelet Aggregation, Spontaneous	1		DOID:4	disease
 OMIM:173420	Platelet Disorder, Undefined	1		DOID:4	disease
 OMIM:173450	Platelet Factor 3 Deficiency	1		DOID:4	disease
+OMIM:173470		0		
 OMIM:173580	Platelet Responsiveness to Adrenaline, Depressed	1		DOID:4	disease
 OMIM:173590	Platelet Signal Processing Defect	1		DOID:4	disease
 OMIM:173850		0		
@@ -503,6 +516,7 @@ OMIM:177050	Protrusio Acetabuli	1		DOID:4	disease
 OMIM:177100	Pruritus, Hereditary Localized	1		DOID:4	disease
 OMIM:177300	Pseudoarthrogryposis	1		DOID:4	disease
 OMIM:177350	Pseudoatrophoderma Colli	1		DOID:4	disease
+OMIM:177400		0		
 OMIM:177600	Pseudocholinesterase, Increase in Plasma Level of	1		DOID:4	disease
 OMIM:177990	Pterygium Colli, Isolated	1		DOID:4	disease
 OMIM:178350	Pubic Bone Dysplasia	1		DOID:4	disease
@@ -541,6 +555,7 @@ OMIM:182257		0
 OMIM:182260	Slipped Femoral Capital Epiphyses	1		DOID:4	disease
 OMIM:182800	Spastic Paraplegia with Associated Extrapyramidal Signs	1		DOID:4	disease
 OMIM:182830	Spastic Paraplegia, Optic Atrophy, and Dementia	1		DOID:4	disease
+OMIM:182870		0		
 OMIM:183050	Spinocerebellar Ataxia with Rigidity and Peripheral Neuropathy	1		DOID:4	disease
 OMIM:183100	Spinocerebellar Atrophy with Pupillary Paralysis	1		DOID:4	disease
 OMIM:183350	Splenomegaly Syndrome with Splenic Germinal Center Hypoplasia and Reduced Circulating T-Helper Cells	1		DOID:4	disease
@@ -1018,6 +1033,7 @@ OMIM:309050	Lutheran Suppressor, X-Linked; XS	1		DOID:4	disease
 OMIM:309100	Macular Dystrophy, X-Linked	2		DC:0000263	Macular Dystrophy,DOID:4	disease
 OMIM:309200	Major Affective Disorder 2	2		DC:0000264	Major Affective Disorder,DOID:4	disease
 OMIM:309840	Modifier, X-Linked, for Neurofunctional Defects	1		DOID:4	disease
+OMIM:309850		0		
 OMIM:309860		0		
 OMIM:310350	Myelolymphatic Insufficiency	1		DOID:4	disease
 OMIM:310700	Nystagmus 1, congenital, X- linked	2		DC:0000328	Nystagmus,DOID:4	disease
@@ -1040,6 +1056,7 @@ OMIM:313350	SPLIT-HAND/FOOT MALFORMATION 2	2		DC:0000416	Split-Hand/Foot Malform
 OMIM:313490	Taurodontism, Microdontia, and Dens Invaginatus	1		DOID:4	disease
 OMIM:314000	Thrombocytopenia with Elevated Serum Iga and Renal Disease	1		DOID:4	disease
 OMIM:314100	Thumbs, Congenital Clasped	1		DOID:4	disease
+OMIM:314200		0		
 OMIM:314240	Tooth Size	1		DOID:4	disease
 OMIM:314380	Unique Green Phenomenon	1		DOID:4	disease
 OMIM:314570	Widow's Peak Syndrome	1		DOID:4	disease
@@ -1507,6 +1524,7 @@ Orphanet:2547		0
 Orphanet:2582	Myalgia-eosinophilia syndrome associated with tryptophan	1		DOID:4	disease
 Orphanet:2591		1		DOID:4	disease
 Orphanet:2598		1		DOID:4	disease
+Orphanet:26		1		DOID:4	disease
 Orphanet:2623		1		DOID:4	disease
 Orphanet:2671		1		DOID:4	disease
 Orphanet:2672		0		

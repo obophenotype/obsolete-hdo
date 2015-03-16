@@ -645,3 +645,24 @@ merge_into(D,M,Opts) :-
         retractall(class(D)).
 */
 
+write_all_mesh :-
+        write_mesh(_),
+        fail.
+write_all_mesh.
+write_mesh(D) :-
+        class(D),
+        id_idspace(D,'MESH'),
+        \+ entity_xref(_,D),
+        class(D,DN),
+        format('[Term]~n'),
+        format('id: ~w~n',[D]),
+        format('name: ~w~n',[DN]),
+        forall(subclass(D,P),
+               (   entity_xref_from_to(PX,P,'DOID','MESH')
+               ->  class2n(PX,PN),
+                   format('is_a: ~w ! ~w~n',[PX,PN])
+               ;   class2n(P,PN),
+                   format('is_a: ~w ! ~w~n',[P,PN]))),
+        nl.
+
+        
