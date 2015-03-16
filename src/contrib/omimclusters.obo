@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:03:2015 14:39
+date: 16:03:2015 11:12
 saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
@@ -12953,6 +12953,11 @@ name: Sneddon Syndrome
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:182455
+name: Somatostatin Receptor 5; SSTR5
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:182600
 name: Spastic paraplegia 3, autosomal dominant
 is_a: DC:0000410 ! Spastic Paraplegia
@@ -14219,6 +14224,8 @@ is_a: DC:0000457 ! Wilms Tumor
 [Term]
 id: OMIM:194190
 name: Wolf-Hirschhorn Syndrome
+alt_id: OMIM:300421
+synonym: "Wittwer syndrome" EXACT []
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -22442,11 +22449,6 @@ name: Mental Retardation, X-Linked, With Or Without Seizures, Arx-Related
 is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
 
 [Term]
-id: OMIM:300421
-name: Wittwer syndrome
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:300422
 name: Fg Syndrome 4; FGS4
 is_a: DC:0000518 ! FG Syndrome
@@ -25606,6 +25608,11 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:600931
 name: Protocadherin 3
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:600946
+name: Growth Hormone Receptor; GHR
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -43802,4 +43809,19 @@ is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
 id: OMIM:616249
 name: Long QT Syndrome 15; LQT15
 is_a: DC:0000256 ! Long QT Syndrome
+
+[Term]
+id: OMIM:616258
+name: Meckel Syndrome 12; MKS12
+is_a: DC:0000360 ! Meckel Syndrome
+
+[Term]
+id: OMIM:616260
+name: Tenorio Syndrome; TNORS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616263
+name: Neurologic, Endocrine, and Pancreatic Disease, Multisystem, Infantile-Onset;
+is_a: DC:0000138 ! Disease Cluster
 
