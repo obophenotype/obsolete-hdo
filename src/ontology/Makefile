@@ -94,7 +94,8 @@ imports/omim_import.owl: mirror/omim.ttl
 #	owltools $(OBO)/upheno/data/disorders.owl --set-ontology-id $(OBO)/doid/$@ -o $@
 
 # refesh every time DO changes (too high?)
-mirror/omim.ttl: doid-edit.owl
+##mirror/omim.ttl: doid-edit.owl
+mirror/omim.ttl: 
 	wget http://nif-crawler.neuinfo.org/monarch/ttl/omim.ttl -O $@
 .PRECIOUS: mirror/omim.ttl
 
@@ -105,7 +106,7 @@ seed.owl: doid-edit.owl
 
 
 imports/%.obo: imports/%.owl
-	owltools $< -o -f obo $@
+	owltools $< -o -f obo $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
 # ----------------------------------------
 # Bridge

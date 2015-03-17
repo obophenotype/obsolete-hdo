@@ -1,4 +1,6 @@
-all: missing-omc.obo missing-omimps.obo sim-omc.tsv
+all: mondo.obo 
+
+all_rest: missing-omc.obo missing-omimps.obo sim-omc.tsv
 
 
 ## --
@@ -187,6 +189,9 @@ mapping.tsv:
 	blip-findall -i d2p.pro -consult summary.pro -i omimclusters.obo -i ordo.obo -r disease -i omimps-min.obo s/6 -label -no_pred | grep ^OMIM > $@
 mapping2.tsv:
 	blip-findall -i d2p.pro -consult summary.pro -i omimclusters.obo -i ordo.obo -i efo.obo -r disease s/6 -label -no_pred | grep ^OMIM > $@
+
+ordo-missing.tsv: ordo.obo
+	blip-findall -i d2p.pro -i $< "d2p(D,_),id_idspace(D,'Orphanet'),\+class(D)" -select D | sort -u > $@
 
 all-rpt: mapping-grep-DC-noORDO.txt mapping-grep-noDC-ORDO.txt mapping-grep-noDC-noORDO.txt
 all2-rpt: mapping2-grep-DC-noORDO.txt mapping2-grep-noDC-ORDO.txt
