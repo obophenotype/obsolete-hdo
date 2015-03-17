@@ -6,7 +6,6 @@ default-namespace: file:/Users/vasilevs/git/MonarchDiseaseOntology/src/contrib/d
 remark: Filtered by ID contains "omim"
 ontology: decipherclusters
 generated-by: $Id: MGIOBOFileGeneratorMgr.java
-import: http://purl.obolibrary.org/obo/doid/contrib/omimclusters.owl
 
 [Term]
 id: DECIPHER:1
