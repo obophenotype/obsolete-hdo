@@ -27,10 +27,6 @@ id: DOID:0050885 ! IMAGe syndrome
 xref: MESH:C564543 ! Intrauterine Growth Retardation, Metaphyseal Dysplasia, Adrenal Hypoplasia Congenita, And Genital Anomalies
 
 [Term]
-id: DOID:5998 ! microglandular adenosis
-xref: MESH:D005348 ! Fibrocystic Breast Disease
-
-[Term]
 id: DOID:13868 ! hypoactive sexual desire disorder
 xref: MESH:D020018 ! Sexual Dysfunctions, Psychological
 
@@ -39,17 +35,12 @@ id: DOID:0050871 ! fibroma
 xref: MESH:D005350 ! Fibroma
 
 [Term]
-id: DOID:950 ! dacryoadenitis
-xref: MESH:D003607 ! Dacryocystitis
-
-[Term]
 id: DOID:9870 ! galactosemia
 xref: MESH:D005693 ! Galactosemias
 
 [Term]
 id: DOID:4467 ! renal clear cell carcinoma
 xref: MESH:C538445 ! Clear-cell metastatic renal cell carcinoma
-xref: MESH:D002292 ! Carcinoma, Renal Cell
 
 [Term]
 id: DOID:2449 ! acromegaly
@@ -130,10 +121,6 @@ id: DOID:6262 ! follicular dendritic cell sarcoma
 xref: MESH:D054740 ! Dendritic Cell Sarcoma, Follicular
 
 [Term]
-id: DOID:0050591 ! tooth agenesis
-xref: MESH:D000848 ! Anodontia
-
-[Term]
 id: DOID:1949 ! cholecystitis
 xref: MESH:D002764 ! Cholecystitis
 xref: MESH:D041881 ! Cholecystitis, Acute
@@ -144,7 +131,6 @@ xref: MESH:C535880 ! Johanson Blizzard syndrome
 
 [Term]
 id: DOID:14004 ! thoracic aortic aneurysm
-xref: MESH:C562834 ! Aortic Aneurysm, Familial Thoracic 1
 xref: MESH:D017545 ! Aortic Aneurysm, Thoracic
 
 [Term]
@@ -152,17 +138,11 @@ id: DOID:10124 ! corneal disease
 xref: MESH:D003316 ! Corneal Diseases
 
 [Term]
-id: DOID:12550 ! hepatic coma
-xref: MESH:D006501 ! Hepatic Encephalopathy
-
-[Term]
 id: DOID:13620 ! patent foramen ovale
-xref: MESH:D006344 ! Heart Septal Defects, Atrial
 xref: MESH:D054092 ! Foramen Ovale, Patent
 
 [Term]
 id: DOID:483 ! cavernous hemangioma
-xref: MESH:C536610 ! Familial cerebral cavernous malformation
 xref: MESH:D006392 ! Hemangioma, Cavernous
 
 [Term]
@@ -276,10 +256,6 @@ id: DOID:13148 ! acute cystitis
 xref: MESH:D014552 ! Urinary Tract Infections
 
 [Term]
-id: DOID:3186 ! adult oligodendroglioma
-xref: MESH:D009837 ! Oligodendroglioma
-
-[Term]
 id: DOID:2048 ! autoimmune hepatitis
 xref: MESH:D019693 ! Hepatitis, Autoimmune
 
@@ -318,14 +294,10 @@ xref: MESH:D000858 ! Anovulation
 [Term]
 id: DOID:0050638 ! transthyretin amyloidosis
 xref: MESH:C567782 ! Amyloidosis, Hereditary, Transthyretin-Related
-xref: MESH:D017772 ! Amyloid Neuropathies
-xref: MESH:D028227 ! Amyloid Neuropathies, Familial
 
 [Term]
 id: DOID:2800 ! acute interstitial pneumonia
 xref: MESH:D011658 ! Pulmonary Fibrosis
-xref: MESH:D017118 ! Porphyria, Acute Intermittent
-xref: MESH:D054990 ! Idiopathic Pulmonary Fibrosis
 
 [Term]
 id: DOID:11518 ! abnormal pupillary function
@@ -396,7 +368,6 @@ xref: MESH:D011469 ! Prostatic Diseases
 id: DOID:4500 ! hypokalemia
 xref: MESH:C562654 ! Hypokalemia, Familial
 xref: MESH:D007008 ! Hypokalemia
-xref: MESH:D011191 ! Potassium Deficiency
 
 [Term]
 id: DOID:3110 ! papillary cystadenocarcinoma
@@ -405,10 +376,6 @@ xref: MESH:D018283 ! Cystadenocarcinoma, Papillary
 [Term]
 id: DOID:752 ! peptic ulcer perforation
 xref: MESH:D010439 ! Peptic Ulcer Perforation
-
-[Term]
-id: DOID:3183 ! childhood oligodendroglioma
-xref: MESH:D009837 ! Oligodendroglioma
 
 [Term]
 id: DOID:6195 ! conjunctivitis
@@ -469,10 +436,6 @@ id: DOID:2691 ! myoma
 xref: MESH:D009214 ! Myoma
 
 [Term]
-id: DOID:0050766 ! chorea-acanthocytosis
-xref: MESH:D054546 ! Neuroacanthocytosis
-
-[Term]
 id: DOID:3327 ! partial motor epilepsy
 xref: MESH:D020938 ! Epilepsy, Partial, Motor
 
@@ -491,7 +454,6 @@ xref: MESH:D005184 ! Fallopian Tube Diseases
 
 [Term]
 id: DOID:13269 ! hereditary coproporphyria
-xref: MESH:C535469 ! Coproporphyria
 xref: MESH:D046349 ! Coproporphyria, Hereditary
 
 [Term]
@@ -537,7 +499,6 @@ xref: MESH:D010013 ! Osteogenesis Imperfecta
 id: DOID:0050835 ! generalized dystonia
 xref: MESH:D004421 ! Dystonia
 xref: MESH:D004422 ! Dystonia Musculorum Deformans
-xref: MESH:D020821 ! Dystonic Disorders
 
 [Term]
 id: DOID:9398 ! epiglottitis
@@ -559,10 +520,6 @@ xref: MESH:D020236 ! Amnesia, Transient Global
 [Term]
 id: DOID:1073 ! renal hypertension
 xref: MESH:D006977 ! Hypertension, Renal
-
-[Term]
-id: DOID:7007 ! childhood cerebral astrocytoma
-xref: MESH:D001254 ! Astrocytoma
 
 [Term]
 id: DOID:10609 ! rickets
@@ -635,7 +592,6 @@ xref: MESH:D013271 ! Gastric Dilatation
 
 [Term]
 id: DOID:5204 ! fructose-1,6-bisphosphatase deficiency
-xref: MESH:D005633 ! Fructose Intolerance
 xref: MESH:D015319 ! Fructose-1,6-Diphosphatase Deficiency
 
 [Term]
@@ -772,12 +728,7 @@ xref: OMIM:100070 ! AORTIC ANEURYSM, FAMILIAL ABDOMINAL, 1
 
 [Term]
 id: DOID:3310 ! atopic dermatitis
-xref: MESH:C566404 ! Dermatitis, Atopic, 1
 xref: MESH:D003876 ! Dermatitis, Atopic
-
-[Term]
-id: DOID:14188 ! frozen shoulder
-xref: MESH:D002062 ! Bursitis
 
 [Term]
 id: DOID:2738 ! pseudoxanthoma elasticum
@@ -877,10 +828,6 @@ id: DOID:0050632 ! oculocutaneous albinism
 xref: MESH:D016115 ! Albinism, Oculocutaneous
 
 [Term]
-id: DOID:5077 ! subependymal giant cell astrocytoma
-xref: MESH:D001254 ! Astrocytoma
-
-[Term]
 id: DOID:4960 ! bone marrow cancer
 xref: MESH:D009196 ! Myeloproliferative Disorders
 xref: MESH:D019046 ! Bone Marrow Neoplasms
@@ -899,7 +846,6 @@ xref: MESH:D009136 ! Muscular Dystrophies
 
 [Term]
 id: DOID:6713 ! cerebrovascular disease
-xref: MESH:D002544 ! Cerebral Infarction
 xref: MESH:D002561 ! Cerebrovascular Disorders
 xref: MESH:D020521 ! Stroke
 
@@ -926,7 +872,6 @@ xref: MESH:D020165 ! Carbamoyl-Phosphate Synthase I Deficiency Disease
 
 [Term]
 id: DOID:13501 ! Mobius syndrome
-xref: MESH:C535807 ! Moebius syndrome 1
 xref: MESH:D020331 ! Mobius Syndrome
 
 [Term]
@@ -958,10 +903,6 @@ xref: MESH:D018206 ! Angiolipoma
 [Term]
 id: DOID:8007 ! Pancoast tumor
 xref: MESH:D010178 ! Pancoast Syndrome
-
-[Term]
-id: DOID:0050354 ! infant botulism
-xref: MESH:D001906 ! Botulism
 
 [Term]
 id: DOID:14422 ! dipetalonemiasis
@@ -998,10 +939,6 @@ xref: MESH:D013547 ! Sweating, Gustatory
 id: DOID:10426 ! Klippel-Feil syndrome
 xref: MESH:C536887 ! Klippel Feil syndrome dominant type
 xref: MESH:D007714 ! Klippel-Feil Syndrome
-
-[Term]
-id: DOID:11211 ! buphthalmos
-xref: MESH:D006871 ! Hydrophthalmos
 
 [Term]
 id: DOID:11100 ! Q fever
@@ -1071,10 +1008,6 @@ xref: MESH:D016889 ! Endometrial Neoplasms
 [Term]
 id: DOID:10235 ! Brown's tendon sheath syndrome
 xref: MESH:D015835 ! Ocular Motility Disorders
-
-[Term]
-id: DOID:0060155 ! visual agnosia
-xref: MESH:D000377 ! Agnosia
 
 [Term]
 id: DOID:3614 ! Kallmann syndrome
@@ -1178,20 +1111,12 @@ id: DOID:14223 ! ochronosis
 xref: MESH:D009794 ! Ochronosis
 
 [Term]
-id: DOID:10967 ! spastic hemiplegia
-xref: MESH:D006429 ! Hemiplegia
-
-[Term]
 id: DOID:11934 ! head and neck cancer
 xref: MESH:D006258 ! Head and Neck Neoplasms
 
 [Term]
 id: DOID:8628 ! Hodgkin's lymphoma, lymphocytic depletion
 xref: MESH:D006689 ! Hodgkin Disease
-
-[Term]
-id: DOID:3930 ! otitis interna
-xref: MESH:D007762 ! Labyrinthitis
 
 [Term]
 id: DOID:0060319 ! cardiac arrest
@@ -1258,7 +1183,6 @@ xref: MESH:D010310 ! Parovarian Cyst
 [Term]
 id: DOID:0060164 ! pain disorder
 xref: MESH:D010146 ! Pain
-xref: MESH:D013001 ! Somatoform Disorders
 
 [Term]
 id: DOID:0050456 ! Buruli ulcer disease
@@ -1266,7 +1190,6 @@ xref: MESH:D054312 ! Buruli Ulcer
 
 [Term]
 id: DOID:4989 ! pancreatitis
-xref: MESH:C537262 ! Hereditary pancreatitis
 xref: MESH:D010195 ! Pancreatitis
 
 [Term]
@@ -1287,7 +1210,6 @@ xref: MESH:D009293 ! Opioid-Related Disorders
 
 [Term]
 id: DOID:11759 ! hypochromic anemia
-xref: MESH:C536761 ! X-linked sideroblastic anemia
 xref: MESH:D000747 ! Anemia, Hypochromic
 
 [Term]
@@ -1457,7 +1379,6 @@ xref: MESH:D014062 ! Tongue Neoplasms
 
 [Term]
 id: DOID:13417 ! alexia
-xref: MESH:D004410 ! Dyslexia
 xref: MESH:D004411 ! Dyslexia, Acquired
 
 [Term]
@@ -1591,10 +1512,6 @@ id: DOID:12120 ! pulmonary alveolar proteinosis
 xref: MESH:D011649 ! Pulmonary Alveolar Proteinosis
 
 [Term]
-id: DOID:4235 ! spindle cell sarcoma
-xref: MESH:D012509 ! Sarcoma
-
-[Term]
 id: DOID:1933 ! Rubinstein-Taybi syndrome
 xref: MESH:D012415 ! Rubinstein-Taybi Syndrome
 
@@ -1647,7 +1564,6 @@ xref: MESH:D018601 ! King's Evil
 
 [Term]
 id: DOID:13317 ! hyperinsulinemic hypoglycemia
-xref: MESH:D044903 ! Congenital Hyperinsulinism
 xref: MESH:D046768 ! Nesidioblastosis
 
 [Term]
@@ -1725,7 +1641,6 @@ xref: MESH:C567429 ! Amyotrophic Lateral Sclerosis 10
 [Term]
 id: DOID:5426 ! premature ovarian failure
 xref: MESH:C535272 ! Premature ovarian failure, familial
-xref: MESH:D007006 ! Hypogonadism
 xref: MESH:D008594 ! Menopause, Premature
 xref: MESH:D016649 ! Primary Ovarian Insufficiency
 
@@ -1759,7 +1674,6 @@ xref: MESH:D012208 ! Rhabdomyosarcoma
 
 [Term]
 id: DOID:1921 ! Klinefelter's syndrome
-xref: MESH:D007006 ! Hypogonadism
 xref: MESH:D007713 ! Klinefelter Syndrome
 
 [Term]
@@ -1777,10 +1691,6 @@ xref: MESH:D012857 ! Situs Inversus
 [Term]
 id: DOID:0050715 ! methylmalonic aciduria and homocystinuria type cblC
 xref: MESH:C537359 ! Methylmalonic acidemia with homocystinuria
-
-[Term]
-id: DOID:3172 ! papillary adenoma
-xref: MESH:D000236 ! Adenoma
 
 [Term]
 id: DOID:8689 ! anorexia nervosa
@@ -1804,7 +1714,6 @@ xref: MESH:D013592 ! Syphilis, Latent
 
 [Term]
 id: DOID:332 ! amyotrophic lateral sclerosis
-xref: MESH:C531617 ! Amyotrophic lateral sclerosis 1
 xref: MESH:D000690 ! Amyotrophic Lateral Sclerosis
 
 [Term]
@@ -1831,7 +1740,6 @@ xref: MESH:D018549 ! Cryptogenic Organizing Pneumonia
 id: DOID:10780 ! primary polycythemia
 xref: MESH:C536842 ! Polycythemia, primary familial and congenital
 xref: MESH:D011086 ! Polycythemia
-xref: MESH:D011087 ! Polycythemia Vera
 
 [Term]
 id: DOID:0050147 ! otomycosis
@@ -1863,7 +1771,6 @@ xref: MESH:D030401 ! Cytochrome-c Oxidase Deficiency
 
 [Term]
 id: DOID:674 ! cleft palate
-xref: MESH:C566991 ! Cleft Palate, Isolated, And Mental Retardation
 xref: MESH:D002972 ! Cleft Palate
 
 [Term]
@@ -1889,12 +1796,10 @@ xref: MESH:D020182 ! Sleep Apnea, Central
 
 [Term]
 id: DOID:0050467 ! erythrokeratodermia variabilis
-xref: MESH:C566591 ! Erythrokeratodermia, Progressive Symmetric
 xref: MESH:D056266 ! Erythrokeratodermia Variabilis
 
 [Term]
 id: DOID:8538 ! reticulosarcoma
-xref: MESH:D008228 ! Lymphoma, Non-Hodgkin
 xref: MESH:D016403 ! Lymphoma, Large B-Cell, Diffuse
 
 [Term]
@@ -1912,10 +1817,6 @@ xref: MESH:D003866 ! Depressive Disorder
 [Term]
 id: DOID:231 ! motor neuron disease
 xref: MESH:D016472 ! Motor Neuron Disease
-
-[Term]
-id: DOID:6548 ! angiomatous meningioma
-xref: MESH:D008579 ! Meningioma
 
 [Term]
 id: DOID:11914 ! gastroparesis
@@ -2001,10 +1902,6 @@ xref: MESH:D018235 ! Smooth Muscle Tumor
 id: DOID:7188 ! autoimmune thyroiditis
 xref: MESH:D013967 ! Thyroiditis, Autoimmune
 xref: MESH:D050031 ! Hashimoto Disease
-
-[Term]
-id: DOID:3481 ! septicemic plague
-xref: MESH:D010930 ! Plague
 
 [Term]
 id: DOID:9446 ! cholangitis
@@ -2161,10 +2058,6 @@ id: DOID:12800 ! mucopolysaccharidosis VI
 xref: MESH:D009087 ! Mucopolysaccharidosis VI
 
 [Term]
-id: DOID:0060137 ! auditory agnosia
-xref: MESH:D000377 ! Agnosia
-
-[Term]
 id: DOID:0060200 ! amyotrophic lateral sclerosis type 9
 xref: MESH:C567499 ! Amyotrophic Lateral Sclerosis 9
 
@@ -2211,10 +2104,6 @@ xref: MESH:D009395 ! Nephritis, Interstitial
 [Term]
 id: DOID:0080033 ! craniometaphyseal dysplasia
 xref: MESH:C537519 ! Schwartz-Lelek syndrome
-
-[Term]
-id: DOID:2426 ! gangliocytoma
-xref: MESH:D005729 ! Ganglioneuroma
 
 [Term]
 id: DOID:3301 ! gonadoblastoma
@@ -2265,10 +2154,6 @@ xref: MESH:D055090 ! Tracheomalacia
 [Term]
 id: DOID:0050619 ! paranasal sinus cancer
 xref: MESH:D010255 ! Paranasal Sinus Neoplasms
-
-[Term]
-id: DOID:1035 ! natural killer cell leukemia
-xref: MESH:D054066 ! Leukemia, Large Granular Lymphocytic
 
 [Term]
 id: DOID:0080055 ! achondrogenesis type IB
@@ -2325,10 +2210,7 @@ xref: MESH:C563248 ! Chondrodysplasia Punctata, Autosomal Dominant
 
 [Term]
 id: DOID:10588 ! adrenoleukodystrophy
-xref: MESH:C538676 ! Melanodermic leukodystrophy
 xref: MESH:D000326 ! Adrenoleukodystrophy
-xref: MESH:D002549 ! Diffuse Cerebral Sclerosis of Schilder
-xref: MESH:D045743 ! Scleroderma, Diffuse
 
 [Term]
 id: DOID:0050694 ! Brown-Vialetto-Van Laere syndrome
@@ -2409,7 +2291,6 @@ xref: MESH:D015456 ! Leukemia, Biphenotypic, Acute
 [Term]
 id: DOID:13976 ! peptic esophagitis
 xref: MESH:D004942 ! Esophagitis, Peptic
-xref: MESH:D005764 ! Gastroesophageal Reflux
 
 [Term]
 id: DOID:0060170 ! generalized epilepsy with febrile seizures plus
@@ -2422,10 +2303,6 @@ xref: MESH:D013585 ! Synovitis
 [Term]
 id: DOID:0050214 ! Lambert-Eaton myasthenic syndrome
 xref: MESH:D015624 ! Lambert-Eaton Myasthenic Syndrome
-
-[Term]
-id: DOID:9503 ! Loeffler syndrome
-xref: MESH:D011657 ! Pulmonary Eosinophilia
 
 [Term]
 id: DOID:2498 ! tooth erosion
@@ -2631,10 +2508,6 @@ xref: MESH:D003866 ! Depressive Disorder
 xref: MESH:D009497 ! Neurotic Disorders
 
 [Term]
-id: DOID:0060000 ! infective endocarditis
-xref: MESH:D004696 ! Endocarditis
-
-[Term]
 id: DOID:7400 ! Nijmegen breakage syndrome
 xref: MESH:D049932 ! Nijmegen Breakage Syndrome
 
@@ -2662,14 +2535,6 @@ xref: MESH:D005862 ! Gerstmann Syndrome
 [Term]
 id: DOID:12556 ! acute kidney tubular necrosis
 xref: MESH:D007683 ! Kidney Tubular Necrosis, Acute
-
-[Term]
-id: DOID:9306 ! mechanical strabismus
-xref: MESH:D013285 ! Strabismus
-
-[Term]
-id: DOID:6576 ! childhood optic nerve glioma
-xref: MESH:D020339 ! Optic Nerve Glioma
 
 [Term]
 id: DOID:1627 ! intraductal papilloma
@@ -2716,10 +2581,6 @@ id: DOID:10595 ! Charcot-Marie-Tooth disease
 xref: MESH:D002607 ! Charcot-Marie-Tooth Disease
 
 [Term]
-id: DOID:5264 ! epithelioid leiomyosarcoma
-xref: MESH:D007890 ! Leiomyosarcoma
-
-[Term]
 id: DOID:4645 ! retinal cancer
 xref: MESH:D019572 ! Retinal Neoplasms
 
@@ -2751,11 +2612,6 @@ xref: MESH:D020252 ! Gastric Antral Vascular Ectasia
 [Term]
 id: DOID:0060232 ! branchiootic syndrome
 xref: MESH:C537104 ! Branchiootic syndrome
-xref: MESH:D019280 ! Branchio-Oto-Renal Syndrome
-
-[Term]
-id: DOID:5940 ! malignant peripheral nerve sheath tumor
-xref: MESH:D009442 ! Neurilemmoma
 
 [Term]
 id: DOID:2217 ! Bernard-Soulier syndrome
@@ -2833,7 +2689,6 @@ xref: MESH:D005705 ! Gallbladder Diseases
 
 [Term]
 id: DOID:3491 ! Turner syndrome
-xref: MESH:D009634 ! Noonan Syndrome
 xref: MESH:D014424 ! Turner Syndrome
 
 [Term]
@@ -2911,10 +2766,6 @@ xref: MESH:C536029 ! MASA (Mental Retardation, Aphasia, Shuffling Gait, Adducted
 [Term]
 id: DOID:627 ! severe combined immunodeficiency
 xref: MESH:D016511 ! Severe Combined Immunodeficiency
-
-[Term]
-id: DOID:0060327 ! omphalocele
-xref: MESH:D006554 ! Hernia, Umbilical
 
 [Term]
 id: DOID:0050744 ! anaplastic large cell lymphoma
@@ -3077,16 +2928,11 @@ id: DOID:4189 ! mutism
 xref: MESH:D009155 ! Mutism
 
 [Term]
-id: DOID:223 ! basilar artery insufficiency
-xref: MESH:D014715 ! Vertebrobasilar Insufficiency
-
-[Term]
 id: DOID:9869 ! hereditary fructose intolerance syndrome
 xref: MESH:D005633 ! Fructose Intolerance
 
 [Term]
 id: DOID:0060273 ! pontocerebellar hypoplasia type 4
-xref: MESH:C536716 ! Young McKeever Squier syndrome
 xref: OMIM:225753 ! PONTOCEREBELLAR HYPOPLASIA, TYPE 4
 
 [Term]
@@ -3104,10 +2950,8 @@ xref: MESH:D018856 ! Cystitis, Interstitial
 
 [Term]
 id: DOID:14791 ! Leber congenital amaurosis
-xref: MESH:C536600 ! Amaurosis congenita of Leber, type 1
 xref: MESH:C567197 ! Leber Congenital Amaurosis 13
 xref: MESH:C567636 ! Leber Congenital Amaurosis 14
-xref: MESH:D029242 ! Optic Atrophy, Hereditary, Leber
 xref: MESH:D057130 ! Leber Congenital Amaurosis
 
 [Term]
@@ -3124,7 +2968,6 @@ xref: MESH:D019189 ! Iron Metabolism Disorders
 
 [Term]
 id: DOID:0050656 ! pseudo-TORCH syndrome
-xref: MESH:C535607 ! Aicardi-Goutieres syndrome
 xref: OMIM:251290 ! BAND-LIKE CALCIFICATION WITH SIMPLIFIED GYRATION AND POLYMICROGYRIA
 
 [Term]
@@ -3151,10 +2994,6 @@ xref: MESH:C562924 ! dowling-degos disease
 [Term]
 id: DOID:946 ! dientamoebiasis
 xref: MESH:D004030 ! Dientamoebiasis
-
-[Term]
-id: DOID:139 ! squamous cell papilloma
-xref: MESH:D010212 ! Papilloma
 
 [Term]
 id: DOID:11382 ! corneal neovascularization
@@ -3203,9 +3042,6 @@ xref: MESH:D008584 ! Meningitis, Listeria
 [Term]
 id: DOID:4 ! disease
 xref: MESH:C ! Diseases
-xref: MESH:C536372 ! Aniridia, type 2
-xref: MESH:D000856 ! Anorexia Nervosa
-xref: MESH:D001342 ! Autonomic Nervous System Diseases
 xref: MESH:D004194 ! Disease
 xref: MESH:D013577 ! Syndrome
 xref: MESH:D035583 ! Rare Diseases
@@ -3256,10 +3092,6 @@ id: DOID:1580 ! diffuse scleroderma
 xref: MESH:D045743 ! Scleroderma, Diffuse
 
 [Term]
-id: DOID:474 ! histiocytoid hemangioma
-xref: MESH:D006391 ! Hemangioma
-
-[Term]
 id: DOID:4659 ! extracutaneous mastocytoma
 xref: MESH:D034801 ! Mastocytoma
 
@@ -3291,10 +3123,6 @@ xref: MESH:D007009 ! Hypolipoproteinemias
 id: DOID:13628 ! glucose-6-phosphate dehydrogenase deficiency
 xref: MESH:D005236 ! Favism
 xref: MESH:D005955 ! Glucosephosphate Dehydrogenase Deficiency
-
-[Term]
-id: DOID:1142 ! alternating exotropia
-xref: MESH:D005099 ! Exotropia
 
 [Term]
 id: DOID:14289 ! Ebstein anomaly
@@ -3409,7 +3237,6 @@ xref: MESH:D012872 ! Skin Diseases, Vesiculobullous
 
 [Term]
 id: DOID:0060189 ! ileitis
-xref: MESH:D003424 ! Crohn Disease
 xref: MESH:D007079 ! Ileitis
 
 [Term]
@@ -3449,12 +3276,10 @@ xref: MESH:D065627 ! Familial Primary Pulmonary Hypertension
 [Term]
 id: DOID:10952 ! nephritis
 xref: MESH:D009393 ! Nephritis
-xref: MESH:D009394 ! Nephritis, Hereditary
 
 [Term]
 id: DOID:12118 ! brown induration
 xref: MESH:C536281 ! Idiopathic pulmonary hemosiderosis
-xref: MESH:D002095 ! Byssinosis
 
 [Term]
 id: DOID:9861 ! miliary tuberculosis
@@ -3475,10 +3300,6 @@ xref: MESH:D007160 ! Immunoproliferative Disorders
 [Term]
 id: DOID:931 ! monieziasis
 xref: MESH:D008989 ! Monieziasis
-
-[Term]
-id: DOID:0050691 ! branchiooculofacial syndrome
-xref: MESH:D019280 ! Branchio-Oto-Renal Syndrome
 
 [Term]
 id: DOID:8505 ! dermatitis herpetiformis
@@ -3589,14 +3410,6 @@ id: DOID:10488 ! imperforate anus
 xref: MESH:D001006 ! Anus, Imperforate
 
 [Term]
-id: DOID:4015 ! spindle cell carcinoma
-xref: MESH:D002277 ! Carcinoma
-
-[Term]
-id: DOID:4798 ! aggressive systemic mastocytosis
-xref: MESH:D034721 ! Mastocytosis, Systemic
-
-[Term]
 id: DOID:3893 ! hidrocystoma
 xref: MESH:D018251 ! Hidrocystoma
 
@@ -3623,10 +3436,6 @@ xref: MESH:D004674 ! Encephalitis, St. Louis
 [Term]
 id: DOID:339 ! accessory nerve disease
 xref: MESH:D020436 ! Accessory Nerve Diseases
-
-[Term]
-id: DOID:0060153 ! topographical agnosia
-xref: MESH:D000377 ! Agnosia
 
 [Term]
 id: DOID:11103 ! rickettsialpox
@@ -3731,10 +3540,6 @@ id: DOID:3892 ! insulinoma
 xref: MESH:D007340 ! Insulinoma
 
 [Term]
-id: DOID:0050673 ! mixed cerebral palsy
-xref: MESH:D002547 ! Cerebral Palsy
-
-[Term]
 id: DOID:687 ! hepatoblastoma
 xref: MESH:D018197 ! Hepatoblastoma
 
@@ -3772,12 +3577,12 @@ id: DOID:3390 ! palmoplantar keratosis
 xref: MESH:D007645 ! Keratoderma, Palmoplantar
 
 [Term]
-id: DOID:12400 ! kleptomania
-xref: MESH:D007174 ! Impulse Control Disorders
-
-[Term]
 id: DOID:10485 ! esophageal atresia
 xref: MESH:D004933 ! Esophageal Atresia
+
+[Term]
+id: DOID:12400 ! kleptomania
+xref: MESH:D007174 ! Impulse Control Disorders
 
 [Term]
 id: DOID:2282 ! hidradenitis
@@ -3816,12 +3621,12 @@ id: DOID:2920 ! membranoproliferative glomerulonephritis
 xref: MESH:D015432 ! Glomerulonephritis, Membranoproliferative
 
 [Term]
-id: DOID:12365 ! malaria
-xref: MESH:D008288 ! Malaria
-
-[Term]
 id: DOID:0050760 ! X-linked myopathy with excessive autophagy
 xref: MESH:C564093 ! Myopathy, X-Linked, with Excessive Autophagy
+
+[Term]
+id: DOID:12365 ! malaria
+xref: MESH:D008288 ! Malaria
 
 [Term]
 id: DOID:13413 ! hepatic encephalopathy
@@ -3948,7 +3753,6 @@ xref: MESH:D062625 ! Cystadenofibroma
 
 [Term]
 id: DOID:3635 ! congenital myasthenic syndrome
-xref: MESH:C536089 ! Congenital myasthenic syndrome ib
 xref: MESH:C565289 ! Myasthenia, Familial Infantile, 1
 xref: MESH:D020294 ! Myasthenic Syndromes, Congenital
 
@@ -3967,18 +3771,6 @@ xref: MESH:C535952 ! Eosinophilic enteropathy
 [Term]
 id: DOID:4551 ! anus neoplasm
 xref: MESH:D001005 ! Anus Neoplasms
-
-[Term]
-id: DOID:6811 ! juvenile pilocytic astrocytoma
-xref: MESH:D001254 ! Astrocytoma
-
-[Term]
-id: DOID:1587 ! thrombocytopenia due to platelet alloimmunization
-xref: MESH:D016553 ! Purpura, Thrombocytopenic, Idiopathic
-
-[Term]
-id: DOID:6977 ! pancreatic cholera
-xref: MESH:D003969 ! Vipoma
 
 [Term]
 id: DOID:10976 ! membranous glomerulonephritis
@@ -4007,7 +3799,6 @@ xref: MESH:C536223 ! Cushing's symphalangism
 [Term]
 id: DOID:0050125 ! dengue shock syndrome
 xref: MESH:C535601 ! Dosage-sensitive sex reversal
-xref: MESH:D015417 ! Hereditary Sensory and Motor Neuropathy
 xref: MESH:D019595 ! Severe Dengue
 
 [Term]
@@ -4016,7 +3807,6 @@ xref: MESH:D016506 ! Pemphigus, Benign Familial
 
 [Term]
 id: DOID:0050559 ! Fukuyama congenital muscular dystrophy
-xref: MESH:D058494 ! Walker-Warburg Syndrome
 xref: OMIM:253800 ! MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4
 
 [Term]
@@ -4063,12 +3853,10 @@ xref: MESH:D006395 ! Hemarthrosis
 [Term]
 id: DOID:11589 ! Riley-Day syndrome
 xref: MESH:D004402 ! Dysautonomia, Familial
-xref: MESH:D054969 ! Primary Dysautonomias
 
 [Term]
 id: DOID:585 ! nephrolithiasis
 xref: MESH:C563477 ! Nephrolithiasis, Calcium Oxalate
-xref: MESH:D007669 ! Kidney Calculi
 xref: MESH:D053040 ! Nephrolithiasis
 
 [Term]
@@ -4105,7 +3893,6 @@ xref: MESH:D014615 ! Vaccinia
 
 [Term]
 id: DOID:10584 ! retinitis pigmentosa
-xref: MESH:C537612 ! RHYNS syndrome
 xref: MESH:C538365 ! Retinitis pigmentosa 1
 xref: MESH:D012174 ! Retinitis Pigmentosa
 
@@ -4189,7 +3976,6 @@ xref: MESH:D017359 ! HELLP Syndrome
 [Term]
 id: DOID:9719 ! proliferative vitreoretinopathy
 xref: MESH:D018630 ! Vitreoretinopathy, Proliferative
-xref: OMIM:193235 ! VITREORETINOPATHY, NEOVASCULAR INFLAMMATORY
 
 [Term]
 id: DOID:3594 ! choriocarcinoma
@@ -4227,7 +4013,6 @@ xref: MESH:D007443 ! Intussusception
 
 [Term]
 id: DOID:0050597 ! intestinal schistosomiasis
-xref: MESH:D012552 ! Schistosomiasis
 xref: MESH:D012554 ! Schistosomiasis japonica
 xref: MESH:D012555 ! Schistosomiasis mansoni
 
@@ -4242,10 +4027,6 @@ xref: MESH:D001765 ! Blind Loop Syndrome
 [Term]
 id: DOID:13725 ! beriberi
 xref: MESH:D001602 ! Beriberi
-
-[Term]
-id: DOID:7213 ! transitional meningioma
-xref: MESH:D008579 ! Meningioma
 
 [Term]
 id: DOID:14213 ! hypophosphatasia
@@ -4303,7 +4084,6 @@ xref: MESH:D053549 ! Pachyonychia Congenita
 
 [Term]
 id: DOID:8712 ! neurofibromatosis
-xref: MESH:C537392 ! Neurofibromatosis, type 4, of Riccardi
 xref: MESH:D009456 ! Neurofibromatosis 1
 xref: MESH:D016518 ! Neurofibromatosis 2
 xref: MESH:D017253 ! Neurofibromatoses
@@ -4583,10 +4363,6 @@ id: DOID:0050775 ! schneckenbecken dysplasia
 xref: MESH:C536637 ! Schneckenbecken dysplasia
 
 [Term]
-id: DOID:0060152 ! time agnosia
-xref: MESH:D000377 ! Agnosia
-
-[Term]
 id: DOID:10573 ! osteomalacia
 xref: MESH:D010018 ! Osteomalacia
 
@@ -4628,13 +4404,13 @@ id: DOID:888 ! fasciolopsiasis
 xref: MESH:D014201 ! Trematode Infections
 
 [Term]
+id: DOID:0050774 ! rapadilino syndrome
+xref: MESH:C535288 ! Rapadilino syndrome
+
+[Term]
 id: DOID:0050461 ! aspartylglucosaminuria
 xref: MESH:C538402 ! Aspartylglucosamidase (AGA) deficiency
 xref: MESH:D054880 ! Aspartylglucosaminuria
-
-[Term]
-id: DOID:0050774 ! rapadilino syndrome
-xref: MESH:C535288 ! Rapadilino syndrome
 
 [Term]
 id: DOID:8466 ! retinal degeneration
@@ -4693,7 +4469,6 @@ xref: MESH:D015267 ! Churg-Strauss Syndrome
 
 [Term]
 id: DOID:0060230 ! basal ganglia calcification
-xref: MESH:C536275 ! Idiopathic basal ganglia calcification 1
 xref: MESH:C536276 ! Idiopathic basal ganglia calcification, childhood onset
 
 [Term]
@@ -4715,10 +4490,6 @@ xref: MESH:D015605 ! Cowpox
 [Term]
 id: DOID:4154 ! dentinogenesis imperfecta
 xref: MESH:D003811 ! Dentinogenesis Imperfecta
-
-[Term]
-id: DOID:0050387 ! nonpapillary renal cell carcinoma
-xref: MESH:D002292 ! Carcinoma, Renal Cell
 
 [Term]
 id: DOID:4977 ! lymphedema
@@ -4743,7 +4514,6 @@ xref: MESH:D009083 ! Mucopolysaccharidoses
 [Term]
 id: DOID:0050524 ! maturity-onset diabetes of the young
 xref: MESH:C562772 ! Mason-Type Diabetes
-xref: MESH:D003924 ! Diabetes Mellitus, Type 2
 
 [Term]
 id: DOID:6823 ! pancreatoblastoma
@@ -4804,10 +4574,6 @@ xref: MESH:D003919 ! Diabetes Insipidus
 [Term]
 id: DOID:12683 ! vestibular neuronitis
 xref: MESH:D020338 ! Vestibular Neuronitis
-
-[Term]
-id: DOID:0050668 ! alcohol-related birth defect
-xref: MESH:D063647 ! Fetal Alcohol Spectrum Disorders
 
 [Term]
 id: DOID:0050127 ! sinusitis
@@ -4925,17 +4691,12 @@ id: DOID:5032 ! pineal gland cancer
 xref: MESH:D010871 ! Pinealoma
 
 [Term]
-id: DOID:4451 ! renal carcinoma
-xref: MESH:C536851 ! Familial renal cell carcinoma
-
-[Term]
 id: DOID:0050713 ! fatal infantile encephalocardiomyopathy
 xref: MESH:C565784 ! Cardioencephalomyopathy, Fatal Infantile, due to Cytochrome C Oxidase Deficiency
 
 [Term]
 id: DOID:84 ! osteochondritis dissecans
 xref: MESH:C580095 ! Familial Osteochondritis Dissecans
-xref: MESH:D009771 ! Obsessive-Compulsive Disorder
 xref: MESH:D010008 ! Osteochondritis Dissecans
 
 [Term]
@@ -5048,7 +4809,6 @@ xref: MESH:D003389 ! Cranial Nerve Diseases
 id: DOID:13382 ! megaloblastic anemia
 xref: MESH:C538556 ! Imerslund-Grasbeck syndrome
 xref: MESH:D000749 ! Anemia, Megaloblastic
-xref: OMIM:261100 ! MEGALOBLASTIC ANEMIA 1
 
 [Term]
 id: DOID:14286 ! neurogenic arthropathy
@@ -5080,7 +4840,6 @@ xref: MESH:C537592 ! Neutropenia, Severe Congenital, Autosomal Recessive 3
 
 [Term]
 id: DOID:1468 ! labyrinthitis
-xref: MESH:D007759 ! Labyrinth Diseases
 xref: MESH:D007762 ! Labyrinthitis
 
 [Term]
@@ -5234,10 +4993,6 @@ id: DOID:8616 ! Peyronie's disease
 xref: MESH:D010411 ! Penile Induration
 
 [Term]
-id: DOID:3869 ! childhood medulloblastoma
-xref: MESH:D008527 ! Medulloblastoma
-
-[Term]
 id: DOID:7004 ! ACTH-secreting pituitary adenoma
 xref: MESH:D049913 ! ACTH-Secreting Pituitary Adenoma
 
@@ -5250,16 +5005,8 @@ id: DOID:0050152 ! aspiration pneumonia
 xref: MESH:D011015 ! Pneumonia, Aspiration
 
 [Term]
-id: DOID:12522 ! bagassosis
-xref: MESH:D011009 ! Pneumoconiosis
-
-[Term]
 id: DOID:14737 ! craniofrontonasal syndrome
 xref: MESH:C536456 ! Craniofrontonasal dysplasia
-
-[Term]
-id: DOID:7210 ! psammomatous meningioma
-xref: MESH:D008579 ! Meningioma
 
 [Term]
 id: DOID:0050450 ! Gitelman syndrome
@@ -5267,7 +5014,6 @@ xref: MESH:D053579 ! Gitelman Syndrome
 
 [Term]
 id: DOID:9279 ! hyperhomocysteinemia
-xref: MESH:C566403 ! Homocysteinemia
 xref: MESH:D020138 ! Hyperhomocysteinemia
 
 [Term]
@@ -5277,10 +5023,6 @@ xref: MESH:D058249 ! Birt-Hogg-Dube Syndrome
 [Term]
 id: DOID:5746 ! ovarian serous cystadenocarcinoma
 xref: MESH:D018293 ! Cystadenoma, Serous
-
-[Term]
-id: DOID:0050575 ! D-2-hydroxyglutaric aciduria
-xref: MESH:C535306 ! 2-Hydroxyglutaricaciduria
 
 [Term]
 id: DOID:5875 ! retroperitoneal cancer
@@ -5466,12 +5208,12 @@ id: DOID:9600 ! plantar fasciitis
 xref: MESH:D036981 ! Fasciitis, Plantar
 
 [Term]
-id: DOID:12528 ! lesion of sciatic nerve
-xref: MESH:D020426 ! Sciatic Neuropathy
-
-[Term]
 id: DOID:10457 ! Legionnaires' disease
 xref: MESH:D007877 ! Legionnaires' Disease
+
+[Term]
+id: DOID:12528 ! lesion of sciatic nerve
+xref: MESH:D020426 ! Sciatic Neuropathy
 
 [Term]
 id: DOID:9840 ! esotropia
@@ -5677,7 +5419,6 @@ xref: MESH:C563977 ! Venous Malformations, Multiple Cutaneous and Mucosal
 
 [Term]
 id: DOID:13515 ! tuberous sclerosis
-xref: MESH:C565346 ! Tuberous Sclerosis 1
 xref: MESH:D014402 ! Tuberous Sclerosis
 
 [Term]
@@ -5692,7 +5433,6 @@ xref: MESH:D005235 ! Fatty Liver, Alcoholic
 [Term]
 id: DOID:5082 ! liver cirrhosis
 xref: MESH:C566123 ! Cirrhosis, Familial
-xref: MESH:D005355 ! Fibrosis
 xref: MESH:D008103 ! Liver Cirrhosis
 
 [Term]
@@ -5715,10 +5455,6 @@ xref: MESH:D007027 ! Hypothalamic Diseases
 [Term]
 id: DOID:0050777 ! Joubert syndrome
 xref: MESH:C536293 ! Joubert syndrome 1
-
-[Term]
-id: DOID:468 ! intramuscular hemangioma
-xref: MESH:D006391 ! Hemangioma
 
 [Term]
 id: DOID:10864 ! partial third-nerve palsy
@@ -5755,10 +5491,6 @@ xref: MESH:D019959 ! Feeding and Eating Disorders of Childhood
 [Term]
 id: DOID:11383 ! cryptorchidism
 xref: MESH:D003456 ! Cryptorchidism
-
-[Term]
-id: DOID:1138 ! spinal meningioma
-xref: MESH:D008579 ! Meningioma
 
 [Term]
 id: DOID:4196 ! femoral neuropathy
@@ -5826,7 +5558,6 @@ xref: MESH:D012811 ! Sigmoid Neoplasms
 
 [Term]
 id: DOID:3261 ! Job's syndrome
-xref: MESH:C567925 ! Hyper-Ige Recurrent Infection Syndrome, Autosomal Dominant
 xref: MESH:D007589 ! Job Syndrome
 
 [Term]
@@ -5870,10 +5601,6 @@ xref: MESH:D015179 ! Colorectal Neoplasms
 [Term]
 id: DOID:5075 ! myxopapillary ependymoma
 xref: MESH:D004806 ! Ependymoma
-
-[Term]
-id: DOID:3846 ! adamantinous craniopharyngioma
-xref: MESH:D003397 ! Craniopharyngioma
 
 [Term]
 id: DOID:0050419 ! complement factor I deficiency
@@ -5933,8 +5660,6 @@ xref: MESH:D007673 ! Kidney Cortex Necrosis
 [Term]
 id: DOID:0050646 ! distal arthrogryposis
 xref: MESH:C535483 ! Freeman-Sheldon syndrome
-xref: MESH:C538400 ! Distal arthrogryposis type 2B
-xref: MESH:D001176 ! Arthrogryposis
 
 [Term]
 id: DOID:1214 ! tympanosclerosis
@@ -6015,10 +5740,6 @@ id: DOID:0060326 ! myelomeningocele
 xref: MESH:D008591 ! Meningomyelocele
 
 [Term]
-id: DOID:683 ! motor neuritis
-xref: MESH:D009443 ! Neuritis
-
-[Term]
 id: DOID:3044 ! food allergy
 xref: MESH:D005512 ! Food Hypersensitivity
 
@@ -6037,7 +5758,6 @@ xref: MESH:D013160 ! Splenic Neoplasms
 [Term]
 id: DOID:12252 ! Cushing's syndrome
 xref: MESH:D003480 ! Cushing Syndrome
-xref: MESH:D047748 ! Pituitary ACTH Hypersecretion
 
 [Term]
 id: DOID:3159 ! photosensitivity disease
@@ -6115,10 +5835,6 @@ xref: MESH:D020195 ! Epilepsy, Reflex
 xref: OMIM:132100 ! PHOTOPAROXYSMAL RESPONSE 1
 
 [Term]
-id: DOID:7996 ! familial glomangioma
-xref: MESH:D005918 ! Glomus Tumor
-
-[Term]
 id: DOID:4131 ! erythrasma
 xref: MESH:D004894 ! Erythrasma
 
@@ -6147,10 +5863,6 @@ id: DOID:11446 ! sciatic neuropathy
 xref: MESH:D020426 ! Sciatic Neuropathy
 
 [Term]
-id: DOID:6869 ! parasagittal meningioma
-xref: MESH:D008579 ! Meningioma
-
-[Term]
 id: DOID:3906 ! bronchial neoplasm
 xref: MESH:D001984 ! Bronchial Neoplasms
 
@@ -6174,10 +5886,6 @@ xref: MESH:D017484 ! Dermatitis, Phototoxic
 [Term]
 id: DOID:10323 ! byssinosis
 xref: MESH:D002095 ! Byssinosis
-
-[Term]
-id: DOID:4851 ! pilocytic astrocytoma
-xref: MESH:D001254 ! Astrocytoma
 
 [Term]
 id: DOID:12704 ! ataxia telangiectasia
@@ -6244,12 +5952,10 @@ xref: MESH:D018804 ! Hantavirus Pulmonary Syndrome
 [Term]
 id: DOID:11712 ! lipoatrophic diabetes
 xref: MESH:D003923 ! Diabetes Mellitus, Lipoatrophic
-xref: MESH:D052496 ! Lipodystrophy, Familial Partial
 
 [Term]
 id: DOID:14705 ! Pfeiffer syndrome
 xref: MESH:C538582 ! Pfeiffer type acrocephalosyndactyly
-xref: MESH:D000168 ! Acrocephalosyndactylia
 
 [Term]
 id: DOID:11502 ! mitral valve insufficiency
@@ -6321,7 +6027,6 @@ xref: MESH:D053632 ! X-Linked Combined Immunodeficiency Diseases
 [Term]
 id: DOID:14330 ! Parkinson's disease
 xref: MESH:D010300 ! Parkinson Disease
-xref: MESH:D020734 ! Parkinsonian Disorders
 
 [Term]
 id: DOID:0060282 ! persistent hyperplastic primary vitreous
@@ -6356,10 +6061,6 @@ xref: MESH:D001248 ! Asthenopia
 [Term]
 id: DOID:11714 ! gestational diabetes
 xref: MESH:D016640 ! Diabetes, Gestational
-
-[Term]
-id: DOID:318 ! progressive muscular atrophy
-xref: MESH:D009134 ! Muscular Atrophy, Spinal
 
 [Term]
 id: DOID:4885 ! Colorado tick fever
@@ -6444,7 +6145,6 @@ xref: MESH:D054559 ! Hyperphosphatemia
 
 [Term]
 id: DOID:8432 ! polycythemia
-xref: MESH:C536842 ! Polycythemia, primary familial and congenital
 xref: MESH:D011086 ! Polycythemia
 
 [Term]
@@ -6455,7 +6155,6 @@ xref: MESH:C535536 ! Iridogoniodysgenesis, dominant type
 [Term]
 id: DOID:14452 ! hypokalemic periodic paralysis
 xref: MESH:D020514 ! Hypokalemic Periodic Paralysis
-xref: OMIM:170400 ! HYPOKALEMIC PERIODIC PARALYSIS, TYPE 1
 
 [Term]
 id: DOID:0050681 ! Borjeson-Forssman-Lehmann syndrome
@@ -6468,10 +6167,6 @@ xref: MESH:D010282 ! Parathyroid Neoplasms
 [Term]
 id: DOID:2596 ! larynx cancer
 xref: MESH:D007822 ! Laryngeal Neoplasms
-
-[Term]
-id: DOID:172 ! clear cell acanthoma
-xref: MESH:D049309 ! Acanthoma
 
 [Term]
 id: DOID:8858 ! tonsil cancer
@@ -6490,7 +6185,6 @@ xref: MESH:D052456 ! Hypoalphalipoproteinemias
 [Term]
 id: DOID:3345 ! xanthomatosis
 xref: MESH:D014973 ! Xanthomatosis
-xref: MESH:D015223 ! Wolman Disease
 
 [Term]
 id: DOID:0050649 ! atransferrinemia
@@ -6511,10 +6205,6 @@ xref: MESH:D038901 ! Mental Retardation, X-Linked
 [Term]
 id: DOID:9650 ! pathologic nystagmus
 xref: MESH:D009759 ! Nystagmus, Pathologic
-
-[Term]
-id: DOID:2660 ! cystic teratoma
-xref: MESH:D013724 ! Teratoma
 
 [Term]
 id: DOID:2368 ! gangliosidosis
@@ -6578,20 +6268,12 @@ id: DOID:3401 ! inappropriate ADH syndrome
 xref: MESH:D007177 ! Inappropriate ADH Syndrome
 
 [Term]
-id: DOID:14768 ! Saethre-Chotzen syndrome
-xref: MESH:D000168 ! Acrocephalosyndactylia
-
-[Term]
 id: DOID:14482 ! herpes gestationis
 xref: MESH:D006559 ! Pemphigoid Gestationis
 
 [Term]
 id: DOID:12134 ! factor VIII deficiency
 xref: MESH:D006467 ! Hemophilia A
-
-[Term]
-id: DOID:6204 ! follicular adenoma
-xref: MESH:D000236 ! Adenoma
 
 [Term]
 id: DOID:540 ! strabismus
@@ -6607,7 +6289,6 @@ xref: MESH:C562584 ! Xanthinuria, Type I
 
 [Term]
 id: DOID:718 ! autoimmune hemolytic anemia
-xref: MESH:C538437 ! Immuno-hemolytic anemia
 xref: MESH:D000744 ! Anemia, Hemolytic, Autoimmune
 
 [Term]
@@ -6709,10 +6390,6 @@ id: DOID:10986 ! discitis
 xref: MESH:D015299 ! Discitis
 
 [Term]
-id: DOID:3133 ! acute porphyria
-xref: MESH:D017118 ! Porphyria, Acute Intermittent
-
-[Term]
 id: DOID:0060021 ! DNA ligase IV deficiency
 xref: MESH:C564694 ! LIG4 Syndrome
 
@@ -6720,7 +6397,6 @@ xref: MESH:C564694 ! LIG4 Syndrome
 id: DOID:1731 ! histoplasmosis
 xref: MESH:C538362 ! Reticuloendotheliosis, X-linked
 xref: MESH:D006660 ! Histoplasmosis
-xref: MESH:D016511 ! Severe Combined Immunodeficiency
 
 [Term]
 id: DOID:0050480 ! epidemic typhus
@@ -6939,7 +6615,6 @@ xref: MESH:C537622 ! Guanidinoacetate methyltransferase deficiency
 
 [Term]
 id: DOID:13099 ! Moyamoya disease
-xref: MESH:C536991 ! Moyamoya disease 1
 xref: MESH:D009072 ! Moyamoya Disease
 
 [Term]
@@ -7018,16 +6693,12 @@ id: DOID:2253 ! cervix disease
 xref: MESH:D002577 ! Uterine Cervical Diseases
 
 [Term]
-id: DOID:0050669 ! spastic cerebral palsy
-xref: MESH:D002547 ! Cerebral Palsy
+id: DOID:11720 ! distal muscular dystrophy
+xref: MESH:D049310 ! Distal Myopathies
 
 [Term]
 id: DOID:3277 ! thymus cancer
 xref: MESH:D013953 ! Thymus Neoplasms
-
-[Term]
-id: DOID:11720 ! distal muscular dystrophy
-xref: MESH:D049310 ! Distal Myopathies
 
 [Term]
 id: DOID:670 ! amphetamine abuse
@@ -7092,7 +6763,6 @@ xref: MESH:C563195 ! Chondrosarcoma, Extraskeletal Myxoid
 [Term]
 id: DOID:5411 ! lung oat cell carcinoma
 xref: MESH:D018288 ! Carcinoma, Small Cell
-xref: MESH:D055752 ! Small Cell Lung Carcinoma
 
 [Term]
 id: DOID:302 ! substance abuse
@@ -7115,21 +6785,17 @@ id: DOID:14669 ! acrodysostosis
 xref: MESH:C538179 ! Acrodysostosis
 
 [Term]
-id: DOID:4540 ! dysgraphia
-xref: MESH:D000381 ! Agraphia
-
-[Term]
 id: DOID:1089 ! tethered spinal cord syndrome
 xref: MESH:D009436 ! Neural Tube Defects
 xref: MESH:D016135 ! Spinal Dysraphism
 
 [Term]
-id: DOID:3322 ! gangliosidosis GM1
-xref: MESH:D016537 ! Gangliosidosis, GM1
-
-[Term]
 id: DOID:0060068 ! marantic endocarditis
 xref: MESH:D059905 ! Endocarditis, Non-Infective
+
+[Term]
+id: DOID:3322 ! gangliosidosis GM1
+xref: MESH:D016537 ! Gangliosidosis, GM1
 
 [Term]
 id: DOID:7765 ! Coats disease
@@ -7253,10 +6919,6 @@ id: DOID:0080016 ! spina bifida
 xref: MESH:D016135 ! Spinal Dysraphism
 
 [Term]
-id: DOID:9673 ! ulcerative stomatitis
-xref: MESH:D005892 ! Gingivitis, Necrotizing Ulcerative
-
-[Term]
 id: DOID:7305 ! astroblastoma
 xref: MESH:D018302 ! Neoplasms, Neuroepithelial
 
@@ -7283,7 +6945,6 @@ xref: MESH:C538103 ! Palindromic rheumatism
 [Term]
 id: DOID:14221 ! metabolic syndrome X
 xref: MESH:C535554 ! Abdominal obesity metabolic syndrome
-xref: MESH:D008659 ! Metabolic Diseases
 xref: MESH:D024821 ! Metabolic Syndrome X
 
 [Term]
@@ -7313,10 +6974,6 @@ xref: MESH:D011115 ! Polyneuropathies
 [Term]
 id: DOID:0050841 ! focal hand dystonia
 xref: MESH:C566973 ! Dystonia, Focal, Task-Specific
-
-[Term]
-id: DOID:11603 ! infant gynecomastia
-xref: MESH:D006177 ! Gynecomastia
 
 [Term]
 id: DOID:2490 ! congenital nervous system abnormality
@@ -7530,16 +7187,12 @@ id: DOID:11257 ! social phobia
 xref: MESH:D010698 ! Phobic Disorders
 
 [Term]
-id: DOID:277 ! chorioangioma
-xref: MESH:D006391 ! Hemangioma
+id: DOID:0050569 ! Seckel syndrome
+xref: MESH:C537533 ! Seckel syndrome 1
 
 [Term]
 id: DOID:345 ! uterine disease
 xref: MESH:D014591 ! Uterine Diseases
-
-[Term]
-id: DOID:0050569 ! Seckel syndrome
-xref: MESH:C537533 ! Seckel syndrome 1
 
 [Term]
 id: DOID:9513 ! plasmacytic leukemia
@@ -7556,7 +7209,6 @@ xref: MESH:D004827 ! Epilepsy
 [Term]
 id: DOID:10970 ! spastic quadriplegia
 xref: MESH:D002547 ! Cerebral Palsy
-xref: MESH:D011782 ! Quadriplegia
 
 [Term]
 id: DOID:14670 ! hypertelorism, microtia, facial clefting syndrome
@@ -7601,10 +7253,6 @@ id: DOID:14175 ! von Hippel-Lindau disease
 xref: MESH:D006623 ! von Hippel-Lindau Disease
 
 [Term]
-id: DOID:0060141 ! finger agnosia
-xref: MESH:D000377 ! Agnosia
-
-[Term]
 id: DOID:11155 ! hypohidrosis
 xref: MESH:D007007 ! Hypohidrosis
 
@@ -7641,10 +7289,6 @@ id: DOID:1770 ! toxic megacolon
 xref: MESH:D008532 ! Megacolon, Toxic
 
 [Term]
-id: DOID:13365 ! reading disorder
-xref: MESH:D004410 ! Dyslexia
-
-[Term]
 id: DOID:2710 ! sick building syndrome
 xref: MESH:D018877 ! Sick Building Syndrome
 
@@ -7659,7 +7303,6 @@ xref: MESH:D000381 ! Agraphia
 [Term]
 id: DOID:11569 ! neurocirculatory asthenia
 xref: MESH:D009449 ! Neurocirculatory Asthenia
-xref: MESH:D054971 ! Orthostatic Intolerance
 
 [Term]
 id: DOID:0060303 ! complement component 9 deficiency
@@ -7724,10 +7367,6 @@ xref: MESH:D020343 ! Hypertensive Encephalopathy
 [Term]
 id: DOID:0060044 ! paraphilia disorder
 xref: MESH:D010262 ! Paraphilias
-
-[Term]
-id: DOID:9837 ! hypertropia
-xref: MESH:D013285 ! Strabismus
 
 [Term]
 id: DOID:11234 ! orbital cellulitis
@@ -7886,10 +7525,6 @@ id: DOID:0060022 ! CD40 ligand deficiency
 xref: MESH:D053307 ! Hyper-IgM Immunodeficiency Syndrome, Type 1
 
 [Term]
-id: DOID:0060128 ! mu chain disease
-xref: MESH:D006362 ! Heavy Chain Disease
-
-[Term]
 id: DOID:1456 ! glossitis
 xref: MESH:D005928 ! Glossitis
 
@@ -7905,7 +7540,6 @@ xref: MESH:D012595 ! Scleroderma, Systemic
 [Term]
 id: DOID:8478 ! actinomycosis
 xref: MESH:D000196 ! Actinomycosis
-xref: MESH:D005667 ! Furunculosis
 
 [Term]
 id: DOID:4072 ! duodenal disease
@@ -7970,10 +7604,6 @@ id: DOID:4702 ! mongolian spot
 xref: MESH:D049328 ! Mongolian Spot
 
 [Term]
-id: DOID:13664 ! post-vaccinal encephalitis
-xref: MESH:D004673 ! Encephalomyelitis, Acute Disseminated
-
-[Term]
 id: DOID:13089 ! intracranial arterial disease
 xref: MESH:D020765 ! Intracranial Arterial Diseases
 
@@ -7992,10 +7622,6 @@ xref: MESH:D003882 ! Dermatomyositis
 [Term]
 id: DOID:12568 ! dyscalculia
 xref: MESH:D060705 ! Dyscalculia
-
-[Term]
-id: DOID:0050200 ! Korean hemorrhagic fever
-xref: MESH:D006480 ! Hemorrhagic Fever with Renal Syndrome
 
 [Term]
 id: DOID:2855 ! hyperthyroxinemia
@@ -8117,10 +7743,6 @@ id: DOID:1757 ! facial hemiatrophy
 xref: MESH:D005150 ! Facial Hemiatrophy
 
 [Term]
-id: DOID:13098 ! central retinal artery occlusion
-xref: MESH:D015356 ! Retinal Artery Occlusion
-
-[Term]
 id: DOID:175 ! vascular cancer
 xref: MESH:D009383 ! Neoplasms, Vascular Tissue
 
@@ -8209,7 +7831,6 @@ xref: MESH:C536774 ! Syphilis, tertiary
 
 [Term]
 id: DOID:3627 ! aortic aneurysm
-xref: MESH:C562834 ! Aortic Aneurysm, Familial Thoracic 1
 xref: MESH:D001014 ! Aortic Aneurysm
 xref: MESH:D001019 ! Aortic Rupture
 
@@ -8249,7 +7870,6 @@ xref: MESH:D002780 ! Cholestasis, Intrahepatic
 
 [Term]
 id: DOID:9210 ! geniculate herpes zoster
-xref: MESH:C535287 ! Hunt's syndrome
 xref: MESH:D016697 ! Herpes Zoster Oticus
 
 [Term]
@@ -8325,14 +7945,6 @@ id: DOID:12859 ! choreatic disease
 xref: MESH:D002819 ! Chorea
 
 [Term]
-id: DOID:11853 ! monocular exotropia
-xref: MESH:D005099 ! Exotropia
-
-[Term]
-id: DOID:778 ! delusional disorder
-xref: MESH:D012563 ! Schizophrenia, Paranoid
-
-[Term]
 id: DOID:0060331 ! mitochondrial complex V (ATP synthase) deficiency nuclear type 2
 xref: MESH:C567528 ! Encephalocardiomyopathy, Mitochondrial, Neonatal, Due To Atp Synthase Deficiency
 
@@ -8404,7 +8016,6 @@ xref: MESH:D020269 ! Alcoholic Neuropathy
 [Term]
 id: DOID:891 ! progressive myoclonus epilepsy
 xref: MESH:D020191 ! Myoclonic Epilepsies, Progressive
-xref: MESH:D020194 ! Unverricht-Lundborg Syndrome
 
 [Term]
 id: DOID:3309 ! neurodermatitis
@@ -8421,7 +8032,6 @@ xref: MESH:D006936 ! Hypercementosis
 [Term]
 id: DOID:13095 ! vertebral artery insufficiency
 xref: MESH:C538664 ! PICA syndrome
-xref: MESH:D014715 ! Vertebrobasilar Insufficiency
 
 [Term]
 id: DOID:3021 ! acute kidney failure
@@ -8436,17 +8046,9 @@ id: DOID:730 ! urethral benign neoplasm
 xref: MESH:D014523 ! Urethral Neoplasms
 
 [Term]
-id: DOID:2436 ! glomangioma
-xref: MESH:D005918 ! Glomus Tumor
-
-[Term]
 id: DOID:2326 ! gastroenteritis
 xref: MESH:D005759 ! Gastroenteritis
 xref: MESH:D017688 ! Cholera Morbus
-
-[Term]
-id: DOID:7008 ! protoplasmic astrocytoma
-xref: MESH:D001254 ! Astrocytoma
 
 [Term]
 id: DOID:643 ! progressive multifocal leukoencephalopathy
@@ -8491,7 +8093,6 @@ xref: MESH:D001072 ! Apraxias
 
 [Term]
 id: DOID:0050434 ! Andersen-Tawil syndrome
-xref: MESH:D006011 ! Glycogen Storage Disease Type IV
 xref: MESH:D050030 ! Andersen Syndrome
 
 [Term]
@@ -8524,11 +8125,6 @@ xref: MESH:D019568 ! Lung, Hyperlucent
 
 [Term]
 id: DOID:12689 ! acoustic neuroma
-xref: MESH:D009464 ! Neuroma, Acoustic
-xref: MESH:D016518 ! Neurofibromatosis 2
-
-[Term]
-id: DOID:3200 ! cerebellopontine angle tumor
 xref: MESH:D009464 ! Neuroma, Acoustic
 
 [Term]
@@ -8570,7 +8166,6 @@ xref: MESH:D007012 ! Hypopharyngeal Neoplasms
 [Term]
 id: DOID:12306 ! vitiligo
 xref: MESH:D014820 ! Vitiligo
-xref: OMIM:606579 ! VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1
 
 [Term]
 id: DOID:0060268 ! pontocerebellar hypoplasia type 2B
@@ -8682,9 +8277,6 @@ xref: MESH:D014929 ! Wolfram Syndrome
 [Term]
 id: DOID:3429 ! inclusion body myositis
 xref: MESH:C536816 ! Distal myopathy, Nonaka type
-xref: MESH:C538329 ! Inclusion body myopathy autosomal recessive
-xref: MESH:C538330 ! Inclusion body myopathy, autosomal dominant
-xref: MESH:C565311 ! Inclusion Body Myopathy 3, Autosomal Dominant
 xref: MESH:D018979 ! Myositis, Inclusion Body
 
 [Term]
@@ -8696,17 +8288,9 @@ id: DOID:14755 ! argininosuccinic aciduria
 xref: MESH:D056807 ! Argininosuccinic Aciduria
 
 [Term]
-id: DOID:4873 ! anterior horn cell disease
-xref: MESH:D016472 ! Motor Neuron Disease
-
-[Term]
 id: DOID:0050548 ! hereditary sensory neuropathy
 xref: MESH:D000699 ! Pain Insensitivity, Congenital
 xref: MESH:D009477 ! Hereditary Sensory and Autonomic Neuropathies
-
-[Term]
-id: DOID:12328 ! marasmus
-xref: MESH:D011502 ! Protein-Energy Malnutrition
 
 [Term]
 id: DOID:8057 ! olfactory groove meningioma
@@ -8723,7 +8307,6 @@ xref: MESH:C580383 ! Pontocerebellar Hypoplasia
 [Term]
 id: DOID:1799 ! islet cell tumor
 xref: MESH:C531777 ! Islet cell tumor syndrome
-xref: MESH:D007516 ! Adenoma, Islet Cell
 
 [Term]
 id: DOID:13543 ! hyperparathyroidism
@@ -8744,7 +8327,6 @@ xref: MESH:C536290 ! Immunoglobulin a deficiency 1
 
 [Term]
 id: DOID:10526 ! conjunctival pterygium
-xref: MESH:C537377 ! Multiple pterygium syndrome
 xref: MESH:D011625 ! Pterygium
 
 [Term]
@@ -8790,8 +8372,6 @@ xref: MESH:D013036 ! Spasms, Infantile
 
 [Term]
 id: DOID:0060161 ! Kennedy's disease
-xref: MESH:C537017 ! Bulbospinal neuronopathy, X-linked recessive
-xref: MESH:D020966 ! Muscular Disorders, Atrophic
 xref: MESH:D055534 ! Bulbo-Spinal Atrophy, X-Linked
 
 [Term]
@@ -8821,7 +8401,6 @@ xref: MESH:D008579 ! Meningioma
 [Term]
 id: DOID:1612 ! breast cancer
 xref: MESH:C562840 ! Breast Cancer, Familial
-xref: MESH:D001943 ! Breast Neoplasms
 
 [Term]
 id: DOID:12526 ! tarsal tunnel syndrome
@@ -8848,22 +8427,18 @@ id: DOID:0050753 ! cerebellar ataxia
 xref: MESH:D002524 ! Cerebellar Ataxia
 
 [Term]
-id: DOID:14756 ! autosomal dominant type IV Ehlers-Danlos syndrome
-xref: MESH:D004535 ! Ehlers-Danlos Syndrome
-
-[Term]
 id: DOID:4962 ! pericardial tuberculosis
 xref: MESH:D010495 ! Pericarditis, Tuberculous
-
-[Term]
-id: DOID:3315 ! lipoma
-xref: MESH:D008067 ! Lipoma
-xref: OMIM:151900 ! LIPOMATOSIS, MULTIPLE
 
 [Term]
 id: DOID:14766 ! renal agenesis
 xref: MESH:C536482 ! Hereditary renal agenesis
 xref: MESH:C563261 ! Renal Adysplasia
+
+[Term]
+id: DOID:3315 ! lipoma
+xref: MESH:D008067 ! Lipoma
+xref: OMIM:151900 ! LIPOMATOSIS, MULTIPLE
 
 [Term]
 id: DOID:10155 ! intestinal cancer
@@ -8914,10 +8489,6 @@ xref: MESH:D012851 ! Sinus Thrombosis, Intracranial
 [Term]
 id: DOID:13911 ! achromatopsia
 xref: MESH:D003117 ! Color Vision Defects
-
-[Term]
-id: DOID:8442 ! paralytic ileus
-xref: MESH:D007418 ! Intestinal Pseudo-Obstruction
 
 [Term]
 id: DOID:0050654 ! Baller-Gerold syndrome
@@ -9001,9 +8572,7 @@ xref: MESH:D007766 ! Lacrimal Apparatus Diseases
 
 [Term]
 id: DOID:6846 ! familial melanoma
-xref: MESH:C562393 ! Melanoma, Cutaneous Malignant
 xref: MESH:D008545 ! Melanoma
-xref: OMIM:155600 ! MELANOMA, CUTANEOUS MALIGNANT, SUSCEPTIBILITY TO, 1
 
 [Term]
 id: DOID:3204 ! neurilemmomatosis
@@ -9026,10 +8595,6 @@ id: DOID:4371 ! Schnitzler syndrome
 xref: MESH:D019873 ! Schnitzler Syndrome
 
 [Term]
-id: DOID:4282 ! pigmented basal cell carcinoma
-xref: MESH:D002280 ! Carcinoma, Basal Cell
-
-[Term]
 id: DOID:12119 ! hemosiderosis
 xref: MESH:D006486 ! Hemosiderosis
 
@@ -9047,7 +8612,6 @@ xref: MESH:D058499 ! Retinal Dystrophies
 
 [Term]
 id: DOID:12895 ! keratoconjunctivitis sicca
-xref: MESH:C537021 ! Kenny-Caffey syndrome, Type 1
 xref: MESH:D007638 ! Keratoconjunctivitis Sicca
 
 [Term]
@@ -9106,10 +8670,8 @@ xref: MESH:D007027 ! Hypothalamic Diseases
 [Term]
 id: DOID:630 ! genetic disease
 xref: MESH:C536372 ! Aniridia, type 2
-xref: MESH:D000856 ! Anorexia Nervosa
 xref: MESH:D004194 ! Disease
 xref: MESH:D013577 ! Syndrome
-xref: MESH:D035583 ! Rare Diseases
 
 [Term]
 id: DOID:13810 ! familial hypercholesterolemia
@@ -9170,7 +8732,6 @@ xref: MESH:D006689 ! Hodgkin Disease
 [Term]
 id: DOID:0060010 ! Omenn syndrome
 xref: MESH:C538564 ! Reticuloendotheliosis, familial, with eosinophilia
-xref: MESH:D016511 ! Severe Combined Immunodeficiency
 
 [Term]
 id: DOID:14227 ! azoospermia
@@ -9203,10 +8764,6 @@ xref: MESH:D004806 ! Ependymoma
 [Term]
 id: DOID:3388 ! periodontal disease
 xref: MESH:D010510 ! Periodontal Diseases
-
-[Term]
-id: DOID:14202 ! adult dermatomyositis
-xref: MESH:D003882 ! Dermatomyositis
 
 [Term]
 id: DOID:11836 ! clubfoot
@@ -9301,12 +8858,12 @@ id: DOID:401 ! multidrug-resistant tuberculosis
 xref: MESH:D018088 ! Tuberculosis, Multidrug-Resistant
 
 [Term]
-id: DOID:0050477 ! Liddle syndrome
-xref: MESH:D056929 ! Liddle Syndrome
-
-[Term]
 id: DOID:0080019 ! metaphyseal dysplasia
 xref: MESH:C536252 ! Pyle disease
+
+[Term]
+id: DOID:0050477 ! Liddle syndrome
+xref: MESH:D056929 ! Liddle Syndrome
 
 [Term]
 id: DOID:5050 ! ehrlich tumor carcinoma
@@ -9328,10 +8885,6 @@ xref: MESH:D000437 ! Alcoholism
 id: DOID:0080026 ! otospondylomegaepiphyseal dysplasia
 xref: MESH:C536140 ! Megaepiphyseal dwarfism
 xref: OMIM:215150 ! OTOSPONDYLOMEGAEPIPHYSEAL DYSPLASIA
-
-[Term]
-id: DOID:11482 ! hemopericardium
-xref: MESH:D010490 ! Pericardial Effusion
 
 [Term]
 id: DOID:3764 ! Denys-Drash syndrome
@@ -9374,10 +8927,6 @@ id: DOID:0060292 ! X-linked chondrodysplasia punctata
 xref: MESH:D002806 ! Chondrodysplasia Punctata
 
 [Term]
-id: DOID:0050353 ! wound botulism
-xref: MESH:D001906 ! Botulism
-
-[Term]
 id: DOID:680 ! tauopathy
 xref: MESH:D024801 ! Tauopathies
 
@@ -9410,10 +8959,6 @@ xref: MESH:D006995 ! Hypobetalipoproteinemias
 [Term]
 id: DOID:162 ! cancer
 xref: MESH:D009369 ! Neoplasms
-
-[Term]
-id: DOID:6193 ! epithelioid sarcoma
-xref: MESH:D012509 ! Sarcoma
 
 [Term]
 id: DOID:5500 ! cellular ependymoma
@@ -9473,7 +9018,6 @@ xref: MESH:D020162 ! Hyperargininemia
 
 [Term]
 id: DOID:1909 ! melanoma
-xref: MESH:C562393 ! Melanoma, Cutaneous Malignant
 xref: MESH:D008545 ! Melanoma
 xref: OMIM:155600 ! MELANOMA, CUTANEOUS MALIGNANT, SUSCEPTIBILITY TO, 1
 
@@ -9511,7 +9055,6 @@ xref: MESH:C567145 ! Anemia, Sideroblastic, Pyridoxine-Refractory, Autosomal Rec
 
 [Term]
 id: DOID:0050776 ! non-syndromic X-linked intellectual disability
-xref: MESH:C538195 ! Atkin syndrome
 xref: MESH:C567470 ! Mental Retardation, X-Linked 95
 
 [Term]
@@ -9520,7 +9063,6 @@ xref: MESH:D005199 ! Fanconi Anemia
 
 [Term]
 id: DOID:9268 ! glycine encephalopathy
-xref: MESH:C535767 ! D-glycericacidemia
 xref: MESH:D020158 ! Hyperglycinemia, Nonketotic
 
 [Term]
@@ -9594,10 +9136,6 @@ xref: MESH:D042101 ! Acalculous Cholecystitis
 [Term]
 id: DOID:1911 ! endodermal sinus tumor
 xref: MESH:D018240 ! Endodermal Sinus Tumor
-
-[Term]
-id: DOID:4394 ! reticulohistiocytic granuloma
-xref: MESH:D015616 ! Histiocytosis, Non-Langerhans-Cell
 
 [Term]
 id: DOID:898 ! polycystic kidney disease
@@ -9710,10 +9248,6 @@ id: DOID:14693 ! Clouston syndrome
 xref: MESH:D004476 ! Ectodermal Dysplasia
 
 [Term]
-id: DOID:3772 ! intraventricular meningioma
-xref: MESH:D008579 ! Meningioma
-
-[Term]
 id: DOID:12639 ! pyloric stenosis
 xref: MESH:D011707 ! Pyloric Stenosis
 
@@ -9732,10 +9266,6 @@ xref: MESH:D006474 ! Hemorrhagic Disorders
 [Term]
 id: DOID:4961 ! bone marrow disease
 xref: MESH:D001855 ! Bone Marrow Diseases
-
-[Term]
-id: DOID:12697 ! locked-in syndrome
-xref: MESH:D011782 ! Quadriplegia
 
 [Term]
 id: DOID:2769 ! tic disorder
@@ -9792,10 +9322,6 @@ id: DOID:750 ! peptic ulcer disease
 xref: MESH:D010437 ! Peptic Ulcer
 
 [Term]
-id: DOID:0060133 ! anosognosia
-xref: MESH:D000377 ! Agnosia
-
-[Term]
 id: DOID:5394 ! prolactinoma
 xref: MESH:D015175 ! Prolactinoma
 
@@ -9809,11 +9335,8 @@ xref: MESH:C538156 ! Synostoses, tarsal, carpal, and digital
 
 [Term]
 id: DOID:4624 ! Ollier disease
-xref: MESH:C536472 ! Upington disease
 xref: MESH:D004687 ! Enchondromatosis
-xref: MESH:D010009 ! Osteochondrodysplasias
 xref: MESH:D018216 ! Osteochondromatosis
-xref: OMIM:133700 ! EXOSTOSES, MULTIPLE, TYPE I
 
 [Term]
 id: DOID:1081 ! mansonelliasis
@@ -9840,12 +9363,12 @@ id: DOID:0050587 ! trichotillomania
 xref: MESH:D014256 ! Trichotillomania
 
 [Term]
-id: DOID:3480 ! uveal disease
-xref: MESH:D014603 ! Uveal Diseases
-
-[Term]
 id: DOID:2997 ! Sertoli-Leydig cell tumor
 xref: MESH:D018310 ! Sertoli-Leydig Cell Tumor
+
+[Term]
+id: DOID:3480 ! uveal disease
+xref: MESH:D014603 ! Uveal Diseases
 
 [Term]
 id: DOID:0050710 ! 3-Methylcrotonyl-CoA carboxylase deficiency
@@ -9854,7 +9377,6 @@ xref: MESH:C535308 ! 3-methylcrotonyl CoA carboxylase 1 deficiency
 [Term]
 id: DOID:10286 ! prostate carcinoma
 xref: MESH:C537243 ! Prostate cancer, familial
-xref: MESH:D011471 ! Prostatic Neoplasms
 
 [Term]
 id: DOID:3119 ! gastrointestinal system cancer
@@ -9880,15 +9402,10 @@ xref: MESH:D007647 ! Kernicterus
 [Term]
 id: DOID:3947 ! adrenal gland hyperfunction
 xref: MESH:D000308 ! Adrenocortical Hyperfunction
-xref: MESH:D003480 ! Cushing Syndrome
 
 [Term]
 id: DOID:11389 ! subdural empyema
 xref: MESH:D013354 ! Empyema, Subdural
-
-[Term]
-id: DOID:7005 ! gemistocytic astrocytoma
-xref: MESH:D001254 ! Astrocytoma
 
 [Term]
 id: DOID:9957 ! periostitis
@@ -10164,7 +9681,6 @@ xref: MESH:D001064 ! Appendicitis
 
 [Term]
 id: DOID:3328 ! temporal lobe epilepsy
-xref: MESH:C536956 ! Temporal epilepsy, familial
 xref: MESH:D004833 ! Epilepsy, Temporal Lobe
 
 [Term]
@@ -10186,7 +9702,6 @@ xref: MESH:D003398 ! Craniosynostoses
 [Term]
 id: DOID:235 ! colonic benign neoplasm
 xref: MESH:D003110 ! Colonic Neoplasms
-xref: MESH:D015179 ! Colorectal Neoplasms
 
 [Term]
 id: DOID:8704 ! genital herpes
@@ -10218,10 +9733,6 @@ id: DOID:4078 ! tricuspid valve stenosis
 xref: MESH:D014264 ! Tricuspid Valve Stenosis
 
 [Term]
-id: DOID:6726 ! fibrillary astrocytoma
-xref: MESH:D001254 ! Astrocytoma
-
-[Term]
 id: DOID:2934 ! aleutian mink disease
 xref: MESH:D000453 ! Aleutian Mink Disease
 
@@ -10239,7 +9750,6 @@ xref: MESH:D007174 ! Impulse Control Disorders
 
 [Term]
 id: DOID:210 ! heel spur
-xref: MESH:D036981 ! Fasciitis, Plantar
 xref: MESH:D036982 ! Heel Spur
 
 [Term]
@@ -10301,9 +9811,7 @@ xref: MESH:D004406 ! Dysgammaglobulinemia
 
 [Term]
 id: DOID:0050568 ! spondylocostal dysostosis
-xref: MESH:C535781 ! Spondylocostal dysostosis, autosomal recessive
 xref: MESH:C537565 ! Jarcho-Levin syndrome
-xref: OMIM:277300 ! SPONDYLOCOSTAL DYSOSTOSIS 1, AUTOSOMAL RECESSIVE
 xref: OMIM:609813 ! SPONDYLOCOSTAL DYSOSTOSIS 3, AUTOSOMAL RECESSIVE
 
 [Term]
@@ -10378,7 +9886,6 @@ xref: MESH:D001651 ! Cholestasis, Extrahepatic
 
 [Term]
 id: DOID:0050527 ! familial hypertriglyceridemia
-xref: MESH:D006953 ! Hyperlipoproteinemia Type IV
 xref: MESH:D015228 ! Hypertriglyceridemia
 
 [Term]
@@ -10414,10 +9921,6 @@ xref: MESH:D006962 ! Hyperparathyroidism, Secondary
 [Term]
 id: DOID:417 ! hypersensitivity reaction type II disease
 xref: MESH:D001327 ! Autoimmune Diseases
-
-[Term]
-id: DOID:4473 ! sarcomatoid renal cell carcinoma
-xref: MESH:D002292 ! Carcinoma, Renal Cell
 
 [Term]
 id: DOID:14495 ! dumping syndrome
@@ -10560,10 +10063,6 @@ id: DOID:9072 ! lethal midline granuloma
 xref: MESH:D006103 ! Granuloma, Lethal Midline
 
 [Term]
-id: DOID:0060258 ! reticulate acropigmentation of Kitamura
-xref: MESH:C562924 ! dowling-degos disease
-
-[Term]
 id: DOID:12583 ! velocardiofacial syndrome
 xref: MESH:D004062 ! DiGeorge Syndrome
 xref: MESH:D058165 ! 22q11 Deletion Syndrome
@@ -10628,10 +10127,6 @@ xref: MESH:C564487 ! Dent Disease 2
 xref: MESH:D057973 ! Dent Disease
 
 [Term]
-id: DOID:0050138 ! podoconiosis
-xref: MESH:D004604 ! Elephantiasis
-
-[Term]
 id: DOID:3649 ! pyruvate decarboxylase deficiency
 xref: MESH:D015325 ! Pyruvate Dehydrogenase Complex Deficiency Disease
 
@@ -10642,10 +10137,6 @@ xref: MESH:D002528 ! Cerebellar Neoplasms
 [Term]
 id: DOID:3456 ! cervix erosion
 xref: MESH:D002579 ! Uterine Cervical Erosion
-
-[Term]
-id: DOID:0060151 ! tactile agnosia
-xref: MESH:D000377 ! Agnosia
 
 [Term]
 id: DOID:8534 ! gastroesophageal reflux disease
@@ -10751,9 +10242,7 @@ xref: MESH:D000314 ! Adrenal Rest Tumor
 
 [Term]
 id: DOID:9258 ! Waardenburg's syndrome
-xref: MESH:C536467 ! Waardenburg syndrome, type 4
 xref: MESH:D014849 ! Waardenburg Syndrome
-xref: OMIM:277580 ! WAARDENBURG SYNDROME, TYPE 4A
 
 [Term]
 id: DOID:2750 ! glycogen storage disease IV
@@ -10765,9 +10254,7 @@ xref: MESH:C562492 ! Robinow Syndrome, Autosomal Dominant
 
 [Term]
 id: DOID:0050529 ! adult spinal muscular atrophy
-xref: MESH:C538417 ! Spinal muscular atrophy 4
 xref: MESH:C563948 ! Spinal Muscular Atrophy, Type IV
-xref: MESH:D009134 ! Muscular Atrophy, Spinal
 
 [Term]
 id: DOID:980 ! choroidal sclerosis
@@ -10827,10 +10314,6 @@ id: DOID:10844 ! Japanese encephalitis
 xref: MESH:D004672 ! Encephalitis, Japanese
 
 [Term]
-id: DOID:0050179 ! Powassan encephalitis
-xref: MESH:D004675 ! Encephalitis, Tick-Borne
-
-[Term]
 id: DOID:1762 ! cheilitis
 xref: MESH:D002613 ! Cheilitis
 
@@ -10841,10 +10324,6 @@ xref: MESH:D007725 ! Krukenberg Tumor
 [Term]
 id: DOID:0060045 ! Munchausen by proxy
 xref: MESH:D016735 ! Munchausen Syndrome by Proxy
-
-[Term]
-id: DOID:4660 ! indolent systemic mastocytosis
-xref: MESH:D034721 ! Mastocytosis, Systemic
 
 [Term]
 id: DOID:12143 ! neurogenic bladder
@@ -10892,7 +10371,6 @@ xref: MESH:D051436 ! Renal Insufficiency, Chronic
 id: DOID:0050651 ! atrioventricular septal defect
 xref: MESH:C562831 ! Atrioventricular Septal Defect
 xref: MESH:C563240 ! Atrioventricular Canal Defect
-xref: MESH:C567893 ! Split hand foot deformity 1
 xref: MESH:D004694 ! Endocardial Cushion Defects
 
 [Term]
@@ -11024,10 +10502,6 @@ id: DOID:12897 ! submandibular gland disease
 xref: MESH:D013364 ! Submandibular Gland Diseases
 
 [Term]
-id: DOID:11577 ! Cauda equina syndrome
-xref: MESH:D011128 ! Polyradiculopathy
-
-[Term]
 id: DOID:14757 ! type III Ehlers-Danlos syndrome
 xref: MESH:C536196 ! Ehlers-Danlos syndrome type 3
 
@@ -11054,10 +10528,6 @@ xref: MESH:D018305 ! Ganglioneuroblastoma
 [Term]
 id: DOID:0050754 ! ataxia with oculomotor apraxia type 1
 xref: MESH:C538013 ! Early-onset ataxia with oculomotor apraxia and hypoalbuminemia
-
-[Term]
-id: DOID:0050698 ! funisitis
-xref: MESH:D002821 ! Chorioamnionitis
 
 [Term]
 id: DOID:8632 ! Kaposi's sarcoma
@@ -11105,10 +10575,6 @@ id: DOID:6612 ! leukocyte adhesion deficiency
 xref: MESH:D018370 ! Leukocyte-Adhesion Deficiency Syndrome
 
 [Term]
-id: DOID:331 ! central nervous system disease
-xref: MESH:D002493 ! Central Nervous System Diseases
-
-[Term]
 id: DOID:11661 ! blue color blindness
 xref: MESH:D003117 ! Color Vision Defects
 xref: OMIM:190900 ! TRITANOPIA
@@ -11118,9 +10584,12 @@ id: DOID:238 ! pupil disease
 xref: MESH:D011681 ! Pupil Disorders
 
 [Term]
+id: DOID:331 ! central nervous system disease
+xref: MESH:D002493 ! Central Nervous System Diseases
+
+[Term]
 id: DOID:9883 ! Becker muscular dystrophy
 xref: MESH:C570377 ! Benign Pseudohypertrophic Muscular Dystrophy
-xref: MESH:D020388 ! Muscular Dystrophy, Duchenne
 
 [Term]
 id: DOID:13088 ! periventricular leukomalacia
@@ -11141,7 +10610,6 @@ xref: MESH:C566574 ! Spondyloepimetaphyseal Dysplasia, Missouri Type
 
 [Term]
 id: DOID:10348 ! blepharophimosis
-xref: MESH:C562419 ! Blepharophimosis, Ptosis, and Epicanthus Inversus
 xref: MESH:D016569 ! Blepharophimosis
 
 [Term]
@@ -11201,7 +10669,6 @@ xref: MESH:D055113 ! Chronic Periodontitis
 [Term]
 id: DOID:519 ! aortitis
 xref: MESH:D001025 ! Aortitis
-xref: MESH:D013625 ! Takayasu Arteritis
 
 [Term]
 id: DOID:3828 ! chromophobe adenoma
@@ -11222,7 +10689,6 @@ xref: MESH:D009059 ! Mouth Diseases
 
 [Term]
 id: DOID:13375 ! temporal arteritis
-xref: MESH:D003027 ! Cluster Headache
 xref: MESH:D013700 ! Giant Cell Arteritis
 
 [Term]
@@ -11242,24 +10708,12 @@ id: DOID:0050426 ! Stevens-Johnson syndrome
 xref: MESH:D013262 ! Stevens-Johnson Syndrome
 
 [Term]
-id: DOID:9893 ! periodontosis
-xref: MESH:D010520 ! Aggressive Periodontitis
-
-[Term]
 id: DOID:169 ! neuroendocrine tumor
 xref: MESH:D018358 ! Neuroendocrine Tumors
 
 [Term]
-id: DOID:2555 ! granulomatous angiitis
-xref: MESH:D020293 ! Vasculitis, Central Nervous System
-
-[Term]
 id: DOID:0050884 ! triosephosphate isomerase deficiency
 xref: MESH:C566029 ! Triosephosphate Isomerase Deficiency
-
-[Term]
-id: DOID:11771 ! spontaneous ocular nystagmus
-xref: MESH:D009759 ! Nystagmus, Pathologic
 
 [Term]
 id: DOID:1768 ! conversion disorder
@@ -11338,7 +10792,6 @@ xref: MESH:D004684 ! Leukoencephalitis, Acute Hemorrhagic
 [Term]
 id: DOID:1342 ! congenital hypoplastic anemia
 xref: MESH:D029502 ! Anemia, Hypoplastic, Congenital
-xref: MESH:D029503 ! Anemia, Diamond-Blackfan
 
 [Term]
 id: DOID:9784 ! trichinosis
@@ -11447,7 +10900,6 @@ xref: MESH:D003137 ! Common Bile Duct Diseases
 
 [Term]
 id: DOID:12271 ! aniridia
-xref: MESH:C536372 ! Aniridia, type 2
 xref: MESH:D015783 ! Aniridia
 
 [Term]
@@ -11479,10 +10931,6 @@ id: DOID:3047 ! Wissler's syndrome
 xref: MESH:D014924 ! Wissler's Syndrome
 
 [Term]
-id: DOID:7211 ! fibrous meningioma
-xref: MESH:D008579 ! Meningioma
-
-[Term]
 id: DOID:0050454 ! periventricular nodular heterotopia
 xref: MESH:C548481 ! Periventricular Laminar Heterotopia
 xref: MESH:D054091 ! Periventricular Nodular Heterotopia
@@ -11490,10 +10938,6 @@ xref: MESH:D054091 ! Periventricular Nodular Heterotopia
 [Term]
 id: DOID:0050749 ! peripheral T-cell lymphoma
 xref: MESH:D016411 ! Lymphoma, T-Cell, Peripheral
-
-[Term]
-id: DOID:4141 ! intraorbital meningioma
-xref: MESH:D008579 ! Meningioma
 
 [Term]
 id: DOID:9521 ! Laron syndrome
@@ -11542,7 +10986,6 @@ xref: MESH:D060446 ! Phaeohyphomycosis
 [Term]
 id: DOID:2018 ! hyperinsulinism
 xref: MESH:D006946 ! Hyperinsulinism
-xref: MESH:D044903 ! Congenital Hyperinsulinism
 
 [Term]
 id: DOID:4972 ! myelodysplastic myeloproliferative cancer
@@ -11582,16 +11025,15 @@ id: DOID:10128 ! venous insufficiency
 xref: MESH:D014689 ! Venous Insufficiency
 
 [Term]
-id: DOID:3329 ! benign epilepsy with centrotemporal spikes
-xref: MESH:D019305 ! Epilepsy, Rolandic
-
-[Term]
 id: DOID:11355 ! bladder calculus
 xref: MESH:D001744 ! Urinary Bladder Calculi
 
 [Term]
+id: DOID:3329 ! benign epilepsy with centrotemporal spikes
+xref: MESH:D019305 ! Epilepsy, Rolandic
+
+[Term]
 id: DOID:3982 ! Meige syndrome
-xref: MESH:C562467 ! Lymphedema, Hereditary, II
 xref: MESH:D008538 ! Meige Syndrome
 xref: MESH:D008539 ! Meigs Syndrome
 
@@ -11644,10 +11086,6 @@ id: DOID:11198 ! DiGeorge syndrome
 xref: MESH:D004062 ! DiGeorge Syndrome
 
 [Term]
-id: DOID:10176 ! neuroretinitis
-xref: MESH:D012173 ! Retinitis
-
-[Term]
 id: DOID:13336 ! congenital toxoplasmosis
 xref: MESH:D014125 ! Toxoplasmosis, Congenital
 
@@ -11684,10 +11122,6 @@ id: DOID:10310 ! viral meningitis
 xref: MESH:D008587 ! Meningitis, Viral
 
 [Term]
-id: DOID:3861 ! medullomyoblastoma
-xref: MESH:D008527 ! Medulloblastoma
-
-[Term]
 id: DOID:2485 ! phosphorus metabolism disease
 xref: MESH:D010760 ! Phosphorus Metabolism Disorders
 
@@ -11698,7 +11132,6 @@ xref: MESH:D019955 ! Conduct Disorder
 [Term]
 id: DOID:1614 ! male breast cancer
 xref: MESH:C566178 ! Breast Cancer, Familial Male
-xref: MESH:D018567 ! Breast Neoplasms, Male
 
 [Term]
 id: DOID:0080037 ! Worth's syndrome
@@ -11730,12 +11163,8 @@ xref: MESH:D033461 ! Hyperuricemia
 
 [Term]
 id: DOID:225 ! syndrome
-xref: MESH:C536372 ! Aniridia, type 2
-xref: MESH:C567425 ! Alopecia, Neurologic Defects, and Endocrinopathy Syndrome
-xref: MESH:D000856 ! Anorexia Nervosa
 xref: MESH:D004194 ! Disease
 xref: MESH:D013577 ! Syndrome
-xref: MESH:D035583 ! Rare Diseases
 
 [Term]
 id: DOID:0080041 ! hypochondroplasia
@@ -11774,10 +11203,6 @@ id: DOID:0050473 ! Alstrom syndrome
 xref: MESH:D056769 ! Alstrom Syndrome
 
 [Term]
-id: DOID:0050672 ! dyskinetic cerebral palsy
-xref: MESH:D002547 ! Cerebral Palsy
-
-[Term]
 id: DOID:11060 ! placenta praevia
 xref: MESH:D010923 ! Placenta Previa
 
@@ -11790,10 +11215,6 @@ id: DOID:0050580 ! hereditary lymphedema
 xref: MESH:D008209 ! Lymphedema
 
 [Term]
-id: DOID:3325 ! hyperglobulinemic purpura
-xref: MESH:D011694 ! Purpura, Hyperglobulinemic
-
-[Term]
 id: DOID:11514 ! fissured tongue
 xref: MESH:C564239 ! Geographic Tongue and Fissured Tongue
 xref: MESH:D014063 ! Tongue, Fissured
@@ -11801,6 +11222,10 @@ xref: MESH:D014063 ! Tongue, Fissured
 [Term]
 id: DOID:12642 ! hiatus hernia
 xref: MESH:D006551 ! Hernia, Hiatal
+
+[Term]
+id: DOID:3325 ! hyperglobulinemic purpura
+xref: MESH:D011694 ! Purpura, Hyperglobulinemic
 
 [Term]
 id: DOID:13561 ! optic disk drusen
@@ -11817,7 +11242,6 @@ xref: MESH:D015223 ! Wolman Disease
 
 [Term]
 id: DOID:3571 ! liver cancer
-xref: MESH:D006528 ! Carcinoma, Hepatocellular
 xref: MESH:D008113 ! Liver Neoplasms
 
 [Term]
@@ -11834,8 +11258,6 @@ xref: MESH:D011293 ! Premenstrual Syndrome
 
 [Term]
 id: DOID:0060213 ! FTDALS1
-xref: MESH:C566288 ! Frontotemporal Dementia With Motor Neuron Disease
-xref: MESH:D057180 ! Frontotemporal Dementia
 xref: OMIM:105550 ! FRONTOTEMPORAL DEMENTIA AND/OR AMYOTROPHIC LATERAL SCLEROSIS 1
 
 [Term]
@@ -11849,7 +11271,6 @@ xref: MESH:D014064 ! Tongue, Hairy
 [Term]
 id: DOID:203 ! exostosis
 xref: MESH:D005096 ! Exostoses
-xref: MESH:D005097 ! Exostoses, Multiple Hereditary
 xref: MESH:D054850 ! Osteophyte
 
 [Term]
@@ -11862,7 +11283,6 @@ xref: MESH:D018242 ! Neuroectodermal Tumors, Primitive
 
 [Term]
 id: DOID:4249 ! Gerstmann-Straussler-Scheinker syndrome
-xref: MESH:C535800 ! Amyloidosis, Cerebral, with Spongiform Encephalopathy
 xref: MESH:D016098 ! Gerstmann-Straussler-Scheinker Disease
 
 [Term]
@@ -11927,7 +11347,6 @@ xref: MESH:D018311 ! Luteoma
 
 [Term]
 id: DOID:7166 ! thyroiditis
-xref: MESH:D013959 ! Thyroid Diseases
 xref: MESH:D013966 ! Thyroiditis
 
 [Term]
@@ -11941,15 +11360,14 @@ xref: MESH:C562839 ! Mesothelioma, Malignant
 [Term]
 id: DOID:9307 ! rectal prolapse
 xref: MESH:D012005 ! Rectal Prolapse
-xref: MESH:D056887 ! Pelvic Organ Prolapse
-
-[Term]
-id: DOID:3405 ! histiocytosis
-xref: MESH:D015614 ! Histiocytosis
 
 [Term]
 id: DOID:2640 ! struma ovarii
 xref: MESH:D013330 ! Struma Ovarii
+
+[Term]
+id: DOID:3405 ! histiocytosis
+xref: MESH:D015614 ! Histiocytosis
 
 [Term]
 id: DOID:12030 ! panuveitis
@@ -11969,7 +11387,6 @@ xref: MESH:C537005 ! Complement component 5 deficiency
 
 [Term]
 id: DOID:0002116 ! pterygium
-xref: MESH:C537377 ! Multiple pterygium syndrome
 xref: MESH:D011625 ! Pterygium
 
 [Term]
@@ -11988,7 +11405,6 @@ xref: MESH:D002294 ! Carcinoma, Squamous Cell
 [Term]
 id: DOID:988 ! mitral valve prolapse
 xref: MESH:D008945 ! Mitral Valve Prolapse
-xref: MESH:D054971 ! Orthostatic Intolerance
 xref: OMIM:157700 ! MITRAL VALVE PROLAPSE, FAMILIAL
 
 [Term]
@@ -12025,10 +11441,6 @@ xref: MESH:D014897 ! Spinal Muscular Atrophies of Childhood
 id: DOID:3149 ! keratoacanthoma
 xref: MESH:C536150 ! Keratoacanthoma familial
 xref: MESH:D007636 ! Keratoacanthoma
-
-[Term]
-id: DOID:6114 ! cerebral convexity meningioma
-xref: MESH:D008579 ! Meningioma
 
 [Term]
 id: DOID:0050495 ! exanthema subitum
@@ -12110,7 +11522,6 @@ xref: MESH:D001002 ! Anuria
 [Term]
 id: DOID:4481 ! allergic rhinitis
 xref: MESH:D006255 ! Rhinitis, Allergic, Seasonal
-xref: MESH:D012221 ! Rhinitis, Allergic, Perennial
 xref: MESH:D065631 ! Rhinitis, Allergic
 
 [Term]
@@ -12152,20 +11563,12 @@ id: DOID:369 ! olfactory neuroblastoma
 xref: MESH:D018304 ! Esthesioneuroblastoma, Olfactory
 
 [Term]
-id: DOID:10398 ! pneumonic plague
-xref: MESH:D010930 ! Plague
-
-[Term]
 id: DOID:1383 ! sweat gland disease
 xref: MESH:D013543 ! Sweat Gland Diseases
 
 [Term]
 id: DOID:0050655 ! Bamforth-Lazarus syndrome
 xref: MESH:C537901 ! Bamforth syndrome
-
-[Term]
-id: DOID:4773 ! congenital mesoblastic nephroma
-xref: MESH:D018201 ! Nephroma, Mesoblastic
 
 [Term]
 id: DOID:13884 ! sick sinus syndrome
@@ -12235,7 +11638,6 @@ xref: MESH:D004413 ! Dysostoses
 
 [Term]
 id: DOID:2749 ! glycogen storage disease I
-xref: MESH:C538655 ! Hepatorenal form of glycogen storage disease
 xref: MESH:D005953 ! Glycogen Storage Disease Type I
 
 [Term]
@@ -12442,10 +11844,6 @@ id: DOID:0050663 ! Bethlem myopathy
 xref: MESH:C535436 ! Bethlem myopathy
 
 [Term]
-id: DOID:7912 ! mixed oligodendroglioma-astrocytoma
-xref: MESH:D009837 ! Oligodendroglioma
-
-[Term]
 id: DOID:0050726 ! tyrosinemia type I
 xref: MESH:D020176 ! Tyrosinemias
 
@@ -12498,7 +11896,6 @@ xref: MESH:C536368 ! Angiosarcoma of the breast
 [Term]
 id: DOID:11406 ! choroiditis
 xref: MESH:D002833 ! Choroiditis
-xref: MESH:D015862 ! Choroid Diseases
 
 [Term]
 id: DOID:3927 ! pelvic lipomatosis
@@ -12600,7 +11997,6 @@ xref: MESH:D052517 ! Multiple Sulfatase Deficiency Disease
 [Term]
 id: DOID:62 ! aortic valve disease
 xref: MESH:C563178 ! Aortic Valve Disease
-xref: OMIM:109730 ! AORTIC VALVE DISEASE 1
 
 [Term]
 id: DOID:9766 ! xanthogranulomatous cholecystitis
@@ -12623,10 +12019,6 @@ id: DOID:7148 ! rheumatoid arthritis
 xref: MESH:D001172 ! Arthritis, Rheumatoid
 
 [Term]
-id: DOID:3419 ! optic nerve neoplasm
-xref: MESH:D019574 ! Optic Nerve Neoplasms
-
-[Term]
 id: DOID:1002 ! endometritis
 xref: MESH:D004716 ! Endometritis
 
@@ -12637,6 +12029,10 @@ xref: MESH:D056730 ! Silver-Russell Syndrome
 [Term]
 id: DOID:2548 ! reflex epilepsy
 xref: MESH:D020195 ! Epilepsy, Reflex
+
+[Term]
+id: DOID:3419 ! optic nerve neoplasm
+xref: MESH:D019574 ! Optic Nerve Neoplasms
 
 [Term]
 id: DOID:12554 ! hemolytic-uremic syndrome
@@ -12653,10 +12049,6 @@ xref: MESH:D008382 ! Marfan Syndrome
 [Term]
 id: DOID:3068 ! glioblastoma multiforme
 xref: MESH:D005909 ! Glioblastoma
-
-[Term]
-id: DOID:3847 ! papillary craniopharyngioma
-xref: MESH:D003397 ! Craniopharyngioma
 
 [Term]
 id: DOID:11624 ! penile neoplasm
@@ -12717,10 +12109,6 @@ xref: MESH:D013733 ! Testicular Diseases
 [Term]
 id: DOID:2600 ! laryngeal carcinoma
 xref: MESH:D007822 ! Laryngeal Neoplasms
-
-[Term]
-id: DOID:11156 ! anhidrosis
-xref: MESH:D007007 ! Hypohidrosis
 
 [Term]
 id: DOID:0060299 ! complement component 6 deficiency
@@ -12875,17 +12263,13 @@ id: DOID:13401 ! angioid streaks
 xref: MESH:D000793 ! Angioid Streaks
 
 [Term]
-id: DOID:0050398 ! Carrion's Disease
-xref: MESH:D001474 ! Bartonella Infections
-
-[Term]
-id: DOID:0050201 ! nephropathia epidemica
-xref: MESH:D006480 ! Hemorrhagic Fever with Renal Syndrome
-
-[Term]
 id: DOID:12376 ! juvenile spinal muscular atrophy
 xref: MESH:D009134 ! Muscular Atrophy, Spinal
 xref: MESH:D014897 ! Spinal Muscular Atrophies of Childhood
+
+[Term]
+id: DOID:0050398 ! Carrion's Disease
+xref: MESH:D001474 ! Bartonella Infections
 
 [Term]
 id: DOID:2988 ! antiphospholipid syndrome
@@ -12897,12 +12281,12 @@ id: DOID:5339 ! cyclic hematopoiesis
 xref: MESH:C536227 ! Cyclic neutropenia
 
 [Term]
-id: DOID:3324 ! mood disorder
-xref: MESH:D019964 ! Mood Disorders
-
-[Term]
 id: DOID:184 ! bone cancer
 xref: MESH:D001859 ! Bone Neoplasms
+
+[Term]
+id: DOID:3324 ! mood disorder
+xref: MESH:D019964 ! Mood Disorders
 
 [Term]
 id: DOID:5058 ! rhabdoid meningioma
@@ -12945,16 +12329,8 @@ id: DOID:2215 ! factor VII deficiency
 xref: MESH:D005168 ! Factor VII Deficiency
 
 [Term]
-id: DOID:0060178 ! familial hemiplegic migraine
-xref: MESH:D020325 ! Migraine with Aura
-
-[Term]
 id: DOID:0050827 ! rheumatic heart disease
 xref: MESH:D012214 ! Rheumatic Heart Disease
-
-[Term]
-id: DOID:10293 ! monocular esotropia
-xref: MESH:D004948 ! Esotropia
 
 [Term]
 id: DOID:2113 ! coccidiosis
@@ -12963,7 +12339,6 @@ xref: MESH:D003048 ! Coccidiosis
 [Term]
 id: DOID:9261 ! nasopharynx carcinoma
 xref: MESH:C538339 ! Nasopharyngeal carcinoma
-xref: MESH:D009303 ! Nasopharyngeal Neoplasms
 
 [Term]
 id: DOID:13141 ! uveitis
@@ -13015,7 +12390,6 @@ xref: MESH:D011045 ! Poland Syndrome
 
 [Term]
 id: DOID:13481 ! thanatophoric dysplasia
-xref: MESH:C566844 ! Thanatophoric Dysplasia, Type I
 xref: MESH:D013796 ! Thanatophoric Dysplasia
 
 [Term]
@@ -13024,7 +12398,6 @@ xref: MESH:D017733 ! Leukoplakia, Hairy
 
 [Term]
 id: DOID:13372 ! alpha 1-antitrypsin deficiency
-xref: MESH:C566273 ! alpha-1-Antitrypsin Deficiency, Autosomal Recessive
 xref: MESH:D019896 ! alpha 1-Antitrypsin Deficiency
 
 [Term]
@@ -13054,7 +12427,6 @@ xref: MESH:D049309 ! Acanthoma
 [Term]
 id: DOID:9562 ! primary ciliary dyskinesia
 xref: MESH:D002925 ! Ciliary Motility Disorders
-xref: MESH:D007619 ! Kartagener Syndrome
 
 [Term]
 id: DOID:0050579 ! glycogen storage disease XV
@@ -13069,12 +12441,12 @@ id: DOID:7398 ! cerebral primitive neuroectodermal tumor
 xref: MESH:D018242 ! Neuroectodermal Tumors, Primitive
 
 [Term]
-id: DOID:12241 ! beta thalassemia
-xref: MESH:D017086 ! beta-Thalassemia
-
-[Term]
 id: DOID:1245 ! vulva cancer
 xref: MESH:D014846 ! Vulvar Neoplasms
+
+[Term]
+id: DOID:12241 ! beta thalassemia
+xref: MESH:D017086 ! beta-Thalassemia
 
 [Term]
 id: DOID:0060190 ! ileocolitis
@@ -13087,10 +12459,6 @@ xref: MESH:D014397 ! Tuberculosis, Pulmonary
 [Term]
 id: DOID:8771 ! contagious pustular dermatitis
 xref: MESH:D004474 ! Ecthyma, Contagious
-
-[Term]
-id: DOID:4398 ! pustulosis of palm and sole
-xref: MESH:D011565 ! Psoriasis
 
 [Term]
 id: DOID:3908 ! non-small cell lung carcinoma
@@ -13118,17 +12486,13 @@ xref: MESH:D002280 ! Carcinoma, Basal Cell
 xref: MESH:D018295 ! Neoplasms, Basal Cell
 
 [Term]
-id: DOID:3355 ! fibrosarcoma
-xref: MESH:D005354 ! Fibrosarcoma
-xref: MESH:D018218 ! Neoplasms, Fibrous Tissue
-
-[Term]
 id: DOID:10582 ! Refsum disease
 xref: MESH:D012035 ! Refsum Disease
 
 [Term]
-id: DOID:0050352 ! foodborne botulism
-xref: MESH:D001906 ! Botulism
+id: DOID:3355 ! fibrosarcoma
+xref: MESH:D005354 ! Fibrosarcoma
+xref: MESH:D018218 ! Neoplasms, Fibrous Tissue
 
 [Term]
 id: DOID:2383 ! neonatal jaundice
@@ -13140,12 +12504,12 @@ id: DOID:0050144 ! Kartagener syndrome
 xref: MESH:D007619 ! Kartagener Syndrome
 
 [Term]
-id: DOID:3302 ! chordoma
-xref: MESH:D002817 ! Chordoma
-
-[Term]
 id: DOID:13268 ! porphyria
 xref: MESH:D011164 ! Porphyrias
+
+[Term]
+id: DOID:3302 ! chordoma
+xref: MESH:D002817 ! Chordoma
 
 [Term]
 id: DOID:110 ! lens disease
@@ -13166,10 +12530,6 @@ xref: MESH:C562448 ! Lipodystrophy, Partial, Acquired
 xref: MESH:D008069 ! Lipomatosis, Multiple Symmetrical
 
 [Term]
-id: DOID:8593 ! chronic monocytic leukemia
-xref: MESH:D007951 ! Leukemia, Myeloid
-
-[Term]
 id: DOID:6255 ! growth hormone secreting pituitary adenoma
 xref: MESH:D049912 ! Growth Hormone-Secreting Pituitary Adenoma
 
@@ -13183,7 +12543,6 @@ xref: MESH:D014355 ! Chagas Disease
 
 [Term]
 id: DOID:0050854 ! Muckle-Wells syndrome
-xref: MESH:D056587 ! Cryopyrin-Associated Periodic Syndromes
 xref: OMIM:191900 ! MUCKLE-WELLS SYNDROME
 
 [Term]
@@ -13267,7 +12626,6 @@ xref: MESH:D001480 ! Basal Ganglia Diseases
 [Term]
 id: DOID:10302 ! parotid disease
 xref: MESH:D010305 ! Parotid Diseases
-xref: MESH:D010309 ! Parotitis
 
 [Term]
 id: DOID:8457 ! pellagra
@@ -13290,17 +12648,16 @@ id: DOID:0060328 ! anal fistula
 xref: MESH:D012003 ! Rectal Fistula
 
 [Term]
-id: DOID:1227 ! neutropenia
-xref: MESH:D009503 ! Neutropenia
-
-[Term]
 id: DOID:12318 ! corneal granular dystrophy
 xref: MESH:C537304 ! Groenouw type I corneal dystrophy
 xref: MESH:D003317 ! Corneal Dystrophies, Hereditary
 
 [Term]
+id: DOID:1227 ! neutropenia
+xref: MESH:D009503 ! Neutropenia
+
+[Term]
 id: DOID:7997 ! thyrotoxicosis
-xref: MESH:D006111 ! Graves Disease
 xref: MESH:D013971 ! Thyrotoxicosis
 
 [Term]
@@ -13380,7 +12737,6 @@ xref: MESH:D013964 ! Thyroid Neoplasms
 id: DOID:4905 ! pancreatic carcinoma
 xref: MESH:C535837 ! Pancreatic carcinoma, familial
 xref: MESH:C562463 ! Pancreatic Carcinoma
-xref: MESH:D010190 ! Pancreatic Neoplasms
 
 [Term]
 id: DOID:9153 ! variola minor
@@ -13433,7 +12789,6 @@ xref: MESH:D001161 ! Arteriosclerosis
 
 [Term]
 id: DOID:2058 ! chronic mucocutaneous candidiasis
-xref: MESH:C537979 ! Candidiasis familial chronic mucocutaneous, autosomal recessive
 xref: MESH:D002178 ! Candidiasis, Chronic Mucocutaneous
 
 [Term]

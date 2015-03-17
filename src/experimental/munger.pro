@@ -649,9 +649,15 @@ write_all_mesh :-
         write_mesh(_),
         fail.
 write_all_mesh.
+
 write_mesh(D) :-
         class(D),
         id_idspace(D,'MESH'),
+        write_mesh1(D).
+
+% CASE 1: no xref
+% write a MESH stanza and wire it up to the nearest equivalent disease
+write_mesh1(D) :-
         \+ entity_xref(_,D),
         class(D,DN),
         format('[Term]~n'),
@@ -665,4 +671,38 @@ write_mesh(D) :-
                    format('is_a: ~w ! ~w~n',[P,PN]))),
         nl.
 
+
+
+
+% CASE 2: exactly 1 xref
+% Equivalence
+write_mesh1(D) :-
+        setof(G,entity_xref_nr(G,D),[G]),
+        class2n(D,DN),
+        class2n(G,GN),
+        format('[Term]~n'),
+        format('id: ~w~n',[D]),
+        format('name: ~w~n',[DN]),
+        format('equivalent_to: ~w ! ~w~n',[G,GN]),
+        nl.
+
+% CASE 3: > 1 xref
+% Write a MESH stanza and make 
+write_mesh1(D) :-
+        setof(G,entity_xref_nr(G,D),Gs),
+        Gs=[_,_|_],
+        class2n(D,DN),
+        format('[Term]~n'),
+        format('id: ~w~n',[D]),
+        format('name: ~w~n',[DN]),
+        forall(member(G,Gs),
+               (   class2n(G,GN),
+                   format('is_a: ~w ! ~w~n',[G,GN]))),
+        nl.
+
         
+%% entity_xref_nr(?D,+X)
+entity_xref_nr(D,X) :-
+        entity_xref(D,X),
+        \+ ((entity_xref(D2,X),
+             subclassT(D2,D))).

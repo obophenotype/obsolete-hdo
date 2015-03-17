@@ -182,8 +182,6 @@ equivalent_to: DOID:11914 ! gastroparesis
 id: MESH:D002547
 name: Cerebral Palsy
 is_a: DOID:0050670 ! ataxic cerebral palsy
-is_a: DOID:0050672 ! dyskinetic cerebral palsy
-is_a: DOID:0050673 ! mixed cerebral palsy
 is_a: DOID:10965 ! spastic diplegia
 is_a: DOID:10968 ! spastic monoplegia
 is_a: DOID:10970 ! spastic quadriplegia
@@ -352,7 +350,7 @@ equivalent_to: DOID:4557 ! oral leukoedema
 id: MESH:D005918
 name: Glomus Tumor
 is_a: DOID:2431 ! glomus tumor
-is_a: DOID:7996 ! familial glomangioma
+is_a: DOID:2436 ! glomangioma
 
 [Term]
 id: MESH:D020968
@@ -535,8 +533,7 @@ equivalent_to: DOID:3321 ! gangliosidosis GM2
 [Term]
 id: MESH:D054066
 name: Leukemia, Large Granular Lymphocytic
-is_a: DOID:0050751 ! T-cell large granular lymphocyte leukemia
-is_a: DOID:1035 ! natural killer cell leukemia
+equivalent_to: DOID:0050751 ! T-cell large granular lymphocyte leukemia
 
 [Term]
 id: MESH:D054068
@@ -815,7 +812,7 @@ equivalent_to: DOID:5003 ! eunuchism
 [Term]
 id: MESH:D018567
 name: Breast Neoplasms, Male
-equivalent_to: DOID:1614 ! male breast cancer
+is_a: DOID:1612 ! breast cancer
 
 [Term]
 id: MESH:D010392
@@ -908,7 +905,6 @@ equivalent_to: DOID:2470 ! DOID:2470
 [Term]
 id: MESH:D015417
 name: Hereditary Sensory and Motor Neuropathy
-is_a: DOID:0050125 ! dengue shock syndrome
 is_a: DOID:0050540 ! Charcot-Marie-Tooth disease type 3
 is_a: DOID:2477 ! motor peripheral neuropathy
 
@@ -1215,7 +1211,7 @@ equivalent_to: DOID:10301 ! parotitis
 [Term]
 id: MESH:D006871
 name: Hydrophthalmos
-equivalent_to: DOID:11211 ! buphthalmos
+equivalent_to: DOID:11212 ! hydrophthalmos
 
 [Term]
 id: MESH:D006872
@@ -1522,7 +1518,6 @@ equivalent_to: DOID:4257 ! Caffey disease
 [Term]
 id: MESH:D006953
 name: Hyperlipoproteinemia Type IV
-is_a: DOID:0050527 ! familial hypertriglyceridemia
 is_a: DOID:1172 ! hyperlipoproteinemia type IV
 is_a: DOID:3145 ! hyperlipoproteinemia type III
 
@@ -1554,8 +1549,7 @@ equivalent_to: DOID:2748 ! glycogen storage disease III
 [Term]
 id: MESH:D006011
 name: Glycogen Storage Disease Type IV
-is_a: DOID:0050434 ! Andersen-Tawil syndrome
-is_a: DOID:2750 ! glycogen storage disease IV
+equivalent_to: DOID:2750 ! glycogen storage disease IV
 
 [Term]
 id: MESH:D006012
@@ -1941,8 +1935,7 @@ equivalent_to: DOID:9663 ! aphthous stomatitis
 [Term]
 id: MESH:D058494
 name: Walker-Warburg Syndrome
-is_a: DOID:0050559 ! Fukuyama congenital muscular dystrophy
-is_a: DOID:0050560 ! Walker-Warburg syndrome
+equivalent_to: DOID:0050560 ! Walker-Warburg syndrome
 
 [Term]
 id: MESH:D013282
@@ -2281,8 +2274,7 @@ equivalent_to: DOID:2683 ! adenofibroma
 [Term]
 id: MESH:D009634
 name: Noonan Syndrome
-is_a: DOID:3490 ! Noonan syndrome
-is_a: DOID:3491 ! Turner syndrome
+equivalent_to: DOID:3490 ! Noonan syndrome
 
 [Term]
 id: MESH:D007105
@@ -2465,8 +2457,7 @@ equivalent_to: DOID:11612 ! polycystic ovary syndrome
 [Term]
 id: MESH:D011087
 name: Polycythemia Vera
-is_a: DOID:10780 ! primary polycythemia
-is_a: DOID:8997 ! polycythemia vera
+equivalent_to: DOID:8997 ! polycythemia vera
 
 [Term]
 id: MESH:D020295
@@ -3356,7 +3347,7 @@ equivalent_to: DOID:0050597 ! intestinal schistosomiasis
 [Term]
 id: MESH:D012552
 name: Schistosomiasis
-equivalent_to: DOID:0050597 ! intestinal schistosomiasis
+equivalent_to: DOID:1395 ! schistosomiasis
 
 [Term]
 id: MESH:D012553
@@ -3388,8 +3379,7 @@ is_a: DOID:700 ! mitochondrial metabolism disease
 [Term]
 id: MESH:D029242
 name: Optic Atrophy, Hereditary, Leber
-is_a: DOID:14791 ! Leber congenital amaurosis
-is_a: DOID:705 ! leber hereditary optic neuropathy
+equivalent_to: DOID:705 ! leber hereditary optic neuropathy
 
 [Term]
 id: MESH:D055728
@@ -3409,8 +3399,7 @@ equivalent_to: DOID:8295 ! scabies
 [Term]
 id: MESH:D004675
 name: Encephalitis, Tick-Borne
-is_a: DOID:0050175 ! tick-borne encephalitis
-is_a: DOID:0050179 ! Powassan encephalitis
+equivalent_to: DOID:0050175 ! tick-borne encephalitis
 
 [Term]
 id: MESH:D004677
@@ -3574,7 +3563,7 @@ equivalent_to: DOID:8632 ! Kaposi's sarcoma
 [Term]
 id: MESH:D055752
 name: Small Cell Lung Carcinoma
-equivalent_to: DOID:5411 ! lung oat cell carcinoma
+equivalent_to: DOID:5409 ! lung small cell carcinoma
 
 [Term]
 id: MESH:D004694
@@ -3589,7 +3578,7 @@ equivalent_to: DOID:12929 ! endocardial fibroelastosis
 [Term]
 id: MESH:D004696
 name: Endocarditis
-equivalent_to: DOID:0060000 ! infective endocarditis
+equivalent_to: DOID:10314 ! endocarditis
 
 [Term]
 id: MESH:D004697
@@ -3739,8 +3728,7 @@ equivalent_to: DOID:1039 ! prolymphocytic leukemia
 [Term]
 id: MESH:D006111
 name: Graves Disease
-is_a: DOID:12361 ! Graves' disease
-is_a: DOID:7997 ! thyrotoxicosis
+equivalent_to: DOID:12361 ! Graves' disease
 
 [Term]
 id: MESH:D015465
@@ -3809,8 +3797,7 @@ equivalent_to: DOID:10300 ! Raynaud disease
 [Term]
 id: MESH:D005764
 name: Gastroesophageal Reflux
-is_a: DOID:13976 ! peptic esophagitis
-is_a: DOID:8534 ! gastroesophageal reflux disease
+equivalent_to: DOID:8534 ! gastroesophageal reflux disease
 
 [Term]
 id: MESH:D001607
@@ -4144,8 +4131,7 @@ equivalent_to: DOID:2364 ! post-thrombotic syndrome
 [Term]
 id: MESH:D011191
 name: Potassium Deficiency
-is_a: DOID:13582 ! DOID:13582
-is_a: DOID:4500 ! hypokalemia
+equivalent_to: DOID:13582 ! DOID:13582
 
 [Term]
 id: MESH:D013182
@@ -4630,7 +4616,7 @@ equivalent_to: DOID:5241 ! hemangioblastoma
 [Term]
 id: MESH:D003027
 name: Cluster Headache
-equivalent_to: DOID:13375 ! temporal arteritis
+is_a: MESH:D051303 ! Trigeminal Autonomic Cephalalgias
 
 [Term]
 id: MESH:D018327
@@ -4748,8 +4734,7 @@ equivalent_to: DOID:5453 ! pulmonary venoocclusive disease
 [Term]
 id: MESH:D009464
 name: Neuroma, Acoustic
-is_a: DOID:12689 ! acoustic neuroma
-is_a: DOID:3200 ! cerebellopontine angle tumor
+equivalent_to: DOID:12689 ! acoustic neuroma
 
 [Term]
 id: MESH:D009463
@@ -4921,8 +4906,7 @@ equivalent_to: DOID:769 ! neuroblastoma
 [Term]
 id: MESH:D009442
 name: Neurilemmoma
-is_a: DOID:3192 ! neurilemmoma
-is_a: DOID:5940 ! malignant peripheral nerve sheath tumor
+equivalent_to: DOID:3192 ! neurilemmoma
 
 [Term]
 id: MESH:D011645
@@ -4933,8 +4917,7 @@ is_a: MESH:D011644 ! Puerperal Disorders
 [Term]
 id: MESH:D020388
 name: Muscular Dystrophy, Duchenne
-is_a: DOID:11723 ! Duchenne muscular dystrophy
-is_a: DOID:9883 ! Becker muscular dystrophy
+equivalent_to: DOID:11723 ! Duchenne muscular dystrophy
 
 [Term]
 id: MESH:D011649
@@ -4996,7 +4979,7 @@ equivalent_to: DOID:13185 ! esophageal diverticulosis
 [Term]
 id: MESH:D004604
 name: Elephantiasis
-equivalent_to: DOID:0050138 ! podoconiosis
+equivalent_to: DOID:4976 ! elephantiasis
 
 [Term]
 id: MESH:D005208
@@ -5033,8 +5016,7 @@ is_a: DOID:2708 ! mushroom workers' lung
 [Term]
 id: MESH:D003882
 name: Dermatomyositis
-is_a: DOID:14202 ! adult dermatomyositis
-is_a: DOID:14203 ! childhood type dermatomyositis
+equivalent_to: DOID:14203 ! childhood type dermatomyositis
 
 [Term]
 id: MESH:D006617
@@ -5123,8 +5105,7 @@ equivalent_to: DOID:0050428 ! nonepidermolytic palmoplantar keratoderma
 [Term]
 id: MESH:D045743
 name: Scleroderma, Diffuse
-is_a: DOID:10588 ! adrenoleukodystrophy
-is_a: DOID:1580 ! diffuse scleroderma
+equivalent_to: DOID:1580 ! diffuse scleroderma
 
 [Term]
 id: MESH:D045745
@@ -5858,8 +5839,7 @@ equivalent_to: DOID:11996 ! spermatic cord torsion
 [Term]
 id: MESH:D015179
 name: Colorectal Neoplasms
-is_a: DOID:219 ! colon cancer
-is_a: DOID:235 ! colonic benign neoplasm
+equivalent_to: DOID:219 ! colon cancer
 
 [Term]
 id: MESH:D013971
@@ -5977,7 +5957,6 @@ equivalent_to: DOID:3113 ! papillary carcinoma
 [Term]
 id: MESH:D002292
 name: Carcinoma, Renal Cell
-is_a: DOID:0050387 ! nonpapillary renal cell carcinoma
 is_a: DOID:4464 ! collecting duct carcinoma
 is_a: DOID:4465 ! papillary renal cell carcinoma
 is_a: DOID:4467 ! renal clear cell carcinoma
@@ -6121,7 +6100,7 @@ equivalent_to: DOID:12783 ! migraine without aura
 [Term]
 id: MESH:D020325
 name: Migraine with Aura
-equivalent_to: DOID:0060178 ! familial hemiplegic migraine
+equivalent_to: DOID:10024 ! migraine with aura
 
 [Term]
 id: MESH:D020324
@@ -6236,7 +6215,7 @@ is_a: MESH:D011201 ! Poultry Diseases
 [Term]
 id: MESH:D002280
 name: Carcinoma, Basal Cell
-equivalent_to: DOID:4282 ! pigmented basal cell carcinoma
+equivalent_to: DOID:2513 ! basal cell carcinoma
 
 [Term]
 id: MESH:D020330
@@ -6549,8 +6528,7 @@ equivalent_to: DOID:2370 ! DOID:2370
 [Term]
 id: MESH:D009394
 name: Nephritis, Hereditary
-is_a: DOID:10952 ! nephritis
-is_a: DOID:10983 ! Alport syndrome
+equivalent_to: DOID:10983 ! Alport syndrome
 
 [Term]
 id: MESH:D036821
@@ -6621,8 +6599,7 @@ is_a: MESH:D048909 ! Diabetes Complications
 [Term]
 id: MESH:D003924
 name: Diabetes Mellitus, Type 2
-is_a: DOID:0050524 ! maturity-onset diabetes of the young
-is_a: DOID:9352 ! type 2 diabetes mellitus
+equivalent_to: DOID:9352 ! type 2 diabetes mellitus
 
 [Term]
 id: MESH:D003925
@@ -6851,7 +6828,7 @@ equivalent_to: DOID:1911 ! endodermal sinus tumor
 [Term]
 id: MESH:D054989
 name: Nephrogenic Fibrosing Dermopathy
-is_a: DOID:5082 ! liver cirrhosis
+is_a: MESH:D005355 ! Fibrosis
 is_a: DOID:37 ! skin disease
 
 [Term]
@@ -6959,8 +6936,7 @@ equivalent_to: DOID:5138 ! leiomyomatosis
 [Term]
 id: MESH:D054990
 name: Idiopathic Pulmonary Fibrosis
-is_a: DOID:0050156 ! idiopathic pulmonary fibrosis
-is_a: DOID:2800 ! acute interstitial pneumonia
+equivalent_to: DOID:0050156 ! idiopathic pulmonary fibrosis
 
 [Term]
 id: MESH:D018230
@@ -6970,7 +6946,6 @@ is_a: DOID:127 ! leiomyoma
 [Term]
 id: MESH:D011782
 name: Quadriplegia
-is_a: DOID:10970 ! spastic quadriplegia
 is_a: DOID:12697 ! locked-in syndrome
 is_a: DOID:12835 ! quadriplegia
 
@@ -7059,7 +7034,7 @@ equivalent_to: DOID:11719 ! oculopharyngeal muscular dystrophy
 [Term]
 id: MESH:D054969
 name: Primary Dysautonomias
-equivalent_to: DOID:11589 ! Riley-Day syndrome
+is_a: DOID:11465 ! autonomic nervous system disease
 
 [Term]
 id: MESH:D008989
@@ -7110,13 +7085,13 @@ is_a: DOID:5989 ! DOID:5989
 [Term]
 id: MESH:D054971
 name: Orthostatic Intolerance
-is_a: DOID:11569 ! neurocirculatory asthenia
-is_a: DOID:988 ! mitral valve prolapse
+is_a: MESH:D009461 ! Neurologic Manifestations
+is_a: MESH:D054969 ! Primary Dysautonomias
 
 [Term]
 id: MESH:D054972
 name: Postural Orthostatic Tachycardia Syndrome
-is_a: DOID:11569 ! neurocirculatory asthenia
+is_a: MESH:D054971 ! Orthostatic Intolerance
 
 [Term]
 id: MESH:D054975
@@ -7141,7 +7116,7 @@ equivalent_to: DOID:9775 ! diastolic heart failure
 [Term]
 id: MESH:D054970
 name: Pure Autonomic Failure
-is_a: DOID:11589 ! Riley-Day syndrome
+is_a: MESH:D054969 ! Primary Dysautonomias
 
 [Term]
 id: MESH:D054143
@@ -7443,8 +7418,7 @@ is_a: MESH:D013122 ! Spinal Diseases
 [Term]
 id: MESH:D015223
 name: Wolman Disease
-is_a: DOID:14497 ! Wolman disease
-is_a: DOID:3345 ! xanthomatosis
+equivalent_to: DOID:14497 ! Wolman disease
 
 [Term]
 id: MESH:D004443
@@ -7971,13 +7945,7 @@ is_a: DOID:848 ! arthritis
 [Term]
 id: MESH:D000377
 name: Agnosia
-is_a: DOID:0060133 ! anosognosia
-is_a: DOID:0060137 ! auditory agnosia
-is_a: DOID:0060141 ! finger agnosia
-is_a: DOID:0060150 ! astereognosia
-is_a: DOID:0060151 ! tactile agnosia
-is_a: DOID:0060152 ! time agnosia
-is_a: DOID:0060153 ! topographical agnosia
+equivalent_to: DOID:0060150 ! astereognosia
 
 [Term]
 id: MESH:D046729
@@ -8043,7 +8011,8 @@ is_a: DOID:9931 ! Waterhouse-Friderichsen syndrome
 [Term]
 id: MESH:D009303
 name: Nasopharyngeal Neoplasms
-equivalent_to: DOID:9261 ! nasopharynx carcinoma
+is_a: DOID:9561 ! nasopharyngeal disease
+is_a: DOID:0060119 ! pharynx cancer
 
 [Term]
 id: MESH:D020417
@@ -8695,7 +8664,7 @@ is_a: DOID:11701 ! selective IgA deficiency disease
 [Term]
 id: MESH:D011471
 name: Prostatic Neoplasms
-equivalent_to: DOID:10286 ! prostate carcinoma
+equivalent_to: DOID:10283 ! prostate cancer
 
 [Term]
 id: MESH:D009290
@@ -8860,7 +8829,7 @@ is_a: DOID:9098 ! sebaceous gland disease
 [Term]
 id: MESH:D012221
 name: Rhinitis, Allergic, Perennial
-equivalent_to: DOID:4481 ! allergic rhinitis
+is_a: DOID:4481 ! allergic rhinitis
 
 [Term]
 id: MESH:D012222
@@ -9129,8 +9098,7 @@ is_a: DOID:201 ! connective tissue cancer
 [Term]
 id: MESH:D036981
 name: Fasciitis, Plantar
-is_a: DOID:210 ! heel spur
-is_a: DOID:9600 ! plantar fasciitis
+equivalent_to: DOID:9600 ! plantar fasciitis
 
 [Term]
 id: MESH:D013798
@@ -9264,9 +9232,7 @@ equivalent_to: DOID:0050458 ! juvenile myelomonocytic leukemia
 [Term]
 id: MESH:D007006
 name: Hypogonadism
-is_a: DOID:1921 ! Klinefelter's syndrome
-is_a: DOID:1924 ! hypogonadism
-is_a: DOID:5426 ! premature ovarian failure
+equivalent_to: DOID:1924 ! hypogonadism
 
 [Term]
 id: MESH:D007011
@@ -10165,7 +10131,7 @@ equivalent_to: DOID:13515 ! tuberous sclerosis
 [Term]
 id: MESH:D012185
 name: Retroperitoneal Fibrosis
-is_a: DOID:5082 ! liver cirrhosis
+is_a: MESH:D005355 ! Fibrosis
 
 [Term]
 id: MESH:D012186
@@ -10240,8 +10206,7 @@ equivalent_to: DOID:0050085 ! DOID:0050085
 [Term]
 id: MESH:D006480
 name: Hemorrhagic Fever with Renal Syndrome
-is_a: DOID:0050200 ! Korean hemorrhagic fever
-is_a: DOID:0050201 ! nephropathia epidemica
+equivalent_to: DOID:11266 ! hemorrhagic fever with renal syndrome
 
 [Term]
 id: MESH:D006481
@@ -10251,9 +10216,7 @@ equivalent_to: DOID:992 ! Omsk hemorrhagic fever
 [Term]
 id: MESH:D019280
 name: Branchio-Oto-Renal Syndrome
-is_a: DOID:0050691 ! branchiooculofacial syndrome
-is_a: DOID:0060232 ! branchiootic syndrome
-is_a: DOID:14702 ! branchiootorenal syndrome
+equivalent_to: DOID:14702 ! branchiootorenal syndrome
 
 [Term]
 id: MESH:D006484
@@ -10793,7 +10756,9 @@ equivalent_to: DOID:0050425 ! restless legs syndrome
 [Term]
 id: MESH:D001176
 name: Arthrogryposis
-equivalent_to: DOID:0050646 ! distal arthrogryposis
+is_a: DOID:381 ! arthropathy
+is_a: DOID:423 ! myopathy
+is_a: MESH:D009139 ! Musculoskeletal Abnormalities
 
 [Term]
 id: MESH:D014286
@@ -10821,7 +10786,6 @@ name: Osteochondrodysplasias
 is_a: DOID:0050813 ! spondyloepiphyseal dysplasia with congenital joint dislocations
 is_a: DOID:0080036 ! SOST-related sclerosing bone dysplasia
 is_a: DOID:12721 ! multiple epiphyseal dysplasia
-is_a: DOID:4624 ! Ollier disease
 is_a: DOID:7938 ! DOID:7938
 
 [Term]
@@ -10884,8 +10848,7 @@ is_a: MESH:D004775 ! Enuresis
 [Term]
 id: MESH:D013625
 name: Takayasu Arteritis
-is_a: DOID:2508 ! Takayasu's arteritis
-is_a: DOID:519 ! aortitis
+equivalent_to: DOID:2508 ! Takayasu's arteritis
 
 [Term]
 id: MESH:D013622
@@ -11324,7 +11287,6 @@ is_a: DOID:2059 ! vulvar disease
 [Term]
 id: MESH:D010930
 name: Plague
-is_a: DOID:10398 ! pneumonic plague
 is_a: DOID:10773 ! bubonic plague
 is_a: DOID:3481 ! septicemic plague
 
@@ -11462,7 +11424,6 @@ equivalent_to: DOID:3902 ! DOID:3902
 [Term]
 id: MESH:D009134
 name: Muscular Atrophy, Spinal
-is_a: DOID:0050529 ! adult spinal muscular atrophy
 is_a: DOID:12376 ! juvenile spinal muscular atrophy
 is_a: DOID:318 ! progressive muscular atrophy
 
@@ -11494,8 +11455,7 @@ equivalent_to: DOID:10159 ! osteonecrosis
 [Term]
 id: MESH:D002095
 name: Byssinosis
-is_a: DOID:10323 ! byssinosis
-is_a: DOID:12118 ! brown induration
+equivalent_to: DOID:10323 ! byssinosis
 
 [Term]
 id: MESH:D010023
@@ -11704,7 +11664,8 @@ equivalent_to: DOID:2988 ! antiphospholipid syndrome
 [Term]
 id: MESH:D007669
 name: Kidney Calculi
-equivalent_to: DOID:585 ! nephrolithiasis
+is_a: MESH:D014545 ! Urinary Calculi
+is_a: DOID:585 ! nephrolithiasis
 
 [Term]
 id: MESH:D016738
@@ -12221,7 +12182,6 @@ equivalent_to: DOID:4325 ! Ebola hemorrhagic fever
 [Term]
 id: MESH:D057180
 name: Frontotemporal Dementia
-is_a: DOID:0060213 ! FTDALS1
 is_a: DOID:11870 ! Pick's disease
 is_a: DOID:9255 ! frontotemporal dementia
 
@@ -12778,7 +12738,7 @@ equivalent_to: DOID:13378 ! Kawasaki disease
 id: MESH:D019462
 name: Syncope, Vasovagal
 is_a: MESH:D013575 ! Syncope
-is_a: DOID:11569 ! neurocirculatory asthenia
+is_a: MESH:D054971 ! Orthostatic Intolerance
 
 [Term]
 id: MESH:D011289
@@ -12807,7 +12767,7 @@ equivalent_to: DOID:12800 ! mucopolysaccharidosis VI
 id: MESH:D014596
 name: Uterine Prolapse
 is_a: DOID:345 ! uterine disease
-is_a: DOID:9307 ! rectal prolapse
+is_a: MESH:D056887 ! Pelvic Organ Prolapse
 
 [Term]
 id: MESH:D014593
@@ -12999,7 +12959,9 @@ equivalent_to: DOID:8545 ! malignant hyperthermia
 [Term]
 id: MESH:D028227
 name: Amyloid Neuropathies, Familial
-equivalent_to: DOID:0050638 ! transthyretin amyloidosis
+is_a: MESH:D017772 ! Amyloid Neuropathies
+is_a: MESH:D020271 ! Heredodegenerative Disorders, Nervous System
+is_a: DOID:9120 ! amyloidosis
 
 [Term]
 id: MESH:D028226
@@ -13162,8 +13124,7 @@ is_a: MESH:D016154 ! Digestive System Fistula
 [Term]
 id: MESH:D016553
 name: Purpura, Thrombocytopenic, Idiopathic
-is_a: DOID:1587 ! thrombocytopenia due to platelet alloimmunization
-is_a: DOID:8924 ! autoimmune thrombocytopenic purpura
+equivalent_to: DOID:8924 ! autoimmune thrombocytopenic purpura
 
 [Term]
 id: MESH:D010181
@@ -13346,8 +13307,10 @@ is_a: MESH:D007871 ! Leg Ulcer
 [Term]
 id: MESH:D044903
 name: Congenital Hyperinsulinism
-is_a: DOID:13317 ! hyperinsulinemic hypoglycemia
 is_a: DOID:2018 ! hyperinsulinism
+is_a: DOID:9993 ! hypoglycemia
+is_a: MESH:D007232 ! Infant, Newborn, Diseases
+is_a: DOID:26 ! pancreas disease
 
 [Term]
 id: MESH:D044905
@@ -13541,7 +13504,7 @@ equivalent_to: DOID:1498 ! cholera
 [Term]
 id: MESH:D010190
 name: Pancreatic Neoplasms
-equivalent_to: DOID:4905 ! pancreatic carcinoma
+equivalent_to: DOID:1793 ! pancreatic cancer
 
 [Term]
 id: MESH:D009956
@@ -13678,8 +13641,7 @@ equivalent_to: DOID:0050585 ! congenital generalized lipodystrophy
 [Term]
 id: MESH:D052496
 name: Lipodystrophy, Familial Partial
-is_a: DOID:0050440 ! familial partial lipodystrophy
-is_a: DOID:11712 ! lipoatrophic diabetes
+equivalent_to: DOID:0050440 ! familial partial lipodystrophy
 
 [Term]
 id: MESH:D020762
@@ -13831,7 +13793,8 @@ equivalent_to: DOID:4661 ! multiple chemical sensitivity
 [Term]
 id: MESH:D005667
 name: Furunculosis
-equivalent_to: DOID:8478 ! actinomycosis
+is_a: MESH:D005393 ! Fish Diseases
+is_a: MESH:D013207 ! Staphylococcal Skin Infections
 
 [Term]
 id: MESH:D058247
@@ -13872,8 +13835,7 @@ is_a: MESH:D051270 ! Headache Disorders, Primary
 [Term]
 id: MESH:D005633
 name: Fructose Intolerance
-is_a: DOID:5204 ! fructose-1,6-bisphosphatase deficiency
-is_a: DOID:9869 ! hereditary fructose intolerance syndrome
+equivalent_to: DOID:9869 ! hereditary fructose intolerance syndrome
 
 [Term]
 id: MESH:D018746
@@ -13976,8 +13938,7 @@ equivalent_to: DOID:14500 ! fucosidosis
 [Term]
 id: MESH:D000848
 name: Anodontia
-is_a: DOID:0050591 ! tooth agenesis
-is_a: DOID:13714 ! anodontia
+equivalent_to: DOID:13714 ! anodontia
 
 [Term]
 id: MESH:D005642
@@ -14428,7 +14389,7 @@ equivalent_to: DOID:1921 ! Klinefelter's syndrome
 [Term]
 id: MESH:D056587
 name: Cryopyrin-Associated Periodic Syndromes
-equivalent_to: DOID:0050854 ! Muckle-Wells syndrome
+is_a: MESH:D056660 ! Hereditary Autoinflammatory Diseases
 
 [Term]
 id: MESH:D056586
@@ -14513,9 +14474,7 @@ equivalent_to: DOID:12558 ! chronic progressive external ophthalmoplegia
 [Term]
 id: MESH:D001906
 name: Botulism
-is_a: DOID:0050352 ! foodborne botulism
-is_a: DOID:0050353 ! wound botulism
-is_a: DOID:0050354 ! infant botulism
+equivalent_to: DOID:11976 ! botulism
 
 [Term]
 id: MESH:D001907
@@ -14639,8 +14598,7 @@ equivalent_to: DOID:3982 ! Meige syndrome
 [Term]
 id: MESH:D047748
 name: Pituitary ACTH Hypersecretion
-is_a: DOID:12252 ! Cushing's syndrome
-is_a: DOID:3946 ! pituitary-dependent Cushing's disease
+equivalent_to: DOID:3946 ! pituitary-dependent Cushing's disease
 
 [Term]
 id: MESH:D008538
@@ -14855,8 +14813,7 @@ equivalent_to: DOID:12662 ! paracoccidioidomycosis
 [Term]
 id: MESH:D002821
 name: Chorioamnionitis
-is_a: DOID:0050697 ! chorioamnionitis
-is_a: DOID:0050698 ! funisitis
+equivalent_to: DOID:0050697 ! chorioamnionitis
 
 [Term]
 id: MESH:D008209
@@ -15038,7 +14995,7 @@ equivalent_to: DOID:1253 ! DOID:1253
 [Term]
 id: MESH:D056627
 name: Peritoneal Fibrosis
-is_a: DOID:5082 ! liver cirrhosis
+is_a: MESH:D005355 ! Fibrosis
 is_a: MESH:D010532 ! Peritoneal Diseases
 
 [Term]
@@ -15188,7 +15145,7 @@ equivalent_to: DOID:4140 ! biliary dyskinesia
 id: MESH:D057774
 name: Post-Exercise Hypotension
 is_a: MESH:D007022 ! Hypotension
-is_a: DOID:11569 ! neurocirculatory asthenia
+is_a: MESH:D054971 ! Orthostatic Intolerance
 
 [Term]
 id: MESH:D057770
@@ -15268,7 +15225,7 @@ is_a: MESH:D020820 ! Dyskinesias
 [Term]
 id: MESH:D054546
 name: Neuroacanthocytosis
-equivalent_to: DOID:0050766 ! chorea-acanthocytosis
+equivalent_to: DOID:0050765 ! neuroacanthocytosis
 
 [Term]
 id: MESH:D000751
@@ -15609,8 +15566,7 @@ is_a: DOID:1682 ! congenital heart disease
 [Term]
 id: MESH:D003424
 name: Crohn Disease
-is_a: DOID:0060189 ! ileitis
-is_a: DOID:0060190 ! ileocolitis
+equivalent_to: DOID:0060190 ! ileocolitis
 
 [Term]
 id: MESH:D003428
@@ -15834,7 +15790,6 @@ is_a: DOID:10003 ! sensorineural hearing loss
 [Term]
 id: MESH:D016518
 name: Neurofibromatosis 2
-is_a: DOID:12689 ! acoustic neuroma
 is_a: DOID:6543 ! acne
 is_a: DOID:8712 ! neurofibromatosis
 
@@ -15851,9 +15806,7 @@ is_a: DOID:4989 ! pancreatitis
 [Term]
 id: MESH:D016511
 name: Severe Combined Immunodeficiency
-is_a: DOID:0060010 ! Omenn syndrome
-is_a: DOID:1731 ! histoplasmosis
-is_a: DOID:5812 ! MHC class II deficiency
+equivalent_to: DOID:5812 ! MHC class II deficiency
 
 [Term]
 id: MESH:D018658
@@ -16119,7 +16072,7 @@ is_a: MESH:D002494 ! Central Nervous System Infections
 [Term]
 id: MESH:D006344
 name: Heart Septal Defects, Atrial
-equivalent_to: DOID:13620 ! patent foramen ovale
+equivalent_to: DOID:1882 ! atrial heart septal defect
 
 [Term]
 id: MESH:D008258
@@ -16191,8 +16144,7 @@ equivalent_to: DOID:57 ! aortic valve insufficiency
 [Term]
 id: MESH:D006362
 name: Heavy Chain Disease
-is_a: DOID:0060127 ! gamma heavy chain disease
-is_a: DOID:0060128 ! mu chain disease
+equivalent_to: DOID:0060127 ! gamma heavy chain disease
 
 [Term]
 id: MESH:D001020
@@ -16411,8 +16363,7 @@ is_a: MESH:D001416 ! Back Pain
 [Term]
 id: MESH:D017118
 name: Porphyria, Acute Intermittent
-is_a: DOID:2800 ! acute interstitial pneumonia
-is_a: DOID:3890 ! acute intermittent porphyria
+equivalent_to: DOID:3890 ! acute intermittent porphyria
 
 [Term]
 id: MESH:D007827

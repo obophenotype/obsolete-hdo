@@ -54,7 +54,7 @@ DOID = ../ontology/doid.obo
 align-doid-to-omim.tsv: omim-leaf.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
-align-doid-to-mesh.tsv: ../ontology/imports/ctd_import.obo
+align-doid-to-mesh.tsv: mesh.obo
 	blip-findall -i super_ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-omc.tsv: omc.obo
@@ -85,17 +85,20 @@ isa-%.obo: align-%.tsv
 ## --
 ## MESH missing from DO
 ## --
+mesh.obo: ../ontology/imports/ctd_import.obo
+	perl -npe 's@\s+EXACT\s+@ RELATED @ if m@^synonym@' $< > $@
+
 m.pro: ../contrib/MesH.contrib/mesh_list.txt
 	perl -npe 's/:.*//;s/^/MESH:/' $< | tbl2p -p m > m.pro
 
 mesh-missing-from-doid.tsv:
-	blip-findall -i ../ontology/imports/ctd_import.obo -r disease -i xrefs-doid-to-mesh.obo -i m.pro "m(X),\+entity_xref(D,X)" -select X -use_tabs  -label > $@
+	blip-findall -i mesh.obo -r disease -i xrefs-doid-to-mesh.obo -i m.pro "m(X),\+entity_xref(D,X)" -select X -use_tabs  -label > $@
 
 mesh-missing-nearest-parent-doid.tsv: xrefs-doid-to-mesh.obo
-	blip-findall -i ../ontology/imports/ctd_import.obo -r disease -i $< -i m.pro "m(X),\+entity_xref(D,X),subclassT(X,X1),entity_xref(D,X1),\\+((subclassT(X,X2),subclassT(X2,X1),entity_xref(_,X2)))" -select X-D -no_pred -use_tabs  -label > $@
+	blip-findall -i mesh.obo -r disease -i $< -i m.pro "m(X),\+entity_xref(D,X),subclassT(X,X1),entity_xref(D,X1),\\+((subclassT(X,X2),subclassT(X2,X1),entity_xref(_,X2)))" -select X-D -no_pred -use_tabs  -label > $@
 
 mesh_rest.obo: xrefs-doid-to-mesh.obo
-	blip-findall -i m.pro -consult munger.pro -i $< -i ../ontology/imports/ctd_import.obo -r disease "m(M),write_mesh(M),fail" > $@
+	blip-findall -i m.pro -consult munger.pro -i $< -i mesh.obo -r disease "m(M),write_mesh(M),fail" > $@
 
 ## --
 ## Xrefs to logic axioms
@@ -220,10 +223,11 @@ new_ordo_merged.obo: new_ordo.obo omc-minimal.obo
 new_ordo_equivs.obo: new_ordo_merged.obo
 	blip -i $< -consult munger.pro -goal write_equiv_omims,halt > $@ 
 
-mondo.obo: new_ordo_merged.obo new_ordo_equivs.obo
-	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 9 -l DOID 10 -l Orphanet 5 -l OMIM 1 -o -f obo $@.tmp && ./fix-final.pl $@.tmp > $@
-#mondo.obo: new_ordo_merged.obo
-#	blip-ddb -debug merge -i $< -u ontol_management -consult munger.pro -goal merge_equiv_omims io-convert -to obo -o $@.tmp && owltools $@.tmp -o -f obo $@
+mondo_no_mesh.obo: new_ordo_merged.obo new_ordo_equivs.obo
+	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 9 -l DOID 10 -l Orphanet 5 -l OMIM 1 --set-ontology-id $(OBO)/mondo.owl -o -f obo $@.tmp && ./fix-final.pl $@.tmp > $@
+
+mondo.obo: mondo_no_mesh.obo mesh_rest.obo
+	obo-cat.pl $^ >  $@
 
 mondo_rpt.tsv: mondo.obo
 	blip-findall  -i $< -i d2p.pro -consult summary.pro disease_lineage/3 -label -no_pred -use_tabs > $@.tmp && mv $@.tmp $@
