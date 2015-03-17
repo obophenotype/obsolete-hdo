@@ -1,50 +1,32 @@
-DECIPHER:1		0		
-DECIPHER:14		0		
-DECIPHER:15		0		
-DECIPHER:16		0		
-DECIPHER:17		0		
-DECIPHER:18		0		
-DECIPHER:19		0		
-DECIPHER:2		0		
-DECIPHER:20		0		
-DECIPHER:21		0		
-DECIPHER:29		0		
-DECIPHER:3		0		
-DECIPHER:31		0		
-DECIPHER:32		0		
-DECIPHER:34		0		
-DECIPHER:35		0		
-DECIPHER:37		0		
-DECIPHER:38		0		
-DECIPHER:39		0		
-DECIPHER:4		0		
-DECIPHER:42		0		
-DECIPHER:43		0		
-DECIPHER:44		0		
-DECIPHER:45		0		
-DECIPHER:46		0		
-DECIPHER:47		0		
-DECIPHER:48		0		
-DECIPHER:51		0		
-DECIPHER:52		0		
-DECIPHER:53		0		
-DECIPHER:54		0		
-DECIPHER:57		0		
-DECIPHER:58		0		
-DECIPHER:59		0		
-DECIPHER:62		0		
-DECIPHER:65		0		
-DECIPHER:66		0		
-DECIPHER:67		0		
-DECIPHER:68		0		
-DECIPHER:70		0		
-DECIPHER:72		0		
-DECIPHER:74		0		
-DECIPHER:76		0		
-DECIPHER:8		0		
-DECIPHER:81		0		
-DECIPHER:85		0		
-DECIPHER:92		0		
+DECIPHER:1	Wolf-Hirschhorn Syndrome	0		
+DECIPHER:15	Nf1-Microdeletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:17	Sotos Syndrome	0		
+DECIPHER:18	1p36 Microdeletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:19	Potocki-Lupski Syndrome (17p11.2 Duplication Syndrome)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:2	Cri Du Chat Syndrome (5p Deletion)	0		
+DECIPHER:20	22q13 Deletion Syndrome (Phelan-Mcdermid Syndrome)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:21	Miller-Dieker Syndrome (Mds)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:3	Williams-Beuren Syndrome (Wbs)	0		
+DECIPHER:31	Hereditary Liability To Pressure Palsies (Hnpp)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:32	22q11 Duplication Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:34	Potocki-Shaffer Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:35	Wagr 11p13 Deletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:37	3q29 Microdeletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:38	Pelizaeus-Merzbacher Disease	0		
+DECIPHER:39	8p23.1 Deletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:42	Cat-Eye Syndrome (Type I)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:43	7q11.23 Duplication Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:44	2q37 Monosomy	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:45	Xq28 (Mecp2) Duplication	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:46	Split Hand/Foot Malformation 1 (Shfm1)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:47	Rcad (Renal Cysts And Diabetes)	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:51	2q33.1 Deletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:52	9q Subtelomeric Deletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:57	17q21.31 Recurrent Microdeletion Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:58	Leri-Weill Dyschondrostosis (Lwd) - Shox Deletion	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:81	15q26 Overgrowth Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:85	8p23.1 Duplication Syndrome	2		DOID:225	syndrome,DOID:4	disease
+DECIPHER:92	Recurrent 16p12.1 Microdeletion (Neurodevelopmental Susceptibility Locus)	2		DOID:225	syndrome,DOID:4	disease
 OMIM:100200	Abducens Palsy	1		DOID:4	disease
 OMIM:100640		0		
 OMIM:100650	Aldehyde Dehydrogenase 2 Family; ALDH2	1		DOID:4	disease
@@ -1614,8 +1596,10 @@ Orphanet:743		0
 Orphanet:771		0		
 Orphanet:77258	Trichorhinophalangeal syndrome type 1 and 3	2		DC:0000443	Trichorhinophalangeal Syndrome,DOID:4	disease
 Orphanet:79132	Sparse hair - short stature - skin anomalies	2		DC:0000128	Ectodermal Dysplasia,DOID:4	disease
+Orphanet:79133	Focal facial dermal dysplasia type I	2		DC:0000128	Ectodermal Dysplasia,DOID:4	disease
 Orphanet:793		2		DOID:225	syndrome,DOID:4	disease
 Orphanet:79373		1		DOID:4	disease
+Orphanet:79478	Griscelli disease type 3	2		DC:0000356	Griscelli Syndrome,DOID:4	disease
 Orphanet:80		0		
 Orphanet:812		1		DOID:4	disease
 Orphanet:84085	Hinman syndrome	2		DOID:4	disease,Orphanet:101433	Rare urogenital disease

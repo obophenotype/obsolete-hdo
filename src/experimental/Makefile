@@ -40,7 +40,7 @@ omc-minimal.obo: omc-mapped-to-do.obo
 ## --
 
 omim-leaf.obo: ../ontology/imports/omim_import.obo
-	obo-grep.pl --neg -r 'id: OMIM:PS' $< > $@.tmp && grep -v ^owl-ax $@.tmp > $@
+	obo-grep.pl --neg -r 'id: OMIM:PS' $< > $@.tmp && grep -v ^owl-ax $@.tmp | grep -v ^is_a > $@
 
 omimps.obo: ../ontology/imports/omim_import.obo
 	obo-grep.pl -r 'id: OMIM:PS' $< > $@.tmp && grep -v ^owl-ax $@.tmp > $@
@@ -55,6 +55,9 @@ omimps-min.obo: ../ontology/imports/omim_import.obo
 DOID = ../ontology/doid.obo
 align-doid-to-omim.tsv: omim-leaf.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+
+align-doid-to-decipher.tsv: ../contrib/decipherclusters.obo
+	blip-findall -i super_ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 align-doid-to-mesh.tsv: mesh.obo
 	blip-findall -i super_ignore.pro -u metadata_nlp -i $< -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
@@ -99,8 +102,7 @@ mesh-missing-from-doid.tsv:
 mesh-missing-nearest-parent-doid.tsv: xrefs-doid-to-mesh.obo
 	blip-findall -i mesh.obo -r disease -i $< -i m.pro "m(X),\+entity_xref(D,X),subclassT(X,X1),entity_xref(D,X1),\\+((subclassT(X,X2),subclassT(X2,X1),entity_xref(_,X2)))" -select X-D -no_pred -use_tabs  -label > $@
 
-mesh_rest.obo: xrefs-doid-to-mesh.obo
-	blip-findall -i m.pro -consult munger.pro -i $< -i mesh.obo -r disease "m(M),write_mesh(M),fail" > $@
+
 
 ## --
 ## Xrefs to logic axioms
@@ -229,10 +231,26 @@ new_ordo_equivs.obo: new_ordo_merged.obo
 	blip -i $< -consult munger.pro -goal write_equiv_omims,halt > $@ 
 
 mondo_no_mesh.obo: new_ordo_merged.obo new_ordo_equivs.obo
-	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 9 -l DOID 10 -l Orphanet 5 -l OMIM 1 --set-ontology-id $(OBO)/mondo.owl -o -f obo $@.tmp && ./fix-final.pl $@.tmp > $@
+	owltools $^ --merge-support-ontologies -o -f obo $@
 
-mondo.obo: mondo_no_mesh.obo mesh_rest.obo
-	obo-cat.pl $^ >  $@
+mondo_squished.obo: mondo_no_mesh.obo mesh_rest.obo
+	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 8 -s MESH 7 -l DOID 10 -l Orphanet 5 -l MESH 3 -l OMIM 1 --set-ontology-id $(OBO)/mondo.owl -o -f obo $@.tmp && ./fix-final.pl $@.tmp > $@
+
+mesh_rest.obo: xrefs-doid-to-mesh.obo new_ordo.obo
+	blip-findall -consult munger.pro -i $< -i mondo_no_mesh.obo -i mesh.obo -r disease "write_mesh(M),fail" > $@
+###	blip-findall -i m.pro -consult munger.pro -i $< -i mesh.obo -r disease "write_mesh(M),fail" > $@
+
+mondo.obo: mondo_squished.obo ../contrib/decipherclusters.obo
+	obo-cat.pl -i $^ >  $@
+
+mondo-simple.obo: mondo.obo
+	owltools $< --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 8 -s MESH 7 -l DOID 10 -l Orphanet 5 -l MESH 3 -l OMIM 1 --set-ontology-id $(OBO)/mondo.owl -o -f obo --no-check  $@
+
+mondo.owl: mondo.obo
+	owltools $< -o $@.tmp && ./fix-ordo-uris.pl $@.tmp > $@
+
+%-danglers.txt: %.obo
+	obo2obo $< -o $@.roundtrip >& $@.tmp && grep 'No parent' $@.tmp > $@
 
 mondo_rpt.tsv: mondo.obo
 	blip-findall  -i $< -i d2p.pro -consult summary.pro disease_lineage/3 -label -no_pred -use_tabs > $@.tmp && mv $@.tmp $@
@@ -242,3 +260,6 @@ mondo_unclassified.tsv: mondo_rpt.tsv
 
 images/mdo-doid-%.png: mondo.obo
 	blip ontol-subset -i $< -query "subclassT(ID,'DOID:$*')" -u ontol_config_do -to png -cr part_of > $@
+
+genereviews.ttl:
+	wget http://nif-crawler.neuinfo.org/monarch/ttl/genereviews.ttl -O $@

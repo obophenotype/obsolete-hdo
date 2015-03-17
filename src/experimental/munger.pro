@@ -221,6 +221,9 @@ ignore('malformation syndrome').
 ignore('gene').
 ignore('inheritance').
 ignore('age of onset').
+ignore('clinical subtype').
+ignore('etiological subtype').
+ignore('histopathological subtype').
 ignore('particular clinical situation in a disease or syndrome').
 
 is_ignore(X) :- ignore(X),!.
@@ -228,6 +231,8 @@ is_ignore(X) :- class(X,XN),ignore(XN),!.
 
 dmatch(Grp,D,IsStemmed) :-
         entity_pair_label_reciprocal_best_intermatch(Grp,D,IsStemmed),
+        D\=is_a,
+        Grp\=is_a,
         \+ id_idspace(D,'OMIM').
 
 ordo2do('Orphanet:377788','DOID:4') :- !.  % disease
@@ -645,10 +650,18 @@ merge_into(D,M,Opts) :-
         retractall(class(D)).
 */
 
+valid_entity_xref(C,X) :-
+        entity_xref(C,X),
+        \+ entity_obsolete(C,_).
+
 write_all_mesh :-
         write_mesh(_),
         fail.
 write_all_mesh.
+
+%mesh_map(MeshId,NewId) :-
+%        entity_xref_from_to(D,MeshId,'DOID','MESH').
+
 
 write_mesh(D) :-
         class(D),
@@ -658,11 +671,13 @@ write_mesh(D) :-
 % CASE 1: no xref
 % write a MESH stanza and wire it up to the nearest equivalent disease
 write_mesh1(D) :-
-        \+ entity_xref(_,D),
+        \+ valid_entity_xref(_,D),
         class(D,DN),
         format('[Term]~n'),
         format('id: ~w~n',[D]),
         format('name: ~w~n',[DN]),
+        % rewire to DOID if there is an equivalent;
+        % note: may then be necessary to rewire again if DOID is replaced 
         forall(subclass(D,P),
                (   entity_xref_from_to(PX,P,'DOID','MESH')
                ->  class2n(PX,PN),
@@ -703,6 +718,6 @@ write_mesh1(D) :-
         
 %% entity_xref_nr(?D,+X)
 entity_xref_nr(D,X) :-
-        entity_xref(D,X),
+        valid_entity_xref(D,X),
         \+ ((entity_xref(D2,X),
              subclassT(D2,D))).
