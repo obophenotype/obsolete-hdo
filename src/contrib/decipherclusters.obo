@@ -46,7 +46,7 @@ is_a: DOID:225 ! syndrome
 [Term]
 id: DECIPHER:2
 name: Cri Du Chat Syndrome (5p Deletion)
-is_a: DOID:12580 ! Cri-Du-Chat syndrome
+equivalent_to: OMIM:123450 ! Cri-Du-Chat syndrome
 
 [Term]
 id: DECIPHER:20
