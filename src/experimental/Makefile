@@ -253,7 +253,7 @@ mondo.owl: mondo.obo
 	obo2obo $< -o $@.roundtrip >& $@.tmp && grep 'No parent' $@.tmp > $@
 
 mondo_rpt.tsv: mondo.obo
-	blip-findall  -i $< -i d2p.pro -consult summary.pro disease_lineage/3 -label -no_pred -use_tabs > $@.tmp && mv $@.tmp $@
+	blip-findall  -i $< -i d2p.pro -consult summary.pro disease_lineage/3 -label -no_pred  > $@.tmp && mv $@.tmp $@
 
 mondo_unclassified.tsv: mondo_rpt.tsv
 	egrep '\t(2|1|0)\t' $< > $@
