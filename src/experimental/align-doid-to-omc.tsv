@@ -288,6 +288,8 @@ DC:0000218	Hypotrichosis	DOID:4535	hypotrichosis	true
 DC:0000225	Inflammatory Bowel Disease	DOID:0050589	inflammatory bowel disease	false	
 DC:0000225	Inflammatory Bowel Disease	DOID:0050589	inflammatory bowel disease	true	
 DC:0000228	Iridogoniodysgenesis	DOID:0050786	iridogoniodysgenesis syndrome	false	
+DC:0000230	Jervell and Lange-Nielsen Syndrome	DOID:2842	Jervell-Lange Nielsen syndrome	false	
+DC:0000230	Jervell and Lange-Nielsen Syndrome	DOID:2842	Jervell-Lange Nielsen syndrome	true	
 DC:0000231	Joubert Syndrome	DOID:0050777	Joubert syndrome	false	
 DC:0000231	Joubert Syndrome	DOID:0050777	Joubert syndrome	true	
 DC:0000232	Keratoconus	DOID:10126	keratoconus	false	
@@ -300,6 +302,7 @@ DC:0000238	Leigh Syndrome	DOID:3652	Leigh disease	false
 DC:0000238	Leigh Syndrome	DOID:3652	Leigh disease	true	
 DC:0000239	LEOPARD Syndrome	DOID:14291	LEOPARD syndrome	false	
 DC:0000239	LEOPARD Syndrome	DOID:14291	LEOPARD syndrome	true	
+DC:0000240	Leprosy, Susceptibility to	DOID:1024	leprosy	false	
 DC:0000242	Leukemia, Chronic Lymphocytic	DOID:1040	chronic lymphocytic leukemia	false	
 DC:0000242	Leukemia, Chronic Lymphocytic	DOID:1040	chronic lymphocytic leukemia	true	
 DC:0000246	Leukodystrophy, Metachromatic	DOID:10581	metachromatic leukodystrophy	false	
@@ -330,6 +333,8 @@ DC:0000258	Lymphedema	DOID:4977	lymphedema	false
 DC:0000258	Lymphedema	DOID:4977	lymphedema	true	
 DC:0000262	Macular Degeneration, Age-Related	DOID:10871	age related macular degeneration	false	
 DC:0000262	Macular Degeneration, Age-Related	DOID:10871	age related macular degeneration	true	
+DC:0000265	Malaria Susceptibility	DOID:12365	malaria	false	
+DC:0000265	Malaria Susceptibility	DOID:12365	malaria	true	
 DC:0000266	Malignant Hyperthermia	DOID:8545	malignant hyperthermia	false	
 DC:0000266	Malignant Hyperthermia	DOID:8545	malignant hyperthermia	true	
 DC:0000268	Medullary Cystic Kidney Disease	DOID:12712	nephronophthisis	false	
@@ -361,6 +366,7 @@ DC:0000294	Multiple Synostoses Syndrome	DOID:0050794	multiple synostoses syndrom
 DC:0000294	Multiple Synostoses Syndrome	DOID:0050794	multiple synostoses syndrome	true	
 DC:0000295	Muscular Dystrophy	DOID:9884	muscular dystrophy	false	
 DC:0000295	Muscular Dystrophy	DOID:9884	muscular dystrophy	true	
+DC:0000299	Myocardial Infarction, Susceptibility	DOID:5844	myocardial infarction	false	
 DC:0000300	Epilepsy, Myoclonic	DOID:308	early myoclonic encephalopathy	false	
 DC:0000300	Epilepsy, Myoclonic	DOID:308	early myoclonic encephalopathy	true	
 DC:0000301	Myopathy, Centronuclear	DOID:14717	centronuclear myopathy	false	
@@ -669,6 +675,8 @@ DC:0000542	Hypogonadism	DOID:1924	hypogonadism	false
 DC:0000542	Hypogonadism	DOID:1924	hypogonadism	true	
 DC:0000543	Hypoplastic Left Heart Syndrome	DOID:9955	hypoplastic left heart syndrome	false	
 DC:0000543	Hypoplastic Left Heart Syndrome	DOID:9955	hypoplastic left heart syndrome	true	
+DC:0000548	Kala-Azar, Susceptibility	DOID:9146	visceral leishmaniasis	false	
+DC:0000548	Kala-Azar, Susceptibility	DOID:9146	visceral leishmaniasis	true	
 DC:0000555	Maple Syrup Urine Disease	DOID:9269	maple syrup urine disease	false	
 DC:0000555	Maple Syrup Urine Disease	DOID:9269	maple syrup urine disease	true	
 DC:0000557	Megalocornea	DOID:0060305	megalocornea	false	
@@ -744,6 +752,7 @@ DC:0000628	Congenital Disorders of Glycosylation, Type I	DOID:0050570	congenital
 DC:0000629	Congenital Disorders of Glycosylation, Type II	DOID:0050571	congenital disorder of glycosylation type II	true	
 DC:0000630	Achondrogenesis	DOID:0080043	achondrogenesis	false	
 DC:0000630	Achondrogenesis	DOID:0080043	achondrogenesis	true	
+DC:0000632	Autoimmune Disease, Susceptibility to	DOID:417	hypersensitivity reaction type II disease	false	
 DC:0000633	Autoimmune Lymphoproliferative Syndrome	DOID:6688	autoimmune lymphoproliferative syndrome	false	
 DC:0000633	Autoimmune Lymphoproliferative Syndrome	DOID:6688	autoimmune lymphoproliferative syndrome	true	
 DC:0000635	Aortic Aneurysm, Familial Abdominal	DOID:7693	abdominal aortic aneurysm	false	
@@ -1056,6 +1065,7 @@ DOID:0080049	acromesomelic dysplasia	DC:0000009	Acromesomelic dysplasia	false
 DOID:0080049	acromesomelic dysplasia	DC:0000009	Acromesomelic dysplasia	true	
 DOID:10126	keratoconus	DC:0000232	Keratoconus	false	
 DOID:10126	keratoconus	DC:0000232	Keratoconus	true	
+DOID:1024	leprosy	DC:0000240	Leprosy, Susceptibility to	false	
 DOID:10283	prostate cancer	DC:0000375	Prostate Cancer	false	
 DOID:10283	prostate cancer	DC:0000375	Prostate Cancer	true	
 DOID:10286	prostate carcinoma	DC:0000375	Prostate Cancer	false	
@@ -1161,6 +1171,8 @@ DOID:12347	osteogenesis imperfecta	DC:0000338	Osteogenesis Imperfecta	false
 DOID:12347	osteogenesis imperfecta	DC:0000338	Osteogenesis Imperfecta	true	
 DOID:12361	Graves' disease	DC:0000051	Graves Disease	false	
 DOID:12361	Graves' disease	DC:0000051	Graves Disease	true	
+DOID:12365	malaria	DC:0000265	Malaria Susceptibility	false	
+DOID:12365	malaria	DC:0000265	Malaria Susceptibility	true	
 DOID:12376	juvenile spinal muscular atrophy	DC:0000413	Spinal Muscular Atrophy	false	
 DOID:12377	spinal muscular atrophy	DC:0000413	Spinal Muscular Atrophy	false	
 DOID:12377	spinal muscular atrophy	DC:0000413	Spinal Muscular Atrophy	true	
@@ -1357,6 +1369,8 @@ DOID:2747	glycogen storage disease	DC:0000176	Glycogen Storage Disease	false
 DOID:2747	glycogen storage disease	DC:0000176	Glycogen Storage Disease	true	
 DOID:2841	asthma	DC:0000031	Asthma	false	
 DOID:2841	asthma	DC:0000031	Asthma	true	
+DOID:2842	Jervell-Lange Nielsen syndrome	DC:0000230	Jervell and Lange-Nielsen Syndrome	false	
+DOID:2842	Jervell-Lange Nielsen syndrome	DC:0000230	Jervell and Lange-Nielsen Syndrome	true	
 DOID:2843	long QT syndrome	DC:0000256	Long QT Syndrome	false	
 DOID:2843	long QT syndrome	DC:0000256	Long QT Syndrome	true	
 DOID:2908	Treacher Collins syndrome	DC:0000440	Treacher Collins Syndrome	false	
@@ -1425,6 +1439,7 @@ DOID:4028	angioma serpiginosum	DC:0000471	Angioma Serpiginosum	false
 DOID:4028	angioma serpiginosum	DC:0000471	Angioma Serpiginosum	true	
 DOID:4154	dentinogenesis imperfecta	DC:0000502	Dentinogenesis Imperfecta	false	
 DOID:4154	dentinogenesis imperfecta	DC:0000502	Dentinogenesis Imperfecta	true	
+DOID:417	hypersensitivity reaction type II disease	DC:0000632	Autoimmune Disease, Susceptibility to	false	
 DOID:4184	pseudohypoparathyroidism	DC:0000662	Pseudohypoparathyroidism	false	
 DOID:4184	pseudohypoparathyroidism	DC:0000662	Pseudohypoparathyroidism	true	
 DOID:420	hypertrichosis	DC:0000207	Hypertrichosis	false	
@@ -1465,6 +1480,7 @@ DOID:5557	testicular germ cell cancer	DC:0000431	Testicular Germ Cell Tumor	fals
 DOID:5557	testicular germ cell cancer	DC:0000431	Testicular Germ Cell Tumor	true	
 DOID:5723	optic atrophy	DC:0000333	Optic Atrophy	false	
 DOID:5723	optic atrophy	DC:0000333	Optic Atrophy	true	
+DOID:5844	myocardial infarction	DC:0000299	Myocardial Infarction, Susceptibility	false	
 DOID:594	panic disorder	DC:0000637	Panic Disorder	false	
 DOID:594	panic disorder	DC:0000637	Panic Disorder	true	
 DOID:6039	uveal melanoma	DC:0000448	Uveal Melanoma	false	
@@ -1522,6 +1538,8 @@ DOID:905	Zellweger syndrome	DC:0000576	Peroxisome Biogenesis Disorder	false
 DOID:905	Zellweger syndrome	DC:0000576	Peroxisome Biogenesis Disorder	true	
 DOID:9074	systemic lupus erythematosus	DC:0000052	Systemic Lupus Erythematosus	false	
 DOID:9074	systemic lupus erythematosus	DC:0000052	Systemic Lupus Erythematosus	true	
+DOID:9146	visceral leishmaniasis	DC:0000548	Kala-Azar, Susceptibility	false	
+DOID:9146	visceral leishmaniasis	DC:0000548	Kala-Azar, Susceptibility	true	
 DOID:9169	Wiskott-Aldrich syndrome	DC:0000613	Wiskott-Aldrich Syndrome	false	
 DOID:9169	Wiskott-Aldrich syndrome	DC:0000613	Wiskott-Aldrich Syndrome	true	
 DOID:9245	Alagille syndrome	DC:0000015	Alagille Syndrome	false	
