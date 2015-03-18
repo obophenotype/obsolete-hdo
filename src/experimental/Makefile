@@ -18,8 +18,8 @@ disease_nosyn.obo: ../ontology/doid.obo
 #	wget ftp://ftp.informatics.jax.org/pub/curatorwork/OMIM.clusters -O $@
 
 # local copy of MGI's file
-omimclusters.obo: ../contrib/omimclusters.obo
-	cp $< $@
+omimclusters.obo: ../contrib/omimclusters.obo ../ontology/imports/omim_import.obo
+	obo-merge-tags.pl -t def -t synonym -t name $^ > $@.tmp && obo2obo $@.tmp -o $@
 
 # subset that includes only the clusters/groupings
 omc.obo: ../contrib/omimclusters.obo
