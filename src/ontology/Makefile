@@ -40,6 +40,8 @@ doid-plus-%.obo: doid-plus-%.owl
 # TEMPORARY!!! Sync with SVN. Once github is primary, this will be removed
 doid-edit.owl:
 	owltools $(HOME)/repos/diseaseontology/HumanDO.obo --add-imports-declarations $(OBO)/doid/ext.owl -o -f ofn $@.tmp && perl -npe 's@"ORDO:@"Orphanet:@' $@.tmp > $@
+update-svn:
+	svn update $(HOME)/repos/diseaseontology/HumanDO.obo
 
 # ----------------------------------------
 # Imports
@@ -169,19 +171,22 @@ bridge/orphanet_disease_omim_bridge_init.owl: orphanet/orphanet-orig.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM \
 	--set-ontology-id $(OBO)/doid/$@ -o $@
 
+# UPDATE THIS REGULARLY
 orphanet/orphanet-orig.owl:
-	wget -nd -P orphanet http://www.orphadata.org/data/ORDO/ordo_orphanet_1.2.owl.zip
-	unzip  orphanet/ordo_orphanet_1.2.owl.zip -d orphanet && rm orphanet/ordo_orphanet_*.zip
-	mv orphanet/orphadata1.2.owl orphanet/orphanet-orig.owl
+	wget -nd -P orphanet http://www.orphadata.org/data/ORDO/ordo_orphanet.owl.zip
+	unzip  orphanet/ordo_orphanet.owl.zip -d orphanet && rm orphanet/ordo_orphanet*.zip
+	mv orphanet/orphadata*.owl orphanet/orphanet-orig-1.owl
+	orphanet/fix-ordo.pl orphanet/orphanet-orig-1.owl > orphanet/orphanet-orig.owl && rm orphanet/orphanet-orig-1.owl
 	rm orphanet/ontology_version_* >/dev/null 2>&1 || true
-	touch orphanet/ontology_verion_1.2
+	touch orphanet/ontology_verion_2
 
-orphanet/orphanet-obostyle.obo: orphanet/orphanet-orig.owl
-	owltools $< --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties -o -f obo $@
+# use OBO tags/vocabulary; keep hierarchy in place
+orphanet/orphanet-obostyle.obo: orphanet/orphanet-orig.owl orphanet/part_of.obo
+	owltools $^ --merge-support-ontologies --rename-entity $(EFO)/definition $(OBO)/IAO_0000115 --rename-entity $(EFO)/alternative_term $(OIO)hasExactSynonym  --add-obo-shorthand-to-properties -o -f obo $@
 
 # preserve only 'disease' and 'group of disorders' hierarchies, plus links between them
 orphanet/ordo-phenome.owl: orphanet/orphanet-obostyle.obo
-	owltools $< --make-subset-by-properties  part_of --reasoner-query -l phenome --make-ontology-from-results $(OBO)/orphanet.owl  -o $@
+	owltools $< --make-subset-by-properties -f  BFO:0000050 --reasoner-query -l phenome --make-ontology-from-results $(OBO)/orphanet.owl  -o $@
 
 orphanet/omim-equiv-ordo.owl: orphanet/ordo-phenome.owl
 	owltools --use-catalog $< --translate-xrefs-to-equivs -n -p OMIM --set-ontology-id $(OBO)/doid/$@ -o $@
