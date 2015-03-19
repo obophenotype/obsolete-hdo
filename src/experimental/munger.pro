@@ -7,15 +7,20 @@
 :- use_module(bio(bioprolog_util)).
 :- use_module(library(porter_stem)).
 
-
+% Convenience predicate
 entity_xref_from(Grp,D,S) :-
         entity_xref(Grp,D),
         id_idspace(Grp,S).
 
+% Convenience predicate
 entity_xref_from_to(Grp,D,S,S2) :-
         entity_xref_idspace(Grp,D,S2),
         id_idspace(Grp,S).
 
+%% d2group(+Disease,?Grp,?Scheme)
+%
+% Map a disease D (e.g. OMIM) to a disease grouping (e.g. DC ID) based
+% on some scheme (e.g. dc)
 d2group(D,Grp,dc) :-
         subclass(D,Grp),
         id_idspace(Grp,'DC'),
@@ -34,10 +39,12 @@ d2groups(D,L,GN) :-
         solutions(Grp,d2group(D,Grp,GN),L).
 
 
-
+% Disease that has been annotated
 d(D) :-
         setof(D,P^d2p(D,P),Ds),
         member(D,Ds).
+
+% Grouping
 g(G) :-
         setof(G,D^N^d2group(D,G,N),Gs),
         member(G,Gs).
@@ -604,8 +611,12 @@ write_equiv_omims :-
         class(M),
         id_idspace(M,'OMIM'),
         setof(P,subclass_in(M,P,_S),[P]), % P must be only parent of M in S
-        setof(Z,subclass(Z,P),[M]),      % ...and M must be only child of P
-        \+ is_group_of_disorders(P),
+        setof(Z,(subclass(Z,P),id_idspace(Z,'OMIM')),[M]),      % ...and M must be only child of P
+        \+ is_group_of_disorders(P),  % nerve merge into a grouping
+        % never merge into a class that has non-subtype children
+        \+ ((subclass(Z,P),
+             \+ id_idspace(Z,'OMIM'),
+             \+ is_sub_disease_type(P))),
         %\+ restriction(_,_,P),  % never merge into group-of-disorders
         % labels must match
         \+ \+ entity_pair_label_intermatch(M,P,_,_,_),
@@ -617,6 +628,10 @@ write_equiv_omims :-
         nl,
         fail.
 write_equiv_omims.
+
+is_sub_disease_type(X) :- entity_partition(X,etiological_subtype).
+is_sub_disease_type(X) :- entity_partition(X,clinical_subtype).
+is_sub_disease_type(X) :- entity_partition(X,histopathological_subtype).
 
 /*
 % DEPREC:
@@ -717,6 +732,8 @@ write_mesh1(D) :-
 
         
 %% entity_xref_nr(?D,+X)
+%
+% checks valid form only
 entity_xref_nr(D,X) :-
         valid_entity_xref(D,X),
         \+ ((entity_xref(D2,X),

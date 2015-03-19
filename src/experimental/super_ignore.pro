@@ -14,3 +14,4 @@ metadata_nlp:synset_hook(['',with]).
 metadata_nlp:synset_hook(['',type]).
 metadata_nlp:synset_hook(['',susceptibility]).
 metadata_nlp:synset_hook(['',to]).
+metadata_nlp:synset_hook([tyrosinemia, tyrosinemias]).
