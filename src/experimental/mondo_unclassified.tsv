@@ -307,7 +307,6 @@ OMIM:145590 ! Hyperthermia, Cutaneous, With Headaches And Nausea	1	DOID:4 ! dise
 OMIM:145680 ! Dystransthyretinemic Euthyroidal Hyperthyroxinemia	1	DOID:4 ! disease
 OMIM:145800 ! Hypertrophia Musculorum Vera	1	DOID:4 ! disease
 OMIM:146350 ! Hypophosphatemic Bone Disease	1	DOID:4 ! disease
-OMIM:146840 ! Immunodeficiency with Defective Leukocyte and Lymphocyte Function and with Response to Histamine-1 Antagonist	2	DC:0000615 ! Immunodeficiency,DOID:4 ! disease
 OMIM:146850 ! Immune Suppression	1	DOID:4 ! disease
 OMIM:147050 ! Ige Responsiveness, Atopic	1	DOID:4 ! disease
 OMIM:147300 ! Incisors, Long Upper Central	1	DOID:4 ! disease
@@ -791,7 +790,6 @@ OMIM:242890 ! Immunoglobulin D Level 1N Plasma, Low	1	DOID:4 ! disease
 OMIM:243050 ! Indolylacroyl Glycinuria with Mental Retardation	1	DOID:4 ! disease
 OMIM:243080 ! Inosine Phosphorylase Deficiency, Immune Defect Due To	1	DOID:4 ! disease
 OMIM:243100 ! Internal Carotid Arteries, Hypoplasia of	1	DOID:4 ! disease
-OMIM:243110 ! Immunodeficiency With Defective T-Cell Response to Interleukin 1	2	DC:0000615 ! Immunodeficiency,DOID:4 ! disease
 OMIM:243400 ! Acetylation, Slow	1	DOID:4 ! disease
 OMIM:243450 ! Isovaleric Acid, Inability to Smell	1	DOID:4 ! disease
 OMIM:244100 ! Jumping Frenchman of Maine	1	DOID:4 ! disease
@@ -968,7 +966,6 @@ OMIM:300211 ! Episodic Muscle Weakness, X-Linked	1	DOID:4 ! disease
 OMIM:300280 ! Uruguay Faciocardiomusculoskeletal Syndrome	1	DOID:4 ! disease
 OMIM:300290	0	
 OMIM:300488	0	
-OMIM:300584 ! Immunodeficiency without anhidrotic ectodermal dysplasia	2	DC:0000615 ! Immunodeficiency,DOID:4 ! disease
 OMIM:300602 ! Clark-Baraitser syndrome	1	DOID:4 ! disease
 OMIM:300619 ! Cataracts, ataxia, short stature, and mental retardation	1	DOID:4 ! disease
 OMIM:300622 ! Tn Syndrome	1	DOID:4 ! disease
@@ -994,7 +991,6 @@ OMIM:306930 ! Hemopoietic Proliferation	1	DOID:4 ! disease
 OMIM:306960 ! Hhhh Syndrome	1	DOID:4 ! disease
 OMIM:306995	0	
 OMIM:308200 ! Ichthyosis and male hypogonadism	1	DOID:4 ! disease
-OMIM:308220 ! Immunodeficiency, X-Linked, with Deficiency of 115,000 Dalton Surface Glycoprotein	2	DC:0000615 ! Immunodeficiency,DOID:4 ! disease
 OMIM:308250 ! Immunoglobulin M, Level of	1	DOID:4 ! disease
 OMIM:308280 ! Impacted Teeth, Multiple	1	DOID:4 ! disease
 OMIM:308500 ! Iris hypoplasia and glaucoma	1	DOID:4 ! disease
@@ -1144,7 +1140,6 @@ OMIM:604559 ! Progressive Familial Heart Block, Type Ib	2	DC:0000374 ! Progressi
 OMIM:604715 ! Orthostatic Intolerance	1	DOID:4 ! disease
 OMIM:604772 ! Ventricular Tachycardia, Catecholaminergic Polymorphic, 1, With or Without Atrial Dysfunction And/Or Dilated Cardiomyopathy	2	DC:0000665 ! Ventricular Tachycardia, Catecholaminergic Polymorphic,DOID:4 ! disease
 OMIM:605013 ! Microhydranencephaly	1	DOID:4 ! disease
-OMIM:605019 ! Hypobetalipoproteinemia, Familial, 2	2	DC:0000678 ! Hypobetalipoproteinemia, Familial,DOID:4 ! disease
 OMIM:605249 ! Sebastian Syndrome	1	DOID:4 ! disease
 OMIM:605289 ! Split-Hand/Foot Malformation 4	2	DC:0000416 ! Split-Hand/Foot Malformation,DOID:4 ! disease
 OMIM:605321 ! Frontoocular Syndrome	1	DOID:4 ! disease
@@ -1345,17 +1340,14 @@ OMIM:615412 ! Cortical Dysplasia, Complex, With Other Brain Malformations 4	2	DC
 OMIM:615414 ! Microcephaly 11, Primary, Autosomal Recessive	2	DOID:4 ! disease,MESH:C579935 ! Autosomal Recessive Primary Microcephaly
 OMIM:615441 ! Ventricular Tachycardia, Catecholaminergic Polymorphic, 5, With or Without Muscle Weakness	2	DC:0000665 ! Ventricular Tachycardia, Catecholaminergic Polymorphic,DOID:4 ! disease
 OMIM:615457	0	
-OMIM:615558 ! Hypobetalipoproteinemia, Familial, 1	2	DC:0000678 ! Hypobetalipoproteinemia, Familial,DOID:4 ! disease
 OMIM:615582 ! Rienhoff Syndrome	1	DOID:4 ! disease
 OMIM:615583 ! Verheij Syndrome	1	DOID:4 ! disease
 OMIM:615706 ! Auriculocondylar Syndrome 3	2	DC:0000475 ! Auriculocondylar Syndrome,DOID:4 ! disease
-OMIM:615707 ! Immunodeficiency 20	2	DC:0000615 ! Immunodeficiency,DOID:4 ! disease
 OMIM:615710 ! Mitchell-Riley Syndrome	1	DOID:4 ! disease
 OMIM:615721 ! Renal Hypodysplasia/Aplasia 2	1	DOID:4 ! disease
 OMIM:615763 ! Cortical Dysplasia, Complex, With Other Brain Malformations 5	2	DC:0000498 ! Cortical Dysplasia, Complex, with Other Brain Malformations,DOID:4 ! disease
 OMIM:615771 ! Cortical Dysplasia, Complex, With Other Brain Malformations 6	2	DC:0000498 ! Cortical Dysplasia, Complex, with Other Brain Malformations,DOID:4 ! disease
 OMIM:615777 ! Desbuquois Dysplasia 2	2	DC:0000623 ! Desbuquois Dysplasia,DOID:4 ! disease
-OMIM:615816 ! Immunodeficiency 23	2	DC:0000615 ! Immunodeficiency,DOID:4 ! disease
 OMIM:615829 ! Xia-Gibbs Syndrome	1	DOID:4 ! disease
 OMIM:615849 ! Culler-Jones Syndrome	1	DOID:4 ! disease
 OMIM:615883 ! Myopathy, Tubular Aggregate, 2	2	DC:0000667 ! Myopathy, Tubular Aggregate,DOID:4 ! disease
@@ -1372,13 +1364,11 @@ Orphanet:1052	1	DOID:4 ! disease
 Orphanet:1055	0	
 Orphanet:116	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:1167	0	
-Orphanet:1174 ! Cerebellar ataxia - ectodermal dysplasia	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
 Orphanet:1184	0	
 Orphanet:120	0	
 Orphanet:1232	0	
 Orphanet:1236	0	
 Orphanet:1262 ! BC6C6k syndrome	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
-Orphanet:1264 ! Tricho-retino-dento-digital syndrome	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
 Orphanet:1313	0	
 Orphanet:1321	0	
 Orphanet:1323	0	
@@ -1488,7 +1478,6 @@ Orphanet:3197	1	DOID:4 ! disease
 Orphanet:3200	0	
 Orphanet:3215	0	
 Orphanet:3216	0	
-Orphanet:3236 ! Conductive deafness - ptosis - skeletal anomalies	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
 Orphanet:3265	1	DOID:4 ! disease
 Orphanet:3286	1	DOID:4 ! disease
 Orphanet:3311	0	
@@ -1531,7 +1520,6 @@ Orphanet:77258 ! Trichorhinophalangeal syndrome type 1 and 3	2	DC:0000443 ! Tric
 Orphanet:79132 ! Sparse hair - short stature - skin anomalies	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
 Orphanet:793	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:79373	1	DOID:4 ! disease
-Orphanet:79478 ! Griscelli disease type 3	2	DC:0000356 ! Griscelli Syndrome,DOID:4 ! disease
 Orphanet:80	0	
 Orphanet:84085 ! Hinman syndrome	2	DOID:4 ! disease,Orphanet:101433 ! Rare urogenital disease
 Orphanet:84090	1	DOID:4 ! disease

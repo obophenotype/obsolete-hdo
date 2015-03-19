@@ -657,10 +657,6 @@ id: DOID:3953 ! adrenal gland cancer
 xref: MESH:D000310 ! Adrenal Gland Neoplasms
 
 [Term]
-id: DC:0000548 ! Kala-Azar, Susceptibility
-xref: DOID:9146 ! visceral leishmaniasis
-
-[Term]
 id: Orphanet:3348 ! Tracheobronchopathia osteochondroplastica
 xref: MESH:C536977 ! Tracheobronchopathia osteoplastica
 xref: OMIM:189961 ! Tracheopathia Osteoplastica
@@ -731,10 +727,6 @@ xref: Orphanet:352403 ! Spectrin-associated autosomal recessive cerebellar ataxi
 [Term]
 id: OMIM:604183 ! Cholesteatoma, Congenital
 xref: MESH:C562858 ! Cholesteatoma, Congenital
-
-[Term]
-id: DC:0000117 ! Diabetes Mellitus, Transient Neonatal
-xref: DOID:0060334 ! transient neonatal diabetes mellitus
 
 [Term]
 id: OMIM:612350 ! Spondylocheirodysplasia, Ehlers-Danlos Syndrome-Like
@@ -2533,10 +2525,6 @@ xref: MESH:C537104 ! Branchiootic syndrome
 [Term]
 id: OMIM:609286 ! Progressive External Ophthalmoplegia With Mitochondrial Dna Deletions, Autosomal Dominant, 3
 xref: MESH:C563747 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions, Autosomal Dominant, 3
-
-[Term]
-id: DC:0000268 ! Medullary Cystic Kidney Disease
-xref: DOID:12712 ! nephronophthisis
 
 [Term]
 id: DOID:10376 ! amblyopia
@@ -5728,10 +5716,6 @@ id: DOID:0080036 ! SOST-related sclerosing bone dysplasia
 xref: MESH:D010009 ! Osteochondrodysplasias
 
 [Term]
-id: DOID:0060334 ! transient neonatal diabetes mellitus
-xref: DC:0000117 ! Diabetes Mellitus, Transient Neonatal
-
-[Term]
 id: DOID:571 ! median neuropathy
 xref: MESH:D020423 ! Median Neuropathy
 
@@ -6956,7 +6940,6 @@ xref: MESH:D013724 ! Teratoma
 
 [Term]
 id: DOID:1024 ! leprosy
-xref: DC:0000240 ! Leprosy, Susceptibility to
 xref: MESH:D007918 ! Leprosy
 
 [Term]
@@ -9770,7 +9753,6 @@ xref: MESH:D005687 ! Galactorrhea
 
 [Term]
 id: DOID:417 ! hypersensitivity reaction type II disease
-xref: DC:0000632 ! Autoimmune Disease, Susceptibility to
 xref: MESH:D001327 ! Autoimmune Diseases
 xref: OMIM:109100 ! Autoimmune Disease
 
@@ -10624,11 +10606,6 @@ xref: MESH:D018268 ! Adrenocortical Carcinoma
 [Term]
 id: OMIM:613089 ! Capillary Malformation of the Lower Lip, Lymphatic Malformation of Face and Neck, Asymmetry of Face and Limbs, and Partial/Generalized Overgrowth
 xref: MESH:C567763 ! Capillary Malformation Of The Lower Lip, Lymphatic Malformation Of Face And Neck, Asymmetry Of Face And Limbs, And Partial/Generalized Overgrowth
-
-[Term]
-id: DC:0000240 ! Leprosy, Susceptibility to
-xref: DOID:1024 ! leprosy
-xref: MESH:D007918 ! Leprosy
 
 [Term]
 id: OMIM:266140 ! Pyropoikilocytosis, Hereditary
@@ -15088,13 +15065,6 @@ id: DOID:0050818 ! transcobalamin II deficiency
 xref: OMIM:275350 ! TRANSCOBALAMIN II DEFICIENCY
 
 [Term]
-id: DC:0000678 ! Hypobetalipoproteinemia, Familial
-xref: DOID:1386 ! abetalipoproteinemia
-xref: DOID:1390 ! hypobetalipoproteinemia
-xref: MESH:C566267 ! Hypobetalipoproteinemia, Familial
-xref: MESH:D006995 ! Hypobetalipoproteinemias
-
-[Term]
 id: DOID:6000 ! congestive heart failure
 xref: MESH:D006333 ! Heart Failure
 
@@ -18719,10 +18689,6 @@ id: DOID:2596 ! larynx cancer
 xref: MESH:D007822 ! Laryngeal Neoplasms
 
 [Term]
-id: DC:0000572 ! Omphalocele
-xref: DOID:0060327 ! omphalocele
-
-[Term]
 id: DOID:1724 ! duodenal ulcer
 xref: MESH:D004381 ! Duodenal Ulcer
 
@@ -18935,12 +18901,6 @@ xref: MESH:C537696 ! Juvenile gout
 id: Orphanet:79411 ! Transient bullous dermolysis of the newborn
 xref: MESH:C536979 ! Transient bullous dermolysis of the newborn
 xref: OMIM:131705 ! Transient Bullous Dermolysis of the Newborn
-
-[Term]
-id: DC:0000265 ! Malaria Susceptibility
-xref: DOID:12365 ! malaria
-xref: MESH:D008288 ! Malaria
-xref: OMIM:611162 ! Malaria, Susceptibility to
 
 [Term]
 id: DOID:14218 ! dihydropyrimidine dehydrogenase deficiency
@@ -20816,12 +20776,12 @@ id: OMIM:254100 ! Muscular Dystrophy, Congenital, With Rapid Progression
 xref: MESH:C564983 ! Muscular Dystrophy, Congenital, with Rapid Progression
 
 [Term]
-id: OMIM:161400 ! Narcolepsy 1
-xref: MESH:C563534 ! Narcolepsy 1
-
-[Term]
 id: OMIM:158100 ! Monophalangy of Great Toe
 xref: MESH:C563570 ! Monophalangy of Great Toe
+
+[Term]
+id: OMIM:161400 ! Narcolepsy 1
+xref: MESH:C563534 ! Narcolepsy 1
 
 [Term]
 id: OMIM:208200 ! Arthrogryposis-Like Disorder
@@ -21737,11 +21697,6 @@ xref: OMIM:614395 ! Graft-Versus-Host Disease, Susceptibility to
 [Term]
 id: Orphanet:238557 ! Chuvash erythrocytosis
 xref: MESH:C563918 ! Erythrocytosis, Familial, 2
-
-[Term]
-id: DC:0000112 ! Dent Disease
-xref: DOID:0050699 ! Dent disease
-xref: MESH:D057973 ! Dent Disease
 
 [Term]
 id: OMIM:244850 ! Palmoplantar Keratoderma, Norrbotten Recessive Type
@@ -23416,7 +23371,6 @@ xref: OMIM:176670 ! Hutchinson-Gilford Progeria Syndrome
 
 [Term]
 id: DOID:9146 ! visceral leishmaniasis
-xref: DC:0000548 ! Kala-Azar, Susceptibility
 xref: MESH:D007898 ! Leishmaniasis, Visceral
 
 [Term]
@@ -23949,12 +23903,6 @@ xref: MESH:C563160 ! Oculodentodigital Dysplasia
 [Term]
 id: DOID:4386 ! myofibroma
 xref: MESH:D047708 ! Myofibroma
-
-[Term]
-id: DC:0000299 ! Myocardial Infarction, Susceptibility
-xref: DOID:5844 ! myocardial infarction
-xref: MESH:D009203 ! Myocardial Infarction
-xref: OMIM:608446 ! Myocardial Infarction, Susceptibility to
 
 [Term]
 id: DOID:4359 ! amelanotic melanoma
@@ -27382,7 +27330,6 @@ xref: MESH:D000012 ! Abetalipoproteinemia
 
 [Term]
 id: DOID:612 ! primary immunodeficiency disease
-xref: DC:0000615 ! Immunodeficiency
 xref: MESH:C565469 ! Immune Deficiency Disease
 xref: OMIM:242850 ! Immune Deficiency Disease
 
@@ -30936,7 +30883,6 @@ xref: OMIM:253601 ! Muscular Dystrophy, Limb-Girdle, Type 2B
 
 [Term]
 id: DOID:5844 ! myocardial infarction
-xref: DC:0000299 ! Myocardial Infarction, Susceptibility
 xref: MESH:D009203 ! Myocardial Infarction
 xref: OMIM:608446 ! Myocardial Infarction, Susceptibility to
 
@@ -31419,7 +31365,6 @@ xref: MESH:D008265 ! Macrostomia
 
 [Term]
 id: DOID:0050786 ! iridogoniodysgenesis syndrome
-xref: DC:0000228 ! Iridogoniodysgenesis
 xref: MESH:C535535 ! Iridogoniodysgenesis type1
 xref: MESH:C535536 ! Iridogoniodysgenesis, dominant type
 xref: OMIM:137600 ! Iridogoniodysgenesis, Type 2
@@ -32795,12 +32740,6 @@ id: DOID:9955 ! hypoplastic left heart syndrome
 xref: MESH:D018636 ! Hypoplastic Left Heart Syndrome
 
 [Term]
-id: DC:0000431 ! Testicular Germ Cell Tumor
-xref: DOID:5557 ! testicular germ cell cancer
-xref: MESH:C563236 ! Testicular Germ Cell Tumor
-xref: OMIM:273300 ! Testicular Germ Cell Tumor
-
-[Term]
 id: Orphanet:79492 ! Pili gemini
 xref: MESH:C537188 ! Pili multigemini
 
@@ -33902,11 +33841,6 @@ id: OMIM:611488 ! Macular Degeneration, Age-Related, 10
 xref: MESH:C566935 ! Macular Degeneration, Age-Related, 10
 
 [Term]
-id: DC:0000230 ! Jervell and Lange-Nielsen Syndrome
-xref: DOID:2842 ! Jervell-Lange Nielsen syndrome
-xref: MESH:D029593 ! Jervell-Lange Nielsen Syndrome
-
-[Term]
 id: Orphanet:2305 ! Isotretinoin syndrome
 xref: MESH:C535670 ! Accutane embryopathy
 
@@ -34156,10 +34090,6 @@ id: OMIM:166230 ! Osteogenesis Imperfecta With Opalescent Teeth, Blue Sclerae an
 xref: MESH:C563487 ! Osteogenesis Imperfecta with Opalescent Teeth, Blue Sclerae and Wormian Bones, but Without Fractures
 
 [Term]
-id: DC:0000615 ! Immunodeficiency
-xref: DOID:612 ! primary immunodeficiency disease
-
-[Term]
 id: DOID:8857 ! lupus erythematosus
 xref: MESH:D008180 ! Lupus Erythematosus, Systemic
 xref: OMIM:152700 ! Systemic Lupus Erythematosus
@@ -34266,11 +34196,6 @@ id: DOID:13200 ! substernal goiter
 xref: MESH:D006045 ! Goiter, Substernal
 
 [Term]
-id: DC:0000632 ! Autoimmune Disease, Susceptibility to
-xref: DOID:417 ! hypersensitivity reaction type II disease
-xref: OMIM:109100 ! Autoimmune Disease
-
-[Term]
 id: OMIM:613243 ! Cardiomyopathy, Familial Hypertrophic, 13
 xref: MESH:C567686 ! Cardiomyopathy, Familial Hypertrophic, 13
 
@@ -34314,7 +34239,6 @@ xref: MESH:D009369 ! Neoplasms
 
 [Term]
 id: DOID:1386 ! abetalipoproteinemia
-xref: DC:0000678 ! Hypobetalipoproteinemia, Familial
 xref: MESH:C566267 ! Hypobetalipoproteinemia, Familial
 xref: MESH:D000012 ! Abetalipoproteinemia
 xref: MESH:D006995 ! Hypobetalipoproteinemias
@@ -34800,12 +34724,12 @@ id: OMIM:613071 ! Bronchiectasis With or Without Elevated Sweat Chloride 3
 xref: MESH:C567772 ! Bronchiectasis With Or Without Elevated Sweat Chloride 3
 
 [Term]
-id: OMIM:611209 ! Congenital Disorder of Glycosylation, Type Iig
-xref: Orphanet:263508 ! COG1-CDG
-
-[Term]
 id: OMIM:300755 ! Agammaglobulinemia, X-Linked
 xref: MESH:C537409 ! Bruton type agammaglobulinemia
+
+[Term]
+id: OMIM:611209 ! Congenital Disorder of Glycosylation, Type Iig
+xref: Orphanet:263508 ! COG1-CDG
 
 [Term]
 id: OMIM:601110 ! Congenital Disorder of Glycosylation, Type Id
@@ -35500,7 +35424,6 @@ xref: MESH:D031901 ! Gestational Trophoblastic Disease
 
 [Term]
 id: OMIM:611162 ! Malaria, Susceptibility to
-xref: DC:0000265 ! Malaria Susceptibility
 xref: DOID:12365 ! malaria
 xref: MESH:D008288 ! Malaria
 
@@ -35519,7 +35442,6 @@ xref: OMIM:614590 ! Podoconiosis, Susceptibility to
 
 [Term]
 id: DOID:0050699 ! Dent disease
-xref: DC:0000112 ! Dent Disease
 xref: MESH:C538212 ! Dent disease 1
 xref: MESH:C564487 ! Dent Disease 2
 xref: MESH:D057973 ! Dent Disease
@@ -35533,7 +35455,6 @@ xref: MESH:C565167 ! Complement Component 4a Deficiency
 
 [Term]
 id: DOID:3649 ! pyruvate decarboxylase deficiency
-xref: DC:0000382 ! Pyruvate Dehydrogenase Complex Deficiency
 xref: MESH:D015325 ! Pyruvate Dehydrogenase Complex Deficiency Disease
 
 [Term]
@@ -37083,7 +37004,6 @@ xref: MESH:D013168 ! Spondylolisthesis
 
 [Term]
 id: DOID:1390 ! hypobetalipoproteinemia
-xref: DC:0000678 ! Hypobetalipoproteinemia, Familial
 xref: MESH:C566267 ! Hypobetalipoproteinemia, Familial
 xref: MESH:D006995 ! Hypobetalipoproteinemias
 
@@ -37277,16 +37197,12 @@ id: OMIM:601318 ! Diabetes Mellitus, Insulin-Dependent, 13
 xref: MESH:C563352 ! Diabetes Mellitus, Insulin-Dependent, 13
 
 [Term]
-id: OMIM:611284 ! Dystonia, Focal, Task-Specific
-xref: MESH:C566973 ! Dystonia, Focal, Task-Specific
-
-[Term]
-id: DOID:12712 ! nephronophthisis
-xref: DC:0000268 ! Medullary Cystic Kidney Disease
-
-[Term]
 id: OMIM:600320 ! Diabetes Mellitus, Insulin-Dependent, 5
 xref: MESH:C563958 ! Diabetes Mellitus, Insulin-Dependent, 5
+
+[Term]
+id: OMIM:611284 ! Dystonia, Focal, Task-Specific
+xref: MESH:C566973 ! Dystonia, Focal, Task-Specific
 
 [Term]
 id: OMIM:245180 ! Kifafa Seizure Disorder
@@ -38189,11 +38105,6 @@ id: DOID:14068 ! blackwater fever
 xref: MESH:D001742 ! Blackwater Fever
 
 [Term]
-id: DC:0000382 ! Pyruvate Dehydrogenase Complex Deficiency
-xref: DOID:3649 ! pyruvate decarboxylase deficiency
-xref: MESH:D015325 ! Pyruvate Dehydrogenase Complex Deficiency Disease
-
-[Term]
 id: Orphanet:2840 ! Pelvic dysplasia - arthrogryposis of lower limbs
 xref: MESH:C535292 ! Ray Peterson Scott syndrome
 xref: MESH:C535548 ! Pelvic dysplasia arthrogryposis of lower limbs
@@ -38610,12 +38521,12 @@ id: Orphanet:1979 ! Lipodystrophy due to peptidic growth factors deficiency
 xref: MESH:C536656 ! Peptide growth factors deficiency
 
 [Term]
-id: OMIM:611242 ! Restless Legs Syndrome, Susceptibility To, 5
-xref: MESH:D012148 ! Restless Legs Syndrome
-
-[Term]
 id: OMIM:302000 ! Bullous Dystrophy, Hereditary Macular Type
 xref: MESH:C563065 ! Bullous Dystrophy, Hereditary Macular Type
+
+[Term]
+id: OMIM:611242 ! Restless Legs Syndrome, Susceptibility To, 5
+xref: MESH:D012148 ! Restless Legs Syndrome
 
 [Term]
 id: OMIM:607801 ! Muscular Dystrophy, Limb-Girdle, Type 1C
@@ -38998,13 +38909,13 @@ xref: MESH:C563937 ! Arterial Dissection with Lentiginosis
 xref: OMIM:600459 ! Arterial Dissection With Lentiginosis
 
 [Term]
-id: OMIM:611291 ! Severe Combined Immunodeficiency With Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
-xref: MESH:C566970 ! Severe Combined Immunodeficiency with Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
-
-[Term]
 id: OMIM:158280 ! Motion Sickness
 xref: DOID:2951 ! motion sickness
 xref: MESH:D009041 ! Motion Sickness
+
+[Term]
+id: OMIM:611291 ! Severe Combined Immunodeficiency With Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
+xref: MESH:C566970 ! Severe Combined Immunodeficiency with Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
 
 [Term]
 id: OMIM:142945 ! Holoprosencephaly 3
@@ -40636,10 +40547,6 @@ xref: DOID:0050776 ! non-syndromic X-linked intellectual disability
 xref: MESH:C567470 ! Mental Retardation, X-Linked 95
 
 [Term]
-id: DOID:0060327 ! omphalocele
-xref: DC:0000572 ! Omphalocele
-
-[Term]
 id: Orphanet:1562 ! Dacryocystitis - osteopoikilosis
 xref: MESH:C536061 ! Osteopoikilosis and dacryocystitis
 xref: OMIM:166705 ! Osteopoikilosis and Dacryocystitis
@@ -41514,7 +41421,6 @@ xref: MESH:C536290 ! Immunoglobulin a deficiency 1
 
 [Term]
 id: DOID:12365 ! malaria
-xref: DC:0000265 ! Malaria Susceptibility
 xref: MESH:D008288 ! Malaria
 xref: OMIM:611162 ! Malaria, Susceptibility to
 
@@ -43012,7 +42918,6 @@ xref: MESH:D009814 ! Oesophagostomiasis
 
 [Term]
 id: OMIM:608446 ! Myocardial Infarction, Susceptibility to
-xref: DC:0000299 ! Myocardial Infarction, Susceptibility
 xref: DOID:5844 ! myocardial infarction
 xref: MESH:D009203 ! Myocardial Infarction
 
@@ -44885,10 +44790,6 @@ xref: MESH:C535706 ! Mandibuloacral dysplasia with type B lipodystrophy
 xref: OMIM:608612 ! Mandibuloacral Dysplasia With Type B Lipodystrophy
 
 [Term]
-id: DC:0000228 ! Iridogoniodysgenesis
-xref: DOID:0050786 ! iridogoniodysgenesis syndrome
-
-[Term]
 id: OMIM:605990 ! NEPHROLITHIASIS, URIC ACID, SUSCEPTIBILITY TO
 xref: DOID:580 ! acute urate nephropathy
 
@@ -45808,7 +45709,6 @@ xref: Orphanet:264 ! Autosomal dominant limb-girdle muscular dystrophy type 1B
 
 [Term]
 id: DOID:5557 ! testicular germ cell cancer
-xref: DC:0000431 ! Testicular Germ Cell Tumor
 xref: MESH:C563236 ! Testicular Germ Cell Tumor
 xref: OMIM:273300 ! Testicular Germ Cell Tumor
 
@@ -45959,7 +45859,6 @@ xref: MESH:C536427 ! Cleft palate, midfacial hypoplasia, triangular facies, and 
 
 [Term]
 id: DOID:2842 ! Jervell-Lange Nielsen syndrome
-xref: DC:0000230 ! Jervell and Lange-Nielsen Syndrome
 xref: MESH:D029593 ! Jervell-Lange Nielsen Syndrome
 
 [Term]
@@ -46303,7 +46202,6 @@ xref: MESH:C566408 ! Dislocated Elbows, Bowed Tibias, Scoliosis, Deafness, Catar
 
 [Term]
 id: OMIM:273300 ! Testicular Germ Cell Tumor
-xref: DC:0000431 ! Testicular Germ Cell Tumor
 xref: DOID:5557 ! testicular germ cell cancer
 xref: MESH:C563236 ! Testicular Germ Cell Tumor
 
@@ -47648,10 +47546,6 @@ id: OMIM:613006 ! Diabetes Mellitus, Insulin-Dependent, 24
 xref: MESH:C567818 ! Diabetes Mellitus, Insulin-Dependent, 24
 
 [Term]
-id: OMIM:611302 ! SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE
-xref: MESH:C566969 ! Ataxia, Spastic, 2, Autosomal Recessive
-
-[Term]
 id: DOID:9726 ! vitreous detachment
 xref: MESH:D020255 ! Vitreous Detachment
 
@@ -47664,6 +47558,10 @@ xref: MESH:D038261 ! Alexander Disease
 id: OMIM:307800 ! Hypophosphatemic Rickets, X-Linked Dominant
 xref: DOID:0050445 ! X-linked hypophosphatemia
 xref: MESH:D053098 ! Familial Hypophosphatemic Rickets
+
+[Term]
+id: OMIM:611302 ! SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE
+xref: MESH:C566969 ! Ataxia, Spastic, 2, Autosomal Recessive
 
 [Term]
 id: Orphanet:309796 ! Rhizomelic chondrodysplasia punctata type 2
@@ -47765,12 +47663,12 @@ id: Orphanet:1433 ! Choroidal atrophy - alopecia
 xref: MESH:C535810 ! Moloney syndrome
 
 [Term]
-id: DOID:3168 ! squamous cell neoplasm
-xref: MESH:D018307 ! Neoplasms, Squamous Cell
-
-[Term]
 id: DOID:14219 ! renal tubular acidosis
 xref: MESH:D000141 ! Acidosis, Renal Tubular
+
+[Term]
+id: DOID:3168 ! squamous cell neoplasm
+xref: MESH:D018307 ! Neoplasms, Squamous Cell
 
 [Term]
 id: DOID:0060167 ! seasonal affective disorder
@@ -50586,7 +50484,6 @@ xref: OMIM:614323 ! Nevoid Hypermelanosis, Linear and Whorled
 
 [Term]
 id: OMIM:109100 ! Autoimmune Disease
-xref: DC:0000632 ! Autoimmune Disease, Susceptibility to
 xref: DOID:417 ! hypersensitivity reaction type II disease
 xref: MESH:D001327 ! Autoimmune Diseases
 

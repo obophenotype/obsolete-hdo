@@ -738,3 +738,25 @@ entity_xref_nr(D,X) :-
         valid_entity_xref(D,X),
         \+ ((entity_xref(D2,X),
              subclassT(D2,D))).
+
+% E.g. DC (Child) to a DOID (Parent)
+inferred_subclass(C,P,From,To,LC,LP) :-
+        class(P),
+        id_idspace(P,To),
+        entity_nlabel_scope_stemmed(P,LP,_,_),
+        atom_length(LP,Len),
+        Len > 7,
+        P\='DOID:225', % syndrome
+        P\='DOID:4',   % disease
+        P\='DOID:630', % genetic disease
+        class(C),
+        id_idspace(C,From),
+        \+ ((subclass(C,Z),
+             Z \= 'DOID:4')),
+        From\=To,
+        entity_nlabel_scope_stemmed(C,LC,_,_),
+        sub_atom(LC,_,_,_,LP).
+
+
+        
+        

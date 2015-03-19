@@ -27898,7 +27898,6 @@ is_a: DOID:3146 ! lipid metabolism disorder
 [Term]
 id: MESH:C566267
 name: Hypobetalipoproteinemia, Familial
-is_a: DC:0000678 ! Hypobetalipoproteinemia, Familial
 is_a: DOID:1386 ! abetalipoproteinemia
 is_a: DOID:1390 ! hypobetalipoproteinemia
 
@@ -35576,7 +35575,6 @@ is_a: OMIM:613436 ! Autism, Susceptibility To, 17
 [Term]
 id: MESH:D001327
 name: Autoimmune Diseases
-is_a: DOID:417 ! hypersensitivity reaction type II disease
 is_a: OMIM:109100 ! Autoimmune Disease
 is_a: OMIM:613551 ! Autoimmune Disease, Susceptibility To, 6
 
@@ -41524,7 +41522,6 @@ equivalent_to: Orphanet:427 ! Familial hypoaldosteronism
 [Term]
 id: MESH:D006995
 name: Hypobetalipoproteinemias
-is_a: DC:0000678 ! Hypobetalipoproteinemia, Familial
 is_a: DOID:1386 ! abetalipoproteinemia
 is_a: DOID:1390 ! hypobetalipoproteinemia
 
@@ -58222,8 +58219,7 @@ is_a: MESH:D005131 ! Eye Injuries
 [Term]
 id: MESH:D057973
 name: Dent Disease
-is_a: DC:0000112 ! Dent Disease
-is_a: DOID:0050699 ! Dent disease
+equivalent_to: DOID:0050699 ! Dent disease
 
 [Term]
 id: MESH:D058065

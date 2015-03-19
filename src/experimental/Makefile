@@ -1,4 +1,4 @@
-all: mondo.obo 
+all: mondo.obo mondo_score.tsv mondo_unclassified.tsv
 
 all_rest: missing-omc.obo missing-omimps.obo sim-omc.tsv
 
@@ -28,7 +28,7 @@ omc.obo: omimclusters.obo
 
 # DO-mapped clusters
 # Some DCs will be replaced by DOIDs
-omc-mapped-to-do.obo: omimclusters.obo
+omc-mapped-to-do.obo: omimclusters.obo xrefs-doid-to-omc.obo
 	obo-map-ids.pl --use-xref-inverse xrefs-doid-to-omc.obo  xrefs-doid-to-omc-edited.obo $< > $@
 
 omim-genes.obo: omimclusters.obo
@@ -76,6 +76,9 @@ align-doid-to-ordo.tsv: ordo.obo $(DOID)
 
 align-doid-to-ordo-nosyn.tsv: ordo_nosyn.obo disease_nosyn.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -i disease_nosyn.obo -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,false),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+
+
+
 
 ## --
 ## Extract xrefs
@@ -241,13 +244,18 @@ new_ordo_merged.obo: new_ordo.obo omc-minimal.obo
 
 # 
 new_ordo_equivs.obo: new_ordo_merged.obo
-	blip -i $< -consult munger.pro -goal write_equiv_omims,halt > $@ 
+	blip -i super_ignore.pro  -u metadata_nlp -i $< -consult munger.pro -goal index_entity_pair_label_match,write_equiv_omims,halt > $@ 
+
+
 
 mondo_no_mesh.obo: new_ordo_merged.obo new_ordo_equivs.obo
 	owltools $^ --merge-support-ontologies -o -f obo $@
 
 mondo_squished.obo: mondo_no_mesh.obo mesh_rest.obo
 	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 8 -s MESH 7 -l DOID 10 -l Orphanet 5 -l MESH 3 -l OMIM 1 --set-ontology-id $(OBO)/mondo.owl -o -f obo --no-check $@.tmp && ./fix-final.pl $@.tmp > $@
+
+new_ordo_subs.tsv: mondo_squished.obo
+	blip-findall -consult munger.pro -debug index -i super_ignore.pro -u metadata_nlp -i $< -index "entity_nlabel_scope_stemmed(+,+,0,0)" "inferred_subclass(X,Y,'DC','DOID',LX,LY),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,LX,LY)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 mesh_rest.obo: xrefs-mesh.obo mondo_no_mesh.obo
 	blip-findall -consult munger.pro -i $< -i mondo_no_mesh.obo -i mesh.obo -r disease "write_mesh(M),fail" > $@
@@ -267,6 +275,13 @@ mondo.owl: mondo.obo
 
 mondo_rpt.tsv: mondo.obo
 	blip-findall  -i $< -i d2p.pro -consult summary.pro disease_lineage/3 -label -no_pred  > $@.tmp && mv $@.tmp $@
+
+
+mondo_score2.tsv: mondo.obo
+	blip-findall  -i $< -i d2p.pro -consult summary.pro mondo_score/1 -label -no_pred  > $@.tmp && mv $@.tmp $@
+
+mondo_score1.tsv: mondo_rpt.tsv
+	./calc-mondo-score.pl $< > $@
 
 mondo_unclassified.tsv: mondo_rpt.tsv
 	egrep '\t(2|1|0)\t' $< > $@
