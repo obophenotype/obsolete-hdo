@@ -1,4 +1,4 @@
-all: mondo.obo mondo_score.tsv mondo_unclassified.tsv
+all: mondo.obo mondo_score2.tsv mondo_score1.tsv mondo_unclassified.tsv
 
 all_rest: missing-omc.obo missing-omimps.obo sim-omc.tsv
 
@@ -26,9 +26,12 @@ omimclusters.obo: ../contrib/omimclusters.obo ../ontology/imports/omim_import.ob
 omc.obo: omimclusters.obo
 	obo-grep.pl -r 'id: DC' $< > $@.tmp && mv $@.tmp $@
 
+omimclusters_plus_bridge.obo: omimclusters.obo ../contrib/omimclusters_bridge_to_doid.obo 
+	obo-merge-tags.pl -t is_a -t equivalent_to $^ > $@
+
 # DO-mapped clusters
 # Some DCs will be replaced by DOIDs
-omc-mapped-to-do.obo: omimclusters.obo xrefs-doid-to-omc.obo
+omc-mapped-to-do.obo: omimclusters_plus_bridge.obo xrefs-doid-to-omc.obo
 	obo-map-ids.pl --use-xref-inverse xrefs-doid-to-omc.obo  xrefs-doid-to-omc-edited.obo $< > $@
 
 omim-genes.obo: omimclusters.obo

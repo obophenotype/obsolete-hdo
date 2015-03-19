@@ -130,7 +130,6 @@ OMIM:121210 ! Febrile Convulsions, Familial, 1	2	DOID:4 ! disease,MESH:D003294 !
 OMIM:121350 ! Coracoclavicular Joint, Anomalous	1	DOID:4 ! disease
 OMIM:121390 ! Cornea guttata with anterior polar cataract	1	DOID:4 ! disease
 OMIM:121450 ! Corneal Degeneration, Ribbonlike, with Deafness	1	DOID:4 ! disease
-OMIM:122000 ! Corneal Dystrophy, Posterior Polymorphous, 1	2	DC:0000644 ! Corneal Dystrophy, Posterior Polymorphous,DOID:4 ! disease
 OMIM:122455 ! Coronary Artery Dissection, Spontaneous	1	DOID:4 ! disease
 OMIM:122460 ! Human Coronavirus Sensitivity	1	DOID:4 ! disease
 OMIM:122560	0	
@@ -288,7 +287,6 @@ OMIM:142395	0
 OMIM:142500 ! Heterochromia iridis	1	DOID:4 ! disease
 OMIM:142700 ! Hip Dislocation, Congenital	2	DC:0000618 ! Developmental Dysplasia of the Hip,DOID:4 ! disease
 OMIM:142860	0	
-OMIM:143050 ! Humeroradial Synostosis	2	DC:0000532 ! Humeroradial Synostosis,DOID:4 ! disease
 OMIM:143850 ! Orthostatic Hypotensive Disorder, Streeten Type	1	DOID:4 ! disease
 OMIM:143860 ! Hyperchlorhidrosis, Isolated	1	DOID:4 ! disease
 OMIM:144050 ! Hyperheparinemia	1	DOID:4 ! disease
@@ -332,7 +330,6 @@ OMIM:149500 ! Kyrle disease	1	DOID:4 ! disease
 OMIM:149600 ! Labia Minora, Incomplete Adhesion of	1	DOID:4 ! disease
 OMIM:149700 ! Lacrimal Duct Defect	1	DOID:4 ! disease
 OMIM:150170 ! Lactic Acidosis, Chronic Adult Form	1	DOID:4 ! disease
-OMIM:150260 ! Laryngeal Abductor Paralysis	2	DC:0000670 ! Laryngeal Abductor Paralysis,DOID:4 ! disease
 OMIM:150270 ! Laryngeal Adductor Paralysis	1	DOID:4 ! disease
 OMIM:150500 ! Lattice Degeneration of Retina Leading to Retinal Detachment	1	DOID:4 ! disease
 OMIM:150550 ! Lazy Leukocyte Syndrome	1	DOID:4 ! disease
@@ -362,7 +359,6 @@ OMIM:154570 ! Mannose 6-Phosphate Receptor Recognition Defect, Lebanese Type	1	D
 OMIM:154750 ! Marfanoid hypermobility syndrome	1	DOID:4 ! disease
 OMIM:154850 ! Masticatory Muscles, Hypertrophy of	1	DOID:4 ! disease
 OMIM:155000 ! Maxillofacial Dysostosis	1	DOID:4 ! disease
-OMIM:155100 ! May-Hegglin Anomaly	2	DC:0000057 ! Bleeding Disorder, Platelet-Type,DOID:4 ! disease
 OMIM:155150 ! Median-Ulnar Nerve Communications	1	DOID:4 ! disease
 OMIM:155200 ! Mediosternal Depigmentation Line	1	DOID:4 ! disease
 OMIM:155500 ! Megalodactyly	1	DOID:4 ! disease
@@ -390,7 +386,6 @@ OMIM:159556	0
 OMIM:159557	0	
 OMIM:159558	0	
 OMIM:159595 ! Myeloproliferative Syndrome, Transient	1	DOID:4 ! disease
-OMIM:160565 ! Myopathy, Tubular Aggregate, 1	2	DC:0000667 ! Myopathy, Tubular Aggregate,DOID:4 ! disease
 OMIM:160570 ! Myopathy with Storage of Glycoproteins and Glycosaminoglycans	1	DOID:4 ! disease
 OMIM:160990 ! Myotonic Myopathy with Cylindrical Spirals	1	DOID:4 ! disease
 OMIM:161070 ! Nail High-Sulfur Protein	1	DOID:4 ! disease
@@ -561,7 +556,6 @@ OMIM:187501 ! Tetralogy of fallot and glaucoma	1	DOID:4 ! disease
 OMIM:187750 ! Thoracic Dysostosis, Isolated	1	DOID:4 ! disease
 OMIM:188100 ! Thumb deformity	1	DOID:4 ! disease
 OMIM:188560 ! Thyroid hormone plasma membrane transport defect	1	DOID:4 ! disease
-OMIM:188580 ! Thyrotoxic Periodic Paralysis, Susceptibility To, 1	2	DC:0000438 ! Thyrotoxic Periodic Paralysis,DOID:4 ! disease
 OMIM:188770	0	
 OMIM:188800 ! Tibial Torsion, Bilateral Medial	1	DOID:4 ! disease
 OMIM:189000 ! Toe, Fifth, Number of Phalanges 1N	1	DOID:4 ! disease
@@ -647,7 +641,6 @@ OMIM:211200 ! Bowen syndrome	1	DOID:4 ! disease
 OMIM:211369 ! Brachydactyly, Type A2, With Microcephaly	1	DOID:4 ! disease
 OMIM:211390 ! Sabinas brittle hair syndrome	1	DOID:4 ! disease
 OMIM:211500 ! Fazio-Londe Disease	1	DOID:4 ! disease
-OMIM:211900 ! Tumoral Calcinosis, Hyperphosphatemic, Familial	2	DC:0000445 ! Tumoral Calcinosis,DOID:4 ! disease
 OMIM:211930 ! Camptodactyly, fibrous tissue hyperplasia, and skeletal dysplasia	1	DOID:4 ! disease
 OMIM:212060 ! Carbimazole Sensitivity	1	DOID:4 ! disease
 OMIM:212067 ! Congenital Disorder Of Glycosylation, Type I/IIX	1	DOID:4 ! disease
@@ -758,7 +751,6 @@ OMIM:235750 ! Hirschsprung Disease with Ulnar Polydactyly, Polysyndactyly of Big
 OMIM:235830 ! Histidinuria renal tubular defect	1	DOID:4 ! disease
 OMIM:235900 ! Histiocytosis, Familial Lipochrome	1	DOID:4 ! disease
 OMIM:236300 ! Hooft disease	1	DOID:4 ! disease
-OMIM:236400 ! Humeroradial Synostosis	2	DC:0000532 ! Humeroradial Synostosis,DOID:4 ! disease
 OMIM:236410 ! Humeroradial Synostosis with Craniofacial Anomalies	1	DOID:4 ! disease
 OMIM:236450 ! Hutterite cerebroosteonephrodysplasia syndrome	1	DOID:4 ! disease
 OMIM:236500 ! Hydranencephaly with Renal Aplasia-Dysplasia	1	DOID:4 ! disease
@@ -783,7 +775,6 @@ OMIM:241519 ! Hypophosphatemia, Renal, with Intracerebral Calcifications	1	DOID:
 OMIM:241600 ! Hypoproteinemia, Hypercatabolic	1	DOID:4 ! disease
 OMIM:241800 ! Hypothalamic hamartomas	1	DOID:4 ! disease
 OMIM:242550 ! Ichthyosis, Split Hairs, and Amino Aciduria	1	DOID:4 ! disease
-OMIM:242860 ! Immunodeficiency syndrome, variable	2	DC:0000544 ! Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome,DOID:4 ! disease
 OMIM:242870 ! Immunodeficiency, Partial Combined, with Absence of HLA Determinants and Beta-2-Microglobulin from Lymphocytes	1	DOID:4 ! disease
 OMIM:242880 ! Immunoerythromyeloid Hypoplasia	1	DOID:4 ! disease
 OMIM:242890 ! Immunoglobulin D Level 1N Plasma, Low	1	DOID:4 ! disease
@@ -819,7 +810,6 @@ OMIM:249230 ! Megaepiphyseal dwarfism	1	DOID:4 ! disease
 OMIM:249240 ! Megalencephaly with Dysmyelination	1	DOID:4 ! disease
 OMIM:249660 ! Mesangial Sclerosis, Diffuse Renal, with Ocular Abnormalities	1	DOID:4 ! disease
 OMIM:249670 ! Mexican Cardiomelic Dysplasia	1	DOID:4 ! disease
-OMIM:250300 ! Metaphyseal Chondrodysplasia, Pena Type	2	DC:0000558 ! Metaphyseal Chondrodysplasia,DOID:4 ! disease
 OMIM:250450 ! Metaphyseal Dysplasia, Anetoderma, and Optic Atrophy	1	DOID:4 ! disease
 OMIM:250460 ! Metaphyseal Dysplasia without Hypotrichosis	1	DOID:4 ! disease
 OMIM:250500 ! Roy Maroteaux Kremp syndrome	1	DOID:4 ! disease
@@ -841,10 +831,8 @@ OMIM:254950 ! Myopathy, Granulovacuolar Lobular, with Electrical Myotonia	1	DOID
 OMIM:254960 ! Myopathy due to Malate-Aspartate Shuttle Defect	1	DOID:4 ! disease
 OMIM:255100 ! Myopathy with Abnormal Lipid Metabolism	1	DOID:4 ! disease
 OMIM:255140 ! Myopathy with Giant Abnormal Mitochondria	1	DOID:4 ! disease
-OMIM:255300 ! Myopathy, Congenital	2	DC:0000302 ! Myopathy, Congenital,DOID:4 ! disease
 OMIM:256520 ! Neu-Laxova Syndrome 1	2	DOID:4 ! disease,MESH:C536405 ! Neu Laxova syndrome
 OMIM:256720 ! Neurologic Disease, Infantile Multisystem, with Osseous Fragility	1	DOID:4 ! disease
-OMIM:256850 ! Giant Axonal Neuropathy	2	DC:0000525 ! Giant Axonal Neuropathy,DOID:4 ! disease
 OMIM:256870 ! Neuropathy, Painful	1	DOID:4 ! disease
 OMIM:257000 ! Neurovisceral Storage Disease with Curvilinear Bodies	1	DOID:4 ! disease
 OMIM:257150 ! Neutrophil Actin Dysfunction	1	DOID:4 ! disease
@@ -973,14 +961,12 @@ OMIM:300640 ! Invasive Pneumococcal Disease, Recurrent Isolated, 2	2	DC:0000227 
 OMIM:300719 ! Deafness, Cataract, Retinitis Pigmentosa, And Sperm Abnormalities	1	DOID:4 ! disease
 OMIM:300867 ! Kabuki Syndrome 2	2	DC:0000547 ! Kabuki Syndrome,DOID:4 ! disease
 OMIM:300881 ! Baratela-Scott Syndrome	2	DC:0000623 ! Desbuquois Dysplasia,DOID:4 ! disease
-OMIM:300915 ! Microphthalmia, Syndromic 13	2	DC:0000280 ! Microphthalmia, Syndromic,DOID:4 ! disease
 OMIM:301700 ! Olfaction Disorders	1	DOID:4 ! disease
 OMIM:302300	0	
 OMIM:302400 ! Central Incisors, Absence of	1	DOID:4 ! disease
 OMIM:302650	0	
 OMIM:302803 ! Charcot Marie Tooth type 1 aplasia cutis congenita	1	DOID:4 ! disease
 OMIM:302900 ! Charcot-Marie-Tooth Peroneal Muscular Atrophy and Friedreich Ataxia, Combined	1	DOID:4 ! disease
-OMIM:303900 ! Colorblindness, Partial, Protan Series	2	DC:0000090 ! Colorblindness, Partial,DOID:4 ! disease
 OMIM:304200 ! Akesson syndrome	1	DOID:4 ! disease
 OMIM:304300 ! Cyanide, Inability to Smell	1	DOID:4 ! disease
 OMIM:305690 ! Genitourinary Tract Anomalies	1	DOID:4 ! disease
@@ -996,7 +982,6 @@ OMIM:308280 ! Impacted Teeth, Multiple	1	DOID:4 ! disease
 OMIM:308500 ! Iris hypoplasia and glaucoma	1	DOID:4 ! disease
 OMIM:308600 ! Jaundice, Familial Obstructive, of Infancy	1	DOID:4 ! disease
 OMIM:308750 ! Spastic paraplegia with Kallmann syndrome	1	DOID:4 ! disease
-OMIM:308800 ! Keratosis Follicularis Spinulosa Decalvans, X-Linked	2	DC:0000550 ! Keratosis Follicularis Spinulosa Decalvans,DOID:4 ! disease
 OMIM:309050 ! Lutheran Suppressor, X-Linked	1	DOID:4 ! disease
 OMIM:309100 ! Macular Dystrophy, X-Linked	2	DC:0000263 ! Macular Dystrophy,DOID:4 ! disease
 OMIM:309200 ! Major Affective Disorder 2	2	DC:0000264 ! Major Affective Disorder,DOID:4 ! disease
@@ -1064,7 +1049,6 @@ OMIM:600351 ! Enteropathy, Familial, with Villous Edema and Immunoglobulin G2 De
 OMIM:600356 ! Pachydermodactyly, Familial	1	DOID:4 ! disease
 OMIM:600399 ! Pectus Excavatum, Macrocephaly, Short Stature, Dysplastic Nails	1	DOID:4 ! disease
 OMIM:600419 ! Angiokeratoma Corporis Diffusum with Arteriovenous Fistulas	1	DOID:4 ! disease
-OMIM:600462 ! Myopathy, Lactic Acidosis, and Sideroblastic Anemia 1	2	DC:0000304 ! Myopathy, Lactic Acidosis, and Sideroblastic Anemia,DOID:4 ! disease
 OMIM:600510 ! Glaucoma-Related Pigment Dispersion Syndrome	1	DOID:4 ! disease
 OMIM:600541	0	
 OMIM:600598 ! Setting-Sun Phenomenon, Familial Benign	1	DOID:4 ! disease
@@ -1084,7 +1068,6 @@ OMIM:600987 ! Cardiac Malformation, Cleft Lip-Palate, Microcephaly and Digital A
 OMIM:601004 ! Portal Vein, Cavernous Transformation Of	1	DOID:4 ! disease
 OMIM:601016 ! Dincsoy Salih Patel syndrome	1	DOID:4 ! disease
 OMIM:601039 ! Ichthyosis-Mental Retardation Syndrome with Large Keratohyalin Granules in the Skin	1	DOID:4 ! disease
-OMIM:601068 ! Epilepsy, Myoclonic, Benign Adult Familial, Type 1	2	DC:0000624 ! Epilepsy, Familial Adult Myoclonic,DOID:4 ! disease
 OMIM:601088 ! Cataracts, Congenital, with Sensorineural Deafness, Down Syndrome-Like Facial Appearance, Short Stature, and Mental Retardation	1	DOID:4 ! disease
 OMIM:601161 ! Trisomy 18-Like Syndrome	1	DOID:4 ! disease
 OMIM:601170 ! Muscular Dystrophy, Congenital, with Severe Central Nervous System Atrophy and Absence of Large Myelinated Fibers	1	DOID:4 ! disease
@@ -1146,7 +1129,6 @@ OMIM:605321 ! Frontoocular Syndrome	1	DOID:4 ! disease
 OMIM:605388 ! Cerebral Palsy, Ataxic, Autosomal Recessive	1	DOID:4 ! disease
 OMIM:605431	0	
 OMIM:605685 ! Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness	1	DOID:4 ! disease
-OMIM:605735 ! Bleeding Disorder, Platelet-Type, 12	2	DC:0000057 ! Bleeding Disorder, Platelet-Type,DOID:4 ! disease
 OMIM:606155 ! Fryns-Aftimos Syndrome	1	DOID:4 ! disease
 OMIM:606156 ! Sener syndrome	1	DOID:4 ! disease
 OMIM:606183 ! Laryngeal Abductor Paralysis with Cerebellar Ataxia and Motor Neuropathy	1	DOID:4 ! disease
@@ -1165,17 +1147,13 @@ OMIM:607398 ! Glucocorticoid Deficiency 2	2	DC:0000175 ! Glucocorticoid Deficien
 OMIM:607565 ! Spastic Paraplegia, Ataxia, And Mental Retardation	1	DOID:4 ! disease
 OMIM:607578 ! Breath-Holding Spells	1	DOID:4 ! disease
 OMIM:607597 ! Microphthalmia with Cyst, Bilateral Facial Clefts, and Limb Anomalies	1	DOID:4 ! disease
-OMIM:607654 ! Keratosis palmoplantaris striata 3	2	DC:0000234 ! Keratoderma, Palmoplantar Striate,DOID:4 ! disease
 OMIM:607674 ! Cataract, Congenital, with Mental Impairment and Dentate Gyrus Atrophy	1	DOID:4 ! disease
-OMIM:607876 ! Epilepsy, Myoclonic, Benign Adult Familial, Type 2	2	DC:0000624 ! Epilepsy, Familial Adult Myoclonic,DOID:4 ! disease
 OMIM:607944 ! Combined Immunodeficiency with Autoimmunity and Spondylometaphyseal Dysplasia	1	DOID:4 ! disease
 OMIM:608028 ! Thai Symphalangism Syndrome	1	DOID:4 ! disease
 OMIM:608118 ! Zinc Deficiency, Transient Neonatal	1	DOID:4 ! disease
-OMIM:608175 ! Autoimmune Thyroid Disease, Susceptibility To, 3	2	DC:0000634 ! Autoimmune Thyroid Disease, Susceptibility to,DOID:4 ! disease
 OMIM:608257 ! Mandibulofacial Dysostosis with Ptosis, Autosomal Dominant	1	DOID:4 ! disease
 OMIM:608278 ! Growth Failure, Microcephaly, Mental Retardation, Cataracts, Large Joint Contractures, Osteoporosis, Cortical Dysplasia, and Cerebellar Atrophy	1	DOID:4 ! disease
 OMIM:608279 ! Craniosynostosis with Ocular Abnormalities and Hallucal Defects	1	DOID:4 ! disease
-OMIM:608404 ! Platelet Glycoprotein IV Deficiency	2	DC:0000057 ! Bleeding Disorder, Platelet-Type,DOID:4 ! disease
 OMIM:608611 ! Ribose 5-Phosphate Isomerase Deficiency	1	DOID:4 ! disease
 OMIM:608622 ! Hypertension, Diastolic, Resistance to	1	DOID:4 ! disease
 OMIM:608624 ! Midface Hypoplasia, Obesity, Developmental Delay, and Neonatal Hypotonia	1	DOID:4 ! disease
@@ -1187,8 +1165,6 @@ OMIM:609008 ! Marfanoid Habitus with Situs Inversus	1	DOID:4 ! disease
 OMIM:609021 ! Peripheral Cone Dystrophy	1	DOID:4 ! disease
 OMIM:609037 ! Mental Retardation with Optic Atrophy, Facial Dysmorphism, Microcephaly, and Short Stature	1	DOID:4 ! disease
 OMIM:609070 ! Hemoglobin, High Altitude Adaptation	1	DOID:4 ! disease
-OMIM:609140 ! Corneal Dystrophy, Posterior Polymorphous, 2	2	DC:0000644 ! Corneal Dystrophy, Posterior Polymorphous,DOID:4 ! disease
-OMIM:609141 ! Corneal Dystrophy, Posterior Polymorphous, 3	2	DC:0000644 ! Corneal Dystrophy, Posterior Polymorphous,DOID:4 ! disease
 OMIM:609197 ! Glucocorticoid Deficiency 3	2	DC:0000175 ! Glucocorticoid Deficiency,DOID:4 ! disease
 OMIM:609222 ! Dandy-Walker Malformation With Occipital Cephalocele, Autosomal Dominant	1	DOID:4 ! disease
 OMIM:609253 ! Febrile Convulsions, Familial, 6	2	DOID:4 ! disease,MESH:D003294 ! Seizures, Febrile
@@ -1216,7 +1192,6 @@ OMIM:610420 ! Preauricular Tag, Isolated, Autosomal Dominant, 1	1	DOID:4 ! disea
 OMIM:610441 ! Testicular Microlithiasis	1	DOID:4 ! disease
 OMIM:610448 ! Chilblain lupus	2	DC:0000493 ! Chilblain Lupus,DOID:4 ! disease
 OMIM:610504 ! Preterm Premature Rupture of the Membranes	1	DOID:4 ! disease
-OMIM:610551 ! Herpes Simplex Encephalitis, Susceptibility To, 1	2	DC:0000184 ! Herpes Simplex Encephalitis, Susceptibility,DOID:4 ! disease
 OMIM:610680 ! Holoprosencephaly, recurrent infections, and monocytosis	1	DOID:4 ! disease
 OMIM:610765	0	
 OMIM:610797 ! Epiphyseal Dysplasia, Baumann Type	1	DOID:4 ! disease
@@ -1228,7 +1203,6 @@ OMIM:611376 ! Mungan Syndrome	1	DOID:4 ! disease
 OMIM:611426 ! Tented Eyebrows	1	DOID:4 ! disease
 OMIM:611634 ! Febrile Convulsions, Familial, 9	2	DOID:4 ! disease,MESH:D003294 ! Seizures, Febrile
 OMIM:611694 ! Dystonia with Cerebellar Atrophy	1	DOID:4 ! disease
-OMIM:611702 ! Spondylometaphyseal dysplasia, east-African type	2	DC:0000598 ! Spondylometaphyseal Dysplasia,DOID:4 ! disease
 OMIM:611808 ! Tremor, Hereditary Essential, And Idiopathic Normal Pressure Hydrocephalus	1	DOID:4 ! disease
 OMIM:611816 ! Temple-Baraitser Syndrome	1	DOID:4 ! disease
 OMIM:611929 ! Camptodactyly Syndrome, Guadalajara, Type III	2	DC:0000486 ! Camptodactyly Syndrome, Guadalajara,DOID:4 ! disease
@@ -1247,26 +1221,18 @@ OMIM:612576 ! Split-Hand/Foot Malformation With Long Bone Deficiency 3	2	DC:0000
 OMIM:612671	0	
 OMIM:612731 ! Faciocardiomelic Syndrome	1	DOID:4 ! disease
 OMIM:612798 ! Question Mark Ears, Isolated	1	DOID:4 ! disease
-OMIM:612843 ! Keratosis Follicularis Spinulosa Decalvans, Autosomal Dominant	2	DC:0000550 ! Keratosis Follicularis Spinulosa Decalvans,DOID:4 ! disease
-OMIM:612908 ! Keratosis Palmoplantaris Striata II	2	DC:0000234 ! Keratoderma, Palmoplantar Striate,DOID:4 ! disease
 OMIM:612917 ! Giacheti Syndrome	1	DOID:4 ! disease
 OMIM:612947 ! Microcephaly, Growth Retardation, Cataract, Hearing Loss, And Unusual Appearance	1	DOID:4 ! disease
 OMIM:612948 ! Stargardt Macular Degeneration Absent or Hypoplastic Corpus Callosum Mental Retardation and Dysmorphic Features	1	DOID:4 ! disease
 OMIM:613005 ! Santos Syndrome	1	DOID:4 ! disease
 OMIM:613124 ! Hydrops Fetalis, Nonimmune, With Gracile Bones And Dysmorphic Features	1	DOID:4 ! disease
-OMIM:613239 ! Thyrotoxic Periodic Paralysis, Susceptibility To, 2	2	DC:0000438 ! Thyrotoxic Periodic Paralysis,DOID:4 ! disease
 OMIM:613241 ! Pseudopili Annulati	1	DOID:4 ! disease
-OMIM:613282 ! Fatty Liver Disease, Nonalcoholic, Susceptibility To, 1	2	DC:0000158 ! Fatty Liver Disease, Nonalcoholic,DOID:4 ! disease
 OMIM:613291 ! Bile Acid Malabsorption, Primary	1	DOID:4 ! disease
 OMIM:613353 ! Mononeuropathy of the Median Nerve, Mild	1	DOID:4 ! disease
-OMIM:613387 ! Fatty Liver Disease, Nonalcoholic, Susceptibility To, 2	2	DC:0000158 ! Fatty Liver Disease, Nonalcoholic,DOID:4 ! disease
 OMIM:613418	0	
 OMIM:613544 ! Chromosome 6Q11-Q14 Deletion Syndrome	2	DOID:4 ! disease,MESH:D002872 ! Chromosome Deletion
-OMIM:613561 ! Myopathy, Lactic Acidosis, and Sideroblastic Anemia 2	2	DC:0000304 ! Myopathy, Lactic Acidosis, and Sideroblastic Anemia,DOID:4 ! disease
-OMIM:613573 ! Ectodermal Dysplasia-Syndactyly Syndrome 1	2	DC:0000645 ! Ectodermal Dysplasia-Syndactyly Syndrome,DOID:4 ! disease
 OMIM:613603 ! Chromosome 4Q32.1-Q32.2 Triplication Syndrome	1	DOID:4 ! disease
 OMIM:613606 ! Forsythe-Wakeling Syndrome	1	DOID:4 ! disease
-OMIM:613608 ! Epilepsy, Familial Adult Myoclonic, 3	2	DC:0000624 ! Epilepsy, Familial Adult Myoclonic,DOID:4 ! disease
 OMIM:613611 ! Choanal Atresia and Lymphedema	1	DOID:4 ! disease
 OMIM:613623 ! Agenesis of the Corpus Callosum and Congenital Lymphedema	1	DOID:4 ! disease
 OMIM:613625 ! Factor 5 and Factor Viii, Combined Deficiency Of, 2	2	DC:0000517 ! Factor V and Factor VIII, Combined Deficiency of,DOID:4 ! disease
@@ -1287,23 +1253,19 @@ OMIM:614034 ! Heme Oxygenase 1 Deficiency	1	DOID:4 ! disease
 OMIM:614044 ! Trypsinogen Deficiency	1	DOID:4 ! disease
 OMIM:614055 ! Cytosolic acetoacetyl-CoA thiolase deficiency	1	DOID:4 ! disease
 OMIM:614063 ! N-Acetylaspartate Deficiency	1	DOID:4 ! disease
-OMIM:614069 ! Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome 2	2	DC:0000544 ! Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome,DOID:4 ! disease
 OMIM:614080 ! Multiple Congenital Anomalies-Hypotonia-Seizures Syndrome 1	2	DC:0000565 ! Multiple Congenital Anomalies-Hypotonia-Seizures Syndrome,DOID:4 ! disease
 OMIM:614098 ! Keppen-Lubinsky Syndrome	1	DOID:4 ! disease
 OMIM:614114 ! Mosaic Variegated Aneuploidy Syndrome 2	2	DC:0000564 ! Mosaic Variegated Aneuploidy Syndrome,DOID:4 ! disease
 OMIM:614132	0	
-OMIM:614158 ! Bleeding Disorder, Platelet-Type, 14	2	DC:0000057 ! Bleeding Disorder, Platelet-Type,DOID:4 ! disease
 OMIM:614164 ! Glutathione Peroxidase Deficiency	1	DOID:4 ! disease
 OMIM:614185 ! Geleophysic Dysplasia 2	2	DC:0000524 ! Geleophysic Dysplasia,DOID:4 ! disease
 OMIM:614195 ! Craniofacial Anomalies and Anterior Segment Dysgenesis Syndrome	1	DOID:4 ! disease
 OMIM:614262 ! Arthrogryposis, Perthes Disease, and Upward Gaze Palsy	1	DOID:4 ! disease
 OMIM:614296 ! Wolfram-Like Syndrome, Autosomal Dominant	1	DOID:4 ! disease
 OMIM:614306 ! Cognitive Impairment With or Without Cerebellar Ataxia	1	DOID:4 ! disease
-OMIM:614328 ! Inflammatory Skin and Bowel Disease, Neonatal, 1	2	DC:0000674 ! Inflammatory Skin and Bowel Disease, Neonatal,DOID:4 ! disease
 OMIM:614389 ! Pregnancy Loss, Recurrent, Susceptibility To, 1	2	DC:0000580 ! Pregnancy Loss, Recurrent, Susceptibility,DOID:4 ! disease
 OMIM:614390 ! Pregnancy Loss, Recurrent, Susceptibility To, 2	2	DC:0000580 ! Pregnancy Loss, Recurrent, Susceptibility,DOID:4 ! disease
 OMIM:614391 ! Pregnancy Loss, Recurrent, Susceptibility To, 3	2	DC:0000580 ! Pregnancy Loss, Recurrent, Susceptibility,DOID:4 ! disease
-OMIM:614402 ! Microphthalmia, Syndromic 11	2	DC:0000280 ! Microphthalmia, Syndromic,DOID:4 ! disease
 OMIM:614415 ! Chilblain Lupus 2	2	DC:0000493 ! Chilblain Lupus,DOID:4 ! disease
 OMIM:614418 ! Febrile Seizures, Familial, 11	2	DOID:4 ! disease,MESH:D003294 ! Seizures, Febrile
 OMIM:614498 ! Rigidity and Multifocal Seizure Syndrome, Lethal Neonatal	1	DOID:4 ! disease
@@ -1321,14 +1283,11 @@ OMIM:614673 ! Microcephaly 8, Primary, Autosomal Recessive	2	DOID:4 ! disease,ME
 OMIM:614684 ! Hypertelorism and Other Facial Dysmorphism, Brachydactyly, Genital Abnormalities, Mental Retardation, and Recurrent Inflammatory Episodes	1	DOID:4 ! disease
 OMIM:614736 ! Glucocorticoid Deficiency 4	2	DC:0000175 ! Glucocorticoid Deficiency,DOID:4 ! disease
 OMIM:614741 ! Mitochondrial Pyruvate Carrier Deficiency	1	DOID:4 ! disease
-OMIM:614850 ! Herpes Simplex Encephalitis, Susceptibility To, 4	2	DC:0000184 ! Herpes Simplex Encephalitis, Susceptibility,DOID:4 ! disease
 OMIM:614852 ! Microcephaly 9, Primary, Autosomal Recessive	2	DOID:4 ! disease,MESH:C579935 ! Autosomal Recessive Primary Microcephaly
 OMIM:614894 ! Monocyte and Dendritic Cell Deficiency, Autosomal Recessive	1	DOID:4 ! disease
 OMIM:614916 ! Ventricular Tachycardia, Catecholaminergic Polymorphic, 4	2	DC:0000665 ! Ventricular Tachycardia, Catecholaminergic Polymorphic,DOID:4 ! disease
 OMIM:614927 ! Ectodermal Dysplasia 5, Hair/Nail Type	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
-OMIM:614980 ! Congenital Heart Defects, Multiple Types, 2	2	DC:0000506 ! Congenital Heart Defects, Multiple Types,DOID:4 ! disease
 OMIM:615028 ! Epidermolysis Bullosa, Nonspecific, Autosomal Recessive	1	DOID:4 ! disease
-OMIM:615127 ! Epilepsy, Familial Adult Myoclonic, 4	2	DC:0000624 ! Epilepsy, Familial Adult Myoclonic,DOID:4 ! disease
 OMIM:615133	0	
 OMIM:615155 ! Steel Syndrome	1	DOID:4 ! disease
 OMIM:615198 ! Osteosclerotic Metaphyseal Dysplasia	1	DOID:4 ! disease
@@ -1350,15 +1309,12 @@ OMIM:615771 ! Cortical Dysplasia, Complex, With Other Brain Malformations 6	2	DC
 OMIM:615777 ! Desbuquois Dysplasia 2	2	DC:0000623 ! Desbuquois Dysplasia,DOID:4 ! disease
 OMIM:615829 ! Xia-Gibbs Syndrome	1	DOID:4 ! disease
 OMIM:615849 ! Culler-Jones Syndrome	1	DOID:4 ! disease
-OMIM:615883 ! Myopathy, Tubular Aggregate, 2	2	DC:0000667 ! Myopathy, Tubular Aggregate,DOID:4 ! disease
-OMIM:615888 ! Bleeding Disorder, Platelet-Type, 18	2	DC:0000057 ! Bleeding Disorder, Platelet-Type,DOID:4 ! disease
 OMIM:615889 ! Leukoencephalopathy, Progressive, With Ovarian Failure	1	DOID:4 ! disease
 OMIM:615919 ! Ataxia-Telangiectasia-Like Disorder 2	2	DOID:4 ! disease,MESH:C565779 ! Ataxia Telangiectasia Like Disorder
 OMIM:615934 ! Sting-Associated Vasculopathy, Infantile-Onset	1	DOID:4 ! disease
 OMIM:615952 ! Autoimmune Disease, Multisystem, Infantile-Onset	1	DOID:4 ! disease
 OMIM:616040 ! Myasthenic Syndrome, Presynaptic, Congenital, With or Without Motor Neuropathy	2	DC:0000297 ! Myasthenic Syndrome,DOID:4 ! disease
 Orphanet:1002	0	
-Orphanet:100976 ! Bathing suit ichthyosis	2	DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive,DOID:4 ! disease
 Orphanet:1041 ! Hydrops fetalis	2	DOID:4 ! disease,Orphanet:93890 ! Rare developmental defect during embryogenesis
 Orphanet:1052	1	DOID:4 ! disease
 Orphanet:1055	0	
@@ -1378,7 +1334,6 @@ Orphanet:1414	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:1425	1	DOID:4 ! disease
 Orphanet:1433 ! Choroidal atrophy - alopecia	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
 Orphanet:1465	2	DOID:4 ! disease,DOID:630 ! genetic disease
-Orphanet:1466	1	DOID:4 ! disease
 Orphanet:156177	0	
 Orphanet:1577	0	
 Orphanet:163634	2	DOID:225 ! syndrome,DOID:4 ! disease
@@ -1422,23 +1377,17 @@ Orphanet:2158	0
 Orphanet:2184	0	
 Orphanet:2228	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:2258	0	
-Orphanet:2268	1	DOID:4 ! disease
 Orphanet:2321	0	
 Orphanet:2322	1	DOID:4 ! disease
 Orphanet:2333	1	DOID:4 ! disease
 Orphanet:2335	0	
-Orphanet:2338 ! Isolated punctate palmoplantar keratoderma	2	DC:0000653 ! Keratoderma, Palmoplantar Punctate,DOID:4 ! disease
-Orphanet:2340	1	DOID:4 ! disease
 Orphanet:2352	0	
 Orphanet:2440	1	DOID:4 ! disease
 Orphanet:2466	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:250	1	DOID:4 ! disease
-Orphanet:254	1	DOID:4 ! disease
 Orphanet:2547	0	
 Orphanet:2582 ! Myalgia-eosinophilia syndrome associated with tryptophan	1	DOID:4 ! disease
 Orphanet:2591	1	DOID:4 ! disease
-Orphanet:2598	1	DOID:4 ! disease
-Orphanet:26	1	DOID:4 ! disease
 Orphanet:2623	1	DOID:4 ! disease
 Orphanet:2671	1	DOID:4 ! disease
 Orphanet:2672	0	
@@ -1456,9 +1405,6 @@ Orphanet:2742	0
 Orphanet:275543	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:2771	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:2793	0	
-Orphanet:2808	1	DOID:4 ! disease
-Orphanet:281122 ! Self-healing collodion baby	2	DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive,DOID:4 ! disease
-Orphanet:281127 ! Acral self-healing collodion baby	2	DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive,DOID:4 ! disease
 Orphanet:2835	0	
 Orphanet:2890 ! Pili torti - onychodysplasia	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
 Orphanet:296	2	DOID:225 ! syndrome,DOID:4 ! disease
@@ -1478,7 +1424,6 @@ Orphanet:3197	1	DOID:4 ! disease
 Orphanet:3200	0	
 Orphanet:3215	0	
 Orphanet:3216	0	
-Orphanet:3265	1	DOID:4 ! disease
 Orphanet:3286	1	DOID:4 ! disease
 Orphanet:3311	0	
 Orphanet:33271	0	
@@ -1500,14 +1445,11 @@ Orphanet:385	1	DOID:4 ! disease
 Orphanet:387	0	
 Orphanet:41842	0	
 Orphanet:440	2	DOID:0080015 ! physical disorder,DOID:4 ! disease
-Orphanet:457 ! Harlequin ichthyosis	2	DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive,DOID:4 ! disease
 Orphanet:462	0	
 Orphanet:47045	1	DOID:4 ! disease
 Orphanet:484	0	
 Orphanet:50817	0	
-Orphanet:50942	1	DOID:4 ! disease
 Orphanet:52429	2	DOID:225 ! syndrome,DOID:4 ! disease
-Orphanet:53715	1	DOID:4 ! disease
 Orphanet:625	0	
 Orphanet:660	2	DOID:0080015 ! physical disorder,DOID:4 ! disease
 Orphanet:669	1	DOID:4 ! disease
@@ -1526,8 +1468,6 @@ Orphanet:84090	1	DOID:4 ! disease
 Orphanet:85173	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:85276	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:856	0	
-Orphanet:867	1	DOID:4 ! disease
-Orphanet:86814	1	DOID:4 ! disease
 Orphanet:870	0	
 Orphanet:871	1	DOID:4 ! disease
 Orphanet:887	2	DOID:225 ! syndrome,DOID:4 ! disease

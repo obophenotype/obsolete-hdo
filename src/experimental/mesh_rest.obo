@@ -43000,7 +43000,6 @@ is_a: Orphanet:98842 ! Lymphomatoid papulosis
 [Term]
 id: MESH:D008258
 name: Waldenstrom Macroglobulinemia
-is_a: DOID:9080 ! macroglobulinemia
 is_a: OMIM:153600 ! Macroglobulinemia, Waldenstrom, Susceptibility To, 1
 is_a: OMIM:610430 ! Macroglobulinemia, Waldenstrom, Susceptibility To, 2
 
@@ -48487,7 +48486,6 @@ equivalent_to: DOID:7166 ! thyroiditis
 [Term]
 id: MESH:D013967
 name: Thyroiditis, Autoimmune
-is_a: DOID:7188 ! autoimmune thyroiditis
 is_a: OMIM:608173 ! Autoimmune Thyroid Disease, Susceptibility To, 1
 is_a: OMIM:608174 ! Autoimmune Thyroid Disease, Susceptibility To, 2
 is_a: OMIM:608175 ! Autoimmune Thyroid Disease, Susceptibility To, 3
