@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 16:03:2015 11:12
-saved-by: smb
-auto-generated-by: OBO-Edit 2.2
+date: 20:03:2015 11:26
+saved-by: vasilevs
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
 remark: Filtered by ID contains "omim"
 generated-by: $Id: MGIOBOFileGeneratorMgr.java
@@ -5545,6 +5545,78 @@ comment: Based on genetic heterogeneity of OMIM 615558.
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-03-13T14:34:27Z
+
+[Term]
+id: DC:0000679
+name: Feingold Syndrome
+xref: PS:164280
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T10:40:56Z
+
+[Term]
+id: DC:0000680
+name: Hypertropic Osteoarthropathy, Primary
+xref: PS:259100
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T10:45:30Z
+
+[Term]
+id: DC:0000681
+name: Trichothiodystrophy, Nonphotosensitive
+comment: Based on description of OMIM:234050.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T10:54:34Z
+
+[Term]
+id: DC:0000682
+name: Autoimmune Polyendocrinopathy Syndrome
+comment: Based on description of OMIM:269200.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T10:58:08Z
+
+[Term]
+id: DC:0000683
+name: Methemoglobinemia
+comment: Based on text in OMIM:250800.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T11:02:01Z
+
+[Term]
+id: DC:0000684
+name: Vitamin K-Dependent Clotting Factors, Combined Deficiency of
+xref: PS:277450
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T11:05:48Z
+
+[Term]
+id: DC:0000685
+name: Retinoschisis
+comment: Based on text in OMIM:180270.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T11:11:26Z
+
+[Term]
+id: DC:0000686
+name: Neuronal Intestinal Dysplasia
+comment: Based on text in OMIM:601223.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T11:21:04Z
+
+[Term]
+id: DC:0000687
+name: Polyposis Syndrome, Hereditary Mixed
+comment: Based on description in OMIM:601228.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T11:23:58Z
 
 [Term]
 id: OMIM:100050
@@ -11259,7 +11331,7 @@ is_a: DC:0000328 ! Nystagmus
 [Term]
 id: OMIM:164150
 name: Nystagmus, Hereditary Vertical
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000328 ! Nystagmus
 
 [Term]
 id: OMIM:164180
@@ -11299,7 +11371,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:164280
 name: FEINGOLD SYNDROME 1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000679 ! Feingold Syndrome
 
 [Term]
 id: OMIM:164300
@@ -11589,7 +11661,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:167100
 name: Hypertrophic Osteoarthropathy, Primary, Autosomal Dominant; PHOAD
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000680 ! Hypertropic Osteoarthropathy, Primary
 
 [Term]
 id: OMIM:167200
@@ -12675,7 +12747,7 @@ is_a: DC:0000592 ! Retinopathy
 [Term]
 id: OMIM:180270
 name: Retinoschisis, Autosomal Dominant
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000685 ! Retinoschisis
 
 [Term]
 id: OMIM:180300
@@ -15250,7 +15322,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:211390
 name: Sabinas Brittle Hair Syndrome
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000681 ! Trichothiodystrophy, Nonphotosensitive
 
 [Term]
 id: OMIM:211400
@@ -17423,7 +17495,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:234050
 name: TRICHOTHIODYSTROPHY, NONPHOTOSENSITIVE 1; TTDN1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000681 ! Trichothiodystrophy, Nonphotosensitive
 
 [Term]
 id: OMIM:234100
@@ -17893,7 +17965,7 @@ is_a: DC:0000011 ! Adrenal Hypoplasia
 [Term]
 id: OMIM:240300
 name: Autoimmune polyendocrinopathy syndrome, type 1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000682 ! Autoimmune Polyendocrinopathy Syndrome
 
 [Term]
 id: OMIM:240400
@@ -18168,7 +18240,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:243180
 name: VISCERAL NEUROPATHY, FAMILIAL, AUTOSOMAL RECESSIVE
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000686 ! Neuronal Intestinal Dysplasia
 
 [Term]
 id: OMIM:243185
@@ -18868,12 +18940,12 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:250790
 name: Methemoglobinemia Type IV
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000683 ! Methemoglobinemia
 
 [Term]
 id: OMIM:250800
 name: NADH cytochrome B5 reductase deficiency
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000683 ! Methemoglobinemia
 
 [Term]
 id: OMIM:250850
@@ -19838,7 +19910,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:259100
 name: HYPERTROPHIC OSTEOARTHROPATHY, PRIMARY, AUTOSOMAL RECESSIVE, 1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000680 ! Hypertropic Osteoarthropathy, Primary
 
 [Term]
 id: OMIM:259200
@@ -20783,7 +20855,7 @@ is_a: DC:0000592 ! Retinopathy
 [Term]
 id: OMIM:268080
 name: Retinoschisis of Fovea
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000685 ! Retinoschisis
 
 [Term]
 id: OMIM:268100
@@ -20903,7 +20975,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:269200
 name: Autoimmune Polyendocrine Syndrome, Type II; APS2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000682 ! Autoimmune Polyendocrinopathy Syndrome
 
 [Term]
 id: OMIM:269250
@@ -21780,7 +21852,7 @@ is_a: DC:0000454 ! Vitamin D-Dependent Rickets
 [Term]
 id: OMIM:277450
 name: Vitamin K-Dependent Clotting Factors, Combined Deficiency Of, 1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000684 ! Vitamin K-Dependent Clotting Factors, Combined Deficiency of
 
 [Term]
 id: OMIM:277460
@@ -22781,7 +22853,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:300624
 name: FRAGILE X MENTAL RETARDATION SYNDROME
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
 id: OMIM:300633
@@ -24059,7 +24131,7 @@ is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 [Term]
 id: OMIM:309548
 name: Mental Retardation, X-Linked, Associated With Fragile Site Fraxe
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
 id: OMIM:309549
@@ -24239,7 +24311,7 @@ is_a: DC:0000328 ! Nystagmus
 [Term]
 id: OMIM:310800
 name: Nystagmus, Myoclonic
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000328 ! Nystagmus
 
 [Term]
 id: OMIM:310900
@@ -24399,7 +24471,7 @@ is_a: DC:0000386 ! Retinitis Pigmentosa
 [Term]
 id: OMIM:312700
 name: RETINOSCHISIS 1, X-LINKED, JUVENILE
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000685 ! Retinoschisis
 
 [Term]
 id: OMIM:312750
@@ -25034,7 +25106,7 @@ is_a: DC:0000414 ! Spinocerebellar Ataxia
 [Term]
 id: OMIM:600231
 name: Diffuse palmoplantar keratoderma, Bothnian type
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000347 ! Palmoplantar Keratoderma, Nonepidermolytic
 
 [Term]
 id: OMIM:600251
@@ -25935,7 +26007,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:601223
 name: NEURONAL INTESTINAL DYSPLASIA, TYPE B
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000686 ! Neuronal Intestinal Dysplasia
 
 [Term]
 id: OMIM:601224
@@ -25945,7 +26017,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:601228
 name: Polyposis Syndrome, Hereditary Mixed, 1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000687 ! Polyposis Syndrome, Hereditary Mixed
 
 [Term]
 id: OMIM:601230
@@ -30121,7 +30193,7 @@ is_a: DC:0000435 ! Thyroid Cancer
 [Term]
 id: OMIM:607473
 name: VITAMIN K-DEPENDENT CLOTTING FACTORS, COMBINED DEFICIENCY OF, 2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000684 ! Vitamin K-Dependent Clotting Factors, Combined Deficiency of
 
 [Term]
 id: OMIM:607475
@@ -33014,7 +33086,7 @@ is_a: DC:0000052 ! Systemic Lupus Erythematosus
 [Term]
 id: OMIM:610069
 name: Polyposis Syndrome, Hereditary Mixed, 2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000687 ! Polyposis Syndrome, Hereditary Mixed
 
 [Term]
 id: OMIM:610071
@@ -39483,7 +39555,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:614326
 name: Feingold Syndrome 2; FGLDS2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000679 ! Feingold Syndrome
 
 [Term]
 id: OMIM:614327
@@ -39810,7 +39882,7 @@ is_a: DC:0000106 ! Cutis Laxa
 [Term]
 id: OMIM:614441
 name: Hypertrophic Osteoarthropathy, Primary, Autosomal Recessive, 2; PHOAR2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000680 ! Hypertropic Osteoarthropathy, Primary
 
 [Term]
 id: OMIM:614450
