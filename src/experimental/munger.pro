@@ -607,25 +607,49 @@ subclass_in(M,P,S) :-
 
 foo('0').
 
-write_equiv_omims :-
-        class(M),
+not_group_of_disorders(D) :-
+        \+ entity_partition(D,group_of_disorders),
+        !.
+
+not_has_disease_children(P) :-
+        \+ has_disease_children(P),
+        !.
+has_disease_children(P) :-
+        subclass(Z,P),
+        \+ id_idspace(Z,'OMIM'),
+        \+ is_sub_disease_type(Z),
+        !.
+
+
+
+% Equivalencies between OMIMs and parent diseases
+write_equiv_for_omim(M):-
         id_idspace(M,'OMIM'),
-        setof(P,subclass_in(M,P,_S),[P]), % P must be only parent of M in S
-        setof(Z,(subclass(Z,P),id_idspace(Z,'OMIM')),[M]),      % ...and M must be only child of P
-        \+ is_group_of_disorders(P),  % nerve merge into a grouping
+        
+        % P must be only parent of M in S
+        setof(P1,subclass_in(M,P1,_S),[P]),
+
+        % ...and M must be only child of P
+        setof(Z,(subclass(Z,P),id_idspace(Z,'OMIM')),[M]),
+
+        % never merge into a grouping
+        not_group_of_disorders(P),
+        
         % never merge into a class that has non-subtype children
-        \+ ((subclass(Z,P),
-             \+ id_idspace(Z,'OMIM'),
-             \+ is_sub_disease_type(P))),
+        not_has_disease_children(P),
+        
         %\+ restriction(_,_,P),  % never merge into group-of-disorders
         % labels must match
-        \+ \+ entity_pair_label_intermatch(M,P,_,_,_),
+        \+ \+ ((entity_pair_label_intermatch(M,P,_,_,_))),
         class2n(M,MN),
         class2n(P,PN),
         format('[Term]~n'),
         format('id: ~w ! ~w~n',[M,MN]),
         format('equivalent_to: ~w ! ~w~n',[P,PN]),
-        nl,
+        nl.
+write_equiv_omims :-
+        class(M),
+        write_equiv_for_omim(M),
         fail.
 write_equiv_omims.
 
