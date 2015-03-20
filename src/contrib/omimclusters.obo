@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:03:2015 14:18
+date: 20:03:2015 16:16
 saved-by: vasilevs
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5673,6 +5673,22 @@ xref: PS:161950
 is_a: DC:0000138 ! Disease Cluster
 created_by: vasilevs
 creation_date: 2015-03-20T14:17:29Z
+
+[Term]
+id: DC:0000695
+name: Renal Hypodysplasia/Aplasia
+comment: Based on description in OMIM:191830.
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T16:10:07Z
+
+[Term]
+id: DC:0000696
+name: Polyglucosan Body Myopathy
+xref: PS:615895
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T16:14:54Z
 
 [Term]
 id: OMIM:100050
@@ -14085,7 +14101,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:191830
 name: Hereditary renal agenesis
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000695 ! Renal Hypodysplasia/Aplasia
 
 [Term]
 id: OMIM:191850
@@ -39282,7 +39298,7 @@ is_a: DC:0000351 ! Parkinson Disease
 [Term]
 id: OMIM:614204
 name: Pustular Psoriasis, Generalized; PSORP
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000378 ! Psoriasis
 
 [Term]
 id: OMIM:614205
@@ -42773,7 +42789,7 @@ is_a: DC:0000203 ! Hyperphosphatasia with Mental Retardation Syndrome
 [Term]
 id: OMIM:615721
 name: Renal Hypodysplasia/Aplasia 2; RHDA2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000695 ! Renal Hypodysplasia/Aplasia
 
 [Term]
 id: OMIM:615722
@@ -43123,7 +43139,7 @@ is_a: DC:0000334 ! Orofacial Cleft
 [Term]
 id: OMIM:615895
 name: Polyglucosan Body Myopathy, Early-Onset, with or without Immunodeficiency;
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000696 ! Polyglucosan Body Myopathy
 
 [Term]
 id: OMIM:615896
@@ -43810,7 +43826,7 @@ is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
 [Term]
 id: OMIM:616199
 name: Polyglucosan Body Myopathy 2; PGBM2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000696 ! Polyglucosan Body Myopathy
 
 [Term]
 id: OMIM:616200
