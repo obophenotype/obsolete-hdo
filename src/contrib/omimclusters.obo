@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:03:2015 13:58
+date: 20:03:2015 14:18
 saved-by: vasilevs
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5667,6 +5667,14 @@ created_by: vasilevs
 creation_date: 2015-03-20T13:56:30Z
 
 [Term]
+id: DC:0000694
+name: IgA Nephropathy, Susceptibility to
+xref: PS:161950
+is_a: DC:0000138 ! Disease Cluster
+created_by: vasilevs
+creation_date: 2015-03-20T14:17:29Z
+
+[Term]
 id: OMIM:100050
 name: Aarskog Syndrome, Autosomal Dominant
 is_a: DC:0000138 ! Disease Cluster
@@ -11194,7 +11202,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:161950
 name: Iga Nephropathy, Susceptibility to, 1; IGAN1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000694 ! IgA Nephropathy, Susceptibility to
 
 [Term]
 id: OMIM:162000
@@ -38616,7 +38624,7 @@ is_a: DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive
 [Term]
 id: OMIM:613944
 name: Iga Nephropathy, Susceptibility to, 2; IGAN2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000694 ! IgA Nephropathy, Susceptibility to
 
 [Term]
 id: OMIM:613949
