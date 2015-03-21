@@ -1646,10 +1646,6 @@ xref: MESH:C562407 ! Aplasia of Lacrimal and Salivary Glands
 xref: OMIM:180920 ! Aplasia of Lacrimal and Salivary Glands
 
 [Term]
-id: Orphanet:71277 ! Encephalopathy due to GLUT1 deficiency
-xref: MESH:C536830 ! De Vivo disease
-
-[Term]
 id: OMIM:612877 ! Cardiomyopathy, Dilated, 1Bb
 xref: MESH:C567877 ! Cardiomyopathy, Dilated, 1BB
 
@@ -3413,10 +3409,6 @@ xref: MESH:D053307 ! Hyper-IgM Immunodeficiency Syndrome, Type 1
 id: OMIM:601200 ! Pleuropulmonary Blastoma
 xref: DOID:4769 ! pleuropulmonary blastoma
 xref: MESH:C537516 ! Pleuropulmonary blastoma
-
-[Term]
-id: DOID:12118 ! brown induration
-xref: MESH:C536281 ! Idiopathic pulmonary hemosiderosis
 
 [Term]
 id: Orphanet:731 ! Autosomal recessive polycystic kidney disease
@@ -7688,6 +7680,11 @@ id: OMIM:142330 ! Hepatic Adenomas, Familial
 xref: MESH:C564190 ! Hepatic Adenomas, Familial
 
 [Term]
+id: DOID:12118 ! pulmonary hemosiderosis
+xref: MESH:C536281 ! Idiopathic pulmonary hemosiderosis
+xref: OMIM:178550 ! Pulmonary Hemosiderosis
+
+[Term]
 id: OMIM:241100 ! Hypogonadism, Male
 xref: MESH:D005058 ! Eunuchism
 
@@ -10098,7 +10095,7 @@ xref: MESH:C562447 ! Spondyloepiphyseal Dysplasia Tarda, X-Linked
 
 [Term]
 id: OMIM:603736 ! Ohdo Syndrome, Sbbys Variant
-xref: DOID:0060290 ! blepharophimosis-intellectual disability syndrome
+xref: DOID:0060290 ! blepharophimosis-intellectual disability syndrome, SBBYS type
 
 [Term]
 id: DOID:1875 ! impotence
@@ -11430,10 +11427,6 @@ id: OMIM:300605 ! Retinitis Pigmentosa 34
 xref: MESH:C564475 ! Retinitis Pigmentosa 34
 
 [Term]
-id: Orphanet:1305 ! Feingold syndrome
-xref: MESH:C537734 ! Oculodigitoesophagoduodenal syndrome
-
-[Term]
 id: Orphanet:391677 ! Short stature-optic atrophy-Pelger-HuC+t anomaly syndrome
 xref: OMIM:614800 ! Short Stature, Optic Nerve Atrophy, and Pelger-Huet Anomaly
 
@@ -11999,6 +11992,7 @@ xref: OMIM:182600 ! Spastic Paraplegia 3, Autosomal Dominant
 
 [Term]
 id: DOID:0060289 ! Ohdo syndrome
+xref: MESH:C536232 ! Blepharophimosis syndrome Ohdo type
 xref: OMIM:249620 ! Ohdo Syndrome
 
 [Term]
@@ -17217,6 +17211,10 @@ id: OMIM:603572 ! Microcephaly, Facial Abnormalities, Micromelia, and Mental Ret
 xref: MESH:C566361 ! Microcephaly, Facial Abnormalities, Micromelia, and Mental Retardation
 
 [Term]
+id: DC:0000690 ! GLUT1 Deficiency Syndrome
+xref: MESH:C536830 ! De Vivo disease
+
+[Term]
 id: OMIM:300749 ! Mental Retardation and Microcephaly With Pontine and Cerebellar Hypoplasia
 xref: MESH:C567466 ! Mental Retardation And Microcephaly With Pontine And Cerebellar Hypoplasia
 xref: Orphanet:163937 ! X-linked intellectual disability, Najm type
@@ -20776,12 +20774,12 @@ id: OMIM:254100 ! Muscular Dystrophy, Congenital, With Rapid Progression
 xref: MESH:C564983 ! Muscular Dystrophy, Congenital, with Rapid Progression
 
 [Term]
-id: OMIM:158100 ! Monophalangy of Great Toe
-xref: MESH:C563570 ! Monophalangy of Great Toe
-
-[Term]
 id: OMIM:161400 ! Narcolepsy 1
 xref: MESH:C563534 ! Narcolepsy 1
+
+[Term]
+id: OMIM:158100 ! Monophalangy of Great Toe
+xref: MESH:C563570 ! Monophalangy of Great Toe
 
 [Term]
 id: OMIM:208200 ! Arthrogryposis-Like Disorder
@@ -21788,6 +21786,10 @@ xref: MESH:C538357 ! Powell Chandra Saal syndrome
 xref: OMIM:261575 ! Phaver Syndrome
 
 [Term]
+id: DC:0000692 ! Ventricular fibrillation
+xref: MESH:D014693 ! Ventricular Fibrillation
+
+[Term]
 id: Orphanet:1514 ! Craniodigital syndrome - intellectual disability
 xref: MESH:C537528 ! Scott Bryant Graham syndrome
 
@@ -22368,6 +22370,10 @@ xref: MESH:C566151 ! Celiac Artery Stenosis from Compression by Median Arcuate L
 [Term]
 id: OMIM:237000 ! Hydroxyprolinemia
 xref: MESH:C562669 ! Hydroxyprolinemia
+
+[Term]
+id: DC:0000679 ! Feingold Syndrome
+xref: MESH:C537734 ! Oculodigitoesophagoduodenal syndrome
 
 [Term]
 id: DOID:0050765 ! neuroacanthocytosis
@@ -23202,8 +23208,6 @@ xref: Orphanet:1512 ! Crane-Heise syndrome
 [Term]
 id: DOID:824 ! periodontitis
 xref: MESH:D010518 ! Periodontitis
-xref: MESH:D055113 ! Chronic Periodontitis
-xref: OMIM:260950 ! Periodontitis, Chronic
 
 [Term]
 id: OMIM:243050 ! Indolylacroyl Glycinuria With Mental Retardation
@@ -26574,10 +26578,6 @@ xref: MESH:C538319 ! Hirschsprung disease type d brachydactyly
 xref: Orphanet:2150 ! Hirschsprung disease - type D brachydactyly
 
 [Term]
-id: DOID:0060290 ! blepharophimosis-intellectual disability syndrome
-xref: OMIM:603736 ! Ohdo Syndrome, Sbbys Variant
-
-[Term]
 id: OMIM:187370 ! Arthrogryposis, Distal, Type 10
 xref: MESH:C566069 ! Arthrogryposis, Distal, Type 10
 xref: Orphanet:251515 ! Distal arthrogryposis type 10
@@ -26678,10 +26678,6 @@ xref: OMIM:311300 ! Otopalatodigital Syndrome, Type 1
 id: Orphanet:211 ! Familial cylindromatosis
 xref: MESH:C536611 ! Familial cylindromatosis
 xref: OMIM:132700 ! Cylindromatosis, Familial
-
-[Term]
-id: Orphanet:1896 ! EEC syndrome
-xref: MESH:C536189 ! Ectrodactyly-cleft lip/palate syndrome
 
 [Term]
 id: OMIM:613107 ! Neutropenia, Severe Congenital, 2, Autosomal Dominant
@@ -29041,10 +29037,6 @@ xref: Orphanet:171714 ! Amish infantile epilepsy syndrome
 id: Orphanet:225154 ! Familial infantile bilateral striatal necrosis
 xref: MESH:C537500 ! Striatonigral degeneration infantile
 xref: OMIM:271930 ! Striatonigral Degeneration, Infantile
-
-[Term]
-id: Orphanet:3137 ! Alpha-N-acetylgalactosaminidase deficiency
-xref: MESH:C536631 ! Schindler Disease, Type I
 
 [Term]
 id: Orphanet:1133 ! AREDYLD syndrome
@@ -34272,7 +34264,6 @@ xref: MESH:D004749 ! Entamoebiasis
 
 [Term]
 id: OMIM:260950 ! Periodontitis, Chronic
-xref: DOID:824 ! periodontitis
 xref: MESH:D055113 ! Chronic Periodontitis
 
 [Term]
@@ -34489,6 +34480,10 @@ xref: MESH:D010245 ! Paralyses, Familial Periodic
 [Term]
 id: Orphanet:60026 ! Pulmonary nodular lymphoid hyperplasia
 xref: OMIM:178610 ! Pulmonary Nodular Lymphoid Hyperplasia, Familial
+
+[Term]
+id: DC:0000691 ! Schindler Disease
+xref: MESH:C536631 ! Schindler Disease, Type I
 
 [Term]
 id: DOID:12639 ! pyloric stenosis
@@ -36894,6 +36889,10 @@ id: OMIM:308700 ! Hypogonadotropic Hypogonadism 1 With or Without Anosmia
 xref: MESH:D017436 ! Kallmann Syndrome
 
 [Term]
+id: DOID:0060290 ! blepharophimosis-intellectual disability syndrome, SBBYS type
+xref: OMIM:603736 ! Ohdo Syndrome, Sbbys Variant
+
+[Term]
 id: OMIM:300614 ! Deafness, X-Linked 5
 xref: MESH:C564472 ! Deafness, X-Linked 5
 
@@ -37197,12 +37196,12 @@ id: OMIM:601318 ! Diabetes Mellitus, Insulin-Dependent, 13
 xref: MESH:C563352 ! Diabetes Mellitus, Insulin-Dependent, 13
 
 [Term]
-id: OMIM:600320 ! Diabetes Mellitus, Insulin-Dependent, 5
-xref: MESH:C563958 ! Diabetes Mellitus, Insulin-Dependent, 5
-
-[Term]
 id: OMIM:611284 ! Dystonia, Focal, Task-Specific
 xref: MESH:C566973 ! Dystonia, Focal, Task-Specific
+
+[Term]
+id: OMIM:600320 ! Diabetes Mellitus, Insulin-Dependent, 5
+xref: MESH:C563958 ! Diabetes Mellitus, Insulin-Dependent, 5
 
 [Term]
 id: OMIM:245180 ! Kifafa Seizure Disorder
@@ -38909,13 +38908,13 @@ xref: MESH:C563937 ! Arterial Dissection with Lentiginosis
 xref: OMIM:600459 ! Arterial Dissection With Lentiginosis
 
 [Term]
+id: OMIM:611291 ! Severe Combined Immunodeficiency With Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
+xref: MESH:C566970 ! Severe Combined Immunodeficiency with Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
+
+[Term]
 id: OMIM:158280 ! Motion Sickness
 xref: DOID:2951 ! motion sickness
 xref: MESH:D009041 ! Motion Sickness
-
-[Term]
-id: OMIM:611291 ! Severe Combined Immunodeficiency With Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
-xref: MESH:C566970 ! Severe Combined Immunodeficiency with Microcephaly, Growth Retardation, and Sensitivity to Ionizing Radiation
 
 [Term]
 id: OMIM:142945 ! Holoprosencephaly 3
@@ -42794,10 +42793,6 @@ xref: MESH:C537860 ! Occipital horn syndrome
 xref: Orphanet:3203 ! Overhydrated hereditary stomatocytosis
 
 [Term]
-id: OMIM:271640 ! Spondyloepimetaphyseal Dysplasia With Joint Laxity, Type 1, With or Without Fractures
-xref: Orphanet:93359 ! Spondyloepimetaphyseal dysplasia with joint laxity
-
-[Term]
 id: DOID:0050676 ! Birt-Hogg-Dube syndrome
 xref: MESH:D058249 ! Birt-Hogg-Dube Syndrome
 xref: OMIM:135150 ! Birt-Hogg-Dube Syndrome
@@ -45854,6 +45849,10 @@ id: Orphanet:3316 ! Thomas syndrome
 xref: MESH:C536514 ! Thomas syndrome
 
 [Term]
+id: DC:0000688 ! Spondyloepimetaphyseal Dysplasia with Joint Laxity
+xref: MESH:C562968 ! Spondyloepimetaphyseal Dysplasia With Joint Laxity
+
+[Term]
 id: OMIM:609466 ! Cleft Palate, Midfacial Hypoplasia, Triangular Facies, and Sensorineural Hearing Loss
 xref: MESH:C536427 ! Cleft palate, midfacial hypoplasia, triangular facies, and sensorineural hearing loss
 
@@ -46162,11 +46161,6 @@ xref: MESH:D009920 ! Orchitis
 [Term]
 id: OMIM:609573 ! Photoparoxysmal Response 3
 xref: MESH:C563695 ! Photoparoxysmal Response 3
-
-[Term]
-id: Orphanet:93359 ! Spondyloepimetaphyseal dysplasia with joint laxity
-xref: MESH:C562968 ! Spondyloepimetaphyseal Dysplasia With Joint Laxity
-xref: OMIM:271640 ! Spondyloepimetaphyseal Dysplasia With Joint Laxity, Type 1, With or Without Fractures
 
 [Term]
 id: DOID:576 ! proteinuria
@@ -47546,6 +47540,10 @@ id: OMIM:613006 ! Diabetes Mellitus, Insulin-Dependent, 24
 xref: MESH:C567818 ! Diabetes Mellitus, Insulin-Dependent, 24
 
 [Term]
+id: OMIM:611302 ! SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE
+xref: MESH:C566969 ! Ataxia, Spastic, 2, Autosomal Recessive
+
+[Term]
 id: DOID:9726 ! vitreous detachment
 xref: MESH:D020255 ! Vitreous Detachment
 
@@ -47558,10 +47556,6 @@ xref: MESH:D038261 ! Alexander Disease
 id: OMIM:307800 ! Hypophosphatemic Rickets, X-Linked Dominant
 xref: DOID:0050445 ! X-linked hypophosphatemia
 xref: MESH:D053098 ! Familial Hypophosphatemic Rickets
-
-[Term]
-id: OMIM:611302 ! SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE
-xref: MESH:C566969 ! Ataxia, Spastic, 2, Autosomal Recessive
 
 [Term]
 id: Orphanet:309796 ! Rhizomelic chondrodysplasia punctata type 2
@@ -47663,12 +47657,12 @@ id: Orphanet:1433 ! Choroidal atrophy - alopecia
 xref: MESH:C535810 ! Moloney syndrome
 
 [Term]
-id: DOID:14219 ! renal tubular acidosis
-xref: MESH:D000141 ! Acidosis, Renal Tubular
-
-[Term]
 id: DOID:3168 ! squamous cell neoplasm
 xref: MESH:D018307 ! Neoplasms, Squamous Cell
+
+[Term]
+id: DOID:14219 ! renal tubular acidosis
+xref: MESH:D000141 ! Acidosis, Renal Tubular
 
 [Term]
 id: DOID:0060167 ! seasonal affective disorder
@@ -48702,7 +48696,7 @@ xref: OMIM:302801 ! Charcot-Marie-Tooth Disease, X-Linked Recessive, 2
 
 [Term]
 id: OMIM:178550 ! Pulmonary Hemosiderosis
-xref: MESH:C536281 ! Idiopathic pulmonary hemosiderosis
+xref: DOID:12118 ! pulmonary hemosiderosis
 
 [Term]
 id: OMIM:306500 ! Gynecomastia, Familial

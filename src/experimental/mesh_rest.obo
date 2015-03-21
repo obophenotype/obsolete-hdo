@@ -4688,8 +4688,7 @@ equivalent_to: OMIM:119580 ! Blepharocheilodontic Syndrome
 [Term]
 id: MESH:C536189
 name: Ectrodactyly-cleft lip/palate syndrome
-is_a: Orphanet:1896 ! EEC syndrome
-is_a: Orphanet:322 ! Exstrophy-epispadias complex
+equivalent_to: Orphanet:322 ! Exstrophy-epispadias complex
 
 [Term]
 id: MESH:C536190
@@ -5120,8 +5119,7 @@ equivalent_to: OMIM:604288 ! Cardiomyopathy, Dilated, 1H
 [Term]
 id: MESH:C536281
 name: Idiopathic pulmonary hemosiderosis
-is_a: OMIM:178550 ! Pulmonary Hemosiderosis
-is_a: OMIM:235500 ! Hemosiderosis, Pulmonary, With Deficiency of Gamma-A Globulin
+equivalent_to: OMIM:235500 ! Hemosiderosis, Pulmonary, With Deficiency of Gamma-A Globulin
 
 [Term]
 id: MESH:C536283
@@ -7141,7 +7139,7 @@ equivalent_to: DOID:0060273 ! pontocerebellar hypoplasia type 4
 [Term]
 id: MESH:C536717
 name: Young Simpson syndrome
-equivalent_to: DOID:0060290 ! blepharophimosis-intellectual disability syndrome
+equivalent_to: DOID:0060290 ! blepharophimosis-intellectual disability syndrome, SBBYS type
 
 [Term]
 id: MESH:C536718
@@ -11821,7 +11819,7 @@ is_a: DOID:11193 ! syndactyly
 [Term]
 id: MESH:C537734
 name: Oculodigitoesophagoduodenal syndrome
-equivalent_to: Orphanet:1305 ! Feingold syndrome
+equivalent_to: DC:0000679 ! Feingold Syndrome
 
 [Term]
 id: MESH:C537736
@@ -17172,7 +17170,7 @@ equivalent_to: OMIM:218330 ! Cranioectodermal Dysplasia 1
 [Term]
 id: MESH:C562968
 name: Spondyloepimetaphyseal Dysplasia With Joint Laxity
-equivalent_to: Orphanet:93359 ! Spondyloepimetaphyseal dysplasia with joint laxity
+equivalent_to: DC:0000688 ! Spondyloepimetaphyseal Dysplasia with Joint Laxity
 
 [Term]
 id: MESH:C562973
@@ -49386,7 +49384,7 @@ equivalent_to: DOID:10128 ! venous insufficiency
 [Term]
 id: MESH:D014693
 name: Ventricular Fibrillation
-is_a: MESH:D001145 ! Arrhythmias, Cardiac
+equivalent_to: DC:0000692 ! Ventricular fibrillation
 
 [Term]
 id: MESH:D014694
@@ -55716,8 +55714,7 @@ equivalent_to: DOID:6088 ! acute stress disorder
 [Term]
 id: MESH:D041441
 name: Retinoschisis
-is_a: DOID:8465 ! retinoschisis
-is_a: OMIM:312700 ! Retinoschisis 1, X-Linked, Juvenile
+equivalent_to: OMIM:312700 ! Retinoschisis 1, X-Linked, Juvenile
 
 [Term]
 id: MESH:D041761
@@ -57451,8 +57448,7 @@ is_a: DOID:345 ! uterine disease
 [Term]
 id: MESH:D055113
 name: Chronic Periodontitis
-is_a: DOID:824 ! periodontitis
-is_a: OMIM:260950 ! Periodontitis, Chronic
+equivalent_to: OMIM:260950 ! Periodontitis, Chronic
 
 [Term]
 id: MESH:D055154

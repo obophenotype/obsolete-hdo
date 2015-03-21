@@ -793,6 +793,16 @@ DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1386	abetalipoproteinemia	fals
 DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1386	abetalipoproteinemia	true	
 DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1390	hypobetalipoproteinemia	false	
 DC:0000678	Hypobetalipoproteinemia, Familial	DOID:1390	hypobetalipoproteinemia	true	
+DC:0000681	Trichothiodystrophy, Nonphotosensitive	DOID:0050528	nonphotosensitive trichothiodystrophy	false	
+DC:0000681	Trichothiodystrophy, Nonphotosensitive	DOID:0050528	nonphotosensitive trichothiodystrophy	true	
+DC:0000682	Autoimmune Polyendocrinopathy Syndrome	DOID:14040	autoimmune polyendocrine syndrome	false	
+DC:0000683	Methemoglobinemia	DOID:10783	methemoglobinemia	false	
+DC:0000683	Methemoglobinemia	DOID:10783	methemoglobinemia	true	
+DC:0000685	Retinoschisis	DOID:8465	retinoschisis	false	
+DC:0000685	Retinoschisis	DOID:8465	retinoschisis	true	
+DC:0000693	Factor XIII Deficiency	DOID:2211	factor XIII deficiency	false	
+DC:0000693	Factor XIII Deficiency	DOID:2211	factor XIII deficiency	true	
+DC:0000694	IgA Nephropathy, Susceptibility to	DOID:2986	IgA glomerulonephritis	false	
 DOID:0050120	hemophagocytic lymphohistiocytosis	DC:0000183	Hemophagocytic Lymphohistiocytosis, Familial	false	
 DOID:0050425	restless legs syndrome	DC:0000385	Restless Legs Syndrome	false	
 DOID:0050425	restless legs syndrome	DC:0000385	Restless Legs Syndrome	true	
@@ -829,6 +839,8 @@ DOID:0050489	multinodular goiter	DC:0000177	Goiter, Multinodular	false
 DOID:0050489	multinodular goiter	DC:0000177	Goiter, Multinodular	true	
 DOID:0050524	maturity-onset diabetes of the young	DC:0000119	Diabetes, Maturity-Onset of the Young	false	
 DOID:0050524	maturity-onset diabetes of the young	DC:0000119	Diabetes, Maturity-Onset of the Young	true	
+DOID:0050528	nonphotosensitive trichothiodystrophy	DC:0000681	Trichothiodystrophy, Nonphotosensitive	false	
+DOID:0050528	nonphotosensitive trichothiodystrophy	DC:0000681	Trichothiodystrophy, Nonphotosensitive	true	
 DOID:0050534	congenital stationary night blindness	DC:0000326	Night Blindness, Congenital Stationary	false	
 DOID:0050534	congenital stationary night blindness	DC:0000326	Night Blindness, Congenital Stationary	true	
 DOID:0050535	exudative vitreoretinopathy	DC:0000144	Exudative Vitreoretinopathy	false	
@@ -1096,6 +1108,8 @@ DOID:10652	Alzheimer's disease	DC:0000020	Alzheimer Disease	false
 DOID:10652	Alzheimer's disease	DC:0000020	Alzheimer Disease	true	
 DOID:10780	primary polycythemia	DC:0000141	Erythrocytosis, Familial	false	
 DOID:10780	primary polycythemia	DC:0000141	Erythrocytosis, Familial	true	
+DOID:10783	methemoglobinemia	DC:0000683	Methemoglobinemia	false	
+DOID:10783	methemoglobinemia	DC:0000683	Methemoglobinemia	true	
 DOID:10825	essential hypertension	DC:0000666	Hypertension, Essential	false	
 DOID:10825	essential hypertension	DC:0000666	Hypertension, Essential	true	
 DOID:10871	age related macular degeneration	DC:0000262	Macular Degeneration, Age-Related	false	
@@ -1249,6 +1263,7 @@ DOID:13922	eosinophilic esophagitis	DC:0000156	Esophagitis, Eosinophilic	true
 DOID:13994	cleidocranial dysplasia	DC:0000505	Cleidocranial Dysplasia	false	
 DOID:13994	cleidocranial dysplasia	DC:0000505	Cleidocranial Dysplasia	true	
 DOID:14004	thoracic aortic aneurysm	DC:0000636	Aortic Aneurysm, Familial Thoracic	false	
+DOID:14040	autoimmune polyendocrine syndrome	DC:0000682	Autoimmune Polyendocrinopathy Syndrome	false	
 DOID:14213	hypophosphatasia	DC:0000214	Hypophosphatasia	false	
 DOID:14213	hypophosphatasia	DC:0000214	Hypophosphatasia	true	
 DOID:14219	renal tubular acidosis	DC:0000384	Renal Tubular Acidosis	false	
@@ -1329,6 +1344,8 @@ DOID:2129	atypical teratoid rhabdoid tumor	DC:0000390	Rhabdoid Tumor Predisposit
 DOID:2129	atypical teratoid rhabdoid tumor	DC:0000390	Rhabdoid Tumor Predisposition Syndrome	true	
 DOID:2187	amelogenesis imperfecta	DC:0000022	Amelogenesis Imperfecta	false	
 DOID:2187	amelogenesis imperfecta	DC:0000022	Amelogenesis Imperfecta	true	
+DOID:2211	factor XIII deficiency	DC:0000693	Factor XIII Deficiency	false	
+DOID:2211	factor XIII deficiency	DC:0000693	Factor XIII Deficiency	true	
 DOID:2228	thrombocytosis	DC:0000433	Thrombocythemia	false	
 DOID:2228	thrombocytosis	DC:0000433	Thrombocythemia	true	
 DOID:2280	hidradenitis suppurativa	DC:0000007	Acne Inversa	false	
@@ -1379,6 +1396,7 @@ DOID:2962	Cockayne syndrome	DC:0000088	Cockayne Syndrome	false
 DOID:2962	Cockayne syndrome	DC:0000088	Cockayne Syndrome	true	
 DOID:2977	primary hyperoxaluria	DC:0000372	Primary Hyperoxaluria	false	
 DOID:2977	primary hyperoxaluria	DC:0000372	Primary Hyperoxaluria	true	
+DOID:2986	IgA glomerulonephritis	DC:0000694	IgA Nephropathy, Susceptibility to	false	
 DOID:2987	familial Mediterranean fever	DC:0000157	Familial Mediterranean Fever	false	
 DOID:2987	familial Mediterranean fever	DC:0000157	Familial Mediterranean Fever	true	
 DOID:3012	Li-Fraumeni syndrome	DC:0000249	Li-Fraumeni Syndrome	false	
@@ -1517,6 +1535,8 @@ DOID:83	cataract	DC:0000070	Cataract	false
 DOID:83	cataract	DC:0000070	Cataract	true	
 DOID:8398	osteoarthritis	DC:0000337	Osteoarthritis	false	
 DOID:8398	osteoarthritis	DC:0000337	Osteoarthritis	true	
+DOID:8465	retinoschisis	DC:0000685	Retinoschisis	false	
+DOID:8465	retinoschisis	DC:0000685	Retinoschisis	true	
 DOID:8545	malignant hyperthermia	DC:0000266	Malignant Hyperthermia	false	
 DOID:8545	malignant hyperthermia	DC:0000266	Malignant Hyperthermia	true	
 DOID:8567	Hodgkin's lymphoma	DC:0000187	Hodgkin Disease	false	

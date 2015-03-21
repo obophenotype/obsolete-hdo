@@ -15,7 +15,8 @@ equivalent_to: OMIM:194190 ! Wolf-Hirschhorn syndrome
 [Term]
 id: DECIPHER:14
 name: Prader-Willi Syndrome (Type 1)
-is_a: DOID:11983 ! Prader-Willi syndrome
+!is_a: DOID:11983 ! Prader-Willi syndrome
+equivalent_to: OMIM:176270 ! Prader-Willi syndrome
 
 [Term]
 id: DECIPHER:15

@@ -9,6 +9,7 @@ DECIPHER:34 ! Potocki-Shaffer Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:35 ! Wagr 11p13 Deletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:37 ! 3q29 Microdeletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:39 ! 8p23.1 Deletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
+DECIPHER:4 ! Angelman Syndrome (Type 1)	1	DOID:1932
 DECIPHER:42 ! Cat-Eye Syndrome (Type I)	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:43 ! 7q11.23 Duplication Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:44 ! 2q37 Monosomy	2	DOID:225 ! syndrome,DOID:4 ! disease
@@ -17,6 +18,8 @@ DECIPHER:46 ! Split Hand/Foot Malformation 1 (Shfm1)	2	DOID:225 ! syndrome,DOID:
 DECIPHER:47 ! Rcad (Renal Cysts And Diabetes)	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:51 ! 2q33.1 Deletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:52 ! 9q Subtelomeric Deletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
+DECIPHER:53 ! Prader-Willi Syndrome (Type 2)	1	DOID:11983
+DECIPHER:54 ! Angelman Syndrome (Type 2)	1	DOID:1932
 DECIPHER:57 ! 17q21.31 Recurrent Microdeletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:58 ! Leri-Weill Dyschondrostosis (Lwd) - Shox Deletion	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:81 ! 15q26 Overgrowth Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
@@ -197,6 +200,7 @@ OMIM:129810 ! Ectrodactyly and Ectodermal Dysplasia without Cleft Lip/Palate	1	D
 OMIM:129830 ! Ectrodactyly-Cleft Palate Syndrome	1	DOID:4 ! disease
 OMIM:129840 ! Edema, Familial Idiopathic, Prepubertal	1	DOID:4 ! disease
 OMIM:129850 ! Edinburgh Malformation Syndrome	1	DOID:4 ! disease
+OMIM:129900 ! Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome 1	2	DC:0000689 ! Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome,DOID:4 ! disease
 OMIM:130180	0	
 OMIM:130190	0	
 OMIM:130200 ! Electroencephalographic Peculiarity: 14 and 6 Per Sec. Positive Spike Phenomenon	1	DOID:4 ! disease
@@ -408,7 +412,7 @@ OMIM:163100 ! Nevus Flammeus of Nape of Neck	1	DOID:4 ! disease
 OMIM:163600 ! Nipples Inverted	1	DOID:4 ! disease
 OMIM:163850 ! Noduli Cutanei, Multiple, with Urinary Tract Abnormalities	1	DOID:4 ! disease
 OMIM:164000 ! Potato nose	1	DOID:4 ! disease
-OMIM:164150 ! Hereditary vertical nystagmus	1	DOID:4 ! disease
+OMIM:164150 ! Hereditary vertical nystagmus	2	DC:0000328 ! Nystagmus,DOID:4 ! disease
 OMIM:164170	0	
 OMIM:164230 ! Obsessive-Compulsive Disorder	1	DOID:4 ! disease
 OMIM:164680 ! Onychogryposis, Pedal, with Keratosis Plantaris and Coarse Hair	1	DOID:4 ! disease
@@ -507,7 +511,6 @@ OMIM:179820	0
 OMIM:180050 ! Retinal Detachment	1	DOID:4 ! disease
 OMIM:180070	0	
 OMIM:180080 ! Retinal Venous Beading	1	DOID:4 ! disease
-OMIM:180270 ! Retinoschisis, Autosomal Dominant	1	DOID:4 ! disease
 OMIM:180350 ! Rheumatoid Nodule	1	DOID:4 ! disease
 OMIM:180360 ! Rhiny	1	DOID:4 ! disease
 OMIM:180370	0	
@@ -639,7 +642,6 @@ OMIM:210750	0
 OMIM:211100	0	
 OMIM:211200 ! Bowen syndrome	1	DOID:4 ! disease
 OMIM:211369 ! Brachydactyly, Type A2, With Microcephaly	1	DOID:4 ! disease
-OMIM:211390 ! Sabinas brittle hair syndrome	1	DOID:4 ! disease
 OMIM:211500 ! Fazio-Londe Disease	1	DOID:4 ! disease
 OMIM:211930 ! Camptodactyly, fibrous tissue hyperplasia, and skeletal dysplasia	1	DOID:4 ! disease
 OMIM:212060 ! Carbimazole Sensitivity	1	DOID:4 ! disease
@@ -863,7 +865,7 @@ OMIM:260450 ! Pancreatic Insufficiency, Combined Exocrine	1	DOID:4 ! disease
 OMIM:260480 ! Pancreatitis, Sclerosing Cholangitis, and Sicca Complex	1	DOID:4 ! disease
 OMIM:260570 ! Pelger-Huet-Like Anomaly and Episodic Fever with Abdominal Pain	1	DOID:4 ! disease
 OMIM:260900 ! Pericardial Effusion, Chronic	1	DOID:4 ! disease
-OMIM:260950 ! Periodontitis, Chronic	1	DOID:4 ! disease
+OMIM:260950 ! Chronic Periodontitis	1	DOID:4 ! disease
 OMIM:260970 ! Peripheral Neuropathy, Ataxia, Focal Necrotizing Encephalopathy, and Spongy Degeneration of Brain	1	DOID:4 ! disease
 OMIM:261400 ! Peroneus Tertius Muscle, Absence of	1	DOID:4 ! disease
 OMIM:261500	0	
@@ -897,7 +899,6 @@ OMIM:267740 ! Retinal Degeneration and Epilepsy	1	DOID:4 ! disease
 OMIM:267900 ! Frenkel Russe syndrome	1	DOID:4 ! disease
 OMIM:268010 ! Retinitis Pigmentosa Inversa with Deafness	1	DOID:4 ! disease
 OMIM:268050 ! Mirhosseini-Holmes-Walton syndrome	1	DOID:4 ! disease
-OMIM:268080 ! Retinoschisis of Fovea	1	DOID:4 ! disease
 OMIM:268500 ! Rowley-Rosenberg syndrome	1	DOID:4 ! disease
 OMIM:268650 ! Rudiger Syndrome	1	DOID:4 ! disease
 OMIM:269300 ! Craniometadiaphyseal Dysplasia	1	DOID:4 ! disease
@@ -914,6 +915,7 @@ OMIM:271110 ! Spinal Muscular Atrophy with Microcephaly and Mental Subnormality	
 OMIM:271225 ! Spinal Muscular Atrophy, Type I, with Congenital Bone Fractures	1	DOID:4 ! disease
 OMIM:271322 ! Spinocerebellar Degeneration With Slow Eye Movements	1	DOID:4 ! disease
 OMIM:271500 ! Splenoportal Vascular Anomalies	1	DOID:4 ! disease
+OMIM:271640 ! Spondyloepimetaphyseal Dysplasia With Joint Laxity, Type 1, With or Without Fractures	2	DOID:4 ! disease,MESH:C562968 ! Spondyloepimetaphyseal Dysplasia With Joint Laxity
 OMIM:272000 ! Sucrosuria, Hiatus Hernia and Mental Retardation	1	DOID:4 ! disease
 OMIM:272150 ! Sugarman Brachydactyly	1	DOID:4 ! disease
 OMIM:272370	0	
@@ -990,7 +992,7 @@ OMIM:309850	0
 OMIM:309860	0	
 OMIM:310350 ! Myelolymphatic Insufficiency	1	DOID:4 ! disease
 OMIM:310700 ! Nystagmus 1, congenital, X- linked	2	DC:0000328 ! Nystagmus,DOID:4 ! disease
-OMIM:310800 ! Nystagmus, Myoclonic	1	DOID:4 ! disease
+OMIM:310800 ! Nystagmus, Myoclonic	2	DC:0000328 ! Nystagmus,DOID:4 ! disease
 OMIM:310900 ! Occipital Hair, White Lock of	1	DOID:4 ! disease
 OMIM:311000 ! Ophthalmoplegia, External, and Myopia	1	DOID:4 ! disease
 OMIM:311010	0	
@@ -1071,6 +1073,7 @@ OMIM:601039 ! Ichthyosis-Mental Retardation Syndrome with Large Keratohyalin Gra
 OMIM:601088 ! Cataracts, Congenital, with Sensorineural Deafness, Down Syndrome-Like Facial Appearance, Short Stature, and Mental Retardation	1	DOID:4 ! disease
 OMIM:601161 ! Trisomy 18-Like Syndrome	1	DOID:4 ! disease
 OMIM:601170 ! Muscular Dystrophy, Congenital, with Severe Central Nervous System Atrophy and Absence of Large Myelinated Fibers	1	DOID:4 ! disease
+OMIM:601228 ! Polyposis Syndrome, Hereditary Mixed, 1	2	DC:0000687 ! Polyposis Syndrome, Hereditary Mixed,DOID:4 ! disease
 OMIM:601331 ! Renal Dysplasia, Cystic, Susceptibility to	1	DOID:4 ! disease
 OMIM:601341 ! Atrophia Maculosa Varioliformis Cutis, Familial	1	DOID:4 ! disease
 OMIM:601344 ! Spinal Dysplasia, Anhalt Type	1	DOID:4 ! disease
@@ -1115,6 +1118,7 @@ OMIM:603529 ! Dyserythropoiesis, Congenital, With Ultrastructurally Normal Eryth
 OMIM:603641 ! Neuroendocrine Carcinoma of Salivary Glands, Sensorineural Hearing Loss, and Enamel Hypoplasia	1	DOID:4 ! disease
 OMIM:603855 ! Cystic Fibrosis, Modifier Of, 1	1	DOID:4 ! disease
 OMIM:604169 ! Left Ventricular Noncompaction 1	2	DC:0000237 ! Left Ventricular Noncompaction,DOID:4 ! disease
+OMIM:604292 ! Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome 3	2	DC:0000689 ! Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome,DOID:4 ! disease
 OMIM:604308 ! MASS syndrome	1	DOID:4 ! disease
 OMIM:604317 ! Microcephaly, Primary Autosomal Recessive, 2	2	DOID:4 ! disease,MESH:C579935 ! Autosomal Recessive Primary Microcephaly
 OMIM:604352 ! Febrile Convulsions, Familial, 4	2	DOID:4 ! disease,MESH:D003294 ! Seizures, Febrile
@@ -1136,6 +1140,7 @@ OMIM:606242 ! Mental Retardation, Microcephaly, Growth Retardation, Joint Contra
 OMIM:606528 ! Homozygous 11p15-p14 Deletion Syndrome	2	DOID:4 ! disease,MESH:D002872 ! Chromosome Deletion
 OMIM:606688 ! Spongiform Encephalopathy with Neuropsychiatric Features	1	DOID:4 ! disease
 OMIM:606721 ! Partial Lipodystrophy, Congenital Cataracts, and Neurodegeneration Syndrome	1	DOID:4 ! disease
+OMIM:606777 ! De Vivo disease	2	DC:0000690 ! GLUT1 Deficiency Syndrome,DOID:4 ! disease
 OMIM:606840 ! Parasomnia, Sleep Bruxism Type	1	DOID:4 ! disease
 OMIM:606842 ! Cardioneuromyopathy with Hyaline Masses and Nemaline Rods	1	DOID:4 ! disease
 OMIM:606851 ! Cree Mental Retardation Syndrome	1	DOID:4 ! disease
@@ -1184,6 +1189,7 @@ OMIM:609943 ! Hypertrichosis, hyperkeratosis, mental retardation, and distinctiv
 OMIM:609944 ! Ectodermal dysplasia, sensorineural hearing loss, and distinctive facial features	1	DOID:4 ! disease
 OMIM:609945 ! Brachyphalangy, polydactyly, and tibial aplasia/hypoplasia	1	DOID:4 ! disease
 OMIM:610023 ! Brachydactyly, Coloboma, And Anterior Segment Dysgenesis	1	DOID:4 ! disease
+OMIM:610069 ! Polyposis Syndrome, Hereditary Mixed, 2	2	DC:0000687 ! Polyposis Syndrome, Hereditary Mixed,DOID:4 ! disease
 OMIM:610251 ! Alcohol Sensitivity, Acute	1	DOID:4 ! disease
 OMIM:610279 ! Pachygyria, frontotemporal	1	DOID:4 ! disease
 OMIM:610319 ! Rhizomelic dysplasia, scoliosis, and retinitis pigmentosa	1	DOID:4 ! disease
@@ -1245,7 +1251,6 @@ OMIM:613870 ! Hirschsprung Disease, Cardiac Defects, and Autonomic Dysfunction	1
 OMIM:613886 ! Obesity, Hyperphagia, and Developmental Delay	1	DOID:4 ! disease
 OMIM:613913 ! Lipodystrophy, Partial, Acquired, With Low Complement Component C3, With or Without Glomerulonephritis	1	DOID:4 ! disease
 OMIM:613933 ! Acetyl-Coa Carboxylase Deficiency	1	DOID:4 ! disease
-OMIM:613944 ! Iga Nephropathy, Susceptibility To, 2	1	DOID:4 ! disease
 OMIM:614021 ! Ventricular Tachycardia, Catecholaminergic Polymorphic, 3	2	DC:0000665 ! Ventricular Tachycardia, Catecholaminergic Polymorphic,DOID:4 ! disease
 OMIM:614025 ! Hepatic Lipase Deficiency	1	DOID:4 ! disease
 OMIM:614033 ! Hydroxyacyl Glutathione Hydrolase Deficiency	1	DOID:4 ! disease
@@ -1303,13 +1308,14 @@ OMIM:615582 ! Rienhoff Syndrome	1	DOID:4 ! disease
 OMIM:615583 ! Verheij Syndrome	1	DOID:4 ! disease
 OMIM:615706 ! Auriculocondylar Syndrome 3	2	DC:0000475 ! Auriculocondylar Syndrome,DOID:4 ! disease
 OMIM:615710 ! Mitchell-Riley Syndrome	1	DOID:4 ! disease
-OMIM:615721 ! Renal Hypodysplasia/Aplasia 2	1	DOID:4 ! disease
+OMIM:615721 ! Renal Hypodysplasia/Aplasia 2	2	DC:0000695 ! Renal Hypodysplasia/Aplasia,DOID:4 ! disease
 OMIM:615763 ! Cortical Dysplasia, Complex, With Other Brain Malformations 5	2	DC:0000498 ! Cortical Dysplasia, Complex, with Other Brain Malformations,DOID:4 ! disease
 OMIM:615771 ! Cortical Dysplasia, Complex, With Other Brain Malformations 6	2	DC:0000498 ! Cortical Dysplasia, Complex, with Other Brain Malformations,DOID:4 ! disease
 OMIM:615777 ! Desbuquois Dysplasia 2	2	DC:0000623 ! Desbuquois Dysplasia,DOID:4 ! disease
 OMIM:615829 ! Xia-Gibbs Syndrome	1	DOID:4 ! disease
 OMIM:615849 ! Culler-Jones Syndrome	1	DOID:4 ! disease
 OMIM:615889 ! Leukoencephalopathy, Progressive, With Ovarian Failure	1	DOID:4 ! disease
+OMIM:615895 ! Polyglucosan Body Myopathy 1 With or Without Immunodeficiency	2	DC:0000696 ! Polyglucosan Body Myopathy,DOID:4 ! disease
 OMIM:615919 ! Ataxia-Telangiectasia-Like Disorder 2	2	DOID:4 ! disease,MESH:C565779 ! Ataxia Telangiectasia Like Disorder
 OMIM:615934 ! Sting-Associated Vasculopathy, Infantile-Onset	1	DOID:4 ! disease
 OMIM:615952 ! Autoimmune Disease, Multisystem, Infantile-Onset	1	DOID:4 ! disease
@@ -1318,13 +1324,13 @@ Orphanet:1002	0
 Orphanet:1041 ! Hydrops fetalis	2	DOID:4 ! disease,Orphanet:93890 ! Rare developmental defect during embryogenesis
 Orphanet:1052	1	DOID:4 ! disease
 Orphanet:1055	0	
-Orphanet:116	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:1167	0	
 Orphanet:1184	0	
 Orphanet:120	0	
 Orphanet:1232	0	
 Orphanet:1236	0	
 Orphanet:1262 ! BC6C6k syndrome	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
+Orphanet:1305	1	DOID:4 ! disease
 Orphanet:1313	0	
 Orphanet:1321	0	
 Orphanet:1323	0	
@@ -1336,6 +1342,7 @@ Orphanet:1433 ! Choroidal atrophy - alopecia	2	DC:0000128 ! Ectodermal Dysplasia
 Orphanet:1465	2	DOID:4 ! disease,DOID:630 ! genetic disease
 Orphanet:156177	0	
 Orphanet:1577	0	
+Orphanet:157794	1	DOID:4 ! disease
 Orphanet:163634	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:164	0	
 Orphanet:1648	0	
@@ -1354,6 +1361,7 @@ Orphanet:1863	0
 Orphanet:1885	1	DOID:4 ! disease
 Orphanet:1894	0	
 Orphanet:1895	0	
+Orphanet:1896	1	DOID:4 ! disease
 Orphanet:1937	0	
 Orphanet:1964	0	
 Orphanet:1968	0	
@@ -1418,6 +1426,7 @@ Orphanet:3043	0
 Orphanet:3046	0	
 Orphanet:3122	0	
 Orphanet:3130	0	
+Orphanet:3137	1	DOID:4 ! disease
 Orphanet:3140	0	
 Orphanet:3185	0	
 Orphanet:3197	1	DOID:4 ! disease
@@ -1460,6 +1469,8 @@ Orphanet:736	0
 Orphanet:771	0	
 Orphanet:77258 ! Trichorhinophalangeal syndrome type 1 and 3	2	DC:0000443 ! Trichorhinophalangeal Syndrome,DOID:4 ! disease
 Orphanet:79132 ! Sparse hair - short stature - skin anomalies	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease
+Orphanet:79279 ! Alpha-N-acetylgalactosaminidase deficiency type 1	2	DC:0000691 ! Schindler Disease,DOID:4 ! disease
+Orphanet:79281 ! Alpha-N-acetylgalactosaminidase deficiency type 3	2	DC:0000691 ! Schindler Disease,DOID:4 ! disease
 Orphanet:793	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:79373	1	DOID:4 ! disease
 Orphanet:80	0	
@@ -1475,6 +1486,7 @@ Orphanet:888	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:90290	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:907	0	
 Orphanet:924	0	
+Orphanet:93359	1	DOID:4 ! disease
 Orphanet:93385	0	
 Orphanet:93393	0	
 Orphanet:95501	0	
