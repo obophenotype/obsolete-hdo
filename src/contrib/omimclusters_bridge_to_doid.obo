@@ -336,3 +336,84 @@ id: DC:0000659 ! Muscular Dystrophy-Dystroglycanopathy, Type A
 is_a: DOID:0050588 ! muscular dystrophy-dystroglycanopathy
 is_a: DOID:9884 ! muscular dystrophy
 
+
+[Term]
+id: DC:0000634 ! Autoimmune Thyroid Disease, Susceptibility to
+is_a: DOID:7188 ! autoimmune thyroiditis
+
+[Term]
+id: DC:0000202 ! Hyperphenylalaninemia, BH4-Deficient
+is_a: DOID:9281 ! phenylketonuria
+
+[Term]
+id: DC:0000470 ! Anemia, Nonspherocytic Hemolytic
+is_a: DOID:2861 ! congenital nonspherocytic hemolytic anemia
+
+[Term]
+id: DC:0000274 ! Methylmalonic Aciduria and Homocystinuria
+is_a: DOID:9263 ! homocystinuria
+
+[Term]
+id: DC:0000503 ! Diarrhea, Congenital
+is_a: DOID:13250 ! diarrhea
+
+[Term]
+id: DC:0000209 ! Hypocalciuric Hypercalcemia
+is_a: DOID:12678 ! hypercalcemia
+
+[Term]
+id: DC:0000638 ! Breast-Ovarian Cancer, Familial, Susceptibility to
+is_a: DOID:5683 ! hereditary breast ovarian cancer
+
+[Term]
+id: DC:0000154 ! Epilepsy, Nocturnal Frontal Lobe
+is_a: DOID:3331 ! frontal lobe epilepsy
+
+[Term]
+id: DC:0000643 ! Corneal Dystrophy, Fuchs Endothelial
+is_a: DOID:11555 ! Fuchs' endothelial dystrophy
+
+[Term]
+id: DC:0000357 ! Pigmented Nodular Adrenocortical Disease
+is_a: DOID:0060280 ! primary pigmented nodular adrenocortical disease
+
+[Term]
+id: DC:0000094 ! Complement Component Deficiency
+is_a: DOID:626 ! complement deficiency
+
+[Term]
+id: DC:0000148 ! Fanconi Renotubular Syndrome
+is_a: DOID:1062 ! Fanconi syndrome
+
+[Term]
+id: DC:0000143 ! Exostoses, Multiple
+is_a: DOID:206 ! hereditary multiple exostoses
+
+[Term]
+id: DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive
+is_a: DOID:1699 ! congenital ichthyosiform erythroderma
+
+[Term]
+id: DC:0000545 ! Inclusion Body Myopathy with Early-Onset Paget Disease with or without Frontotemporal Dementia
+is_a: DOID:0050881 ! inclusion body myopathy with Paget disease of bone and frontotemporal dementia
+
+[Term]
+id: DC:0000373 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions
+is_a: DOID:12558 ! chronic progressive external ophthalmoplegia
+
+[Term]
+id: DC:0000658 ! Microphthalmia, Isolated, with Coloboma
+is_a: DOID:2755 ! Mycobacterium avium complex disease
+
+[Term]
+id: DC:0000680 ! Hypertropic Osteoarthropathy, Primary
+is_a: DOID:14283 ! primary hypertrophic osteoarthropathy
+
+[Term]
+id: DC:0000184 ! Herpes Simplex Encephalitis, Susceptibility
+is_a: DOID:8566 ! herpes simplex
+
+[Term]
+id: DC:0000298 ! Mycobacterium Tuberculosis, Susceptibility
+is_a: DOID:399 ! tuberculosis
+
