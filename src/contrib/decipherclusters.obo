@@ -157,7 +157,8 @@ is_a: DOID:225 ! syndrome
 [Term]
 id: DECIPHER:53
 name: Prader-Willi Syndrome (Type 2)
-is_a: DOID:11983 ! Prader-Willi syndrome
+!is_a: DOID:11983 ! Prader-Willi syndrome
+equivalent_to: OMIM:176270 ! Prader-Willi syndrome
 
 [Term]
 id: DECIPHER:54
