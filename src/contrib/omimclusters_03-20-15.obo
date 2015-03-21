@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:03:2015 16:16
+date: 20:03:2015 10:47
 saved-by: vasilevs
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5563,134 +5563,6 @@ created_by: vasilevs
 creation_date: 2015-03-20T10:45:30Z
 
 [Term]
-id: DC:0000681
-name: Trichothiodystrophy, Nonphotosensitive
-comment: Based on description of OMIM:234050.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T10:54:34Z
-
-[Term]
-id: DC:0000682
-name: Autoimmune Polyendocrinopathy Syndrome
-comment: Based on description of OMIM:269200.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T10:58:08Z
-
-[Term]
-id: DC:0000683
-name: Methemoglobinemia
-comment: Based on text in OMIM:250800.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T11:02:01Z
-
-[Term]
-id: DC:0000684
-name: Vitamin K-Dependent Clotting Factors, Combined Deficiency of
-xref: PS:277450
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T11:05:48Z
-
-[Term]
-id: DC:0000685
-name: Retinoschisis
-comment: Based on text in OMIM:180270.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T11:11:26Z
-
-[Term]
-id: DC:0000686
-name: Neuronal Intestinal Dysplasia
-comment: Based on text in OMIM:601223.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T11:21:04Z
-
-[Term]
-id: DC:0000687
-name: Polyposis Syndrome, Hereditary Mixed
-comment: Based on description in OMIM:601228.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T11:23:58Z
-
-[Term]
-id: DC:0000688
-name: Spondyloepimetaphyseal Dysplasia with Joint Laxity
-comment: Based on text in OMIM:271640.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T12:41:53Z
-
-[Term]
-id: DC:0000689
-name: Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome
-comment: Based on description in OMIM:604292.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T12:44:43Z
-
-[Term]
-id: DC:0000690
-name: GLUT1 Deficiency Syndrome
-xref: PS:606777
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T13:11:36Z
-
-[Term]
-id: DC:0000691
-name: Schindler Disease
-comment: Based on description of OMIM:609241.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T13:32:43Z
-
-[Term]
-id: DC:0000692
-name: Ventricular fibrillation
-comment: Based on text in OMIM:612956.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T13:51:59Z
-
-[Term]
-id: DC:0000693
-name: Factor XIII Deficiency
-comment: Based on text in OMIM:613225.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T13:56:30Z
-
-[Term]
-id: DC:0000694
-name: IgA Nephropathy, Susceptibility to
-xref: PS:161950
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T14:17:29Z
-
-[Term]
-id: DC:0000695
-name: Renal Hypodysplasia/Aplasia
-comment: Based on description in OMIM:191830.
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T16:10:07Z
-
-[Term]
-id: DC:0000696
-name: Polyglucosan Body Myopathy
-xref: PS:615895
-is_a: DC:0000138 ! Disease Cluster
-created_by: vasilevs
-creation_date: 2015-03-20T16:14:54Z
-
-[Term]
 id: OMIM:100050
 name: Aarskog Syndrome, Autosomal Dominant
 is_a: DC:0000138 ! Disease Cluster
@@ -8308,7 +8180,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:129900
 name: Ectrodactyly, Ectodermal Dysplasia, And Cleft Lip/Palate Syndrome 1
-is_a: DC:0000689 ! Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:129905
@@ -11218,7 +11090,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:161950
 name: Iga Nephropathy, Susceptibility to, 1; IGAN1
-is_a: DC:0000694 ! IgA Nephropathy, Susceptibility to
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:162000
@@ -12819,7 +12691,7 @@ is_a: DC:0000592 ! Retinopathy
 [Term]
 id: OMIM:180270
 name: Retinoschisis, Autosomal Dominant
-is_a: DC:0000685 ! Retinoschisis
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:180300
@@ -14101,7 +13973,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:191830
 name: Hereditary renal agenesis
-is_a: DC:0000695 ! Renal Hypodysplasia/Aplasia
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:191850
@@ -14253,7 +14125,7 @@ is_a: DC:0000215 ! Hypophosphatemic Rickets
 [Term]
 id: OMIM:193200
 name: VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 6
-is_a: DC:0000632 ! Autoimmune Disease, Susceptibility to
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:193220
@@ -15394,7 +15266,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:211390
 name: Sabinas Brittle Hair Syndrome
-is_a: DC:0000681 ! Trichothiodystrophy, Nonphotosensitive
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:211400
@@ -17567,7 +17439,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:234050
 name: TRICHOTHIODYSTROPHY, NONPHOTOSENSITIVE 1; TTDN1
-is_a: DC:0000681 ! Trichothiodystrophy, Nonphotosensitive
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:234100
@@ -18037,7 +17909,7 @@ is_a: DC:0000011 ! Adrenal Hypoplasia
 [Term]
 id: OMIM:240300
 name: Autoimmune polyendocrinopathy syndrome, type 1
-is_a: DC:0000682 ! Autoimmune Polyendocrinopathy Syndrome
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:240400
@@ -18312,7 +18184,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:243180
 name: VISCERAL NEUROPATHY, FAMILIAL, AUTOSOMAL RECESSIVE
-is_a: DC:0000686 ! Neuronal Intestinal Dysplasia
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:243185
@@ -19012,12 +18884,12 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:250790
 name: Methemoglobinemia Type IV
-is_a: DC:0000683 ! Methemoglobinemia
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:250800
 name: NADH cytochrome B5 reductase deficiency
-is_a: DC:0000683 ! Methemoglobinemia
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:250850
@@ -20927,7 +20799,7 @@ is_a: DC:0000592 ! Retinopathy
 [Term]
 id: OMIM:268080
 name: Retinoschisis of Fovea
-is_a: DC:0000685 ! Retinoschisis
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:268100
@@ -21047,7 +20919,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:269200
 name: Autoimmune Polyendocrine Syndrome, Type II; APS2
-is_a: DC:0000682 ! Autoimmune Polyendocrinopathy Syndrome
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:269250
@@ -21362,7 +21234,7 @@ is_a: DC:0000483 ! Brachyolmia
 [Term]
 id: OMIM:271640
 name: Spondyloepimetaphyseal Dysplasia with Joint Laxity, Type 1, with or without Fractures; SEMDJL1
-is_a: DC:0000688 ! Spondyloepimetaphyseal Dysplasia with Joint Laxity
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:271650
@@ -21924,7 +21796,7 @@ is_a: DC:0000454 ! Vitamin D-Dependent Rickets
 [Term]
 id: OMIM:277450
 name: Vitamin K-Dependent Clotting Factors, Combined Deficiency Of, 1
-is_a: DC:0000684 ! Vitamin K-Dependent Clotting Factors, Combined Deficiency of
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:277460
@@ -22925,7 +22797,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:300624
 name: FRAGILE X MENTAL RETARDATION SYNDROME
-is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:300633
@@ -24203,7 +24075,7 @@ is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 [Term]
 id: OMIM:309548
 name: Mental Retardation, X-Linked, Associated With Fragile Site Fraxe
-is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:309549
@@ -24543,7 +24415,7 @@ is_a: DC:0000386 ! Retinitis Pigmentosa
 [Term]
 id: OMIM:312700
 name: RETINOSCHISIS 1, X-LINKED, JUVENILE
-is_a: DC:0000685 ! Retinoschisis
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:312750
@@ -25178,7 +25050,7 @@ is_a: DC:0000414 ! Spinocerebellar Ataxia
 [Term]
 id: OMIM:600231
 name: Diffuse palmoplantar keratoderma, Bothnian type
-is_a: DC:0000347 ! Palmoplantar Keratoderma, Nonepidermolytic
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:600251
@@ -26079,7 +25951,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:601223
 name: NEURONAL INTESTINAL DYSPLASIA, TYPE B
-is_a: DC:0000686 ! Neuronal Intestinal Dysplasia
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:601224
@@ -26089,7 +25961,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:601228
 name: Polyposis Syndrome, Hereditary Mixed, 1
-is_a: DC:0000687 ! Polyposis Syndrome, Hereditary Mixed
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:601230
@@ -27692,7 +27564,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:603546
 name: Spondyloepimetaphyseal Dysplasia with Joint Laxity Type 2; SEMDJL2
-is_a: DC:0000688 ! Spondyloepimetaphyseal Dysplasia with Joint Laxity
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:603552
@@ -27902,7 +27774,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:603829
 name: VENTRICULAR FIBRILLATION DURING MYOCARDIAL INFARCTION, SUSCEPTIBILITY TO
-is_a: DC:0000692 ! Ventricular fibrillation
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:603830
@@ -28167,7 +28039,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:604292
 name: Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome 3
-is_a: DC:0000689 ! Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip/Palate Syndrome
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:604302
@@ -29489,7 +29361,7 @@ is_a: DC:0000329 ! Albinism, Oculocutaneous
 [Term]
 id: OMIM:606579
 name: VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1
-is_a: DC:0000632 ! Autoimmune Disease, Susceptibility to
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:606581
@@ -29689,7 +29561,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:606777
 name: GLUT1 DEFICIENCY SYNDROME 1
-is_a: DC:0000690 ! GLUT1 Deficiency Syndrome
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:606785
@@ -30265,7 +30137,7 @@ is_a: DC:0000435 ! Thyroid Cancer
 [Term]
 id: OMIM:607473
 name: VITAMIN K-DEPENDENT CLOTTING FACTORS, COMBINED DEFICIENCY OF, 2
-is_a: DC:0000684 ! Vitamin K-Dependent Clotting Factors, Combined Deficiency of
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:607475
@@ -32225,12 +32097,12 @@ is_a: DC:0000356 ! Griscelli Syndrome
 [Term]
 id: OMIM:609241
 name: Schindler disease, type 1
-is_a: DC:0000691 ! Schindler Disease
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:609242
 name: Kanzaki disease
-is_a: DC:0000691 ! Schindler Disease
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:609250
@@ -33158,7 +33030,7 @@ is_a: DC:0000052 ! Systemic Lupus Erythematosus
 [Term]
 id: OMIM:610069
 name: Polyposis Syndrome, Hereditary Mixed, 2
-is_a: DC:0000687 ! Polyposis Syndrome, Hereditary Mixed
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:610071
@@ -35163,7 +35035,7 @@ is_a: DC:0000066 ! Cardiomyopathy, Familial Hypertrophic
 [Term]
 id: OMIM:612126
 name: GLUT1 DEFICIENCY SYNDROME 2
-is_a: DC:0000690 ! GLUT1 Deficiency Syndrome
+is_a: DC:0000126 ! Dystonia
 
 [Term]
 id: OMIM:612132
@@ -36455,7 +36327,7 @@ is_a: DC:0000256 ! Long QT Syndrome
 [Term]
 id: OMIM:612956
 name: VENTRICULAR FIBRILLATION, PAROXYSMAL FAMILIAL, 2
-is_a: DC:0000692 ! Ventricular fibrillation
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:612961
@@ -37083,7 +36955,7 @@ is_a: DC:0000327 ! Noonan Syndrome
 [Term]
 id: OMIM:613225
 name: FACTOR XIII, A SUBUNIT, DEFICIENCY OF
-is_a: DC:0000693 ! Factor XIII Deficiency
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:613227
@@ -37098,7 +36970,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:613235
 name: FACTOR XIII, B SUBUNIT, DEFICIENCY OF
-is_a: DC:0000693 ! Factor XIII Deficiency
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:613237
@@ -38640,7 +38512,7 @@ is_a: DC:0000652 ! Ichthyosis, Congenital, Autosomal Recessive
 [Term]
 id: OMIM:613944
 name: Iga Nephropathy, Susceptibility to, 2; IGAN2
-is_a: DC:0000694 ! IgA Nephropathy, Susceptibility to
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:613949
@@ -39298,7 +39170,7 @@ is_a: DC:0000351 ! Parkinson Disease
 [Term]
 id: OMIM:614204
 name: Pustular Psoriasis, Generalized; PSORP
-is_a: DC:0000378 ! Psoriasis
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:614205
@@ -42789,7 +42661,7 @@ is_a: DC:0000203 ! Hyperphosphatasia with Mental Retardation Syndrome
 [Term]
 id: OMIM:615721
 name: Renal Hypodysplasia/Aplasia 2; RHDA2
-is_a: DC:0000695 ! Renal Hypodysplasia/Aplasia
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:615722
@@ -43139,7 +43011,7 @@ is_a: DC:0000334 ! Orofacial Cleft
 [Term]
 id: OMIM:615895
 name: Polyglucosan Body Myopathy, Early-Onset, with or without Immunodeficiency;
-is_a: DC:0000696 ! Polyglucosan Body Myopathy
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:615896
@@ -43826,7 +43698,7 @@ is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
 [Term]
 id: OMIM:616199
 name: Polyglucosan Body Myopathy 2; PGBM2
-is_a: DC:0000696 ! Polyglucosan Body Myopathy
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:616200
