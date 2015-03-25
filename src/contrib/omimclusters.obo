@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 20:03:2015 16:16
-saved-by: vasilevs
-auto-generated-by: OBO-Edit 2.3.1
+date: 25:03:2015 12:32
+saved-by: smb
+auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
 remark: Filtered by ID contains "omim"
 generated-by: $Id: MGIOBOFileGeneratorMgr.java
@@ -5652,7 +5652,7 @@ creation_date: 2015-03-20T13:32:43Z
 
 [Term]
 id: DC:0000692
-name: Ventricular fibrillation
+name: Ventricular Fibrillation
 comment: Based on text in OMIM:612956.
 is_a: DC:0000138 ! Disease Cluster
 created_by: vasilevs
@@ -5689,6 +5689,54 @@ xref: PS:615895
 is_a: DC:0000138 ! Disease Cluster
 created_by: vasilevs
 creation_date: 2015-03-20T16:14:54Z
+
+[Term]
+id: DC:0000697
+name: Cortisone Reductase Deficiency
+xref: PS:604931
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-25T11:53:36Z
+
+[Term]
+id: DC:0000698
+name: Otofaciocervical Syndrome
+xref: PS:166780
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-25T11:58:42Z
+
+[Term]
+id: DC:0000699
+name: Atrial Standstill
+comment: Based on genetic heterogeneity section of OMIM 108770.
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-25T12:03:18Z
+
+[Term]
+id: DC:0000700
+name: Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis
+xref: PS:105550
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-25T12:09:31Z
+
+[Term]
+id: DC:0000701
+name: Hennekam Lymphangiectasia-Lymphedema Syndrome
+comment: Based on genetic heterogeneity of OMIM 235510.
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-25T12:12:36Z
+
+[Term]
+id: DC:0000702
+name: Ataxia-Oculomotor Apraxia
+comment: Based on genetic heterogeneity of OMIM 208920.
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-03-25T12:21:44Z
 
 [Term]
 id: OMIM:100050
@@ -6083,8 +6131,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:105550
-name: FRONTOTEMPORAL DEMENTIA AND/OR AMYOTROPHIC LATERAL SCLEROSIS
-is_a: DC:0000138 ! Disease Cluster
+name: FRONTOTEMPORAL DEMENTIA AND/OR AMYOTROPHIC LATERAL SCLEROSIS 1
+is_a: DC:0000700 ! Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis
 
 [Term]
 id: OMIM:105563
@@ -6467,8 +6515,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:108770
-name: Atrial Standstill
-is_a: DC:0000138 ! Disease Cluster
+name: Atrial Standstill 1
+is_a: DC:0000699 ! Atrial Standstill
 
 [Term]
 id: OMIM:108800
@@ -11687,8 +11735,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:166780
-name: Otofaciocervical Syndrome
-is_a: DC:0000138 ! Disease Cluster
+name: Otofaciocervical Syndrome 1
+is_a: DC:0000698 ! Otofaciocervical Syndrome
 
 [Term]
 id: OMIM:166800
@@ -15166,7 +15214,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:208920
 name: Early-onset ataxia with oculomotor apraxia and hypoalbuminemia
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000702 ! Ataxia-Oculomotor Apraxia
 
 [Term]
 id: OMIM:209010
@@ -17666,8 +17714,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:235510
-name: Hennekam lymphangiectasia lymphedema syndrome
-is_a: DC:0000138 ! Disease Cluster
+name: Hennekam lymphangiectasia lymphedema syndrome 1
+is_a: DC:0000701 ! Hennekam Lymphangiectasia-Lymphedema Syndrome
 
 [Term]
 id: OMIM:235550
@@ -25760,11 +25808,6 @@ name: Growth Hormone Receptor; GHR
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:600952
-name: Transsexuality
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:600955
 name: PROPROTEIN CONVERTASE 1/3 DEFICIENCY
 is_a: DC:0000138 ! Disease Cluster
@@ -27902,7 +27945,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:603829
 name: VENTRICULAR FIBRILLATION DURING MYOCARDIAL INFARCTION, SUSCEPTIBILITY TO
-is_a: DC:0000692 ! Ventricular fibrillation
+is_a: DC:0000692 ! Ventricular Fibrillation
 
 [Term]
 id: OMIM:603830
@@ -28562,8 +28605,8 @@ is_a: DC:0000458 ! Wolfram Syndrome
 
 [Term]
 id: OMIM:604931
-name: Cortisone reductase deficiency
-is_a: DC:0000138 ! Disease Cluster
+name: Cortisone reductase deficiency 1
+is_a: DC:0000697 ! Cortisone Reductase Deficiency
 
 [Term]
 id: OMIM:604976
@@ -36455,7 +36498,7 @@ is_a: DC:0000256 ! Long QT Syndrome
 [Term]
 id: OMIM:612956
 name: VENTRICULAR FIBRILLATION, PAROXYSMAL FAMILIAL, 2
-is_a: DC:0000692 ! Ventricular fibrillation
+is_a: DC:0000692 ! Ventricular Fibrillation
 
 [Term]
 id: OMIM:612961
@@ -40386,7 +40429,7 @@ is_a: DC:0000423 ! Stuttering, Familial Persistent
 [Term]
 id: OMIM:614662
 name: Cortisone Reductase Deficiency 2; CORTRD2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000697 ! Cortisone Reductase Deficiency
 
 [Term]
 id: OMIM:614665
@@ -40551,7 +40594,8 @@ is_a: DC:0000175 ! Glucocorticoid Deficiency
 [Term]
 id: OMIM:614739
 name: 3-methylglutaconic Aciduria with Deafness, Encephalopathy, and Leigh-Like Syndrome; MEGDEL
-is_a: DC:0000138 ! Disease Cluster
+comment: Present because it is in the OMIM series.
+is_a: DC:0000004 ! 3-Methylglutaconic Aciduria
 
 [Term]
 id: OMIM:614740
@@ -41612,7 +41656,7 @@ is_a: DC:0000013 ! Agammaglobulinemia
 [Term]
 id: OMIM:615217
 name: Ataxia-Oculomotor Apraxia 3; AOA3
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000702 ! Ataxia-Oculomotor Apraxia
 
 [Term]
 id: OMIM:615219
@@ -42468,7 +42512,7 @@ is_a: DC:0000633 ! Autoimmune Lymphoproliferative Syndrome
 [Term]
 id: OMIM:615560
 name: Otofaciocervical Syndrome 2; OFC2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000698 ! Otofaciocervical Syndrome
 
 [Term]
 id: OMIM:615561
@@ -42839,7 +42883,7 @@ is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
 [Term]
 id: OMIM:615745
 name: Atrial Standstill 2; ATRST2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000699 ! Atrial Standstill
 
 [Term]
 id: OMIM:615749
@@ -43139,6 +43183,7 @@ is_a: DC:0000334 ! Orofacial Cleft
 [Term]
 id: OMIM:615895
 name: Polyglucosan Body Myopathy, Early-Onset, with or without Immunodeficiency;
+xref: PS:615895
 is_a: DC:0000696 ! Polyglucosan Body Myopathy
 
 [Term]
@@ -43169,7 +43214,7 @@ is_a: DC:0000025 ! Diamond-Blackfan Anemia
 [Term]
 id: OMIM:615911
 name: Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis 2; FTDALS2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000700 ! Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis
 
 [Term]
 id: OMIM:615916
@@ -43464,7 +43509,7 @@ is_a: DC:0000615 ! Immunodeficiency
 [Term]
 id: OMIM:616006
 name: Hennekam Lymphangiectasia-Lymphedema Syndrome 2; HKLLS2
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000701 ! Hennekam Lymphangiectasia-Lymphedema Syndrome
 
 [Term]
 id: OMIM:616007
@@ -43968,4 +44013,35 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:616263
 name: Neurologic, Endocrine, and Pancreatic Disease, Multisystem, Infantile-Onset;
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616265
+name: Peeling Skin Syndrome 3; PSS3
+is_a: DC:0000353 ! Peeling Skin Syndrome
+
+[Term]
+id: OMIM:616266
+name: Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay; CLIFAHDD
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616267
+name: Ataxia-Oculomotor Apraxia 4; AOA4
+is_a: DC:0000702 ! Ataxia-Oculomotor Apraxia
+
+[Term]
+id: OMIM:616269
+name: Mental Retardation, Autosomal Recessive 48; MRT48
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:616270
+name: Amelogenesis Imperfecta, Type IF; AI1F
+is_a: DC:0000022 ! Amelogenesis Imperfecta
+
+[Term]
+id: OMIM:616271
+name: 3-methylglutaconic Aciduria with Cataracts, Neurologic Involvement, and Neutropenia; MEGCANN
+comment: Present because it is in the OMIM series.
+is_a: DC:0000004 ! 3-Methylglutaconic Aciduria
 
