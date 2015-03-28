@@ -402,10 +402,6 @@ id: DC:0000373 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Del
 is_a: DOID:12558 ! chronic progressive external ophthalmoplegia
 
 [Term]
-id: DC:0000658 ! Microphthalmia, Isolated, with Coloboma
-is_a: DOID:2755 ! Mycobacterium avium complex disease
-
-[Term]
 id: DC:0000680 ! Hypertropic Osteoarthropathy, Primary
 is_a: DOID:14283 ! primary hypertrophic osteoarthropathy
 

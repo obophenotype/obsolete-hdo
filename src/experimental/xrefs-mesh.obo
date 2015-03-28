@@ -5134,6 +5134,10 @@ id: OMIM:164680 ! Onychogryposis, Pedal, With Keratosis Plantaris and Coarse Hai
 xref: MESH:C563506 ! Onychogryposis, Pedal, with Keratosis Plantaris and Coarse Hair
 
 [Term]
+id: DC:0000697 ! Cortisone Reductase Deficiency
+xref: MESH:C536447 ! Cortisone reductase deficiency
+
+[Term]
 id: Orphanet:158668 ! Epidermolysis bullosa simplex due to plakophilin deficiency
 xref: MESH:C536183 ! Ectodermal dysplasia/ skin fragility syndrome
 xref: OMIM:604536 ! Ectodermal Dysplasia/Skin Fragility Syndrome
@@ -7034,7 +7038,6 @@ xref: MESH:C566502 ! Visceral Neuropathy, Familial, Autosomal Dominant
 [Term]
 id: DOID:10919 ! transsexualism
 xref: MESH:D014189 ! Transsexualism
-xref: OMIM:600952 ! Transsexuality
 
 [Term]
 id: Orphanet:140908 ! Brachydactyly type B2
@@ -17970,6 +17973,10 @@ xref: MESH:D054222 ! Cobblestone Lissencephaly
 xref: OMIM:257320 ! Lissencephaly 2
 
 [Term]
+id: DC:0000699 ! Atrial Standstill
+xref: MESH:C563984 ! Atrial Standstill
+
+[Term]
 id: Orphanet:293621 ! X-linked endothelial corneal dystrophy
 xref: MESH:C567587 ! Corneal Dystrophy, Endothelial, X-Linked
 xref: OMIM:300779 ! Corneal Dystrophy, Endothelial, X-Linked
@@ -21786,10 +21793,6 @@ xref: MESH:C538357 ! Powell Chandra Saal syndrome
 xref: OMIM:261575 ! Phaver Syndrome
 
 [Term]
-id: DC:0000692 ! Ventricular fibrillation
-xref: MESH:D014693 ! Ventricular Fibrillation
-
-[Term]
 id: Orphanet:1514 ! Craniodigital syndrome - intellectual disability
 xref: MESH:C537528 ! Scott Bryant Graham syndrome
 
@@ -22936,6 +22939,10 @@ xref: MESH:C563524 ! NF1 Microdeletion Syndrome
 [Term]
 id: Orphanet:1195 ! Congenital atransferrinemia
 xref: MESH:C538259 ! Congenital atransferrinemia
+
+[Term]
+id: DC:0000701 ! Hennekam Lymphangiectasia-Lymphedema Syndrome
+xref: MESH:C537255 ! Hennekam lymphangiectasia lymphedema syndrome
 
 [Term]
 id: OMIM:601374 ! Aprosencephaly and Cerebellar Dysgenesis
@@ -29495,6 +29502,10 @@ xref: MESH:D055728 ! Primary Myelofibrosis
 xref: OMIM:254450 ! Myelofibrosis
 
 [Term]
+id: DC:0000698 ! Otofaciocervical Syndrome
+xref: MESH:C563481 ! Otofaciocervical Syndrome
+
+[Term]
 id: DOID:2508 ! Takayasu's arteritis
 xref: MESH:D001015 ! Aortic Arch Syndromes
 xref: MESH:D013625 ! Takayasu Arteritis
@@ -33339,10 +33350,6 @@ xref: MESH:D020774 ! Pick Disease of the Brain
 id: Orphanet:91132 ! Ichthyosis-hypotrichosis syndrome
 xref: MESH:C566554 ! Ichthyosis, Follicular Atrophoderma, Hypotrichosis, and Hypohidrosis
 xref: OMIM:602400 ! ICHTHYOSIS, CONGENITAL, AUTOSOMAL RECESSIVE 11
-
-[Term]
-id: Orphanet:1344 ! Atrial stand still
-xref: MESH:C563984 ! Atrial Standstill
 
 [Term]
 id: Orphanet:294971 ! Tetra-amelia
@@ -42486,11 +42493,6 @@ xref: MESH:C537182 ! Paroxysmal ventricular fibrillation
 xref: MESH:C567841 ! Ventricular Fibrillation, Paroxysmal Familial, 2
 
 [Term]
-id: Orphanet:2792 ! Otofaciocervical syndrome
-xref: MESH:C537074 ! Fara Chlupackova syndrome
-xref: MESH:C563481 ! Otofaciocervical Syndrome
-
-[Term]
 id: DOID:13382 ! megaloblastic anemia
 xref: MESH:C538556 ! Imerslund-Grasbeck syndrome
 xref: MESH:D000749 ! Anemia, Megaloblastic
@@ -42679,11 +42681,6 @@ xref: MESH:D015212 ! Inflammatory Bowel Diseases
 [Term]
 id: DOID:767 ! muscular atrophy
 xref: MESH:D009133 ! Muscular Atrophy
-
-[Term]
-id: OMIM:600952 ! Transsexuality
-xref: DOID:10919 ! transsexualism
-xref: MESH:D014189 ! Transsexualism
 
 [Term]
 id: OMIM:302600 ! Spinocerebellar Ataxia, X-Linked 2
@@ -47346,6 +47343,10 @@ xref: MESH:D014323 ! Trombiculiasis
 id: OMIM:169100 ! Char Syndrome
 xref: MESH:C566815 ! Char syndrome
 xref: Orphanet:46627 ! Char syndrome
+
+[Term]
+id: DC:0000692 ! Ventricular Fibrillation
+xref: MESH:D014693 ! Ventricular Fibrillation
 
 [Term]
 id: OMIM:266810 ! Renal and Mullerian Duct Hypoplasia

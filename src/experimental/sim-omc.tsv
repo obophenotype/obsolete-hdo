@@ -1,3 +1,4 @@
+DC:0000256 ! Long QT Syndrome	DOID:2843 ! long QT syndrome	0.7058823529411765	12	17
 DC:0000094 ! Complement Component Deficiency	DOID:626 ! complement deficiency	0.7142857142857143	10	14
 DC:0000118 ! Diabetes Mellitus, Noninsulin-Dependent	DOID:9352 ! type 2 diabetes mellitus	0.7142857142857143	5	7
 DC:0000139 ! Epiphyseal Dysplasia, Multiple	DOID:12721 ! multiple epiphyseal dysplasia	0.7142857142857143	5	7
@@ -7,7 +8,6 @@ DC:0000104 ! Craniosynostosis	DOID:2340 ! craniosynostosis	0.75	6	8
 DC:0000148 ! Fanconi Renotubular Syndrome	DOID:1062 ! Fanconi syndrome	0.75	3	4
 DC:0000327 ! Noonan Syndrome	DOID:3490 ! Noonan syndrome	0.75	6	8
 DC:0000329 ! Albinism, Oculocutaneous	DOID:0050632 ! oculocutaneous albinism	0.75	6	8
-DC:0000347 ! Palmoplantar Keratoderma, Nonepidermolytic	DOID:0050428 ! nonepidermolytic palmoplantar keratoderma	0.75	3	4
 DC:0000455 ! Von Willebrand Disease	DOID:12531 ! von Willebrand's disease	0.75	3	4
 DC:0000470 ! Anemia, Nonspherocytic Hemolytic	DOID:2861 ! congenital nonspherocytic hemolytic anemia	0.75	3	4
 DC:0000610 ! Ventricular Septal Defect	DOID:1657 ! ventricular septal defect	0.75	3	4
@@ -19,14 +19,15 @@ DC:0000124 ! Dyskeratosis Congenita	DOID:2729 ! dyskeratosis congenita	0.7777777
 DC:0000343 ! Otosclerosis	DOID:12185 ! otosclerosis	0.7777777777777778	7	9
 DC:0000385 ! Restless Legs Syndrome	DOID:0050425 ! restless legs syndrome	0.7777777777777778	7	9
 DC:0000201 ! Hyperparathyroidism	DOID:13543 ! hyperparathyroidism	0.8	4	5
-DC:0000256 ! Long QT Syndrome	DOID:2843 ! long QT syndrome	0.8	12	15
 DC:0000334 ! Orofacial Cleft	DOID:0050567 ! orofacial cleft	0.8	12	15
 DC:0000466 ! Adams Oliver Syndrome	DOID:0060227 ! Adams-Oliver syndrome	0.8	4	5
 DC:0000577 ! Perrault Syndrome	DOID:0050857 ! Perrault syndrome	0.8	4	5
+DC:0000378 ! Psoriasis	DOID:8893 ! psoriasis	0.8125	13	16
 DC:0000172 ! Glaucoma	DOID:1686 ! glaucoma	0.8181818181818182	18	22
 DC:0000119 ! Diabetes, Maturity-Onset of the Young	DOID:0050524 ! maturity-onset diabetes of the young	0.8333333333333334	10	12
 DC:0000179 ! Cowden Disease	DOID:6457 ! Cowden disease	0.8333333333333334	5	6
 DC:0000262 ! Macular Degeneration, Age-Related	DOID:10871 ! age related macular degeneration	0.8333333333333334	15	18
+DC:0000338 ! Osteogenesis Imperfecta	DOID:12347 ! osteogenesis imperfecta	0.8333333333333334	15	18
 DC:0000382 ! Pyruvate Dehydrogenase Complex Deficiency	DOID:3649 ! pyruvate decarboxylase deficiency	0.8333333333333334	5	6
 DC:0000016 ! Alopecia, Isolated	DOID:987 ! alopecia	0.8571428571428571	6	7
 DC:0000180 ! Hemochromatosis	DOID:2352 ! hemochromatosis	0.8571428571428571	6	7
@@ -34,19 +35,22 @@ DC:0000182 ! Hemolytic Uremic Syndrome	DOID:12554 ! hemolytic-uremic syndrome	0.
 DC:0000324 ! Neutropenia, Severe Congenital	DOID:0050590 ! severe congenital neutropenia	0.8571428571428571	6	7
 DC:0000333 ! Optic Atrophy	DOID:5723 ! optic atrophy	0.8571428571428571	6	7
 DC:0000636 ! Aortic Aneurysm, Familial Thoracic	DOID:14004 ! thoracic aortic aneurysm	0.8571428571428571	6	7
-DC:0000378 ! Psoriasis	DOID:8893 ! psoriasis	0.8666666666666667	13	15
+DC:0000092 ! Combined Oxidative Phosphorylation Deficiency	DOID:0060286 ! combined oxidative phosphorylation deficiency	0.875	21	24
 DC:0000140 ! Episodic Ataxia	DOID:963 ! episodic ataxia	0.875	7	8
 DC:0000160 ! Epilepsy, Generalized, with Febrile Seizures Plus	DOID:0060170 ! generalized epilepsy with febrile seizures plus	0.875	7	8
 DC:0000253 ! Lissencephaly	DOID:0050453 ! lissencephaly	0.875	7	8
 DC:0000401 ! Seckel Syndrome	DOID:0050569 ! Seckel syndrome	0.875	7	8
+DC:0000642 ! Colorectal Cancer, Hereditary Nonpolyposis	DOID:3883 ! Lynch syndrome	0.875	7	8
 DC:0000047 ! Autism	DOID:12849 ! autistic disorder	0.88	22	25
-DC:0000338 ! Osteogenesis Imperfecta	DOID:12347 ! osteogenesis imperfecta	0.8823529411764706	15	17
 DC:0000364 ! Pontocerebellar Hypoplasia	DOID:0060264 ! pontocerebellar hypoplasia	0.8823529411764706	15	17
 DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic	DOID:0050776 ! non-syndromic X-linked intellectual disability	0.8837209302325582	38	43
 DC:0000001 ! 46,XY Sex Reversal	DOID:14448 ! 46 XY gonadal dysgenesis	0.8888888888888888	8	9
 DC:0000021 ! Leber Congenital Amaurosis	DOID:14791 ! Leber congenital amaurosis	0.8888888888888888	16	18
+DC:0000386 ! Retinitis Pigmentosa	DOID:10584 ! retinitis pigmentosa	0.8888888888888888	64	72
 DC:0000461 ! Xeroderma Pigmentosum	DOID:0050427 ! xeroderma pigmentosum	0.8888888888888888	8	9
+DC:0000030 ! Charcot-Marie-Tooth Disease	DOID:10595 ! Charcot-Marie-Tooth disease	0.8947368421052632	51	57
 DC:0000375 ! Prostate Cancer	DOID:10283 ! prostate cancer	0.8947368421052632	17	19
+DC:0000109 ! Deafness, Autosomal Dominant	DOID:0050564 ! autosomal dominant nonsyndromic deafness	0.9	45	50
 DC:0000271 ! Melanoma, Cutaneous Malignant	DOID:8923 ! skin melanoma	0.9	9	10
 DC:0000314 ! Nemaline Myopathy	DOID:3191 ! nemaline myopathy	0.9	9	10
 DC:0000370 ! Premature Ovarian Failure	DOID:5426 ! premature ovarian failure	0.9	9	10
@@ -54,14 +58,14 @@ DC:0000453 ! Vesicoureteral Reflux	DOID:9620 ! vesicoureteral reflux	0.9	9	10
 DC:0000065 ! Cardiomyopathy, Dilated	DOID:12930 ! dilated cardiomyopathy	0.9069767441860465	39	43
 DC:0000093 ! Immunodeficiency, Common Variable	DOID:12177 ! common variable immunodeficiency	0.9090909090909091	10	11
 DC:0000188 ! Holoprosencephaly	DOID:4621 ! holoprosencephaly	0.9090909090909091	10	11
-DC:0000030 ! Charcot-Marie-Tooth Disease	DOID:10595 ! Charcot-Marie-Tooth disease	0.9107142857142857	51	56
 DC:0000024 ! Amyotrophic Lateral Sclerosis	DOID:332 ! amyotrophic lateral sclerosis	0.9130434782608695	21	23
-DC:0000092 ! Combined Oxidative Phosphorylation Deficiency	DOID:0060286 ! combined oxidative phosphorylation deficiency	0.9130434782608695	21	23
-DC:0000386 ! Retinitis Pigmentosa	DOID:10584 ! retinitis pigmentosa	0.9142857142857143	64	70
 DC:0000307 ! Myopia	DOID:11830 ! myopia	0.9166666666666666	22	24
+DC:0000360 ! Meckel Syndrome	DOID:0050778 ! Meckel syndrome	0.9166666666666666	11	12
 DC:0000316 ! Nephronophthisis	DOID:12712 ! nephronophthisis	0.9333333333333333	14	15
+DC:0000110 ! Deafness, Autosomal Recessive	DOID:0050565 ! autosomal recessive nonsyndromic deafness	0.9375	75	80
 DC:0000231 ! Joubert Syndrome	DOID:0050777 ! Joubert syndrome	0.95	19	20
 DC:0000066 ! Cardiomyopathy, Familial Hypertrophic	DOID:11984 ! hypertrophic cardiomyopathy	0.9523809523809523	20	21
+DC:0000070 ! Cataract	DOID:83 ! cataract	0.9555555555555556	43	45
 DC:0000388 ! Retinal Cone-Rod Dystrophy	DOID:0050572 ! cone-rod dystrophy	0.9565217391304348	22	23
 DC:0000086 ! Ciliary Dyskinesia, Primary	DOID:9562 ! primary ciliary dyskinesia	0.9666666666666667	29	30
 DC:0000014 ! Aicardi-Goutieres Syndrome	DOID:0050629 ! Aicardi-Goutieres syndrome	1	7	7
@@ -86,11 +90,13 @@ DC:0000068 ! Carney complex	DOID:0050471 ! Carney complex	1	3	3
 DC:0000069 ! Carnitine Palmitoyltransferase II Deficiency	DOID:0060235 ! carnitine palmitoyltransferase II deficiency	1	3	3
 DC:0000073 ! Cerebral Amyloid Angiopathy	DOID:9246 ! cerebral amyloid angiopathy	1	4	4
 DC:0000077 ! Ceroid Lipofuscinosis, Neuronal	DOID:14503 ! neuronal ceroid lipofuscinosis	1	14	14
+DC:0000079 ! Chondrocalcinosis	DOID:1156 ! chondrocalcinosis	1	3	3
 DC:0000088 ! Cockayne Syndrome	DOID:2962 ! Cockayne syndrome	1	3	3
 DC:0000091 ! Colorectal Cancer	DOID:9256 ! colorectal cancer	1	12	12
 DC:0000097 ! Seizures, Benign Familial Infantile	DOID:0060169 ! benign familial infantile epilepsy	1	4	4
 DC:0000101 ! Cornelia De Lange Syndrome	DOID:11725 ! Cornelia de Lange syndrome	1	5	5
 DC:0000106 ! Cutis Laxa	DOID:3144 ! cutis laxa	1	9	9
+DC:0000111 ! Deafness, X-Linked	DOID:0050566 ! X-linked nonsyndromic deafness	1	6	6
 DC:0000115 ! Dermatitis, Atopic	DOID:3310 ! atopic dermatitis	1	9	9
 DC:0000130 ! Elliptocytosis	DOID:2373 ! hereditary elliptocytosis	1	3	3
 DC:0000132 ! Emery-Dreifuss Muscular Dystrophy	DOID:11726 ! Emery-Dreifuss muscular dystrophy	1	6	6
@@ -138,7 +144,6 @@ DC:0000351 ! Parkinson Disease	DOID:14330 ! Parkinson's disease	1	22	22
 DC:0000355 ! Photoparoxysmal Response	DOID:0060281 ! photosensitive epilepsy	1	3	3
 DC:0000357 ! Pigmented Nodular Adrenocortical Disease	DOID:0060280 ! primary pigmented nodular adrenocortical disease	1	4	4
 DC:0000359 ! Polycystic Kidney Disease	DOID:898 ! polycystic kidney disease	1	4	4
-DC:0000360 ! Meckel Syndrome	DOID:0050778 ! Meckel syndrome	1	11	11
 DC:0000368 ! Leukemia, Acute Lymphoblastic	DOID:9952 ! acute lymphocytic leukemia	1	4	4
 DC:0000384 ! Renal Tubular Acidosis	DOID:14219 ! renal tubular acidosis	1	3	3
 DC:0000392 ! Rhizomelic Chondrodysplasia Punctata	DOID:2580 ! rhizomelic chondrodysplasia punctata	1	3	3

@@ -803,6 +803,8 @@ DC:0000685	Retinoschisis	DOID:8465	retinoschisis	true
 DC:0000693	Factor XIII Deficiency	DOID:2211	factor XIII deficiency	false	
 DC:0000693	Factor XIII Deficiency	DOID:2211	factor XIII deficiency	true	
 DC:0000694	IgA Nephropathy, Susceptibility to	DOID:2986	IgA glomerulonephritis	false	
+DC:0000700	Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis	DOID:0060213	FTDALS1	false	
+DC:0000700	Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis	DOID:0060213	FTDALS1	true	
 DOID:0050120	hemophagocytic lymphohistiocytosis	DC:0000183	Hemophagocytic Lymphohistiocytosis, Familial	false	
 DOID:0050425	restless legs syndrome	DC:0000385	Restless Legs Syndrome	false	
 DOID:0050425	restless legs syndrome	DC:0000385	Restless Legs Syndrome	true	
@@ -958,6 +960,8 @@ DOID:0060169	benign familial infantile epilepsy	DC:0000097	Seizures, Benign Fami
 DOID:0060169	benign familial infantile epilepsy	DC:0000097	Seizures, Benign Familial Infantile	true	
 DOID:0060170	generalized epilepsy with febrile seizures plus	DC:0000160	Epilepsy, Generalized, with Febrile Seizures Plus	false	
 DOID:0060170	generalized epilepsy with febrile seizures plus	DC:0000160	Epilepsy, Generalized, with Febrile Seizures Plus	true	
+DOID:0060213	FTDALS1	DC:0000700	Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis	false	
+DOID:0060213	FTDALS1	DC:0000700	Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis	true	
 DOID:0060224	atrial fibrillation	DC:0000042	Atrial Fibrillation, Familial	false	
 DOID:0060225	3MC syndrome	DC:0000236	3MC Syndrome	false	
 DOID:0060225	3MC syndrome	DC:0000236	3MC Syndrome	true	

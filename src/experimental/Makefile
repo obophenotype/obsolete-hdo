@@ -1,4 +1,4 @@
-all: mondo.obo mondo_score2.tsv mondo_score1.tsv mondo_unclassified.tsv
+all: mondo.obo mondo_score2.tsv mondo_score1.tsv mondo_score2.tsv mondo_unclassified.tsv
 
 all_rest: missing-omc.obo missing-omimps.obo sim-omc.tsv
 
@@ -102,6 +102,7 @@ isa-%.obo: align-%.tsv
 mesh.obo: ../ontology/imports/ctd_import.obo
 	perl -npe 's@\s+EXACT\s+@ RELATED @ if m@^synonym@' $< > $@
 
+# @Deprecated
 m.pro: ../contrib/MesH.contrib/mesh_list.txt
 	perl -npe 's/:.*//;s/^/MESH:/' $< | tbl2p -p m > m.pro
 
@@ -250,15 +251,20 @@ new_ordo_equivs.obo: new_ordo_merged.obo
 	blip -i super_ignore.pro  -u metadata_nlp -i $< -consult munger.pro -goal index_entity_pair_label_match,write_equiv_omims,halt > $@ 
 
 
-
+# complete merged ontology, prior to including mesh
 mondo_no_mesh.obo: new_ordo_merged.obo new_ordo_equivs.obo
 	owltools $^ --merge-support-ontologies -o -f obo $@
 
+# squish in MESH
 mondo_squished.obo: mondo_no_mesh.obo mesh_rest.obo
 	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets -s OMIM 10 -s DOID 9 -s Orphanet 8 -s MESH 7 -l DOID 10 -l Orphanet 5 -l MESH 3 -l OMIM 1 --set-ontology-id $(OBO)/mondo.owl -o -f obo --no-check $@.tmp && ./fix-final.pl $@.tmp > $@
 
 new_ordo_subs.tsv: mondo_squished.obo
 	blip-findall -consult munger.pro -debug index -i super_ignore.pro -u metadata_nlp -i $< -index "entity_nlabel_scope_stemmed(+,+,0,0)" "inferred_subclass(X,Y,'DC','DOID',LX,LY),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,LX,LY)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+
+new_ordo_sim.tsv: mondo_squished.obo
+	blip-findall -debug index -consult jaccard.pro -i $<  -goal ix sim_dc_bm/5 -label -no_pred > $@.tmp && mysort -k1,3 -n $@.tmp > $@
+
 
 mesh_rest.obo: xrefs-mesh.obo mondo_no_mesh.obo
 	blip-findall -consult munger.pro -i $< -i mondo_no_mesh.obo -i mesh.obo -r disease "write_mesh(M),fail" > $@

@@ -18,7 +18,6 @@ DECIPHER:46 ! Split Hand/Foot Malformation 1 (Shfm1)	2	DOID:225 ! syndrome,DOID:
 DECIPHER:47 ! Rcad (Renal Cysts And Diabetes)	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:51 ! 2q33.1 Deletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:52 ! 9q Subtelomeric Deletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
-DECIPHER:53 ! Prader-Willi Syndrome (Type 2)	1	DOID:11983
 DECIPHER:54 ! Angelman Syndrome (Type 2)	1	DOID:1932
 DECIPHER:57 ! 17q21.31 Recurrent Microdeletion Syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 DECIPHER:58 ! Leri-Weill Dyschondrostosis (Lwd) - Shox Deletion	2	DOID:225 ! syndrome,DOID:4 ! disease
@@ -72,6 +71,7 @@ OMIM:108390 ! Asparagus, Specific Smell Hypersensitivity	1	DOID:4 ! disease
 OMIM:108450 ! Asymmetric Short Stature Syndrome	1	DOID:4 ! disease
 OMIM:108700 ! Ataxia with Fasciculations	1	DOID:4 ! disease
 OMIM:108725 ! Atherosclerosis Susceptibility	1	DOID:4 ! disease
+OMIM:108770 ! Atrial Standstill	2	DC:0000699 ! Atrial Standstill,DOID:4 ! disease
 OMIM:108950 ! Lown-Ganong-Levine syndrome	2	DOID:225 ! syndrome,DOID:4 ! disease
 OMIM:108980 ! Pr Interval, Variation 1N	1	DOID:4 ! disease
 OMIM:109050 ! Aurocephalosyndactyly	1	DOID:4 ! disease
@@ -426,6 +426,7 @@ OMIM:165680 ! Ossicular Malformations, familial	1	DOID:4 ! disease
 OMIM:166400 ! Osteomas Of Mandible	1	DOID:4 ! disease
 OMIM:166740 ! Osteosclerosis with Ichthyosis and Fractures	1	DOID:4 ! disease
 OMIM:166760 ! Otitis Media, Susceptibility to	1	DOID:4 ! disease
+OMIM:166780 ! Otofaciocervical Syndrome 1	2	DC:0000698 ! Otofaciocervical Syndrome,DOID:4 ! disease
 OMIM:166910 ! Ovalocytosis, Hereditary Hemolytic, with Defective Erythropoiesis	1	DOID:4 ! disease
 OMIM:166970 ! Ovarian Fibromata	1	DOID:4 ! disease
 OMIM:166990 ! Osteochondrodysplasia, Rhizomelic, with Callosal Agenesis, Thrombocytopenia, Hydrocephalus, and Hypertension	1	DOID:4 ! disease
@@ -1065,7 +1066,7 @@ OMIM:600808 ! Enuresis, Nocturnal, 2	2	DC:0000133 ! Enuresis, Nocturnal,DOID:4 !
 OMIM:600906 ! Ectodermal dysplasia mental retardation syndactyly	1	DOID:4 ! disease
 OMIM:600907 ! Enamel Hypoplasia, Cataracts, and Aqueductal Stenosis	1	DOID:4 ! disease
 OMIM:600908 ! Agonadism, 46,Xy, With Mental Retardation, Short Stature, Retarded Bone Age, and Multiple Extragenital Malformations	1	DOID:4 ! disease
-OMIM:600952 ! Transsexuality	1	DOID:4 ! disease
+OMIM:600952	0	
 OMIM:600987 ! Cardiac Malformation, Cleft Lip-Palate, Microcephaly and Digital Anomalies	1	DOID:4 ! disease
 OMIM:601004 ! Portal Vein, Cavernous Transformation Of	1	DOID:4 ! disease
 OMIM:601016 ! Dincsoy Salih Patel syndrome	1	DOID:4 ! disease
@@ -1304,11 +1305,13 @@ OMIM:615412 ! Cortical Dysplasia, Complex, With Other Brain Malformations 4	2	DC
 OMIM:615414 ! Microcephaly 11, Primary, Autosomal Recessive	2	DOID:4 ! disease,MESH:C579935 ! Autosomal Recessive Primary Microcephaly
 OMIM:615441 ! Ventricular Tachycardia, Catecholaminergic Polymorphic, 5, With or Without Muscle Weakness	2	DC:0000665 ! Ventricular Tachycardia, Catecholaminergic Polymorphic,DOID:4 ! disease
 OMIM:615457	0	
+OMIM:615560 ! Otofaciocervical Syndrome 2	2	DC:0000698 ! Otofaciocervical Syndrome,DOID:4 ! disease
 OMIM:615582 ! Rienhoff Syndrome	1	DOID:4 ! disease
 OMIM:615583 ! Verheij Syndrome	1	DOID:4 ! disease
 OMIM:615706 ! Auriculocondylar Syndrome 3	2	DC:0000475 ! Auriculocondylar Syndrome,DOID:4 ! disease
 OMIM:615710 ! Mitchell-Riley Syndrome	1	DOID:4 ! disease
 OMIM:615721 ! Renal Hypodysplasia/Aplasia 2	2	DC:0000695 ! Renal Hypodysplasia/Aplasia,DOID:4 ! disease
+OMIM:615745 ! Atrial Standstill 2	2	DC:0000699 ! Atrial Standstill,DOID:4 ! disease
 OMIM:615763 ! Cortical Dysplasia, Complex, With Other Brain Malformations 5	2	DC:0000498 ! Cortical Dysplasia, Complex, with Other Brain Malformations,DOID:4 ! disease
 OMIM:615771 ! Cortical Dysplasia, Complex, With Other Brain Malformations 6	2	DC:0000498 ! Cortical Dysplasia, Complex, with Other Brain Malformations,DOID:4 ! disease
 OMIM:615777 ! Desbuquois Dysplasia 2	2	DC:0000623 ! Desbuquois Dysplasia,DOID:4 ! disease
@@ -1412,6 +1415,7 @@ Orphanet:2728	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:2742	0	
 Orphanet:275543	2	DOID:225 ! syndrome,DOID:4 ! disease
 Orphanet:2771	2	DOID:225 ! syndrome,DOID:4 ! disease
+Orphanet:2792	1	DOID:4 ! disease
 Orphanet:2793	0	
 Orphanet:2835	0	
 Orphanet:2890 ! Pili torti - onychodysplasia	2	DC:0000128 ! Ectodermal Dysplasia,DOID:4 ! disease

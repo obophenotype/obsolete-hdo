@@ -8754,7 +8754,7 @@ equivalent_to: OMIM:104600 ! Amenorrhea-Galactorrhea Syndrome
 [Term]
 id: MESH:C537074
 name: Fara Chlupackova syndrome
-equivalent_to: Orphanet:2792 ! Otofaciocervical syndrome
+is_a: DOID:2908 ! Treacher Collins syndrome
 
 [Term]
 id: MESH:C537076
@@ -48780,8 +48780,7 @@ equivalent_to: DC:0000602 ! Transposition of the Great Arteries
 [Term]
 id: MESH:D014189
 name: Transsexualism
-is_a: DOID:10919 ! transsexualism
-is_a: OMIM:600952 ! Transsexuality
+equivalent_to: DOID:10919 ! transsexualism
 
 [Term]
 id: MESH:D014190
@@ -49384,7 +49383,7 @@ equivalent_to: DOID:10128 ! venous insufficiency
 [Term]
 id: MESH:D014693
 name: Ventricular Fibrillation
-equivalent_to: DC:0000692 ! Ventricular fibrillation
+equivalent_to: DC:0000692 ! Ventricular Fibrillation
 
 [Term]
 id: MESH:D014694
