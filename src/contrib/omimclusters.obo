@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 25:03:2015 12:32
+date: 30:03:2015 13:32
 saved-by: smb
-auto-generated-by: OBO-Edit 2.2
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
 remark: Filtered by ID contains "omim"
 generated-by: $Id: MGIOBOFileGeneratorMgr.java
@@ -10434,11 +10434,6 @@ name: SYSTEMIC LUPUS ERYTHEMATOSUS; SLE
 is_a: DC:0000052 ! Systemic Lupus Erythematosus
 
 [Term]
-id: OMIM:152780
-name: Luteinizing Hormone, Beta Polypeptide; LHB
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:152800
 name: Lymphangiectasia, Intestinal
 is_a: DC:0000138 ! Disease Cluster
@@ -16010,6 +16005,9 @@ is_a: DC:0000088 ! Cockayne Syndrome
 [Term]
 id: OMIM:216550
 name: Cohen syndrome
+alt_id: OMIM:605685
+comment: OMIM obsoleted 605685 and moved this to 216550 so I merged these - smb.
+synonym: "Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness" EXACT []
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -21104,7 +21102,10 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:269300
-name: Schwartz-Lelek Syndrome
+name: Craniometadiaphyseal Dysplasia; CRMDD
+alt_id: OMIM:615118
+comment: OMIM obsoleted 615118 and moved this to 269300 then renamed 269300 to what 615118 was called and did not retain as a synonym the old name of 269300. I merged these and swapped the name and synonym to retain the information - smb.
+synonym: "Schwartz-Lelek Syndrome" EXACT []
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -21270,6 +21271,9 @@ is_a: DC:0000410 ! Spastic Paraplegia
 [Term]
 id: OMIM:270800
 name: Spastic paraplegia type 5A, recessive
+alt_id: OMIM:600146
+comment: OMIM obsoleted 600146 and moved it to 270800 so I merged these - smb.
+synonym: "Spastic paraplegia type 5B, recessive" EXACT []
 is_a: DC:0000410 ! Spastic Paraplegia
 
 [Term]
@@ -22576,17 +22580,15 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:300354
 name: MENTAL RETARDATION, X-LINKED, WITH SHORT STATURE, HYPOGONADISM, AND ABNORMAL GAIT
+alt_id: OMIM:300360
+comment: OMIM obsoleted 300360 and moved this to 300354 so I merged these - smb.
+synonym: "Mental Retardation, X-Linked, with Short Stature" EXACT []
 is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
 id: OMIM:300355
 name: Mental Retardation, X-Linked 73
 is_a: DC:0000656 ! Mental Retardation, X-linked, Nonsyndromic
-
-[Term]
-id: OMIM:300360
-name: Mental Retardation, X-Linked, with Short Stature
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:300367
@@ -23525,6 +23527,11 @@ is_a: DC:0000495 ! Chromosome Duplication Syndrome
 id: OMIM:300943
 name: Pituitary Adenoma, Growth Hormone-Secreting 2; PAGH2
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:300946
+name: Diamond-Blackfan Anemia 14 with Mandibulofacial Dysostosis; DBA14
+is_a: DC:0000025 ! Diamond-Blackfan Anemia
 
 [Term]
 id: OMIM:301000
@@ -25132,11 +25139,6 @@ is_a: DC:0000077 ! Ceroid Lipofuscinosis, Neuronal
 id: OMIM:600145
 name: Sacral defect and anterior sacral meningocele
 is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:600146
-name: Spastic paraplegia type 5B, recessive
-is_a: DC:0000410 ! Spastic Paraplegia
 
 [Term]
 id: OMIM:600151
@@ -29004,11 +29006,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:605676
 name: Cardiomyopathy dilated with Woolly hair and keratoderma
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:605685
-name: Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -41483,11 +41480,6 @@ name: Microphthalmia, Isolated 8; MCOP8
 is_a: DC:0000278 ! Microphthalmia, Isolated
 
 [Term]
-id: OMIM:615118
-name: Craniometadiaphyseal Dysplasia; CRMDD
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:615119
 name: Cardioencephalomyopathy, Fatal Infantile, Due to Cytochrome C Oxidase Deficiency 2; CEMCOX2
 is_a: DC:0000488 ! Cardioencephalomyopathy, Fatal Infantile
@@ -44030,6 +44022,11 @@ name: Ataxia-Oculomotor Apraxia 4; AOA4
 is_a: DC:0000702 ! Ataxia-Oculomotor Apraxia
 
 [Term]
+id: OMIM:616268
+name: Mental Retardation, Autosomal Dominant 32; MRD32
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
 id: OMIM:616269
 name: Mental Retardation, Autosomal Recessive 48; MRT48
 is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
@@ -44044,4 +44041,39 @@ id: OMIM:616271
 name: 3-methylglutaconic Aciduria with Cataracts, Neurologic Involvement, and Neutropenia; MEGCANN
 comment: Present because it is in the OMIM series.
 is_a: DC:0000004 ! 3-Methylglutaconic Aciduria
+
+[Term]
+id: OMIM:616276
+name: Coenzyme Q10 Deficiency, Primary, 7; COQ10D7
+is_a: DC:0000496 ! Coenzyme Q10 Deficiency, Primary
+
+[Term]
+id: OMIM:616277
+name: Mitochondrial Short-Chain Enoyl-Coa Hydratase 1 Deficiency; ECHS1D
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616278
+name: Bile Acid Synthesis Defect, Congenital, 5; CBAS5
+is_a: DC:0000196 ! Bile Acid Synthesis Defect, Congenital
+
+[Term]
+id: OMIM:616279
+name: Cataract 43; CTRCT43
+is_a: DC:0000070 ! Cataract
+
+[Term]
+id: OMIM:616280
+name: Charcot-Marie-Tooth Disease, Axonal, Type 2u; CMT2U
+is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
+
+[Term]
+id: OMIM:616281
+name: Mental Retardation, Autosomal Recessive 49; MRT49
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:616282
+name: Spastic Paraplegia 73, Autosomal Dominant; SPG73
+is_a: DC:0000410 ! Spastic Paraplegia
 
