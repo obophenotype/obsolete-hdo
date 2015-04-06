@@ -7858,7 +7858,7 @@ is_a: DOID:2476 ! hereditary spastic paraplegia
 [Term]
 id: MESH:C536872
 name: Spastic paraplegia type 5B, recessive
-equivalent_to: OMIM:600146 ! Spastic Paraplegia 5B, Autosomal Recessive
+equivalent_to: OMIM:270800 ! Spastic Paraplegia 5A, Autosomal Recessive
 
 [Term]
 id: MESH:C536873
@@ -10798,7 +10798,8 @@ is_a: MESH:D004677 ! Encephalocele
 [Term]
 id: MESH:C537519
 name: Schwartz-Lelek syndrome
-equivalent_to: DOID:0080033 ! craniometaphyseal dysplasia
+is_a: DOID:0080033 ! craniometaphyseal dysplasia
+is_a: OMIM:269300 ! Craniometadiaphyseal Dysplasia
 
 [Term]
 id: MESH:C537521
@@ -22085,7 +22086,7 @@ is_a: DOID:0050735 ! X-linked disease
 [Term]
 id: MESH:C564527
 name: Mental Retardation, X-Linked, with Short Stature
-equivalent_to: OMIM:300360 ! Mental Retardation, X-Linked, With Short Stature
+equivalent_to: OMIM:300354 ! Mental Retardation, X-Linked, With Short Stature, Hypogonadism, and Abnormal Gait
 
 [Term]
 id: MESH:C564528
@@ -24690,7 +24691,7 @@ equivalent_to: DC:0000566 ! Multiple Mitochondrial Dysfunctions Syndrome
 [Term]
 id: MESH:C565306
 name: Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness
-equivalent_to: OMIM:605685 ! Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness
+equivalent_to: OMIM:216550 ! Cohen Syndrome
 
 [Term]
 id: MESH:C565308

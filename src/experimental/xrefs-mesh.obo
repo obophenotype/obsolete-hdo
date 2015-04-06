@@ -2798,6 +2798,7 @@ xref: OMIM:310600 ! Norrie Disease
 [Term]
 id: OMIM:216550 ! Cohen Syndrome
 xref: MESH:C536438 ! Cohen syndrome
+xref: MESH:C565306 ! Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness
 xref: Orphanet:193 ! Cohen syndrome
 
 [Term]
@@ -3012,10 +3013,6 @@ xref: MESH:C564658 ! Peripheral Arterial Occlusive Disease 1
 [Term]
 id: OMIM:269840 ! Selective T-Cell Defect
 xref: MESH:C536722 ! ZAP70 deficiency
-
-[Term]
-id: OMIM:605685 ! Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness
-xref: MESH:C565306 ! Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness
 
 [Term]
 id: OMIM:136880 ! Fundus Albipunctatus
@@ -5982,6 +5979,7 @@ xref: Orphanet:96170 ! Emanuel syndrome
 
 [Term]
 id: OMIM:300354 ! MENTAL RETARDATION, X-LINKED, WITH SHORT STATURE, HYPOGONADISM, AND ABNORMAL GAIT
+xref: MESH:C564527 ! Mental Retardation, X-Linked, with Short Stature
 xref: Orphanet:85293 ! X-linked intellectual disability, Cabezas type
 
 [Term]
@@ -10912,6 +10910,10 @@ xref: MESH:C563436 ! Cardiomyopathy, Familial Hypertrophic, 6
 [Term]
 id: DOID:10607 ! tropical sprue
 xref: MESH:D013182 ! Sprue, Tropical
+
+[Term]
+id: OMIM:269300 ! Craniometadiaphyseal Dysplasia
+xref: MESH:C537519 ! Schwartz-Lelek syndrome
 
 [Term]
 id: DOID:0050546 ! congenital adrenal insufficiency
@@ -27237,6 +27239,7 @@ xref: DOID:1059 ! intellectual disability
 
 [Term]
 id: OMIM:270800 ! Spastic Paraplegia 5A, Autosomal Recessive
+xref: MESH:C536872 ! Spastic paraplegia type 5B, recessive
 xref: MESH:C564811 ! Spastic Paraplegia 5a, Autosomal Recessive
 xref: Orphanet:100986 ! Autosomal recessive spastic paraplegia type 5A
 
@@ -39762,10 +39765,6 @@ id: OMIM:608445 ! Speech-Sound Disorder
 xref: MESH:C563928 ! Speech-Sound Disorder
 
 [Term]
-id: OMIM:600146 ! Spastic Paraplegia 5B, Autosomal Recessive
-xref: MESH:C536872 ! Spastic paraplegia type 5B, recessive
-
-[Term]
 id: OMIM:603587 ! Follicular Atrophoderma, Perioral Pigmented, With Milia and Epidermoid Cysts
 xref: MESH:C566360 ! Follicular Atrophoderma, Perioral Pigmented, with Milia and Epidermoid Cysts
 
@@ -46888,10 +46887,6 @@ xref: Orphanet:926 ! Acatalasemia
 [Term]
 id: OMIM:154275 ! Malignant Hyperthermia, Susceptibility To, 2
 xref: MESH:C535695 ! Malignant hyperthermia susceptibility type 2
-
-[Term]
-id: OMIM:300360 ! Mental Retardation, X-Linked, With Short Stature
-xref: MESH:C564527 ! Mental Retardation, X-Linked, with Short Stature
 
 [Term]
 id: OMIM:615440 ! Combined Oxidative Phosphorylation Deficiency 17

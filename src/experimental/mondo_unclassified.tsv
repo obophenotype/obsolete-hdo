@@ -1133,7 +1133,7 @@ OMIM:605289 ! Split-Hand/Foot Malformation 4	2	DC:0000416 ! Split-Hand/Foot Malf
 OMIM:605321 ! Frontoocular Syndrome	1	DOID:4 ! disease
 OMIM:605388 ! Cerebral Palsy, Ataxic, Autosomal Recessive	1	DOID:4 ! disease
 OMIM:605431	0	
-OMIM:605685 ! Cutis Verticis Gyrata, Retinitis Pigmentosa, and Sensorineural Deafness	1	DOID:4 ! disease
+OMIM:605685	0	
 OMIM:606155 ! Fryns-Aftimos Syndrome	1	DOID:4 ! disease
 OMIM:606156 ! Sener syndrome	1	DOID:4 ! disease
 OMIM:606183 ! Laryngeal Abductor Paralysis with Cerebellar Ataxia and Motor Neuropathy	1	DOID:4 ! disease
