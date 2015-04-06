@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:03:2015 13:32
+date: 06:04:2015 10:47
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -3879,7 +3879,7 @@ creation_date: 2013-10-03T15:40:36Z
 [Term]
 id: DC:0000474
 name: Arthrogryposis Multiplex Congenita
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 created_by: smb
 creation_date: 2013-10-03T15:42:11Z
 
@@ -6427,13 +6427,10 @@ name: Arthritis, Sacroiliac
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:108110
-name: Arthrogryposis Multiplex Congenita; AMC
-is_a: DC:0000474 ! Arthrogryposis Multiplex Congenita
-
-[Term]
 id: OMIM:108120
 name: ARTHROGRYPOSIS, DISTAL, TYPE 1A
+alt_id: OMIM:108110
+synonym: "Arthrogryposis Multiplex Congenita; AMC" EXACT []
 is_a: DC:0000038 ! Arthrogryposis, Distal
 
 [Term]
@@ -15109,7 +15106,7 @@ is_a: DC:0000037 ! Arthrogryposis, Renal Dysfunction, and Cholestasis
 [Term]
 id: OMIM:208100
 name: Arthrogryposis multiplex congenita neurogenic type
-is_a: DC:0000474 ! Arthrogryposis Multiplex Congenita
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:208150
@@ -44076,4 +44073,24 @@ is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
 id: OMIM:616282
 name: Spastic Paraplegia 73, Autosomal Dominant; SPG73
 is_a: DC:0000410 ! Spastic Paraplegia
+
+[Term]
+id: OMIM:616286
+name: Lethal Congenital Contracture Syndrome 7; LCCS7
+is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
+
+[Term]
+id: OMIM:616287
+name: Lethal Congenital Contracture Syndrome 8; LCCS8
+is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
+
+[Term]
+id: OMIM:616289
+name: Optic Atrophy 8; OPA8
+is_a: DC:0000333 ! Optic Atrophy
+
+[Term]
+id: OMIM:616291
+name: Lichtenstein-Knorr Syndrome; LIKNS
+is_a: DC:0000138 ! Disease Cluster
 
