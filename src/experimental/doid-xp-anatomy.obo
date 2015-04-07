@@ -34,11 +34,6 @@ intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0002110  ! gall bladder
 
 [Term]
-id: DOID:0080001  ! bone disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0001474  ! bone element
-
-[Term]
 id: DOID:10302  ! parotid disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0001831  ! parotid gland
@@ -89,11 +84,6 @@ intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0002410  ! autonomic nervous system
 
 [Term]
-id: DOID:1222  ! cartilage disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0002418  ! cartilage tissue
-
-[Term]
 id: DOID:1242  ! globe disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:3010346  ! globe
@@ -139,11 +129,6 @@ intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0001644  ! trochlear nerve
 
 [Term]
-id: DOID:1393  ! visual pathway disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0001908  ! optic tract
-
-[Term]
 id: DOID:1400  ! lacrimal apparatus disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0001750  ! lacrimal apparatus
@@ -164,11 +149,6 @@ intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0001647  ! facial nerve
 
 [Term]
-id: DOID:1891  ! optic nerve disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0000941  ! cranial nerve II
-
-[Term]
 id: DOID:1962  ! fallopian tube disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0003889  ! fallopian tube
@@ -182,11 +162,6 @@ intersection_of: located_in UBERON:0001707  ! nasal cavity
 id: DOID:2218  ! blood platelet disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in CL:0000233  ! platelet
-
-[Term]
-id: DOID:2253  ! cervix disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0000002  ! uterine cervix
 
 [Term]
 id: DOID:231  ! motor neuron disease
@@ -256,7 +231,7 @@ intersection_of: located_in UBERON:0001621  ! coronary artery
 [Term]
 id: DOID:3407  ! carotid artery disease
 intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0001530  ! common carotid artery plus branches
+intersection_of: located_in UBERON:0005396  ! carotid artery segment
 
 [Term]
 id: DOID:3418  ! glossopharyngeal nerve disease
@@ -337,11 +312,6 @@ intersection_of: located_in UBERON:0001029  ! neuromuscular junction
 id: DOID:47  ! prostate disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0002367  ! prostate gland
-
-[Term]
-id: DOID:4873  ! anterior horn cell disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in CL:0000100  ! motor neuron
 
 [Term]
 id: DOID:4961  ! bone marrow disease
@@ -441,7 +411,7 @@ intersection_of: located_in UBERON:0002385  ! muscle tissue
 [Term]
 id: DOID:679  ! basal ganglia disease
 intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0002420  ! basal ganglion
+intersection_of: located_in UBERON:0010011  ! collection of basal ganglia
 
 [Term]
 id: DOID:7  ! disease of anatomical entity
@@ -502,11 +472,6 @@ intersection_of: located_in UBERON:0002369  ! adrenal gland
 id: DOID:9720  ! vitreous disease
 intersection_of: DOID:4  ! disease
 intersection_of: located_in UBERON:0001797  ! vitreous humor
-
-[Term]
-id: DOID:9739  ! eustachian tube disease
-intersection_of: DOID:4  ! disease
-intersection_of: located_in UBERON:0002393  ! pharyngotympanic tube
 
 [Term]
 id: DOID:974  ! upper respiratory tract disease
