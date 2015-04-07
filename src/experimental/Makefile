@@ -81,6 +81,10 @@ align-doid-to-ordo-nosyn.tsv: ordo_nosyn.obo disease_nosyn.obo
 	blip-findall -i ignore.pro -u metadata_nlp -i $< -i disease_nosyn.obo -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,false),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
 
 
+align-doid-to-hp.tsv: $(DOID)
+	blip-findall -i ignore.pro -u metadata_nlp -r HP -r disease -goal index_entity_pair_label_match "entity_pair_label_reciprocal_best_intermatch(X,Y,S),class(X),class(Y),\\+disjoint_from(X,Y),\\+disjoint_from(Y,X)" -select "m(X,Y,S)" -use_tabs -label -no_pred > $@.tmp && sort -u $@.tmp > $@
+
+
 
 
 ## --
@@ -317,8 +321,10 @@ xrefs-mesh.obo: align-mondo-to-mesh.tsv
 
 DOIDX = ../ontology/doidx.obo
 
+doid-xp-anatomy-basic.obo: $(DOIDX)
+	obol qobol -i $< -r pext -tag disease -tag basic -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
 doid-xp-anatomy.obo: $(DOIDX)
-	obol qobol -i $< -r pext -tag disease -tag basic -scope all -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
+	obol qobol -i $< -r pext -tag disease -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
 
 doid-xp-go.obo: $(DOIDX)
 	obol qobol -i $< -r go -tag disease -tag go -scope all -undefined_only true -export obo -idspace DOID > $@.tmp && mv $@.tmp $@
