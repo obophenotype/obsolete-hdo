@@ -1,0 +1,528 @@
+[Term]
+id: DOID:0050161  ! lower respiratory tract disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001558  ! lower respiratory tract
+
+[Term]
+id: DOID:0050824  ! sinoatrial node disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002351  ! sinoatrial node
+
+[Term]
+id: DOID:0050825  ! endocardium disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002165  ! endocardium
+
+[Term]
+id: DOID:0050826  ! tricuspid valve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002134  ! tricuspid valve
+
+[Term]
+id: DOID:0050828  ! artery disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001637  ! artery
+
+[Term]
+id: DOID:0050829  ! pericardium disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002407  ! pericardium
+
+[Term]
+id: DOID:0060262  ! gallbladder disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002110  ! gall bladder
+
+[Term]
+id: DOID:0080001  ! bone disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:10302  ! parotid disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001831  ! parotid gland
+
+[Term]
+id: DOID:10481  ! diaphragm disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001103  ! diaphragm
+
+[Term]
+id: DOID:10854  ! salivary gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001044  ! saliva-secreting gland
+
+[Term]
+id: DOID:10865  ! abducens nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001646  ! abducens nerve
+
+[Term]
+id: DOID:1091  ! tooth disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001091  ! calcareous tooth
+
+[Term]
+id: DOID:10944  ! tongue disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001723  ! tongue
+
+[Term]
+id: DOID:110  ! lens disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000965  ! lens of camera-type eye
+
+[Term]
+id: DOID:11201  ! parathyroid gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001132  ! parathyroid gland
+
+[Term]
+id: DOID:114  ! heart disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000948  ! heart
+
+[Term]
+id: DOID:11465  ! autonomic nervous system disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002410  ! autonomic nervous system
+
+[Term]
+id: DOID:1222  ! cartilage disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002418  ! cartilage tissue
+
+[Term]
+id: DOID:1242  ! globe disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:3010346  ! globe
+
+[Term]
+id: DOID:12491  ! Vagus nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001759  ! vagus nerve
+
+[Term]
+id: DOID:12657  ! vestibulocochlear nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001648  ! vestibulocochlear nerve
+
+[Term]
+id: DOID:1271  ! capillary disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001982  ! capillary
+
+[Term]
+id: DOID:12897  ! submandibular gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001736  ! submandibular gland
+
+[Term]
+id: DOID:1352  ! paranasal sinus disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001825  ! paranasal sinus
+
+[Term]
+id: DOID:13814  ! hypoglossal nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001650  ! hypoglossal nerve
+
+[Term]
+id: DOID:1383  ! sweat gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001820  ! sweat gland
+
+[Term]
+id: DOID:13864  ! trochlear nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001644  ! trochlear nerve
+
+[Term]
+id: DOID:1393  ! visual pathway disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001908  ! optic tract
+
+[Term]
+id: DOID:1400  ! lacrimal apparatus disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001750  ! lacrimal apparatus
+
+[Term]
+id: DOID:1417  ! choroid disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001776  ! optic choroid
+
+[Term]
+id: DOID:1428  ! endocrine pancreas disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000016  ! endocrine pancreas
+
+[Term]
+id: DOID:1756  ! facial nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001647  ! facial nerve
+
+[Term]
+id: DOID:1891  ! optic nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
+
+[Term]
+id: DOID:1962  ! fallopian tube disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0003889  ! fallopian tube
+
+[Term]
+id: DOID:2163  ! nasal cavity disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001707  ! nasal cavity
+
+[Term]
+id: DOID:2218  ! blood platelet disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in CL:0000233  ! platelet
+
+[Term]
+id: DOID:2253  ! cervix disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000002  ! uterine cervix
+
+[Term]
+id: DOID:231  ! motor neuron disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in CL:0000100  ! motor neuron
+
+[Term]
+id: DOID:238  ! pupil disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001771  ! pupil
+
+[Term]
+id: DOID:2388  ! renal artery disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001184  ! renal artery
+
+[Term]
+id: DOID:240  ! iris disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001769  ! iris
+
+[Term]
+id: DOID:2529  ! splenic disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002106  ! spleen
+
+[Term]
+id: DOID:26  ! pancreas disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001264  ! pancreas
+
+[Term]
+id: DOID:2742  ! auditory system disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0016490  ! auditory system
+
+[Term]
+id: DOID:2825  ! nose disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000004  ! olfactory apparatus
+
+[Term]
+id: DOID:2952  ! inner ear disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001846  ! internal ear
+
+[Term]
+id: DOID:3128  ! anus disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001245  ! anus
+
+[Term]
+id: DOID:319  ! spinal cord disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002240  ! spinal cord
+
+[Term]
+id: DOID:339  ! accessory nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002019  ! accessory XI nerve
+
+[Term]
+id: DOID:3393  ! coronary artery disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001621  ! coronary artery
+
+[Term]
+id: DOID:3407  ! carotid artery disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001530  ! common carotid artery plus branches
+
+[Term]
+id: DOID:3418  ! glossopharyngeal nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001649  ! glossopharyngeal nerve
+
+[Term]
+id: DOID:3463  ! breast disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000310  ! breast
+
+[Term]
+id: DOID:365  ! bladder disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001255  ! urinary bladder
+
+[Term]
+id: DOID:367  ! olfactory nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001579  ! olfactory nerve
+
+[Term]
+id: DOID:379  ! external ear disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001691  ! external ear
+
+[Term]
+id: DOID:3952  ! adrenal cortex disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001235  ! adrenal cortex
+
+[Term]
+id: DOID:403  ! mouth disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000165  ! mouth
+
+[Term]
+id: DOID:4079  ! heart valve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000946  ! cardial valve
+
+[Term]
+id: DOID:409  ! liver disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002107  ! liver
+
+[Term]
+id: DOID:4123  ! nail disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001705  ! nail
+
+[Term]
+id: DOID:4137  ! common bile duct disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001174  ! common bile duct
+
+[Term]
+id: DOID:4138  ! bile duct disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002394  ! bile duct
+
+[Term]
+id: DOID:421  ! hair disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001037  ! strand of hair
+
+[Term]
+id: DOID:4353  ! ciliary body disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001775  ! ciliary body
+
+[Term]
+id: DOID:439  ! neuromuscular junction disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001029  ! neuromuscular junction
+
+[Term]
+id: DOID:47  ! prostate disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002367  ! prostate gland
+
+[Term]
+id: DOID:4873  ! anterior horn cell disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in CL:0000100  ! motor neuron
+
+[Term]
+id: DOID:4961  ! bone marrow disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002371  ! bone marrow
+
+[Term]
+id: DOID:50  ! thyroid gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002046  ! thyroid gland
+
+[Term]
+id: DOID:53  ! pituitary gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000007  ! pituitary gland
+
+[Term]
+id: DOID:530  ! eyelid disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001711  ! eyelid
+
+[Term]
+id: DOID:533  ! thymus gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002370  ! thymus
+
+[Term]
+id: DOID:5330  ! dental pulp disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001754  ! dental pulp
+
+[Term]
+id: DOID:557  ! kidney disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002113  ! kidney
+
+[Term]
+id: DOID:561  ! trigeminal nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001645  ! trigeminal nerve
+
+[Term]
+id: DOID:5614  ! eye disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000970  ! eye
+
+[Term]
+id: DOID:562  ! third cranial nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001643  ! oculomotor nerve
+
+[Term]
+id: DOID:5656  ! cranial nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001785  ! cranial nerve
+
+[Term]
+id: DOID:5691  ! visual cortex disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000411  ! visual cortex
+
+[Term]
+id: DOID:5749  ! pulmonary valve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002146  ! pulmonary valve
+
+[Term]
+id: DOID:5782  ! tympanic membrane disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002364  ! tympanic membrane
+
+[Term]
+id: DOID:61  ! mitral valve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002135  ! mitral valve
+
+[Term]
+id: DOID:62  ! aortic valve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002137  ! aortic valve
+
+[Term]
+id: DOID:6227  ! articular cartilage disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0010996  ! articular cartilage of joint
+
+[Term]
+id: DOID:65  ! connective tissue disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002384  ! connective tissue
+
+[Term]
+id: DOID:66  ! muscle tissue disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002385  ! muscle tissue
+
+[Term]
+id: DOID:679  ! basal ganglia disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002420  ! basal ganglion
+
+[Term]
+id: DOID:7  ! disease of anatomical entity
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001062  ! anatomical entity
+
+[Term]
+id: DOID:732  ! urethral disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000057  ! urethra
+
+[Term]
+id: DOID:76  ! stomach disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000945  ! stomach
+
+[Term]
+id: DOID:780  ! placenta disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001987  ! placenta
+
+[Term]
+id: DOID:850  ! lung disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002048  ! lung
+
+[Term]
+id: DOID:866  ! vein disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001638  ! vein
+
+[Term]
+id: DOID:9098  ! sebaceous gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001821  ! sebaceous gland
+
+[Term]
+id: DOID:9297  ! lip disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001833  ! lip
+
+[Term]
+id: DOID:936  ! brain disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000955  ! brain
+
+[Term]
+id: DOID:9500  ! leukocyte disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in CL:0000738  ! leukocyte
+
+[Term]
+id: DOID:9553  ! adrenal gland disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002369  ! adrenal gland
+
+[Term]
+id: DOID:9720  ! vitreous disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001797  ! vitreous humor
+
+[Term]
+id: DOID:9739  ! eustachian tube disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002393  ! pharyngotympanic tube
+
+[Term]
+id: DOID:974  ! upper respiratory tract disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001557  ! upper respiratory tract
+
+[Term]
+id: DOID:9741  ! biliary tract disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001173  ! biliary tree
+
+[Term]
+id: DOID:9942  ! lymph node disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000029  ! lymph node
+
+[Typedef]
+id: located_in
+xref: RO:0001025

@@ -311,3 +311,19 @@ align-mondo-to-mesh.tsv: mesh.obo mondo_no_mesh.obo
 
 xrefs-mesh.obo: align-mondo-to-mesh.tsv
 	cut -f1-4 $< | sort -u | grep -v ^MESH | tbl2obolinks.pl --rel xref > $@.tmp && mv $@.tmp $@
+
+
+## OBOL
+
+DOIDX = ../ontology/doidx.obo
+
+doid-xp-anatomy.obo: $(DOIDX)
+	obol qobol -i $< -r pext -tag disease -tag basic -scope all -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
+
+doid-xp-go.obo: $(DOIDX)
+	obol qobol -i $< -r go -tag disease -tag go -scope all -undefined_only true -export obo -idspace DOID > $@.tmp && mv $@.tmp $@
+
+doid-xp-%.owl: doid-xp-%.obo
+	owltools $< -o -f ofn $@
+%.axioms: %.owl
+	grep ^EquivalentClasses $< > $@
