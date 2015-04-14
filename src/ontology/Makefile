@@ -24,7 +24,7 @@ release: all all_imports all_bridges
 
 # all release files are derived from the editors version.
 # we use the default Oort setup
-doid.obo: doid-edit.owl
+doid.obo: doid-edit.owl ext.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml $< --skip-format owx --allow-overwrite --asserted --simple && ../experimental/fix-doid.pl doid-simple.obo > doid.obo
 doid.owl: doid.obo
 doidx.obo: doid.owl
@@ -268,6 +268,12 @@ reports/omim-%.csv: bridge/omim_merged.owl sparql/%.sparql
 
 reports/umls-%.csv: bridge/umls_merged.owl sparql/%.sparql
 	arq --data $< --query sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
+
+# ----------------------------------------
+# Reasoning
+# ----------------------------------------
+%.inferences: %.owl
+	owltools --use-catalog $< --run-reasoner -r elk > $@.tmp && grep ^INF $@.tmp > $@
 
 # ----------------------------------------
 # Diffs

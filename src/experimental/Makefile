@@ -322,9 +322,9 @@ xrefs-mesh.obo: align-mondo-to-mesh.tsv
 DOIDX = ../ontology/doidx.obo
 
 doid-xp-anatomy-basic.obo: $(DOIDX)
-	obol qobol -i $< -r pext -tag disease -tag basic -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
+	obol qobol -i $< -r pext -tag disease -scope all -tag basic -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
 doid-xp-anatomy.obo: $(DOIDX)
-	obol qobol -i $< -r pext -tag disease -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
+	obol qobol -i $< -r pext -tag disease -scope all -undefined_only true -export obo -idspace DOID > $@.tmp && cat $@.tmp obolrels.obo > $@
 
 doid-xp-go.obo: $(DOIDX)
 	obol qobol -i $< -r go -tag disease -tag go -scope all -undefined_only true -export obo -idspace DOID > $@.tmp && mv $@.tmp $@

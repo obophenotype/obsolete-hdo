@@ -4,6 +4,31 @@ intersection_of: DOID:8913  ! dermatophytosis
 intersection_of: located_in UBERON:0010167  ! beard
 
 [Term]
+id: DOID:0050158  ! desquamative interstitial pneumonia
+intersection_of: DOID:3082  ! interstitial lung disease
+intersection_of: located_in UBERON:0001947  ! red nucleus
+
+[Term]
+id: DOID:0050514  ! bulbospinal polio
+intersection_of: DOID:0050513  ! spinal polio
+intersection_of: located_in UBERON:0001896  ! medulla oblongata
+
+[Term]
+id: DOID:0050523  ! adult T-cell leukemia
+intersection_of: DOID:715  ! T-cell leukemia
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:0050529  ! adult spinal muscular atrophy
+intersection_of: DOID:12377  ! spinal muscular atrophy
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:0050601  ! ADULT syndrome
+intersection_of: DOID:225  ! syndrome
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:0050610  ! oral cavity carcinoma in situ
 intersection_of: DOID:8719  ! in situ carcinoma
 intersection_of: located_in UBERON:0000167  ! oral cavity
@@ -15,8 +40,8 @@ intersection_of: located_in UBERON:0006562  ! pharynx
 
 [Term]
 id: DOID:0050612  ! gall bladder carcinoma in situ
-intersection_of: DOID:8719  ! in situ carcinoma
-intersection_of: located_in UBERON:0002110  ! gall bladder
+intersection_of: DOID:9053  ! bladder carcinoma in situ
+intersection_of: located_in UBERON:0001970  ! bile
 
 [Term]
 id: DOID:0050613  ! bile duct carcinoma in situ
@@ -51,12 +76,17 @@ intersection_of: located_in UBERON:0003133  ! reproductive organ
 [Term]
 id: DOID:0050623  ! bladder benign neoplasm
 intersection_of: DOID:0060072  ! benign neoplasm
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:0050624  ! gastrointestinal system benign neoplasm
 intersection_of: DOID:0060072  ! benign neoplasm
 intersection_of: located_in UBERON:0005409  ! gastrointestinal system
+
+[Term]
+id: DOID:0050671  ! female breast cancer
+intersection_of: DOID:1612  ! breast cancer
+intersection_of: located_in UBERON:0003100  ! female organism
 
 [Term]
 id: DOID:0050686  ! organ system cancer
@@ -70,8 +100,13 @@ intersection_of: located_in UBERON:0000159  ! anal canal
 
 [Term]
 id: DOID:0050748  ! marginal zone B-cell lymphoma
-intersection_of: DOID:0060058  ! lymphoma
-intersection_of: located_in CL:0000845  ! marginal zone B cell
+intersection_of: DOID:707  ! B-cell lymphoma
+intersection_of: located_in UBERON:0001251  ! marginal zone of spleen
+
+[Term]
+id: DOID:0050761  ! paramyloidosis
+intersection_of: DOID:9120  ! amyloidosis
+intersection_of: located_in UBERON:0001533  ! subclavian artery
 
 [Term]
 id: DOID:0050763  ! ARC syndrome
@@ -97,6 +132,21 @@ intersection_of: located_in UBERON:0000165  ! mouth
 id: DOID:0050893  ! gallbladder adenoma
 intersection_of: DOID:657  ! adenoma
 intersection_of: located_in UBERON:0002110  ! gall bladder
+
+[Term]
+id: DOID:0050895  ! bone ameloblastoma
+intersection_of: DOID:0050894  ! ameloblastoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:0050896  ! bone squamous cell carcinoma
+intersection_of: DOID:1749  ! squamous cell carcinoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:0050897  ! bone chondrosarcoma
+intersection_of: DOID:3371  ! chondrosarcoma
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:0050898  ! phalanx chondroma
@@ -174,6 +224,11 @@ intersection_of: DOID:1749  ! squamous cell carcinoma
 intersection_of: located_in UBERON:0006562  ! pharynx
 
 [Term]
+id: DOID:0050924  ! striated muscle rhabdoid tumor
+intersection_of: DOID:3672  ! rhabdoid cancer
+intersection_of: located_in UBERON:0002036  ! striated muscle tissue
+
+[Term]
 id: DOID:0050927  ! duodenum adenoma
 intersection_of: DOID:657  ! adenoma
 intersection_of: located_in UBERON:0002114  ! duodenum
@@ -187,6 +242,11 @@ intersection_of: located_in UBERON:0002048  ! lung
 id: DOID:0050939  ! uterine corpus endometrial carcinoma
 intersection_of: DOID:2871  ! endometrial carcinoma
 intersection_of: located_in UBERON:0009853  ! body of uterus
+
+[Term]
+id: DOID:0050940  ! endocervical adenocarcinoma
+intersection_of: DOID:299  ! adenocarcinoma
+intersection_of: located_in UBERON:0013761  ! cervical cavity
 
 [Term]
 id: DOID:0060004  ! autoimmune disease of central nervous system
@@ -204,6 +264,11 @@ intersection_of: DOID:417  ! hypersensitivity reaction type II disease
 intersection_of: located_in UBERON:0002330  ! exocrine system
 
 [Term]
+id: DOID:0060031  ! autoimmune disease of gastrointestinal tract
+intersection_of: DOID:417  ! hypersensitivity reaction type II disease
+intersection_of: located_in UBERON:0005409  ! gastrointestinal system
+
+[Term]
 id: DOID:0060032  ! autoimmune disease of musculoskeletal system
 intersection_of: DOID:417  ! hypersensitivity reaction type II disease
 intersection_of: located_in UBERON:0002204  ! musculoskeletal system
@@ -212,6 +277,11 @@ intersection_of: located_in UBERON:0002204  ! musculoskeletal system
 id: DOID:0060033  ! autoimmune disease of peripheral nervous system
 intersection_of: DOID:417  ! hypersensitivity reaction type II disease
 intersection_of: located_in UBERON:0000010  ! peripheral nervous system
+
+[Term]
+id: DOID:0060049  ! autoimmune disease of urogenital tract
+intersection_of: DOID:417  ! hypersensitivity reaction type II disease
+intersection_of: located_in UBERON:0004122  ! genitourinary system
 
 [Term]
 id: DOID:0060050  ! autoimmune disease of blood
@@ -224,9 +294,14 @@ intersection_of: DOID:417  ! hypersensitivity reaction type II disease
 intersection_of: located_in UBERON:0004535  ! cardiovascular system
 
 [Term]
+id: DOID:0060071  ! pre-malignant neoplasm
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001782  ! pigmented layer of retina
+
+[Term]
 id: DOID:0060073  ! lymphatic system cancer
 intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0006558  ! lymphatic part of lymphoid system
+intersection_of: located_in UBERON:0002465  ! lymphoid system
 
 [Term]
 id: DOID:0060082  ! breast benign neoplasm
@@ -245,13 +320,13 @@ intersection_of: located_in UBERON:0000467  ! anatomical system
 
 [Term]
 id: DOID:0060086  ! female reproductive organ benign neoplasm
-intersection_of: DOID:0060072  ! benign neoplasm
-intersection_of: located_in UBERON:0003134  ! female reproductive organ
+intersection_of: DOID:0050622  ! reproductive organ benign neoplasm
+intersection_of: located_in UBERON:0003100  ! female organism
 
 [Term]
 id: DOID:0060087  ! male reproductive organ benign neoplasm
-intersection_of: DOID:0060072  ! benign neoplasm
-intersection_of: located_in UBERON:0003135  ! male reproductive organ
+intersection_of: DOID:0050622  ! reproductive organ benign neoplasm
+intersection_of: located_in UBERON:0003101  ! male organism
 
 [Term]
 id: DOID:0060088  ! vestibular gland benign neoplasm
@@ -262,6 +337,11 @@ intersection_of: located_in UBERON:0011826  ! vestibular gland
 id: DOID:0060092  ! immune system organ benign neoplasm
 intersection_of: DOID:0060072  ! benign neoplasm
 intersection_of: located_in UBERON:0005057  ! immune organ
+
+[Term]
+id: DOID:0060094  ! bone benign neoplasm
+intersection_of: DOID:0060072  ! benign neoplasm
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:0060096  ! sensory organ benign neoplasm
@@ -277,6 +357,11 @@ intersection_of: located_in UBERON:0002204  ! musculoskeletal system
 id: DOID:0060100  ! musculoskeletal system cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002204  ! musculoskeletal system
+
+[Term]
+id: DOID:0060102  ! cartilage cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0002418  ! cartilage tissue
 
 [Term]
 id: DOID:0060103  ! central nervous system primitive neuroectodermal neoplasm
@@ -349,6 +434,21 @@ intersection_of: DOID:4866  ! salivary gland adenoid cystic carcinoma
 intersection_of: located_in UBERON:0000029  ! lymph node
 
 [Term]
+id: DOID:0060312  ! angular cheilitis
+intersection_of: DOID:1762  ! cheilitis
+intersection_of: located_in UBERON:0011079  ! angular bone
+
+[Term]
+id: DOID:0080001  ! bone disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:0080006  ! bone development disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in GO:0060348  ! bone development
+
+[Term]
 id: DOID:10011  ! thyroid lymphoma
 intersection_of: DOID:0060058  ! lymphoma
 intersection_of: located_in UBERON:0002046  ! thyroid gland
@@ -362,6 +462,11 @@ intersection_of: located_in UBERON:0004913  ! hepatopancreatic ampulla
 id: DOID:10021  ! duodenum cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002114  ! duodenum
+
+[Term]
+id: DOID:1003  ! pelvic inflammatory disease
+intersection_of: DOID:1003  ! pelvic inflammatory disease
+intersection_of: located_in UBERON:0003100  ! female organism
 
 [Term]
 id: DOID:10054  ! skin amelanotic melanoma
@@ -397,6 +502,11 @@ intersection_of: located_in UBERON:0002108  ! small intestine
 id: DOID:10155  ! intestinal cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000160  ! intestine
+
+[Term]
+id: DOID:10175  ! optic papillitis
+intersection_of: DOID:10175  ! optic papillitis
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
 
 [Term]
 id: DOID:10187  ! esophageal lipoma
@@ -437,6 +547,11 @@ intersection_of: located_in UBERON:0016435  ! chest wall
 id: DOID:10201  ! gallbladder lipoma
 intersection_of: DOID:3315  ! lipoma
 intersection_of: located_in UBERON:0002110  ! gall bladder
+
+[Term]
+id: DOID:10203  ! external auditory meatus lipoma
+intersection_of: DOID:3315  ! lipoma
+intersection_of: located_in UBERON:0001352  ! external acoustic meatus
 
 [Term]
 id: DOID:10206  ! lipoma of spermatic cord
@@ -484,6 +599,11 @@ intersection_of: DOID:1240  ! leukemia
 intersection_of: located_in CL:0000623  ! natural killer cell
 
 [Term]
+id: DOID:1036  ! chronic leukemia
+intersection_of: DOID:1036  ! chronic leukemia
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:10366  ! epididymis cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001301  ! epididymis
@@ -529,6 +649,11 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001162  ! cardia of stomach
 
 [Term]
+id: DOID:10591  ! pre-eclampsia
+intersection_of: DOID:13593  ! eclampsia
+intersection_of: located_in UBERON:0001782  ! pigmented layer of retina
+
+[Term]
 id: DOID:106  ! pleural tuberculosis
 intersection_of: DOID:399  ! tuberculosis
 intersection_of: located_in UBERON:0000977  ! pleura
@@ -537,6 +662,11 @@ intersection_of: located_in UBERON:0000977  ! pleura
 id: DOID:10619  ! lymph node cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000029  ! lymph node
+
+[Term]
+id: DOID:1062  ! Fanconi syndrome
+intersection_of: DOID:13636  ! Fanconi's anemia
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:10655  ! lipoma of colon
@@ -567,6 +697,11 @@ intersection_of: located_in UBERON:0003728  ! mediastinum
 id: DOID:10744  ! broad ligament malignant neoplasm
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0012332  ! broad ligament of uterus
+
+[Term]
+id: DOID:10791  ! frontal sinusitis
+intersection_of: DOID:0050127  ! sinusitis
+intersection_of: located_in UBERON:0000209  ! tetrapod frontal bone
 
 [Term]
 id: DOID:10794  ! sphenoid sinusitis
@@ -621,12 +756,12 @@ intersection_of: located_in UBERON:0001756  ! middle ear
 [Term]
 id: DOID:10991  ! basal ganglia cerebrovascular disease
 intersection_of: DOID:6713  ! cerebrovascular disease
-intersection_of: located_in UBERON:0010011  ! collection of basal ganglia
+intersection_of: located_in UBERON:0002420  ! basal ganglion
 
 [Term]
 id: DOID:11054  ! urinary bladder cancer
 intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:1106  ! esophagus lymphoma
@@ -647,6 +782,11 @@ intersection_of: located_in UBERON:0001043  ! esophagus
 id: DOID:1114  ! esophagus sarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0001043  ! esophagus
+
+[Term]
+id: DOID:11164  ! band keratopathy
+intersection_of: DOID:2283  ! keratopathy
+intersection_of: located_in CL:0000560  ! band form neutrophil
 
 [Term]
 id: DOID:11198  ! DiGeorge syndrome
@@ -719,6 +859,11 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000948  ! heart
 
 [Term]
+id: DOID:11724  ! limb-girdle muscular dystrophy
+intersection_of: DOID:9884  ! muscular dystrophy
+intersection_of: located_in UBERON:0007823  ! appendage girdle region
+
+[Term]
 id: DOID:11746  ! parametrium malignant neoplasm
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0010391  ! parametrium
@@ -741,7 +886,7 @@ intersection_of: located_in UBERON:0001258  ! neck of urinary bladder
 [Term]
 id: DOID:11812  ! bladder sarcoma
 intersection_of: DOID:1115  ! sarcoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:11813  ! bladder trigone cancer
@@ -764,9 +909,14 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000056  ! ureter
 
 [Term]
+id: DOID:11820  ! bladder dome cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0006082  ! fundus of urinary bladder
+
+[Term]
 id: DOID:11821  ! bladder lymphoma
 intersection_of: DOID:0060058  ! lymphoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:11838  ! penis sarcoma
@@ -809,9 +959,19 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0003126  ! trachea
 
 [Term]
-id: DOID:120  ! female reproductive organ cancer
+id: DOID:11934  ! head and neck cancer
 intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0003134  ! female reproductive organ
+intersection_of: located_in UBERON:0007811  ! craniocervical region
+
+[Term]
+id: DOID:11975  ! coloboma of optic nerve
+intersection_of: DOID:12270  ! coloboma
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
+
+[Term]
+id: DOID:120  ! female reproductive organ cancer
+intersection_of: DOID:193  ! reproductive organ cancer
+intersection_of: located_in UBERON:0003100  ! female organism
 
 [Term]
 id: DOID:12001  ! tracheal lymphoma
@@ -834,9 +994,19 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0016525  ! frontal lobe
 
 [Term]
+id: DOID:12030  ! panuveitis
+intersection_of: DOID:13141  ! uveitis
+intersection_of: located_in UBERON:0001533  ! subclavian artery
+
+[Term]
 id: DOID:12064  ! mediastinum neurofibroma
 intersection_of: DOID:962  ! neurofibroma
 intersection_of: located_in UBERON:0003728  ! mediastinum
+
+[Term]
+id: DOID:1210  ! optic neuritis
+intersection_of: DOID:1803  ! neuritis
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
 
 [Term]
 id: DOID:12190  ! descending colon cancer
@@ -859,6 +1029,11 @@ intersection_of: DOID:4976  ! elephantiasis
 intersection_of: located_in UBERON:0001711  ! eyelid
 
 [Term]
+id: DOID:1222  ! cartilage disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002418  ! cartilage tissue
+
+[Term]
 id: DOID:12239  ! anal margin squamous cell carcinoma
 intersection_of: DOID:1749  ! squamous cell carcinoma
 intersection_of: located_in UBERON:0012336  ! perianal skin
@@ -872,6 +1047,16 @@ intersection_of: located_in UBERON:0000970  ! eye
 id: DOID:12282  ! femoral vein thrombophlebitis
 intersection_of: DOID:3875  ! thrombophlebitis
 intersection_of: located_in UBERON:0001361  ! femoral vein
+
+[Term]
+id: DOID:12335  ! male genital organ vascular disease
+intersection_of: DOID:178  ! vascular disease
+intersection_of: located_in UBERON:0000079  ! male reproductive system
+
+[Term]
+id: DOID:12336  ! male infertility
+intersection_of: DOID:5223  ! infertility
+intersection_of: located_in UBERON:0003101  ! male organism
 
 [Term]
 id: DOID:12342  ! retroperitoneum carcinoma
@@ -897,6 +1082,11 @@ intersection_of: located_in UBERON:0004014  ! labium minora
 id: DOID:1245  ! vulva cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000997  ! mammalian vulva
+
+[Term]
+id: DOID:1247  ! blood coagulation disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in GO:0007596  ! blood coagulation
 
 [Term]
 id: DOID:125  ! vagina leiomyoma
@@ -946,7 +1136,7 @@ intersection_of: located_in UBERON:0001705  ! nail
 [Term]
 id: DOID:13081  ! hemangioma of subcutaneous tissue
 intersection_of: DOID:255  ! hemangioma
-intersection_of: located_in UBERON:0011818  ! superficial fascia
+intersection_of: located_in UBERON:0002072  ! hypodermis
 
 [Term]
 id: DOID:13095  ! vertebral artery insufficiency
@@ -956,7 +1146,7 @@ intersection_of: located_in UBERON:0001535  ! vertebral artery
 [Term]
 id: DOID:13109  ! bladder leiomyoma
 intersection_of: DOID:127  ! leiomyoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:13159  ! scrotum squamous cell carcinoma
@@ -1099,14 +1289,24 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001295  ! endometrium
 
 [Term]
+id: DOID:13800  ! inclusion conjunctivitis
+intersection_of: DOID:13800  ! inclusion conjunctivitis
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:13819  ! lymphogranuloma venereum
 intersection_of: DOID:9113  ! granuloma inguinale
 intersection_of: located_in UBERON:0002391  ! lymph
 
 [Term]
+id: DOID:1393  ! visual pathway disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0001908  ! optic tract
+
+[Term]
 id: DOID:1394  ! urinary schistosomiasis
 intersection_of: DOID:1395  ! schistosomiasis
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:13957  ! uterine corpus lipoleiomyoma
@@ -1144,6 +1344,11 @@ intersection_of: DOID:1936  ! atherosclerosis
 intersection_of: located_in UBERON:0001184  ! renal artery
 
 [Term]
+id: DOID:14099  ! acquired gastric outlet stenosis
+intersection_of: DOID:12638  ! hypertrophic pyloric stenosis
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:14110  ! anus cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001245  ! anus
@@ -1155,7 +1360,7 @@ intersection_of: located_in UBERON:0001245  ! anus
 
 [Term]
 id: DOID:14150  ! spinal cord lymphoma
-intersection_of: DOID:0060058  ! lymphoma
+intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002240  ! spinal cord
 
 [Term]
@@ -1167,6 +1372,11 @@ intersection_of: located_in UBERON:0002240  ! spinal cord
 id: DOID:14152  ! spinal cord sarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0002240  ! spinal cord
+
+[Term]
+id: DOID:14202  ! adult dermatomyositis
+intersection_of: DOID:10223  ! dermatomyositis
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:14262  ! oral candidiasis
@@ -1182,6 +1392,16 @@ intersection_of: located_in UBERON:0000014  ! zone of skin
 id: DOID:14384  ! parietal lobe neoplasm
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001872  ! parietal lobe
+
+[Term]
+id: DOID:14459  ! hemangioma of orbit
+intersection_of: DOID:255  ! hemangioma
+intersection_of: located_in UBERON:0001697  ! orbit of skull
+
+[Term]
+id: DOID:14463  ! cavernous hemangioma of orbit
+intersection_of: DOID:14459  ! hemangioma of orbit
+intersection_of: located_in UBERON:0003712  ! cavernous sinus
 
 [Term]
 id: DOID:14489  ! ureteral lymphoma
@@ -1254,14 +1474,19 @@ intersection_of: DOID:305  ! carcinoma
 intersection_of: located_in UBERON:0001132  ! parathyroid gland
 
 [Term]
+id: DOID:1542  ! head and neck carcinoma
+intersection_of: DOID:305  ! carcinoma
+intersection_of: located_in UBERON:0007811  ! craniocervical region
+
+[Term]
 id: DOID:1612  ! breast cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000310  ! breast
 
 [Term]
 id: DOID:1614  ! male breast cancer
-intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0016410  ! male breast
+intersection_of: DOID:1612  ! breast cancer
+intersection_of: located_in UBERON:0003101  ! male organism
 
 [Term]
 id: DOID:1618  ! breast fibroadenoma
@@ -1287,6 +1512,11 @@ intersection_of: located_in UBERON:0000310  ! breast
 id: DOID:1638  ! central nervous system tuberculosis
 intersection_of: DOID:399  ! tuberculosis
 intersection_of: located_in UBERON:0001017  ! central nervous system
+
+[Term]
+id: DOID:1657  ! ventricular septal defect
+intersection_of: DOID:1681  ! heart septal defect
+intersection_of: located_in UBERON:0000945  ! stomach
 
 [Term]
 id: DOID:1681  ! heart septal defect
@@ -1354,14 +1584,29 @@ intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0001264  ! pancreas
 
 [Term]
+id: DOID:1798  ! pancreatic endocrine carcinoma
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0000006  ! islet of Langerhans
+
+[Term]
 id: DOID:1799  ! islet cell tumor
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000016  ! endocrine pancreas
 
 [Term]
+id: DOID:184  ! bone cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
 id: DOID:1844  ! mononeuritis of upper limb
 intersection_of: DOID:1802  ! mononeuritis
 intersection_of: located_in UBERON:0002102  ! forelimb
+
+[Term]
+id: DOID:1858  ! McCune Albright syndrome
+intersection_of: DOID:0080031  ! fibrous dysplasia
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:1862  ! jaw cancer
@@ -1374,6 +1619,16 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0003129  ! skull
 
 [Term]
+id: DOID:1884  ! viral hepatitis
+intersection_of: DOID:1884  ! viral hepatitis
+intersection_of: located_in UBERON:0000468  ! multicellular organism
+
+[Term]
+id: DOID:1891  ! optic nerve disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
+
+[Term]
 id: DOID:1895  ! allergic contact dermatitis of eyelid
 intersection_of: DOID:3042  ! allergic contact dermatitis
 intersection_of: located_in UBERON:0001711  ! eyelid
@@ -1382,6 +1637,11 @@ intersection_of: located_in UBERON:0001711  ! eyelid
 id: DOID:1901  ! vagina sarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0000996  ! vagina
+
+[Term]
+id: DOID:1923  ! sex differentiation disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in GO:0007548  ! sex differentiation
 
 [Term]
 id: DOID:1925  ! Coffin-Siris syndrome
@@ -1454,6 +1714,11 @@ intersection_of: DOID:299  ! adenocarcinoma
 intersection_of: located_in UBERON:0001052  ! rectum
 
 [Term]
+id: DOID:2000  ! otosalpingitis
+intersection_of: DOID:5733  ! salpingitis
+intersection_of: located_in UBERON:0002393  ! pharyngotympanic tube
+
+[Term]
 id: DOID:2007  ! degeneration of macula and posterior pole
 intersection_of: DOID:2007  ! degeneration of macula and posterior pole
 intersection_of: located_in UBERON:0000966  ! retina
@@ -1467,6 +1732,11 @@ intersection_of: located_in UBERON:0002384  ! connective tissue
 id: DOID:2021  ! placenta cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001987  ! placenta
+
+[Term]
+id: DOID:2043  ! hepatitis B
+intersection_of: DOID:2237  ! hepatitis
+intersection_of: located_in UBERON:0001977  ! serum
 
 [Term]
 id: DOID:2066  ! vulvar angiokeratoma
@@ -1519,6 +1789,16 @@ intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0000992  ! female gonad
 
 [Term]
+id: DOID:2154  ! nephroblastoma
+intersection_of: DOID:2154  ! nephroblastoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:2156  ! ovarian germ cell cancer
+intersection_of: DOID:2994  ! germ cell cancer
+intersection_of: located_in UBERON:0000992  ! female gonad
+
+[Term]
 id: DOID:218  ! ascending colon cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001156  ! ascending colon
@@ -1532,6 +1812,16 @@ intersection_of: located_in UBERON:0001155  ! colon
 id: DOID:223  ! basilar artery insufficiency
 intersection_of: DOID:225  ! syndrome
 intersection_of: located_in UBERON:0001633  ! basilar artery
+
+[Term]
+id: DOID:2237  ! hepatitis
+intersection_of: DOID:2237  ! hepatitis
+intersection_of: located_in UBERON:0000468  ! multicellular organism
+
+[Term]
+id: DOID:2253  ! cervix disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0000002  ! uterine cervix
 
 [Term]
 id: DOID:2286  ! capillary lymphangioma
@@ -1565,8 +1855,8 @@ intersection_of: located_in UBERON:0000014  ! zone of skin
 
 [Term]
 id: DOID:2430  ! skin glomus tumor
-intersection_of: DOID:2431  ! glomus tumor
-intersection_of: located_in UBERON:0000014  ! zone of skin
+intersection_of: DOID:3165  ! skin benign neoplasm
+intersection_of: located_in UBERON:0004739  ! pronephric glomerulus
 
 [Term]
 id: DOID:2435  ! skin glomangioma
@@ -1579,6 +1869,11 @@ intersection_of: DOID:1749  ! squamous cell carcinoma
 intersection_of: located_in UBERON:0001760  ! frontal sinus
 
 [Term]
+id: DOID:2455  ! angular blepharoconjunctivitis
+intersection_of: DOID:2456  ! blepharoconjunctivitis
+intersection_of: located_in UBERON:0011079  ! angular bone
+
+[Term]
 id: DOID:248  ! trachea leiomyoma
 intersection_of: DOID:127  ! leiomyoma
 intersection_of: located_in UBERON:0003126  ! trachea
@@ -1586,7 +1881,7 @@ intersection_of: located_in UBERON:0003126  ! trachea
 [Term]
 id: DOID:2508  ! Takayasu's arteritis
 intersection_of: DOID:225  ! syndrome
-intersection_of: located_in UBERON:0004363  ! pharyngeal arch artery
+intersection_of: located_in UBERON:0001508  ! arch of aorta
 
 [Term]
 id: DOID:2513  ! basal cell carcinoma
@@ -1669,9 +1964,19 @@ intersection_of: DOID:2648  ! sebaceous adenoma
 intersection_of: located_in UBERON:0000021  ! cutaneous appendage
 
 [Term]
+id: DOID:2649  ! chondroblastoma
+intersection_of: DOID:2649  ! chondroblastoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
 id: DOID:265  ! spleen angiosarcoma
 intersection_of: DOID:0001816  ! angiosarcoma
 intersection_of: located_in UBERON:0002106  ! spleen
+
+[Term]
+id: DOID:2678  ! adult mesoblastic nephroma
+intersection_of: DOID:4772  ! mesoblastic nephroma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:268  ! liver angiosarcoma
@@ -1696,7 +2001,7 @@ intersection_of: located_in UBERON:0002107  ! liver
 [Term]
 id: DOID:2706  ! synovium cancer
 intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0007616  ! layer of synovial tissue
+intersection_of: located_in UBERON:0002018  ! synovial membrane of synovial joint
 
 [Term]
 id: DOID:271  ! hemangioma of liver
@@ -1712,6 +2017,11 @@ intersection_of: located_in UBERON:0001982  ! capillary
 id: DOID:275  ! gastric hemangioma
 intersection_of: DOID:255  ! hemangioma
 intersection_of: located_in UBERON:0000945  ! stomach
+
+[Term]
+id: DOID:2762  ! bone carcinoma
+intersection_of: DOID:305  ! carcinoma
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:2763  ! ethmoid sinus squamous cell carcinoma
@@ -1732,6 +2042,11 @@ intersection_of: located_in UBERON:0002495  ! long bone
 id: DOID:2784  ! lung sarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0002048  ! lung
+
+[Term]
+id: DOID:2810  ! middle lobe syndrome
+intersection_of: DOID:225  ! syndrome
+intersection_of: located_in UBERON:0003217  ! neural lobe of neurohypophysis
 
 [Term]
 id: DOID:2814  ! malignant neoplasm of acoustic nerve
@@ -1777,6 +2092,16 @@ intersection_of: located_in UBERON:0002367  ! prostate gland
 id: DOID:2891  ! thyroid adenoma
 intersection_of: DOID:657  ! adenoma
 intersection_of: located_in UBERON:0002046  ! thyroid gland
+
+[Term]
+id: DOID:2892  ! exocervical carcinoma
+intersection_of: DOID:305  ! carcinoma
+intersection_of: located_in UBERON:0012249  ! ectocervix
+
+[Term]
+id: DOID:2893  ! cervix carcinoma
+intersection_of: DOID:305  ! carcinoma
+intersection_of: located_in UBERON:0000002  ! uterine cervix
 
 [Term]
 id: DOID:293  ! lacrimal gland carcinoma
@@ -1859,14 +2184,24 @@ intersection_of: DOID:299  ! adenocarcinoma
 intersection_of: located_in UBERON:0001153  ! caecum
 
 [Term]
+id: DOID:3068  ! glioblastoma multiforme
+intersection_of: DOID:3068  ! glioblastoma multiforme
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:3069  ! astrocytoma
 intersection_of: DOID:3069  ! astrocytoma
-intersection_of: located_in UBERON:0001893  ! telencephalon
+intersection_of: located_in UBERON:0001869  ! cerebral hemisphere
 
 [Term]
 id: DOID:3073  ! brain glioblastoma multiforme
 intersection_of: DOID:3068  ! glioblastoma multiforme
 intersection_of: located_in UBERON:0000955  ! brain
+
+[Term]
+id: DOID:3076  ! adult astrocytic tumour
+intersection_of: DOID:3069  ! astrocytoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:3093  ! nervous system cancer
@@ -1924,6 +2259,11 @@ intersection_of: DOID:3070  ! malignant glioma
 intersection_of: located_in UBERON:0002240  ! spinal cord
 
 [Term]
+id: DOID:3186  ! adult oligodendroglioma
+intersection_of: DOID:3187  ! brain oligodendroglioma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:3187  ! brain oligodendroglioma
 intersection_of: DOID:3181  ! oligodendroglioma
 intersection_of: located_in UBERON:0000955  ! brain
@@ -1952,6 +2292,16 @@ intersection_of: located_in UBERON:0002367  ! prostate gland
 id: DOID:3254  ! bile duct rhabdomyosarcoma
 intersection_of: DOID:3247  ! rhabdomyosarcoma
 intersection_of: located_in UBERON:0002394  ! bile duct
+
+[Term]
+id: DOID:3258  ! orbit embryonal rhabdomyosarcoma
+intersection_of: DOID:3246  ! embryonal rhabdomyosarcoma
+intersection_of: located_in UBERON:0001697  ! orbit of skull
+
+[Term]
+id: DOID:3259  ! orbit rhabdomyosarcoma
+intersection_of: DOID:3247  ! rhabdomyosarcoma
+intersection_of: located_in UBERON:0001697  ! orbit of skull
 
 [Term]
 id: DOID:3277  ! thymus cancer
@@ -1987,6 +2337,41 @@ intersection_of: located_in UBERON:0016525  ! frontal lobe
 id: DOID:3347  ! osteosarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0008883  ! osteoid
+
+[Term]
+id: DOID:3354  ! fibrosarcoma of bone
+intersection_of: DOID:3355  ! fibrosarcoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:3367  ! bone leiomyosarcoma
+intersection_of: DOID:1967  ! leiomyosarcoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:3368  ! bone Ewing's sarcoma
+intersection_of: DOID:3369  ! peripheral primitive neuroectodermal tumor
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:3371  ! chondrosarcoma
+intersection_of: DOID:3371  ! chondrosarcoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:3374  ! peripheral osteosarcoma
+intersection_of: DOID:3347  ! osteosarcoma
+intersection_of: located_in UBERON:0002416  ! integumental system
+
+[Term]
+id: DOID:3376  ! bone osteosarcoma
+intersection_of: DOID:3347  ! osteosarcoma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:3381  ! liposarcoma of bone
+intersection_of: DOID:3382  ! liposarcoma
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:3382  ! liposarcoma
@@ -2084,6 +2469,11 @@ intersection_of: DOID:3493  ! signet ring cell adenocarcinoma
 intersection_of: located_in UBERON:0002367  ! prostate gland
 
 [Term]
+id: DOID:3516  ! adult fibrosarcoma
+intersection_of: DOID:3355  ! fibrosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:3540  ! choroid plexus cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001886  ! choroid plexus
@@ -2092,6 +2482,11 @@ intersection_of: located_in UBERON:0001886  ! choroid plexus
 id: DOID:3541  ! cerebral ventricle cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0004086  ! brain ventricle
+
+[Term]
+id: DOID:3542  ! adult choroid plexus cancer
+intersection_of: DOID:3540  ! choroid plexus cancer
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:3557  ! superior mesenteric artery syndrome
@@ -2124,6 +2519,11 @@ intersection_of: DOID:3603  ! mucinous cystadenocarcinoma
 intersection_of: located_in UBERON:0000310  ! breast
 
 [Term]
+id: DOID:361  ! cervix endometriosis
+intersection_of: DOID:289  ! endometriosis
+intersection_of: located_in UBERON:0000002  ! uterine cervix
+
+[Term]
 id: DOID:3620  ! central nervous system cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001017  ! central nervous system
@@ -2151,7 +2551,7 @@ intersection_of: located_in UBERON:0002113  ! kidney
 [Term]
 id: DOID:368  ! cerebrum cancer
 intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0001893  ! telencephalon
+intersection_of: located_in UBERON:0001869  ! cerebral hemisphere
 
 [Term]
 id: DOID:3683  ! lung benign neoplasm
@@ -2216,7 +2616,7 @@ intersection_of: located_in UBERON:0001052  ! rectum
 [Term]
 id: DOID:3711  ! bladder adenocarcinoma
 intersection_of: DOID:299  ! adenocarcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:3713  ! ovary adenocarcinoma
@@ -2227,6 +2627,11 @@ intersection_of: located_in UBERON:0000992  ! female gonad
 id: DOID:3717  ! gastric adenocarcinoma
 intersection_of: DOID:299  ! adenocarcinoma
 intersection_of: located_in UBERON:0000945  ! stomach
+
+[Term]
+id: DOID:3722  ! solitary osseous plasmacytoma
+intersection_of: DOID:3721  ! plasmacytoma
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:3723  ! solitary plasmacytoma of chest wall
@@ -2241,7 +2646,7 @@ intersection_of: located_in UBERON:0000997  ! mammalian vulva
 [Term]
 id: DOID:3742  ! bladder squamous cell carcinoma
 intersection_of: DOID:1749  ! squamous cell carcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:3747  ! esophagus verrucous carcinoma
@@ -2285,13 +2690,23 @@ intersection_of: located_in UBERON:0000007  ! pituitary gland
 
 [Term]
 id: DOID:3856  ! male reproductive organ cancer
-intersection_of: DOID:162  ! cancer
-intersection_of: located_in UBERON:0003135  ! male reproductive organ
+intersection_of: DOID:193  ! reproductive organ cancer
+intersection_of: located_in UBERON:0003101  ! male organism
 
 [Term]
 id: DOID:3860  ! cerebellar vermis medulloblastoma
 intersection_of: DOID:0050902  ! medulloblastoma
 intersection_of: located_in UBERON:0004720  ! cerebellar vermis
+
+[Term]
+id: DOID:3864  ! adult medulloblastoma
+intersection_of: DOID:0050902  ! medulloblastoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:3865  ! adult central nervous system primitive neuroectodermal neoplasm
+intersection_of: DOID:0050902  ! medulloblastoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:3896  ! hidradenoma
@@ -2322,6 +2737,11 @@ intersection_of: located_in UBERON:0002048  ! lung
 id: DOID:3924  ! main bronchus cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002182  ! main bronchus
+
+[Term]
+id: DOID:3950  ! adrenal carcinoma
+intersection_of: DOID:305  ! carcinoma
+intersection_of: located_in UBERON:0002369  ! adrenal gland
 
 [Term]
 id: DOID:3953  ! adrenal gland cancer
@@ -2371,12 +2791,12 @@ intersection_of: located_in UBERON:0000992  ! female gonad
 [Term]
 id: DOID:4006  ! bladder transitional cell carcinoma
 intersection_of: DOID:2671  ! transitional cell carcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:4007  ! bladder carcinoma
 intersection_of: DOID:305  ! carcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:4008  ! fallopian tube transitional cell carcinoma
@@ -2397,6 +2817,21 @@ intersection_of: located_in UBERON:0000057  ! urethra
 id: DOID:4028  ! angioma serpiginosum
 intersection_of: DOID:4028  ! angioma serpiginosum
 intersection_of: located_in UBERON:0000014  ! zone of skin
+
+[Term]
+id: DOID:404  ! gastrointestinal tuberculosis
+intersection_of: DOID:399  ! tuberculosis
+intersection_of: located_in UBERON:0005409  ! gastrointestinal system
+
+[Term]
+id: DOID:4043  ! skeletal muscle cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001134  ! skeletal muscle tissue
+
+[Term]
+id: DOID:4045  ! muscle cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001630  ! muscle organ
 
 [Term]
 id: DOID:4047  ! liver rhabdomyosarcoma
@@ -2489,6 +2924,11 @@ intersection_of: DOID:1974  ! adenosarcoma
 intersection_of: located_in UBERON:0009853  ! body of uterus
 
 [Term]
+id: DOID:4114  ! uterine body mixed cancer
+intersection_of: DOID:154  ! mixed cell type cancer
+intersection_of: located_in UBERON:0009853  ! body of uterus
+
+[Term]
 id: DOID:4118  ! colon neuroendocrine neoplasm
 intersection_of: DOID:169  ! neuroendocrine tumor
 intersection_of: located_in UBERON:0001155  ! colon
@@ -2499,6 +2939,16 @@ intersection_of: DOID:169  ! neuroendocrine tumor
 intersection_of: located_in UBERON:0000160  ! intestine
 
 [Term]
+id: DOID:4143  ! orbital cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001697  ! orbit of skull
+
+[Term]
+id: DOID:4153  ! spinal chordoma
+intersection_of: DOID:3302  ! chordoma
+intersection_of: located_in UBERON:0001130  ! vertebral column
+
+[Term]
 id: DOID:4159  ! skin cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0000014  ! zone of skin
@@ -2506,7 +2956,7 @@ intersection_of: located_in UBERON:0000014  ! zone of skin
 [Term]
 id: DOID:4164  ! cerebral neuroblastoma
 intersection_of: DOID:769  ! neuroblastoma
-intersection_of: located_in UBERON:0001893  ! telencephalon
+intersection_of: located_in UBERON:0001869  ! cerebral hemisphere
 
 [Term]
 id: DOID:4202  ! brain stem glioma
@@ -2537,6 +2987,11 @@ intersection_of: located_in UBERON:0009853  ! body of uterus
 id: DOID:4230  ! smooth muscle cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001135  ! smooth muscle tissue
+
+[Term]
+id: DOID:4239  ! alveolar soft part sarcoma
+intersection_of: DOID:4239  ! alveolar soft part sarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:4242  ! kidney sarcoma
@@ -2570,8 +3025,8 @@ intersection_of: located_in UBERON:0000014  ! zone of skin
 
 [Term]
 id: DOID:4283  ! anal margin basal cell carcinoma
-intersection_of: DOID:2513  ! basal cell carcinoma
-intersection_of: located_in UBERON:0012336  ! perianal skin
+intersection_of: DOID:4284  ! anal margin carcinoma
+intersection_of: located_in CL:0000646  ! basal cell
 
 [Term]
 id: DOID:4284  ! anal margin carcinoma
@@ -2610,8 +3065,8 @@ intersection_of: located_in UBERON:0001732  ! pharyngeal tonsil
 
 [Term]
 id: DOID:4301  ! vulva basal cell carcinoma
-intersection_of: DOID:2513  ! basal cell carcinoma
-intersection_of: located_in UBERON:0000997  ! mammalian vulva
+intersection_of: DOID:1294  ! vulva carcinoma
+intersection_of: located_in CL:0000646  ! basal cell
 
 [Term]
 id: DOID:4302  ! cystic basal cell carcinoma
@@ -2624,6 +3079,21 @@ intersection_of: DOID:4303  ! sarcomatoid basal cell carcinoma
 intersection_of: located_in UBERON:0000014  ! zone of skin
 
 [Term]
+id: DOID:4305  ! bone giant cell tumor
+intersection_of: DOID:200  ! giant cell tumor
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
+id: DOID:4333  ! parovarian cyst
+intersection_of: DOID:5119  ! ovarian cyst
+intersection_of: located_in UBERON:0001533  ! subclavian artery
+
+[Term]
+id: DOID:4337  ! tinea capitis
+intersection_of: DOID:8913  ! dermatophytosis
+intersection_of: located_in UBERON:0000403  ! scalp
+
+[Term]
 id: DOID:4352  ! ciliary body cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001775  ! ciliary body
@@ -2632,6 +3102,11 @@ intersection_of: located_in UBERON:0001775  ! ciliary body
 id: DOID:436  ! posterior mediastinum cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0008822  ! posterior mediastinum
+
+[Term]
+id: DOID:4360  ! epithelioid cell melanoma
+intersection_of: DOID:1909  ! melanoma
+intersection_of: located_in CL:0002150  ! epithelioid macrophage
 
 [Term]
 id: DOID:4362  ! cervical cancer
@@ -2654,9 +3129,19 @@ intersection_of: DOID:4379  ! nut allergic reaction
 intersection_of: located_in CL:0002303  ! pigmented ciliary epithelial cell
 
 [Term]
+id: DOID:4384  ! orbit alveolar rhabdomyosarcoma
+intersection_of: DOID:4051  ! alveolar rhabdomyosarcoma
+intersection_of: located_in UBERON:0001697  ! orbit of skull
+
+[Term]
 id: DOID:4386  ! myofibroma
 intersection_of: DOID:127  ! leiomyoma
 intersection_of: located_in UBERON:0001833  ! lip
+
+[Term]
+id: DOID:4413  ! cervix melanoma
+intersection_of: DOID:1909  ! melanoma
+intersection_of: located_in UBERON:0000002  ! uterine cervix
 
 [Term]
 id: DOID:4434  ! small intestine neuroendocrine neoplasm
@@ -2729,6 +3214,11 @@ intersection_of: DOID:0001816  ! angiosarcoma
 intersection_of: located_in UBERON:0000014  ! zone of skin
 
 [Term]
+id: DOID:4521  ! cervix endometrial stromal tumor
+intersection_of: DOID:5166  ! endometrial stromal tumor
+intersection_of: located_in UBERON:0000002  ! uterine cervix
+
+[Term]
 id: DOID:4522  ! superior vena cava angiosarcoma
 intersection_of: DOID:0001816  ! angiosarcoma
 intersection_of: located_in UBERON:0001585  ! anterior vena cava
@@ -2752,6 +3242,11 @@ intersection_of: located_in UBERON:0000992  ! female gonad
 id: DOID:4542  ! basophil adenoma
 intersection_of: DOID:657  ! adenoma
 intersection_of: located_in CL:0000767  ! basophil
+
+[Term]
+id: DOID:4547  ! adult mesenchymal chondrosarcoma
+intersection_of: DOID:4545  ! mesenchymal chondrosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:4553  ! thymus large cell carcinoma
@@ -2782,6 +3277,16 @@ intersection_of: located_in UBERON:0002394  ! bile duct
 id: DOID:4607  ! biliary tract cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001173  ! biliary tree
+
+[Term]
+id: DOID:461  ! muscle benign neoplasm
+intersection_of: DOID:0060072  ! benign neoplasm
+intersection_of: located_in UBERON:0001630  ! muscle organ
+
+[Term]
+id: DOID:4618  ! maxillary neoplasm
+intersection_of: DOID:184  ! bone cancer
+intersection_of: located_in UBERON:0003277  ! skeleton of upper jaw
 
 [Term]
 id: DOID:4645  ! retinal cancer
@@ -2854,9 +3359,24 @@ intersection_of: DOID:0070003  ! blastoma
 intersection_of: located_in UBERON:0002048  ! lung
 
 [Term]
+id: DOID:4796  ! space motion sickness
+intersection_of: DOID:2951  ! motion sickness
+intersection_of: located_in UBERON:0000464  ! anatomical space
+
+[Term]
+id: DOID:4813  ! adult brain stem glioma
+intersection_of: DOID:4202  ! brain stem glioma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:482  ! hemangioma of peripheral nerve
 intersection_of: DOID:255  ! hemangioma
 intersection_of: located_in UBERON:0002003  ! peripheral nerve
+
+[Term]
+id: DOID:483  ! cavernous hemangioma
+intersection_of: DOID:255  ! hemangioma
+intersection_of: located_in UBERON:0003712  ! cavernous sinus
 
 [Term]
 id: DOID:4840  ! sebaceous carcinoma
@@ -2892,6 +3412,11 @@ intersection_of: located_in UBERON:0002298  ! brainstem
 id: DOID:4863  ! spinal cord astrocytoma
 intersection_of: DOID:3069  ! astrocytoma
 intersection_of: located_in UBERON:0002240  ! spinal cord
+
+[Term]
+id: DOID:4873  ! anterior horn cell disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in CL:0000100  ! motor neuron
 
 [Term]
 id: DOID:4876  ! trachea carcinoma
@@ -2955,7 +3480,7 @@ intersection_of: located_in UBERON:0002108  ! small intestine
 
 [Term]
 id: DOID:4907  ! small intestine carcinoma
-intersection_of: DOID:305  ! carcinoma
+intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002108  ! small intestine
 
 [Term]
@@ -3041,7 +3566,7 @@ intersection_of: located_in UBERON:0000056  ! ureter
 [Term]
 id: DOID:4944  ! gastroesophageal junction adenocarcinoma
 intersection_of: DOID:299  ! adenocarcinoma
-intersection_of: located_in UBERON:0007650  ! esophagogastric junction
+intersection_of: located_in UBERON:0004550  ! gastroesophageal sphincter
 
 [Term]
 id: DOID:4948  ! gallbladder carcinoma
@@ -3061,7 +3586,12 @@ intersection_of: located_in UBERON:0002371  ! bone marrow
 [Term]
 id: DOID:4991  ! optic nerve astrocytoma
 intersection_of: DOID:3069  ! astrocytoma
-intersection_of: located_in UBERON:0001908  ! optic tract
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
+
+[Term]
+id: DOID:4992  ! optic nerve glioma
+intersection_of: DOID:3070  ! malignant glioma
+intersection_of: located_in UBERON:0000941  ! cranial nerve II
 
 [Term]
 id: DOID:4994  ! adenomyoma of uterine corpus
@@ -3351,7 +3881,7 @@ intersection_of: located_in UBERON:0003889  ! fallopian tube
 [Term]
 id: DOID:5306  ! bladder clear cell adenocarcinoma
 intersection_of: DOID:4468  ! clear cell adenocarcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:5307  ! urethra clear cell adenocarcinoma
@@ -3377,6 +3907,11 @@ intersection_of: located_in UBERON:0000473  ! testis
 id: DOID:5343  ! central nervous system endodermal sinus tumor
 intersection_of: DOID:1911  ! endodermal sinus tumor
 intersection_of: located_in UBERON:0001017  ! central nervous system
+
+[Term]
+id: DOID:5348  ! adult endodermal sinus tumor
+intersection_of: DOID:1911  ! endodermal sinus tumor
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:5368  ! Wolffian duct adenocarcinoma
@@ -3432,6 +3967,11 @@ intersection_of: located_in UBERON:0000007  ! pituitary gland
 id: DOID:5398  ! lipoadenoma
 intersection_of: DOID:657  ! adenoma
 intersection_of: located_in UBERON:0001833  ! lip
+
+[Term]
+id: DOID:5408  ! Paget's disease of bone
+intersection_of: DOID:3443  ! mammary Paget's disease
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:5409  ! lung small cell carcinoma
@@ -3494,6 +4034,16 @@ intersection_of: DOID:5485  ! synovial sarcoma
 intersection_of: located_in UBERON:0003728  ! mediastinum
 
 [Term]
+id: DOID:5494  ! epithelioid cell synovial sarcoma
+intersection_of: DOID:5485  ! synovial sarcoma
+intersection_of: located_in CL:0002150  ! epithelioid macrophage
+
+[Term]
+id: DOID:5510  ! pineal dysgerminoma
+intersection_of: DOID:4441  ! dysgerminoma
+intersection_of: located_in UBERON:0001905  ! pineal body
+
+[Term]
 id: DOID:5511  ! dysgerminoma of ovary
 intersection_of: DOID:4441  ! dysgerminoma
 intersection_of: located_in UBERON:0000992  ! female gonad
@@ -3527,6 +4077,11 @@ intersection_of: located_in UBERON:0000989  ! penis
 id: DOID:5519  ! colon squamous cell carcinoma
 intersection_of: DOID:1749  ! squamous cell carcinoma
 intersection_of: located_in UBERON:0001155  ! colon
+
+[Term]
+id: DOID:5520  ! head and neck squamous cell carcinoma
+intersection_of: DOID:1749  ! squamous cell carcinoma
+intersection_of: located_in UBERON:0007811  ! craniocervical region
 
 [Term]
 id: DOID:5524  ! adenoid squamous cell carcinoma
@@ -3609,6 +4164,11 @@ intersection_of: DOID:3594  ! choriocarcinoma
 intersection_of: located_in UBERON:0000992  ! female gonad
 
 [Term]
+id: DOID:5553  ! pineal region choriocarcinoma
+intersection_of: DOID:3594  ! choriocarcinoma
+intersection_of: located_in UBERON:0001905  ! pineal body
+
+[Term]
 id: DOID:5559  ! mediastinal cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0003728  ! mediastinum
@@ -3622,6 +4182,11 @@ intersection_of: located_in UBERON:0000945  ! stomach
 id: DOID:5564  ! fallopian tube teratoma
 intersection_of: DOID:3307  ! teratoma
 intersection_of: located_in UBERON:0003889  ! fallopian tube
+
+[Term]
+id: DOID:5565  ! adult teratoma
+intersection_of: DOID:3307  ! teratoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:5568  ! mediastinum teratoma
@@ -3664,6 +4229,11 @@ intersection_of: DOID:5604  ! adult acute lymphocytic leukemia
 intersection_of: located_in CL:0000084  ! T cell
 
 [Term]
+id: DOID:5604  ! adult acute lymphocytic leukemia
+intersection_of: DOID:9952  ! acute lymphocytic leukemia
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:5612  ! spinal cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002240  ! spinal cord
@@ -3679,9 +4249,19 @@ intersection_of: DOID:4830  ! adenosquamous carcinoma
 intersection_of: located_in UBERON:0002370  ! thymus
 
 [Term]
+id: DOID:5627  ! adenosquamous gallbladder carcinoma
+intersection_of: DOID:4830  ! adenosquamous carcinoma
+intersection_of: located_in UBERON:0002110  ! gall bladder
+
+[Term]
 id: DOID:5628  ! ampulla of Vater adenosquamous carcinoma
 intersection_of: DOID:4830  ! adenosquamous carcinoma
 intersection_of: located_in UBERON:0004913  ! hepatopancreatic ampulla
+
+[Term]
+id: DOID:5629  ! adenosquamous colon carcinoma
+intersection_of: DOID:4830  ! adenosquamous carcinoma
+intersection_of: located_in UBERON:0001155  ! colon
 
 [Term]
 id: DOID:5630  ! Bartholin's gland adenosquamous carcinoma
@@ -3692,6 +4272,11 @@ intersection_of: located_in UBERON:0000460  ! major vestibular gland
 id: DOID:5631  ! endometrial adenosquamous carcinoma
 intersection_of: DOID:4830  ! adenosquamous carcinoma
 intersection_of: located_in UBERON:0001295  ! endometrium
+
+[Term]
+id: DOID:5634  ! adenosquamous prostate carcinoma
+intersection_of: DOID:4830  ! adenosquamous carcinoma
+intersection_of: located_in UBERON:0002367  ! prostate gland
 
 [Term]
 id: DOID:5635  ! gastric adenosquamous carcinoma
@@ -3707,6 +4292,11 @@ intersection_of: located_in UBERON:0001264  ! pancreas
 id: DOID:5648  ! choroid plexus carcinoma
 intersection_of: DOID:305  ! carcinoma
 intersection_of: located_in UBERON:0001886  ! choroid plexus
+
+[Term]
+id: DOID:5655  ! chiasmal syndrome
+intersection_of: DOID:225  ! syndrome
+intersection_of: located_in UBERON:0000959  ! optic chiasma
 
 [Term]
 id: DOID:5665  ! external ear cancer
@@ -3727,6 +4317,16 @@ intersection_of: located_in UBERON:0000059  ! large intestine
 id: DOID:5680  ! embryonal testis carcinoma
 intersection_of: DOID:3308  ! embryonal carcinoma
 intersection_of: located_in UBERON:0000473  ! testis
+
+[Term]
+id: DOID:5688  ! Werner syndrome
+intersection_of: DOID:3911  ! progeria
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:5693  ! adult liposarcoma
+intersection_of: DOID:3382  ! liposarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:5694  ! esophagus liposarcoma
@@ -3839,9 +4439,24 @@ intersection_of: DOID:169  ! neuroendocrine tumor
 intersection_of: located_in UBERON:0001043  ! esophagus
 
 [Term]
+id: DOID:5825  ! adult lymphoma
+intersection_of: DOID:0060058  ! lymphoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:5826  ! breast lymphoma
 intersection_of: DOID:0060058  ! lymphoma
 intersection_of: located_in UBERON:0000310  ! breast
+
+[Term]
+id: DOID:5828  ! endometrioid ovary carcinoma
+intersection_of: DOID:2871  ! endometrial carcinoma
+intersection_of: located_in UBERON:0000992  ! female gonad
+
+[Term]
+id: DOID:5831  ! fallopian tube endometrioid adenocarcinoma
+intersection_of: DOID:3001  ! female reproductive endometrioid cancer
+intersection_of: located_in UBERON:0003889  ! fallopian tube
 
 [Term]
 id: DOID:5842  ! testis seminoma
@@ -3849,9 +4464,19 @@ intersection_of: DOID:4440  ! seminoma
 intersection_of: located_in UBERON:0000473  ! testis
 
 [Term]
+id: DOID:5875  ! retroperitoneal cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0003693  ! retroperitoneal space
+
+[Term]
 id: DOID:5877  ! endocardium cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002165  ! endocardium
+
+[Term]
+id: DOID:5894  ! adult malignant mesenchymoma
+intersection_of: DOID:5758  ! malignant mesenchymoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:5908  ! penis verrucous carcinoma
@@ -3862,6 +4487,11 @@ intersection_of: located_in UBERON:0000989  ! penis
 id: DOID:5916  ! uterine corpus leiomyomatosis
 intersection_of: DOID:5138  ! leiomyomatosis
 intersection_of: located_in UBERON:0009853  ! body of uterus
+
+[Term]
+id: DOID:5922  ! adult brainstem astrocytoma
+intersection_of: DOID:4860  ! brain stem astrocytic neoplasm
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:5973  ! kidney pelvis papillary carcinoma
@@ -3884,14 +4514,34 @@ intersection_of: DOID:3347  ! osteosarcoma
 intersection_of: located_in UBERON:0002113  ! kidney
 
 [Term]
+id: DOID:5990  ! internal auditory canal meningioma
+intersection_of: DOID:3565  ! meningioma
+intersection_of: located_in UBERON:0011859  ! internal acoustic meatus
+
+[Term]
 id: DOID:6001  ! breast fibrosarcoma
 intersection_of: DOID:3355  ! fibrosarcoma
 intersection_of: located_in UBERON:0000310  ! breast
 
 [Term]
+id: DOID:6015  ! adult central nervous system teratoma
+intersection_of: DOID:3640  ! central nervous system teratoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:6016  ! adult central nervous system mature teratoma
+intersection_of: DOID:6017  ! central nervous system mature teratoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:6017  ! central nervous system mature teratoma
 intersection_of: DOID:5566  ! mature teratoma
 intersection_of: located_in UBERON:0001017  ! central nervous system
+
+[Term]
+id: DOID:6018  ! adult central nervous system immature teratoma
+intersection_of: DOID:6019  ! central nervous system immature teratoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:6019  ! central nervous system immature teratoma
@@ -3934,6 +4584,11 @@ intersection_of: DOID:2615  ! papilloma
 intersection_of: located_in UBERON:0000402  ! nasal vestibule
 
 [Term]
+id: DOID:6098  ! thalamic neoplasm
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001897  ! dorsal plus ventral thalamus
+
+[Term]
 id: DOID:6110  ! jugular foramen meningioma
 intersection_of: DOID:3565  ! meningioma
 intersection_of: located_in UBERON:0005456  ! jugular foramen
@@ -3941,7 +4596,7 @@ intersection_of: located_in UBERON:0005456  ! jugular foramen
 [Term]
 id: DOID:6112  ! cerebral meningioma
 intersection_of: DOID:3565  ! meningioma
-intersection_of: located_in UBERON:0001893  ! telencephalon
+intersection_of: located_in UBERON:0001869  ! cerebral hemisphere
 
 [Term]
 id: DOID:6115  ! lateral ventricle meningioma
@@ -3982,6 +4637,11 @@ intersection_of: located_in UBERON:0003728  ! mediastinum
 id: DOID:6190  ! rectum Kaposi's sarcoma
 intersection_of: DOID:8632  ! Kaposi's sarcoma
 intersection_of: located_in UBERON:0001052  ! rectum
+
+[Term]
+id: DOID:6193  ! epithelioid sarcoma
+intersection_of: DOID:1115  ! sarcoma
+intersection_of: located_in CL:0002150  ! epithelioid macrophage
 
 [Term]
 id: DOID:6199  ! cornea cancer
@@ -4084,6 +4744,11 @@ intersection_of: DOID:5563  ! malignant teratoma
 intersection_of: located_in UBERON:0000992  ! female gonad
 
 [Term]
+id: DOID:6332  ! adult malignant hemangiopericytoma
+intersection_of: DOID:264  ! hemangiopericytoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:6337  ! cerebellopontine angle meningioma
 intersection_of: DOID:3565  ! meningioma
 intersection_of: located_in UBERON:0014908  ! cerebellopontine angle
@@ -4092,6 +4757,11 @@ intersection_of: located_in UBERON:0014908  ! cerebellopontine angle
 id: DOID:6370  ! hepatic osteogenic sarcoma
 intersection_of: DOID:3347  ! osteosarcoma
 intersection_of: located_in UBERON:0002107  ! liver
+
+[Term]
+id: DOID:6380  ! adult brain medulloblastoma
+intersection_of: DOID:0060105  ! brain medulloblastoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:6408  ! ovary papillary carcinoma
@@ -4121,7 +4791,7 @@ intersection_of: located_in UBERON:0000059  ! large intestine
 [Term]
 id: DOID:6481  ! bladder signet ring cell adenocarcinoma
 intersection_of: DOID:3493  ! signet ring cell adenocarcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:6483  ! rete testis adenoma
@@ -4137,6 +4807,11 @@ intersection_of: located_in UBERON:0000310  ! breast
 id: DOID:6492  ! breast epithelioid hemangioma
 intersection_of: DOID:474  ! histiocytoid hemangioma
 intersection_of: located_in UBERON:0000310  ! breast
+
+[Term]
+id: DOID:6495  ! adult myxoid chondrosarcoma
+intersection_of: DOID:5861  ! myxoid chondrosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:6500  ! cerebellar angioblastoma
@@ -4177,6 +4852,11 @@ intersection_of: located_in UBERON:0000948  ! heart
 id: DOID:6552  ! gastric small cell carcinoma
 intersection_of: DOID:0050685  ! small cell carcinoma
 intersection_of: located_in UBERON:0000945  ! stomach
+
+[Term]
+id: DOID:656  ! adrenal adenoma
+intersection_of: DOID:657  ! adenoma
+intersection_of: located_in UBERON:0002369  ! adrenal gland
 
 [Term]
 id: DOID:6562  ! ethmoid sinus inverted papilloma
@@ -4224,9 +4904,14 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001235  ! adrenal cortex
 
 [Term]
+id: DOID:6610  ! bone epithelioid hemangioma
+intersection_of: DOID:474  ! histiocytoid hemangioma
+intersection_of: located_in UBERON:0001474  ! bone element
+
+[Term]
 id: DOID:6621  ! cerebral angioma
 intersection_of: DOID:255  ! hemangioma
-intersection_of: located_in UBERON:0001893  ! telencephalon
+intersection_of: located_in UBERON:0001869  ! cerebral hemisphere
 
 [Term]
 id: DOID:6629  ! nipple carcinoma
@@ -4237,6 +4922,11 @@ intersection_of: located_in UBERON:0002030  ! nipple
 id: DOID:663  ! scrotal angioma
 intersection_of: DOID:255  ! hemangioma
 intersection_of: located_in UBERON:0001300  ! scrotum
+
+[Term]
+id: DOID:6648  ! adult pineoblastoma
+intersection_of: DOID:1664  ! pineoblastoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:6657  ! breast large cell neuroendocrine carcinoma
@@ -4264,6 +4954,11 @@ intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0002106  ! spleen
 
 [Term]
+id: DOID:6725  ! spinal stenosis
+intersection_of: DOID:6725  ! spinal stenosis
+intersection_of: located_in UBERON:0002417  ! abdominal segment of trunk
+
+[Term]
 id: DOID:6727  ! colon small cell carcinoma
 intersection_of: DOID:0050685  ! small cell carcinoma
 intersection_of: located_in UBERON:0001155  ! colon
@@ -4279,9 +4974,24 @@ intersection_of: DOID:3192  ! neurilemmoma
 intersection_of: located_in UBERON:0005456  ! jugular foramen
 
 [Term]
+id: DOID:6740  ! cervix small cell carcinoma
+intersection_of: DOID:0050685  ! small cell carcinoma
+intersection_of: located_in UBERON:0000002  ! uterine cervix
+
+[Term]
+id: DOID:6752  ! internal auditory canal lipoma
+intersection_of: DOID:3315  ! lipoma
+intersection_of: located_in UBERON:0011859  ! internal acoustic meatus
+
+[Term]
 id: DOID:6758  ! chest wall lymphoma
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0016435  ! chest wall
+
+[Term]
+id: DOID:6759  ! bone lymphoma
+intersection_of: DOID:0060058  ! lymphoma
+intersection_of: located_in UBERON:0001474  ! bone element
 
 [Term]
 id: DOID:6760  ! lung lymphoma
@@ -4324,9 +5034,24 @@ intersection_of: DOID:6839  ! breast intraductal proliferative lesion
 intersection_of: located_in UBERON:0000310  ! breast
 
 [Term]
+id: DOID:684  ! hepatocellular carcinoma
+intersection_of: DOID:684  ! hepatocellular carcinoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:6844  ! kidney pelvis sarcomatoid transitional cell carcinoma
 intersection_of: DOID:4014  ! sarcomatoid transitional cell carcinoma
 intersection_of: located_in UBERON:0001224  ! renal pelvis
+
+[Term]
+id: DOID:6847  ! adult botryoid rhabdomyosarcoma
+intersection_of: DOID:3255  ! botryoid rhabdomyosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:6848  ! adult vagina botryoid rhabdomyosarcoma
+intersection_of: DOID:6788  ! vagina botryoid rhabdomyosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:686  ! liver carcinoma
@@ -4381,7 +5106,7 @@ intersection_of: located_in UBERON:0001255  ! urinary bladder
 [Term]
 id: DOID:6933  ! bladder transitional cell papilloma
 intersection_of: DOID:2615  ! papilloma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:6934  ! urethra inverted papilloma
@@ -4426,7 +5151,7 @@ intersection_of: located_in CL:0002309  ! corticotroph
 [Term]
 id: DOID:7007  ! childhood cerebral astrocytoma
 intersection_of: DOID:3079  ! juvenile astrocytoma
-intersection_of: located_in UBERON:0001893  ! telencephalon
+intersection_of: located_in UBERON:0001869  ! cerebral hemisphere
 
 [Term]
 id: DOID:7016  ! tendon sheath lipoma
@@ -4477,6 +5202,11 @@ intersection_of: located_in CL:0000236  ! B cell
 id: DOID:7071  ! spinal cord dermoid cyst
 intersection_of: DOID:2658  ! dermoid cyst
 intersection_of: located_in UBERON:0002240  ! spinal cord
+
+[Term]
+id: DOID:7079  ! adult cystic teratoma
+intersection_of: DOID:2660  ! cystic teratoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:7132  ! urinary bladder small cell neuroendocrine carcinoma
@@ -4564,6 +5294,11 @@ intersection_of: DOID:3308  ! embryonal carcinoma
 intersection_of: located_in UBERON:0001017  ! central nervous system
 
 [Term]
+id: DOID:7233  ! adult central nervous system embryonal carcinoma
+intersection_of: DOID:7232  ! central nervous system embryonal carcinoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:7242  ! uterine corpus cellular leiomyoma
 intersection_of: DOID:5139  ! cellular leiomyoma
 intersection_of: located_in UBERON:0009853  ! body of uterus
@@ -4639,6 +5374,11 @@ intersection_of: DOID:746  ! adenomatoid tumor
 intersection_of: located_in UBERON:0001301  ! epididymis
 
 [Term]
+id: DOID:7457  ! enterobiasis
+intersection_of: DOID:883  ! parasitic helminthiasis infectious disease
+intersection_of: located_in UBERON:0001905  ! pineal body
+
+[Term]
 id: DOID:7474  ! malignant pleural mesothelioma
 intersection_of: DOID:1790  ! malignant mesothelioma
 intersection_of: located_in UBERON:0000977  ! pleura
@@ -4651,12 +5391,17 @@ intersection_of: located_in UBERON:0003703  ! extrahepatic bile duct
 [Term]
 id: DOID:7519  ! endocervical carcinoma
 intersection_of: DOID:305  ! carcinoma
-intersection_of: located_in UBERON:0000458  ! endocervix
+intersection_of: located_in UBERON:0013761  ! cervical cavity
+
+[Term]
+id: DOID:7531  ! anal gland adenocarcinoma
+intersection_of: DOID:299  ! adenocarcinoma
+intersection_of: located_in UBERON:0004760  ! gland of anal canal
 
 [Term]
 id: DOID:754  ! bladder tuberculosis
 intersection_of: DOID:399  ! tuberculosis
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:7540  ! breast apocrine adenoma
@@ -4687,6 +5432,16 @@ intersection_of: located_in UBERON:0010743  ! meningeal cluster
 id: DOID:7614  ! meninges sarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in UBERON:0010743  ! meningeal cluster
+
+[Term]
+id: DOID:7631  ! adult ependymoblastoma
+intersection_of: DOID:4794  ! ependymoblastoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:7634  ! suprasellar meningioma
+intersection_of: DOID:3565  ! meningioma
+intersection_of: located_in UBERON:0003689  ! sella turcica
 
 [Term]
 id: DOID:7635  ! gasserian ganglion meningioma
@@ -4744,14 +5499,49 @@ intersection_of: DOID:0060058  ! lymphoma
 intersection_of: located_in UBERON:0000966  ! retina
 
 [Term]
+id: DOID:7750  ! adult brain ependymoma
+intersection_of: DOID:7497  ! brain ependymoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:7787  ! breast osteosarcoma
 intersection_of: DOID:3347  ! osteosarcoma
 intersection_of: located_in UBERON:0000310  ! breast
 
 [Term]
+id: DOID:7788  ! adult spinal cord ependymoma
+intersection_of: DOID:5503  ! spinal cord ependymoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:7826  ! adult papillary meningioma
+intersection_of: DOID:5058  ! rhabdoid meningioma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:7827  ! adult extraosseous osteosarcoma
+intersection_of: DOID:3357  ! extraosseous osteosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
+id: DOID:7843  ! female breast carcinoma
+intersection_of: DOID:3459  ! breast carcinoma
+intersection_of: located_in UBERON:0003100  ! female organism
+
+[Term]
+id: DOID:7848  ! interdigitating dendritic cell sarcoma
+intersection_of: DOID:1115  ! sarcoma
+intersection_of: located_in CL:0000451  ! dendritic cell
+
+[Term]
 id: DOID:7849  ! dendritic cell sarcoma
 intersection_of: DOID:1115  ! sarcoma
 intersection_of: located_in CL:0000451  ! dendritic cell
+
+[Term]
+id: DOID:7867  ! adult central nervous system germinoma
+intersection_of: DOID:4438  ! central nervous system germinoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:7868  ! maxillary sinus inverted papilloma
@@ -4762,6 +5552,11 @@ intersection_of: located_in UBERON:0001764  ! maxillary sinus
 id: DOID:7878  ! uterine corpus atypical polypoid adenomyoma
 intersection_of: DOID:4993  ! atypical polypoid adenomyoma
 intersection_of: located_in UBERON:0009853  ! body of uterus
+
+[Term]
+id: DOID:7902  ! adult extraosseous chondrosarcoma
+intersection_of: DOID:4549  ! extraosseous chondrosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:7910  ! maxillary sinus squamous cell carcinoma
@@ -4787,6 +5582,11 @@ intersection_of: located_in UBERON:0006059  ! falx cerebri
 id: DOID:7994  ! central nervous system osteosarcoma
 intersection_of: DOID:3347  ! osteosarcoma
 intersection_of: located_in UBERON:0001017  ! central nervous system
+
+[Term]
+id: DOID:8003  ! alveoli adenoma
+intersection_of: DOID:657  ! adenoma
+intersection_of: located_in UBERON:0002299  ! alveolus of lung
 
 [Term]
 id: DOID:8006  ! skin meningioma
@@ -4817,6 +5617,11 @@ intersection_of: located_in UBERON:0002107  ! liver
 id: DOID:8023  ! myxoid liposarcoma of the ovary
 intersection_of: DOID:5363  ! myxoid liposarcoma
 intersection_of: located_in UBERON:0000992  ! female gonad
+
+[Term]
+id: DOID:8031  ! pineal region meningioma
+intersection_of: DOID:3565  ! meningioma
+intersection_of: located_in UBERON:0001905  ! pineal body
 
 [Term]
 id: DOID:8043  ! chest wall parachordoma
@@ -4909,6 +5714,11 @@ intersection_of: DOID:5482  ! cystadenofibroma
 intersection_of: located_in UBERON:0003889  ! fallopian tube
 
 [Term]
+id: DOID:8251  ! adult pleomorphic rhabdomyosarcoma
+intersection_of: DOID:3250  ! pleomorphic rhabdomyosarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
+
+[Term]
 id: DOID:8255  ! vulva fibroepithelial polyp
 intersection_of: DOID:6873  ! skin tag
 intersection_of: located_in UBERON:0000997  ! mammalian vulva
@@ -4921,7 +5731,12 @@ intersection_of: located_in UBERON:0000056  ! ureter
 [Term]
 id: DOID:8274  ! synovial angioma
 intersection_of: DOID:255  ! hemangioma
-intersection_of: located_in UBERON:0007616  ! layer of synovial tissue
+intersection_of: located_in UBERON:0002018  ! synovial membrane of synovial joint
+
+[Term]
+id: DOID:8282  ! adult epithelioid sarcoma
+intersection_of: DOID:6193  ! epithelioid sarcoma
+intersection_of: located_in UBERON:0007023  ! adult organism
 
 [Term]
 id: DOID:833  ! auditory system cancer
@@ -4949,6 +5764,11 @@ intersection_of: DOID:0060119  ! pharynx cancer
 intersection_of: located_in UBERON:2000364  ! hypural
 
 [Term]
+id: DOID:8556  ! vallecula cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0013165  ! epiglottic vallecula
+
+[Term]
 id: DOID:8557  ! oropharynx cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001729  ! oropharynx
@@ -4962,6 +5782,11 @@ intersection_of: located_in UBERON:0001833  ! lip
 id: DOID:8578  ! soft palate cancer
 intersection_of: DOID:162  ! cancer
 intersection_of: located_in UBERON:0001733  ! soft palate
+
+[Term]
+id: DOID:8601  ! upper gum cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0011601  ! gingiva of upper jaw
 
 [Term]
 id: DOID:8602  ! gum cancer
@@ -4981,7 +5806,7 @@ intersection_of: located_in UBERON:0001834  ! upper lip
 [Term]
 id: DOID:8632  ! Kaposi's sarcoma
 intersection_of: DOID:8632  ! Kaposi's sarcoma
-intersection_of: located_in UBERON:0001017  ! central nervous system
+intersection_of: located_in UBERON:0001716  ! secondary palate
 
 [Term]
 id: DOID:8634  ! prostate carcinoma in situ
@@ -5131,7 +5956,7 @@ intersection_of: located_in UBERON:0001831  ! parotid gland
 [Term]
 id: DOID:9053  ! bladder carcinoma in situ
 intersection_of: DOID:8719  ! in situ carcinoma
-intersection_of: located_in UBERON:0018707  ! bladder organ
+intersection_of: located_in UBERON:0001255  ! urinary bladder
 
 [Term]
 id: DOID:907  ! liver fibroma
@@ -5157,6 +5982,11 @@ intersection_of: located_in UBERON:0002021  ! occipital lobe
 id: DOID:9108  ! uterus carcinoma in situ
 intersection_of: DOID:8719  ! in situ carcinoma
 intersection_of: located_in UBERON:0000995  ! uterus
+
+[Term]
+id: DOID:9125  ! lower gum cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0011602  ! gingiva of lower jaw
 
 [Term]
 id: DOID:9132  ! liver carcinoma in situ
@@ -5189,6 +6019,16 @@ intersection_of: DOID:8719  ! in situ carcinoma
 intersection_of: located_in UBERON:0001052  ! rectum
 
 [Term]
+id: DOID:9188  ! vestibule of mouth cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0000165  ! mouth
+
+[Term]
+id: DOID:9210  ! geniculate herpes zoster
+intersection_of: DOID:8536  ! herpes zoster
+intersection_of: located_in UBERON:0001700  ! geniculate ganglion
+
+[Term]
 id: DOID:9234  ! kidney carcinoma in situ
 intersection_of: DOID:8719  ! in situ carcinoma
 intersection_of: located_in UBERON:0002113  ! kidney
@@ -5212,6 +6052,16 @@ intersection_of: located_in UBERON:0002349  ! myocardium
 id: DOID:9300  ! neurofibroma of the heart
 intersection_of: DOID:962  ! neurofibroma
 intersection_of: located_in UBERON:0000948  ! heart
+
+[Term]
+id: DOID:9410  ! panhypopituitarism
+intersection_of: DOID:9406  ! hypopituitarism
+intersection_of: located_in UBERON:0001533  ! subclavian artery
+
+[Term]
+id: DOID:9459  ! isthmus cancer
+intersection_of: DOID:162  ! cancer
+intersection_of: located_in UBERON:0001609  ! isthmus of thyroid gland
 
 [Term]
 id: DOID:9460  ! uterine corpus cancer
@@ -5259,6 +6109,16 @@ intersection_of: DOID:399  ! tuberculosis
 intersection_of: located_in UBERON:0002113  ! kidney
 
 [Term]
+id: DOID:9739  ! eustachian tube disease
+intersection_of: DOID:4  ! disease
+intersection_of: located_in UBERON:0002393  ! pharyngotympanic tube
+
+[Term]
+id: DOID:9786  ! bulbar polio
+intersection_of: DOID:4953  ! poliomyelitis
+intersection_of: located_in UBERON:0022272  ! corticobulbar tract
+
+[Term]
 id: DOID:979  ! angioid streaks of choroid
 intersection_of: DOID:13401  ! angioid streaks
 intersection_of: located_in UBERON:0001776  ! optic choroid
@@ -5277,6 +6137,21 @@ intersection_of: located_in UBERON:0000966  ! retina
 id: DOID:9892  ! median arcuate ligament syndrome
 intersection_of: DOID:225  ! syndrome
 intersection_of: located_in UBERON:0015215  ! median arcuate ligament
+
+[Term]
+id: DOID:9909  ! hordeolum
+intersection_of: DOID:8478  ! actinomycosis
+intersection_of: located_in UBERON:0001711  ! eyelid
+
+[Term]
+id: DOID:9986  ! orbit lymphoma
+intersection_of: DOID:0060058  ! lymphoma
+intersection_of: located_in UBERON:0001697  ! orbit of skull
+
+[Term]
+id: DOID:9987  ! orbit sarcoma
+intersection_of: DOID:1115  ! sarcoma
+intersection_of: located_in UBERON:0001697  ! orbit of skull
 
 [Typedef]
 id: located_in
