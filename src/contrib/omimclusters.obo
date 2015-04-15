@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:04:2015 10:47
+date: 15:04:2015 11:46
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5739,6 +5739,22 @@ created_by: smb
 creation_date: 2015-03-25T12:21:44Z
 
 [Term]
+id: DC:0000703
+name: Singleton-Merten Syndrome
+xref: PS:182250
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-04-15T11:34:04Z
+
+[Term]
+id: DC:0000704
+name: Cole-Carpenter Syndrome
+xref: PS:112240
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-04-15T11:37:06Z
+
+[Term]
 id: OMIM:100050
 name: Aarskog Syndrome, Autosomal Dominant
 is_a: DC:0000138 ! Disease Cluster
@@ -6692,8 +6708,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:112240
-name: Bone Fragility with Craniosynostosis, Ocular Proptosis, Hydrocephalus, and Distinctive Facial Features
-is_a: DC:0000138 ! Disease Cluster
+name: Cole-Carpenter syndrome 1
+is_a: DC:0000704 ! Cole-Carpenter Syndrome
 
 [Term]
 id: OMIM:112250
@@ -13098,8 +13114,8 @@ is_a: DC:0000358 ! Pituitary Hormone Deficiency, Combined
 
 [Term]
 id: OMIM:182250
-name: Singleton Merten syndrome
-is_a: DC:0000138 ! Disease Cluster
+name: Singleton Merten Syndrome 1
+is_a: DC:0000703 ! Singleton-Merten Syndrome
 
 [Term]
 id: OMIM:182255
@@ -17017,11 +17033,6 @@ name: Ethanolaminosis
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:227200
-name: Eunuchoidism, familial hypogonadotropic
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:227210
 name: Eyebrows, Duplication of, with Stretchable Skin and Syndactyly
 is_a: DC:0000138 ! Disease Cluster
@@ -18450,6 +18461,8 @@ is_a: DC:0000086 ! Ciliary Dyskinesia, Primary
 [Term]
 id: OMIM:244450
 name: Kaufman Oculocerebrofacial Syndrome
+alt_id: OMIM:615057
+synonym: "Blepharophimosis-Ptosis-Intellectual Disability Syndrome; BPIDS" EXACT []
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -40784,6 +40797,9 @@ is_a: DC:0000210 ! Hypogonadotropic Hypogonadism
 [Term]
 id: OMIM:614841
 name: Hypogonadotropic Hypogonadism 12 with or without Anosmia; HH12
+alt_id: OMIM:227200
+synonym: "Eunuchoidism, familial hypogonadotropic" EXACT []
+is_a: DC:0000138 ! Disease Cluster
 is_a: DC:0000210 ! Hypogonadotropic Hypogonadism
 
 [Term]
@@ -41344,11 +41360,6 @@ is_a: DC:0000410 ! Spastic Paraplegia
 id: OMIM:615048
 name: Spinal Muscular Atrophy, Jokela Type; SMAJ
 is_a: DC:0000413 ! Spinal Muscular Atrophy
-
-[Term]
-id: OMIM:615057
-name: Blepharophimosis-Ptosis-Intellectual Disability Syndrome; BPIDS
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:615058
@@ -44093,4 +44104,29 @@ is_a: DC:0000333 ! Optic Atrophy
 id: OMIM:616291
 name: Lichtenstein-Knorr Syndrome; LIKNS
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616294
+name: Cole-Carpenter Syndrome 2; CLCRP2
+is_a: DC:0000704 ! Cole-Carpenter Syndrome
+
+[Term]
+id: OMIM:616295
+name: Peeling Skin with Leukonychia, Acral Punctate Keratoses, Cheilitis, and Knuckle Pads; PLACK
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616298
+name: Singleton-Merten Syndrome 2; SGMRT2
+is_a: DC:0000703 ! Singleton-Merten Syndrome
+
+[Term]
+id: OMIM:616300
+name: Short-Rib Thoracic Dysplasia 13 with or without Polydactyly; SRTD13
+is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
+
+[Term]
+id: OMIM:616307
+name: Senior-Loken Syndrome 8; SLSN8
+is_a: DC:0000403 ! Senior-Loken Syndrome
 
