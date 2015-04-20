@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:04:2015 11:46
+date: 20:04:2015 10:40
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -8378,12 +8378,9 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:130000
-name: Ehlers-Danlos syndrome type 1
-is_a: DC:0000129 ! Ehlers Danlos Syndrome
-
-[Term]
-id: OMIM:130010
-name: Ehlers-Danlos syndrome type 2
+name: Ehlers-Danlos syndrome, classic type
+alt_id: OMIM:130010
+synonym: "Ehlers-Danlos syndrome type 2" EXACT []
 is_a: DC:0000129 ! Ehlers Danlos Syndrome
 
 [Term]
@@ -44129,4 +44126,9 @@ is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
 id: OMIM:616307
 name: Senior-Loken Syndrome 8; SLSN8
 is_a: DC:0000403 ! Senior-Loken Syndrome
+
+[Term]
+id: OMIM:616311
+name: Mental Retardation, Autosomal Dominant 33; MRD33
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
 
