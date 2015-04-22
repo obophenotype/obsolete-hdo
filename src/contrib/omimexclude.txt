@@ -384,3 +384,4 @@
 312200	Radial Loop, Plain, on Right Index Finger
 314240	Tooth Size
 609338	Carotid Intimal Medial Thickness 1
+105570	Androstenone, Ability to Smell
