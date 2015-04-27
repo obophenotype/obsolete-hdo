@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:04:2015 10:40
+date: 27:04:2015 10:47
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5790,11 +5790,6 @@ name: Aldehyde Dehydrogenase 2 Family; ALDH2
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:100675
-name: Acetaminophen Metabolism
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:100700
 name: Achard Syndrome
 is_a: DC:0000138 ! Disease Cluster
@@ -6161,11 +6156,6 @@ name: Anal Sphincter Myopathy, Internal
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:105570
-name: Androstenone, Ability to Smell
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:105580
 name: Anal Canal Carcinoma
 is_a: DC:0000138 ! Disease Cluster
@@ -6463,16 +6453,6 @@ is_a: DC:0000038 ! Arthrogryposis, Distal
 id: OMIM:108300
 name: Stickler syndrome, type 1
 is_a: DC:0000422 ! Stickler Syndrome
-
-[Term]
-id: OMIM:108320
-name: Artichoke, Modification of Taste By
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:108390
-name: Asparagus, Specific Smell Hypersensitivity
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:108420
@@ -8742,11 +8722,6 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:133780
 name: Exudative vitreoretinopathy 1
 is_a: DC:0000144 ! Exudative Vitreoretinopathy
-
-[Term]
-id: OMIM:133800
-name: Eyebrow, Whorl in
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:133900
@@ -19053,11 +19028,6 @@ name: Beta-Hydroxyisobutyryl CoA Deacylase Deficiency
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:250650
-name: Methane Production
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:250700
 name: Methemoglobin Reductase Deficiency
 is_a: DC:0000138 ! Disease Cluster
@@ -23827,11 +23797,6 @@ name: Cutis Verticis Gyrata, Thyroid Aplasia, and Mental Retardation
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:304300
-name: Cyanide, Inability to Smell
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:304340
 name: DANDY-WALKER MALFORMATION WITH MENTAL RETARDATION, BASAL GANGLIA DISEASE, AND SEIZURES
 is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
@@ -24190,11 +24155,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:309000
 name: LOWE OCULOCEREBRORENAL SYNDROME
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:309050
-name: Lutheran Suppressor, X-Linked; XS
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -24568,11 +24528,6 @@ name: Radial Aplasia, X-Linked
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:312200
-name: Radial Loop, Plain, on Right Index Finger
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:312210
 name: Radiation Sensitivity of Natural Killer Activity
 is_a: DC:0000138 ! Disease Cluster
@@ -24715,11 +24670,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:314200
 name: Thyroxine-Binding Globulin of Serum; TBG
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:314240
-name: Tooth Size
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -32446,11 +32396,6 @@ name: Chromosome 18 Pericentric Inversion
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:609338
-name: Carotid Intimal Medial Thickness 1
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:609340
 name: Spastic Paraplegia 28, Autosomal Recessive
 is_a: DC:0000410 ! Spastic Paraplegia
@@ -32918,7 +32863,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:609812
 name: Maturity-Onset Diabetes of the Young, Type 8, with Exocrine Dysfunction
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000119 ! Diabetes, Maturity-Onset of the Young
 
 [Term]
 id: OMIM:609813
@@ -44131,4 +44076,14 @@ is_a: DC:0000403 ! Senior-Loken Syndrome
 id: OMIM:616311
 name: Mental Retardation, Autosomal Dominant 33; MRD33
 is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
+id: OMIM:616329
+name: Maturity-Onset Diabetes of the Young, Type 13; MODY13
+is_a: DC:0000119 ! Diabetes, Maturity-Onset of the Young
+
+[Term]
+id: OMIM:616331
+name: Robinow Syndrome, Autosomal Dominant 2; DRS2
+is_a: DC:0000593 ! Robinow Syndrome
 
