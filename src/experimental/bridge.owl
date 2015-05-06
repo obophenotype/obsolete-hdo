@@ -11,6 +11,12 @@ Ontology: <http://purl.obolibrary.org/obo/mondo/bridge>
 
 Import: <http://purl.obolibrary.org/obo/mondo.owl>
 
+AnnotationProperty: rdfs:comment
+
+    
+Datatype: rdf:PlainLiteral
+
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_603740>
 
     SubClassOf: 
