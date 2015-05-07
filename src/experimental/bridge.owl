@@ -9,7 +9,7 @@ Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 Ontology: <http://purl.obolibrary.org/obo/mondo/bridge>
 
-Import: <http://purl.obolibrary.org/obo/mondo.owl>
+Import: <http://purl.obolibrary.org/obo/upheno/doid/mondo.owl>
 
 AnnotationProperty: rdfs:comment
 
