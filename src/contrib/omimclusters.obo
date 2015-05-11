@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:04:2015 10:47
+date: 11:05:2015 15:07
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -2436,7 +2436,8 @@ creation_date: 2013-09-09T14:19:00Z
 
 [Term]
 id: DC:0000297
-name: Myasthenic Syndrome
+name: Myasthenic Syndrome, Congenital
+comment: See genetic heterogeneity of OMIM 601462. smb 5/11/15.
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-09T14:23:21Z
@@ -19455,12 +19456,12 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:254210
 name: Congenital myasthenic syndrome with episodic apnea
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:254300
 name: MYASTHENIA, LIMB-GIRDLE, FAMILIAL
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:254400
@@ -25605,11 +25606,6 @@ name: Fryns Microphthalmia Syndrome
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:600781
-name: Peptide Yy; PYY
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:600785
 name: Vitamin D-Dependent Rickets, Type 2b, with Normal Vitamin D Receptor;
 is_a: DC:0000454 ! Vitamin D-Dependent Rickets
@@ -26417,7 +26413,7 @@ is_a: DC:0000225 ! Inflammatory Bowel Disease
 [Term]
 id: OMIM:601462
 name: Myasthenic syndrome, congenital, postsynaptic slow-channel
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:601466
@@ -29058,7 +29054,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:605809
 name: Myasthenia, Familial Infantile, 1
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:605814
@@ -29390,7 +29386,7 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:606369
-name: Epileptic encephalopathy, Lennox-Gastaut type
+name: MACROCEPHALY AND EPILEPTIC ENCEPHALOPATHY 
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -31892,12 +31888,12 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:608930
 name: Myasthenic Syndrome, Congenital, Fast-Channel
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:608931
 name: MYASTHENIC SYNDROME, CONGENITAL, ASSOCIATED WITH ACETYLCHOLINE RECEPTOR DEFICIENCY
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:608932
@@ -39260,7 +39256,7 @@ is_a: DC:0000317 ! Nephrotic Syndrome
 [Term]
 id: OMIM:614198
 name: Myasthenic Syndrome, Congenital, Acetazolamide-Responsive
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:614199
@@ -41437,7 +41433,7 @@ is_a: DC:0000488 ! Cardioencephalomyopathy, Fatal Infantile
 [Term]
 id: OMIM:615120
 name: Myasthenic Syndrome, Congenital, with Pre- and Postsynaptic Defects;
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:615121
@@ -43521,7 +43517,7 @@ is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 [Term]
 id: OMIM:616040
 name: Myasthenic Syndrome, Presynaptic, Congenital, with or without Motor Neuropathy; MYSPC
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:616042
@@ -43853,7 +43849,8 @@ is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
 [Term]
 id: OMIM:616212
 name: Lissencephaly 6, with Microcephaly; LIS6
-is_a: DC:0000138 ! Disease Cluster
+comment: OMIM lists this as part of PS607432 so I included it in the related cluster. smb 5/11/15.
+is_a: DC:0000253 ! Lissencephaly
 
 [Term]
 id: OMIM:616214
@@ -43894,7 +43891,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:616227
 name: Myasthenic Syndrome, Congenital, without Tubular Aggregates; CMSWTA
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:616228
@@ -44063,9 +44060,19 @@ name: Singleton-Merten Syndrome 2; SGMRT2
 is_a: DC:0000703 ! Singleton-Merten Syndrome
 
 [Term]
+id: OMIM:616299
+name: Lipoyltransferase 1 Deficiency; LIPT1D
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:616300
 name: Short-Rib Thoracic Dysplasia 13 with or without Polydactyly; SRTD13
 is_a: DC:0000131 ! Short-Rib Thoracic Dysplasia
+
+[Term]
+id: OMIM:616304
+name: Myasthenic Syndrome, Congenital, 17; CMS17
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
 
 [Term]
 id: OMIM:616307
@@ -44078,12 +44085,93 @@ name: Mental Retardation, Autosomal Dominant 33; MRD33
 is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
 
 [Term]
+id: OMIM:616313
+name: Myasthenic Syndrome, Congenital, 2a, Slow-Channel; CMS2A
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616314
+name: Myasthenic Syndrome, Congenital, 2c, Associated with Acetylcholine Receptor Deficiency; CMS2C
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616321
+name: Myasthenic Syndrome, Congenital, 3a, Slow-Channel; CMS3A
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616322
+name: Myasthenic Syndrome, Congenital, 3b, Fast-Channel; CMS3B
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616323
+name: Myasthenic Syndrome, Congenital, 3c, Associated with Acetylcholine Receptor Deficiency; CMS3C
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616324
+name: Myasthenic Syndrome, Congenital, 4b, Fast-Channel; CMS4B
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616325
+name: Myasthenic Syndrome, Congenital, 9, Associated with Acetylcholine Receptor Deficiency; CMS9
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
+id: OMIM:616326
+name: Myasthenic Syndrome, Congenital, 11, Associated with Acetylcholine Receptor Deficiency; CMS11
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
 id: OMIM:616329
 name: Maturity-Onset Diabetes of the Young, Type 13; MODY13
 is_a: DC:0000119 ! Diabetes, Maturity-Onset of the Young
 
 [Term]
+id: OMIM:616330
+name: Myasthenic Syndrome, Congenital, 18; CMS18
+is_a: DC:0000297 ! Myasthenic Syndrome, Congenital
+
+[Term]
 id: OMIM:616331
 name: Robinow Syndrome, Autosomal Dominant 2; DRS2
 is_a: DC:0000593 ! Robinow Syndrome
+
+[Term]
+id: OMIM:616335
+name: Microcephaly and Chorioretinopathy, Autosomal Recessive, 3; MCCRP3
+is_a: DC:0000676 ! Microcephaly and Chorioretinopathy
+
+[Term]
+id: OMIM:616339
+name: Epileptic Encephalopathy, Early Infantile, 29; EIEE29
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:616340
+name: Deafness, Autosomal Dominant 67; DFNA67
+is_a: DC:0000109 ! Deafness, Autosomal Dominant
+
+[Term]
+id: OMIM:616341
+name: Epileptic Encephalopathy, Early Infantile, 30; EIEE30
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:616342
+name: Lissencephaly 7 with Cerebellar Hypoplasia; LIS7
+comment: OMIM lists this as part of PS607432 so I included it in the related cluster. smb 5/11/15.
+is_a: DC:0000253 ! Lissencephaly
+
+[Term]
+id: OMIM:616345
+name: Immunodeficiency 39; IMD39
+is_a: DC:0000615 ! Immunodeficiency
+
+[Term]
+id: OMIM:616346
+name: Epileptic Encephalopathy, Early Infantile, 31; EIEE31
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
 
