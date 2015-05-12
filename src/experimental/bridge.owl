@@ -17,6 +17,12 @@ AnnotationProperty: rdfs:comment
 Datatype: rdf:PlainLiteral
 
     
+Class: <http://purl.obolibrary.org/obo/OMIM_104110>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_987>
+    
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_603740>
 
     SubClassOf: 
@@ -28,6 +34,9 @@ Class: <http://purl.obolibrary.org/obo/OMIM_100820>
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_225>
     
+    
+Class: <http://purl.obolibrary.org/obo/DOID_987>
+
     
 Class: <http://purl.obolibrary.org/obo/DOID_225>
 
