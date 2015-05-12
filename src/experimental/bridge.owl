@@ -23,6 +23,15 @@ Class: <http://purl.obolibrary.org/obo/OMIM_603740>
         <http://purl.obolibrary.org/obo/DOID_0080001>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_100820>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_225>
+    
+    
+Class: <http://purl.obolibrary.org/obo/DOID_225>
+
+    
 Class: <http://purl.obolibrary.org/obo/DOID_0080001>
 
     
