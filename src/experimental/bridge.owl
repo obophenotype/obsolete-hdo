@@ -38,9 +38,27 @@ Class: <http://purl.obolibrary.org/obo/OMIM_100820>
 Class: <http://purl.obolibrary.org/obo/DOID_987>
 
     
+Class: <http://purl.obolibrary.org/obo/DOID_0050736>
+
+    
 Class: <http://purl.obolibrary.org/obo/DOID_225>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_102000>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_10123>
+    
+    
+Class: <http://purl.obolibrary.org/obo/DOID_10123>
 
     
 Class: <http://purl.obolibrary.org/obo/DOID_0080001>
 
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_101840>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_0050736>
+    
     
