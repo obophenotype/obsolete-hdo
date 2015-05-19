@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:05:2015 15:07
+date: 19:05:2015 10:48
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5754,6 +5754,14 @@ xref: PS:112240
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-04-15T11:37:06Z
+
+[Term]
+id: DC:0000705
+name: Linear Skin Defects with Multiple Congenital Anomalies
+xref: PS:309801
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-05-19T10:40:10Z
 
 [Term]
 id: OMIM:100050
@@ -23412,8 +23420,8 @@ is_a: DC:0000273 ! Mental Retardation, X-Linked, Syndromic
 
 [Term]
 id: OMIM:300887
-name: Aplasia Cutis Congenita, Reticulolinear, with Microcephaly, Facial Dysmorphism, and Other Congenital Anomalies; APLCC
-is_a: DC:0000138 ! Disease Cluster
+name: Linear skin defects with multiple congenital anomalies 2
+is_a: DC:0000705 ! Linear Skin Defects with Multiple Congenital Anomalies
 
 [Term]
 id: OMIM:300888
@@ -23510,6 +23518,11 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:300946
 name: Diamond-Blackfan Anemia 14 with Mandibulofacial Dysostosis; DBA14
 is_a: DC:0000025 ! Diamond-Blackfan Anemia
+
+[Term]
+id: OMIM:300952
+name: Linear Skin Defects with Multiple Congenital Anomalies 3; LSDMCA3
+is_a: DC:0000705 ! Linear Skin Defects with Multiple Congenital Anomalies
 
 [Term]
 id: OMIM:301000
@@ -24290,8 +24303,10 @@ is_a: DC:0000280 ! Microphthalmia, Syndromic
 
 [Term]
 id: OMIM:309801
-name: Microphthalmia, syndromic 7
+name: Linear skin defects with multiple congenital anomalies 1
+comment: Renamed from MICROPHTHALMIA, SYNDROMIC 7; MCOPS7 by OMIM on 5/15/15. Placed in both PS309801 and PS309800 by OMIM.
 is_a: DC:0000280 ! Microphthalmia, Syndromic
+is_a: DC:0000705 ! Linear Skin Defects with Multiple Congenital Anomalies
 
 [Term]
 id: OMIM:309840
@@ -29386,7 +29401,7 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:606369
-name: MACROCEPHALY AND EPILEPTIC ENCEPHALOPATHY 
+name: MACROCEPHALY AND EPILEPTIC ENCEPHALOPATHY
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -44174,4 +44189,59 @@ is_a: DC:0000615 ! Immunodeficiency
 id: OMIM:616346
 name: Epileptic Encephalopathy, Early Infantile, 31; EIEE31
 is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:616351
+name: Mental Retardation, Autosomal Dominant 34; MRD34
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
+id: OMIM:616353
+name: Dyskeratosis Congenita, Autosomal Recessive, 6; DKCB6
+is_a: DC:0000124 ! Dyskeratosis Congenita
+
+[Term]
+id: OMIM:616354
+name: Spinocerebellar Ataxia, Autosomal Recessive 20; SCAR20
+is_a: DC:0000414 ! Spinocerebellar Ataxia
+
+[Term]
+id: OMIM:616355
+name: Mental Retardation, Autosomal Dominant 35; MRD35
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
+id: OMIM:616357
+name: Deafness, Autosomal Dominant 40; DFNA40
+is_a: DC:0000109 ! Deafness, Autosomal Dominant
+
+[Term]
+id: OMIM:616361
+name: Parkinson Disease 21; PARK21
+is_a: DC:0000351 ! Parkinson Disease
+
+[Term]
+id: OMIM:616362
+name: Mental Retardation, Autosomal Dominant 36; MRD36
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
+id: OMIM:616364
+name: Mental Retardation, Autosomal Dominant 37; MRD37
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
+id: OMIM:616366
+name: Epileptic Encephalopathy, Early Infantile, 32; EIEE32
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:616367
+name: Mandibulofacial Dysostosis with Alopecia; MFDA
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616368
+name: Chops Syndrome; CHOPS
+is_a: DC:0000138 ! Disease Cluster
 
