@@ -684,6 +684,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_117900>
         <http://purl.obolibrary.org/obo/DOID_0080010>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_135800>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_0080001>
+    
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_131600>
 
     SubClassOf: 
