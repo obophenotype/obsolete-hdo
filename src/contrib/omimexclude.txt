@@ -385,3 +385,12 @@
 314240	Tooth Size
 609338	Carotid Intimal Medial Thickness 1
 105570	Androstenone, Ability to Smell
+131450	Epiblepharon of Lower Lid
+131460	Epiblepharon of Upper Lid
+131500	Epicanthus
+128950	Earlobe Crease
+128400	Ear Flare
+126100	Dimples, Facial
+125550	Dermal Ridges-Off-The-End; ROES
+125530	Dermal Ridges, Nelson Syndrome
+116850	Catatrichy

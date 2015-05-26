@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:05:2015 10:48
+date: 26:05:2015 10:44
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -19579,6 +19579,8 @@ is_a: DC:0000302 ! Myopathy, Congenital
 [Term]
 id: OMIM:255320
 name: Minicore Myopathy with External Ophthalmoplegia
+alt_id: OMIM:607552
+synonym: "Minicore Myopathy, Antenatal Onset, with Arthrogryposis" EXACT []
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -30368,11 +30370,6 @@ is_a: DC:0000099 ! Corneal Dystrophy
 [Term]
 id: OMIM:607543
 name: Spondylometaphyseal Dysplasia with Bowed Forearms and Facial Dysmorphism
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:607552
-name: Minicore Myopathy, Antenatal Onset, with Arthrogryposis
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -44244,4 +44241,24 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:616368
 name: Chops Syndrome; CHOPS
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616369
+name: Ciliary Dyskinesia, Primary, 31; CILD31
+is_a: DC:0000086 ! Ciliary Dyskinesia, Primary
+
+[Term]
+id: OMIM:616370
+name: Multiple Mitochondrial Dysfunctions Syndrome 4; MMDS4
+is_a: DC:0000566 ! Multiple Mitochondrial Dysfunctions Syndrome
+
+[Term]
+id: OMIM:616371
+name: Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Related, 4;
+is_a: DC:0000590 ! Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Related
+
+[Term]
+id: OMIM:616373
+name: Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Related, 3;
+is_a: DC:0000590 ! Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Related
 
