@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:05:2015 10:44
+date: 08:06:2015 10:56
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5567,7 +5567,7 @@ creation_date: 2015-03-20T10:45:30Z
 id: DC:0000681
 name: Trichothiodystrophy, Nonphotosensitive
 comment: Based on description of OMIM:234050.
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 created_by: vasilevs
 creation_date: 2015-03-20T10:54:34Z
 
@@ -5762,6 +5762,14 @@ xref: PS:309801
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-05-19T10:40:10Z
+
+[Term]
+id: DC:0000706
+name: Trichothiodystrophy
+xref: PS:601675
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-06-08T10:41:33Z
 
 [Term]
 id: OMIM:100050
@@ -7147,7 +7155,7 @@ is_a: DC:0000070 ! Cataract
 [Term]
 id: OMIM:116850
 name: Catatrichy
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:116860
@@ -7943,7 +7951,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:125530
 name: Dermal Ridges, Nelson Syndrome
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:125540
@@ -7953,7 +7961,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:125550
 name: Dermal Ridges-Off-The-End; ROES
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:125595
@@ -8038,7 +8046,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:126100
 name: Dimples, Facial
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:126180
@@ -8243,7 +8251,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:128400
 name: Ear Flare
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:128500
@@ -8273,7 +8281,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:128950
 name: Earlobe Crease
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:128980
@@ -8495,17 +8503,17 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:131450
 name: Epiblepharon of Lower Lid
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:131460
 name: Epiblepharon of Upper Lid
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:131500
 name: Epicanthus
-is_a: DC:0000138 ! Disease Cluster
+is_obsolete: true
 
 [Term]
 id: OMIM:131600
@@ -13641,11 +13649,6 @@ name: Telangiectasia, Hereditary Benign
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:187270
-name: Telomerase Reverse Transcriptase; TERT
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:187300
 name: TELANGIECTASIA, HEREDITARY HEMORRHAGIC, OF RENDU, OSLER, AND WEBER; HHT
 is_a: DC:0000664 ! Telangiectasia, Hereditary Hemorrhagic
@@ -15431,7 +15434,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:211390
 name: Sabinas Brittle Hair Syndrome
-is_a: DC:0000681 ! Trichothiodystrophy, Nonphotosensitive
+is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:211400
@@ -17601,8 +17604,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:234050
-name: TRICHOTHIODYSTROPHY, NONPHOTOSENSITIVE 1; TTDN1
-is_a: DC:0000681 ! Trichothiodystrophy, Nonphotosensitive
+name: Trichothiodystrophy 4, nonphotosensitive
+is_a: DC:0000706 ! Trichothiodystrophy
 
 [Term]
 id: OMIM:234100
@@ -24856,6 +24859,11 @@ name: Mitochondrial Myopathy, Infantile, Transient; MMIT
 is_a: DC:0000285 ! Mitochondrial Myopathy
 
 [Term]
+id: OMIM:500011
+name: Myopathy, Lactic Acidosis, and Sideroblastic Anemia 3; MLASA3
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:502500
 name: Alzheimer Disease, Susceptibility to, Mitochondrial
 is_a: DC:0000020 ! Alzheimer Disease
@@ -26616,8 +26624,8 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:601675
-name: TRICHOTHIODYSTROPHY, PHOTOSENSITIVE;TTDP ICHTHYOSIFORM ERYTHRODERMA WITH HAIR ABNORMALITY AND MENTAL AND GROWTH
-is_a: DC:0000138 ! Disease Cluster
+name: Trichothiodystrophy 1, Photosensitive; TTD1
+is_a: DC:0000706 ! Trichothiodystrophy
 
 [Term]
 id: OMIM:601676
@@ -33062,7 +33070,7 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:609990
-name: Trichoscyphodysplasia
+name: TRICHOSCYPHODYSPLASIA
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -34380,7 +34388,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:611284
 name: Dystonia, Focal, Task-Specific; FTSD
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000126 ! Dystonia
 
 [Term]
 id: OMIM:611291
@@ -44261,4 +44269,64 @@ is_a: DC:0000590 ! Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Relat
 id: OMIM:616373
 name: Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Related, 3;
 is_a: DC:0000590 ! Pulmonary Fibrosis and/or Bone Marrow Failure, Telomere-Related
+
+[Term]
+id: OMIM:616389
+name: Night Blindness, Congenital Stationary, Type 1G; CSNB1G
+is_a: DC:0000326 ! Night Blindness, Congenital Stationary
+
+[Term]
+id: OMIM:616390
+name: Trichothiodystrophy 2, Photosensitive; TTD2
+is_a: DC:0000706 ! Trichothiodystrophy
+
+[Term]
+id: OMIM:616393
+name: Mental Retardation, Autosomal Dominant 38; MRD38
+is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
+
+[Term]
+id: OMIM:616394
+name: Retinitis Pigmentosa 71; RP71
+is_a: DC:0000386 ! Retinitis Pigmentosa
+
+[Term]
+id: OMIM:616395
+name: Trichothiodystrophy 3, Photosensitive; TTD3
+is_a: DC:0000706 ! Trichothiodystrophy
+
+[Term]
+id: OMIM:616398
+name: Dystonia 26, Myoclonic; DYT26
+is_a: DC:0000126 ! Dystonia
+
+[Term]
+id: OMIM:616399
+name: Brugada Syndrome 9; BRGDA9
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616400
+name: Palmoplantar Keratoderma, Nonepidermolytic, Focal 2; FNEPPK2
+is_a: DC:0000347 ! Palmoplantar Keratoderma, Nonepidermolytic
+
+[Term]
+id: OMIM:616402
+name: Microcephaly 14, Primary, Autosomal Recessive; MCPH14
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616409
+name: Epileptic Encephalopathy, Early Infantile, 33; EIEE33
+is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
+
+[Term]
+id: OMIM:616410
+name: Spinocerebellar Ataxia 41; SCA41
+is_a: DC:0000414 ! Spinocerebellar Ataxia
+
+[Term]
+id: OMIM:616411
+name: Dystonia 27; DYT27
+is_a: DC:0000126 ! Dystonia
 
