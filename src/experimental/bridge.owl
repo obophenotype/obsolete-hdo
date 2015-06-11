@@ -287,6 +287,9 @@ Class: <http://purl.obolibrary.org/obo/OMIM_149600>
         <http://purl.obolibrary.org/obo/DOID_121>
     
     
+Class: <http://purl.obolibrary.org/obo/DOID_3315>
+
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_124300>
 
     SubClassOf: 
@@ -448,6 +451,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_128500>
 
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_379>
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_151700>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_3315>
     
     
 Class: <http://purl.obolibrary.org/obo/DOID_225>
