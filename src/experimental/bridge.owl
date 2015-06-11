@@ -272,6 +272,9 @@ Class: <http://purl.obolibrary.org/obo/OMIM_155500>
 Class: <http://purl.obolibrary.org/obo/DOID_2355>
 
     
+Class: <http://purl.obolibrary.org/obo/DOID_14566>
+
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_130200>
 
     SubClassOf: 
@@ -706,6 +709,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_131400>
 
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_74>
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_161600>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_0080001>
     
     
 Class: <http://purl.obolibrary.org/obo/DOID_1555>
@@ -1281,6 +1290,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_146350>
         <http://purl.obolibrary.org/obo/DOID_0080001>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_161530>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_10123>
+    
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_130400>
 
     SubClassOf: 
@@ -1401,6 +1416,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_125250>
         <http://purl.obolibrary.org/obo/DOID_0050155>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_161480>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_0080001>
+    
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_147630>
 
     SubClassOf: 
@@ -1453,6 +1474,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_150550>
 
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_9500>
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_161470>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_2825>
     
     
 Class: <http://purl.obolibrary.org/obo/DOID_12134>
@@ -1582,6 +1609,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_155200>
 
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_10123>
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_161500>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_2825>
     
     
 Class: <http://purl.obolibrary.org/obo/OMIM_122750>
@@ -1739,6 +1772,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_141700>
 
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_2355>
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_162240>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_14566>
     
     
 Class: <http://purl.obolibrary.org/obo/OMIM_106230>
