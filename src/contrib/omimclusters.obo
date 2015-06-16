@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:06:2015 10:56
+date: 16:06:2015 09:48
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5770,6 +5770,14 @@ xref: PS:601675
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-06-08T10:41:33Z
+
+[Term]
+id: DC:0000707
+name: Famailial Adenomatous Polyposis
+xref: PS:175100
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-06-16T09:34:58Z
 
 [Term]
 id: OMIM:100050
@@ -12344,7 +12352,7 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:175100
 name: Familial Adenomatous Polyposis 1; FAP1
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000707 ! Famailial Adenomatous Polyposis
 
 [Term]
 id: OMIM:175200
@@ -31308,8 +31316,8 @@ is_a: DC:0000225 ! Inflammatory Bowel Disease
 
 [Term]
 id: OMIM:608456
-name: Colorectal Adenomatous Polyposis, Autosomal Recessive
-is_a: DC:0000138 ! Disease Cluster
+name: Familial Adenomatous Polyposis 2; FAP2
+is_a: DC:0000707 ! Famailial Adenomatous Polyposis
 
 [Term]
 id: OMIM:608462
@@ -44316,6 +44324,11 @@ name: Microcephaly 14, Primary, Autosomal Recessive; MCPH14
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
+id: OMIM:616407
+name: Brown Syndrome; BRWNS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:616409
 name: Epileptic Encephalopathy, Early Infantile, 33; EIEE33
 is_a: DC:0000137 ! Epileptic Encephalopathy, Early Infantile
@@ -44329,4 +44342,19 @@ is_a: DC:0000414 ! Spinocerebellar Ataxia
 id: OMIM:616411
 name: Dystonia 27; DYT27
 is_a: DC:0000126 ! Dystonia
+
+[Term]
+id: OMIM:616413
+name: Basal Ganglia Calcification, Idiopathic, 6; IBGC6
+is_a: DC:0000478 ! Basal Ganglia Calcification, Idiopathic
+
+[Term]
+id: OMIM:616415
+name: Familial Adenomatous Polyposis 3; FAP3
+is_a: DC:0000707 ! Famailial Adenomatous Polyposis
+
+[Term]
+id: OMIM:616418
+name: Hypomagnesemia, Seizures, and Mental Retardation; HOMGSMR
+is_a: DC:0000138 ! Disease Cluster
 
