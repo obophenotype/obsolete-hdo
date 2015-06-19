@@ -759,6 +759,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_163850>
         <http://purl.obolibrary.org/obo/DOID_225>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_174770>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_37>
+    
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_147350>
 
     SubClassOf: 
@@ -1402,6 +1408,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_113610>
 Class: <http://purl.obolibrary.org/obo/DOID_10123>
 
     
+Class: <http://purl.obolibrary.org/obo/OMIM_175510>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_77>
+    
+    
 Class: <http://www.orpha.net/ORDO/Orphanet_93457>
 
     
@@ -1422,6 +1434,12 @@ Class: <http://purl.obolibrary.org/obo/DOID_1383>
     
 Class: <http://purl.obolibrary.org/obo/DOID_1561>
 
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_175450>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_225>
+    
     
 Class: <http://purl.obolibrary.org/obo/OMIM_162370>
 
@@ -1460,6 +1478,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_125280>
 
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_214>
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_176250>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_225>
     
     
 Class: <http://purl.obolibrary.org/obo/OMIM_146850>
