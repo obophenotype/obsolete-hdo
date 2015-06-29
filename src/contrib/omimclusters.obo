@@ -44358,3 +44358,57 @@ id: OMIM:616418
 name: Hypomagnesemia, Seizures, and Mental Retardation; HOMGSMR
 is_a: DC:0000138 ! Disease Cluster
 
+[Term]
+id: OMIM:616414
+name: Autoimmune Interstitial Lung, Joint, and Kidney Disease; AILJK
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616428
+name: Microphthalmia, Isolated, with Coloboma 10; MCOPCB10
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616392
+name: Skint1-Like Pseudogene; SKINTL
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616436
+name: Epilepsy, Familial Temporal Lobe, 7; ETL7
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616435
+name: Fanconi Anemia, Complementation Group T; FANCT
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616430
+name: Combined Oxidative Phosphorylation Deficiency 25; COXPD25
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616433
+name: Immunodeficiency 40; IMD40
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:300953
+name: Trichothiodystrophy 5, Nonphotosensitive; TTD5
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616425
+name: 46,xy Sex Reversal 10; SRXY10
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616421
+name: Myoclonic-Atonic Epilepsy; MAE
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616420
+name: Leukodystrophy, Hypomyelinating, 10; HLD10
+is_a: DC:0000138 ! Disease Cluster
