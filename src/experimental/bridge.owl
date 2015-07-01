@@ -604,6 +604,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_126840>
         <http://purl.obolibrary.org/obo/DOID_4072>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_184300>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_2247>
+    
+    
 Class: <http://purl.obolibrary.org/obo/OMIM_145270>
 
     SubClassOf: 
@@ -1320,6 +1326,9 @@ Class: <http://purl.obolibrary.org/obo/OMIM_114450>
     SubClassOf: 
         <http://purl.obolibrary.org/obo/DOID_162>
     
+    
+Class: <http://purl.obolibrary.org/obo/DOID_2247>
+
     
 Class: <http://purl.obolibrary.org/obo/OMIM_122455>
 
