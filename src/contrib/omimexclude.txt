@@ -394,3 +394,12 @@
 125550	Dermal Ridges-Off-The-End; ROES
 125530	Dermal Ridges, Nelson Syndrome
 116850	Catatrichy
+136100	Fingers, Relative Length of
+152600	Lunulae of Fingernails
+155150	Median-Ulnar Nerve Communications
+157200	Midphalangeal Hair
+161070	Nail High-Sulfur Protein
+161080	Nail Low-Sulfur Protein
+161100	Nailbeds, Pigmentation of
+609070	Hemoglobin, High Altitude Adaptation; HALAH
+171200	Thiourea Tasting
