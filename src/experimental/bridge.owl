@@ -994,6 +994,12 @@ Class: <http://purl.obolibrary.org/obo/OMIM_183400>
         <http://purl.obolibrary.org/obo/DOID_9297>
     
     
+Class: <http://purl.obolibrary.org/obo/OMIM_183850>
+
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/DOID_225>
+    
+    
 Class: <http://purl.obolibrary.org/obo/DOID_121>
 
     
