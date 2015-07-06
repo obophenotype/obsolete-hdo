@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:06:2015 09:48
+date: 06:07:2015 11:33
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -8287,11 +8287,6 @@ name: Ear without Helix
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:128950
-name: Earlobe Crease
-is_obsolete: true
-
-[Term]
 id: OMIM:128980
 name: Earlobes, Thickened, with Conductive Deafness From Incudostapedial Abnormalities
 is_a: DC:0000138 ! Disease Cluster
@@ -8507,21 +8502,6 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:131440
 name: Myeloproliferative Disorder, Chronic, with Eosinophilia
 is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:131450
-name: Epiblepharon of Lower Lid
-is_obsolete: true
-
-[Term]
-id: OMIM:131460
-name: Epiblepharon of Upper Lid
-is_obsolete: true
-
-[Term]
-id: OMIM:131500
-name: Epicanthus
-is_obsolete: true
 
 [Term]
 id: OMIM:131600
@@ -8896,11 +8876,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:136000
 name: Adermatoglyphia; ADERM
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:136100
-name: Fingers, Relative Length of
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -10434,11 +10409,6 @@ name: Lumbar Stenosis, Familial
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:152600
-name: Lunulae of Fingernails
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:152700
 name: SYSTEMIC LUPUS ERYTHEMATOSUS; SLE
 is_a: DC:0000052 ! Systemic Lupus Erythematosus
@@ -10657,11 +10627,6 @@ name: Cleft, Median, of Upper Lip with Polyps of Facial Skin and Nasal Mucosa
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:155150
-name: Median-Ulnar Nerve Communications
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:155200
 name: Mediosternal Depigmentation Line
 is_a: DC:0000138 ! Disease Cluster
@@ -10875,11 +10840,6 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:157170
 name: Holoprosencephaly 2
 is_a: DC:0000188 ! Holoprosencephaly
-
-[Term]
-id: OMIM:157200
-name: Midphalangeal Hair
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:157300
@@ -11197,21 +11157,6 @@ is_a: DC:0000138 ! Disease Cluster
 id: OMIM:161050
 name: Nail Disorder, Nonsyndromic Congenital, 1; NDNC1
 is_a: DC:0000310 ! Nail Disorder, Nonsyndromic Congenital
-
-[Term]
-id: OMIM:161070
-name: Nail High-Sulfur Protein
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:161080
-name: Nail Low-Sulfur Protein
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:161100
-name: Nailbeds, Pigmentation of
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:161200
@@ -23538,6 +23483,11 @@ name: Linear Skin Defects with Multiple Congenital Anomalies 3; LSDMCA3
 is_a: DC:0000705 ! Linear Skin Defects with Multiple Congenital Anomalies
 
 [Term]
+id: OMIM:300953
+name: Trichothiodystrophy 5, Nonphotosensitive; TTD5
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:301000
 name: Wiskott-Aldrich Syndrome; WAS
 is_a: DC:0000613 ! Wiskott-Aldrich Syndrome
@@ -32099,11 +32049,6 @@ name: Diabetes Mellitus, Permanent Neonatal, with Cerebellar Agenesis
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:609070
-name: Hemoglobin, High Oxygen Saturation of
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:609115
 name: Limb-Girdle Muscular Dystrophy, Type 1G
 is_a: DC:0000250 ! Muscular Dystrophy, Limb-Girdle
@@ -39011,7 +38956,7 @@ is_a: DC:0000147 ! Fanconi Anemia
 [Term]
 id: OMIM:614087
 name: Fanconi Anemia, Complementation Group M; FANCM
-is_a: DC:0000147 ! Fanconi Anemia
+is_obsolete: true
 
 [Term]
 id: OMIM:614089
@@ -44289,6 +44234,11 @@ name: Trichothiodystrophy 2, Photosensitive; TTD2
 is_a: DC:0000706 ! Trichothiodystrophy
 
 [Term]
+id: OMIM:616392
+name: Skint1-Like Pseudogene; SKINTL
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:616393
 name: Mental Retardation, Autosomal Dominant 38; MRD38
 is_a: DC:0000654 ! Mental Retardation, Autosomal Dominant
@@ -44349,6 +44299,11 @@ name: Basal Ganglia Calcification, Idiopathic, 6; IBGC6
 is_a: DC:0000478 ! Basal Ganglia Calcification, Idiopathic
 
 [Term]
+id: OMIM:616414
+name: Autoimmune Interstitial Lung, Joint, and Kidney Disease; AILJK
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
 id: OMIM:616415
 name: Familial Adenomatous Polyposis 3; FAP3
 is_a: DC:0000707 ! Famailial Adenomatous Polyposis
@@ -44359,28 +44314,23 @@ name: Hypomagnesemia, Seizures, and Mental Retardation; HOMGSMR
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:616414
-name: Autoimmune Interstitial Lung, Joint, and Kidney Disease; AILJK
+id: OMIM:616420
+name: Leukodystrophy, Hypomyelinating, 10; HLD10
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616421
+name: Myoclonic-Atonic Epilepsy; MAE
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616425
+name: 46,xy Sex Reversal 10; SRXY10
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:616428
 name: Microphthalmia, Isolated, with Coloboma 10; MCOPCB10
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:616392
-name: Skint1-Like Pseudogene; SKINTL
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:616436
-name: Epilepsy, Familial Temporal Lobe, 7; ETL7
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:616435
-name: Fanconi Anemia, Complementation Group T; FANCT
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -44394,21 +44344,17 @@ name: Immunodeficiency 40; IMD40
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:300953
-name: Trichothiodystrophy 5, Nonphotosensitive; TTD5
+id: OMIM:616435
+name: Fanconi Anemia, Complementation Group T; FANCT
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:616425
-name: 46,xy Sex Reversal 10; SRXY10
+id: OMIM:616436
+name: Epilepsy, Familial Temporal Lobe, 7; ETL7
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
-id: OMIM:616421
-name: Myoclonic-Atonic Epilepsy; MAE
-is_a: DC:0000138 ! Disease Cluster
+id: OMIM:616437
+name: Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis 3; FTDALS3
+is_a: DC:0000700 ! Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis
 
-[Term]
-id: OMIM:616420
-name: Leukodystrophy, Hypomyelinating, 10; HLD10
-is_a: DC:0000138 ! Disease Cluster
