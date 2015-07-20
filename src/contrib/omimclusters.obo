@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:07:2015 11:33
+date: 20:07:2015 13:24
 saved-by: smb
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: MGI_disease_ontology
@@ -5780,6 +5780,14 @@ created_by: smb
 creation_date: 2015-06-16T09:34:58Z
 
 [Term]
+id: DC:0000708
+name: Zimmermann-Laband Syndrome
+xref: PS:135500
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-07-20T13:11:20Z
+
+[Term]
 id: OMIM:100050
 name: Aarskog Syndrome, Autosomal Dominant
 is_a: DC:0000138 ! Disease Cluster
@@ -8835,8 +8843,8 @@ is_a: DC:0000207 ! Hypertrichosis
 
 [Term]
 id: OMIM:135500
-name: Zimmerman Laband syndrome
-is_a: DC:0000138 ! Disease Cluster
+name: Zimmerman Laband syndrome 1
+is_a: DC:0000708 ! Zimmermann-Laband Syndrome
 
 [Term]
 id: OMIM:135550
@@ -12047,11 +12055,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:171100
 name: Phagocytosis, Plasma-Related Defect in
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:171200
-name: THIOUREA TASTING
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -18323,6 +18326,9 @@ is_a: DC:0000078 ! Cholestasis
 [Term]
 id: OMIM:243310
 name: Baraitser-Winter Syndrome 1; BRWS1
+alt_id: OMIM:606155
+synonym: "Fryns-Aftimos Syndrome" EXACT []
+is_a: DC:0000138 ! Disease Cluster
 is_a: DC:0000477 ! Baraitser-Winter Syndrome
 
 [Term]
@@ -29220,11 +29226,6 @@ is_a: DC:0000177 ! Goiter, Multinodular
 id: OMIM:606129
 name: Anemia, Diamond-Blackfan, 2
 is_a: DC:0000025 ! Diamond-Blackfan Anemia
-
-[Term]
-id: OMIM:606155
-name: Fryns-Aftimos Syndrome
-is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:606156
@@ -44351,10 +44352,65 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:616436
 name: Epilepsy, Familial Temporal Lobe, 7; ETL7
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000150 ! Epilepsy, Familial Temporal Lobe
 
 [Term]
 id: OMIM:616437
 name: Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis 3; FTDALS3
 is_a: DC:0000700 ! Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis
+
+[Term]
+id: OMIM:616439
+name: Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis 4; FTDALS4
+is_a: DC:0000700 ! Frontotemporal Dementia and/or Amyotrophic Lateral Sclerosis
+
+[Term]
+id: OMIM:616445
+name: Candidiasis, Familial, 9; CANDF9
+is_a: DC:0000064 ! Candidiasis, Familial
+
+[Term]
+id: OMIM:616449
+name: Basel-Vanagaite-Smirin-Yosef Syndrome; BVSYS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616451
+name: Spastic Paraplegia 74, Autosomal Recessive; SPG74
+is_a: DC:0000410 ! Spastic Paraplegia
+
+[Term]
+id: OMIM:616452
+name: B-Cell Expansion with Nfkb and T-Cell Anergy; BENTA
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616455
+name: Zimmermann-Laband Syndrome 2; ZLS2
+is_a: DC:0000708 ! Zimmermann-Laband Syndrome
+
+[Term]
+id: OMIM:616457
+name: Congenital Disorder of Glycosylation, Type Iz; CDG1Z
+is_a: DC:0000628 ! Congenital Disorders of Glycosylation, Type I
+
+[Term]
+id: OMIM:616459
+name: Al-Raqad Syndrome; ARS
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616460
+name: Mental Retardation, Autosomal Recessive 50; MRT50
+is_a: DC:0000655 ! Mental Retardation, Autosomal Recessive
+
+[Term]
+id: OMIM:616461
+name: Epilepsy, Familial Temporal Lobe, 8; ETL8
+is_a: DC:0000150 ! Epilepsy, Familial Temporal Lobe
+
+[Term]
+id: OMIM:616462
+name: Acrofacial Dysostosis, Cincinnati Type; AFDCIN
+is_a: DC:0000463 ! Acrofacial Dysostosis
 
