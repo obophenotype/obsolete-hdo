@@ -789,7 +789,7 @@ xref: NCI:C9335
 xref: OMIM:114480
 xref: OMIM:600048
 xref: OMIM:605365
-xref: ORDO:227535
+xref: Orphanet:227535
 xref: SNOMEDCT_2010_1_31:126926005
 xref: SNOMEDCT_2010_1_31:154521006
 xref: SNOMEDCT_2010_1_31:190121004
@@ -2097,13 +2097,14 @@ namespace: disease_ontology
 def: "A testicular cancer that has_material_basis_in germ cells." [url:http\://cancergenome.nih.gov/cancersselected/TesticularGermCellCancer, url:http\://www.cancer.gov/dictionary?CdrID=445090, url:http\://www.cancer.gov/dictionary?CdrID=695185]
 comment: Xref MGI.\nOMIM mapping confirmed by DO. [LS].
 subset: DO_cancer_slim
+subset: DO_MGI_slim
 synonym: "germ cell tumor of testis" EXACT [NCI2004_11_17:C8591]
 synonym: "testicular germ cell neoplasm" RELATED []
 xref: ICD10CM:C62
 xref: NCI:C8591
 xref: OMIM:273300
 xref: OMIM:300228
-xref: ORDO:3636504
+xref: Orphanet:3636504
 xref: UMLS_CUI:C1336708
 
 [Term]
@@ -2205,6 +2206,7 @@ namespace: disease_ontology
 def: "A uveal cancer that has_material_basis_in uvea pigment cells." [url:http\://cancergenome.nih.gov/cancersselected/UvealMelanoma, url:http\://en.wikipedia.org/wiki/Uveal_melanoma]
 comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
 subset: DO_cancer_slim
+subset: DO_MGI_slim
 synonym: "melanoma of Uvea" EXACT [NCI2004_11_17:C7712]
 xref: ICD10CM:C69
 xref: ICD9CM:190
@@ -2213,7 +2215,7 @@ xref: NCI:C7712
 xref: OMIM:155720
 xref: OMIM:606660
 xref: OMIM:606661
-xref: ORDO:39044
+xref: Orphanet:39044
 xref: UMLS_CUI:C0220633
 
 [Term]
@@ -2548,6 +2550,7 @@ alt_id: DOID:8922
 def: "A skin cancer that has_material_basis_in melanocytes." [url:http\://cancergenome.nih.gov/cancersselected/melanoma, url:http\://en.wikipedia.org/wiki/Melanoma, url:http\://www.cancer.gov/dictionary?CdrID=45135]
 comment: Xref MGI.\nOMIM mapping confirmed by DO. [LS].
 subset: DO_cancer_slim
+subset: DO_MGI_slim
 synonym: "cutaneous melanoma" EXACT []
 synonym: "malignant ear melanoma" EXACT []
 synonym: "malignant lip melanoma" EXACT []
@@ -2603,7 +2606,7 @@ alt_id: DOID:9171
 def: "A myeloid leukemia that is characterized by the rapid growth of abnormal white blood cells that accumulate in the bone marrow and interfere with the production of normal blood cells." [url:http\://cancergenome.nih.gov/cancersselected/acutemyeloidleukemia, url:http\://en.wikipedia.org/wiki/Acute_myeloid_leukemia, url:http\://www.cancer.gov/dictionary?cdrid=44363]
 comment: OMIM mapping confirmed by DO. [SN].
 subset: DO_cancer_slim
-synonym: "acute myeloblastic leukemia (disorder)" EXACT [SNOMEDCT_2005_07_31:277600006]
+synonym: "acute myeloblastic leukemia" EXACT []
 synonym: "AML - acute Myeloid Leukemia" EXACT [NCI2004_11_17:C3171]
 synonym: "Leukemia, Myelocytic, acute" EXACT [MTH:NOCODE]
 xref: ICD9CM:205.0
@@ -2660,7 +2663,7 @@ xref: ICD9CM:147.9
 xref: NCI:C9321
 xref: OMIM:161550
 xref: OMIM:607101
-xref: ORDO:150
+xref: Orphanet:150
 xref: SNOMEDCT_2010_1_31:187692001
 xref: SNOMEDCT_2010_1_31:187693006
 xref: SNOMEDCT_2010_1_31:187696003
@@ -2719,7 +2722,7 @@ xref: OMIM:247640
 xref: OMIM:613065
 xref: OMIM:613067
 xref: OMIM:615545
-xref: ORDO:513
+xref: Orphanet:513
 xref: SNOMEDCT_2010_1_31:128822004
 xref: SNOMEDCT_2010_1_31:154588002
 xref: SNOMEDCT_2010_1_31:190034000

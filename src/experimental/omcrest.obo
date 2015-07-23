@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:02:2015 12:07
+date: 02:03:2015 10:41
 saved-by: smb
 auto-generated-by: OBO-Edit 2.2
 default-namespace: MGI_disease_ontology
@@ -656,14 +656,6 @@ created_by: smb
 creation_date: 2013-09-05T10:37:05Z
 
 [Term]
-id: DC:0000228
-name: Iridogoniodysgenesis
-comment: See genetic heterogeneity of OMIM 601631.
-is_a: DC:0000138 ! Disease Cluster
-created_by: smb
-creation_date: 2013-09-05T10:38:28Z
-
-[Term]
 id: DC:0000229
 name: Isolated Growth Hormone Deficiency
 comment: See Inheritance of OMIM 262400.
@@ -812,14 +804,6 @@ xref: PS:248370
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2013-09-05T13:32:13Z
-
-[Term]
-id: DC:0000268
-name: Medullary Cystic Kidney Disease
-comment: See genetic heterogeneity of OMIM 174000.
-is_a: DC:0000138 ! Disease Cluster
-created_by: smb
-creation_date: 2013-09-05T13:42:04Z
 
 [Term]
 id: DC:0000271
@@ -1160,15 +1144,6 @@ created_by: smb
 creation_date: 2013-09-11T17:18:11Z
 
 [Term]
-id: DC:0000382
-name: Pyruvate Dehydrogenase Complex Deficiency
-comment: OMIM series 312170.
-xref: PS:312170
-is_a: DC:0000138 ! Disease Cluster
-created_by: smb
-creation_date: 2013-09-11T17:21:12Z
-
-[Term]
 id: DC:0000398
 name: Schistosoma mansoni Infection, Susceptibility
 is_a: DC:0000138 ! Disease Cluster
@@ -1244,14 +1219,6 @@ name: Telangiectasia, Hereditary
 is_obsolete: true
 created_by: smb
 creation_date: 2013-09-16T13:03:59Z
-
-[Term]
-id: DC:0000431
-name: Testicular Germ Cell Tumor
-comment: See genetic heterogeneity of OMIM 273300.
-is_a: DC:0000138 ! Disease Cluster
-created_by: smb
-creation_date: 2013-09-16T13:06:40Z
 
 [Term]
 id: DC:0000436
@@ -1865,14 +1832,6 @@ created_by: smb
 creation_date: 2013-10-10T16:51:08Z
 
 [Term]
-id: DC:0000572
-name: Omphalocele
-comment: See text of OMIM 310980.
-is_a: DC:0000138 ! Disease Cluster
-created_by: smb
-creation_date: 2013-10-11T16:02:06Z
-
-[Term]
 id: DC:0000573
 name: Ophthalmoplegia
 is_obsolete: true
@@ -2015,13 +1974,6 @@ name: Ulnar Hypoplasia
 is_obsolete: true
 created_by: smb
 creation_date: 2013-10-16T15:13:01Z
-
-[Term]
-id: DC:0000615
-name: Immunodeficiency
-is_a: DC:0000138 ! Disease Cluster
-created_by: smb
-creation_date: 2013-12-04T11:44:59Z
 
 [Term]
 id: DC:0000616
@@ -2310,6 +2262,15 @@ xref: PS:251279
 is_a: DC:0000138 ! Disease Cluster
 created_by: smb
 creation_date: 2015-01-12T10:30:11Z
+
+[Term]
+id: DC:0000677
+name: Myasthenic Syndrome, Congenital, with Tubular Aggregates
+comment: OMIM series PS610542.
+xref: PS:610542
+is_a: DC:0000138 ! Disease Cluster
+created_by: smb
+creation_date: 2015-02-23T11:05:46Z
 
 [Term]
 id: OMIM:100050
@@ -6253,7 +6214,12 @@ is_a: DC:0000138 ! Disease Cluster
 
 [Term]
 id: OMIM:145250
-name: HYPERPIGMENTATION, FAMILIAL PROGRESSIVE, 2
+name: HYPERPIGMENTATION WITH OR WITHOUT HYPOPIGMENTATION, FAMILIAL PROGRESSIVE; FPHH
+alt_id: OMIM:154000
+alt_id: OMIM:155800
+synonym: "Macules, Hereditary Congenital Hypopigmented and Hyperpigmented" EXACT []
+synonym: "Melanosis, Universal" EXACT []
+is_a: DC:0000138 ! Disease Cluster
 is_a: DC:0000540 ! Hyperpigmentation, Familial Progressive
 
 [Term]
@@ -7120,11 +7086,6 @@ name: Macular Dystrophy, Fenestrated Sheen Type
 is_a: DC:0000263 ! Macular Dystrophy
 
 [Term]
-id: OMIM:154000
-name: Macules, Hereditary Congenital Hypopigmented and Hyperpigmented
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
 id: OMIM:154020
 name: Hypomagnesemia 2, renal
 is_a: DC:0000212 ! Hypomagnesemia
@@ -7287,11 +7248,6 @@ is_a: DC:0000138 ! Disease Cluster
 [Term]
 id: OMIM:155770
 name: Melanoma Tumor Antigen Gp90
-is_a: DC:0000138 ! Disease Cluster
-
-[Term]
-id: OMIM:155800
-name: Melanosis, Universal
 is_a: DC:0000138 ! Disease Cluster
 
 [Term]
@@ -30342,7 +30298,7 @@ is_a: DC:0000171 ! Gaucher Disease
 [Term]
 id: OMIM:610542
 name: Myasthenic Syndrome, Congenital, with Tubular Aggregates 1; CMSTA1
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000677 ! Myasthenic Syndrome, Congenital, with Tubular Aggregates
 
 [Term]
 id: OMIM:610543
@@ -37210,7 +37166,7 @@ is_a: DC:0000203 ! Hyperphosphatasia with Mental Retardation Syndrome
 [Term]
 id: OMIM:614750
 name: Myasthenic Syndrome, Congenital, with Tubular Aggregates 2; CMSTA2
-is_a: DC:0000297 ! Myasthenic Syndrome
+is_a: DC:0000677 ! Myasthenic Syndrome, Congenital, with Tubular Aggregates
 
 [Term]
 id: OMIM:614751
@@ -40153,7 +40109,7 @@ is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
 [Term]
 id: OMIM:616040
 name: Myasthenic Syndrome, Presynaptic, Congenital, with or without Motor Neuropathy; MYSPC
-is_a: DC:0000138 ! Disease Cluster
+is_a: DC:0000297 ! Myasthenic Syndrome
 
 [Term]
 id: OMIM:616042
@@ -40522,4 +40478,44 @@ is_a: DC:0000022 ! Amelogenesis Imperfecta
 id: OMIM:616222
 name: Temple Syndrome
 is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616227
+name: Myasthenic Syndrome, Congenital, without Tubular Aggregates; CMSWTA
+is_a: DC:0000297 ! Myasthenic Syndrome
+
+[Term]
+id: OMIM:616228
+name: Myasthenic Syndrome, Congenital, with Tubular Aggregates 3; CMSTA3
+is_a: DC:0000677 ! Myasthenic Syndrome, Congenital, with Tubular Aggregates
+
+[Term]
+id: OMIM:616229
+name: Osteogenesis Imperfecta, Type Xvi; OI16
+is_a: DC:0000338 ! Osteogenesis Imperfecta
+
+[Term]
+id: OMIM:616230
+name: Epilepsy, Progressive Myoclonic, 8; EPM8
+is_a: DC:0000625 ! Epilepsy, Progressive Myoclonic
+
+[Term]
+id: OMIM:616231
+name: Myopathy, Vacuolar, with Casq1 Aggregates; VMCQA
+is_a: DC:0000138 ! Disease Cluster
+
+[Term]
+id: OMIM:616233
+name: Charcot-Marie-Tooth Disease, Axonal, Type 2t; CMT2T
+is_a: DC:0000030 ! Charcot-Marie-Tooth Disease
+
+[Term]
+id: OMIM:616239
+name: Combined Oxidative Phosphorylation Deficiency 24; COXPD24
+is_a: DC:0000092 ! Combined Oxidative Phosphorylation Deficiency
+
+[Term]
+id: OMIM:616248
+name: Lethal Congenital Contracture Syndrome 6; LCCS6
+is_a: DC:0000241 ! Lethal Congenital Contractural Syndrome
 
